@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Shadow Loop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,98 +18,88 @@
   </head>
   <body>
     <main class="app">
-      <header class="masthead">
+      <header class="topbar">
+        <button type="button" class="menu" id="segBtn" aria-label="구간 목록">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01" /></svg>
+        </button>
         <p class="wordmark">Shadow<span>Loop</span></p>
-        <p class="tagline">한 구간씩 반복하며 영어를 따라 말하세요</p>
+        <button type="button" class="video-select" id="videoBtn" aria-label="다른 영상 선택">
+          <span class="now-tag" id="nowTag">영상</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+        </button>
       </header>
 
-      <section class="source" aria-label="영상 선택">
-        <form class="url-form" id="urlForm">
-          <label class="sr-only" for="youtubeUrl">YouTube URL</label>
-          <input
-            id="youtubeUrl"
-            name="youtubeUrl"
-            type="url"
-            inputmode="url"
-            autocomplete="off"
-            placeholder="YouTube URL 붙여넣기"
-            required
-          />
-          <button type="submit">가져오기</button>
-        </form>
+      <div class="player-frame">
+        <div id="player"></div>
+        <div class="empty-player" id="emptyPlayer">
+          <span>추천 영상을 골라보세요</span>
+        </div>
+      </div>
 
-        <div class="sample-strip" aria-label="샘플 영상">
-          <button type="button" class="sample-chip" data-sample="0">Learning anything</button>
-          <button type="button" class="sample-chip" data-sample="1">Procrastination</button>
-          <button type="button" class="sample-chip" data-sample="2">Leadership</button>
-          <button type="button" class="sample-chip" data-sample="3">Creativity</button>
-          <button type="button" class="sample-chip" data-sample="4">Vulnerability</button>
+      <section class="stage" aria-label="현재 구간 자막">
+        <div class="caption" id="caption">
+          <p class="caption-empty">자막을 불러오는 중…</p>
         </div>
       </section>
 
-      <div class="stage">
-        <div class="player-column">
-          <div class="player-frame">
-            <div id="player"></div>
-            <div class="empty-player" id="emptyPlayer">
-              <span>샘플을 고르거나 URL을 넣어보세요</span>
-            </div>
+      <section class="controls" aria-label="재생 조절">
+        <div class="transport">
+          <button type="button" class="step" id="prevSegment" aria-label="이전 구간">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 5v14l-9-7z" /><rect x="5" y="5" width="2" height="14" rx="1" /></svg>
+          </button>
+
+          <div class="loop">
+            <svg class="loop-ring" viewBox="0 0 120 120" aria-hidden="true">
+              <circle class="ring-track" cx="60" cy="60" r="54" />
+              <circle class="ring-progress" id="ringProgress" cx="60" cy="60" r="54" />
+            </svg>
+            <button type="button" class="play" id="playPause" aria-label="재생">
+              <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
+            </button>
           </div>
 
-          <section class="console" aria-label="재생 조절">
-            <div class="console-head">
-              <p class="label">Now playing</p>
-              <h1 id="videoTitle">아직 선택된 영상이 없습니다</h1>
-            </div>
-
-            <div class="transport">
-              <button type="button" class="step" id="prevSegment" aria-label="이전 구간">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 5v14l-9-7z" /><rect x="5" y="5" width="2" height="14" rx="1" /></svg>
-              </button>
-
-              <div class="loop">
-                <svg class="loop-ring" viewBox="0 0 120 120" aria-hidden="true">
-                  <circle class="ring-track" cx="60" cy="60" r="54" />
-                  <circle class="ring-progress" id="ringProgress" cx="60" cy="60" r="54" />
-                </svg>
-                <button type="button" class="play" id="playPause" aria-label="재생">
-                  <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
-                  <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
-                </button>
-              </div>
-
-              <button type="button" class="step" id="nextSegment" aria-label="다음 구간">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l9-7z" /><rect x="17" y="5" width="2" height="14" rx="1" /></svg>
-              </button>
-            </div>
-
-            <p class="timecode" id="timeRange">--:-- / --:--</p>
-
-            <div class="console-foot">
-              <button type="button" class="repeat" id="repeatSegment" aria-pressed="true">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4" /><path d="M3 11v-1a4 4 0 0 1 4-4h14" /><path d="M7 22l-4-4 4-4" /><path d="M21 13v1a4 4 0 0 1-4 4H3" /></svg>
-                <span>반복</span>
-              </button>
-
-              <div class="speed-group" aria-label="재생 속도">
-                <button type="button" data-speed="0.5">0.5×</button>
-                <button type="button" data-speed="0.75">0.75×</button>
-                <button type="button" class="is-active" data-speed="1">1×</button>
-                <button type="button" data-speed="1.25">1.25×</button>
-              </div>
-            </div>
-          </section>
+          <button type="button" class="step" id="nextSegment" aria-label="다음 구간">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l9-7z" /><rect x="17" y="5" width="2" height="14" rx="1" /></svg>
+          </button>
         </div>
 
-        <section class="segments" aria-label="구간 목록">
-          <div class="segments-head">
-            <p class="label">Segments</p>
-            <span class="count" id="segmentCount">0개 구간</span>
+        <div class="meta">
+          <div class="loopdots" id="loopDots" aria-label="이번 구간 반복 횟수"></div>
+          <span class="segpos" id="segPos">0 / 0</span>
+          <span class="timecode" id="timeRange">--:-- / --:--</span>
+        </div>
+
+        <div class="options">
+          <div class="speed-group" aria-label="재생 속도">
+            <button type="button" data-speed="0.5">0.5×</button>
+            <button type="button" data-speed="0.75">0.75×</button>
+            <button type="button" class="is-active" data-speed="1">1×</button>
+            <button type="button" data-speed="1.25">1.25×</button>
           </div>
-          <div class="segment-list" id="segmentList"></div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
+
+    <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+
+    <aside class="sheet" id="segSheet" aria-label="구간 목록" aria-hidden="true">
+      <div class="sheet-grip"></div>
+      <div class="sheet-head">
+        <p class="label">구간</p>
+        <span class="count" id="segmentCount">0개 구간</span>
+      </div>
+      <div class="segment-list" id="segmentList"></div>
+    </aside>
+
+    <aside class="sheet" id="videoSheet" aria-label="영상 선택" aria-hidden="true">
+      <div class="sheet-grip"></div>
+      <div class="sheet-head">
+        <p class="label">영상</p>
+        <span class="count" id="videoCount"></span>
+      </div>
+      <div class="video-list" id="videoList"></div>
+    </aside>
 
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="app.js"></script>

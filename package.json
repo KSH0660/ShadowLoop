@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "check": "node --check server.js && node --check app.js"
+    "build:transcripts": "node scripts/build-transcripts.mjs",
+    "check": "node --check server.js && node --check app.js && node --check scripts/build-transcripts.mjs"
   }
 }

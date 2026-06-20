@@ -1,0 +1,18 @@
+{
+  "//": "관리자용 영상 목록. 여기에 영상을 추가/수정한 뒤 `npm run build:transcripts`를 실행하면 data/transcripts.json이 다시 생성됩니다. tag는 샘플 칩에 보이는 짧은 라벨, title을 비우면 yt-dlp가 가져온 제목을 사용합니다.",
+  "videos": [
+    { "id": "5MgBikgcWnY", "tag": "Learning anything", "title": "Josh Kaufman: The first 20 hours" },
+    { "id": "arj7oStGLkU", "tag": "Procrastination", "title": "Tim Urban: Inside the mind of a master procrastinator" },
+    { "id": "qp0HIF3SfI4", "tag": "Leadership", "title": "Simon Sinek: How great leaders inspire action" },
+    { "id": "iG9CE55wbtY", "tag": "Creativity", "title": "Sir Ken Robinson: Do schools kill creativity?" },
+    { "id": "iCvmsMzlF7o", "tag": "Vulnerability", "title": "Brené Brown: The power of vulnerability" },
+    { "id": "z-WfDn_0AWE", "tag": "Career", "title": "Bill Gurley: How to build a career you love" },
+    { "id": "OAIlucguNzY", "tag": "Feedback", "title": "Renee St Jacques: How to give feedback that lands" },
+    { "id": "myjZrpMVLRE", "tag": "Social life", "title": "Nicholas Epley: The simple habit for a happier social life" },
+    { "id": "a4sq1CKPl0E", "tag": "Take control", "title": "Jim VandeHei: 5 practical ways to take control of your life" },
+    { "id": "h42-e-zUhlw", "tag": "Hey Tablo", "title": "Hey Tablo Ep.15: Tukutz interview" },
+    { "id": "j7n10ekpt7o", "tag": "Tablo x Mission", "title": "Tablo takes Simon Pegg around Korea (Mission Impossible)" },
+    { "id": "lSFJTUiX7Vg", "tag": "Tablo Disneyland", "title": "Tablo: That Disneyland fight story (TTP Ep.12)" },
+    { "id": "KMTJr-m7Fmg", "tag": "Tablo aliens", "title": "Tablo on aliens & Scientology (TTP Ep.1)" }
+  ]
+}
