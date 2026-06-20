@@ -192,6 +192,23 @@ button {
   line-height: 1.4;
 }
 
+/* YouTube-style watch-progress bar: how far the user got through this video's
+   segments. Sits flush on the thumbnail's bottom edge. */
+.card-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: rgba(20, 26, 23, 0.45);
+}
+
+.card-progress span {
+  display: block;
+  height: 100%;
+  background: #e53935;
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
@@ -768,7 +785,7 @@ button {
     height: 100svh;
     padding: 6px 14px calc(6px + env(safe-area-inset-bottom));
     display: grid;
-    gap: 6px 14px;
+    gap: 10px 14px;
     grid-template-columns: auto minmax(0, 1fr);
     grid-template-rows: auto minmax(0, 1fr) auto;
     grid-template-areas:
@@ -808,7 +825,7 @@ button {
     min-height: 0;
     overflow-y: auto;
     justify-content: center;
-    padding-block: 0;
+    padding-block: 0 8px;
   }
 
   .cap-line {
@@ -830,6 +847,10 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 6px 16px;
+    /* Separate the caption from the transport — without this they sit ~6px
+       apart and the scrolling caption text butts right against the buttons. */
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
   }
 
   .transport {
