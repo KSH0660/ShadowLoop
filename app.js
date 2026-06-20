@@ -3,6 +3,12 @@
 // that JSON and drives the YouTube player, the segment loop, and the synced
 // caption. There is no runtime caption fetching.
 //
+// The app has two views, like a video site: a HOME browse grid of thumbnail
+// cards, and a DETAIL page that plays one video and runs the shadowing loop.
+// Clicking a card opens its detail page; the back button returns home. The two
+// are wired to the URL hash (#/ = home, #/v/<id> = detail) so the browser's
+// back button and deep links work.
+//
 // Each segment is at most two sentences. It loops while the caption reveals
 // itself progressively: the first listen shows nothing, then the text fades in
 // with many words still blanked out, and by the last repeat it is fully clear.
@@ -16,6 +22,7 @@ let lineEls = [];
 let wordEls = [];
 
 let state = {
+  view: "home",   // "home" (browse grid) | "detail" (player)
   videoId: null,
   title: "영상을 불러오는 중…",
   segments: [],
@@ -27,7 +34,7 @@ let state = {
   cloze: [],      // maskable word indices, in reading order
   pace: "slow",   // slow (3–10 reps) | fast (2–4 reps)
   peek: false,    // holding the peek button → show the full caption
-  sheet: null,    // null | "seg" | "video"
+  sheet: null,    // null | "seg"
 };
 
 // Repeats until full reveal, by pace. "slow" drills deeper, "fast" skims.
@@ -38,11 +45,15 @@ const PACE = {
 const RING_CIRCUMFERENCE = 2 * Math.PI * 54;
 
 const els = {
+  homeView: document.querySelector("#homeView"),
+  detailView: document.querySelector("#detailView"),
+  homeFeed: document.querySelector("#homeFeed"),
+  homeCount: document.querySelector("#homeCount"),
+  backBtn: document.querySelector("#backBtn"),
   segBtn: document.querySelector("#segBtn"),
-  videoBtn: document.querySelector("#videoBtn"),
-  nowTag: document.querySelector("#nowTag"),
-  videoList: document.querySelector("#videoList"),
-  videoCount: document.querySelector("#videoCount"),
+  topbarTitle: document.querySelector("#topbarTitle"),
+  videoTitle: document.querySelector("#videoTitle"),
+  videoSub: document.querySelector("#videoSub"),
   emptyPlayer: document.querySelector("#emptyPlayer"),
   caption: document.querySelector("#caption"),
   segmentList: document.querySelector("#segmentList"),
@@ -59,7 +70,6 @@ const els = {
   paceButtons: [...document.querySelectorAll("[data-pace]")],
   speedButtons: [...document.querySelectorAll("[data-speed]")],
   segSheet: document.querySelector("#segSheet"),
-  videoSheet: document.querySelector("#videoSheet"),
   sheetBackdrop: document.querySelector("#sheetBackdrop"),
 };
 
@@ -79,7 +89,7 @@ function onYouTubeIframeAPIReady() {
     events: {
       onReady: () => {
         playerReady = true;
-        if (state.videoId) {
+        if (state.view === "detail" && state.videoId) {
           player.loadVideoById({
             videoId: state.videoId,
             startSeconds: state.segments[state.current]?.start || 0,
@@ -101,22 +111,31 @@ async function init() {
     const data = await response.json();
     videos = data.videos || [];
   } catch (error) {
-    state.title = "자막 데이터를 불러오지 못했습니다";
-    render();
+    els.homeFeed.innerHTML = `<p class="home-empty">자막 데이터를 불러오지 못했습니다</p>`;
     return;
   }
 
-  renderVideoList();
-  if (videos.length) loadVideo(videos[0]);
+  renderHome();
+  route(); // open whatever the current hash points to (home or a deep-linked video)
 }
 
-function renderVideoList() {
-  els.videoCount.textContent = `${videos.length}개`;
+// YouTube thumbnail for a video id. hqdefault is 4:3 with letterbox bars; the
+// card crops them off with object-fit: cover for a clean 16:9 image.
+function thumbnailUrl(id) {
+  return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+}
 
-  // Group videos by `category` into labelled sections (강연 vs 예능 등). Groups
-  // appear in first-seen order; videos keep their order within a group. Each row
-  // carries its real index into `videos` via data-video, so grouping doesn't
-  // affect selection/highlight (which look the index up, not the DOM position).
+// HOME — a browse grid of thumbnail cards, grouped into labelled sections by
+// `category` (강연 vs 예능 등). Groups appear in first-seen order; videos keep
+// their order within a group. Each card carries its index into `videos`.
+function renderHome() {
+  els.homeCount.textContent = videos.length ? `${videos.length}개 영상` : "";
+
+  if (!videos.length) {
+    els.homeFeed.innerHTML = `<p class="home-empty">영상이 없습니다</p>`;
+    return;
+  }
+
   const order = [];
   const byCat = new Map();
   videos.forEach((video, index) => {
@@ -125,21 +144,80 @@ function renderVideoList() {
     byCat.get(cat).push({ video, index });
   });
 
-  els.videoList.innerHTML = order
+  els.homeFeed.innerHTML = order
     .map((cat) => {
-      const rows = byCat.get(cat).map(({ video, index }) => `
-        <button type="button" class="video-row" data-video="${index}">
-          <span class="video-row-tag">${escapeHtml(video.tag || video.title)}</span>
-          <span class="video-row-meta">${(video.segments || []).length}구간</span>
-        </button>`).join("");
-      return `<p class="video-group">${escapeHtml(cat)}</p>${rows}`;
+      const cards = byCat.get(cat).map(({ video, index }) => {
+        const title = video.title || video.tag || "제목 없음";
+        const segCount = (video.segments || []).length;
+        return `
+          <button type="button" class="card" data-video="${index}">
+            <span class="card-thumb">
+              <img src="${thumbnailUrl(video.id)}" alt="" loading="lazy" />
+              <span class="card-badge">${segCount}구간</span>
+            </span>
+            <span class="card-body">
+              <span class="card-title">${escapeHtml(title)}</span>
+              <span class="card-meta">${escapeHtml(video.tag || cat)}</span>
+            </span>
+          </button>`;
+      }).join("");
+      return `
+        <section class="feed-group">
+          <h2 class="feed-group-title">${escapeHtml(cat)}</h2>
+          <div class="card-grid">${cards}</div>
+        </section>`;
     })
     .join("");
 }
 
+// --- Routing ---------------------------------------------------------------
+// #/            → home
+// #/v/<videoId> → that video's detail page
+function route() {
+  const hash = location.hash || "#/";
+  const match = hash.match(/^#\/v\/(.+)$/);
+  if (match) {
+    const video = videos.find((v) => v.id === decodeURIComponent(match[1]));
+    if (video) { showDetail(video); return; }
+  }
+  showHome();
+}
+
+function navigate(hash) {
+  if (location.hash === hash) route();
+  else location.hash = hash; // triggers hashchange → route()
+}
+
+function openVideo(video) {
+  navigate(`#/v/${encodeURIComponent(video.id)}`);
+}
+
+function goHome() {
+  navigate("#/");
+}
+
+function showHome() {
+  state.view = "home";
+  closeSheet();
+  if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
+  els.homeView.hidden = false;
+  els.detailView.hidden = true;
+  document.body.classList.remove("is-detail");
+  window.scrollTo(0, 0);
+}
+
+function showDetail(video) {
+  state.view = "detail";
+  els.homeView.hidden = true;
+  els.detailView.hidden = false;
+  document.body.classList.add("is-detail");
+  window.scrollTo(0, 0);
+  if (state.videoId !== video.id) loadVideo(video);
+}
+
 function loadVideo(video) {
   state.videoId = video.id;
-  state.title = video.title;
+  state.title = video.title || video.tag || "";
   state.segments = video.segments || [];
   state.current = 0;
   state.line = -1;
@@ -147,14 +225,17 @@ function loadVideo(video) {
   state.peek = false;
   els.peekBtn.classList.remove("is-on");
   els.emptyPlayer.classList.add("is-hidden");
-  els.nowTag.textContent = video.tag || video.title || "";
+
+  els.topbarTitle.textContent = video.tag || video.title || "영상";
+  els.videoTitle.textContent = video.title || video.tag || "";
+  const subParts = [video.category, video.tag, `${state.segments.length}구간`].filter(Boolean);
+  els.videoSub.textContent = subParts.join(" · ");
 
   if (playerReady && player) {
     player.loadVideoById({ videoId: video.id, startSeconds: state.segments[0]?.start || 0 });
     player.setPlaybackRate(state.speed);
   }
 
-  highlightActiveVideo(video.id);
   render();
 }
 
@@ -339,7 +420,7 @@ function updateRing(fraction) {
 }
 
 function tick() {
-  if (playerReady && state.segments.length && typeof player.getCurrentTime === "function") {
+  if (state.view === "detail" && playerReady && state.segments.length && typeof player.getCurrentTime === "function") {
     const segment = state.segments[state.current];
     const now = player.getCurrentTime();
     const status = player.getPlayerState?.();
@@ -371,17 +452,13 @@ function tick() {
 
 requestAnimationFrame(tick);
 
-// Only one sheet is open at a time: "seg" (segments of the current video) or
-// "video" (switch to another video). Passing the open one again closes it.
+// The segment list is the only bottom sheet. Passing "seg" again closes it.
 function openSheet(which) {
   state.sheet = state.sheet === which ? null : which;
   els.segSheet.classList.toggle("is-open", state.sheet === "seg");
-  els.videoSheet.classList.toggle("is-open", state.sheet === "video");
   els.segSheet.setAttribute("aria-hidden", String(state.sheet !== "seg"));
-  els.videoSheet.setAttribute("aria-hidden", String(state.sheet !== "video"));
   els.sheetBackdrop.hidden = state.sheet === null;
   els.segBtn.setAttribute("aria-expanded", String(state.sheet === "seg"));
-  els.videoBtn.setAttribute("aria-expanded", String(state.sheet === "video"));
 }
 
 function closeSheet() {
@@ -404,23 +481,18 @@ function escapeHtml(value) {
   }[ch]));
 }
 
-function highlightActiveVideo(id) {
-  [...els.videoList.querySelectorAll(".video-row")].forEach((button) => {
-    const video = videos[Number(button.dataset.video)];
-    button.classList.toggle("is-active", !!video && video.id === id);
-  });
-}
+// --- Events ---------------------------------------------------------------
+window.addEventListener("hashchange", route);
 
-els.segBtn.addEventListener("click", () => openSheet("seg"));
-els.videoBtn.addEventListener("click", () => openSheet("video"));
-els.sheetBackdrop.addEventListener("click", closeSheet);
-
-els.videoList.addEventListener("click", (event) => {
-  const row = event.target.closest(".video-row");
-  if (!row) return;
-  loadVideo(videos[Number(row.dataset.video)]);
-  closeSheet();
+els.homeFeed.addEventListener("click", (event) => {
+  const card = event.target.closest(".card");
+  if (!card) return;
+  openVideo(videos[Number(card.dataset.video)]);
 });
+
+els.backBtn.addEventListener("click", goHome);
+els.segBtn.addEventListener("click", () => openSheet("seg"));
+els.sheetBackdrop.addEventListener("click", closeSheet);
 
 els.caption.addEventListener("click", (event) => {
   const line = event.target.closest(".cap-line");
@@ -484,13 +556,19 @@ els.speedButtons.forEach((button) => {
 document.addEventListener("keydown", (event) => {
   if (event.target instanceof HTMLInputElement) return;
   const key = event.key.toLowerCase();
+  if (key === "escape") {
+    if (state.sheet) closeSheet();
+    else if (state.view === "detail") goHome();
+    return;
+  }
+  // The rest only apply on the detail page.
+  if (state.view !== "detail") return;
   if (key === " ") {
     event.preventDefault();
     els.playPause.click();
   }
   if (key === "arrowleft") selectSegment(state.current - 1, true);
   if (key === "arrowright") selectSegment(state.current + 1, true);
-  if (key === "escape" && state.sheet) closeSheet();
 });
 
 init();
