@@ -6,6 +6,7 @@
     <title>Shadow Loop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://i.ytimg.com" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
@@ -17,24 +18,40 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="app">
-      <header class="topbar">
-        <button type="button" class="menu" id="segBtn" aria-label="구간 목록">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01" /></svg>
-        </button>
+    <!-- HOME — YouTube-style browse grid -------------------------------- -->
+    <main class="home" id="homeView" aria-label="홈">
+      <header class="home-top">
         <p class="wordmark">Shadow<span>Loop</span></p>
-        <button type="button" class="video-select" id="videoBtn" aria-label="다른 영상 선택">
-          <span class="now-tag" id="nowTag">영상</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+        <span class="home-count" id="homeCount"></span>
+      </header>
+      <div class="home-feed" id="homeFeed">
+        <p class="home-empty" id="homeEmpty">영상을 불러오는 중…</p>
+      </div>
+    </main>
+
+    <!-- DETAIL — single-focus shadowing player -------------------------- -->
+    <main class="app" id="detailView" aria-label="영상 재생" hidden>
+      <header class="topbar">
+        <button type="button" class="iconbtn" id="backBtn" aria-label="홈으로">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+        </button>
+        <p class="topbar-title" id="topbarTitle">영상</p>
+        <button type="button" class="iconbtn" id="segBtn" aria-label="구간 목록">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01" /></svg>
         </button>
       </header>
 
       <div class="player-frame">
         <div id="player"></div>
         <div class="empty-player" id="emptyPlayer">
-          <span>추천 영상을 골라보세요</span>
+          <span>영상을 불러오는 중…</span>
         </div>
       </div>
+
+      <section class="video-info" aria-label="영상 정보">
+        <h1 class="video-title" id="videoTitle">영상을 불러오는 중…</h1>
+        <p class="video-sub" id="videoSub"></p>
+      </section>
 
       <section class="stage" aria-label="현재 구간 자막">
         <button type="button" class="peek" id="peekBtn" aria-label="정답 보기 (누르고 있는 동안 전체 표시)">
@@ -100,15 +117,6 @@
         <span class="count" id="segmentCount">0개 구간</span>
       </div>
       <div class="segment-list" id="segmentList"></div>
-    </aside>
-
-    <aside class="sheet" id="videoSheet" aria-label="영상 선택" aria-hidden="true">
-      <div class="sheet-grip"></div>
-      <div class="sheet-head">
-        <p class="label">영상</p>
-        <span class="count" id="videoCount"></span>
-      </div>
-      <div class="video-list" id="videoList"></div>
     </aside>
 
     <script src="https://www.youtube.com/iframe_api"></script>
