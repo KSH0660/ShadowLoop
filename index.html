@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shadow Loop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="masthead">
+        <p class="wordmark">Shadow<span>Loop</span></p>
+        <p class="tagline">한 구간씩 반복하며 영어를 따라 말하세요</p>
+      </header>
+
+      <section class="source" aria-label="영상 선택">
+        <form class="url-form" id="urlForm">
+          <label class="sr-only" for="youtubeUrl">YouTube URL</label>
+          <input
+            id="youtubeUrl"
+            name="youtubeUrl"
+            type="url"
+            inputmode="url"
+            autocomplete="off"
+            placeholder="YouTube URL 붙여넣기"
+            required
+          />
+          <button type="submit">가져오기</button>
+        </form>
+
+        <div class="sample-strip" aria-label="샘플 영상">
+          <button type="button" class="sample-chip" data-sample="0">Learning anything</button>
+          <button type="button" class="sample-chip" data-sample="1">Procrastination</button>
+          <button type="button" class="sample-chip" data-sample="2">Leadership</button>
+          <button type="button" class="sample-chip" data-sample="3">Creativity</button>
+          <button type="button" class="sample-chip" data-sample="4">Vulnerability</button>
+        </div>
+      </section>
+
+      <div class="stage">
+        <div class="player-column">
+          <div class="player-frame">
+            <div id="player"></div>
+            <div class="empty-player" id="emptyPlayer">
+              <span>샘플을 고르거나 URL을 넣어보세요</span>
+            </div>
+          </div>
+
+          <section class="console" aria-label="재생 조절">
+            <div class="console-head">
+              <p class="label">Now playing</p>
+              <h1 id="videoTitle">아직 선택된 영상이 없습니다</h1>
+            </div>
+
+            <div class="transport">
+              <button type="button" class="step" id="prevSegment" aria-label="이전 구간">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 5v14l-9-7z" /><rect x="5" y="5" width="2" height="14" rx="1" /></svg>
+              </button>
+
+              <div class="loop">
+                <svg class="loop-ring" viewBox="0 0 120 120" aria-hidden="true">
+                  <circle class="ring-track" cx="60" cy="60" r="54" />
+                  <circle class="ring-progress" id="ringProgress" cx="60" cy="60" r="54" />
+                </svg>
+                <button type="button" class="play" id="playPause" aria-label="재생">
+                  <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+                  <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
+                </button>
+              </div>
+
+              <button type="button" class="step" id="nextSegment" aria-label="다음 구간">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l9-7z" /><rect x="17" y="5" width="2" height="14" rx="1" /></svg>
+              </button>
+            </div>
+
+            <p class="timecode" id="timeRange">--:-- / --:--</p>
+
+            <div class="console-foot">
+              <button type="button" class="repeat" id="repeatSegment" aria-pressed="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4" /><path d="M3 11v-1a4 4 0 0 1 4-4h14" /><path d="M7 22l-4-4 4-4" /><path d="M21 13v1a4 4 0 0 1-4 4H3" /></svg>
+                <span>반복</span>
+              </button>
+
+              <div class="speed-group" aria-label="재생 속도">
+                <button type="button" data-speed="0.5">0.5×</button>
+                <button type="button" data-speed="0.75">0.75×</button>
+                <button type="button" class="is-active" data-speed="1">1×</button>
+                <button type="button" data-speed="1.25">1.25×</button>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="segments" aria-label="구간 목록">
+          <div class="segments-head">
+            <p class="label">Segments</p>
+            <span class="count" id="segmentCount">0개 구간</span>
+          </div>
+          <div class="segment-list" id="segmentList"></div>
+        </section>
+      </div>
+    </main>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

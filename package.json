@@ -1,0 +1,10 @@
+{
+  "name": "shadow-loop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  }
+}
