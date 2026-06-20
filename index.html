@@ -37,6 +37,9 @@
       </div>
 
       <section class="stage" aria-label="현재 구간 자막">
+        <button type="button" class="peek" id="peekBtn" aria-label="정답 보기 (누르고 있는 동안 전체 표시)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z" /><circle cx="12" cy="12" r="3" /></svg>
+        </button>
         <div class="caption" id="caption">
           <p class="caption-empty">자막을 불러오는 중…</p>
         </div>
@@ -71,7 +74,14 @@
         </div>
 
         <div class="options">
+          <div class="pace-group" id="paceGroup" role="group" aria-label="학습 모드">
+            <span class="pace-label">학습</span>
+            <button type="button" data-pace="fast">빠르게</button>
+            <button type="button" class="is-active" data-pace="slow">천천히</button>
+          </div>
+
           <div class="speed-group" aria-label="재생 속도">
+            <span class="pace-label">속도</span>
             <button type="button" data-speed="0.5">0.5×</button>
             <button type="button" data-speed="0.75">0.75×</button>
             <button type="button" class="is-active" data-speed="1">1×</button>

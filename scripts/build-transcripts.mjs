@@ -279,6 +279,7 @@ function main() {
       url,
       title: video.title || fetchTitle(url) || id,
       tag: video.tag || video.title || id,
+      category: video.category || "기타",
       segments,
     });
     log(`  ✓ ${segments.length} segments, ${lines.length} lines`);

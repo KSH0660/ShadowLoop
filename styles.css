@@ -176,7 +176,40 @@ button {
 
 /* Caption — the focal text ------------------------------------- */
 .stage {
+  position: relative;
   display: flex;
+}
+
+.peek {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--muted);
+  touch-action: none;
+}
+
+.peek svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.peek.is-on {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-ink);
 }
 
 .caption {
@@ -406,6 +439,48 @@ button {
   color: var(--paper);
 }
 
+/* Pace (learning mode) — distinct from playback speed: accent active state */
+.pace-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+}
+
+.pace-group button {
+  min-height: 32px;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.pace-group button:hover {
+  color: var(--ink);
+}
+
+.pace-group .is-active {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+.pace-label {
+  align-self: center;
+  padding: 0 7px 0 6px;
+  font-family: var(--display);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
 /* Bottom sheet -------------------------------------------------- */
 .sheet-backdrop {
   position: fixed;
@@ -467,6 +542,26 @@ button {
   min-height: 0;
   overflow-y: auto;
   margin: 0 -6px;
+}
+
+/* Category header inside the video list (강연 / 예능 …) */
+.video-group {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 12px 12px 6px;
+  background: var(--surface);
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+}
+
+.video-group:first-child {
+  padding-top: 2px;
 }
 
 .video-row {

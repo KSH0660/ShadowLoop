@@ -12,7 +12,7 @@ The transcript data is produced by a **local build step** (`npm run build:transc
 
 Runtime has no backend, so captions are pre-extracted:
 
-1. `videos.json` — the admin-managed list of curated videos (`id`, `tag`, optional `title`). Edit this to add/remove videos.
+1. `videos.json` — the admin-managed list of curated videos (`id`, `tag`, optional `title`, optional `category`). Edit this to add/remove videos. `category` is the group label videos are bucketed under in the video-picker sheet (videos sharing the same string form one section, e.g. `"TED 강연"` vs `"예능 · 타블로"`); it defaults to `"기타"`.
 2. `npm run build:transcripts` runs `scripts/build-transcripts.mjs`: for each video it shells out to **`yt-dlp`** to download the English VTT captions, parses them into cleaned timestamped lines, merges caption cues into whole sentences (`mergeIntoSentences`), groups them into segments of at most two sentences, and writes `data/transcripts.json`.
 3. Commit both `videos.json` and `data/transcripts.json`. The app loads only `data/transcripts.json`.
 
@@ -37,14 +37,14 @@ There is no test suite, linter, or bundler. `npm run check` is the full verifica
 
 **`server.js`** — a static file server only (no API). `serveStatic` confines reads to the project root (path-normalization check) and sends `Cache-Control: no-store`. It exists for local dev (`npm run dev`); in production the static files are served directly (Vercel). All app logic lives in the client.
 
-**`data/transcripts.json`** — the generated runtime data: `{ generatedAt, videos: [{ id, url, title, tag, segments: [{ start, end, lines: [{ text, start, end }] }] }] }`. Do not hand-edit; regenerate via the build step.
+**`data/transcripts.json`** — the generated runtime data: `{ generatedAt, videos: [{ id, url, title, tag, category, segments: [{ start, end, lines: [{ text, start, end }] }] }] }`. Do not hand-edit; regenerate via the build step.
 
 **`app.js`** — the entire client. `init()` fetches `data/transcripts.json` into the module-level `videos` array, renders the video list, and loads the first video. It drives the YouTube IFrame Player API and a single mutable `state`; `render()` re-renders the caption, loop dots, segment position, and segment list from `state` (no virtual DOM — call `render()` after mutating state).
 
 Key client mechanics:
 - `loadVideo(video)` sets up `state.segments` from the video's pre-built segments and points the player at the first one. There is no URL-paste / fallback path: only curated videos (they're the only ones with transcripts).
 - The YouTube player uses `cc_load_policy: 0` (the in-player CC overlay is off — captions are rendered by our own panel instead).
-- **Progressive reveal** is the signature interaction. A segment loops while its caption reveals itself: the first listen is fully invisible, then the caption fades in (`--reveal` → `.caption` opacity) while blanked words (`.cap-word.is-hidden` redaction bars) uncover left-to-right, fully clear by the last repeat. The repeat count `state.target` scales with caption length (`segmentTarget()` → `MIN_LOOPS=3`..`MAX_LOOPS=10`) and is shown as that many loop dots. There is no manual reveal/repeat toggle.
+- **Progressive reveal** is the signature interaction. A segment loops while its caption reveals itself: the first listen is fully invisible, then the caption fades in (`--reveal` → `.caption` opacity) while blanked words (`.cap-word.is-hidden` redaction bars) uncover left-to-right, fully clear by the last repeat. The repeat count `state.target` scales with caption length and the **pace** mode (`segmentTarget()` + the `PACE` table: `slow` 3–10 reps, `fast` 2–4, chosen via the 학습 빠르게/천천히 toggle), shown as that many loop dots. The 👁 **peek** button force-shows the full caption while held (`state.peek`, honored by `applyReveal()`) without touching the loop count. There is no plain/fade/cloze or manual repeat toggle.
 - The segment-looping + reveal engine is `tick()`, a `requestAnimationFrame` loop that polls `player.getCurrentTime()`. When playback passes the segment's end it either repeats (incrementing `state.loops` and calling `applyReveal()`) or, once `loops + 1 >= target` (fully revealed), **auto-advances** to the next segment (pausing at the last). Each frame it also drives the **loop ring** (`updateRing`): the segment's elapsed fraction is written to the `#ringProgress` SVG circle's `stroke-dashoffset`, so the amber ring around the play button fills over the segment and snaps back on each loop.
 - The UI is single-focus "video mode": top bar (`☰` segment list / current-video pill) → player → caption → transport. Navigation lives in two bottom sheets, one open at a time via `openSheet()`: `#segSheet` (segments of the current video) and `#videoSheet` (switch video). Fonts are loaded from CDN (`<link>` only): Pretendard for Korean UI, Space Grotesk for the wordmark/labels, DM Mono for timecodes and indices.
 - Keyboard shortcuts: space = play/pause, ←/→ = prev/next segment, Esc = close sheet.

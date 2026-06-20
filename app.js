@@ -23,13 +23,18 @@ let state = {
   line: -1,
   speed: 1,
   loops: 0,       // completed repeats of the current segment
-  target: 3,      // repeats until fully revealed, scaled by caption length
+  target: 3,      // repeats until fully revealed, scaled by caption length + pace
   cloze: [],      // maskable word indices, in reading order
+  pace: "slow",   // slow (3–10 reps) | fast (2–4 reps)
+  peek: false,    // holding the peek button → show the full caption
   sheet: null,    // null | "seg" | "video"
 };
 
-const MIN_LOOPS = 3;
-const MAX_LOOPS = 10;
+// Repeats until full reveal, by pace. "slow" drills deeper, "fast" skims.
+const PACE = {
+  slow: { min: 3, max: 10, base: 3, slope: 0.07 },
+  fast: { min: 2, max: 4, base: 2, slope: 0.02 },
+};
 const RING_CIRCUMFERENCE = 2 * Math.PI * 54;
 
 const els = {
@@ -49,6 +54,9 @@ const els = {
   nextSegment: document.querySelector("#nextSegment"),
   playPause: document.querySelector("#playPause"),
   ringProgress: document.querySelector("#ringProgress"),
+  peekBtn: document.querySelector("#peekBtn"),
+  paceGroup: document.querySelector("#paceGroup"),
+  paceButtons: [...document.querySelectorAll("[data-pace]")],
   speedButtons: [...document.querySelectorAll("[data-speed]")],
   segSheet: document.querySelector("#segSheet"),
   videoSheet: document.querySelector("#videoSheet"),
@@ -104,13 +112,28 @@ async function init() {
 
 function renderVideoList() {
   els.videoCount.textContent = `${videos.length}개`;
-  els.videoList.innerHTML = videos
-    .map((video, index) => `
+
+  // Group videos by `category` into labelled sections (강연 vs 예능 등). Groups
+  // appear in first-seen order; videos keep their order within a group. Each row
+  // carries its real index into `videos` via data-video, so grouping doesn't
+  // affect selection/highlight (which look the index up, not the DOM position).
+  const order = [];
+  const byCat = new Map();
+  videos.forEach((video, index) => {
+    const cat = video.category || "기타";
+    if (!byCat.has(cat)) { byCat.set(cat, []); order.push(cat); }
+    byCat.get(cat).push({ video, index });
+  });
+
+  els.videoList.innerHTML = order
+    .map((cat) => {
+      const rows = byCat.get(cat).map(({ video, index }) => `
         <button type="button" class="video-row" data-video="${index}">
           <span class="video-row-tag">${escapeHtml(video.tag || video.title)}</span>
           <span class="video-row-meta">${(video.segments || []).length}구간</span>
-        </button>
-      `)
+        </button>`).join("");
+      return `<p class="video-group">${escapeHtml(cat)}</p>${rows}`;
+    })
     .join("");
 }
 
@@ -121,6 +144,8 @@ function loadVideo(video) {
   state.current = 0;
   state.line = -1;
   state.loops = 0;
+  state.peek = false;
+  els.peekBtn.classList.remove("is-on");
   els.emptyPlayer.classList.add("is-hidden");
   els.nowTag.textContent = video.tag || video.title || "";
 
@@ -158,6 +183,8 @@ function selectSegment(index, autoplay = true) {
   state.current = Math.max(0, Math.min(index, state.segments.length - 1));
   state.line = -1;
   state.loops = 0;
+  state.peek = false;
+  els.peekBtn.classList.remove("is-on");
   render();
   if (autoplay) playCurrentSegment();
 }
@@ -171,11 +198,22 @@ function seekToLine(lineIndex) {
   player.setPlaybackRate(state.speed);
 }
 
-// Repeats needed before a segment is fully revealed, scaled by caption length:
-// a short line earns its reveal in MIN_LOOPS, a long one takes up to MAX_LOOPS.
+// Repeats needed before a segment is fully revealed, scaled by caption length
+// within the current pace's range: a short line reveals fast, a long one slow.
 function segmentTarget(segment) {
   const chars = segment.lines.map((l) => l.text).join(" ").length;
-  return Math.max(MIN_LOOPS, Math.min(MAX_LOOPS, Math.round(3 + (chars - 20) * 0.07)));
+  const { min, max, base, slope } = PACE[state.pace];
+  return Math.max(min, Math.min(max, Math.round(base + (chars - 20) * slope)));
+}
+
+// Recompute the reveal length for the current segment (e.g. after a pace change)
+// and refresh the dots + reveal without disturbing playback.
+function recomputeTarget() {
+  const segment = state.segments[state.current];
+  if (!segment) return;
+  state.target = segmentTarget(segment);
+  renderLoopDots();
+  applyReveal();
 }
 
 function render() {
@@ -188,6 +226,9 @@ function render() {
 
   els.speedButtons.forEach((button) => {
     button.classList.toggle("is-active", Number(button.dataset.speed) === state.speed);
+  });
+  els.paceButtons.forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.pace === state.pace);
   });
 
   renderCaption(segment);
@@ -212,7 +253,7 @@ function renderCaption(segment) {
     lineEls = [];
     wordEls = [];
     state.cloze = [];
-    state.target = MIN_LOOPS;
+    state.target = PACE[state.pace].min;
     return;
   }
 
@@ -245,6 +286,13 @@ function renderCaption(segment) {
 // the segment repeats, while blanked words uncover left-to-right. Called when
 // the segment or the loop count changes — never per frame.
 function applyReveal() {
+  // Peek (holding the eye button) shows the whole caption regardless of progress.
+  if (state.peek) {
+    els.caption.style.setProperty("--reveal", "1");
+    wordEls.forEach((node) => node.classList.remove("is-hidden"));
+    return;
+  }
+
   const t = state.target;
   const p = t > 1 ? Math.max(0, Math.min(1, state.loops / (t - 1))) : 1;
   els.caption.style.setProperty("--reveal", String(p));
@@ -252,6 +300,12 @@ function applyReveal() {
   const revealed = Math.round(state.cloze.length * p);
   const stillHidden = new Set(state.cloze.slice(revealed));
   wordEls.forEach((node, idx) => node.classList.toggle("is-hidden", stillHidden.has(idx)));
+}
+
+function setPeek(on) {
+  state.peek = on;
+  els.peekBtn.classList.toggle("is-on", on);
+  applyReveal();
 }
 
 function renderLoopDots() {
@@ -351,8 +405,9 @@ function escapeHtml(value) {
 }
 
 function highlightActiveVideo(id) {
-  [...els.videoList.querySelectorAll(".video-row")].forEach((button, index) => {
-    button.classList.toggle("is-active", videos[index].id === id);
+  [...els.videoList.querySelectorAll(".video-row")].forEach((button) => {
+    const video = videos[Number(button.dataset.video)];
+    button.classList.toggle("is-active", !!video && video.id === id);
   });
 }
 
@@ -378,6 +433,30 @@ els.segmentList.addEventListener("click", (event) => {
   if (!item) return;
   selectSegment(Number(item.dataset.index), true);
   closeSheet();
+});
+
+// Peek: hold to reveal the whole caption, release to return to the reveal level.
+els.peekBtn.addEventListener("pointerdown", (event) => {
+  event.preventDefault();
+  setPeek(true);
+});
+["pointerup", "pointerleave", "pointercancel"].forEach((type) =>
+  els.peekBtn.addEventListener(type, () => setPeek(false)));
+els.peekBtn.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" || event.key === " ") {
+    event.preventDefault();
+    event.stopPropagation();
+    setPeek(!state.peek);
+  }
+});
+els.peekBtn.addEventListener("blur", () => setPeek(false));
+
+els.paceGroup.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-pace]");
+  if (!button || button.dataset.pace === state.pace) return;
+  state.pace = button.dataset.pace;
+  els.paceButtons.forEach((b) => b.classList.toggle("is-active", b.dataset.pace === state.pace));
+  recomputeTarget();
 });
 
 els.prevSegment.addEventListener("click", () => selectSegment(state.current - 1, true));

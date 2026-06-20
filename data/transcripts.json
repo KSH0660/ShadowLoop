@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-06-20T12:41:42.434Z",
+  "generatedAt": "2026-06-20T13:16:33.587Z",
   "videos": [
     {
       "id": "5MgBikgcWnY",
       "url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
       "title": "Josh Kaufman: The first 20 hours",
       "tag": "Learning anything",
+      "category": "TED 강연",
       "segments": [
         {
           "start": 9,
@@ -1481,6 +1482,7 @@
       "url": "https://www.youtube.com/watch?v=arj7oStGLkU",
       "title": "Tim Urban: Inside the mind of a master procrastinator",
       "tag": "Procrastination",
+      "category": "TED 강연",
       "segments": [
         {
           "start": 12.65,
@@ -2665,6 +2667,7 @@
       "url": "https://www.youtube.com/watch?v=qp0HIF3SfI4",
       "title": "Simon Sinek: How great leaders inspire action",
       "tag": "Leadership",
+      "category": "TED 강연",
       "segments": [
         {
           "start": 16.26,
@@ -4397,6 +4400,7 @@
       "url": "https://www.youtube.com/watch?v=iG9CE55wbtY",
       "title": "Sir Ken Robinson: Do schools kill creativity?",
       "tag": "Creativity",
+      "category": "TED 강연",
       "segments": [
         {
           "start": 27.1,
@@ -6437,6 +6441,7 @@
       "url": "https://www.youtube.com/watch?v=iCvmsMzlF7o",
       "title": "Brené Brown: The power of vulnerability",
       "tag": "Vulnerability",
+      "category": "TED 강연",
       "segments": [
         {
           "start": 16.86,
@@ -8226,10 +8231,4408 @@
       ]
     },
     {
+      "id": "z-WfDn_0AWE",
+      "url": "https://www.youtube.com/watch?v=z-WfDn_0AWE",
+      "title": "Bill Gurley: How to build a career you love",
+      "tag": "Career",
+      "category": "TED 강연",
+      "segments": [
+        {
+          "start": 4.2,
+          "end": 12.68,
+          "lines": [
+            {
+              "text": "I'm going to start with a story, a good story, a true story.",
+              "start": 4.2,
+              "end": 8.01
+            },
+            {
+              "text": "In 1983, my friend Danny was 25 years old.",
+              "start": 8.57,
+              "end": 12.68
+            }
+          ]
+        },
+        {
+          "start": 12.71,
+          "end": 22.22,
+          "lines": [
+            {
+              "text": "A few years earlier, he had graduated from Trinity College with a poli sci degree.",
+              "start": 12.71,
+              "end": 17.61
+            },
+            {
+              "text": "He bounced around for a while but fell into a really cool job in sales.",
+              "start": 17.92,
+              "end": 22.22
+            }
+          ]
+        },
+        {
+          "start": 22.22,
+          "end": 29.16,
+          "lines": [
+            {
+              "text": "He sold those doohickeys they attach to clothes in the department store so you can't steal them.",
+              "start": 22.22,
+              "end": 27.39
+            },
+            {
+              "text": "He was good at it.",
+              "start": 27.73,
+              "end": 29.16
+            }
+          ]
+        },
+        {
+          "start": 29.16,
+          "end": 36.27,
+          "lines": [
+            {
+              "text": "He was making a lot of money.",
+              "start": 29.16,
+              "end": 30.56
+            },
+            {
+              "text": "But as a poli sci student, he’d always planned to take the next step: law school.",
+              "start": 30.59,
+              "end": 36.27
+            }
+          ]
+        },
+        {
+          "start": 36.27,
+          "end": 45.61,
+          "lines": [
+            {
+              "text": "So the night before the LSATs [he was] out for dinner with his uncle Richard [at] a place called Elios on the Upper East Side.",
+              "start": 36.27,
+              "end": 42.47
+            },
+            {
+              "text": "And Uncle Richard can tell something's not right.",
+              "start": 42.91,
+              "end": 45.61
+            }
+          ]
+        },
+        {
+          "start": 45.64,
+          "end": 52.65,
+          "lines": [
+            {
+              "text": "\"Danny, what's eating you?\"",
+              "start": 45.64,
+              "end": 47.58
+            },
+            {
+              "text": "\"Ah, I have to take the LSAT tomorrow, and I don't really want to.\"",
+              "start": 48.18,
+              "end": 52.65
+            }
+          ]
+        },
+        {
+          "start": 52.98,
+          "end": 55.92,
+          "lines": [
+            {
+              "text": "Uncle Richard probed.",
+              "start": 52.98,
+              "end": 54.39
+            },
+            {
+              "text": "\"So why are you?\"",
+              "start": 54.72,
+              "end": 55.92
+            }
+          ]
+        },
+        {
+          "start": 56.95,
+          "end": 64.83,
+          "lines": [
+            {
+              "text": "I'll get back to Danny and Uncle Richard in a minute, but let me tell you why I'm here.",
+              "start": 56.95,
+              "end": 61.06
+            },
+            {
+              "text": "I spent the past six years studying what drives career excellence.",
+              "start": 61.09,
+              "end": 64.83
+            }
+          ]
+        },
+        {
+          "start": 65.16,
+          "end": 77.31,
+          "lines": [
+            {
+              "text": "A co-writer, a researcher and I combed through over 100 biographies.",
+              "start": 65.16,
+              "end": 68.97
+            },
+            {
+              "text": "We talked to some of the leading academicians in the field, looked at their research, and we even did our own survey with Wharton -- we turned that into a book.",
+              "start": 69.5,
+              "end": 77.31
+            }
+          ]
+        },
+        {
+          "start": 77.91,
+          "end": 85.88,
+          "lines": [
+            {
+              "text": "What did we find?",
+              "start": 77.91,
+              "end": 79.44
+            },
+            {
+              "text": "There were many common traits, but one thing stood out above everything else: continuous and obsessive learning.",
+              "start": 79.48,
+              "end": 85.88
+            }
+          ]
+        },
+        {
+          "start": 86.52,
+          "end": 90.39,
+          "lines": [
+            {
+              "text": "They were all lifetime students.",
+              "start": 86.52,
+              "end": 88.55
+            },
+            {
+              "text": "They knew the history of their field.",
+              "start": 88.55,
+              "end": 90.39
+            }
+          ]
+        },
+        {
+          "start": 90.39,
+          "end": 96.69,
+          "lines": [
+            {
+              "text": "They understand the nuance of their field -- the thing that separates great from good.",
+              "start": 90.39,
+              "end": 94.89
+            },
+            {
+              "text": "They know the edge of their field.",
+              "start": 94.93,
+              "end": 96.69
+            }
+          ]
+        },
+        {
+          "start": 96.73,
+          "end": 102.97,
+          "lines": [
+            {
+              "text": "That's where innovation lies.",
+              "start": 96.73,
+              "end": 98.3
+            },
+            {
+              "text": "And they study throughout their entire career, beginning, middle and end.",
+              "start": 99.03,
+              "end": 102.97
+            }
+          ]
+        },
+        {
+          "start": 103.37,
+          "end": 111.91,
+          "lines": [
+            {
+              "text": "I'd like to think they thought about their craft as an artisan with an artisan mindset.",
+              "start": 103.37,
+              "end": 108.31
+            },
+            {
+              "text": "And I've come to believe these artisans exist in every field.",
+              "start": 108.34,
+              "end": 111.91
+            }
+          ]
+        },
+        {
+          "start": 111.94,
+          "end": 121.55,
+          "lines": [
+            {
+              "text": "Here's a fun example.",
+              "start": 111.94,
+              "end": 113.24
+            },
+            {
+              "text": "In 2015, at the annual chess competition in Iceland they did something fun: they held a history trivia contest.",
+              "start": 113.54,
+              "end": 121.55
+            }
+          ]
+        },
+        {
+          "start": 121.59,
+          "end": 125.62,
+          "lines": [
+            {
+              "text": "Guess who won?",
+              "start": 121.59,
+              "end": 122.79
+            },
+            {
+              "text": "Magnus Carlsen, the world champion.",
+              "start": 123.29,
+              "end": 125.62
+            }
+          ]
+        },
+        {
+          "start": 126.26,
+          "end": 129.59,
+          "lines": [
+            {
+              "text": "See, he's not just great at chess.",
+              "start": 126.26,
+              "end": 128.03
+            },
+            {
+              "text": "He knew the history.",
+              "start": 128.06,
+              "end": 129.59
+            }
+          ]
+        },
+        {
+          "start": 129.63,
+          "end": 141.67,
+          "lines": [
+            {
+              "text": "But if you study Magnus Carlsen, you'd know this to be true.",
+              "start": 129.63,
+              "end": 133.2
+            },
+            {
+              "text": "It’s very low likelihood that he got to a place in his career where he says, \"Oh, boy, to be even better at chess, I need to study the history, I'm going to go do it.\"",
+              "start": 133.23,
+              "end": 141.67
+            }
+          ]
+        },
+        {
+          "start": 141.71,
+          "end": 147.41,
+          "lines": [
+            {
+              "text": "It was a different mechanism.",
+              "start": 141.71,
+              "end": 143.27
+            },
+            {
+              "text": "And this is my key point, the key takeaway, right here at the beginning.",
+              "start": 143.81,
+              "end": 147.41
+            }
+          ]
+        },
+        {
+          "start": 148.04,
+          "end": 154.39,
+          "lines": [
+            {
+              "text": "Obsessive and continuous learning is not an input -- it’s an output.",
+              "start": 148.04,
+              "end": 152.18
+            },
+            {
+              "text": "It's not the cause, it's the effect.",
+              "start": 152.22,
+              "end": 154.39
+            }
+          ]
+        },
+        {
+          "start": 154.95,
+          "end": 158.72,
+          "lines": [
+            {
+              "text": "What's the cause?",
+              "start": 154.95,
+              "end": 156.12
+            },
+            {
+              "text": "What drives someone to learn for a lifetime?",
+              "start": 156.12,
+              "end": 158.72
+            }
+          ]
+        },
+        {
+          "start": 158.76,
+          "end": 173.84,
+          "lines": [
+            {
+              "text": "In 2024, Jerry Seinfeld, the comedian, gave the commencement speech at Duke University.",
+              "start": 158.76,
+              "end": 164.5
+            },
+            {
+              "text": "And after making fun, which he's good at, making fun of the phrase \"follow your passion,\" he came up with a different word, a better word, a more precise word.",
+              "start": 164.5,
+              "end": 173.84
+            }
+          ]
+        },
+        {
+          "start": 173.87,
+          "end": 178.68,
+          "lines": [
+            {
+              "text": "He said, you should follow your fascination.",
+              "start": 173.87,
+              "end": 176.71
+            },
+            {
+              "text": "I really love this distinction.",
+              "start": 176.71,
+              "end": 178.68
+            }
+          ]
+        },
+        {
+          "start": 179.04,
+          "end": 187.28,
+          "lines": [
+            {
+              "text": "You see, passion doesn’t invoke work.",
+              "start": 179.04,
+              "end": 182.11
+            },
+            {
+              "text": "You could be passionate about the Cincinnati Reds and sit in a chair for 3.5 hours, drinking beer.",
+              "start": 182.15,
+              "end": 187.28
+            }
+          ]
+        },
+        {
+          "start": 189.45,
+          "end": 197.9,
+          "lines": [
+            {
+              "text": "But fascination comes with the mechanism.",
+              "start": 189.45,
+              "end": 192.26
+            },
+            {
+              "text": "When you’re fascinated, you study “automagically.” By the way, I know that's not a real word.",
+              "start": 192.29,
+              "end": 197.9
+            }
+          ]
+        },
+        {
+          "start": 200.16,
+          "end": 203.3,
+          "lines": [
+            {
+              "text": "Back to Danny.",
+              "start": 200.16,
+              "end": 201.4
+            },
+            {
+              "text": "Uncle Richard kept pressing.",
+              "start": 201.4,
+              "end": 203.3
+            }
+          ]
+        },
+        {
+          "start": 203.33,
+          "end": 210.77,
+          "lines": [
+            {
+              "text": "\"Danny, all you've ever thought about and talked about your whole life is food and restaurants.",
+              "start": 203.33,
+              "end": 209.07
+            },
+            {
+              "text": "Why don't you open a restaurant?\"",
+              "start": 209.11,
+              "end": 210.77
+            }
+          ]
+        },
+        {
+          "start": 211.38,
+          "end": 216.85,
+          "lines": [
+            {
+              "text": "Danny listened.",
+              "start": 211.38,
+              "end": 212.71
+            },
+            {
+              "text": "He took the LSAT the next morning, but he never enrolled in law school.",
+              "start": 212.74,
+              "end": 216.85
+            }
+          ]
+        },
+        {
+          "start": 216.88,
+          "end": 232.2,
+          "lines": [
+            {
+              "text": "Instead, he enrolled in a $300 restaurant management course that he found in a magazine.",
+              "start": 216.88,
+              "end": 222.89
+            },
+            {
+              "text": "He would then take a 90 percent pay cut to get his foot in the door at a local restaurant, where he could rotate through the different jobs.",
+              "start": 224.36,
+              "end": 232.2
+            }
+          ]
+        },
+        {
+          "start": 232.23,
+          "end": 243.94,
+          "lines": [
+            {
+              "text": "And then he planned a trip through Europe, a learning trip, where he would stage in many different countries, many different cuisines.",
+              "start": 232.23,
+              "end": 239.97
+            },
+            {
+              "text": "“Stage” is a fancy French word that means work for free.",
+              "start": 240.5,
+              "end": 243.94
+            }
+          ]
+        },
+        {
+          "start": 246.91,
+          "end": 251.38,
+          "lines": [
+            {
+              "text": "He then went back to New York.",
+              "start": 246.91,
+              "end": 248.48
+            },
+            {
+              "text": "He had to study some more location buildings.",
+              "start": 248.51,
+              "end": 251.38
+            }
+          ]
+        },
+        {
+          "start": 251.88,
+          "end": 265.5,
+          "lines": [
+            {
+              "text": "Then in 1985, a full year after that momentous dinner, Danny opened Union Square Cafe.",
+              "start": 251.88,
+              "end": 258.86
+            },
+            {
+              "text": "Union Square Cafe would be recognized by Zagat magazine as New York's favorite restaurant eight times.",
+              "start": 259.36,
+              "end": 265.5
+            }
+          ]
+        },
+        {
+          "start": 265.53,
+          "end": 284.45,
+          "lines": [
+            {
+              "text": "And Danny would go on to launch over a dozen high-end restaurants in New York, including Eleven Madison, Gramercy Tavern, The Modern.",
+              "start": 265.53,
+              "end": 273.27
+            },
+            {
+              "text": "For you younger folks out there, he would then, after that, found and launch Shake Shack, which has 400 locations worldwide and a $4 billion market cap.",
+              "start": 273.94,
+              "end": 284.45
+            }
+          ]
+        },
+        {
+          "start": 284.48,
+          "end": 295.49,
+          "lines": [
+            {
+              "text": "Every time Danny started a new concept, he'd do a year of learning and study before he'd launch.",
+              "start": 284.48,
+              "end": 290.29
+            },
+            {
+              "text": "When I talked to him last fall, he was just back from Europe on another learning tour.",
+              "start": 291.02,
+              "end": 295.49
+            }
+          ]
+        },
+        {
+          "start": 295.83,
+          "end": 305.87,
+          "lines": [
+            {
+              "text": "Over 40 years later, still in his DNA.",
+              "start": 295.83,
+              "end": 299.73
+            },
+            {
+              "text": "Uncle Richard did something really -- Did two things really amazing that night.",
+              "start": 301,
+              "end": 305.87
+            }
+          ]
+        },
+        {
+          "start": 305.87,
+          "end": 321.02,
+          "lines": [
+            {
+              "text": "First, he saved the world from another lawyer.",
+              "start": 305.87,
+              "end": 308.91
+            },
+            {
+              "text": "But second, and more importantly, he unleashed Danny's career around this amazing fascination that he had.",
+              "start": 313.01,
+              "end": 321.02
+            }
+          ]
+        },
+        {
+          "start": 321.45,
+          "end": 329.96,
+          "lines": [
+            {
+              "text": "One dinner, one comment, and a bit flipped from 0 to 1, and the rest is history.",
+              "start": 321.45,
+              "end": 328.09
+            },
+            {
+              "text": "It feels magical.",
+              "start": 328.63,
+              "end": 329.96
+            }
+          ]
+        },
+        {
+          "start": 330.59,
+          "end": 338.64,
+          "lines": [
+            {
+              "text": "I think a lot of magical things happen when you combine fascination with a career.",
+              "start": 330.59,
+              "end": 335.1
+            },
+            {
+              "text": "First, obviously, you're more fulfilled and you're more happy.",
+              "start": 335.13,
+              "end": 338.64
+            }
+          ]
+        },
+        {
+          "start": 339.3,
+          "end": 343.31,
+          "lines": [
+            {
+              "text": "Second, the learning comes for free.",
+              "start": 339.3,
+              "end": 342.04
+            },
+            {
+              "text": "What do I mean by that?",
+              "start": 342.04,
+              "end": 343.31
+            }
+          ]
+        },
+        {
+          "start": 343.34,
+          "end": 351.28,
+          "lines": [
+            {
+              "text": "Zero conscious effort.",
+              "start": 343.34,
+              "end": 344.81
+            },
+            {
+              "text": "When you're learning about something you don't like, it saps your energy, you get tired, you need a break.",
+              "start": 345.84,
+              "end": 351.28
+            }
+          ]
+        },
+        {
+          "start": 351.32,
+          "end": 365.16,
+          "lines": [
+            {
+              "text": "When you learn about something you're fascinated by, you get energy, you want to smile.",
+              "start": 351.32,
+              "end": 356.35
+            },
+            {
+              "text": "That contrast is massive, and it’s why Danny knew exactly what to do, and it's precisely why Magnus Carlsen knew the history.",
+              "start": 356.39,
+              "end": 365.16
+            }
+          ]
+        },
+        {
+          "start": 366.33,
+          "end": 379.51,
+          "lines": [
+            {
+              "text": "The third thing that happens when you combine career with fascination is people notice.",
+              "start": 366.33,
+              "end": 371.6
+            },
+            {
+              "text": "If you're enthusiastic and have extra knowledge, you're going to do better in every dimension of your career.",
+              "start": 372.07,
+              "end": 379.51
+            }
+          ]
+        },
+        {
+          "start": 379.54,
+          "end": 390.72,
+          "lines": [
+            {
+              "text": "You're going to crush it in interviews, you’re going to get promoted, you’re going to attract mentors, and maybe, most importantly, opportunity comes at you.",
+              "start": 379.54,
+              "end": 387.85
+            },
+            {
+              "text": "\"Oh, I hear you're interested in starting a documentary.",
+              "start": 387.89,
+              "end": 390.72
+            }
+          ]
+        },
+        {
+          "start": 390.75,
+          "end": 395.83,
+          "lines": [
+            {
+              "text": "You have to talk to Sally, she's obsessed by them.\"",
+              "start": 390.75,
+              "end": 393.62
+            },
+            {
+              "text": "Those introductions happen all the time.",
+              "start": 393.66,
+              "end": 395.83
+            }
+          ]
+        },
+        {
+          "start": 396.83,
+          "end": 404.17,
+          "lines": [
+            {
+              "text": "The last thing that happens is the fascinated people leave big footprints.",
+              "start": 396.83,
+              "end": 401.47
+            },
+            {
+              "text": "Uncle Richard didn't just help Danny.",
+              "start": 402.07,
+              "end": 404.17
+            }
+          ]
+        },
+        {
+          "start": 404.54,
+          "end": 419.55,
+          "lines": [
+            {
+              "text": "Think of the thousands and thousands of people that have worked in and learned in Danny's restaurants.",
+              "start": 404.54,
+              "end": 409.44
+            },
+            {
+              "text": "Think about the millions of customers that have felt his hospitality and think about the restaurant owners and small business owners that have read his book, \"Setting the Table.\"",
+              "start": 409.44,
+              "end": 419.55
+            }
+          ]
+        },
+        {
+          "start": 419.58,
+          "end": 427.59,
+          "lines": [
+            {
+              "text": "It's really, really a massive impact.",
+              "start": 419.58,
+              "end": 423.09
+            },
+            {
+              "text": "So how many people make it to this magical place?",
+              "start": 424.49,
+              "end": 427.59
+            }
+          ]
+        },
+        {
+          "start": 427.62,
+          "end": 436.9,
+          "lines": [
+            {
+              "text": "In 2023, Gallup did a poll where they asked what percentage of people are thriving and engaged in their job.",
+              "start": 427.62,
+              "end": 434.36
+            },
+            {
+              "text": "Only 23 percent said yes.",
+              "start": 434.36,
+              "end": 436.9
+            }
+          ]
+        },
+        {
+          "start": 436.93,
+          "end": 446.21,
+          "lines": [
+            {
+              "text": "A full 59 percent they put in this category they called quiet quitters.",
+              "start": 436.93,
+              "end": 441.34
+            },
+            {
+              "text": "They said they were ambivalent about their job, emotionally disconnected.",
+              "start": 441.87,
+              "end": 446.21
+            }
+          ]
+        },
+        {
+          "start": 446.24,
+          "end": 460.06,
+          "lines": [
+            {
+              "text": "In our own survey, we asked people, “Are you in your dream job?” and “Do you want [a] do-over?” And only 20 percent said, “Yes, I’m in my dream job and I don’t need a do-over.” So maybe it's as low as one in five.",
+              "start": 446.24,
+              "end": 458.56
+            },
+            {
+              "text": "20 percent.",
+              "start": 458.59,
+              "end": 460.06
+            }
+          ]
+        },
+        {
+          "start": 460.09,
+          "end": 462.79,
+          "lines": [
+            {
+              "text": "Why isn't it better?",
+              "start": 460.09,
+              "end": 461.26
+            },
+            {
+              "text": "I think there are a few issues.",
+              "start": 461.26,
+              "end": 462.79
+            }
+          ]
+        },
+        {
+          "start": 462.83,
+          "end": 470,
+          "lines": [
+            {
+              "text": "First, I think the path to and through college is broken.",
+              "start": 462.83,
+              "end": 466.53
+            },
+            {
+              "text": "I think it’s because schools are so damn hard to get into.",
+              "start": 466.53,
+              "end": 470
+            }
+          ]
+        },
+        {
+          "start": 470.03,
+          "end": 485.98,
+          "lines": [
+            {
+              "text": "In sixth grade, we begin with [what] Jonathan Haidt has termed the “résumé arms race.” We do Mandarin lessons, lacrosse lessons, cello lessons, volunteering -- and that’s just by Tuesday.",
+              "start": 470.03,
+              "end": 481.55
+            },
+            {
+              "text": "The kids feel pressure, and the parents feel pressure.",
+              "start": 483.35,
+              "end": 485.98
+            }
+          ]
+        },
+        {
+          "start": 486.02,
+          "end": 491.32,
+          "lines": [
+            {
+              "text": "And I think we know something's wrong there.",
+              "start": 486.02,
+              "end": 488.45
+            },
+            {
+              "text": "Second, we've moved the decision goalposts.",
+              "start": 489.05,
+              "end": 491.32
+            }
+          ]
+        },
+        {
+          "start": 491.32,
+          "end": 502.97,
+          "lines": [
+            {
+              "text": "When I was young, they wouldn't allow you to declare a major until the end of your sophomore year of college.",
+              "start": 491.32,
+              "end": 497.76
+            },
+            {
+              "text": "Today, at many schools, you have to apply to the major when you fill out the application.",
+              "start": 497.76,
+              "end": 502.97
+            }
+          ]
+        },
+        {
+          "start": 503,
+          "end": 511.31,
+          "lines": [
+            {
+              "text": "We made the life decision from 20 years to 17 years old.",
+              "start": 503,
+              "end": 507.04
+            },
+            {
+              "text": "Have you ever asked a 17-year-old what they want to do the rest of their life?",
+              "start": 507.04,
+              "end": 511.31
+            }
+          ]
+        },
+        {
+          "start": 511.34,
+          "end": 531.13,
+          "lines": [
+            {
+              "text": "They really don't know.",
+              "start": 511.34,
+              "end": 515.21
+            },
+            {
+              "text": "The last thing is, several well-intentioned parents and advisors, and I want to repeat, well-intentioned, have pushed kids towards the safe jobs: medicine, legal, finance, comp sci.",
+              "start": 518.02,
+              "end": 531.13
+            }
+          ]
+        },
+        {
+          "start": 532.2,
+          "end": 537.43,
+          "lines": [
+            {
+              "text": "But what if the safe jobs aren't safe anymore?",
+              "start": 532.2,
+              "end": 535.2
+            },
+            {
+              "text": "Along comes AI.",
+              "start": 535.77,
+              "end": 537.43
+            }
+          ]
+        },
+        {
+          "start": 538.04,
+          "end": 544.67,
+          "lines": [
+            {
+              "text": "You know all those formulas and algorithms you learned in school that helped you take the test?",
+              "start": 538.04,
+              "end": 543.04
+            },
+            {
+              "text": "They're all in the model.",
+              "start": 543.07,
+              "end": 544.67
+            }
+          ]
+        },
+        {
+          "start": 544.71,
+          "end": 552.28,
+          "lines": [
+            {
+              "text": "If you're not advancing your learning after you leave college, they're catching up.",
+              "start": 544.71,
+              "end": 549.08
+            },
+            {
+              "text": "And I don't think it's the jobs we love that are under threat.",
+              "start": 549.11,
+              "end": 552.28
+            }
+          ]
+        },
+        {
+          "start": 552.32,
+          "end": 563.36,
+          "lines": [
+            {
+              "text": "It's the ones people were ambivalent about already, the 59 percent, the quiet quitters.",
+              "start": 552.32,
+              "end": 558.69
+            },
+            {
+              "text": "But maybe, maybe what's really under threat is the static mindset.",
+              "start": 559.02,
+              "end": 563.36
+            }
+          ]
+        },
+        {
+          "start": 564.83,
+          "end": 570.2,
+          "lines": [
+            {
+              "text": "What about the artisans, the fascinated artisans?",
+              "start": 564.83,
+              "end": 567.76
+            },
+            {
+              "text": "Mark Cuban said something the other day.",
+              "start": 568.27,
+              "end": 570.2
+            }
+          ]
+        },
+        {
+          "start": 570.2,
+          "end": 586.25,
+          "lines": [
+            {
+              "text": "He said, “There’s two types of people in the world: those that use LLMs to learn faster than ever, and those that use LLMs to skip learning altogether.” The reality is, for these fascinated artisans, AI is a jetpack.",
+              "start": 570.2,
+              "end": 583.58
+            },
+            {
+              "text": "They learn faster, they soar higher.",
+              "start": 583.95,
+              "end": 586.25
+            }
+          ]
+        },
+        {
+          "start": 586.25,
+          "end": 591.52,
+          "lines": [
+            {
+              "text": "So how do we get more people in this lane?",
+              "start": 586.25,
+              "end": 588.65
+            },
+            {
+              "text": "I fear the institutions aren't set up for it.",
+              "start": 588.68,
+              "end": 591.52
+            }
+          ]
+        },
+        {
+          "start": 591.52,
+          "end": 601.57,
+          "lines": [
+            {
+              "text": "They’re set up for high-volume mass manufacturing, not bespoke, individualized, customized fascination discovery.",
+              "start": 591.52,
+              "end": 598.93
+            },
+            {
+              "text": "But if they can't, who will?",
+              "start": 599.66,
+              "end": 601.57
+            }
+          ]
+        },
+        {
+          "start": 601.6,
+          "end": 612.84,
+          "lines": [
+            {
+              "text": "I'm going to close with two short stories that might point us in the right direction.",
+              "start": 601.6,
+              "end": 605.64
+            },
+            {
+              "text": "My wife and I relocated to Austin four years ago, and we've had a chance to meet this very famous actor that lives there.",
+              "start": 606.2,
+              "end": 612.84
+            }
+          ]
+        },
+        {
+          "start": 612.88,
+          "end": 616.81,
+          "lines": [
+            {
+              "text": "You may know the one.",
+              "start": 612.88,
+              "end": 614.08
+            },
+            {
+              "text": "\"Alright, alright, alright.\"",
+              "start": 614.11,
+              "end": 616.81
+            }
+          ]
+        },
+        {
+          "start": 617.25,
+          "end": 624.52,
+          "lines": [
+            {
+              "text": "You got it.",
+              "start": 617.25,
+              "end": 618.72
+            },
+            {
+              "text": "When Matthew was young, he was really good at winning arguments, and his whole family told him, \"You should be a lawyer.\"",
+              "start": 618.75,
+              "end": 624.52
+            }
+          ]
+        },
+        {
+          "start": 624.52,
+          "end": 628.56,
+          "lines": [
+            {
+              "text": "And he decided that's a great idea.",
+              "start": 624.52,
+              "end": 626.69
+            },
+            {
+              "text": "He headed off to college.",
+              "start": 626.72,
+              "end": 628.56
+            }
+          ]
+        },
+        {
+          "start": 628.59,
+          "end": 638.07,
+          "lines": [
+            {
+              "text": "During his sophomore year, he fell in with some friends at the film school.",
+              "start": 628.59,
+              "end": 632.46
+            },
+            {
+              "text": "[He] really loved it [and] wanted to switch, but he was fearful of his stern father's reaction.",
+              "start": 632.5,
+              "end": 638.07
+            }
+          ]
+        },
+        {
+          "start": 638.67,
+          "end": 655.25,
+          "lines": [
+            {
+              "text": "He eventually set up a call, walked through the logic, long pause, and his father says, \"Don't half-ass it.\"",
+              "start": 638.67,
+              "end": 646.71
+            },
+            {
+              "text": "Matthew said it was the last thing he expected him to say, and the best thing he could have possibly said.",
+              "start": 649.48,
+              "end": 655.25
+            }
+          ]
+        },
+        {
+          "start": 655.29,
+          "end": 670.83,
+          "lines": [
+            {
+              "text": "And with those three simple words -- But wait, I think half-ass is hyphenated.",
+              "start": 655.29,
+              "end": 659.82
+            },
+            {
+              "text": "With those four simple words, he unleashed another artisan, an Oscar-winning one, and also saved us from another lawyer.",
+              "start": 661.56,
+              "end": 670.83
+            }
+          ]
+        },
+        {
+          "start": 675.44,
+          "end": 686.05,
+          "lines": [
+            {
+              "text": "A few months ago, I got an email from a friend I hadn’t heard from in a while. His name’s Doug.",
+              "start": 675.44,
+              "end": 680.14
+            },
+            {
+              "text": "He had seen me talking about these topics on a podcast, and he wanted to share a family story.",
+              "start": 680.14,
+              "end": 686.05
+            }
+          ]
+        },
+        {
+          "start": 686.52,
+          "end": 702.67,
+          "lines": [
+            {
+              "text": "His son, Jackson, is a senior at Wake Forest, finance track, but in all his spare time, he loves to study basketball analytics.",
+              "start": 686.52,
+              "end": 694.39
+            },
+            {
+              "text": "On a recent trip, he would wake up at 7am, go to the coffee shop and do his \"basketball studying\" before the family activities.",
+              "start": 694.86,
+              "end": 702.67
+            }
+          ]
+        },
+        {
+          "start": 703.23,
+          "end": 711.21,
+          "lines": [
+            {
+              "text": "Last summer, he did an internship -- in basketball, not finance.",
+              "start": 703.23,
+              "end": 708.37
+            },
+            {
+              "text": "His father told me that he'd been on his own journey.",
+              "start": 708.41,
+              "end": 711.21
+            }
+          ]
+        },
+        {
+          "start": 711.24,
+          "end": 723.09,
+          "lines": [
+            {
+              "text": "A parental journey from awareness to acceptance to enthusiasm to full support.",
+              "start": 711.24,
+              "end": 718.95
+            },
+            {
+              "text": "And as he went through those stages, he could see Jackson's confidence grow.",
+              "start": 718.98,
+              "end": 723.09
+            }
+          ]
+        },
+        {
+          "start": 723.45,
+          "end": 733.43,
+          "lines": [
+            {
+              "text": "I have a hunch Jackson's going to have a great career.",
+              "start": 723.45,
+              "end": 726.56
+            },
+            {
+              "text": "So if it's not up to the institution, maybe it's up to us, the individuals, parents, counselors, friends, family.",
+              "start": 726.96,
+              "end": 733.43
+            }
+          ]
+        },
+        {
+          "start": 733.46,
+          "end": 740.47,
+          "lines": [
+            {
+              "text": "It doesn't take much.",
+              "start": 733.46,
+              "end": 734.9
+            },
+            {
+              "text": "A comment, a nudge, holding up a mirror so they can see maybe what they already knew.",
+              "start": 734.9,
+              "end": 740.47
+            }
+          ]
+        },
+        {
+          "start": 740.5,
+          "end": 752.62,
+          "lines": [
+            {
+              "text": "Matthew's dad gave him a green light, Danny had Uncle Richard and they had incredible careers based around their fascination.",
+              "start": 740.5,
+              "end": 747.58
+            },
+            {
+              "text": "Maybe all the world really needs is many, many more Uncle Richards.",
+              "start": 748.11,
+              "end": 752.62
+            }
+          ]
+        },
+        {
+          "start": 752.62,
+          "end": 757.29,
+          "lines": [
+            {
+              "text": "And I hope there's a bunch of you out there in the audience today.",
+              "start": 752.62,
+              "end": 756.09
+            },
+            {
+              "text": "Thank you.",
+              "start": 756.12,
+              "end": 757.29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OAIlucguNzY",
+      "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+      "title": "Renee St Jacques: How to give feedback that lands",
+      "tag": "Feedback",
+      "category": "TED 강연",
+      "segments": [
+        {
+          "start": 4.26,
+          "end": 23.78,
+          "lines": [
+            {
+              "text": "A few years ago, I found myself individually coaching both a manager and an employee at the same time.",
+              "start": 4.26,
+              "end": 13.3
+            },
+            {
+              "text": "The employee was super confident she'd get promoted, whereas the manager privately shared with me that she had no plans to do so.",
+              "start": 14.02,
+              "end": 23.78
+            }
+          ]
+        },
+        {
+          "start": 24.94,
+          "end": 42.22,
+          "lines": [
+            {
+              "text": "Why the disconnect?",
+              "start": 24.94,
+              "end": 26.66
+            },
+            {
+              "text": "The manager admitted using the feedback sandwich technique, which is praise, feedback, then praise again, embedding that critical feedback in the praise leading to false expectations.",
+              "start": 27.38,
+              "end": 42.22
+            }
+          ]
+        },
+        {
+          "start": 43.74,
+          "end": 52.22,
+          "lines": [
+            {
+              "text": "Despite the manager's good intentions, the impact was damaging.",
+              "start": 43.74,
+              "end": 47.98
+            },
+            {
+              "text": "There was burnout for the manager for overcompensating.",
+              "start": 48.54,
+              "end": 52.22
+            }
+          ]
+        },
+        {
+          "start": 52.22,
+          "end": 60.5,
+          "lines": [
+            {
+              "text": "There was a breakdown in trust for the employee.",
+              "start": 52.22,
+              "end": 55.86
+            },
+            {
+              "text": "And ultimately, unachieved goals for the organization.",
+              "start": 55.86,
+              "end": 60.5
+            }
+          ]
+        },
+        {
+          "start": 63.3,
+          "end": 77.18,
+          "lines": [
+            {
+              "text": "Having coached hundreds of leaders, this is just one of many examples that I've encountered where low emotional intelligence, EQ for short, leads to low results.",
+              "start": 63.3,
+              "end": 77.18
+            }
+          ]
+        },
+        {
+          "start": 77.58,
+          "end": 83.66,
+          "lines": [
+            {
+              "text": "And that's no surprise, given the decades of research that show that EQ can boost profitability.",
+              "start": 77.58,
+              "end": 83.66
+            }
+          ]
+        },
+        {
+          "start": 85.26,
+          "end": 98.38,
+          "lines": [
+            {
+              "text": "My fascination with human behavior started at an early age, where, amidst family dysfunction, I witnessed firsthand how low EQ can leave a negative legacy.",
+              "start": 85.26,
+              "end": 98.38
+            }
+          ]
+        },
+        {
+          "start": 99.62,
+          "end": 116.14,
+          "lines": [
+            {
+              "text": "And now, as a psychologist, as an executive coach, I'm passionate about drawing from my unique corporate and counseling background to bridge theory and practice when it comes to teams.",
+              "start": 99.62,
+              "end": 112.38
+            },
+            {
+              "text": "Managers, I see you.",
+              "start": 113.58,
+              "end": 116.14
+            }
+          ]
+        },
+        {
+          "start": 116.66,
+          "end": 123.46,
+          "lines": [
+            {
+              "text": "With the pressure to meet bottom-line goals, you often have to do more with less.",
+              "start": 116.66,
+              "end": 120.82
+            },
+            {
+              "text": "But what got you here?",
+              "start": 121.5,
+              "end": 123.46
+            }
+          ]
+        },
+        {
+          "start": 123.46,
+          "end": 137.7,
+          "lines": [
+            {
+              "text": "Excelling as an individual contributor, doing things yourself, won't get you success as a manager.",
+              "start": 123.46,
+              "end": 130.86
+            },
+            {
+              "text": "As a leader, your impact is measured by what you achieve through your team.",
+              "start": 131.82,
+              "end": 137.7
+            }
+          ]
+        },
+        {
+          "start": 139.02,
+          "end": 154.98,
+          "lines": [
+            {
+              "text": "But let's be honest, increasing the intrinsic motivation and accountability of your team isn't always easy, especially when there's resistance or a breakdown in trust.",
+              "start": 139.02,
+              "end": 150.82
+            },
+            {
+              "text": "How do you drive results?",
+              "start": 152.5,
+              "end": 154.98
+            }
+          ]
+        },
+        {
+          "start": 154.98,
+          "end": 161.18,
+          "lines": [
+            {
+              "text": "By unlocking the leadership potential of every team member, no matter their title.",
+              "start": 154.98,
+              "end": 161.18
+            }
+          ]
+        },
+        {
+          "start": 162.38,
+          "end": 175.46,
+          "lines": [
+            {
+              "text": "I believe it begins by elevating your emotional intelligence with three key skills: connect, correct and cultivate.",
+              "start": 162.38,
+              "end": 175.46
+            }
+          ]
+        },
+        {
+          "start": 176.34,
+          "end": 191.22,
+          "lines": [
+            {
+              "text": "These three C’s make up a research-backed framework called “Leadership Activated” that I’ve developed to help leaders practically build trust, guide behavior and foster growth.",
+              "start": 176.34,
+              "end": 188.54
+            },
+            {
+              "text": "The first C is connect.",
+              "start": 189.34,
+              "end": 191.22
+            }
+          ]
+        },
+        {
+          "start": 193.02,
+          "end": 207.94,
+          "lines": [
+            {
+              "text": "An executive once asked me to repurpose her session time to coach a seasoned employee of hers whose performance was declining.",
+              "start": 193.02,
+              "end": 200.42
+            },
+            {
+              "text": "But as soon as I got into session, I knew she didn't need coaching on her external skills.",
+              "start": 201.7,
+              "end": 207.94
+            }
+          ]
+        },
+        {
+          "start": 208.34,
+          "end": 223.66,
+          "lines": [
+            {
+              "text": "She needed coaching to really uncover the internal factors influencing her performance.",
+              "start": 208.34,
+              "end": 215.82
+            },
+            {
+              "text": "Connection is what unlocks high performance because it creates psychological safety.",
+              "start": 217.18,
+              "end": 223.66
+            }
+          ]
+        },
+        {
+          "start": 224.1,
+          "end": 243.54,
+          "lines": [
+            {
+              "text": "A key driver to team success where individuals feel freedom to communicate without fear.",
+              "start": 224.1,
+              "end": 232.42
+            },
+            {
+              "text": "Research also shows that the number-one factor to job satisfaction is not our pay, but how valued and appreciated we feel.",
+              "start": 233.78,
+              "end": 243.54
+            }
+          ]
+        },
+        {
+          "start": 245.18,
+          "end": 254.22,
+          "lines": [
+            {
+              "text": "Sometimes we have to go slow to go fast.",
+              "start": 245.18,
+              "end": 248.58
+            },
+            {
+              "text": "And trust is an accelerator to business results.",
+              "start": 248.9,
+              "end": 254.22
+            }
+          ]
+        },
+        {
+          "start": 254.94,
+          "end": 264.1,
+          "lines": [
+            {
+              "text": "And we build trust when we take the time to connect.",
+              "start": 254.94,
+              "end": 259.5
+            },
+            {
+              "text": "What would it look like for this manager to connect?",
+              "start": 261.1,
+              "end": 264.1
+            }
+          ]
+        },
+        {
+          "start": 264.66,
+          "end": 280.7,
+          "lines": [
+            {
+              "text": "Because I see a lot of managers push without connection.",
+              "start": 264.66,
+              "end": 269.34
+            },
+            {
+              "text": "And what happens is that the behavior gets worse because correction without connection feels like rejection.",
+              "start": 269.98,
+              "end": 280.7
+            }
+          ]
+        },
+        {
+          "start": 282.42,
+          "end": 291.58,
+          "lines": [
+            {
+              "text": "Connection is what separates our work from our worth.",
+              "start": 282.42,
+              "end": 285.98
+            },
+            {
+              "text": "It's about valuing people not just for what they do, but who they are.",
+              "start": 285.98,
+              "end": 291.58
+            }
+          ]
+        },
+        {
+          "start": 293.1,
+          "end": 305.66,
+          "lines": [
+            {
+              "text": "The best practice here is when you use a tone of curiosity, you can say something like, \"I want you to know it's safe to share.\"",
+              "start": 293.1,
+              "end": 300.98
+            },
+            {
+              "text": "Or use open-ended questions like, \"Can you help me understand?\"",
+              "start": 301.46,
+              "end": 305.66
+            }
+          ]
+        },
+        {
+          "start": 305.98,
+          "end": 312.62,
+          "lines": [
+            {
+              "text": "Or use phrases like, \"I see you,\" \"I hear you.",
+              "start": 305.98,
+              "end": 310.5
+            },
+            {
+              "text": "That's hard.\"",
+              "start": 311.1,
+              "end": 312.62
+            }
+          ]
+        },
+        {
+          "start": 313.26,
+          "end": 322.94,
+          "lines": [
+            {
+              "text": "All while paraphrasing back to make the employee feel heard.",
+              "start": 313.26,
+              "end": 317.34
+            },
+            {
+              "text": "And when we do, the magic here is that we uncover the root issue.",
+              "start": 318.5,
+              "end": 322.94
+            }
+          ]
+        },
+        {
+          "start": 322.98,
+          "end": 328.22,
+          "lines": [
+            {
+              "text": "Maybe it's imposter syndrome.",
+              "start": 322.98,
+              "end": 325.34
+            },
+            {
+              "text": "Maybe it's a personal issue at play.",
+              "start": 325.38,
+              "end": 328.22
+            }
+          ]
+        },
+        {
+          "start": 328.66,
+          "end": 332.14,
+          "lines": [
+            {
+              "text": "What makes them feel valued?",
+              "start": 328.66,
+              "end": 330.34
+            },
+            {
+              "text": "What motivates them?",
+              "start": 330.38,
+              "end": 332.14
+            }
+          ]
+        },
+        {
+          "start": 332.46,
+          "end": 342.78,
+          "lines": [
+            {
+              "text": "All without fixing, lecturing, or using the information against them in any way.",
+              "start": 332.46,
+              "end": 337.46
+            },
+            {
+              "text": "It's about talking with them, not at them.",
+              "start": 338.58,
+              "end": 342.78
+            }
+          ]
+        },
+        {
+          "start": 343.74,
+          "end": 353.34,
+          "lines": [
+            {
+              "text": "And sometimes we find part of contributing to this resistance is actually us.",
+              "start": 343.74,
+              "end": 350.06
+            },
+            {
+              "text": "Lean in to that insight.",
+              "start": 351.1,
+              "end": 353.34
+            }
+          ]
+        },
+        {
+          "start": 353.74,
+          "end": 362.46,
+          "lines": [
+            {
+              "text": "It's a gift.",
+              "start": 353.74,
+              "end": 354.94
+            },
+            {
+              "text": "Instead of defending your intention, model owning your impact.",
+              "start": 356.5,
+              "end": 362.46
+            }
+          ]
+        },
+        {
+          "start": 362.86,
+          "end": 372.98,
+          "lines": [
+            {
+              "text": "Saying something like, \"It looks like I need to work on that\" goes a long way.",
+              "start": 362.86,
+              "end": 369.06
+            },
+            {
+              "text": "The first C, connect, is not a nice-to-have.",
+              "start": 369.5,
+              "end": 372.98
+            }
+          ]
+        },
+        {
+          "start": 373.02,
+          "end": 387.3,
+          "lines": [
+            {
+              "text": "Even if it takes more than one meeting, the only goal is to make an employee feel seen.",
+              "start": 373.02,
+              "end": 379.14
+            },
+            {
+              "text": "And while that's essential, not providing any developmental guidance is actually coddling.",
+              "start": 380.1,
+              "end": 387.3
+            }
+          ]
+        },
+        {
+          "start": 388.94,
+          "end": 399.54,
+          "lines": [
+            {
+              "text": "The second C is correct.",
+              "start": 388.94,
+              "end": 391.14
+            },
+            {
+              "text": "I once coached a brilliant COO, but he would redo his team's work instead of correcting them.",
+              "start": 392.34,
+              "end": 399.54
+            }
+          ]
+        },
+        {
+          "start": 400.38,
+          "end": 411.34,
+          "lines": [
+            {
+              "text": "His overfunctioning enabled their under-functioning.",
+              "start": 400.38,
+              "end": 404.9
+            },
+            {
+              "text": "The story he told himself was \"feedback was hurting people.\"",
+              "start": 406.06,
+              "end": 411.34
+            }
+          ]
+        },
+        {
+          "start": 412.3,
+          "end": 432.1,
+          "lines": [
+            {
+              "text": "But when you look at the definition of a manager, which is to steward the organization's goals through people, feedback given with psychological safety is actually empowering.",
+              "start": 412.3,
+              "end": 423.9
+            },
+            {
+              "text": "Now that we've separated work from worth, we can have a compassionate focus on behavior.",
+              "start": 425.02,
+              "end": 432.1
+            }
+          ]
+        },
+        {
+          "start": 433.22,
+          "end": 441.9,
+          "lines": [
+            {
+              "text": "Remember, we are correcting the behavior, not the person.",
+              "start": 433.22,
+              "end": 437.26
+            },
+            {
+              "text": "What would it look like for this manager to correct?",
+              "start": 438.66,
+              "end": 441.9
+            }
+          ]
+        },
+        {
+          "start": 443.06,
+          "end": 450.54,
+          "lines": [
+            {
+              "text": "Well, one thing I see a lot of managers do is hint.",
+              "start": 443.06,
+              "end": 448.54
+            },
+            {
+              "text": "Hinting doesn't work.",
+              "start": 449.1,
+              "end": 450.54
+            }
+          ]
+        },
+        {
+          "start": 451.7,
+          "end": 459.5,
+          "lines": [
+            {
+              "text": "Effective correction balances clarity and kindness.",
+              "start": 451.7,
+              "end": 457.18
+            },
+            {
+              "text": "No one can read your mind.",
+              "start": 458.18,
+              "end": 459.5
+            }
+          ]
+        },
+        {
+          "start": 459.94,
+          "end": 468.06,
+          "lines": [
+            {
+              "text": "Instead of saying \"deadlines are important,\" we can say \"The deadline was X.",
+              "start": 459.94,
+              "end": 466.3
+            },
+            {
+              "text": "This was submitted on Y.",
+              "start": 466.34,
+              "end": 468.06
+            }
+          ]
+        },
+        {
+          "start": 468.1,
+          "end": 483.1,
+          "lines": [
+            {
+              "text": "We need all deadlines met from now on because of a Z impact.\"",
+              "start": 468.1,
+              "end": 472.38
+            },
+            {
+              "text": "Authors Heen and Stone break down the psychology behind why we do this.",
+              "start": 477.86,
+              "end": 483.1
+            }
+          ]
+        },
+        {
+          "start": 483.14,
+          "end": 490.02,
+          "lines": [
+            {
+              "text": "The feedback sits at the intersection of two competing human needs.",
+              "start": 483.14,
+              "end": 486.74
+            },
+            {
+              "text": "On one hand, we want to learn and grow.",
+              "start": 486.78,
+              "end": 490.02
+            }
+          ]
+        },
+        {
+          "start": 490.06,
+          "end": 502.18,
+          "lines": [
+            {
+              "text": "On another hand, we want to be worthy and enough just the way we are, without change.",
+              "start": 490.06,
+              "end": 496.18
+            },
+            {
+              "text": "Vague feedback equals vague commitment equals zero chance of change.",
+              "start": 497.1,
+              "end": 502.18
+            }
+          ]
+        },
+        {
+          "start": 502.94,
+          "end": 513.22,
+          "lines": [
+            {
+              "text": "And no one is motivated by shame.",
+              "start": 502.94,
+              "end": 506.14
+            },
+            {
+              "text": "So managers are so much more successful when they use the word \"and\" instead of \"but.\"",
+              "start": 506.98,
+              "end": 513.22
+            }
+          ]
+        },
+        {
+          "start": 513.54,
+          "end": 524.9,
+          "lines": [
+            {
+              "text": "\"We\" instead of \"you.\"",
+              "start": 513.54,
+              "end": 516.3
+            },
+            {
+              "text": "\"Your client dedication is impressive and can we collaborate to improve communication?\"",
+              "start": 517.62,
+              "end": 524.9
+            }
+          ]
+        },
+        {
+          "start": 526.9,
+          "end": 543.42,
+          "lines": [
+            {
+              "text": "Unlike the ineffective feedback sandwich, the first C, connect, establishes enough trust for the second C, correct, which is that clear, kind guidance.",
+              "start": 526.9,
+              "end": 536.62
+            },
+            {
+              "text": "And because connect and correct is not a one-and-done -- the third C is cultivating.",
+              "start": 537.22,
+              "end": 543.42
+            }
+          ]
+        },
+        {
+          "start": 544.3,
+          "end": 554.02,
+          "lines": [
+            {
+              "text": "Just like a garden needs ongoing care to flourish, leadership potential is cultivated by ongoing coaching.",
+              "start": 544.3,
+              "end": 554.02
+            }
+          ]
+        },
+        {
+          "start": 555.26,
+          "end": 571.54,
+          "lines": [
+            {
+              "text": "Yet many managers will wait until the last minute to a year-end review to give vague feedback, which of course erodes trust.",
+              "start": 555.26,
+              "end": 564.46
+            },
+            {
+              "text": "Whereas research shows that real-time, informal, frequent feedback is far more effective.",
+              "start": 564.94,
+              "end": 571.54
+            }
+          ]
+        },
+        {
+          "start": 572.94,
+          "end": 583.26,
+          "lines": [
+            {
+              "text": "And when we ask our team open-ended coaching questions like, \"What do you think we should do?\"",
+              "start": 572.94,
+              "end": 579.26
+            },
+            {
+              "text": "it empowers a whole team to step up with solutions.",
+              "start": 579.3,
+              "end": 583.26
+            }
+          ]
+        },
+        {
+          "start": 583.82,
+          "end": 602.02,
+          "lines": [
+            {
+              "text": "Which unlocks the leadership potential of both our team as well as our own because we're trading in burnout for a culture of ownership.",
+              "start": 583.82,
+              "end": 592.86
+            },
+            {
+              "text": "This talk is actually not about feedback or the latest management trend.",
+              "start": 596.06,
+              "end": 602.02
+            }
+          ]
+        },
+        {
+          "start": 604.38,
+          "end": 620.54,
+          "lines": [
+            {
+              "text": "Connect, correct and cultivate are these three C’s that we may excel in one -- but the truth, they’re like a tripod.",
+              "start": 604.38,
+              "end": 613.58
+            },
+            {
+              "text": "And if we don't excel in all three of them, our ability to activate leadership falls apart.",
+              "start": 613.62,
+              "end": 620.54
+            }
+          ]
+        },
+        {
+          "start": 621.86,
+          "end": 631.06,
+          "lines": [
+            {
+              "text": "But you may think that EQ is fluff, that a focus on people moves us further away from the bottom line.",
+              "start": 621.86,
+              "end": 631.06
+            }
+          ]
+        },
+        {
+          "start": 631.98,
+          "end": 651.98,
+          "lines": [
+            {
+              "text": "However, I am in the trenches with leaders daily, and I know firsthand that emotional intelligence is our greatest strategy to results, because our work is only as good as our work with other people.",
+              "start": 631.98,
+              "end": 647.02
+            },
+            {
+              "text": "The secret to high performance is simple.",
+              "start": 648.78,
+              "end": 651.98
+            }
+          ]
+        },
+        {
+          "start": 653.42,
+          "end": 667.34,
+          "lines": [
+            {
+              "text": "We raise the intrinsic motivation and accountability of our teams when they first feel seen, heard and valued.",
+              "start": 653.42,
+              "end": 661.7
+            },
+            {
+              "text": "However, leadership isn't just about performance.",
+              "start": 664.18,
+              "end": 667.34
+            }
+          ]
+        },
+        {
+          "start": 669.06,
+          "end": 677.82,
+          "lines": [
+            {
+              "text": "I know firsthand that low EQ can create cycles of mistrust, disconnection and pain.",
+              "start": 669.06,
+              "end": 677.82
+            }
+          ]
+        },
+        {
+          "start": 681.38,
+          "end": 701.3,
+          "lines": [
+            {
+              "text": "I dream of a healthier world where we don't just push on the world-changing missions of our organizations, but the accelerated and unprecedented pace to results through non-human means.",
+              "start": 681.38,
+              "end": 695.5
+            },
+            {
+              "text": "We must anchor those achievements in what is uniquely human.",
+              "start": 695.94,
+              "end": 701.3
+            }
+          ]
+        },
+        {
+          "start": 701.82,
+          "end": 719.58,
+          "lines": [
+            {
+              "text": "Not replacing, but retaining connection as the cornerstone and the launching pad to all of our progress.",
+              "start": 701.82,
+              "end": 711.42
+            },
+            {
+              "text": "I believe we can raise the emotional intelligence of entire workplaces to make them as kind as they are effective.",
+              "start": 712.38,
+              "end": 719.58
+            }
+          ]
+        },
+        {
+          "start": 720.18,
+          "end": 730.22,
+          "lines": [
+            {
+              "text": "To create an impact that's both measurable and meaningful.",
+              "start": 720.18,
+              "end": 724.98
+            },
+            {
+              "text": "We're not just leaders, we're cycle breakers.",
+              "start": 726.26,
+              "end": 730.22
+            }
+          ]
+        },
+        {
+          "start": 730.86,
+          "end": 747.38,
+          "lines": [
+            {
+              "text": "So today I'm asking you, what kind of legacy do you want to leave as a leader?",
+              "start": 730.86,
+              "end": 737.1
+            },
+            {
+              "text": "Will it be defined solely by the \"what,\" the bottom-line goals, or will it transcend to the \"how?\"",
+              "start": 738.14,
+              "end": 747.38
+            }
+          ]
+        },
+        {
+          "start": 747.42,
+          "end": 759.22,
+          "lines": [
+            {
+              "text": "How, through connection, we created an impact that truly mattered.",
+              "start": 747.42,
+              "end": 753.42
+            },
+            {
+              "text": "Together, we can architect the leadership of tomorrow.",
+              "start": 754.46,
+              "end": 759.22
+            }
+          ]
+        },
+        {
+          "start": 759.66,
+          "end": 761.06,
+          "lines": [
+            {
+              "text": "Thank you.",
+              "start": 759.66,
+              "end": 761.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "myjZrpMVLRE",
+      "url": "https://www.youtube.com/watch?v=myjZrpMVLRE",
+      "title": "Nicholas Epley: The simple habit for a happier social life",
+      "tag": "Social life",
+      "category": "TED 강연",
+      "segments": [
+        {
+          "start": 4.3,
+          "end": 20.89,
+          "lines": [
+            {
+              "text": "There's a fundamental paradox right at the core of human life.",
+              "start": 4.3,
+              "end": 7.51
+            },
+            {
+              "text": "On the one hand, decades of research have shown that we are highly social creatures who are made happier and healthier by reaching out and connecting with other people in the moments, the days, the weeks, the months and the years of our lives.",
+              "start": 7.87,
+              "end": 20.89
+            }
+          ]
+        },
+        {
+          "start": 21.65,
+          "end": 28.53,
+          "lines": [
+            {
+              "text": "And yet, on the other hand, just look around a little bit.",
+              "start": 21.65,
+              "end": 25.79
+            },
+            {
+              "text": "It's not clear that all of us have gotten this memo.",
+              "start": 25.82,
+              "end": 28.53
+            }
+          ]
+        },
+        {
+          "start": 28.83,
+          "end": 36.73,
+          "lines": [
+            {
+              "text": "Every day there are opportunities, big and small, to reach out and connect with other people that we choose not to take.",
+              "start": 28.83,
+              "end": 35
+            },
+            {
+              "text": "We avoid talking to strangers.",
+              "start": 35,
+              "end": 36.73
+            }
+          ]
+        },
+        {
+          "start": 37.13,
+          "end": 45.48,
+          "lines": [
+            {
+              "text": "We lean back and type to each other rather than leaning in and talking to each other.",
+              "start": 37.13,
+              "end": 41.17
+            },
+            {
+              "text": "Once talking, we stick to shallow talk, to small talk, rather than going deeper.",
+              "start": 41.61,
+              "end": 45.48
+            }
+          ]
+        },
+        {
+          "start": 45.51,
+          "end": 51.05,
+          "lines": [
+            {
+              "text": "We feel grateful but don’t express it.",
+              "start": 45.51,
+              "end": 47.38
+            },
+            {
+              "text": "[We] want to reach out to offer support to someone in need but hold back.",
+              "start": 47.38,
+              "end": 51.05
+            }
+          ]
+        },
+        {
+          "start": 51.08,
+          "end": 63.66,
+          "lines": [
+            {
+              "text": "We’d like to be open and honest in our relationships, but all too often keep our true selves to ourselves.",
+              "start": 51.08,
+              "end": 56.62
+            },
+            {
+              "text": "If being socially connected is so darn good for us, then why do we so often seem to be so darn unsocial?",
+              "start": 57.22,
+              "end": 63.66
+            }
+          ]
+        },
+        {
+          "start": 64.86,
+          "end": 74.87,
+          "lines": [
+            {
+              "text": "This paradox hit me like a freight train one morning while I was on an actual train, commuting into my office at the University of Chicago, where I work as a professor of behavioral science.",
+              "start": 64.86,
+              "end": 74.87
+            }
+          ]
+        },
+        {
+          "start": 74.91,
+          "end": 88.32,
+          "lines": [
+            {
+              "text": "That morning on the train began like every other I'd been on for years beforehand -- all filing onto the train, everybody in a desperate search for their own little acreage of solitude right along the window.",
+              "start": 74.91,
+              "end": 85.25
+            },
+            {
+              "text": "I think we'd have sat outside the train if that was possible.",
+              "start": 85.28,
+              "end": 88.32
+            }
+          ]
+        },
+        {
+          "start": 89.72,
+          "end": 98.1,
+          "lines": [
+            {
+              "text": "Heaven forbid you’d sit next to somebody and start a chitchat -- of course, you creep.",
+              "start": 89.72,
+              "end": 93.89
+            },
+            {
+              "text": "Or worse yet, somebody would come and sit down next to you -- surely some kind of weirdo.",
+              "start": 93.89,
+              "end": 98.1
+            }
+          ]
+        },
+        {
+          "start": 98.1,
+          "end": 107.97,
+          "lines": [
+            {
+              "text": "But then there we all were.",
+              "start": 98.1,
+              "end": 99.86
+            },
+            {
+              "text": "Highly social creatures, made happier and healthier by connecting with other people, now sitting hip-to-hip with another perfectly reasonable human being.",
+              "start": 99.9,
+              "end": 107.97
+            }
+          ]
+        },
+        {
+          "start": 108.01,
+          "end": 117.38,
+          "lines": [
+            {
+              "text": "And what did we do for the next 30 to 45 minutes with each other?",
+              "start": 108.01,
+              "end": 112.18
+            },
+            {
+              "text": "We chose to ignore each other.",
+              "start": 115.91,
+              "end": 117.38
+            }
+          ]
+        },
+        {
+          "start": 117.41,
+          "end": 130.96,
+          "lines": [
+            {
+              "text": "You could have heard a pin drop that morning.",
+              "start": 117.41,
+              "end": 119.82
+            },
+            {
+              "text": "That morning, a woman, who was about 15 to 20 years older than I was at the time, sat down next to me, dressed professionally for work and wearing just this fabulous, killer, stylish red hat.",
+              "start": 120.62,
+              "end": 130.96
+            }
+          ]
+        },
+        {
+          "start": 131,
+          "end": 141.17,
+          "lines": [
+            {
+              "text": "I'm never going to forget this red hat.",
+              "start": 131,
+              "end": 133.26
+            },
+            {
+              "text": "I put other people in experiments for a living, but this morning I decided to put myself in an experiment and pay close attention to what happened.",
+              "start": 134.2,
+              "end": 141.17
+            }
+          ]
+        },
+        {
+          "start": 141.21,
+          "end": 152.68,
+          "lines": [
+            {
+              "text": "Instead of keeping to myself and doomscrolling on my phone or checking my email, I'd try to have a conversation with her, try to help us get to know each other a little bit.",
+              "start": 141.21,
+              "end": 149.35
+            },
+            {
+              "text": "Turn this 30-minute dull ride into something a little more interesting.",
+              "start": 149.35,
+              "end": 152.68
+            }
+          ]
+        },
+        {
+          "start": 152.72,
+          "end": 162.99,
+          "lines": [
+            {
+              "text": "Turn a stranger into a momentary acquaintance.",
+              "start": 152.72,
+              "end": 155.22
+            },
+            {
+              "text": "The second I had that thought about that experiment, my brain started screaming at me all the reasons why this was a really, really bad idea.",
+              "start": 155.25,
+              "end": 162.99
+            }
+          ]
+        },
+        {
+          "start": 163.03,
+          "end": 169.3,
+          "lines": [
+            {
+              "text": "\"Clearly, she doesn't want to talk to you, otherwise she'd already be talking to you.",
+              "start": 163.03,
+              "end": 167.1
+            },
+            {
+              "text": "She's going to think you're some kind of creep.",
+              "start": 167.1,
+              "end": 169.3
+            }
+          ]
+        },
+        {
+          "start": 169.3,
+          "end": 183.41,
+          "lines": [
+            {
+              "text": "You probably don't even have anything in common with her, and you’ve got nothing to even start with, smarty pants.” Nevertheless, I decided the experiment must continue, so I ignored that part of my brain.",
+              "start": 169.3,
+              "end": 179.78
+            },
+            {
+              "text": "I turned to her and I said, \"Hi, my name is Nick.",
+              "start": 179.78,
+              "end": 183.41
+            }
+          ]
+        },
+        {
+          "start": 183.71,
+          "end": 186.68,
+          "lines": [
+            {
+              "text": "I love your hat.",
+              "start": 183.71,
+              "end": 185.08
+            },
+            {
+              "text": "I have one just like it.\"",
+              "start": 185.12,
+              "end": 186.68
+            }
+          ]
+        },
+        {
+          "start": 188.29,
+          "end": 197.26,
+          "lines": [
+            {
+              "text": "Yeah, huh?",
+              "start": 188.29,
+              "end": 189.49
+            },
+            {
+              "text": "Now look, I know that’s not going to make its way into the conversation-starter Hall of Fame, but it didn't seem to matter.",
+              "start": 191.39,
+              "end": 197.26
+            }
+          ]
+        },
+        {
+          "start": 197.26,
+          "end": 205.24,
+          "lines": [
+            {
+              "text": "She turned to me, a big smile, her face all lit up -- she looked like a different person.",
+              "start": 197.26,
+              "end": 202.43
+            },
+            {
+              "text": "And from there, the conversation just flowed really easily.",
+              "start": 202.47,
+              "end": 205.24
+            }
+          ]
+        },
+        {
+          "start": 205.24,
+          "end": 212.41,
+          "lines": [
+            {
+              "text": "[We] found things that we had in common, we talked about our families, our work, our hope for the future.",
+              "start": 205.24,
+              "end": 210.24
+            },
+            {
+              "text": "30-minute train ride just went like that.",
+              "start": 210.27,
+              "end": 212.41
+            }
+          ]
+        },
+        {
+          "start": 212.44,
+          "end": 227.49,
+          "lines": [
+            {
+              "text": "I was done, and I got up to leave, and she stopped me and she said, \"Thank you so much for taking the time to talk with me this morning.\"",
+              "start": 212.44,
+              "end": 218.88
+            },
+            {
+              "text": "I've forgotten a lot of details about how that conversation actually went, but I've never forgotten how that conversation made me feel.",
+              "start": 220.78,
+              "end": 227.49
+            }
+          ]
+        },
+        {
+          "start": 227.49,
+          "end": 236.77,
+          "lines": [
+            {
+              "text": "Not just good, but surprisingly good.",
+              "start": 227.49,
+              "end": 230.43
+            },
+            {
+              "text": "The contrast between my beliefs about how that would go and how it actually went was pretty sizable.",
+              "start": 230.83,
+              "end": 236.77
+            }
+          ]
+        },
+        {
+          "start": 237.47,
+          "end": 246.74,
+          "lines": [
+            {
+              "text": "And there ... in that gap was a potential resolution to this paradox.",
+              "start": 237.47,
+              "end": 242.64
+            },
+            {
+              "text": "Social connection, after all, isn't something that just happens to us.",
+              "start": 243.21,
+              "end": 246.74
+            }
+          ]
+        },
+        {
+          "start": 246.78,
+          "end": 253.82,
+          "lines": [
+            {
+              "text": "It's a choice we make.",
+              "start": 246.78,
+              "end": 247.95
+            },
+            {
+              "text": "It's a choice we make at times to reach out and approach other people, to engage with them, or to hold back and avoid them.",
+              "start": 247.98,
+              "end": 253.82
+            }
+          ]
+        },
+        {
+          "start": 253.82,
+          "end": 266.83,
+          "lines": [
+            {
+              "text": "It might, in fact, arguably be the choice we make, the most important choice we make, because how we make that choice over and over and over again in our lives so routinely determines so much about our happiness, our health and our success in life.",
+              "start": 253.82,
+              "end": 266.83
+            }
+          ]
+        },
+        {
+          "start": 267.26,
+          "end": 283.95,
+          "lines": [
+            {
+              "text": "But highly social creatures like us might avoid reaching out and engaging with other people mistakenly if we underestimate just how positively our attempts to connect might turn out.",
+              "start": 267.26,
+              "end": 277.88
+            },
+            {
+              "text": "That morning changed both my career and my character.",
+              "start": 279.74,
+              "end": 283.95
+            }
+          ]
+        },
+        {
+          "start": 284.58,
+          "end": 299.5,
+          "lines": [
+            {
+              "text": "In my career, my wonderful collaborators and I have now conducted well over 100 experiments with over 30,000 people of all ages and nationalities, and found that my tendency to be overly pessimistic is not unique to me.",
+              "start": 284.58,
+              "end": 299.5
+            }
+          ]
+        },
+        {
+          "start": 299.53,
+          "end": 307.97,
+          "lines": [
+            {
+              "text": "It's something we see over and over again in varying shades and magnitudes across different contexts that vary a little bit across people -- but that consistent signal is there.",
+              "start": 299.53,
+              "end": 307.97
+            }
+          ]
+        },
+        {
+          "start": 308.34,
+          "end": 327.16,
+          "lines": [
+            {
+              "text": "In one of our very first experiments, we went back to a train station on the line that I ride into work every day, and we recruited a group of commuters, and we asked them to predict how they would feel on the train that morning if they kept to themselves in solitude, or if they turned to the person who sat next to them that morning and tried to have a conversation, tried to connect.",
+              "start": 308.34,
+              "end": 327.16
+            }
+          ]
+        },
+        {
+          "start": 327.16,
+          "end": 341.07,
+          "lines": [
+            {
+              "text": "The results here were crystal clear: people thought talking to a stranger was a really bad idea.",
+              "start": 327.16,
+              "end": 331.7
+            },
+            {
+              "text": "They thought they would have a more pleasant experience that left them feeling happier if they kept to themselves in solitude, than if they turned to the stranger to connect with them on the train.",
+              "start": 331.73,
+              "end": 341.07
+            }
+          ]
+        },
+        {
+          "start": 341.11,
+          "end": 355.82,
+          "lines": [
+            {
+              "text": "But when we recruited another sample of people and actually randomly assigned them in an experiment to either keep to themselves in solitude or to try to connect with a person sitting next to them -- rather than just imagine it, to actually do it -- we found exactly the opposite results.",
+              "start": 341.11,
+              "end": 355.82
+            }
+          ]
+        },
+        {
+          "start": 356.35,
+          "end": 371.2,
+          "lines": [
+            {
+              "text": "The people we had instructed randomly to keep to themselves that morning reported having a less pleasant and happy commute than those we asked to connect with the person sitting next to them.",
+              "start": 356.35,
+              "end": 366.56
+            },
+            {
+              "text": "People’s beliefs about social interaction here weren’t just wrong -- they were precisely backward.",
+              "start": 366.56,
+              "end": 371.2
+            }
+          ]
+        },
+        {
+          "start": 371.2,
+          "end": 382.81,
+          "lines": [
+            {
+              "text": "But notice that if you believe that talking with a stranger would suck, you wouldn't try it, and then you'd never find out that you might be wrong about that.",
+              "start": 371.2,
+              "end": 379.28
+            },
+            {
+              "text": "Pessimistic beliefs in that way are self-fulfilling.",
+              "start": 379.31,
+              "end": 382.81
+            }
+          ]
+        },
+        {
+          "start": 384.18,
+          "end": 395.09,
+          "lines": [
+            {
+              "text": "This little experiment was just the tip of a very large iceberg that came into view for us in many ensuing years.",
+              "start": 384.18,
+              "end": 390.75
+            },
+            {
+              "text": "We've now seen this tendency to be overly pessimistic over and over and over again.",
+              "start": 390.79,
+              "end": 395.09
+            }
+          ]
+        },
+        {
+          "start": 395.13,
+          "end": 411.71,
+          "lines": [
+            {
+              "text": "We’ve now had more than 4,500 people not just have conversations with a stranger, but to have deep conversations with a stranger and talk about things like, \"Can you tell me what you're most grateful for in your life?\"",
+              "start": 395.13,
+              "end": 407.57
+            },
+            {
+              "text": "Or \"Can you tell me about one of the last times you cried in front of another person?\"",
+              "start": 407.57,
+              "end": 411.71
+            }
+          ]
+        },
+        {
+          "start": 412.34,
+          "end": 430.93,
+          "lines": [
+            {
+              "text": "So when I show people these questions in these experiments, I can feel a sense of dread spreading over the room when I put these questions up on the board, people start eyeing the exits -- wishing they hadn't come to this session today.",
+              "start": 412.34,
+              "end": 423.82
+            },
+            {
+              "text": "But then when I actually put them into the experiments, in the conversation, the trouble I have is getting them to come back.",
+              "start": 423.85,
+              "end": 430.93
+            }
+          ]
+        },
+        {
+          "start": 430.96,
+          "end": 449.28,
+          "lines": [
+            {
+              "text": "These conversations go much better than people expect that they will.",
+              "start": 430.96,
+              "end": 434.7
+            },
+            {
+              "text": "This is also true when we have people who disagree about the most divisive political issues that divide us today talk about those political disagreements -- even those political disagreements, go better than people expect them to.",
+              "start": 435.17,
+              "end": 449.28
+            }
+          ]
+        },
+        {
+          "start": 449.81,
+          "end": 464.09,
+          "lines": [
+            {
+              "text": "We find in our research that we have tremendous power to create meaningful social connection every day of our lives.",
+              "start": 449.81,
+              "end": 456.72
+            },
+            {
+              "text": "But if we underestimate how positively our efforts to reach out and connect with someone will go, we won't use that power that we have.",
+              "start": 456.75,
+              "end": 464.09
+            }
+          ]
+        },
+        {
+          "start": 466.86,
+          "end": 482.35,
+          "lines": [
+            {
+              "text": "We see this tendency for misplaced pessimism also showing up beyond conversation.",
+              "start": 466.86,
+              "end": 471.34
+            },
+            {
+              "text": "When we ask people to think of a compliment they could give to their friend and then actually deliver that compliment to their friend, they leave their friend feeling more uplifted than the complimenters imagined they would.",
+              "start": 471.94,
+              "end": 482.35
+            }
+          ]
+        },
+        {
+          "start": 482.38,
+          "end": 490.29,
+          "lines": [
+            {
+              "text": "When we ask people to express their gratitude to someone they love, they leave their recipients feeling even better than the expressers predict they would.",
+              "start": 482.38,
+              "end": 490.29
+            }
+          ]
+        },
+        {
+          "start": 491.09,
+          "end": 508.34,
+          "lines": [
+            {
+              "text": "Performing random acts of kindness, reaching out and asking for help, expressing support to someone in need, being open and honest in our relationships all tend to be received, on average, more favorably, more positively by the people we're reaching out to than the people who are reaching out expected to.",
+              "start": 491.09,
+              "end": 508.34
+            }
+          ]
+        },
+        {
+          "start": 510.24,
+          "end": 525.46,
+          "lines": [
+            {
+              "text": "How much more time would you spend reaching out to lift somebody up if you knew just how much good in that moment you could actually do?",
+              "start": 510.24,
+              "end": 518.02
+            },
+            {
+              "text": "No research I've ever been involved with has changed the way I live my life more than this.",
+              "start": 520.58,
+              "end": 525.46
+            }
+          ]
+        },
+        {
+          "start": 526.56,
+          "end": 531.7,
+          "lines": [
+            {
+              "text": "My train rides are almost never silent anymore.",
+              "start": 526.56,
+              "end": 529.03
+            },
+            {
+              "text": "I met amazing people on planes and in cabs.",
+              "start": 529.06,
+              "end": 531.7
+            }
+          ]
+        },
+        {
+          "start": 531.86,
+          "end": 547.88,
+          "lines": [
+            {
+              "text": "Even just walking around town is more pleasant for me, whether I’m on campus or [at] work or in a grocery store, because I’ve made a habit of walking around with my head up smiling and saying hello to other people, and I get, in return, a lot more smiles and hellos when I'm walking around.",
+              "start": 531.86,
+              "end": 545.34
+            },
+            {
+              "text": "When I feel grateful, I write a note and send it off.",
+              "start": 545.34,
+              "end": 547.88
+            }
+          ]
+        },
+        {
+          "start": 547.91,
+          "end": 556.85,
+          "lines": [
+            {
+              "text": "When I need help, I’m less reluctant to ask for it.",
+              "start": 547.91,
+              "end": 550.31
+            },
+            {
+              "text": "When I know someone needs some support, I’m not as embarrassed to reach out and offer it -- even if there's nothing I can do in that moment.",
+              "start": 550.31,
+              "end": 556.85
+            }
+          ]
+        },
+        {
+          "start": 556.85,
+          "end": 567.33,
+          "lines": [
+            {
+              "text": "It's made me a more open, friendlier person and as a result, changed all of my relationships.",
+              "start": 556.85,
+              "end": 561.69
+            },
+            {
+              "text": "I've turned countless strangers into friends or into acquaintances at least -- even if just for a moment.",
+              "start": 561.69,
+              "end": 567.33
+            }
+          ]
+        },
+        {
+          "start": 567.97,
+          "end": 571.34,
+          "lines": [
+            {
+              "text": "My friendships are better.",
+              "start": 567.97,
+              "end": 569.67
+            },
+            {
+              "text": "I think my marriage is stronger.",
+              "start": 569.7,
+              "end": 571.34
+            }
+          ]
+        },
+        {
+          "start": 572.5,
+          "end": 577.34,
+          "lines": [
+            {
+              "text": "I think I'm a better father.",
+              "start": 572.5,
+              "end": 574.2
+            },
+            {
+              "text": "These changes didn't happen to me overnight.",
+              "start": 575.27,
+              "end": 577.34
+            }
+          ]
+        },
+        {
+          "start": 577.34,
+          "end": 583.71,
+          "lines": [
+            {
+              "text": "They happened, of course, slowly, over time.",
+              "start": 577.34,
+              "end": 579.41
+            },
+            {
+              "text": "Just like you move a mountain -- not by pushing it all at once, but one shovelful at a time.",
+              "start": 579.41,
+              "end": 583.71
+            }
+          ]
+        },
+        {
+          "start": 583.75,
+          "end": 589.09,
+          "lines": [
+            {
+              "text": "The way you change how you approach other people happens slowly, over time.",
+              "start": 583.75,
+              "end": 587.38
+            },
+            {
+              "text": "One choice after another.",
+              "start": 587.42,
+              "end": 589.09
+            }
+          ]
+        },
+        {
+          "start": 589.12,
+          "end": 600.46,
+          "lines": [
+            {
+              "text": "One small choice, as you learn where your mistaken beliefs about other people might be holding you back needlessly.",
+              "start": 589.12,
+              "end": 595.29
+            },
+            {
+              "text": "And then you develop habits that then become part of your character and part of who you are.",
+              "start": 595.33,
+              "end": 600.46
+            }
+          ]
+        },
+        {
+          "start": 601.87,
+          "end": 612.74,
+          "lines": [
+            {
+              "text": "Overcoming my misplaced pessimism, though, has also affected how I've made some big choices that I have been a part of in my life, including when pain struck my family.",
+              "start": 601.87,
+              "end": 612.74
+            }
+          ]
+        },
+        {
+          "start": 614.61,
+          "end": 630.56,
+          "lines": [
+            {
+              "text": "So 10 years ago, my wife Jen was three months into her pregnancy when we learned that our daughter, who we had already named Sophie, had Down syndrome.",
+              "start": 614.61,
+              "end": 625.62
+            },
+            {
+              "text": "And three months after that, we learned that our daughter had died before she could be born.",
+              "start": 625.62,
+              "end": 630.56
+            }
+          ]
+        },
+        {
+          "start": 631.9,
+          "end": 635.1,
+          "lines": [
+            {
+              "text": "Losing our daughter was horrible.",
+              "start": 631.9,
+              "end": 633.53
+            },
+            {
+              "text": "It was absolutely horrible.",
+              "start": 633.56,
+              "end": 635.1
+            }
+          ]
+        },
+        {
+          "start": 635.7,
+          "end": 651.58,
+          "lines": [
+            {
+              "text": "And we mourned that loss for many months, until one morning Jen and I were talking and she asked whether we could, whether we should, whether we might consider adopting a child with Down syndrome.",
+              "start": 635.7,
+              "end": 648.51
+            },
+            {
+              "text": "And there it was, the choice.",
+              "start": 649.88,
+              "end": 651.58
+            }
+          ]
+        },
+        {
+          "start": 652.92,
+          "end": 659.12,
+          "lines": [
+            {
+              "text": "Do you reach out and connect with someone?",
+              "start": 652.92,
+              "end": 654.92
+            },
+            {
+              "text": "Do you engage with them, do you approach, or do you hold back and avoid it?",
+              "start": 654.95,
+              "end": 659.12
+            }
+          ]
+        },
+        {
+          "start": 660.59,
+          "end": 668.03,
+          "lines": [
+            {
+              "text": "Jen and I had already adopted two children into our family, and so we had some sense of how this might go.",
+              "start": 660.59,
+              "end": 665.56
+            },
+            {
+              "text": "Nevertheless, this choice caught me off guard.",
+              "start": 665.6,
+              "end": 668.03
+            }
+          ]
+        },
+        {
+          "start": 668.07,
+          "end": 671.03,
+          "lines": [
+            {
+              "text": "I wasn't there at that moment.",
+              "start": 668.07,
+              "end": 669.53
+            },
+            {
+              "text": "My mind wasn't there yet.",
+              "start": 669.53,
+              "end": 671.03
+            }
+          ]
+        },
+        {
+          "start": 671.07,
+          "end": 682.55,
+          "lines": [
+            {
+              "text": "And so I had all the pessimistic fears that you might have when you think about connecting with a stranger, or having a deep conversation with someone, except multiplied by 100 or 1,000.",
+              "start": 671.07,
+              "end": 680.34
+            },
+            {
+              "text": "How well would this go?",
+              "start": 680.71,
+              "end": 682.55
+            }
+          ]
+        },
+        {
+          "start": 682.58,
+          "end": 693.82,
+          "lines": [
+            {
+              "text": "Would we be able to handle this?",
+              "start": 682.58,
+              "end": 684.25
+            },
+            {
+              "text": "Would we be able to connect, to love, to parent the stranger we were bringing into our lives with all of these challenges that seemed to me at the time very hard and difficult.",
+              "start": 684.25,
+              "end": 693.82
+            }
+          ]
+        },
+        {
+          "start": 693.86,
+          "end": 701.33,
+          "lines": [
+            {
+              "text": "How would this child respond to us?",
+              "start": 693.86,
+              "end": 696.09
+            },
+            {
+              "text": "My first thought was, I don't think we can do this.",
+              "start": 697.76,
+              "end": 701.33
+            }
+          ]
+        },
+        {
+          "start": 701.36,
+          "end": 708.91,
+          "lines": [
+            {
+              "text": "I'm not sure I can do this.",
+              "start": 701.36,
+              "end": 703.03
+            },
+            {
+              "text": "But my second thought then started turning to my data, as researchers will tell you, can happen.",
+              "start": 703.9,
+              "end": 708.91
+            }
+          ]
+        },
+        {
+          "start": 709.84,
+          "end": 727.59,
+          "lines": [
+            {
+              "text": "And I started thinking about thousands and thousands of data points, of people underestimating the joys they would experience when they reach out to engage with, to connect with, to pull someone else close to them.",
+              "start": 709.84,
+              "end": 721.69
+            },
+            {
+              "text": "And it gave me data-driven courage that, yeah, we can do this together.",
+              "start": 722.65,
+              "end": 727.59
+            }
+          ]
+        },
+        {
+          "start": 727.62,
+          "end": 732.33,
+          "lines": [
+            {
+              "text": "I happened to marry a superhero, too.",
+              "start": 727.62,
+              "end": 730.16
+            },
+            {
+              "text": "We can do this together.",
+              "start": 730.56,
+              "end": 732.33
+            }
+          ]
+        },
+        {
+          "start": 732.66,
+          "end": 736.07,
+          "lines": [
+            {
+              "text": "And it won't just be good.",
+              "start": 732.66,
+              "end": 734.3
+            },
+            {
+              "text": "I bet it'll be surprisingly good.",
+              "start": 734.3,
+              "end": 736.07
+            }
+          ]
+        },
+        {
+          "start": 737.57,
+          "end": 758.52,
+          "lines": [
+            {
+              "text": "And so about a year after that, Jen and I boarded a flight to China with our four other children, where we were going to meet Lindsey, two years old, born to a woman we will never meet, with big dark eyes and just a relentless smile, despite a really, really hard start in her life.",
+              "start": 737.57,
+              "end": 758.52
+            }
+          ]
+        },
+        {
+          "start": 759.62,
+          "end": 769.17,
+          "lines": [
+            {
+              "text": "We reached out to Lindsey and Lindsey reached back to us.",
+              "start": 759.62,
+              "end": 764.19
+            },
+            {
+              "text": "She's been bringing love and smiles like that into our lives for years since.",
+              "start": 764.66,
+              "end": 769.17
+            }
+          ]
+        },
+        {
+          "start": 769.8,
+          "end": 776.31,
+          "lines": [
+            {
+              "text": "Now I want to be clear, raising a child with an intellectual disability is hard.",
+              "start": 769.8,
+              "end": 775.11
+            },
+            {
+              "text": "It's really hard.",
+              "start": 775.14,
+              "end": 776.31
+            }
+          ]
+        },
+        {
+          "start": 776.34,
+          "end": 779.58,
+          "lines": [
+            {
+              "text": "Lindsey is not just one handful.",
+              "start": 776.34,
+              "end": 777.87
+            },
+            {
+              "text": "She is both arms completely full.",
+              "start": 777.87,
+              "end": 779.58
+            }
+          ]
+        },
+        {
+          "start": 781.18,
+          "end": 798.9,
+          "lines": [
+            {
+              "text": "But she's also enriched and blessed our lives so far beyond what my pessimistic expectations beforehand ever possibly could have imagined.",
+              "start": 781.18,
+              "end": 789.92
+            },
+            {
+              "text": "Connecting with other people is one of the most consistently enjoyable, enlightening and enriching experiences we'll ever have.",
+              "start": 792.86,
+              "end": 798.9
+            }
+          ]
+        },
+        {
+          "start": 798.9,
+          "end": 812.18,
+          "lines": [
+            {
+              "text": "And yet, all too often, our choice to reach out and connect with somebody is thwarted by overly pessimistic fears about how other people might respond.",
+              "start": 798.9,
+              "end": 806
+            },
+            {
+              "text": "Being overly pessimistic doesn't mean we should reach out all the time, or that it always turns out well; of course not.",
+              "start": 806,
+              "end": 812.18
+            }
+          ]
+        },
+        {
+          "start": 812.18,
+          "end": 818.92,
+          "lines": [
+            {
+              "text": "It means we tend to underestimate the likelihood that it will turn out well, and as a result, we tend to hold ourselves back a little too often.",
+              "start": 812.18,
+              "end": 818.92
+            }
+          ]
+        },
+        {
+          "start": 818.92,
+          "end": 837,
+          "lines": [
+            {
+              "text": "I've found in my life and in my research that testing some of those beliefs that hold us back can reveal places where we're making mistakes about other people and show us how to reach out, empower us to reach out a little bit more often than we might otherwise, to make both our own lives and those we reach out to a little bit better.",
+              "start": 818.92,
+              "end": 837
+            }
+          ]
+        },
+        {
+          "start": 837.83,
+          "end": 843.54,
+          "lines": [
+            {
+              "text": "You want to change your life for the better?",
+              "start": 837.83,
+              "end": 840.17
+            },
+            {
+              "text": "I suggest keeping some data-driven courage in mind.",
+              "start": 840.6,
+              "end": 843.54
+            }
+          ]
+        },
+        {
+          "start": 844.01,
+          "end": 848.58,
+          "lines": [
+            {
+              "text": "And when in doubt, reach out.",
+              "start": 844.01,
+              "end": 846.74
+            },
+            {
+              "text": "Thank you so much.",
+              "start": 847.14,
+              "end": 848.58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a4sq1CKPl0E",
+      "url": "https://www.youtube.com/watch?v=a4sq1CKPl0E",
+      "title": "Jim VandeHei: 5 practical ways to take control of your life",
+      "tag": "Take control",
+      "category": "TED 강연",
+      "segments": [
+        {
+          "start": 3.87,
+          "end": 16.08,
+          "lines": [
+            {
+              "text": "I want you to spend the next 10 minutes being absurdly self-indulgent, which is advice I would almost never otherwise give people.",
+              "start": 3.87,
+              "end": 12.28
+            },
+            {
+              "text": "I want you to not think about the things you can't control.",
+              "start": 12.64,
+              "end": 16.08
+            }
+          ]
+        },
+        {
+          "start": 16.11,
+          "end": 21.75,
+          "lines": [
+            {
+              "text": "AI, politics, your parents, your social media feed, your Tinder alerts.",
+              "start": 16.11,
+              "end": 21.75
+            }
+          ]
+        },
+        {
+          "start": 22.95,
+          "end": 36.8,
+          "lines": [
+            {
+              "text": "By locking in on you for the next 600 seconds, I'm very confident that you're going to walk away with what I think is the single best hack for longevity, purpose and living the type of lives that we want to live.",
+              "start": 22.95,
+              "end": 36.8
+            }
+          ]
+        },
+        {
+          "start": 37.87,
+          "end": 51.75,
+          "lines": [
+            {
+              "text": "First, who is this middle-aged dude preaching a gospel of self-indulgence?",
+              "start": 37.87,
+              "end": 43.51
+            },
+            {
+              "text": "Well, the 20-year-old version of me, I'm very confident, was a much less impressive version of you.",
+              "start": 44.34,
+              "end": 51.75
+            }
+          ]
+        },
+        {
+          "start": 52.68,
+          "end": 61.43,
+          "lines": [
+            {
+              "text": "Three years into college, I had a 1.491 grade point average that I was dragging around.",
+              "start": 52.68,
+              "end": 58.06
+            },
+            {
+              "text": "I was smoking a pack of Camel Lights a day.",
+              "start": 58.09,
+              "end": 61.43
+            }
+          ]
+        },
+        {
+          "start": 61.46,
+          "end": 67.36,
+          "lines": [
+            {
+              "text": "I was drinking prolifically.",
+              "start": 61.46,
+              "end": 63.29
+            },
+            {
+              "text": "At night, I was delivering pizzas in my diesel VW Rabbit.",
+              "start": 63.33,
+              "end": 67.36
+            }
+          ]
+        },
+        {
+          "start": 68.2,
+          "end": 82.35,
+          "lines": [
+            {
+              "text": "I was remarkably unhealthy, and I was remarkably unremarkable.",
+              "start": 68.2,
+              "end": 72.9
+            },
+            {
+              "text": "Within a decade, I'm interviewing presidents, I’m covering the White House for The Wall Street Journal and The Washington Post.",
+              "start": 73.47,
+              "end": 82.35
+            }
+          ]
+        },
+        {
+          "start": 82.35,
+          "end": 88.72,
+          "lines": [
+            {
+              "text": "Soon after, I’m starting and running companies. First Politico, then Axios.",
+              "start": 82.35,
+              "end": 87.15
+            },
+            {
+              "text": "So what the hell happened?",
+              "start": 87.15,
+              "end": 88.72
+            }
+          ]
+        },
+        {
+          "start": 89.75,
+          "end": 105.2,
+          "lines": [
+            {
+              "text": "And in those dark times and in now, some very good times, I really tried to become a student of what does it take to be successful and what makes great people great?",
+              "start": 89.75,
+              "end": 101.17
+            },
+            {
+              "text": "What brings them real success?",
+              "start": 101.47,
+              "end": 105.2
+            }
+          ]
+        },
+        {
+          "start": 105.24,
+          "end": 117.85,
+          "lines": [
+            {
+              "text": "And there is a commonality to all of them.",
+              "start": 105.24,
+              "end": 108.81
+            },
+            {
+              "text": "That all of them maniacally focus on controlling life's variables that you can control.",
+              "start": 109.37,
+              "end": 117.85
+            }
+          ]
+        },
+        {
+          "start": 117.85,
+          "end": 124.66,
+          "lines": [
+            {
+              "text": "You control you.",
+              "start": 117.85,
+              "end": 120.02
+            },
+            {
+              "text": "That became my mantra, and that became my map for life.",
+              "start": 120.05,
+              "end": 124.66
+            }
+          ]
+        },
+        {
+          "start": 125.16,
+          "end": 140.64,
+          "lines": [
+            {
+              "text": "When I watched these people, whether they were teachers, doctors, entrepreneurs -- every day, they were maniacal about constructing their success and constructing their greatness piece by piece, day by day, on their terms.",
+              "start": 125.16,
+              "end": 140.64
+            }
+          ]
+        },
+        {
+          "start": 141.07,
+          "end": 157.12,
+          "lines": [
+            {
+              "text": "If we're being honest, a lot of us just surrender to others or to other things.",
+              "start": 141.07,
+              "end": 148.08
+            },
+            {
+              "text": "We say, well, we can't do that because of my parents, my childhood, my circumstances, my DNA, my crappy luck.",
+              "start": 148.11,
+              "end": 157.12
+            }
+          ]
+        },
+        {
+          "start": 158.12,
+          "end": 164.09,
+          "lines": [
+            {
+              "text": "We just can't do it because we're under control of others or other things.",
+              "start": 158.12,
+              "end": 162.63
+            },
+            {
+              "text": "And it's just BS.",
+              "start": 162.66,
+              "end": 164.09
+            }
+          ]
+        },
+        {
+          "start": 164.09,
+          "end": 171.3,
+          "lines": [
+            {
+              "text": "And it's just not a good way to live.",
+              "start": 164.09,
+              "end": 166.66
+            },
+            {
+              "text": "You control you, it's just a much better, brighter way to live.",
+              "start": 166.66,
+              "end": 171.3
+            }
+          ]
+        },
+        {
+          "start": 171.3,
+          "end": 185.28,
+          "lines": [
+            {
+              "text": "And so I want to walk you through five different things that you can do that are free, that you can start today and that are available to every single person in this room.",
+              "start": 171.3,
+              "end": 181.91
+            },
+            {
+              "text": "You control today.",
+              "start": 182.88,
+              "end": 185.28
+            }
+          ]
+        },
+        {
+          "start": 186.35,
+          "end": 196.79,
+          "lines": [
+            {
+              "text": "From the moment you wake up to the moment you go to bed, you have scores of decisions to make that only you make.",
+              "start": 186.35,
+              "end": 193.02
+            },
+            {
+              "text": "Do you doomscroll, or do you meditate?",
+              "start": 193.52,
+              "end": 196.79
+            }
+          ]
+        },
+        {
+          "start": 196.83,
+          "end": 204.87,
+          "lines": [
+            {
+              "text": "Do you eat Lucky Charms, or do you eat a healthy breakfast?",
+              "start": 196.83,
+              "end": 200.16
+            },
+            {
+              "text": "When someone snaps at you, do you snap back, or do you show a little bit of grace?",
+              "start": 200.7,
+              "end": 204.87
+            }
+          ]
+        },
+        {
+          "start": 204.9,
+          "end": 211.74,
+          "lines": [
+            {
+              "text": "At night, do you get hammered, or do you get some sleep?",
+              "start": 204.9,
+              "end": 208.27
+            },
+            {
+              "text": "You make each one of those decisions.",
+              "start": 209.01,
+              "end": 211.74
+            }
+          ]
+        },
+        {
+          "start": 211.78,
+          "end": 219.28,
+          "lines": [
+            {
+              "text": "And every one either leads to happiness and feeling better about yourself, or sadness and feeling like crap.",
+              "start": 211.78,
+              "end": 217.65
+            },
+            {
+              "text": "Nobody wants to feel like crap.",
+              "start": 217.65,
+              "end": 219.28
+            }
+          ]
+        },
+        {
+          "start": 219.78,
+          "end": 237.7,
+          "lines": [
+            {
+              "text": "So how did I get from Oshkosh and my 1.491 to DC and then having some success?",
+              "start": 219.78,
+              "end": 227.16
+            },
+            {
+              "text": "It was studying other people who were smarter than me, who were better than me, more talented than me, better read than me, who just knew a lot more than me, who were healthier than me.",
+              "start": 227.56,
+              "end": 237.7
+            }
+          ]
+        },
+        {
+          "start": 237.74,
+          "end": 241.34,
+          "lines": [
+            {
+              "text": "And then I tried to copy them.",
+              "start": 237.74,
+              "end": 239.17
+            },
+            {
+              "text": "If they read a book I hadn’t read, I read it.",
+              "start": 239.2,
+              "end": 241.34
+            }
+          ]
+        },
+        {
+          "start": 241.34,
+          "end": 251.38,
+          "lines": [
+            {
+              "text": "Or if they used a word I’d never heard in Oshkosh, I wrote it down on a piece of paper, and I would work it into my vocabulary.",
+              "start": 241.34,
+              "end": 247.78
+            },
+            {
+              "text": "If they were fitter than I were, I'd try to copy their habits.",
+              "start": 247.81,
+              "end": 251.38
+            }
+          ]
+        },
+        {
+          "start": 251.42,
+          "end": 257.05,
+          "lines": [
+            {
+              "text": "I started to take control of what we can control.",
+              "start": 251.42,
+              "end": 254.69
+            },
+            {
+              "text": "You control you.",
+              "start": 254.72,
+              "end": 257.05
+            }
+          ]
+        },
+        {
+          "start": 257.09,
+          "end": 267.03,
+          "lines": [
+            {
+              "text": "You control your reactions.",
+              "start": 257.09,
+              "end": 259.36
+            },
+            {
+              "text": "The best advice I ever got was five words: Do the next right thing.",
+              "start": 259.39,
+              "end": 267.03
+            }
+          ]
+        },
+        {
+          "start": 267.06,
+          "end": 270.93,
+          "lines": [
+            {
+              "text": "It's really hard to be a good person.",
+              "start": 267.06,
+              "end": 269
+            },
+            {
+              "text": "It's hard to be moral.",
+              "start": 269.33,
+              "end": 270.93
+            }
+          ]
+        },
+        {
+          "start": 271.54,
+          "end": 276.27,
+          "lines": [
+            {
+              "text": "It's hard to do all the things right.",
+              "start": 271.54,
+              "end": 273.7
+            },
+            {
+              "text": "It's pretty easy to do the next right thing.",
+              "start": 273.7,
+              "end": 276.27
+            }
+          ]
+        },
+        {
+          "start": 276.94,
+          "end": 292.42,
+          "lines": [
+            {
+              "text": "And if you do that, if you do things that would make you proud, your parents proud, your kids proud, your friends proud, you do that and then do it again, suddenly, you're a pretty good person.",
+              "start": 276.94,
+              "end": 287.08
+            },
+            {
+              "text": "And then if you do it in bad times, you could become a great person.",
+              "start": 287.12,
+              "end": 292.42
+            }
+          ]
+        },
+        {
+          "start": 292.42,
+          "end": 304.13,
+          "lines": [
+            {
+              "text": "My personal motto of the last 15 years is: When shit happens, shine.",
+              "start": 292.42,
+              "end": 296.93
+            },
+            {
+              "text": "Meaning, in the worst of times, when really bad things happen, that's when I really want to do the next right thing.",
+              "start": 296.93,
+              "end": 304.13
+            }
+          ]
+        },
+        {
+          "start": 304.77,
+          "end": 310.21,
+          "lines": [
+            {
+              "text": "That helped me through one of the hardest periods of my professional life.",
+              "start": 304.77,
+              "end": 308.27
+            },
+            {
+              "text": "I had started Politico, it was my baby.",
+              "start": 308.31,
+              "end": 310.21
+            }
+          ]
+        },
+        {
+          "start": 310.21,
+          "end": 314.75,
+          "lines": [
+            {
+              "text": "It's emotional.",
+              "start": 310.21,
+              "end": 311.38
+            },
+            {
+              "text": "And, you know, like a lot of these start-ups, it was a success.",
+              "start": 311.41,
+              "end": 314.75
+            }
+          ]
+        },
+        {
+          "start": 314.78,
+          "end": 320.88,
+          "lines": [
+            {
+              "text": "And then there was turmoil, and I felt like I had to leave.",
+              "start": 314.78,
+              "end": 318.48
+            },
+            {
+              "text": "And it's emotional.",
+              "start": 319.02,
+              "end": 320.88
+            }
+          ]
+        },
+        {
+          "start": 320.92,
+          "end": 330.73,
+          "lines": [
+            {
+              "text": "And I could have said and done things that would come back to haunt me.",
+              "start": 320.92,
+              "end": 324.82
+            },
+            {
+              "text": "In every minute of every day during that period, I thought, I'm going to do the next right thing.",
+              "start": 324.82,
+              "end": 330.73
+            }
+          ]
+        },
+        {
+          "start": 330.76,
+          "end": 336.3,
+          "lines": [
+            {
+              "text": "I'm not going to do things that are going to come back and hurt me or haunt me.",
+              "start": 330.76,
+              "end": 334.5
+            },
+            {
+              "text": "And it helped me get there.",
+              "start": 334.5,
+              "end": 336.3
+            }
+          ]
+        },
+        {
+          "start": 336.77,
+          "end": 344.34,
+          "lines": [
+            {
+              "text": "Three, you control your reality.",
+              "start": 336.77,
+              "end": 340.47
+            },
+            {
+              "text": "That might sound weird, but you do.",
+              "start": 341.57,
+              "end": 344.34
+            }
+          ]
+        },
+        {
+          "start": 344.38,
+          "end": 349.81,
+          "lines": [
+            {
+              "text": "What you read, what you watch, what you listen to.",
+              "start": 344.38,
+              "end": 347.78
+            },
+            {
+              "text": "That forms your reality.",
+              "start": 347.81,
+              "end": 349.81
+            }
+          ]
+        },
+        {
+          "start": 350.15,
+          "end": 356.45,
+          "lines": [
+            {
+              "text": "Your podcasts, your YouTube channels, your newsletters, your friends.",
+              "start": 350.15,
+              "end": 354.05
+            },
+            {
+              "text": "It's all a reality-shaping machine.",
+              "start": 354.08,
+              "end": 356.45
+            }
+          ]
+        },
+        {
+          "start": 357.29,
+          "end": 371.34,
+          "lines": [
+            {
+              "text": "The inputs affect your outputs.",
+              "start": 357.29,
+              "end": 360.02
+            },
+            {
+              "text": "If you're inputting a lot of misery, a lot of doom and gloom, a lot of trivial stuff, you might be a doomy and gloomy kind of person and kind of trivial.",
+              "start": 360.42,
+              "end": 371.34
+            }
+          ]
+        },
+        {
+          "start": 372,
+          "end": 385.32,
+          "lines": [
+            {
+              "text": "But change that.",
+              "start": 372,
+              "end": 373.3
+            },
+            {
+              "text": "If you control your reality, all you got to do is realize, listen, there's more good, high-quality information available to everybody in this room than at any point in humanity.",
+              "start": 373.34,
+              "end": 385.32
+            }
+          ]
+        },
+        {
+          "start": 385.35,
+          "end": 392.39,
+          "lines": [
+            {
+              "text": "It's all free, and it's not even close.",
+              "start": 385.35,
+              "end": 388.32
+            },
+            {
+              "text": "If there's something you're curious about, you can Google it or ChatGPT it.",
+              "start": 388.35,
+              "end": 392.39
+            }
+          ]
+        },
+        {
+          "start": 392.76,
+          "end": 405.8,
+          "lines": [
+            {
+              "text": "If you want to know what Elon Musk thinks or Mel Robbins would advise or Taylor Swift feels, there's probably a podcast or a video or an interview with them.",
+              "start": 392.76,
+              "end": 402.67
+            },
+            {
+              "text": "You can search that, you can change the inputs.",
+              "start": 402.7,
+              "end": 405.8
+            }
+          ]
+        },
+        {
+          "start": 405.84,
+          "end": 417.95,
+          "lines": [
+            {
+              "text": "You can put healthy, edifying content into your mind, have a better reality that you then share with other people.",
+              "start": 405.84,
+              "end": 414.01
+            },
+            {
+              "text": "Four, you control how you're seen.",
+              "start": 414.51,
+              "end": 417.95
+            }
+          ]
+        },
+        {
+          "start": 418.75,
+          "end": 427.42,
+          "lines": [
+            {
+              "text": "This one might seem a little too absurdly self-indulgent, but it's actually a magic trick.",
+              "start": 418.75,
+              "end": 424.56
+            },
+            {
+              "text": "You control how you're seen.",
+              "start": 425.12,
+              "end": 427.42
+            }
+          ]
+        },
+        {
+          "start": 427.42,
+          "end": 440.27,
+          "lines": [
+            {
+              "text": "When you're in a group setting, especially if it's tense or it's emotional, think about how other people are experiencing you.",
+              "start": 427.42,
+              "end": 435.9
+            },
+            {
+              "text": "The way I do it is I almost envision myself having this out-of-body experience.",
+              "start": 436.5,
+              "end": 440.27
+            }
+          ]
+        },
+        {
+          "start": 440.27,
+          "end": 445.31,
+          "lines": [
+            {
+              "text": "Watching me through the eyes of others.",
+              "start": 440.27,
+              "end": 443.21
+            },
+            {
+              "text": "Our own eyes deceive.",
+              "start": 443.24,
+              "end": 445.31
+            }
+          ]
+        },
+        {
+          "start": 445.34,
+          "end": 456.79,
+          "lines": [
+            {
+              "text": "Our own eyes lie.",
+              "start": 445.34,
+              "end": 447.44
+            },
+            {
+              "text": "But if you look at how other people feel and experience you, then you know the impression that you're leaving, that you want to leave.",
+              "start": 447.48,
+              "end": 456.79
+            }
+          ]
+        },
+        {
+          "start": 457.32,
+          "end": 472,
+          "lines": [
+            {
+              "text": "And it really helps you, I think, be the person you want to be and have other people experience you as the person that you want to be.",
+              "start": 457.32,
+              "end": 465.2
+            },
+            {
+              "text": "This technique helped me through what was probably the hardest period of my life, but the most wondrous period of my life.",
+              "start": 465.8,
+              "end": 472
+            }
+          ]
+        },
+        {
+          "start": 472.04,
+          "end": 483.65,
+          "lines": [
+            {
+              "text": "It’s about seven years ago, and we adopted a teenage boy, and I had two teenagers already at home.",
+              "start": 472.04,
+              "end": 479.34
+            },
+            {
+              "text": "And he had lost his parents, it was a rough part of his life.",
+              "start": 479.68,
+              "end": 483.65
+            }
+          ]
+        },
+        {
+          "start": 483.68,
+          "end": 489.75,
+          "lines": [
+            {
+              "text": "And he's a young guy doing what you do when you have a rough period of life.",
+              "start": 483.68,
+              "end": 487.82
+            },
+            {
+              "text": "And I remember thinking, you know what?",
+              "start": 487.85,
+              "end": 489.75
+            }
+          ]
+        },
+        {
+          "start": 489.79,
+          "end": 506.84,
+          "lines": [
+            {
+              "text": "He's going to be watching me, my kids are going to be watching me, my wife's going to be watching me.",
+              "start": 489.79,
+              "end": 494.93
+            },
+            {
+              "text": "If I show love, if I show forgiveness, if I show persistence, if I show grit, that's going to echo through how they experience what we're going through.",
+              "start": 494.93,
+              "end": 506.84
+            }
+          ]
+        },
+        {
+          "start": 506.84,
+          "end": 523.92,
+          "lines": [
+            {
+              "text": "And if I'm rattled or I'm pessimistic, it would have an opposite consequence.",
+              "start": 506.84,
+              "end": 511.91
+            },
+            {
+              "text": "And that process, I really believe, had a very small part in turning my son into this amazing, thriving, grateful college athlete today.",
+              "start": 512.28,
+              "end": 523.92
+            }
+          ]
+        },
+        {
+          "start": 524.29,
+          "end": 531.63,
+          "lines": [
+            {
+              "text": "And I think that applies to all of us.",
+              "start": 524.29,
+              "end": 526.49
+            },
+            {
+              "text": "The fifth thing that you control is you control your destiny.",
+              "start": 527.19,
+              "end": 531.63
+            }
+          ]
+        },
+        {
+          "start": 531.66,
+          "end": 544.01,
+          "lines": [
+            {
+              "text": "You control where you're going.",
+              "start": 531.66,
+              "end": 534.2
+            },
+            {
+              "text": "One of the things I hate the most is when I run into people and they just feel they're like a bobber or a log on a river, and you just have to go with the current.",
+              "start": 534.23,
+              "end": 544.01
+            }
+          ]
+        },
+        {
+          "start": 544.47,
+          "end": 547.71,
+          "lines": [
+            {
+              "text": "It's not true.",
+              "start": 544.47,
+              "end": 545.71
+            },
+            {
+              "text": "You get to control where you go.",
+              "start": 545.74,
+              "end": 547.71
+            }
+          ]
+        },
+        {
+          "start": 547.74,
+          "end": 555.99,
+          "lines": [
+            {
+              "text": "You can control if you want to go against the current, if you want to go upstream.",
+              "start": 547.74,
+              "end": 553.12
+            },
+            {
+              "text": "That is fully in your control.",
+              "start": 553.78,
+              "end": 555.99
+            }
+          ]
+        },
+        {
+          "start": 556.02,
+          "end": 563.89,
+          "lines": [
+            {
+              "text": "And I want to end today with a writing assignment.",
+              "start": 556.02,
+              "end": 559.99
+            },
+            {
+              "text": "Not that you need to do right now, but maybe do it later today or later this week.",
+              "start": 559.99,
+              "end": 563.89
+            }
+          ]
+        },
+        {
+          "start": 564.39,
+          "end": 573.1,
+          "lines": [
+            {
+              "text": "I want you to imagine yourself on your deathbed, thinking about your life.",
+              "start": 564.39,
+              "end": 570.07
+            },
+            {
+              "text": "And did you live a life that you were proud of?",
+              "start": 570.5,
+              "end": 573.1
+            }
+          ]
+        },
+        {
+          "start": 573.8,
+          "end": 580.21,
+          "lines": [
+            {
+              "text": "Did you live a life that you could feel, \"You know what? I did it my way.\"",
+              "start": 573.8,
+              "end": 577.71
+            },
+            {
+              "text": "I did it the right way.",
+              "start": 577.74,
+              "end": 580.21
+            }
+          ]
+        },
+        {
+          "start": 581.01,
+          "end": 587.48,
+          "lines": [
+            {
+              "text": "And write down the three things that it would take for that answer to be: “Yes, that was it.",
+              "start": 581.01,
+              "end": 585.58
+            },
+            {
+              "text": "I lived the life I wanted to live.\"",
+              "start": 585.58,
+              "end": 587.48
+            }
+          ]
+        },
+        {
+          "start": 588.02,
+          "end": 598.96,
+          "lines": [
+            {
+              "text": "Then write down the three things that it would take to do that between now and then, to actually achieve the life that you want to achieve.",
+              "start": 588.02,
+              "end": 596.43
+            },
+            {
+              "text": "That's your North Star.",
+              "start": 597.26,
+              "end": 598.96
+            }
+          ]
+        },
+        {
+          "start": 599,
+          "end": 608.84,
+          "lines": [
+            {
+              "text": "That puts you ahead of 95 percent on Earth in terms of taking ownership of what you want to do with your own life.",
+              "start": 599,
+              "end": 606.07
+            },
+            {
+              "text": "Man, I'm blessed.",
+              "start": 607.47,
+              "end": 608.84
+            }
+          ]
+        },
+        {
+          "start": 609.14,
+          "end": 616.05,
+          "lines": [
+            {
+              "text": "I grew up, I had four grandparents who lived in my hometown.",
+              "start": 609.14,
+              "end": 613.84
+            },
+            {
+              "text": "I have two parents who are still alive.",
+              "start": 613.84,
+              "end": 616.05
+            }
+          ]
+        },
+        {
+          "start": 616.08,
+          "end": 627.79,
+          "lines": [
+            {
+              "text": "I have an amazing wife, three wondrous children and tons of really great friends and colleagues who poured a lot of knowledge and a lot of love into my life.",
+              "start": 616.08,
+              "end": 627.79
+            }
+          ]
+        },
+        {
+          "start": 627.79,
+          "end": 636.73,
+          "lines": [
+            {
+              "text": "Richard Powers, in his book \"Bewilderment,\" says, maybe the purpose of life is about leaving little pieces of ourselves behind in others.",
+              "start": 627.79,
+              "end": 636.73
+            }
+          ]
+        },
+        {
+          "start": 636.77,
+          "end": 651.15,
+          "lines": [
+            {
+              "text": "And I hope today that I've left a little piece of what all those people poured into me, with you, and that you can leave little pieces of yourself in many others, and you can do it because you control you.",
+              "start": 636.77,
+              "end": 649.75
+            },
+            {
+              "text": "So get ’er done.",
+              "start": 649.78,
+              "end": 651.15
+            }
+          ]
+        },
+        {
+          "start": 652.68,
+          "end": 654.42,
+          "lines": [
+            {
+              "text": "Thank you.",
+              "start": 652.68,
+              "end": 654.42
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "h42-e-zUhlw",
       "url": "https://www.youtube.com/watch?v=h42-e-zUhlw",
       "title": "Hey Tablo Ep.15: Tukutz interview",
       "tag": "Hey Tablo",
+      "category": "예능 · 타블로",
       "segments": [
         {
           "start": 0,
@@ -15090,6 +19493,7 @@
       "url": "https://www.youtube.com/watch?v=j7n10ekpt7o",
       "title": "Tablo takes Simon Pegg around Korea (Mission Impossible)",
       "tag": "Tablo x Mission",
+      "category": "예능 · 타블로",
       "segments": [
         {
           "start": 0,
@@ -17817,6 +22221,7 @@
       "url": "https://www.youtube.com/watch?v=lSFJTUiX7Vg",
       "title": "Tablo: That Disneyland fight story (TTP Ep.12)",
       "tag": "Tablo Disneyland",
+      "category": "예능 · 타블로",
       "segments": [
         {
           "start": 3.52,
@@ -17956,6 +22361,7 @@
       "url": "https://www.youtube.com/watch?v=KMTJr-m7Fmg",
       "title": "Tablo on aliens & Scientology (TTP Ep.1)",
       "tag": "Tablo aliens",
+      "category": "예능 · 타블로",
       "segments": [
         {
           "start": 2.56,
