@@ -20,6 +20,14 @@
   box-sizing: border-box;
 }
 
+/* The `hidden` attribute toggles the home/detail views and the sheet backdrop.
+   Author `display` rules (e.g. .home/.app { display: flex }) outrank the UA
+   `[hidden] { display: none }` rule, so without this the views never actually
+   hide and tapping a thumbnail leaves the home grid stacked over the detail. */
+[hidden] {
+  display: none !important;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
 }
