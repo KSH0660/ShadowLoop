@@ -20,6 +20,8 @@ let playerReady = false;
 let videos = [];
 let lineEls = [];
 let wordEls = [];
+let _prevTime = null;    // last polled getCurrentTime(), for user-seek detection
+let _seekCooldown = 0;   // performance.now() deadline — suppress seek detection until then
 
 let state = {
   view: "home",   // "home" (browse grid) | "detail" (player)
@@ -231,6 +233,8 @@ function loadVideo(video) {
   const subParts = [video.category, video.tag, `${state.segments.length}구간`].filter(Boolean);
   els.videoSub.textContent = subParts.join(" · ");
 
+  _prevTime = null;
+
   if (playerReady && player) {
     player.loadVideoById({ videoId: video.id, startSeconds: state.segments[0]?.start || 0 });
     player.setPlaybackRate(state.speed);
@@ -251,9 +255,24 @@ function handlePlayerState(event) {
   }
 }
 
+// Returns the index of the segment that contains `time`, or the nearest one.
+function findSegmentAt(time) {
+  const segs = state.segments;
+  for (let i = 0; i < segs.length; i++) {
+    if (time >= segs[i].start && time < segs[i].end) return i;
+  }
+  let best = 0, bestDist = Infinity;
+  for (let i = 0; i < segs.length; i++) {
+    const dist = Math.min(Math.abs(time - segs[i].start), Math.abs(time - segs[i].end));
+    if (dist < bestDist) { bestDist = dist; best = i; }
+  }
+  return best;
+}
+
 function playCurrentSegment() {
   const segment = state.segments[state.current];
   if (!playerReady || !segment) return;
+  _seekCooldown = performance.now() + 600;
   player.seekTo(segment.start, true);
   player.playVideo();
   player.setPlaybackRate(state.speed);
@@ -425,6 +444,20 @@ function tick() {
     const now = player.getCurrentTime();
     const status = player.getPlayerState?.();
 
+    // Detect user seeks: a large time jump that lands outside the current segment
+    // while no app-initiated seek is in progress (cooldown).
+    if (_prevTime !== null && performance.now() > _seekCooldown) {
+      const outsideCurrent = now < segment.start || now >= segment.end;
+      if (outsideCurrent && Math.abs(now - _prevTime) > 1.0) {
+        const idx = findSegmentAt(now);
+        _prevTime = now;
+        selectSegment(idx, true);
+        requestAnimationFrame(tick);
+        return;
+      }
+    }
+    _prevTime = now;
+
     const span = segment.end - segment.start;
     if (span > 0) updateRing((now - segment.start) / span);
 
@@ -439,6 +472,7 @@ function tick() {
         else selectSegment(state.current + 1, true);
       } else {
         state.loops += 1;
+        _seekCooldown = performance.now() + 600;
         player.seekTo(segment.start, true);
         setCurrentLine(-1);
         renderLoopDots();
