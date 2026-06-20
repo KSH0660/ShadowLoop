@@ -799,45 +799,86 @@ button {
   .stage {
     grid-area: stage;
     min-height: 0;
+    overflow: hidden;
   }
 
   .caption {
     min-height: 0;
     overflow-y: auto;
     justify-content: center;
+    padding-block: 0;
   }
 
   .cap-line {
-    font-size: clamp(16px, 4.2vh, 24px);
-    padding: 5px 10px;
+    font-size: clamp(15px, 3.4vh, 21px);
+    padding: 4px 8px;
   }
 
+  /* Keep the peek button from sitting on top of the caption text by
+     reserving a little space for it on the right. */
+  .peek {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* Compact the transport + meta + options so the controls row stays
+     short and the caption keeps real estate instead of being crushed. */
   .controls {
     grid-area: controls;
-    gap: 8px;
+    gap: 6px;
   }
 
   .transport {
-    gap: 14px;
+    gap: 12px;
   }
 
   .loop {
-    width: 84px;
-    height: 84px;
+    width: 62px;
+    height: 62px;
   }
 
   .play {
-    width: 58px;
-    height: 58px;
+    width: 46px;
+    height: 46px;
   }
 
   .play svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 
   .step {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .step svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .meta {
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .options {
+    gap: 6px;
+  }
+
+  .pace-group,
+  .speed-group {
+    padding: 3px;
+  }
+
+  .pace-group button,
+  .speed-group button {
+    min-height: 28px;
+    padding: 0 9px;
+    font-size: 12px;
+  }
+
+  .pace-label {
+    padding: 0 4px;
   }
 }
