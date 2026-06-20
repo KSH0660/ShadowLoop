@@ -755,11 +755,12 @@ button {
   }
 }
 
-/* Mobile landscape — fit video + caption on one screen ----------- */
-/* Short, wide viewports (phones turned sideways). Re-lay the detail
-   view as two columns: video on the left (sized by height), caption +
-   controls on the right, so neither gets clipped off-screen. The
-   `max-height` cap keeps tablets/desktop on the default stacked layout. */
+/* Mobile landscape — caption-first layout ------------------------ */
+/* Short, wide viewports (phones turned sideways). The caption is the
+   focus, so give it the big middle band: a small video sits top-left,
+   the caption fills the rest, and the transport/meta/options collapse
+   into one short bar across the bottom. The `max-height` cap keeps
+   tablets/desktop on the default stacked layout. */
 @media (orientation: landscape) and (max-height: 600px) {
   .app {
     width: 100%;
@@ -771,9 +772,9 @@ button {
     grid-template-columns: auto minmax(0, 1fr);
     grid-template-rows: auto minmax(0, 1fr) auto;
     grid-template-areas:
-      "top    top"
-      "player stage"
-      "player controls";
+      "top      top"
+      "player   stage"
+      "controls controls";
     align-items: stretch;
   }
 
@@ -781,12 +782,13 @@ button {
     grid-area: top;
   }
 
-  /* Size the player by available height so its width shrinks, freeing
-     horizontal space for the caption column. */
+  /* Shrink the video so the caption gets the room. It's sized by the
+     middle band's height but capped narrow on the left. */
   .player-frame {
     grid-area: player;
     height: 100%;
     width: auto;
+    max-width: 40vw;
     align-self: center;
   }
 
@@ -810,36 +812,44 @@ button {
   }
 
   .cap-line {
-    font-size: clamp(15px, 3.4vh, 21px);
-    padding: 4px 8px;
+    font-size: clamp(17px, 4vh, 26px);
+    padding: 5px 10px;
   }
 
-  /* Keep the peek button from sitting on top of the caption text by
-     reserving a little space for it on the right. */
   .peek {
     width: 32px;
     height: 32px;
   }
 
-  /* Compact the transport + meta + options so the controls row stays
-     short and the caption keeps real estate instead of being crushed. */
+  /* Controls collapse into one short bottom bar spanning the full
+     width, so almost none of the vertical space is taken from the
+     caption. */
   .controls {
     grid-area: controls;
-    gap: 6px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 16px;
   }
 
   .transport {
-    gap: 12px;
+    gap: 16px;
   }
 
+  /* The loop ring is decorative here — drop it and keep a small,
+     tappable play button. */
   .loop {
-    width: 62px;
-    height: 62px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .loop-ring {
+    display: none;
   }
 
   .play {
-    width: 46px;
-    height: 46px;
+    width: 44px;
+    height: 44px;
   }
 
   .play svg {
@@ -863,7 +873,7 @@ button {
   }
 
   .options {
-    gap: 6px;
+    gap: 8px;
   }
 
   .pace-group,
@@ -873,12 +883,13 @@ button {
 
   .pace-group button,
   .speed-group button {
-    min-height: 28px;
-    padding: 0 9px;
+    min-height: 30px;
+    padding: 0 10px;
     font-size: 12px;
   }
 
+  /* Hide the 학습 / 속도 labels in landscape to keep the bar on one row. */
   .pace-label {
-    padding: 0 4px;
+    display: none;
   }
 }
