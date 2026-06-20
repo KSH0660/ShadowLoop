@@ -754,3 +754,90 @@ button {
     transition: none;
   }
 }
+
+/* Mobile landscape — fit video + caption on one screen ----------- */
+/* Short, wide viewports (phones turned sideways). Re-lay the detail
+   view as two columns: video on the left (sized by height), caption +
+   controls on the right, so neither gets clipped off-screen. The
+   `max-height` cap keeps tablets/desktop on the default stacked layout. */
+@media (orientation: landscape) and (max-height: 600px) {
+  .app {
+    width: 100%;
+    max-width: none;
+    height: 100svh;
+    padding: 6px 14px calc(6px + env(safe-area-inset-bottom));
+    display: grid;
+    gap: 6px 14px;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "top    top"
+      "player stage"
+      "player controls";
+    align-items: stretch;
+  }
+
+  .topbar {
+    grid-area: top;
+  }
+
+  /* Size the player by available height so its width shrinks, freeing
+     horizontal space for the caption column. */
+  .player-frame {
+    grid-area: player;
+    height: 100%;
+    width: auto;
+    align-self: center;
+  }
+
+  /* Title/subtitle are still reachable via the top bar — drop them here
+     to reclaim vertical space. */
+  .video-info {
+    display: none;
+  }
+
+  .stage {
+    grid-area: stage;
+    min-height: 0;
+  }
+
+  .caption {
+    min-height: 0;
+    overflow-y: auto;
+    justify-content: center;
+  }
+
+  .cap-line {
+    font-size: clamp(16px, 4.2vh, 24px);
+    padding: 5px 10px;
+  }
+
+  .controls {
+    grid-area: controls;
+    gap: 8px;
+  }
+
+  .transport {
+    gap: 14px;
+  }
+
+  .loop {
+    width: 84px;
+    height: 84px;
+  }
+
+  .play {
+    width: 58px;
+    height: 58px;
+  }
+
+  .play svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .step {
+    width: 42px;
+    height: 42px;
+  }
+}
