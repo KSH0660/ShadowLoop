@@ -1,0 +1,331 @@
+{
+  "//": "Korean hints for hard words/idioms, by video id then segment index. Authored by the youtube-curator skill; merged onto segments at build time. See scripts/build-transcripts.mjs.",
+  "ykN0VZiEDr8": {
+    "0": [
+      { "term": "crushing workload", "ko": "살인적인 업무량", "type": "phrase" }
+    ],
+    "2": [
+      { "term": "chafing dish", "ko": "(뷔페용) 음식 보온 그릇", "type": "word" }
+    ],
+    "7": [
+      { "term": "rebel against", "ko": "~에 반항하다, 거스르다", "type": "phrase" },
+      { "term": "redirect", "ko": "(관심을) 다른 데로 돌리다", "type": "word" }
+    ],
+    "9": [
+      { "term": "cracked the code", "ko": "비결을 알아내다, 완전히 파악하다", "type": "idiom" },
+      { "term": "child rearing", "ko": "육아, 아이 기르기", "type": "phrase" }
+    ],
+    "13": [
+      { "term": "garbage disposal", "ko": "(싱크대) 음식물 분쇄기", "type": "word" }
+    ],
+    "17": [
+      { "term": "went down the drain", "ko": "수포로 돌아가다 (배수구로 내려가다 말장난)", "type": "idiom" }
+    ],
+    "24": [
+      { "term": "shred her confidence", "ko": "자신감을 짓밟다", "type": "phrase" },
+      { "term": "mangle her self-esteem", "ko": "자존감을 망가뜨리다", "type": "phrase" }
+    ],
+    "28": [
+      { "term": "wicked", "ko": "짓궂은, 고약한", "type": "word" }
+    ]
+  },
+  "2fYU50qbkHk": {
+    "1": [
+      { "term": "unclench your jaw", "ko": "꽉 다문 턱의 힘을 풀다", "type": "phrase" }
+    ],
+    "3": [
+      { "term": "poet", "ko": "시인", "type": "word" }
+    ],
+    "5": [
+      { "term": "frustrating as it may be", "ko": "아무리 짜증스러울지라도", "type": "phrase" },
+      { "term": "a matter of time", "ko": "시간 문제 (곧 일어날 일)", "type": "idiom" }
+    ],
+    "6": [
+      { "term": "glib", "ko": "(말이) 입에 발린, 가벼운", "type": "word" },
+      { "term": "naive", "ko": "순진한, 세상 물정 모르는", "type": "word" }
+    ],
+    "8": [
+      { "term": "makes it through ... intact", "ko": "온전한 채로 (인생을) 버텨내다", "type": "idiom" }
+    ],
+    "10": [
+      { "term": "emotional literacy", "ko": "감정을 인식하고 표현하는 능력", "type": "phrase" },
+      { "term": "articulate", "ko": "또렷이 말로 표현하다", "type": "word" }
+    ],
+    "12": [
+      { "term": "in store", "ko": "앞으로 다가올, 준비되어 있는", "type": "idiom" },
+      { "term": "look on the bright side", "ko": "긍정적인 면을 보다", "type": "idiom" }
+    ],
+    "13": [
+      { "term": "feel down", "ko": "우울하다, 기분이 처지다", "type": "phrase" },
+      { "term": "a break in the clouds", "ko": "어둠 속 한 줄기 희망 (구름 사이로 비치는 빛)", "type": "idiom" }
+    ],
+    "14": [
+      { "term": "content", "ko": "(형용사) 만족하는", "type": "word" }
+    ],
+    "16": [
+      { "term": "stack up", "ko": "차곡차곡 쌓이다", "type": "phrase" }
+    ],
+    "17": [
+      { "term": "singular", "ko": "각별한, 보기 드문", "type": "word" }
+    ],
+    "18": [
+      { "term": "beyond belief", "ko": "믿기 어려울 만큼", "type": "idiom" },
+      { "term": "immense", "ko": "엄청나게 큰", "type": "word" },
+      { "term": "one-offs", "ko": "단 한 번뿐인 일", "type": "word" }
+    ],
+    "19": [
+      { "term": "reserves", "ko": "비축분, 비축해 둔 것", "type": "word" },
+      { "term": "topped up", "ko": "다시 가득 채워지다", "type": "phrase" }
+    ],
+    "20": [
+      { "term": "fanciful", "ko": "공상적인, 비현실적인", "type": "word" },
+      { "term": "whimsical", "ko": "엉뚱하고 기발한", "type": "word" },
+      { "term": "resilience", "ko": "회복력", "type": "word" },
+      { "term": "woven into", "ko": "~에 짜여 든, 깊이 스며든", "type": "phrase" }
+    ],
+    "22": [
+      { "term": "deserve", "ko": "~을 받을 자격이 있다", "type": "word" },
+      { "term": "worth it", "ko": "그럴 가치가 있는", "type": "phrase" }
+    ],
+    "23": [
+      { "term": "deny", "ko": "부인하다, 부정하다", "type": "word" }
+    ],
+    "25": [
+      { "term": "contentment", "ko": "만족감", "type": "word" },
+      { "term": "ambition", "ko": "야망, 포부", "type": "word" },
+      { "term": "by virtue of", "ko": "~덕분에, ~로 인해", "type": "idiom" }
+    ],
+    "29": [
+      { "term": "stumble across", "ko": "우연히 마주치다, 발견하다", "type": "idiom" },
+      { "term": "catch eyes with", "ko": "~와 눈이 마주치다", "type": "phrase" },
+      { "term": "genuine", "ko": "진심 어린, 진짜의", "type": "word" }
+    ],
+    "32": [
+      { "term": "add up", "ko": "모여서 쌓이다, 늘어나다", "type": "phrase" }
+    ],
+    "33": [
+      { "term": "easily pleased", "ko": "쉽게 만족하는", "type": "phrase" }
+    ],
+    "35": [
+      { "term": "shine through", "ko": "환히 비치다, 빛을 발하다", "type": "phrase" }
+    ]
+  },
+  "xjmUzxEPJeM": {
+    "0": [
+      { "term": "ambition", "ko": "야망, 포부", "type": "word" },
+      { "term": "whole and at home in the world", "ko": "온전하고 세상에 편안히 속한", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "exhibition", "ko": "전시회", "type": "word" }
+    ],
+    "2": [
+      { "term": "given the magnitude", "ko": "그 엄청난 규모를 감안하면", "type": "phrase" },
+      { "term": "accomplishment", "ko": "성취, 업적", "type": "word" },
+      { "term": "sheepishly", "ko": "멋쩍게, 쑥스럽게", "type": "word" }
+    ],
+    "3": [
+      { "term": "come to realize", "ko": "차츰 깨닫게 되다", "type": "phrase" },
+      { "term": "ephemeral and fleeting", "ko": "덧없고 순식간에 사라지는", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "not by a long shot", "ko": "전혀 그렇지 않다", "type": "idiom" },
+      { "term": "conducted", "ko": "(조사를) 실시하다, 수행하다", "type": "word" },
+      { "term": "questionnaire", "ko": "설문지", "type": "word" }
+    ],
+    "7": [
+      { "term": "transcripts", "ko": "글로 옮긴 기록, 녹취록", "type": "word" },
+      { "term": "up close", "ko": "가까이서, 면밀히", "type": "phrase" },
+      { "term": "dissipates", "ko": "흩어져 사라지다", "type": "word" },
+      { "term": "manifests", "ko": "겉으로 나타나다", "type": "word" }
+    ],
+    "8": [
+      { "term": "the high of", "ko": "~이 주는 짜릿한 들뜸", "type": "phrase" },
+      { "term": "manuscript", "ko": "(책의) 원고", "type": "word" },
+      { "term": "restless", "ko": "안절부절못하는", "type": "word" }
+    ],
+    "9": [
+      { "term": "plaintive confession", "ko": "애처로운 고백", "type": "phrase" },
+      { "term": "at peace", "ko": "마음이 평온한", "type": "phrase" }
+    ],
+    "11": [
+      { "term": "mounting an exhibition", "ko": "전시회를 열다, 준비하다", "type": "phrase" },
+      { "term": "pinnacle", "ko": "정점, 절정", "type": "word" }
+    ],
+    "12": [
+      { "term": "evaporates", "ko": "증발하듯 사라지다", "type": "word" }
+    ],
+    "13": [
+      { "term": "quest", "ko": "탐구, 갈망", "type": "word" },
+      { "term": "utterly", "ko": "완전히, 철저히", "type": "word" },
+      { "term": "confounding", "ko": "어리둥절하게 하는, 당혹스러운", "type": "word" },
+      { "term": "consumed with", "ko": "~에 완전히 사로잡힌", "type": "phrase" }
+    ],
+    "14": [
+      { "term": "slip away", "ko": "슬며시 사라지다, 빠져나가다", "type": "phrase" },
+      { "term": "grasp", "ko": "움켜쥐다, 붙잡다", "type": "word" }
+    ],
+    "15": [
+      { "term": "addiction to attainment", "ko": "성취에 대한 중독", "type": "phrase" },
+      { "term": "obsessed with", "ko": "~에 집착하는", "type": "phrase" },
+      { "term": "the hustle", "ko": "치열하게 노력하는 것, 분주함", "type": "word" }
+    ],
+    "16": [
+      { "term": "glorify the grind", "ko": "고된 노력 자체를 미화하다", "type": "phrase" },
+      { "term": "equate ... with", "ko": "~을 ~와 동일시하다", "type": "phrase" },
+      { "term": "at play", "ko": "작용하고 있는", "type": "idiom" }
+    ],
+    "17": [
+      { "term": "admire", "ko": "존경하다, 동경하다", "type": "word" },
+      { "term": "answering a calling", "ko": "소명에 응답하다", "type": "idiom" }
+    ],
+    "18": [
+      { "term": "not necessarily", "ko": "반드시 ~인 것은 아닌", "type": "phrase" }
+    ],
+    "19": [
+      { "term": "trappings", "ko": "겉으로 드러나는 부속물, 겉치레", "type": "word" }
+    ],
+    "20": [
+      { "term": "mastery", "ko": "숙달, 통달", "type": "word" },
+      { "term": "fake it until you make it", "ko": "될 때까지 ~인 척하라", "type": "idiom" }
+    ],
+    "23": [
+      { "term": "crave", "ko": "갈망하다, 몹시 원하다", "type": "word" },
+      { "term": "recognition", "ko": "인정, 알아봐 줌", "type": "word" }
+    ],
+    "24": [
+      { "term": "albeit", "ko": "비록 ~이긴 하지만", "type": "word" },
+      { "term": "scarcity", "ko": "결핍, 부족함", "type": "word" },
+      { "term": "abundance", "ko": "풍요로움", "type": "word" }
+    ],
+    "25": [
+      { "term": "swashbuckling", "ko": "호탕하고 거침없는", "type": "word" },
+      { "term": "frontman", "ko": "(밴드의) 리드 보컬, 간판 멤버", "type": "word" }
+    ],
+    "26": [
+      { "term": "peaked at", "ko": "최고 ~위에 오르다", "type": "phrase" },
+      { "term": "held back", "ko": "가로막히다, 저지되다", "type": "phrase" }
+    ],
+    "27": [
+      { "term": "storied", "ko": "유서 깊은, 화려한 이력의", "type": "word" },
+      { "term": "reflective", "ko": "사색에 잠긴", "type": "word" },
+      { "term": "recalled", "ko": "회상하다, 떠올리다", "type": "word" }
+    ],
+    "29": [
+      { "term": "it occurred to me", "ko": "문득 ~라는 생각이 들었다", "type": "idiom" },
+      { "term": "right then and there", "ko": "바로 그 자리에서", "type": "idiom" },
+      { "term": "take my time", "ko": "천천히 하다, 서두르지 않다", "type": "idiom" }
+    ],
+    "30": [
+      { "term": "despair", "ko": "절망하다", "type": "word" },
+      { "term": "flaw", "ko": "결함, 흠", "type": "word" }
+    ],
+    "31": [
+      { "term": "heed the calling", "ko": "소명에 귀 기울이다", "type": "phrase" }
+    ]
+  },
+  "nGuYas7G3q4": {
+    "0": [
+      { "term": "sequestered", "ko": "격리된, 외부와 차단된", "type": "word" },
+      { "term": "aboard", "ko": "~을 타고, 승선하여", "type": "word" },
+      { "term": "research vessel", "ko": "연구선(연구용 배)", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "exploration", "ko": "탐험, 탐사", "type": "word" },
+      { "term": "from the perspective of", "ko": "~의 관점에서", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "tinkering", "ko": "이것저것 만지작거리며 손보기", "type": "word" }
+    ],
+    "5": [
+      { "term": "democratize", "ko": "누구나 할 수 있게 만들다", "type": "word" },
+      { "term": "drew the attention of", "ko": "~의 관심을 끌다", "type": "phrase" }
+    ],
+    "6": [
+      { "term": "teamed up with", "ko": "~와 팀을 이루다, 협력하다", "type": "phrase" },
+      { "term": "renowned", "ko": "저명한, 유명한", "type": "word" },
+      { "term": "sperm whales", "ko": "향유고래", "type": "word" }
+    ],
+    "7": [
+      { "term": "put together", "ko": "조립하다, 만들어내다", "type": "phrase" },
+      { "term": "DIY tag", "ko": "직접 만든 (고래) 추적 장치", "type": "phrase" },
+      { "term": "radio beacon", "ko": "무선 발신기", "type": "word" },
+      { "term": "suction cups", "ko": "흡착판", "type": "phrase" },
+      { "term": "pop off", "ko": "툭 떨어져 나오다", "type": "phrase" }
+    ],
+    "8": [
+      { "term": "barely", "ko": "간신히, 가까스로", "type": "word" }
+    ],
+    "9": [
+      { "term": "soldering", "ko": "납땜", "type": "word" },
+      { "term": "improvising", "ko": "임기응변으로 만들어내기", "type": "word" },
+      { "term": "overslept", "ko": "늦잠을 자다", "type": "word" }
+    ],
+    "10": [
+      { "term": "suspense", "ko": "긴장감, 마음 졸임", "type": "word" },
+      { "term": "flood with water", "ko": "물에 잠기다", "type": "phrase" }
+    ],
+    "12": [
+      { "term": "fingers were crossed", "ko": "행운을 빌었다", "type": "idiom" }
+    ],
+    "14": [
+      { "term": "with bated breath", "ko": "숨죽이고, 마음 졸이며", "type": "idiom" },
+      { "term": "footage", "ko": "촬영 영상", "type": "word" }
+    ],
+    "15": [
+      { "term": "losing it", "ko": "(흥분해서) 어쩔 줄 모르다", "type": "idiom" },
+      { "term": "descended", "ko": "내려가다, 하강하다", "type": "word" }
+    ],
+    "16": [
+      { "term": "rushing by", "ko": "빠르게 스쳐 지나가다", "type": "phrase" },
+      { "term": "particles", "ko": "입자, 작은 알갱이", "type": "word" }
+    ],
+    "17": [
+      { "term": "come loose", "ko": "헐거워지다, 떨어지려 하다", "type": "phrase" },
+      { "term": "that was going to be it", "ko": "이제 끝이구나 싶었다", "type": "idiom" },
+      { "term": "held on", "ko": "버티며 떨어지지 않았다", "type": "phrase" }
+    ],
+    "18": [
+      { "term": "fluke", "ko": "고래의 꼬리지느러미", "type": "word" },
+      { "term": "the depths", "ko": "깊은 바닷속", "type": "word" }
+    ],
+    "19": [
+      { "term": "echolocation", "ko": "반향정위(음파로 위치를 파악)", "type": "word" }
+    ],
+    "20": [
+      { "term": "echoes", "ko": "메아리, 반향", "type": "word" },
+      { "term": "bouncing off", "ko": "~에 부딪혀 튕겨 나오다", "type": "phrase" },
+      { "term": "prey", "ko": "먹잇감", "type": "word" }
+    ],
+    "21": [
+      { "term": "shallower", "ko": "더 얕은", "type": "word" }
+    ],
+    "23": [
+      { "term": "codas", "ko": "코다(향유고래의 의사소통 신호음)", "type": "word" }
+    ],
+    "25": [
+      { "term": "couldn't believe our ears", "ko": "(들은 것이 믿기지 않아) 귀를 의심하다", "type": "idiom" }
+    ],
+    "26": [
+      { "term": "back and forth", "ko": "서로 주고받으며, 오가며", "type": "idiom" },
+      { "term": "alongside", "ko": "나란히, ~옆에서", "type": "word" }
+    ],
+    "27": [
+      { "term": "in disbelief", "ko": "믿기지 않는 듯이", "type": "phrase" },
+      { "term": "exchange", "ko": "(의사를) 주고받음, 교류", "type": "word" }
+    ],
+    "28": [
+      { "term": "witnessing", "ko": "목격하다", "type": "word" },
+      { "term": "the bond", "ko": "유대, 정서적 연결", "type": "word" }
+    ],
+    "32": [
+      { "term": "after all", "ko": "결국, 어쨌든", "type": "idiom" }
+    ],
+    "33": [
+      { "term": "era", "ko": "시대", "type": "word" },
+      { "term": "advances", "ko": "발전, 진보", "type": "word" }
+    ],
+    "35": [
+      { "term": "within our reach", "ko": "손이 닿는 곳에, 이룰 수 있는", "type": "idiom" }
+    ]
+  }
+}
