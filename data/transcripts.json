@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T11:24:59.169Z",
+  "generatedAt": "2026-06-21T12:04:09.873Z",
   "videos": [
     {
       "id": "lSFJTUiX7Vg",
@@ -840,6 +840,1506 @@
               "text": "Lily!",
               "start": 189.98,
               "end": 190.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TtdaITySy8Q",
+      "url": "https://www.youtube.com/watch?v=TtdaITySy8Q",
+      "title": "Phil Dunphy Breaks Into a House",
+      "tag": "Phil breaks in",
+      "category": "미드 · 모던 패밀리",
+      "segments": [
+        {
+          "start": 0.2,
+          "end": 5.92,
+          "lines": [
+            {
+              "text": "Hey, Miller, your toes are looking a little lonely. Why don't you pay him a visit?",
+              "start": 0.2,
+              "end": 3.04
+            },
+            {
+              "text": "What's with the extra warm ups, Coach? These guys haven't won all year.",
+              "start": 3.08,
+              "end": 5.92
+            }
+          ],
+          "glossary": [
+            {
+              "term": "What's with ...?",
+              "ko": "~는 웬일이야?, ~는 왜 그래?",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 5.92,
+          "end": 11.82,
+          "lines": [
+            {
+              "text": "Did you hear that, team? Miller just bought you a little present.",
+              "start": 5.92,
+              "end": 9.16
+            },
+            {
+              "text": "I wasn't complaining, I was just wondering why we- Take a lap.",
+              "start": 9.16,
+              "end": 11.82
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Take a lap",
+              "ko": "(벌로) 운동장 한 바퀴 뛰어",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 12.96,
+          "end": 15.85,
+          "lines": [
+            {
+              "text": "Bert Lavoisier.",
+              "start": 12.96,
+              "end": 14.56
+            },
+            {
+              "text": "Red Stag.",
+              "start": 14.68,
+              "end": 15.85
+            }
+          ]
+        },
+        {
+          "start": 16.51,
+          "end": 22.31,
+          "lines": [
+            {
+              "text": "Ducky Pond.",
+              "start": 16.51,
+              "end": 17.72
+            },
+            {
+              "text": "All coaching legends at this high school and none have won more than two games their first season.",
+              "start": 18.02,
+              "end": 22.31
+            }
+          ],
+          "glossary": [
+            {
+              "term": "coaching legends",
+              "ko": "전설적인 코치들",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 22.31,
+          "end": 30.32,
+          "lines": [
+            {
+              "text": "I win today, that makes three, making me the winningest first year freshman coach ever.",
+              "start": 22.31,
+              "end": 27.44
+            },
+            {
+              "text": "Oh hey, Luke. Reuben's sick.",
+              "start": 28.68,
+              "end": 30.32
+            }
+          ],
+          "glossary": [
+            {
+              "term": "winningest",
+              "ko": "가장 많이 이긴 (구어)",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 30.32,
+          "end": 35.08,
+          "lines": [
+            {
+              "text": "So I'm going to need you to be the announcer today.",
+              "start": 30.32,
+              "end": 32.36
+            },
+            {
+              "text": "How am I supposed to keep score and announce at the same time?",
+              "start": 32.36,
+              "end": 35.08
+            }
+          ],
+          "glossary": [
+            {
+              "term": "spaz",
+              "ko": "얼간이, 어수룩한 사람 (속어)",
+              "type": "word"
+            },
+            {
+              "term": "dork",
+              "ko": "멍청이, 찐따 (속어)",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 35.12,
+          "end": 37.88,
+          "lines": [
+            {
+              "text": "Same way you're a spaz and a dork at the same time.",
+              "start": 35.12,
+              "end": 37.36
+            },
+            {
+              "text": "Spork.",
+              "start": 37.4,
+              "end": 37.88
+            }
+          ],
+          "glossary": [
+            {
+              "term": "lose the attitude",
+              "ko": "그 건방진 태도 좀 버려",
+              "type": "idiom"
+            },
+            {
+              "term": "intensity",
+              "ko": "(여기) 기세, 열의",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 37.88,
+          "end": 40.77,
+          "lines": [
+            {
+              "text": "Okay, lose the attitude.",
+              "start": 37.88,
+              "end": 39.16
+            },
+            {
+              "text": "But keep that intensity.",
+              "start": 39.16,
+              "end": 40.77
+            }
+          ]
+        },
+        {
+          "start": 43.64,
+          "end": 48,
+          "lines": [
+            {
+              "text": "Excuse me, ref, what's with all the black armbands?",
+              "start": 43.64,
+              "end": 46
+            },
+            {
+              "text": "Their coach passed away last night.",
+              "start": 46.04,
+              "end": 48
+            }
+          ],
+          "glossary": [
+            {
+              "term": "armbands",
+              "ko": "(애도용) 완장",
+              "type": "word"
+            },
+            {
+              "term": "passed away",
+              "ko": "돌아가시다, 별세하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 48.04,
+          "end": 50.08,
+          "lines": [
+            {
+              "text": "He'd been sick for a while.",
+              "start": 48.04,
+              "end": 49.24
+            },
+            {
+              "text": "That's terrible.",
+              "start": 49.28,
+              "end": 50.08
+            }
+          ]
+        },
+        {
+          "start": 50.44,
+          "end": 54.68,
+          "lines": [
+            {
+              "text": "And we're still playing?",
+              "start": 50.44,
+              "end": 51.44
+            },
+            {
+              "text": "Oh, they're tough kids. Roger Knight lived for high school football.",
+              "start": 51.48,
+              "end": 54.68
+            }
+          ],
+          "glossary": [
+            {
+              "term": "tough kids",
+              "ko": "강단 있는, 근성 있는 아이들",
+              "type": "phrase"
+            },
+            {
+              "term": "lived for",
+              "ko": "~을 낙으로 삼다, ~에 목숨 걸다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 54.68,
+          "end": 59.6,
+          "lines": [
+            {
+              "text": "So they're playing this one in his honor.",
+              "start": 54.68,
+              "end": 56.44
+            },
+            {
+              "text": "Okay. Hey, guys. Guys, guys, guys, tragic news about Coach Knight.",
+              "start": 56.48,
+              "end": 59.6
+            }
+          ],
+          "glossary": [
+            {
+              "term": "in his honor",
+              "ko": "그를 기리며",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 60.09,
+          "end": 65.73,
+          "lines": [
+            {
+              "text": "You know what we need to focus up.",
+              "start": 60.09,
+              "end": 61.69
+            },
+            {
+              "text": "Plenty of time to pay our respects. But there will be no mourning night this afternoon.",
+              "start": 62.21,
+              "end": 65.73
+            }
+          ],
+          "glossary": [
+            {
+              "term": "focus up",
+              "ko": "정신 집중하자",
+              "type": "phrase"
+            },
+            {
+              "term": "pay our respects",
+              "ko": "조의를 표하다, 애도하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 66.89,
+          "end": 68.63,
+          "lines": [
+            {
+              "text": "A lot of character over there.",
+              "start": 66.89,
+              "end": 68.09
+            },
+            {
+              "text": "Yeah.",
+              "start": 68.13,
+              "end": 68.63
+            }
+          ],
+          "glossary": [
+            {
+              "term": "a lot of character",
+              "ko": "근성·기개가 대단함",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 68.89,
+          "end": 72.29,
+          "lines": [
+            {
+              "text": "Those kids haven't won a game all year. - Uh huh.",
+              "start": 68.89,
+              "end": 70.49
+            },
+            {
+              "text": "And now to have to play on his birthday.",
+              "start": 70.49,
+              "end": 72.29
+            }
+          ]
+        },
+        {
+          "start": 72.33,
+          "end": 76.21,
+          "lines": [
+            {
+              "text": "Okay, see you at the coin toss.",
+              "start": 72.33,
+              "end": 73.72
+            },
+            {
+              "text": "Top of the morning!",
+              "start": 75.03,
+              "end": 76.21
+            }
+          ]
+        },
+        {
+          "start": 77.65,
+          "end": 84.69,
+          "lines": [
+            {
+              "text": "Real estate, and to a lesser extent, life is all about perseverance.",
+              "start": 77.65,
+              "end": 81.13
+            },
+            {
+              "text": "Things go wrong. Keys get lost.",
+              "start": 82.09,
+              "end": 84.69
+            }
+          ],
+          "glossary": [
+            {
+              "term": "perseverance",
+              "ko": "끈기, 인내",
+              "type": "word"
+            },
+            {
+              "term": "things go wrong",
+              "ko": "일이 틀어지다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 84.69,
+          "end": 89.73,
+          "lines": [
+            {
+              "text": "Deals fall through, keys get misplaced.",
+              "start": 84.69,
+              "end": 87.01
+            },
+            {
+              "text": "A lot of it has to do with keys.",
+              "start": 88.05,
+              "end": 89.73
+            }
+          ],
+          "glossary": [
+            {
+              "term": "deals fall through",
+              "ko": "거래가 무산되다",
+              "type": "idiom"
+            },
+            {
+              "term": "get misplaced",
+              "ko": "어디 뒀는지 모르게 되다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 89.73,
+          "end": 99.09,
+          "lines": [
+            {
+              "text": "But that's when you find out there are two types of people those who waste time staring at a closed door and those who find a window.",
+              "start": 89.73,
+              "end": 99.09
+            }
+          ],
+          "glossary": [
+            {
+              "term": "those who stare at a closed door vs. those who find a window",
+              "ko": "닫힌 문만 보는 사람과 (다른) 창문을 찾는 사람",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 108.45,
+          "end": 114.65,
+          "lines": [
+            {
+              "text": "I'm looking at my first month ever without a sale.",
+              "start": 108.45,
+              "end": 110.65
+            },
+            {
+              "text": "Some people might give up, but those people aren't Phil Dunphy.",
+              "start": 110.93,
+              "end": 114.65
+            }
+          ]
+        },
+        {
+          "start": 115.65,
+          "end": 118.81,
+          "lines": [
+            {
+              "text": "No!",
+              "start": 115.65,
+              "end": 116.21
+            },
+            {
+              "text": "It's like I tell my kids.",
+              "start": 117.65,
+              "end": 118.81
+            }
+          ]
+        },
+        {
+          "start": 120.54,
+          "end": 131.62,
+          "lines": [
+            {
+              "text": "Keep a positive attitude and things will fall your way.",
+              "start": 120.54,
+              "end": 123.34
+            },
+            {
+              "text": "As my favorite redhead once sang, The sun will come out tomorrow.",
+              "start": 127.26,
+              "end": 131.62
+            }
+          ],
+          "glossary": [
+            {
+              "term": "things will fall your way",
+              "ko": "일이 술술 잘 풀리다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 138.98,
+          "end": 155.86,
+          "lines": [
+            {
+              "text": "That redhead, of course, was Mitchell introducing me to the plucky orphan Annie.",
+              "start": 138.98,
+              "end": 143.44
+            },
+            {
+              "text": "Whose never say die attitude pulled this country out of a little thing called the Great Depression.",
+              "start": 149.02,
+              "end": 155.86
+            }
+          ],
+          "glossary": [
+            {
+              "term": "plucky",
+              "ko": "당찬, 용감한",
+              "type": "word"
+            },
+            {
+              "term": "orphan",
+              "ko": "고아",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 157.02,
+          "end": 162.28,
+          "lines": [
+            {
+              "text": "And anything a little girl can do, I can try to do too.",
+              "start": 157.02,
+              "end": 160.72
+            },
+            {
+              "text": "Hey!",
+              "start": 161.78,
+              "end": 162.28
+            }
+          ],
+          "glossary": [
+            {
+              "term": "never-say-die attitude",
+              "ko": "절대 포기하지 않는 태도",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 183.79,
+          "end": 194.23,
+          "lines": [
+            {
+              "text": "Hey, guys. Welcome back. Drink it in.",
+              "start": 183.79,
+              "end": 186.71
+            },
+            {
+              "text": "Pretty great, huh? Oh, am I glad you guys could see this during the daytime.",
+              "start": 189.55,
+              "end": 194.23
+            }
+          ]
+        },
+        {
+          "start": 194.27,
+          "end": 200.39,
+          "lines": [
+            {
+              "text": "I really think it shows better like that.",
+              "start": 194.27,
+              "end": 196.79
+            },
+            {
+              "text": "So should we just cut to the chase and pay me my commission?",
+              "start": 197.11,
+              "end": 200.39
+            }
+          ],
+          "glossary": [
+            {
+              "term": "cut to the chase",
+              "ko": "본론으로 바로 들어가다",
+              "type": "idiom"
+            },
+            {
+              "term": "commission",
+              "ko": "수수료, 중개 보수",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 200.71,
+          "end": 205.67,
+          "lines": [
+            {
+              "text": "I'm kidding. You don't pay me directly. There is no fee in Dunphil.",
+              "start": 200.71,
+              "end": 204.03
+            },
+            {
+              "text": "Listen, Phil, we've got some great news.",
+              "start": 204.11,
+              "end": 205.67
+            }
+          ],
+          "glossary": [
+            {
+              "term": "in person",
+              "ko": "직접, 대면으로",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 205.71,
+          "end": 209.31,
+          "lines": [
+            {
+              "text": "I love it. Where's my lucky pen?",
+              "start": 205.71,
+              "end": 207.59
+            },
+            {
+              "text": "We wanted to tell you this in person.",
+              "start": 207.63,
+              "end": 209.31
+            }
+          ]
+        },
+        {
+          "start": 209.35,
+          "end": 211.19,
+          "lines": [
+            {
+              "text": "We just came from the doctor.",
+              "start": 209.35,
+              "end": 210.39
+            },
+            {
+              "text": "I'm pregnant.",
+              "start": 210.43,
+              "end": 211.19
+            }
+          ]
+        },
+        {
+          "start": 211.27,
+          "end": 217.11,
+          "lines": [
+            {
+              "text": "Oh my God, you guys.",
+              "start": 211.27,
+              "end": 214.11
+            },
+            {
+              "text": "Except we decided to put off buying the house until after the baby's born.",
+              "start": 214.11,
+              "end": 217.11
+            }
+          ]
+        },
+        {
+          "start": 217.15,
+          "end": 219.43,
+          "lines": [
+            {
+              "text": "Sure.",
+              "start": 217.15,
+              "end": 217.76
+            },
+            {
+              "text": "We've been trying for, like, six years.",
+              "start": 217.76,
+              "end": 219.43
+            }
+          ],
+          "glossary": [
+            {
+              "term": "put off",
+              "ko": "미루다, 연기하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 219.47,
+          "end": 222.27,
+          "lines": [
+            {
+              "text": "Sure.",
+              "start": 219.47,
+              "end": 219.91
+            },
+            {
+              "text": "For a while there, it seemed like the universe was against us.",
+              "start": 219.91,
+              "end": 222.27
+            }
+          ],
+          "glossary": [
+            {
+              "term": "the universe was against us",
+              "ko": "온 세상이 우릴 막는 것 같았다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 222.31,
+          "end": 224.79,
+          "lines": [
+            {
+              "text": "That's ridiculous. Why would the universe be against one person?",
+              "start": 222.31,
+              "end": 224.79
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CJm4W_7MB4Y",
+      "url": "https://www.youtube.com/watch?v=CJm4W_7MB4Y",
+      "title": "Cam Loses His Mind Over a Football Game",
+      "tag": "Cam & football",
+      "category": "미드 · 모던 패밀리",
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 5.32,
+          "lines": [
+            {
+              "text": "We had a small issue today.",
+              "start": 0.04,
+              "end": 1.68
+            },
+            {
+              "text": "One of the boys, Patrick, said Lily, pushed him down and tried to kiss him.",
+              "start": 1.72,
+              "end": 5.32
+            }
+          ]
+        },
+        {
+          "start": 5.56,
+          "end": 11.16,
+          "lines": [
+            {
+              "text": "No, that doesn't sound like Lily.",
+              "start": 5.56,
+              "end": 7.32
+            },
+            {
+              "text": "She was probably imitating something she saw on TV or in her family.",
+              "start": 7.36,
+              "end": 11.16
+            }
+          ],
+          "glossary": [
+            {
+              "term": "imitate",
+              "ko": "흉내 내다, 따라 하다",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 11.2,
+          "end": 15.24,
+          "lines": [
+            {
+              "text": "It was the TV, yes.",
+              "start": 11.2,
+              "end": 12.45
+            },
+            {
+              "text": "Here she is. She's always so sweet.",
+              "start": 13.01,
+              "end": 15.24
+            }
+          ]
+        },
+        {
+          "start": 15.84,
+          "end": 19.52,
+          "lines": [
+            {
+              "text": "Bye, Patrick.",
+              "start": 15.84,
+              "end": 17.26
+            },
+            {
+              "text": "See? They're just friends.",
+              "start": 17.26,
+              "end": 19.52
+            }
+          ]
+        },
+        {
+          "start": 19.96,
+          "end": 22.72,
+          "lines": [
+            {
+              "text": "What are you laughing at, Evan?",
+              "start": 19.96,
+              "end": 21.52
+            },
+            {
+              "text": "You're next.",
+              "start": 21.56,
+              "end": 22.72
+            }
+          ]
+        },
+        {
+          "start": 24.16,
+          "end": 31.2,
+          "lines": [
+            {
+              "text": "Okay, I'm going to talk to her for a little bit.",
+              "start": 24.16,
+              "end": 26.04
+            },
+            {
+              "text": "Oh, did I ever tell you that I put your name up here?",
+              "start": 28.48,
+              "end": 31.2
+            }
+          ]
+        },
+        {
+          "start": 32.64,
+          "end": 36.4,
+          "lines": [
+            {
+              "text": "Haley Dunphy Dome.",
+              "start": 32.64,
+              "end": 34.2
+            },
+            {
+              "text": "Oh, you named her special spots?",
+              "start": 34.28,
+              "end": 36.4
+            }
+          ],
+          "glossary": [
+            {
+              "term": "spacing",
+              "ko": "(글자) 띄어쓰기, 간격",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 36.44,
+          "end": 40.8,
+          "lines": [
+            {
+              "text": "Actually, it was supposed to be Haley Dunphy do me.",
+              "start": 36.44,
+              "end": 39.47
+            },
+            {
+              "text": "I'm bad with spacing.",
+              "start": 39.47,
+              "end": 40.8
+            }
+          ]
+        },
+        {
+          "start": 41.52,
+          "end": 43.48,
+          "lines": [
+            {
+              "text": "Oh.",
+              "start": 41.52,
+              "end": 42.02
+            },
+            {
+              "text": "You're not so bad.",
+              "start": 42.48,
+              "end": 43.48
+            }
+          ]
+        },
+        {
+          "start": 44.44,
+          "end": 51.6,
+          "lines": [
+            {
+              "text": "And that's halftime. Panthers six, Dolphins zero.",
+              "start": 44.44,
+              "end": 47.68
+            },
+            {
+              "text": "That's zero scored by Jason Miller, who proudly prances off the field.",
+              "start": 47.8,
+              "end": 51.6
+            }
+          ],
+          "glossary": [
+            {
+              "term": "halftime",
+              "ko": "(경기) 하프타임, 전반 종료",
+              "type": "word"
+            },
+            {
+              "term": "prance off",
+              "ko": "의기양양하게 걸어 나가다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 51.84,
+          "end": 55.91,
+          "lines": [
+            {
+              "text": "Just let me go up there and kick that kid's butt.",
+              "start": 51.84,
+              "end": 53.7
+            },
+            {
+              "text": "Knock it off, Miller. I need your leg. Take a knee.",
+              "start": 53.7,
+              "end": 55.91
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Knock it off",
+              "ko": "그만해, 작작 해",
+              "type": "idiom"
+            },
+            {
+              "term": "Take a knee",
+              "ko": "무릎 꿇고 모여 (작전 지시)",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 56.51,
+          "end": 63.04,
+          "lines": [
+            {
+              "text": "Now. I don't know what tuna net you dolphins swam into, but you are drowning out there.",
+              "start": 56.51,
+              "end": 60.52
+            },
+            {
+              "text": "Coach, would it really be such a bad thing if we lost?",
+              "start": 60.56,
+              "end": 63.04
+            }
+          ],
+          "glossary": [
+            {
+              "term": "drowning out there",
+              "ko": "(경기에서) 허우적대다, 헤매다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 63.08,
+          "end": 66.6,
+          "lines": [
+            {
+              "text": "Beg your pardon?",
+              "start": 63.08,
+              "end": 63.92
+            },
+            {
+              "text": "Look at them, coach. Haven't they lost enough already?",
+              "start": 64.08,
+              "end": 66.6
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Beg your pardon?",
+              "ko": "뭐라고요? (정중한 되물음)",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 66.8,
+          "end": 71.28,
+          "lines": [
+            {
+              "text": "Maybe giving them a win would, in a way, be a victory for us too.",
+              "start": 66.8,
+              "end": 69.84
+            },
+            {
+              "text": "Okay, you know what mattered the most to Coach Knight?",
+              "start": 69.84,
+              "end": 71.28
+            }
+          ],
+          "glossary": [
+            {
+              "term": "in a way",
+              "ko": "어떤 면에서는",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 71.32,
+          "end": 74.71,
+          "lines": [
+            {
+              "text": "His work with special needs kids?",
+              "start": 71.32,
+              "end": 72.64
+            },
+            {
+              "text": "Okay. He took one kid to one beach, one time.",
+              "start": 72.64,
+              "end": 74.71
+            }
+          ]
+        },
+        {
+          "start": 74.71,
+          "end": 79.08,
+          "lines": [
+            {
+              "text": "Football.",
+              "start": 74.71,
+              "end": 75.68
+            },
+            {
+              "text": "Football is what mattered the most. He lived for competition.",
+              "start": 75.88,
+              "end": 79.08
+            }
+          ],
+          "glossary": [
+            {
+              "term": "lived for competition",
+              "ko": "경쟁에 살았다, 경쟁이 낙이었다",
+              "type": "phrase"
+            },
+            {
+              "term": "sportsmanship",
+              "ko": "스포츠맨십, 정정당당함",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 79.12,
+          "end": 89.6,
+          "lines": [
+            {
+              "text": "He believed in sportsmanship, integrity.",
+              "start": 79.12,
+              "end": 82.32
+            },
+            {
+              "text": "Okay, now, the way I see it, we can roll over and give them an empty, meaningless victory that he would hate.",
+              "start": 83.08,
+              "end": 89.6
+            }
+          ],
+          "glossary": [
+            {
+              "term": "integrity",
+              "ko": "진실성, 올곧음",
+              "type": "word"
+            },
+            {
+              "term": "roll over",
+              "ko": "(싸우지 않고) 순순히 져 주다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 89.8,
+          "end": 99.6,
+          "lines": [
+            {
+              "text": "Or we can go out there, leave it all on the field and be a team he would be proud to lose to.",
+              "start": 89.8,
+              "end": 96.04
+            },
+            {
+              "text": "Now, is this an I activity or a we activity?",
+              "start": 97.28,
+              "end": 99.6
+            }
+          ],
+          "glossary": [
+            {
+              "term": "leave it all on the field",
+              "ko": "(경기에) 모든 걸 쏟아붓다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 99.64,
+          "end": 100.82,
+          "lines": [
+            {
+              "text": "We!",
+              "start": 99.64,
+              "end": 100.2
+            },
+            {
+              "text": "What?",
+              "start": 100.2,
+              "end": 100.82
+            }
+          ]
+        },
+        {
+          "start": 100.82,
+          "end": 103.25,
+          "lines": [
+            {
+              "text": "We! - What?",
+              "start": 100.82,
+              "end": 101.68
+            },
+            {
+              "text": "We! We! We! We!",
+              "start": 101.68,
+              "end": 103.25
+            }
+          ]
+        },
+        {
+          "start": 103.25,
+          "end": 108.55,
+          "lines": [
+            {
+              "text": "That's right. Now you sound like dolphins!",
+              "start": 103.25,
+              "end": 106.52
+            },
+            {
+              "text": "Hey, Tim.",
+              "start": 107.32,
+              "end": 108.55
+            }
+          ]
+        },
+        {
+          "start": 108.55,
+          "end": 113.12,
+          "lines": [
+            {
+              "text": "Got the next three days of delivery slips for you here signed, huh.",
+              "start": 108.55,
+              "end": 112.38
+            },
+            {
+              "text": "Thanks, Claire.",
+              "start": 112.38,
+              "end": 113.12
+            }
+          ],
+          "glossary": [
+            {
+              "term": "delivery slips",
+              "ko": "배송 전표",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 113.2,
+          "end": 116.45,
+          "lines": [
+            {
+              "text": "Yeah. Sign those up. Good, huh?",
+              "start": 113.2,
+              "end": 115.12
+            },
+            {
+              "text": "Yup. Mhm. - Yeah.",
+              "start": 115.16,
+              "end": 116.45
+            }
+          ]
+        },
+        {
+          "start": 116.45,
+          "end": 120.12,
+          "lines": [
+            {
+              "text": "Yeah, thanks.",
+              "start": 116.45,
+              "end": 117.25
+            },
+            {
+              "text": "So this is this is the, uh, the Regency. Birch.",
+              "start": 117.25,
+              "end": 120.12
+            }
+          ]
+        },
+        {
+          "start": 120.16,
+          "end": 124.04,
+          "lines": [
+            {
+              "text": "Beautiful model. Gorgeous.",
+              "start": 120.16,
+              "end": 121.96
+            },
+            {
+              "text": "You guys do such good work down here.",
+              "start": 121.96,
+              "end": 124.04
+            }
+          ]
+        },
+        {
+          "start": 124.16,
+          "end": 128.32,
+          "lines": [
+            {
+              "text": "Really, you mind if I take her for a spin before she goes up to the showroom?",
+              "start": 124.16,
+              "end": 127.4
+            },
+            {
+              "text": "You're the boss.",
+              "start": 127.4,
+              "end": 128.32
+            }
+          ],
+          "glossary": [
+            {
+              "term": "take her for a spin",
+              "ko": "(차 등을) 한번 몰아 보다, 시운전하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 128.32,
+          "end": 131.36,
+          "lines": [
+            {
+              "text": "His daughter.",
+              "start": 128.32,
+              "end": 129.56
+            },
+            {
+              "text": "Yeah. That's what you want to say.",
+              "start": 129.92,
+              "end": 131.36
+            }
+          ]
+        },
+        {
+          "start": 131.72,
+          "end": 138.49,
+          "lines": [
+            {
+              "text": "Oh, okay. So. So no mirror when they're shipping, which makes sense.",
+              "start": 131.72,
+              "end": 135.4
+            },
+            {
+              "text": "Also have a...",
+              "start": 137.36,
+              "end": 138.49
+            }
+          ]
+        },
+        {
+          "start": 139.35,
+          "end": 143.18,
+          "lines": [
+            {
+              "text": "No handles.",
+              "start": 139.35,
+              "end": 140.8
+            },
+            {
+              "text": "Hey. Hey, Tim.",
+              "start": 141.76,
+              "end": 143.18
+            }
+          ]
+        },
+        {
+          "start": 145.02,
+          "end": 149.45,
+          "lines": [
+            {
+              "text": "Hey, Tim?",
+              "start": 145.02,
+              "end": 147.23
+            },
+            {
+              "text": "Tim!",
+              "start": 147.35,
+              "end": 149.45
+            }
+          ]
+        },
+        {
+          "start": 149.97,
+          "end": 155.01,
+          "lines": [
+            {
+              "text": "Oh, God. Yeah. Hi, dad.",
+              "start": 149.97,
+              "end": 152.17
+            },
+            {
+              "text": "Hey, coworker. Just seeing when you want to leave for the game.",
+              "start": 152.21,
+              "end": 155.01
+            }
+          ]
+        },
+        {
+          "start": 155.05,
+          "end": 157.77,
+          "lines": [
+            {
+              "text": "We're late already.",
+              "start": 155.05,
+              "end": 156.29
+            },
+            {
+              "text": "Soon. Soon.",
+              "start": 156.33,
+              "end": 157.77
+            }
+          ]
+        },
+        {
+          "start": 159.19,
+          "end": 164.93,
+          "lines": [
+            {
+              "text": "I'm just. I'm finishing up a little paperwork in my office.",
+              "start": 159.19,
+              "end": 162.55
+            },
+            {
+              "text": "Okay. Let me know if you need any help.",
+              "start": 162.55,
+              "end": 164.93
+            }
+          ]
+        },
+        {
+          "start": 164.97,
+          "end": 168.41,
+          "lines": [
+            {
+              "text": "No, I do not need your help.",
+              "start": 164.97,
+              "end": 166.09
+            },
+            {
+              "text": "And as I believe I mentioned.",
+              "start": 166.09,
+              "end": 168.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "look over my shoulder",
+              "ko": "(어깨너머로) 감시하다, 간섭하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 168.45,
+          "end": 176.41,
+          "lines": [
+            {
+              "text": "I would appreciate it if you were not constantly looking over my shoulder.",
+              "start": 168.45,
+              "end": 173.77
+            },
+            {
+              "text": "Come on, give me some credit. That's the last thing I would do.",
+              "start": 173.81,
+              "end": 176.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "give me some credit",
+              "ko": "나 좀 믿어 줘, 그 정도는 인정해 줘",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 176.45,
+          "end": 185.93,
+          "lines": [
+            {
+              "text": "Dad, you seem to forget that I raised three children and I had a career before this.",
+              "start": 176.45,
+              "end": 183.49
+            },
+            {
+              "text": "I have done plenty of stuff that does not.",
+              "start": 183.53,
+              "end": 185.93
+            }
+          ]
+        },
+        {
+          "start": 186.09,
+          "end": 191.49,
+          "lines": [
+            {
+              "text": "Oh!",
+              "start": 186.09,
+              "end": 186.59
+            },
+            {
+              "text": "Do you hear that? Sounds like it's coming from the warehouse.",
+              "start": 188.33,
+              "end": 191.49
+            }
+          ]
+        },
+        {
+          "start": 191.61,
+          "end": 193.01,
+          "lines": [
+            {
+              "text": "Yeah.",
+              "start": 191.61,
+              "end": 191.97
+            },
+            {
+              "text": "What even is that?",
+              "start": 191.97,
+              "end": 193.01
+            }
+          ]
+        },
+        {
+          "start": 194.93,
+          "end": 199.73,
+          "lines": [
+            {
+              "text": "Oh, I'm sure it's nothing.",
+              "start": 194.93,
+              "end": 196.41
+            },
+            {
+              "text": "Uh, one piece of advice. Take it or leave it.",
+              "start": 196.89,
+              "end": 199.73
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Take it or leave it",
+              "ko": "받아들이든 말든 (양자택일)",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 201.05,
+          "end": 204.65,
+          "lines": [
+            {
+              "text": "What?",
+              "start": 201.05,
+              "end": 201.61
+            },
+            {
+              "text": "The latch is under the panel on the right.",
+              "start": 202.01,
+              "end": 204.65
+            }
+          ],
+          "glossary": [
+            {
+              "term": "latch",
+              "ko": "걸쇠, 빗장",
+              "type": "word"
             }
           ]
         }
@@ -3414,6 +4914,1692 @@
               "text": "Thank you very much.",
               "start": 307.4,
               "end": 308.57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5CvlKCBrPHI",
+      "url": "https://www.youtube.com/watch?v=5CvlKCBrPHI",
+      "title": "The Accidental Brilliance of Makeshift Signs",
+      "tag": "Makeshift signs",
+      "category": "TED 강연",
+      "segments": [
+        {
+          "start": 4.27,
+          "end": 7.2,
+          "lines": [
+            {
+              "text": "My name is Kate.",
+              "start": 4.27,
+              "end": 5.8
+            },
+            {
+              "text": "I am a designer.",
+              "start": 5.84,
+              "end": 7.2
+            }
+          ]
+        },
+        {
+          "start": 7.24,
+          "end": 18.78,
+          "lines": [
+            {
+              "text": "And my design superpower is noticing.",
+              "start": 7.24,
+              "end": 11.54
+            },
+            {
+              "text": "I am pretty much always watching how people navigate the designed world.",
+              "start": 11.94,
+              "end": 18.78
+            }
+          ],
+          "glossary": [
+            {
+              "term": "navigate",
+              "ko": "(상황을) 헤쳐나가다, 다루다",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 19.38,
+          "end": 36.8,
+          "lines": [
+            {
+              "text": "And one of the things that I notice a lot is stuff like this.",
+              "start": 19.38,
+              "end": 24.09
+            },
+            {
+              "text": "For over 20 years, I have been taking photographs of signs that help us get around everyday situations.",
+              "start": 27.22,
+              "end": 36.8
+            }
+          ],
+          "glossary": [
+            {
+              "term": "get around (everyday situations)",
+              "ko": "(일상 상황을) 잘 대처하다, 헤쳐나가다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 36.8,
+          "end": 44.24,
+          "lines": [
+            {
+              "text": "Places where, for whatever reason, we just need a little extra coaching.",
+              "start": 36.8,
+              "end": 41.67
+            },
+            {
+              "text": "Signs like this.",
+              "start": 43.01,
+              "end": 44.24
+            }
+          ],
+          "glossary": [
+            {
+              "term": "for whatever reason",
+              "ko": "무슨 이유에서든",
+              "type": "phrase"
+            },
+            {
+              "term": "coaching",
+              "ko": "(여기) 약간의 안내·도움",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 47.38,
+          "end": 48.55,
+          "lines": [
+            {
+              "text": "And like this.",
+              "start": 47.38,
+              "end": 48.55
+            }
+          ]
+        },
+        {
+          "start": 53.38,
+          "end": 69.2,
+          "lines": [
+            {
+              "text": "I really love this kind of sign a lot, where something is technically fully functioning the way it was designed, like this keypad, but it's not really usable without this extra layer of instruction.",
+              "start": 53.38,
+              "end": 69.2
+            }
+          ],
+          "glossary": [
+            {
+              "term": "fully functioning",
+              "ko": "완전히 제대로 작동하는",
+              "type": "phrase"
+            },
+            {
+              "term": "a layer of instruction",
+              "ko": "한 겹의 추가 설명·안내",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 69.83,
+          "end": 85.05,
+          "lines": [
+            {
+              "text": "And I've come to see the makers of the signs as designers.",
+              "start": 69.83,
+              "end": 74.34
+            },
+            {
+              "text": "They're coming in after the work of the original design team, to make it so that you can actually do the thing that you're trying to do, in this case, unlock a door.",
+              "start": 74.87,
+              "end": 85.05
+            }
+          ],
+          "glossary": [
+            {
+              "term": "come to see ... as",
+              "ko": "~을 …로 여기게 되다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 86.72,
+          "end": 92.96,
+          "lines": [
+            {
+              "text": "Sometimes these signs are kind of subtle.",
+              "start": 86.72,
+              "end": 90.45
+            },
+            {
+              "text": "You just know what to do.",
+              "start": 90.49,
+              "end": 92.96
+            }
+          ],
+          "glossary": [
+            {
+              "term": "subtle",
+              "ko": "미묘한, 알 듯 말 듯한",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 94.79,
+          "end": 103.6,
+          "lines": [
+            {
+              "text": "Other times ...",
+              "start": 94.79,
+              "end": 96.16
+            },
+            {
+              "text": "This sign is actually helping us think.",
+              "start": 100.73,
+              "end": 103.6
+            }
+          ]
+        },
+        {
+          "start": 104.14,
+          "end": 112.58,
+          "lines": [
+            {
+              "text": "We have been so trained to see red as danger.",
+              "start": 104.14,
+              "end": 108.71
+            },
+            {
+              "text": "Thankfully, here, someone is letting us know it is just a light switch.",
+              "start": 108.74,
+              "end": 112.58
+            }
+          ]
+        },
+        {
+          "start": 113.81,
+          "end": 122.52,
+          "lines": [
+            {
+              "text": "I think of myself as almost like an anthropologist in the world of everyday instructions.",
+              "start": 113.81,
+              "end": 120.92
+            },
+            {
+              "text": "I am obsessed.",
+              "start": 120.95,
+              "end": 122.52
+            }
+          ],
+          "glossary": [
+            {
+              "term": "anthropologist",
+              "ko": "인류학자",
+              "type": "word"
+            },
+            {
+              "term": "obsessed",
+              "ko": "푹 빠진, 집착하는",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 123.52,
+          "end": 132.26,
+          "lines": [
+            {
+              "text": "I have hundreds and hundreds of photographs like this.",
+              "start": 123.52,
+              "end": 128.19
+            },
+            {
+              "text": "You've all seen signs like this.",
+              "start": 130.73,
+              "end": 132.26
+            }
+          ]
+        },
+        {
+          "start": 132.3,
+          "end": 137.64,
+          "lines": [
+            {
+              "text": "You've probably seen them already today.",
+              "start": 132.3,
+              "end": 135.4
+            },
+            {
+              "text": "Especially if you have paid for something.",
+              "start": 135.43,
+              "end": 137.64
+            }
+          ]
+        },
+        {
+          "start": 139.7,
+          "end": 157.49,
+          "lines": [
+            {
+              "text": "We have a very consistent issue -- with point of sale machines.",
+              "start": 139.7,
+              "end": 147.71
+            },
+            {
+              "text": "We also, as a group ...",
+              "start": 155.52,
+              "end": 157.49
+            }
+          ],
+          "glossary": [
+            {
+              "term": "point of sale machines",
+              "ko": "결제 단말기 (POS기)",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 160.56,
+          "end": 172.07,
+          "lines": [
+            {
+              "text": "Seem to really be struggling in the public bathroom.",
+              "start": 160.56,
+              "end": 164.4
+            },
+            {
+              "text": "An inexplicably large proportion of my photos were taken in a public bathroom.",
+              "start": 166.7,
+              "end": 172.07
+            }
+          ],
+          "glossary": [
+            {
+              "term": "inexplicably",
+              "ko": "설명할 수 없게, 영문 모르게",
+              "type": "word"
+            },
+            {
+              "term": "a large proportion of",
+              "ko": "~의 상당 부분",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 173.44,
+          "end": 184.68,
+          "lines": [
+            {
+              "text": "I could have done the entire talk using only public bathroom photos.",
+              "start": 173.44,
+              "end": 178.34
+            },
+            {
+              "text": "And I find this bewildering.",
+              "start": 182.11,
+              "end": 184.68
+            }
+          ],
+          "glossary": [
+            {
+              "term": "bewildering",
+              "ko": "어리둥절하게 만드는",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 188.69,
+          "end": 194.53,
+          "lines": [
+            {
+              "text": "Audience: Oh!",
+              "start": 188.69,
+              "end": 189.95
+            },
+            {
+              "text": "Kate Canales: But also weirdly delightful.",
+              "start": 191.59,
+              "end": 194.53
+            }
+          ]
+        },
+        {
+          "start": 198.86,
+          "end": 213.01,
+          "lines": [
+            {
+              "text": "A place that we all use, every day, still requires so much guidance.",
+              "start": 198.86,
+              "end": 206.44
+            },
+            {
+              "text": "This machine fills cups with water.",
+              "start": 210.14,
+              "end": 213.01
+            }
+          ]
+        },
+        {
+          "start": 213.48,
+          "end": 221.49,
+          "lines": [
+            {
+              "text": "That's all it does.",
+              "start": 213.48,
+              "end": 214.78
+            },
+            {
+              "text": "You would be forgiven for thinking it could do more, like send a fax or analyze a blood sample.",
+              "start": 214.81,
+              "end": 221.49
+            }
+          ],
+          "glossary": [
+            {
+              "term": "You would be forgiven for thinking",
+              "ko": "~라고 생각해도 무리가 아니다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 221.52,
+          "end": 232.4,
+          "lines": [
+            {
+              "text": "It has been so overdesigned, so slicked out.",
+              "start": 221.52,
+              "end": 226.42
+            },
+            {
+              "text": "Its function is not legible to us until someone made these signs.",
+              "start": 226.42,
+              "end": 232.4
+            }
+          ],
+          "glossary": [
+            {
+              "term": "slicked out",
+              "ko": "번지르르하게 꾸민",
+              "type": "phrase"
+            },
+            {
+              "term": "legible",
+              "ko": "(여기) 알아볼 수 있는, 이해되는",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 233.8,
+          "end": 251.52,
+          "lines": [
+            {
+              "text": "When I started taking these photographs, I really was on a mission to document examples of bad design, the way it frustrates and interferes.",
+              "start": 233.8,
+              "end": 243.24
+            },
+            {
+              "text": "But I've become much more interested in preserving the signs as examples of ingenious human problem solving.",
+              "start": 243.87,
+              "end": 251.52
+            }
+          ],
+          "glossary": [
+            {
+              "term": "on a mission to",
+              "ko": "~하려는 사명을 띠고",
+              "type": "phrase"
+            },
+            {
+              "term": "ingenious",
+              "ko": "기발한, 독창적인",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 256.25,
+          "end": 262.83,
+          "lines": [
+            {
+              "text": "Not. Is not.",
+              "start": 256.25,
+              "end": 257.59
+            },
+            {
+              "text": "When we arrive on the scene, the sign is already here.",
+              "start": 258.92,
+              "end": 262.83
+            }
+          ]
+        },
+        {
+          "start": 263.36,
+          "end": 274.4,
+          "lines": [
+            {
+              "text": "But I love to imagine what was happening before there was a sign.",
+              "start": 263.36,
+              "end": 268.37
+            },
+            {
+              "text": "Visualize with me this scene before there was a sign.",
+              "start": 270.93,
+              "end": 274.4
+            }
+          ]
+        },
+        {
+          "start": 274.81,
+          "end": 285.02,
+          "lines": [
+            {
+              "text": "People are starting to congregate outside of this fourth-floor elevator that does not stop on the fourth floor.",
+              "start": 274.81,
+              "end": 281.41
+            },
+            {
+              "text": "Until someone fixed it with a sign.",
+              "start": 282.18,
+              "end": 285.02
+            }
+          ],
+          "glossary": [
+            {
+              "term": "congregate",
+              "ko": "모여들다",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 288.79,
+          "end": 293.59,
+          "lines": [
+            {
+              "text": "Who hasn't?",
+              "start": 288.79,
+              "end": 289.95
+            },
+            {
+              "text": "Who hasn't backed into something that was closer than they thought it was?",
+              "start": 289.99,
+              "end": 293.59
+            }
+          ],
+          "glossary": [
+            {
+              "term": "back into something",
+              "ko": "(뒷걸음치다) ~에 부딪치다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 293.92,
+          "end": 309.04,
+          "lines": [
+            {
+              "text": "A sign would have been helpful.",
+              "start": 293.92,
+              "end": 295.83
+            },
+            {
+              "text": "Now when you are solving problems for humans and you yourself are human, sometimes it can be hard.",
+              "start": 301.37,
+              "end": 309.04
+            }
+          ]
+        },
+        {
+          "start": 309.07,
+          "end": 318.78,
+          "lines": [
+            {
+              "text": "And I have several examples of how hard sometimes it is to get this right.",
+              "start": 309.07,
+              "end": 314.81
+            },
+            {
+              "text": "Audience: Oh!",
+              "start": 316.61,
+              "end": 318.78
+            }
+          ]
+        },
+        {
+          "start": 321.42,
+          "end": 336.07,
+          "lines": [
+            {
+              "text": "[To lock, push Schlage button Turn to right (outside) Do not turn] KC: Sometimes you just don’t know which way to Schlage.",
+              "start": 321.42,
+              "end": 327.56
+            },
+            {
+              "text": "I think we have all been on this airport elevator.",
+              "start": 331.9,
+              "end": 336.07
+            }
+          ]
+        },
+        {
+          "start": 336.1,
+          "end": 339.8,
+          "lines": [
+            {
+              "text": "Metaphorically.",
+              "start": 336.1,
+              "end": 337.8
+            },
+            {
+              "text": "Where is the plane?",
+              "start": 338.3,
+              "end": 339.8
+            }
+          ]
+        },
+        {
+          "start": 345.14,
+          "end": 348.65,
+          "lines": [
+            {
+              "text": "Temporarily.",
+              "start": 345.14,
+              "end": 346.71
+            },
+            {
+              "text": "This is not temporary.",
+              "start": 347.04,
+              "end": 348.65
+            }
+          ]
+        },
+        {
+          "start": 355.12,
+          "end": 367.03,
+          "lines": [
+            {
+              "text": "OK.",
+              "start": 355.12,
+              "end": 356.35
+            },
+            {
+              "text": "Don't you love that there's someone out there who needs an entire recycling bin just for their champagne bottles?",
+              "start": 361.06,
+              "end": 367.03
+            }
+          ]
+        },
+        {
+          "start": 367.4,
+          "end": 375.31,
+          "lines": [
+            {
+              "text": "Good for them, good for them.",
+              "start": 367.4,
+              "end": 369.53
+            },
+            {
+              "text": "The reality is that most of the signs in my collection are as simple as this.",
+              "start": 370.2,
+              "end": 375.31
+            }
+          ]
+        },
+        {
+          "start": 375.87,
+          "end": 379.11,
+          "lines": [
+            {
+              "text": "Downstairs, upstairs.",
+              "start": 375.87,
+              "end": 377.41
+            },
+            {
+              "text": "It's almost invisible.",
+              "start": 377.44,
+              "end": 379.11
+            }
+          ]
+        },
+        {
+          "start": 380.24,
+          "end": 392.46,
+          "lines": [
+            {
+              "text": "The original design assignment here was not complex, but it still missed the mark.",
+              "start": 380.24,
+              "end": 385.98
+            },
+            {
+              "text": "And I think a version of this is always going to be true, we're all out here, designing experiences for one another.",
+              "start": 386.48,
+              "end": 392.46
+            }
+          ],
+          "glossary": [
+            {
+              "term": "missed the mark",
+              "ko": "핵심을 빗나가다, 기대에 못 미치다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 392.49,
+          "end": 398.83,
+          "lines": [
+            {
+              "text": "Sometimes we nail it, sometimes it is terrible.",
+              "start": 392.49,
+              "end": 395.43
+            },
+            {
+              "text": "Sometimes we need someone else to come in and put a layer over it.",
+              "start": 395.46,
+              "end": 398.83
+            }
+          ],
+          "glossary": [
+            {
+              "term": "nail it",
+              "ko": "멋지게 해내다, 딱 맞히다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 398.86,
+          "end": 409.24,
+          "lines": [
+            {
+              "text": "Make it OK.",
+              "start": 398.86,
+              "end": 400.13
+            },
+            {
+              "text": "Walking through a door should be very intuitive, but doors are an area where we still need a ton of support.",
+              "start": 401.93,
+              "end": 409.24
+            }
+          ],
+          "glossary": [
+            {
+              "term": "intuitive",
+              "ko": "직관적인",
+              "type": "word"
+            },
+            {
+              "term": "a ton of",
+              "ko": "엄청나게 많은",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 410.51,
+          "end": 422.09,
+          "lines": [
+            {
+              "text": "This is a reality that I actually find reassuring.",
+              "start": 410.51,
+              "end": 414.48
+            },
+            {
+              "text": "These \"push\" signs with their little scotch tape borders, the very fact that there are two of them.",
+              "start": 415.51,
+              "end": 422.09
+            }
+          ],
+          "glossary": [
+            {
+              "term": "reassuring",
+              "ko": "안심이 되는",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 423.52,
+          "end": 428.19,
+          "lines": [
+            {
+              "text": "This is so tender to me.",
+              "start": 423.52,
+              "end": 425.76
+            },
+            {
+              "text": "This is so human.",
+              "start": 425.79,
+              "end": 428.19
+            }
+          ],
+          "glossary": [
+            {
+              "term": "tender",
+              "ko": "(여기) 뭉클한, 따뜻한",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 429.66,
+          "end": 444.44,
+          "lines": [
+            {
+              "text": "No matter how you may feel about the advancement of technology in our everyday lives, these signs are evidence that we still need each other out here in the real world, to do some very basic things.",
+              "start": 429.66,
+              "end": 444.44
+            }
+          ]
+        },
+        {
+          "start": 445.88,
+          "end": 459.39,
+          "lines": [
+            {
+              "text": "The person who came before us took the time to leave some instructions to make sure that our experience is a little bit better than theirs.",
+              "start": 445.88,
+              "end": 454.55
+            },
+            {
+              "text": "And that is a sign of humanity that I am always happy to stumble upon.",
+              "start": 454.85,
+              "end": 459.39
+            }
+          ],
+          "glossary": [
+            {
+              "term": "stumble upon",
+              "ko": "우연히 발견하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 460.46,
+          "end": 461.63,
+          "lines": [
+            {
+              "text": "Thank you.",
+              "start": 460.46,
+              "end": 461.63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6bIORK0izg4",
+      "url": "https://www.youtube.com/watch?v=6bIORK0izg4",
+      "title": "Why the Best Ideas Come from Play",
+      "tag": "Ideas from play",
+      "category": "TED 강연",
+      "segments": [
+        {
+          "start": 8.55,
+          "end": 12.84,
+          "lines": [
+            {
+              "text": "(Video) Guys, here goes a level seven.",
+              "start": 8.55,
+              "end": 10.55
+            },
+            {
+              "text": "Thank you.",
+              "start": 11.63,
+              "end": 12.84
+            }
+          ],
+          "glossary": [
+            {
+              "term": "here goes",
+              "ko": "자, 간다 (시도 직전에)",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 17.47,
+          "end": 20.93,
+          "lines": [
+            {
+              "text": "Yeah!",
+              "start": 17.47,
+              "end": 18.64
+            },
+            {
+              "text": "Woohoo!",
+              "start": 19.6,
+              "end": 20.93
+            }
+          ]
+        },
+        {
+          "start": 20.93,
+          "end": 32.65,
+          "lines": [
+            {
+              "text": "Give me high-five!",
+              "start": 20.93,
+              "end": 22.39
+            },
+            {
+              "text": "Maxwell Pearce: That was me shooting a basketball off of a 230-foot New York City building.",
+              "start": 28.07,
+              "end": 32.65
+            }
+          ]
+        },
+        {
+          "start": 33.2,
+          "end": 49.13,
+          "lines": [
+            {
+              "text": "It's certainly not your typical basketball court.",
+              "start": 33.2,
+              "end": 35.53
+            },
+            {
+              "text": "I am a member of the Harlem Globetrotters, a legendary exhibition basketball team that is credited for integrating the NBA, popularizing new moves like the “alley-oop” and creating so many others.",
+              "start": 35.99,
+              "end": 49.13
+            }
+          ],
+          "glossary": [
+            {
+              "term": "exhibition (team)",
+              "ko": "시범 경기를 하는 (팀)",
+              "type": "word"
+            },
+            {
+              "term": "is credited for",
+              "ko": "~한 공로를 인정받다",
+              "type": "phrase"
+            },
+            {
+              "term": "integrating",
+              "ko": "(인종) 통합하다",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 49.84,
+          "end": 65.85,
+          "lines": [
+            {
+              "text": "These are the new moves that have advanced the game, but they've also given joy to the people that come and watch us perform.",
+              "start": 49.84,
+              "end": 57.55
+            },
+            {
+              "text": "And that right there is precisely how we have lasted for 100 years, while also earning a spot in the Hall of Fame.",
+              "start": 57.93,
+              "end": 65.85
+            }
+          ],
+          "glossary": [
+            {
+              "term": "earn a spot",
+              "ko": "자리를 차지하다, 들어가다",
+              "type": "phrase"
+            },
+            {
+              "term": "Hall of Fame",
+              "ko": "명예의 전당",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 66.27,
+          "end": 74.03,
+          "lines": [
+            {
+              "text": "Getting to this point in my career certainly was not a straight line.",
+              "start": 66.27,
+              "end": 69.82
+            },
+            {
+              "text": "I've always struggled with high-level sports coaching.",
+              "start": 70.11,
+              "end": 74.03
+            }
+          ],
+          "glossary": [
+            {
+              "term": "not a straight line",
+              "ko": "(여기) 순탄치 않았다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 74.49,
+          "end": 89.75,
+          "lines": [
+            {
+              "text": "There’s a certain culture that has excessive cursing, yelling and also a hyper-seriousness that can really stunt your growth.",
+              "start": 74.49,
+              "end": 83.2
+            },
+            {
+              "text": "Although we were playing sports, ironically, we were coached not to be very playful.",
+              "start": 83.5,
+              "end": 89.75
+            }
+          ],
+          "glossary": [
+            {
+              "term": "stunt your growth",
+              "ko": "성장을 가로막다",
+              "type": "phrase"
+            },
+            {
+              "term": "hyper-seriousness",
+              "ko": "지나친 진지함",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 90.71,
+          "end": 102.14,
+          "lines": [
+            {
+              "text": "I was a creative kid who loved art, but I was really, really shy.",
+              "start": 90.71,
+              "end": 95.68
+            },
+            {
+              "text": "So the constant confrontation with my coaches was always robbing me of my creativity.",
+              "start": 96.22,
+              "end": 102.14
+            }
+          ],
+          "glossary": [
+            {
+              "term": "confrontation",
+              "ko": "대립, 충돌",
+              "type": "word"
+            },
+            {
+              "term": "rob someone of",
+              "ko": "~에게서 …을 앗아가다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 103.1,
+          "end": 108.06,
+          "lines": [
+            {
+              "text": "I learned that there was a seriousness in respecting the quality of the game.",
+              "start": 103.1,
+              "end": 108.06
+            }
+          ]
+        },
+        {
+          "start": 108.81,
+          "end": 127.71,
+          "lines": [
+            {
+              "text": "Whether it was basketball, football, baseball or cross country, all of my coaches emphasized honoring and respecting the essence of their sport, and that meant taking every drill and every exercise seriously and not doing anything that [would] challenge the traditional way of doing things.",
+              "start": 108.81,
+              "end": 127.71
+            }
+          ],
+          "glossary": [
+            {
+              "term": "the essence of",
+              "ko": "~의 본질",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 128.75,
+          "end": 140.35,
+          "lines": [
+            {
+              "text": "This is exactly what led my high-school coach to tell me to stop trying to dunk the basketball.",
+              "start": 128.75,
+              "end": 133.96
+            },
+            {
+              "text": "But ironically, it was my playfulness that got me to this point in my career.",
+              "start": 136.01,
+              "end": 140.35
+            }
+          ],
+          "glossary": [
+            {
+              "term": "playfulness",
+              "ko": "장난기, 유희성",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 140.89,
+          "end": 153.36,
+          "lines": [
+            {
+              "text": "So here's where I've landed today, and this is what I’m so excited to share with you all.",
+              "start": 140.89,
+              "end": 145.77
+            },
+            {
+              "text": "Play is the most important ingredient in every person and every industry's evolution.",
+              "start": 146.52,
+              "end": 153.36
+            }
+          ],
+          "glossary": [
+            {
+              "term": "ingredient",
+              "ko": "(여기) 요소, 요인",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 154.32,
+          "end": 170.25,
+          "lines": [
+            {
+              "text": "I am an athlete and an artist, and I have witnessed how play can break rules to improve both of these worlds that I live in.",
+              "start": 154.32,
+              "end": 162.99
+            },
+            {
+              "text": "So just imagine if play, creativity and a little bit of rule-breaking was in every industry.",
+              "start": 162.99,
+              "end": 170.25
+            }
+          ]
+        },
+        {
+          "start": 171.04,
+          "end": 182.43,
+          "lines": [
+            {
+              "text": "There once was a time in basketball when dunking was frowned upon so much that the NCAA banned it for nine years.",
+              "start": 171.04,
+              "end": 178.55
+            },
+            {
+              "text": "Once that ban was lifted, the popularity of the game skyrocketed.",
+              "start": 178.59,
+              "end": 182.43
+            }
+          ],
+          "glossary": [
+            {
+              "term": "frowned upon",
+              "ko": "눈총받다, 못마땅하게 여겨지다",
+              "type": "idiom"
+            },
+            {
+              "term": "lift a ban",
+              "ko": "금지를 풀다, 해제하다",
+              "type": "phrase"
+            },
+            {
+              "term": "skyrocket",
+              "ko": "치솟다, 급등하다",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 182.8,
+          "end": 198.36,
+          "lines": [
+            {
+              "text": "This context reminds me of my coaches yelling at me to stick to the fundamentals, all because I decided, or had, the audacity to try and dunk the ball one time.",
+              "start": 182.8,
+              "end": 193.57
+            },
+            {
+              "text": "Thankfully, I didn't listen to them and I got more and more comfortable with it.",
+              "start": 194.36,
+              "end": 198.36
+            }
+          ],
+          "glossary": [
+            {
+              "term": "have the audacity to",
+              "ko": "뻔뻔하게(겁 없이) ~하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 198.36,
+          "end": 207.75,
+          "lines": [
+            {
+              "text": "And over time, I was able to land my first dunk contest.",
+              "start": 198.36,
+              "end": 202.16
+            },
+            {
+              "text": "With a lot of work, I was able to build a global reputation for dunking the basketball.",
+              "start": 202.2,
+              "end": 207.75
+            }
+          ]
+        },
+        {
+          "start": 208.08,
+          "end": 215.3,
+          "lines": [
+            {
+              "text": "I began to experiment with the boundaries of this.",
+              "start": 208.08,
+              "end": 210.92
+            },
+            {
+              "text": "I would incorporate things that we didn't normally associate with dunking.",
+              "start": 210.96,
+              "end": 215.3
+            }
+          ],
+          "glossary": [
+            {
+              "term": "experiment with the boundaries",
+              "ko": "한계·경계를 시험해 보다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 215.34,
+          "end": 216.46,
+          "lines": [
+            {
+              "text": "Like, with a dog.",
+              "start": 215.34,
+              "end": 216.46
+            }
+          ]
+        },
+        {
+          "start": 233.27,
+          "end": 251,
+          "lines": [
+            {
+              "text": "Or catching a baseball.",
+              "start": 233.27,
+              "end": 235.44
+            },
+            {
+              "text": "Or catching the ball without looking from someone else who’s not looking.",
+              "start": 246.87,
+              "end": 251
+            }
+          ]
+        },
+        {
+          "start": 259.09,
+          "end": 269.47,
+          "lines": [
+            {
+              "text": "(Video) Oh, my God!",
+              "start": 259.09,
+              "end": 260.8
+            },
+            {
+              "text": "MP: Every time I approached this with a playful mindset, I was rewarded.",
+              "start": 264.76,
+              "end": 269.47
+            }
+          ]
+        },
+        {
+          "start": 270.02,
+          "end": 286.7,
+          "lines": [
+            {
+              "text": "Not only with advancing the game, but also with the opportunities that I dreamed of as a kid.",
+              "start": 270.02,
+              "end": 276.56
+            },
+            {
+              "text": "There were several video games that I used to love to play, like NBA Live and NBA 2K, and I had the opportunity to feature my dunks in both of them.",
+              "start": 277.32,
+              "end": 286.7
+            }
+          ]
+        },
+        {
+          "start": 287.08,
+          "end": 303.59,
+          "lines": [
+            {
+              "text": "I've also had the opportunity to feature my dunks in GQ magazine, as well as SportsCenter Top Ten, and eventually received an honorable mention for an ESPY award.",
+              "start": 287.08,
+              "end": 296.63
+            },
+            {
+              "text": "Unlike what my coaches constantly bickered about, being a Globetrotter requires much of the opposite.",
+              "start": 297.71,
+              "end": 303.59
+            }
+          ],
+          "glossary": [
+            {
+              "term": "bicker about",
+              "ko": "~을 두고 옥신각신하다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 304.09,
+          "end": 312.93,
+          "lines": [
+            {
+              "text": "So much of what we love about the game today ...",
+              "start": 304.09,
+              "end": 307.64
+            },
+            {
+              "text": "was at one point deemed as not fundamental or non-traditional.",
+              "start": 307.68,
+              "end": 312.93
+            }
+          ],
+          "glossary": [
+            {
+              "term": "deemed as",
+              "ko": "~로 여겨지다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 313.27,
+          "end": 331.37,
+          "lines": [
+            {
+              "text": "There's a beauty in balancing seriousness with play.",
+              "start": 313.27,
+              "end": 318.23
+            },
+            {
+              "text": "For example, if I decided that I wanted to do something and I accidentally made a mistake, there [was] a way that I could brush that off.",
+              "start": 319.4,
+              "end": 331.37
+            }
+          ],
+          "glossary": [
+            {
+              "term": "brush that off",
+              "ko": "툭툭 털어내다, 대수롭지 않게 넘기다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 332.04,
+          "end": 350.97,
+          "lines": [
+            {
+              "text": "When a Globetrotter makes a mistake, they can have it be overlooked because of how they playfully embrace its direction.",
+              "start": 332.04,
+              "end": 339.84
+            },
+            {
+              "text": "They recognize that something went wrong, but they actually welcome the unfamiliarity that comes with that new position.",
+              "start": 341.59,
+              "end": 350.97
+            }
+          ],
+          "glossary": [
+            {
+              "term": "overlooked",
+              "ko": "못 본 척 넘어가다, 눈감아 주다",
+              "type": "word"
+            },
+            {
+              "term": "embrace",
+              "ko": "(기꺼이) 받아들이다",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 351.31,
+          "end": 367.57,
+          "lines": [
+            {
+              "text": "So, for instance, if I try this trick right here.",
+              "start": 351.31,
+              "end": 355.27
+            },
+            {
+              "text": "And I accidentally drop the ball, I can use the momentum from that mistake to grow it into something new.",
+              "start": 359.44,
+              "end": 367.57
+            }
+          ],
+          "glossary": [
+            {
+              "term": "momentum",
+              "ko": "탄력, 추진력",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 377.67,
+          "end": 397.1,
+          "lines": [
+            {
+              "text": "What I've learned -- What I’ve learned is that in order to get to that point, you have to be able to roll with it.",
+              "start": 377.67,
+              "end": 390.68
+            },
+            {
+              "text": "Because otherwise, you'll stop before you're ever able to discover something new.",
+              "start": 391.43,
+              "end": 397.1
+            }
+          ],
+          "glossary": [
+            {
+              "term": "roll with it",
+              "ko": "상황에 맞춰 유연하게 대처하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 397.77,
+          "end": 405.69,
+          "lines": [
+            {
+              "text": "And that is actually how we are able to stumble upon a new concept.",
+              "start": 397.77,
+              "end": 402.23
+            },
+            {
+              "text": "As I mentioned before, I am also an artist.",
+              "start": 402.27,
+              "end": 405.69
+            }
+          ],
+          "glossary": [
+            {
+              "term": "stumble upon",
+              "ko": "우연히 발견하다",
+              "type": "idiom"
+            }
+          ]
+        },
+        {
+          "start": 406.11,
+          "end": 422.17,
+          "lines": [
+            {
+              "text": "In fact, the artist side of me came before I was ever a basketball player.",
+              "start": 406.11,
+              "end": 412.08
+            },
+            {
+              "text": "Basketball, amongst other sports, has allowed me to have an ongoing relationship as it impacts my practice as an artist.",
+              "start": 412.74,
+              "end": 422.17
+            }
+          ]
+        },
+        {
+          "start": 423.09,
+          "end": 433.51,
+          "lines": [
+            {
+              "text": "Sports have given me the tools to identify voids in and around my life, while also giving me a platform to fill them.",
+              "start": 423.09,
+              "end": 433.51
+            }
+          ],
+          "glossary": [
+            {
+              "term": "identify voids",
+              "ko": "빈틈·공백을 찾아내다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 434.56,
+          "end": 447.78,
+          "lines": [
+            {
+              "text": "Again, I was a really shy kid, so art was my way of expressing myself when sports didn't give me the opportunity to.",
+              "start": 434.56,
+              "end": 443.36
+            },
+            {
+              "text": "I used to create drawings of my favorite anime characters.",
+              "start": 444.15,
+              "end": 447.78
+            }
+          ]
+        },
+        {
+          "start": 447.82,
+          "end": 457.16,
+          "lines": [
+            {
+              "text": "I would paint pictures of animals.",
+              "start": 447.82,
+              "end": 450.57
+            },
+            {
+              "text": "And over time, I started to focus on people with real stories.",
+              "start": 453.12,
+              "end": 457.16
+            }
+          ]
+        },
+        {
+          "start": 457.2,
+          "end": 470.3,
+          "lines": [
+            {
+              "text": "Some of these experiences that I've had with basketball have allowed me to gain a new perspective.",
+              "start": 457.2,
+              "end": 464.29
+            },
+            {
+              "text": "One day I decided to cut up some shoelaces and put them on a canvas.",
+              "start": 465.67,
+              "end": 470.3
+            }
+          ]
+        },
+        {
+          "start": 473.64,
+          "end": 488.23,
+          "lines": [
+            {
+              "text": "I wasn't totally satisfied with it just yet, but I knew that I had something significant there.",
+              "start": 473.64,
+              "end": 479.77
+            },
+            {
+              "text": "Using this as my medium has allowed me to communicate my identity through my pieces.",
+              "start": 480.48,
+              "end": 488.23
+            }
+          ],
+          "glossary": [
+            {
+              "term": "medium",
+              "ko": "(예술) 표현 매체",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 488.9,
+          "end": 502.21,
+          "lines": [
+            {
+              "text": "This is what it looks like up close.",
+              "start": 488.9,
+              "end": 491.03
+            },
+            {
+              "text": "One of the signatures that's constantly through my work is using pieces of equipment that are a part of my personal journey as an athlete.",
+              "start": 493.07,
+              "end": 502.21
+            }
+          ],
+          "glossary": [
+            {
+              "term": "signature",
+              "ko": "(작품의) 특징, 시그니처",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 502.62,
+          "end": 516.68,
+          "lines": [
+            {
+              "text": "For example, sometimes that’s cut-up basketballs from a past Globetrotter game.",
+              "start": 502.62,
+              "end": 506.96
+            },
+            {
+              "text": "Other times, that's tennis racquets from my childhood.",
+              "start": 513.26,
+              "end": 516.68
+            }
+          ]
+        },
+        {
+          "start": 529.53,
+          "end": 537.16,
+          "lines": [
+            {
+              "text": "Audience: Wow!",
+              "start": 529.53,
+              "end": 530.69
+            },
+            {
+              "text": "And sometimes, it's just shoelaces that I wore when I was doing something important.",
+              "start": 532.78,
+              "end": 537.16
+            }
+          ]
+        },
+        {
+          "start": 537.87,
+          "end": 551.05,
+          "lines": [
+            {
+              "text": "Play has given me the flexibility, but also the vision to see these materials as something more than just what we use on the court or on the field.",
+              "start": 537.87,
+              "end": 548.54
+            },
+            {
+              "text": "All of these items, they have stories behind them.",
+              "start": 548.54,
+              "end": 551.05
+            }
+          ],
+          "glossary": [
+            {
+              "term": "flexibility",
+              "ko": "유연성",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 551.09,
+          "end": 570.73,
+          "lines": [
+            {
+              "text": "They have connections to the people that used them, whether it's the tennis ball that bounced several thousand times to bring people together, or it's the spinning basketball -- That brought smiles to so many people's faces around the world.",
+              "start": 551.09,
+              "end": 570.73
+            }
+          ]
+        },
+        {
+          "start": 570.73,
+          "end": 582.25,
+          "lines": [
+            {
+              "text": "Or if it’s shoelaces that I wore on a bad day, but I knew that I needed to keep moving.",
+              "start": 570.73,
+              "end": 576.61
+            },
+            {
+              "text": "Play is what brings all of these things together, figuratively and physically.",
+              "start": 576.61,
+              "end": 582.25
+            }
+          ]
+        },
+        {
+          "start": 582.66,
+          "end": 590.42,
+          "lines": [
+            {
+              "text": "The world's brightest thinkers, engineers of evolution, they all play too much.",
+              "start": 582.66,
+              "end": 588.84
+            },
+            {
+              "text": "Seriously.",
+              "start": 589.21,
+              "end": 590.42
+            }
+          ],
+          "glossary": [
+            {
+              "term": "engineers of evolution",
+              "ko": "진화(발전)의 설계자들",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 590.79,
+          "end": 591.96,
+          "lines": [
+            {
+              "text": "Thank you.",
+              "start": 590.79,
+              "end": 591.96
             }
           ]
         }

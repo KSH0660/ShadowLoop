@@ -327,5 +327,287 @@
     "35": [
       { "term": "within our reach", "ko": "손이 닿는 곳에, 이룰 수 있는", "type": "idiom" }
     ]
+  },
+  "5CvlKCBrPHI": {
+    "1": [
+      { "term": "navigate", "ko": "(상황을) 헤쳐나가다, 다루다", "type": "word" }
+    ],
+    "2": [
+      { "term": "get around (everyday situations)", "ko": "(일상 상황을) 잘 대처하다, 헤쳐나가다", "type": "phrase" }
+    ],
+    "3": [
+      { "term": "for whatever reason", "ko": "무슨 이유에서든", "type": "phrase" },
+      { "term": "coaching", "ko": "(여기) 약간의 안내·도움", "type": "word" }
+    ],
+    "5": [
+      { "term": "fully functioning", "ko": "완전히 제대로 작동하는", "type": "phrase" },
+      { "term": "a layer of instruction", "ko": "한 겹의 추가 설명·안내", "type": "phrase" }
+    ],
+    "6": [
+      { "term": "come to see ... as", "ko": "~을 …로 여기게 되다", "type": "phrase" }
+    ],
+    "7": [
+      { "term": "subtle", "ko": "미묘한, 알 듯 말 듯한", "type": "word" }
+    ],
+    "10": [
+      { "term": "anthropologist", "ko": "인류학자", "type": "word" },
+      { "term": "obsessed", "ko": "푹 빠진, 집착하는", "type": "word" }
+    ],
+    "13": [
+      { "term": "point of sale machines", "ko": "결제 단말기 (POS기)", "type": "phrase" }
+    ],
+    "14": [
+      { "term": "inexplicably", "ko": "설명할 수 없게, 영문 모르게", "type": "word" },
+      { "term": "a large proportion of", "ko": "~의 상당 부분", "type": "phrase" }
+    ],
+    "15": [
+      { "term": "bewildering", "ko": "어리둥절하게 만드는", "type": "word" }
+    ],
+    "18": [
+      { "term": "You would be forgiven for thinking", "ko": "~라고 생각해도 무리가 아니다", "type": "idiom" }
+    ],
+    "19": [
+      { "term": "slicked out", "ko": "번지르르하게 꾸민", "type": "phrase" },
+      { "term": "legible", "ko": "(여기) 알아볼 수 있는, 이해되는", "type": "word" }
+    ],
+    "20": [
+      { "term": "on a mission to", "ko": "~하려는 사명을 띠고", "type": "phrase" },
+      { "term": "ingenious", "ko": "기발한, 독창적인", "type": "word" }
+    ],
+    "23": [
+      { "term": "congregate", "ko": "모여들다", "type": "word" }
+    ],
+    "24": [
+      { "term": "back into something", "ko": "(뒷걸음치다) ~에 부딪치다", "type": "phrase" }
+    ],
+    "33": [
+      { "term": "missed the mark", "ko": "핵심을 빗나가다, 기대에 못 미치다", "type": "idiom" }
+    ],
+    "34": [
+      { "term": "nail it", "ko": "멋지게 해내다, 딱 맞히다", "type": "idiom" }
+    ],
+    "35": [
+      { "term": "intuitive", "ko": "직관적인", "type": "word" },
+      { "term": "a ton of", "ko": "엄청나게 많은", "type": "idiom" }
+    ],
+    "36": [
+      { "term": "reassuring", "ko": "안심이 되는", "type": "word" }
+    ],
+    "37": [
+      { "term": "tender", "ko": "(여기) 뭉클한, 따뜻한", "type": "word" }
+    ],
+    "39": [
+      { "term": "stumble upon", "ko": "우연히 발견하다", "type": "idiom" }
+    ]
+  },
+  "6bIORK0izg4": {
+    "0": [
+      { "term": "here goes", "ko": "자, 간다 (시도 직전에)", "type": "idiom" }
+    ],
+    "3": [
+      { "term": "exhibition (team)", "ko": "시범 경기를 하는 (팀)", "type": "word" },
+      { "term": "is credited for", "ko": "~한 공로를 인정받다", "type": "phrase" },
+      { "term": "integrating", "ko": "(인종) 통합하다", "type": "word" }
+    ],
+    "4": [
+      { "term": "earn a spot", "ko": "자리를 차지하다, 들어가다", "type": "phrase" },
+      { "term": "Hall of Fame", "ko": "명예의 전당", "type": "phrase" }
+    ],
+    "5": [
+      { "term": "not a straight line", "ko": "(여기) 순탄치 않았다", "type": "idiom" }
+    ],
+    "6": [
+      { "term": "stunt your growth", "ko": "성장을 가로막다", "type": "phrase" },
+      { "term": "hyper-seriousness", "ko": "지나친 진지함", "type": "word" }
+    ],
+    "7": [
+      { "term": "confrontation", "ko": "대립, 충돌", "type": "word" },
+      { "term": "rob someone of", "ko": "~에게서 …을 앗아가다", "type": "phrase" }
+    ],
+    "9": [
+      { "term": "the essence of", "ko": "~의 본질", "type": "phrase" }
+    ],
+    "10": [
+      { "term": "playfulness", "ko": "장난기, 유희성", "type": "word" }
+    ],
+    "11": [
+      { "term": "ingredient", "ko": "(여기) 요소, 요인", "type": "word" }
+    ],
+    "13": [
+      { "term": "frowned upon", "ko": "눈총받다, 못마땅하게 여겨지다", "type": "idiom" },
+      { "term": "lift a ban", "ko": "금지를 풀다, 해제하다", "type": "phrase" },
+      { "term": "skyrocket", "ko": "치솟다, 급등하다", "type": "word" }
+    ],
+    "14": [
+      { "term": "have the audacity to", "ko": "뻔뻔하게(겁 없이) ~하다", "type": "idiom" }
+    ],
+    "16": [
+      { "term": "experiment with the boundaries", "ko": "한계·경계를 시험해 보다", "type": "phrase" }
+    ],
+    "21": [
+      { "term": "bicker about", "ko": "~을 두고 옥신각신하다", "type": "phrase" }
+    ],
+    "22": [
+      { "term": "deemed as", "ko": "~로 여겨지다", "type": "phrase" }
+    ],
+    "23": [
+      { "term": "brush that off", "ko": "툭툭 털어내다, 대수롭지 않게 넘기다", "type": "idiom" }
+    ],
+    "24": [
+      { "term": "overlooked", "ko": "못 본 척 넘어가다, 눈감아 주다", "type": "word" },
+      { "term": "embrace", "ko": "(기꺼이) 받아들이다", "type": "word" }
+    ],
+    "25": [
+      { "term": "momentum", "ko": "탄력, 추진력", "type": "word" }
+    ],
+    "26": [
+      { "term": "roll with it", "ko": "상황에 맞춰 유연하게 대처하다", "type": "idiom" }
+    ],
+    "27": [
+      { "term": "stumble upon", "ko": "우연히 발견하다", "type": "idiom" }
+    ],
+    "29": [
+      { "term": "identify voids", "ko": "빈틈·공백을 찾아내다", "type": "phrase" }
+    ],
+    "33": [
+      { "term": "medium", "ko": "(예술) 표현 매체", "type": "word" }
+    ],
+    "34": [
+      { "term": "signature", "ko": "(작품의) 특징, 시그니처", "type": "word" }
+    ],
+    "37": [
+      { "term": "flexibility", "ko": "유연성", "type": "word" }
+    ],
+    "40": [
+      { "term": "engineers of evolution", "ko": "진화(발전)의 설계자들", "type": "phrase" }
+    ]
+  },
+  "TtdaITySy8Q": {
+    "0": [
+      { "term": "What's with ...?", "ko": "~는 웬일이야?, ~는 왜 그래?", "type": "idiom" }
+    ],
+    "1": [
+      { "term": "Take a lap", "ko": "(벌로) 운동장 한 바퀴 뛰어", "type": "idiom" }
+    ],
+    "3": [
+      { "term": "coaching legends", "ko": "전설적인 코치들", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "winningest", "ko": "가장 많이 이긴 (구어)", "type": "word" }
+    ],
+    "5": [
+      { "term": "spaz", "ko": "얼간이, 어수룩한 사람 (속어)", "type": "word" },
+      { "term": "dork", "ko": "멍청이, 찐따 (속어)", "type": "word" }
+    ],
+    "6": [
+      { "term": "lose the attitude", "ko": "그 건방진 태도 좀 버려", "type": "idiom" },
+      { "term": "intensity", "ko": "(여기) 기세, 열의", "type": "word" }
+    ],
+    "8": [
+      { "term": "armbands", "ko": "(애도용) 완장", "type": "word" },
+      { "term": "passed away", "ko": "돌아가시다, 별세하다", "type": "idiom" }
+    ],
+    "10": [
+      { "term": "tough kids", "ko": "강단 있는, 근성 있는 아이들", "type": "phrase" },
+      { "term": "lived for", "ko": "~을 낙으로 삼다, ~에 목숨 걸다", "type": "idiom" }
+    ],
+    "11": [
+      { "term": "in his honor", "ko": "그를 기리며", "type": "phrase" }
+    ],
+    "12": [
+      { "term": "focus up", "ko": "정신 집중하자", "type": "phrase" },
+      { "term": "pay our respects", "ko": "조의를 표하다, 애도하다", "type": "idiom" }
+    ],
+    "13": [
+      { "term": "a lot of character", "ko": "근성·기개가 대단함", "type": "phrase" }
+    ],
+    "16": [
+      { "term": "perseverance", "ko": "끈기, 인내", "type": "word" },
+      { "term": "things go wrong", "ko": "일이 틀어지다", "type": "idiom" }
+    ],
+    "17": [
+      { "term": "deals fall through", "ko": "거래가 무산되다", "type": "idiom" },
+      { "term": "get misplaced", "ko": "어디 뒀는지 모르게 되다", "type": "phrase" }
+    ],
+    "18": [
+      { "term": "those who stare at a closed door vs. those who find a window", "ko": "닫힌 문만 보는 사람과 (다른) 창문을 찾는 사람", "type": "idiom" }
+    ],
+    "21": [
+      { "term": "things will fall your way", "ko": "일이 술술 잘 풀리다", "type": "idiom" }
+    ],
+    "22": [
+      { "term": "plucky", "ko": "당찬, 용감한", "type": "word" },
+      { "term": "orphan", "ko": "고아", "type": "word" }
+    ],
+    "23": [
+      { "term": "never-say-die attitude", "ko": "절대 포기하지 않는 태도", "type": "idiom" }
+    ],
+    "25": [
+      { "term": "cut to the chase", "ko": "본론으로 바로 들어가다", "type": "idiom" },
+      { "term": "commission", "ko": "수수료, 중개 보수", "type": "word" }
+    ],
+    "26": [
+      { "term": "in person", "ko": "직접, 대면으로", "type": "phrase" }
+    ],
+    "30": [
+      { "term": "put off", "ko": "미루다, 연기하다", "type": "idiom" }
+    ],
+    "31": [
+      { "term": "the universe was against us", "ko": "온 세상이 우릴 막는 것 같았다", "type": "idiom" }
+    ]
+  },
+  "CJm4W_7MB4Y": {
+    "1": [
+      { "term": "imitate", "ko": "흉내 내다, 따라 하다", "type": "word" }
+    ],
+    "6": [
+      { "term": "spacing", "ko": "(글자) 띄어쓰기, 간격", "type": "word" }
+    ],
+    "9": [
+      { "term": "halftime", "ko": "(경기) 하프타임, 전반 종료", "type": "word" },
+      { "term": "prance off", "ko": "의기양양하게 걸어 나가다", "type": "phrase" }
+    ],
+    "10": [
+      { "term": "Knock it off", "ko": "그만해, 작작 해", "type": "idiom" },
+      { "term": "Take a knee", "ko": "무릎 꿇고 모여 (작전 지시)", "type": "idiom" }
+    ],
+    "11": [
+      { "term": "drowning out there", "ko": "(경기에서) 허우적대다, 헤매다", "type": "idiom" }
+    ],
+    "12": [
+      { "term": "Beg your pardon?", "ko": "뭐라고요? (정중한 되물음)", "type": "idiom" }
+    ],
+    "13": [
+      { "term": "in a way", "ko": "어떤 면에서는", "type": "idiom" }
+    ],
+    "15": [
+      { "term": "lived for competition", "ko": "경쟁에 살았다, 경쟁이 낙이었다", "type": "phrase" },
+      { "term": "sportsmanship", "ko": "스포츠맨십, 정정당당함", "type": "word" }
+    ],
+    "16": [
+      { "term": "integrity", "ko": "진실성, 올곧음", "type": "word" },
+      { "term": "roll over", "ko": "(싸우지 않고) 순순히 져 주다", "type": "idiom" }
+    ],
+    "17": [
+      { "term": "leave it all on the field", "ko": "(경기에) 모든 걸 쏟아붓다", "type": "idiom" }
+    ],
+    "21": [
+      { "term": "delivery slips", "ko": "배송 전표", "type": "phrase" }
+    ],
+    "25": [
+      { "term": "take her for a spin", "ko": "(차 등을) 한번 몰아 보다, 시운전하다", "type": "idiom" }
+    ],
+    "33": [
+      { "term": "look over my shoulder", "ko": "(어깨너머로) 감시하다, 간섭하다", "type": "idiom" }
+    ],
+    "34": [
+      { "term": "give me some credit", "ko": "나 좀 믿어 줘, 그 정도는 인정해 줘", "type": "idiom" }
+    ],
+    "38": [
+      { "term": "Take it or leave it", "ko": "받아들이든 말든 (양자택일)", "type": "idiom" }
+    ],
+    "39": [
+      { "term": "latch", "ko": "걸쇠, 빗장", "type": "word" }
+    ]
   }
 }
