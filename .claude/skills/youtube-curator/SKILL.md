@@ -109,12 +109,18 @@ messy (e.g. it slipped through as auto), remove it from `videos.json`, rebuild, 
 another candidate. Also check the real segment count here: if a video built to **more than
 30 segments**, remove it (too long to gloss well) unless the user asked for it.
 
-### 5. Write Korean glosses for hard expressions
-For each newly added video, read its built segments and pick the words/idioms a Korean
-learner would actually stumble on — **idioms, phrasal verbs, and less-common vocabulary**,
-not every word. Aim for **0–3 entries per segment** (many segments need none). These show
-up in the app under the caption on the later loops, so they should be genuine help, not
-noise. Dump a video's segments to read them:
+### 5. Write Korean glosses for learners (target: OPIC IH / TOEIC 800)
+For each newly added video, read its built segments and gloss every expression an
+**upper-intermediate Korean learner (OPIC IH / TOEIC 800)** would find worth studying —
+**idioms, phrasal verbs, collocations, and any B2+ / less-common vocabulary**, including
+tricky polysemes whose meaning *here* differs from the basic one (e.g. `content` 만족하는,
+`singular` 각별한, `storied` 화려한 이력의). Be **generous**: cover these thoroughly rather than
+picking only the single hardest item. This is **not** a full translation — keep skipping
+truly basic words (run, happy, ship, …), and leave low-value segments empty. In practice
+that lands around **2–5 entries on substantive segments**, with plenty of segments at 0;
+across a talk expect roughly **1–1.7 glosses per segment** (a ~33-segment TED talk ≈ 50–60
+glosses). These show up in the app under the caption on the later loops, so each one should
+be genuine help, not noise. Dump a video's segments to read them:
 ```bash
 node -e 'const d=require("./data/transcripts.json");const v=d.videos.find(v=>v.id===process.argv[1]);v.segments.forEach((s,i)=>console.log(i+":", s.lines.map(l=>l.text).join(" ")))' VIDEOID
 ```
@@ -122,7 +128,10 @@ Edit `data/glossary.json`, keyed by video id then **segment index** (a string), 
 `{ term, ko, type }` (`type` ∈ `idiom` | `phrase` | `word`):
 ```json
 "VIDEOID": {
-  "3": [{ "term": "pull it off", "ko": "해내다, 성공시키다", "type": "idiom" }],
+  "3": [
+    { "term": "pull it off", "ko": "해내다, 성공시키다", "type": "idiom" },
+    { "term": "albeit", "ko": "비록 ~이긴 하지만", "type": "word" }
+  ],
   "7": [{ "term": "infant", "ko": "갓난아기", "type": "word" }]
 }
 ```
