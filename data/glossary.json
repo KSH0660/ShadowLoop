@@ -1,0 +1,167 @@
+{
+  "//": "Korean hints for hard words/idioms, by video id then segment index. Authored by the youtube-curator skill; merged onto segments at build time. See scripts/build-transcripts.mjs.",
+  "ykN0VZiEDr8": {
+    "0": [
+      { "term": "crushing workload", "ko": "살인적인 업무량", "type": "phrase" }
+    ],
+    "2": [
+      { "term": "chafing dish", "ko": "(뷔페용) 음식 보온 그릇", "type": "word" }
+    ],
+    "7": [
+      { "term": "rebel against", "ko": "~에 반항하다, 거스르다", "type": "phrase" },
+      { "term": "redirect", "ko": "(관심을) 다른 데로 돌리다", "type": "word" }
+    ],
+    "9": [
+      { "term": "cracked the code", "ko": "비결을 알아내다, 완전히 파악하다", "type": "idiom" },
+      { "term": "child rearing", "ko": "육아, 아이 기르기", "type": "phrase" }
+    ],
+    "13": [
+      { "term": "garbage disposal", "ko": "(싱크대) 음식물 분쇄기", "type": "word" }
+    ],
+    "17": [
+      { "term": "went down the drain", "ko": "수포로 돌아가다 (배수구로 내려가다 말장난)", "type": "idiom" }
+    ],
+    "24": [
+      { "term": "shred her confidence", "ko": "자신감을 짓밟다", "type": "phrase" },
+      { "term": "mangle her self-esteem", "ko": "자존감을 망가뜨리다", "type": "phrase" }
+    ],
+    "28": [
+      { "term": "wicked", "ko": "짓궂은, 고약한", "type": "word" }
+    ]
+  },
+  "2fYU50qbkHk": {
+    "1": [
+      { "term": "unclench your jaw", "ko": "꽉 다문 턱의 힘을 풀다", "type": "phrase" }
+    ],
+    "6": [
+      { "term": "glib", "ko": "(말이) 입에 발린, 가벼운", "type": "word" }
+    ],
+    "8": [
+      { "term": "makes it through ... intact", "ko": "온전한 채로 (인생을) 버텨내다", "type": "idiom" }
+    ],
+    "10": [
+      { "term": "emotional literacy", "ko": "감정을 인식하고 표현하는 능력", "type": "phrase" },
+      { "term": "articulate", "ko": "또렷이 말로 표현하다", "type": "word" }
+    ],
+    "12": [
+      { "term": "in store", "ko": "앞으로 다가올, 준비되어 있는", "type": "idiom" },
+      { "term": "look on the bright side", "ko": "긍정적인 면을 보다", "type": "idiom" }
+    ],
+    "16": [
+      { "term": "stack up", "ko": "차곡차곡 쌓이다", "type": "phrase" }
+    ],
+    "18": [
+      { "term": "one-offs", "ko": "단 한 번뿐인 일", "type": "word" }
+    ],
+    "19": [
+      { "term": "topped up", "ko": "다시 가득 채워지다", "type": "phrase" }
+    ],
+    "20": [
+      { "term": "whimsical", "ko": "엉뚱하고 기발한", "type": "word" },
+      { "term": "a thread of resilience woven into", "ko": "~에 짜여 든 회복력의 한 가닥", "type": "phrase" }
+    ],
+    "31": [
+      { "term": "aplenty", "ko": "풍부하게, 가득", "type": "word" }
+    ],
+    "33": [
+      { "term": "easily pleased", "ko": "쉽게 만족하는", "type": "phrase" }
+    ]
+  },
+  "xjmUzxEPJeM": {
+    "0": [
+      { "term": "whole and at home in the world", "ko": "온전하고 세상에 편안히 속한", "type": "phrase" }
+    ],
+    "2": [
+      { "term": "magnitude", "ko": "(성취의) 엄청난 크기", "type": "word" },
+      { "term": "sheepishly", "ko": "멋쩍게, 쑥스럽게", "type": "word" }
+    ],
+    "3": [
+      { "term": "ephemeral and fleeting", "ko": "덧없고 순식간에 사라지는", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "not by a long shot", "ko": "전혀 그렇지 않다", "type": "idiom" }
+    ],
+    "7": [
+      { "term": "dissipates", "ko": "흩어져 사라지다", "type": "word" },
+      { "term": "manifests", "ko": "겉으로 나타나다", "type": "word" }
+    ],
+    "8": [
+      { "term": "the high of", "ko": "~이 주는 짜릿한 들뜸", "type": "phrase" },
+      { "term": "restless", "ko": "안절부절못하는", "type": "word" }
+    ],
+    "9": [
+      { "term": "plaintive confession", "ko": "애처로운 고백", "type": "phrase" }
+    ],
+    "11": [
+      { "term": "pinnacle", "ko": "정점, 절정", "type": "word" }
+    ],
+    "13": [
+      { "term": "confounding", "ko": "어리둥절하게 하는, 당혹스러운", "type": "word" },
+      { "term": "consumed with", "ko": "~에 완전히 사로잡힌", "type": "phrase" }
+    ],
+    "16": [
+      { "term": "glorify the grind", "ko": "고된 노력 자체를 미화하다", "type": "phrase" },
+      { "term": "at play", "ko": "작용하고 있는", "type": "idiom" }
+    ],
+    "17": [
+      { "term": "answering a calling", "ko": "소명에 응답하다", "type": "idiom" }
+    ],
+    "20": [
+      { "term": "fake it until you make it", "ko": "될 때까지 ~인 척하라", "type": "idiom" }
+    ],
+    "24": [
+      { "term": "albeit", "ko": "비록 ~이긴 하지만", "type": "word" },
+      { "term": "scarcity", "ko": "결핍, 부족함", "type": "word" },
+      { "term": "abundance", "ko": "풍요로움", "type": "word" }
+    ],
+    "25": [
+      { "term": "swashbuckling", "ko": "호탕하고 거침없는", "type": "word" }
+    ],
+    "31": [
+      { "term": "heed the calling", "ko": "소명에 귀 기울이다", "type": "phrase" }
+    ]
+  },
+  "nGuYas7G3q4": {
+    "0": [
+      { "term": "sequestered", "ko": "격리된, 외부와 차단된", "type": "word" },
+      { "term": "research vessel", "ko": "연구선(연구용 배)", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "tinkering", "ko": "이것저것 만지작거리며 손보기", "type": "word" }
+    ],
+    "5": [
+      { "term": "democratize exploration", "ko": "탐험을 누구나 할 수 있게 만들다", "type": "phrase" }
+    ],
+    "7": [
+      { "term": "DIY tag", "ko": "직접 만든 (고래) 추적 장치", "type": "phrase" },
+      { "term": "suction cups", "ko": "흡착판", "type": "phrase" }
+    ],
+    "9": [
+      { "term": "soldering", "ko": "납땜", "type": "word" },
+      { "term": "improvising", "ko": "임기응변으로 만들어내기", "type": "word" }
+    ],
+    "14": [
+      { "term": "with bated breath", "ko": "숨죽이고, 마음 졸이며", "type": "idiom" },
+      { "term": "footage", "ko": "촬영 영상", "type": "word" }
+    ],
+    "15": [
+      { "term": "losing it", "ko": "(흥분해서) 어쩔 줄 모르다", "type": "idiom" }
+    ],
+    "17": [
+      { "term": "held on", "ko": "버티며 떨어지지 않았다", "type": "phrase" }
+    ],
+    "18": [
+      { "term": "fluke", "ko": "고래의 꼬리지느러미", "type": "word" }
+    ],
+    "20": [
+      { "term": "echolocation", "ko": "반향정위(음파로 위치를 파악)", "type": "word" },
+      { "term": "prey", "ko": "먹잇감", "type": "word" }
+    ],
+    "23": [
+      { "term": "codas", "ko": "코다(향유고래의 의사소통 신호음)", "type": "word" }
+    ],
+    "28": [
+      { "term": "the bond", "ko": "유대, 정서적 연결", "type": "word" }
+    ]
+  }
+}

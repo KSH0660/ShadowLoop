@@ -58,6 +58,8 @@ const els = {
   videoSub: document.querySelector("#videoSub"),
   emptyPlayer: document.querySelector("#emptyPlayer"),
   caption: document.querySelector("#caption"),
+  glossary: document.querySelector("#glossary"),
+  glossList: document.querySelector("#glossList"),
   segmentList: document.querySelector("#segmentList"),
   segmentCount: document.querySelector("#segmentCount"),
   segPos: document.querySelector("#segPos"),
@@ -399,6 +401,7 @@ function renderCaption(segment) {
     wordEls = [];
     state.cloze = [];
     state.target = PACE[state.pace].min;
+    renderGlossary(null);
     return;
   }
 
@@ -424,7 +427,30 @@ function renderCaption(segment) {
 
   state.cloze = maskable; // already in reading order
   state.line = -1;
+  renderGlossary(segment);
   applyReveal();
+}
+
+// Build the strip of Korean hints for a segment's hard words/idioms. When a
+// segment has none, the strip leaves the layout entirely. When it has some, it
+// stays in the flow (reserving space) but is faded out until applyReveal() shows
+// it on the later loops.
+function renderGlossary(segment) {
+  const items = (segment && segment.glossary) || [];
+  if (!items.length) {
+    els.glossary.hidden = true;
+    els.glossList.innerHTML = "";
+    els.glossary.classList.remove("is-shown");
+    return;
+  }
+  els.glossList.innerHTML = items
+    .map((g) => `
+        <li class="gloss-item">
+          <span class="gloss-term">${escapeHtml(g.term)}</span>
+          <span class="gloss-ko">${escapeHtml(g.ko)}</span>
+        </li>`)
+    .join("");
+  els.glossary.hidden = false;
 }
 
 // Push the current reveal progress into the DOM. The whole caption fades in as
@@ -435,6 +461,7 @@ function applyReveal() {
   if (state.peek) {
     els.caption.style.setProperty("--reveal", "1");
     wordEls.forEach((node) => node.classList.remove("is-hidden"));
+    els.glossary.classList.add("is-shown");
     return;
   }
 
@@ -445,6 +472,10 @@ function applyReveal() {
   const revealed = Math.round(state.cloze.length * p);
   const stillHidden = new Set(state.cloze.slice(revealed));
   wordEls.forEach((node, idx) => node.classList.toggle("is-hidden", stillHidden.has(idx)));
+
+  // Hard-word hints arrive once the segment is partway revealed — not on the
+  // first blind listens — so they scaffold rather than spoil.
+  els.glossary.classList.toggle("is-shown", p >= 0.45);
 }
 
 function setPeek(on) {

@@ -250,7 +250,51 @@ function round(n) {
   return Math.round(n * 100) / 100;
 }
 
+// Optional, hand-authored (by the youtube-curator skill): Korean glosses for the
+// hard words/idioms in each segment. Keyed by video id then segment index:
+//   { "VIDEOID": { "3": [{ "term": "pull it off", "ko": "해내다", "type": "idiom" }] } }
+// Lives in its own committed file so a rebuild doesn't wipe it; merged onto each
+// segment as `segment.glossary` below.
+function loadGlossary() {
+  const path = join(root, "data", "glossary.json");
+  if (!existsSync(path)) return {};
+  try {
+    return JSON.parse(readFileSync(path, "utf8"));
+  } catch (error) {
+    log(`! could not parse data/glossary.json, ignoring: ${error.message}`);
+    return {};
+  }
+}
+
+// Attach (or refresh) the hand-authored Korean glosses on a built video's
+// segments, keyed by segment index. Clears any stale glossary first so removing
+// an entry from glossary.json removes it from the output too.
+function attachGlossary(video, glossForVideo = {}) {
+  video.segments.forEach((seg, i) => {
+    const entries = glossForVideo[String(i)];
+    if (Array.isArray(entries) && entries.length) seg.glossary = entries;
+    else delete seg.glossary;
+  });
+}
+
+// Cheap path for iterating on glossary.json: re-apply glosses to the already
+// built data/transcripts.json without re-downloading any captions.
+function mergeGlossaryOnly(glossary) {
+  const dataPath = join(root, "data", "transcripts.json");
+  if (!existsSync(dataPath)) {
+    log("! no data/transcripts.json yet — run a full build first");
+    return;
+  }
+  const out = JSON.parse(readFileSync(dataPath, "utf8"));
+  for (const video of out.videos) attachGlossary(video, glossary[video.id] || {});
+  writeFileSync(dataPath, JSON.stringify(out, null, 2) + "\n");
+  log(`merged glossary into ${dataPath} (${out.videos.length} videos, no re-download)`);
+}
+
 function main() {
+  const glossary = loadGlossary();
+  if (process.argv.includes("--glossary-only")) return mergeGlossaryOnly(glossary);
+
   const config = JSON.parse(readFileSync(join(root, "videos.json"), "utf8"));
   const out = { generatedAt: new Date().toISOString(), videos: [] };
 
@@ -274,14 +318,16 @@ function main() {
       continue;
     }
 
-    out.videos.push({
+    const built = {
       id,
       url,
       title: video.title || fetchTitle(url) || id,
       tag: video.tag || video.title || id,
       category: video.category || "기타",
       segments,
-    });
+    };
+    attachGlossary(built, glossary[id] || {}); // merge any hand-authored Korean glosses
+    out.videos.push(built);
     log(`  ✓ ${segments.length} segments, ${lines.length} lines`);
   }
 
