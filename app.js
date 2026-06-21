@@ -127,6 +127,40 @@ function thumbnailUrl(id) {
   return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 }
 
+// --- Progress (resume + thumbnail bar) -------------------------------------
+// The one piece of persisted state: per video, the furthest segment index the
+// user has reached, stored in localStorage (per device — there is no backend).
+// Used to resume where they left off and to draw the home thumbnail bar.
+const PROGRESS_KEY = "shadowloop:v1:progress";
+
+function loadProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function getVideoProgress(videoId) {
+  const entry = loadProgress()[videoId];
+  return entry && typeof entry.seg === "number" ? entry : null;
+}
+
+// Record the furthest segment reached. Never moves backward, so stepping back
+// or finishing-then-restarting doesn't erase how far the user actually got.
+function recordProgress(videoId, segIndex, total) {
+  if (!videoId || !total) return;
+  try {
+    const all = loadProgress();
+    const prev = all[videoId];
+    const seg = prev ? Math.max(prev.seg, segIndex) : segIndex;
+    all[videoId] = { seg, total };
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
+  } catch {
+    // localStorage unavailable (e.g. private mode) — resume/bars just won't persist.
+  }
+}
+
 // HOME — a browse grid of thumbnail cards, grouped into labelled sections by
 // `category` (강연 vs 예능 등). Groups appear in first-seen order; videos keep
 // their order within a group. Each card carries its index into `videos`.
@@ -138,6 +172,7 @@ function renderHome() {
     return;
   }
 
+  const progressMap = loadProgress(); // read the stored positions once for all cards
   const order = [];
   const byCat = new Map();
   videos.forEach((video, index) => {
@@ -151,11 +186,16 @@ function renderHome() {
       const cards = byCat.get(cat).map(({ video, index }) => {
         const title = video.title || video.tag || "제목 없음";
         const segCount = (video.segments || []).length;
+        const progress = progressMap[video.id];
+        const pct = progress && progress.total
+          ? Math.min(100, Math.round(((progress.seg + 1) / progress.total) * 100))
+          : 0;
         return `
           <button type="button" class="card" data-video="${index}">
             <span class="card-thumb">
               <img src="${thumbnailUrl(video.id)}" alt="" loading="lazy" />
               <span class="card-badge">${segCount}구간</span>
+              ${pct > 0 ? `<span class="card-progress"><span style="width:${pct}%"></span></span>` : ""}
             </span>
             <span class="card-body">
               <span class="card-title">${escapeHtml(title)}</span>
@@ -202,6 +242,7 @@ function showHome() {
   state.view = "home";
   closeSheet();
   if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
+  renderHome(); // refresh thumbnail progress bars with the latest watched position
   els.homeView.hidden = false;
   els.detailView.hidden = true;
   document.body.classList.remove("is-detail");
@@ -221,7 +262,10 @@ function loadVideo(video) {
   state.videoId = video.id;
   state.title = video.title || video.tag || "";
   state.segments = video.segments || [];
-  state.current = 0;
+  // Resume at the furthest segment reached, unless the video was finished
+  // (reached the last segment) — then start over from the top, like YouTube.
+  const saved = getVideoProgress(video.id);
+  state.current = saved && saved.seg < state.segments.length - 1 ? saved.seg : 0;
   state.line = -1;
   state.loops = 0;
   state.peek = false;
@@ -236,7 +280,7 @@ function loadVideo(video) {
   _prevTime = null;
 
   if (playerReady && player) {
-    player.loadVideoById({ videoId: video.id, startSeconds: state.segments[0]?.start || 0 });
+    player.loadVideoById({ videoId: video.id, startSeconds: state.segments[state.current]?.start || 0 });
     player.setPlaybackRate(state.speed);
   }
 
@@ -285,6 +329,7 @@ function selectSegment(index, autoplay = true) {
   state.loops = 0;
   state.peek = false;
   els.peekBtn.classList.remove("is-on");
+  recordProgress(state.videoId, state.current, state.segments.length);
   render();
   if (autoplay) playCurrentSegment();
 }
