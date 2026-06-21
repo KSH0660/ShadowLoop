@@ -20,7 +20,7 @@ Requires `yt-dlp` on PATH (build-time only, not a runtime/npm dependency). Segme
 
 The build script auto-detects caption format per video: manual/clean captions are parsed cue-by-cue, while YouTube auto-captions (ASR — detected by per-word `<…><c>` inline timestamps) are reconstructed word-by-word to remove the rolling-window duplication.
 
-**`.claude/agents/youtube-curator.md`** is a subagent that, given a YouTube channel, finds videos with *manual* English captions, picks good shadowing candidates, appends them to `videos.json`, and runs the build. Invoke it by asking (e.g. "youtube-curator 에이전트야, @TED 채널에서 3개 추가해줘"). It only adds manual-caption videos (clean transcripts) and never commits.
+**`.claude/skills/youtube-curator/SKILL.md`** is a skill that, given a YouTube channel (or topic/drama), finds videos with *manual* English captions, picks good shadowing candidates, appends them to `videos.json`, and runs the build. It runs in the main conversation (not a subagent), so it can use interactive permission prompts for `yt-dlp`/`npm`. Invoke it via `/youtube-curator` or by asking (e.g. "@TED 채널에서 3개 추가해줘"). It only adds manual-caption videos (clean transcripts) and never commits.
 
 ## Commands
 
