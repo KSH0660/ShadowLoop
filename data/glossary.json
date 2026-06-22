@@ -609,5 +609,249 @@
     "39": [
       { "term": "latch", "ko": "걸쇠, 빗장", "type": "word" }
     ]
+  },
+  "jKwMnnuN7-g": {
+    "3": [
+      { "term": "disgraced", "ko": "불명예를 안은, 망신당한", "type": "word" },
+      { "term": "nuclear physicist", "ko": "핵물리학자", "type": "phrase" },
+      { "term": "I shit you not", "ko": "진짜 농담 아니야, 정말이야 (비속어)", "type": "idiom" }
+    ],
+    "8": [
+      { "term": "gravelly voice", "ko": "거칠고 쉰 목소리", "type": "phrase" }
+    ],
+    "15": [
+      { "term": "I see where you're going", "ko": "무슨 얘기 하려는지 알겠다", "type": "idiom" },
+      { "term": "the Kennedy assassination", "ko": "케네디 암살", "type": "word" }
+    ],
+    "18": [
+      { "term": "I'm embarrassed to say", "ko": "말하기 부끄럽지만", "type": "phrase" }
+    ],
+    "20": [
+      { "term": "imply", "ko": "넌지시 암시하다", "type": "word" },
+      { "term": "beat the rapist off of her", "ko": "(달려드는 자를) 떼어내 쫓아내다", "type": "phrase" }
+    ]
+  },
+  "KL_dhpvb-ZM": {
+    "0": [
+      { "term": "analogy", "ko": "비유, 빗댐", "type": "word" },
+      { "term": "decimate", "ko": "박살내다, 완전히 짓밟다", "type": "word" }
+    ],
+    "1": [
+      { "term": "don't care for", "ko": "좋아하지 않다, 마음에 안 들다", "type": "idiom" },
+      { "term": "you may quote me on that", "ko": "그대로 인용해도 좋아 (확신의 표현)", "type": "idiom" }
+    ],
+    "2": [
+      { "term": "take over your life", "ko": "네 인생을 장악하다", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "make fun of", "ko": "~을 놀리다, 조롱하다", "type": "idiom" }
+    ],
+    "7": [
+      { "term": "the bar is so much lower", "ko": "기준(눈높이)이 훨씬 낮다", "type": "idiom" }
+    ],
+    "9": [
+      { "term": "support group", "ko": "(고민을 나누는) 자조 모임", "type": "phrase" },
+      { "term": "men in crisis", "ko": "위기에 처한 남자들", "type": "phrase" },
+      { "term": "keynote speakers", "ko": "기조 연설자들", "type": "phrase" }
+    ],
+    "11": [
+      { "term": "dynamite", "ko": "(속어) 끝내주는, 멋진", "type": "word" }
+    ],
+    "12": [
+      { "term": "does not give a shit", "ko": "전혀 신경 쓰지 않다 (비속어)", "type": "idiom" }
+    ],
+    "13": [
+      { "term": "exhausting", "ko": "진을 빼는, 기진맥진하게 하는", "type": "word" }
+    ],
+    "14": [
+      { "term": "running for mayor of nothing", "ko": "아무것도 아닌 시장 자리에 출마하는 (남의 눈을 의식한다는 농담)", "type": "phrase" }
+    ],
+    "16": [
+      { "term": "go up to the register", "ko": "계산대로 다가가다", "type": "phrase" }
+    ],
+    "17": [
+      { "term": "No, I wish", "ko": "아뇨, 그러면 좋겠지만요 (사실은 아님)", "type": "idiom" }
+    ],
+    "21": [
+      { "term": "abusive marriage", "ko": "학대받는 결혼 생활", "type": "phrase" }
+    ],
+    "24": [
+      { "term": "raised Catholic", "ko": "가톨릭 집안에서 자란", "type": "phrase" },
+      { "term": "religious upbringings", "ko": "종교적 양육 환경, 자라온 신앙 배경", "type": "phrase" }
+    ],
+    "28": [
+      { "term": "flu shot", "ko": "독감 예방주사", "type": "phrase" }
+    ]
+  },
+  "qRCHce9oQ-4": {
+    "0": [
+      { "term": "real estate agent", "ko": "부동산 중개인", "type": "phrase" },
+      { "term": "hinted about it constantly", "ko": "끊임없이 넌지시 비추다", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "nursery", "ko": "아기방, 육아방", "type": "word" }
+    ],
+    "6": [
+      { "term": "oh do tell", "ko": "어디 한번 말해 보세요 (반어적)", "type": "idiom" },
+      { "term": "it's all pavement", "ko": "전부 콘크리트로 포장돼 있다", "type": "phrase" }
+    ],
+    "8": [
+      { "term": "got offended on behalf of", "ko": "~을 대신해 기분이 상하다, 발끈하다", "type": "phrase" },
+      { "term": "on behalf of", "ko": "~을 대신하여, 대표하여", "type": "idiom" }
+    ],
+    "9": [
+      { "term": "cat-fishing", "ko": "(가짜 신분으로) 온라인에서 속이다", "type": "word" },
+      { "term": "pedophiles", "ko": "소아성애자", "type": "word" }
+    ],
+    "10": [
+      { "term": "I didn't mean to make it sound like", "ko": "~처럼 들리게 할 의도는 아니었다", "type": "phrase" }
+    ],
+    "12": [
+      { "term": "stroller", "ko": "유모차", "type": "word" },
+      { "term": "with Bobby Fischer like intensity", "ko": "(체스 천재처럼) 엄청난 집중력으로", "type": "phrase" }
+    ],
+    "13": [
+      { "term": "stop snitching", "ko": "고자질·밀고 그만해", "type": "idiom" }
+    ],
+    "14": [
+      { "term": "had a run in with", "ko": "~와 (불쾌한) 충돌·시비가 있었다", "type": "idiom" }
+    ],
+    "15": [
+      { "term": "extended family", "ko": "(친척까지 포함한) 대가족", "type": "phrase" },
+      { "term": "bouncing his two year old up and down", "ko": "두 살배기를 무릎에 앉혀 위아래로 어르다", "type": "phrase" }
+    ],
+    "17": [
+      { "term": "Fell deadly silent", "ko": "쥐 죽은 듯 조용해졌다", "type": "idiom" }
+    ],
+    "18": [
+      { "term": "knowingly", "ko": "다 안다는 듯이, 의미심장하게", "type": "word" }
+    ],
+    "19": [
+      { "term": "Here's what I went with", "ko": "내가 택한 건 이거였다", "type": "idiom" }
+    ],
+    "20": [
+      { "term": "an arrangement", "ko": "(사전) 합의, 약속", "type": "word" },
+      { "term": "violated my trust", "ko": "내 신뢰를 저버렸다", "type": "phrase" }
+    ],
+    "21": [
+      { "term": "discretion is key", "ko": "신중함(입조심)이 중요하다", "type": "idiom" }
+    ],
+    "22": [
+      { "term": "can't keep a secret", "ko": "비밀을 못 지키다", "type": "phrase" },
+      { "term": "saved the day", "ko": "위기를 모면하게 해 주다", "type": "idiom" }
+    ],
+    "23": [
+      { "term": "going through that phase", "ko": "(일시적인) 그런 시기를 거치는 중", "type": "idiom" }
+    ],
+    "26": [
+      { "term": "weirdo", "ko": "별난 사람, 이상한 놈", "type": "word" }
+    ]
+  },
+  "30cYjy7_DDg": {
+    "0": [
+      { "term": "brown kids", "ko": "(남아시아계) 갈색 피부 아이들", "type": "phrase" }
+    ],
+    "2": [
+      { "term": "resilient", "ko": "회복력 있는, 강인한", "type": "word" },
+      { "term": "cardiologists", "ko": "심장 전문의", "type": "word" },
+      { "term": "spelling bees", "ko": "영어 철자 맞히기 대회", "type": "phrase" },
+      { "term": "elevates your game", "ko": "실력·수준을 끌어올리다", "type": "idiom" }
+    ],
+    "4": [
+      { "term": "Ice water in the veins", "ko": "강심장이다, 냉정하고 침착하다", "type": "idiom" },
+      { "term": "choke on camera", "ko": "(중요한 순간) 카메라 앞에서 긴장해 실수하다", "type": "idiom" }
+    ],
+    "8": [
+      { "term": "The bar is way too high", "ko": "기준(눈높이)이 너무 높다", "type": "idiom" }
+    ],
+    "9": [
+      { "term": "sociopath", "ko": "반사회적 인격장애자, 소시오패스", "type": "word" }
+    ],
+    "12": [
+      { "term": "Birthdays aren't their thing", "ko": "생일은 그들이 챙기는(관심 두는) 게 아니다", "type": "idiom" }
+    ],
+    "18": [
+      { "term": "the immigrant car of choice", "ko": "이민자들이 가장 선호하는 차", "type": "phrase" }
+    ],
+    "19": [
+      { "term": "intersection", "ko": "교차로", "type": "word" }
+    ],
+    "21": [
+      { "term": "vision board", "ko": "목표·소망을 붙여 두는 보드", "type": "phrase" }
+    ],
+    "27": [
+      { "term": "pick out", "ko": "고르다, 골라내다", "type": "phrase" }
+    ],
+    "28": [
+      { "term": "shitting on my dreams", "ko": "내 꿈을 짓밟다 (비속어)", "type": "idiom" }
+    ]
+  },
+  "PYcgRTB_53Y": {
+    "1": [
+      { "term": "you kill me", "ko": "너 때문에 못 살아, 웃겨 죽겠어", "type": "idiom" }
+    ],
+    "2": [
+      { "term": "firewall to the outside world", "ko": "바깥세상을 막는 방화벽(차단막)", "type": "phrase" },
+      { "term": "disseminate information", "ko": "정보를 (걸러서) 퍼뜨리다, 전달하다", "type": "phrase" }
+    ],
+    "3": [
+      { "term": "the leader of the household", "ko": "집안의 가장", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "sits everybody down", "ko": "모두를 앉혀 놓고 (진지하게 말하다)", "type": "phrase" }
+    ],
+    "5": [
+      { "term": "This just rubs off", "ko": "(태도·영향이) 그냥 옮아 묻는다", "type": "idiom" }
+    ],
+    "6": [
+      { "term": "beats me to the phone", "ko": "나보다 먼저 전화를 받다", "type": "idiom" }
+    ],
+    "7": [
+      { "term": "sand nigger", "ko": "(중동·아랍계 비하) 인종차별 멸칭", "type": "word" }
+    ],
+    "8": [
+      { "term": "dune coon", "ko": "(중동계 비하) 인종차별 멸칭", "type": "word" }
+    ],
+    "10": [
+      { "term": "see the mortality in them", "ko": "그들도 언젠가 죽는 존재임을 문득 깨닫다", "type": "idiom" }
+    ],
+    "11": [
+      { "term": "scaredy-cat", "ko": "겁쟁이", "type": "word" }
+    ],
+    "13": [
+      { "term": "smashed in", "ko": "박살나다, 부서져 들어가다", "type": "phrase" }
+    ],
+    "15": [
+      { "term": "gushing down my arm", "ko": "(피가) 팔을 타고 솟구쳐 흐르다", "type": "phrase" },
+      { "term": "pissed", "ko": "열받은, 화난 (속어)", "type": "word" }
+    ],
+    "16": [
+      { "term": "they're timing this", "ko": "때를 노리고 있다, 타이밍을 재고 있다", "type": "phrase" }
+    ],
+    "17": [
+      { "term": "Log kya kahenge", "ko": "(힌디어) \"남들이 뭐라고 하겠니?\"", "type": "phrase" }
+    ],
+    "21": [
+      { "term": "the price we pay for being here", "ko": "여기 사는 대가로 치러야 할 값", "type": "idiom" }
+    ],
+    "22": [
+      { "term": "BMX bikes aside", "ko": "BMX 자전거 얘긴 차치하고", "type": "phrase" }
+    ],
+    "23": [
+      { "term": "endure racism", "ko": "인종차별을 견뎌내다", "type": "phrase" },
+      { "term": "Uncle Sam", "ko": "엉클 샘 (미국 정부의 별칭)", "type": "phrase" }
+    ],
+    "24": [
+      { "term": "the audacity of equality", "ko": "평등을 당당히 요구하는 대담함", "type": "phrase" }
+    ],
+    "25": [
+      { "term": "pursuit of happiness", "ko": "행복 추구 (의 권리)", "type": "phrase" }
+    ],
+    "28": [
+      { "term": "argue with the cashier", "ko": "계산원과 말다툼하다", "type": "phrase" }
+    ],
+    "29": [
+      { "term": "be the bigger man", "ko": "(다투지 않고) 너그럽게 양보하다, 어른스럽게 굴다", "type": "idiom" }
+    ]
   }
 }
