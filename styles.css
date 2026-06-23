@@ -475,6 +475,78 @@ button {
   color: var(--muted);
 }
 
+/* AI prompt copy — sits just under the caption/glossary. */
+.cap-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.ai-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: transform 0.12s ease, background-color 0.2s ease;
+}
+
+.ai-copy:hover {
+  background: #efdcbf;
+}
+
+.ai-copy:active {
+  transform: scale(0.96);
+}
+
+.ai-copy svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ai-copy.is-copied {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* Toast — transient confirmation, centered near the bottom. */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  z-index: 60;
+  max-width: calc(100vw - 32px);
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: var(--shadow);
+  transform: translate(-50%, 12px);
+  opacity: 0;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+  pointer-events: none;
+}
+
+.toast.is-shown {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
 /* Controls ------------------------------------------------------ */
 .controls {
   display: flex;

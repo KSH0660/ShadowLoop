@@ -66,6 +66,13 @@
         <ul class="gloss-list" id="glossList"></ul>
       </section>
 
+      <div class="cap-actions">
+        <button type="button" class="ai-copy" id="aiPromptBtn" aria-label="AI 학습 프롬프트 복사">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
+          <span>AI로 이해하기</span>
+        </button>
+      </div>
+
       <section class="controls" aria-label="재생 조절">
         <div class="transport">
           <button type="button" class="step" id="prevSegment" aria-label="이전 구간">
@@ -111,6 +118,8 @@
         </div>
       </section>
     </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
     <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
 

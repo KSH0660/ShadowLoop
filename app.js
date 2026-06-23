@@ -75,6 +75,8 @@ const els = {
   speedButtons: [...document.querySelectorAll("[data-speed]")],
   segSheet: document.querySelector("#segSheet"),
   sheetBackdrop: document.querySelector("#sheetBackdrop"),
+  aiPromptBtn: document.querySelector("#aiPromptBtn"),
+  toast: document.querySelector("#toast"),
 };
 
 function onYouTubeIframeAPIReady() {
@@ -591,8 +593,100 @@ function escapeHtml(value) {
   }[ch]));
 }
 
+// --- AI study prompt --------------------------------------------------------
+// Joins a segment's caption lines into a single plain-text sentence string.
+function segmentText(segment) {
+  return segment ? segment.lines.map((l) => l.text).join(" ").trim() : "";
+}
+
+// Build a Korean study prompt for the current segment: the sentence the learner
+// is on, plus the preceding segments as context, asking an AI to explain it
+// thoroughly (meaning, grammar, nuance, usage) rather than just translate.
+function buildStudyPrompt() {
+  const current = segmentText(state.segments[state.current]);
+  // A couple of earlier segments give the AI enough conversational context.
+  const previous = state.segments
+    .slice(Math.max(0, state.current - 2), state.current)
+    .map(segmentText)
+    .filter(Boolean)
+    .join(" ")
+    .trim();
+  const context = previous || "(이전 맥락 없음)";
+
+  return [
+    "다음 영어 문장을 학습자가 완전히 이해할 수 있도록 한국어로 설명해 주세요.",
+    "",
+    "현재 문장:",
+    `"${current}"`,
+    "",
+    "이전 맥락:",
+    `"${context}"`,
+    "",
+    "이 문장이 이전 맥락과 어떻게 이어지는지 설명해 주세요.",
+    "사용자가 헷갈릴 만한 단어, 표현, 문법, 뉘앙스를 짚어 주세요.",
+    "표현의 실제 쓰임새, 비슷한 예문, 다른 상황에서의 활용 예시도 함께 알려 주세요.",
+    "단순 번역이 아니라, 이 문장을 완전히 이해하고 실제로 말할 수 있게 만드는 설명을 해 주세요.",
+  ].join("\n");
+}
+
+// Copy text to the clipboard, with a fallback for browsers/contexts where the
+// async Clipboard API is unavailable (e.g. non-secure origins).
+async function copyToClipboard(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    // fall through to the legacy path
+  }
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    return ok;
+  } catch {
+    return false;
+  }
+}
+
+let _toastTimer = null;
+function showToast(message) {
+  if (!els.toast) return;
+  els.toast.textContent = message;
+  els.toast.hidden = false;
+  // Force a reflow so the transition runs even on rapid repeat taps.
+  void els.toast.offsetWidth;
+  els.toast.classList.add("is-shown");
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => {
+    els.toast.classList.remove("is-shown");
+    setTimeout(() => { els.toast.hidden = true; }, 250);
+  }, 2200);
+}
+
+async function copyStudyPrompt() {
+  if (!state.segments[state.current]) return;
+  const ok = await copyToClipboard(buildStudyPrompt());
+  if (ok) {
+    els.aiPromptBtn.classList.add("is-copied");
+    setTimeout(() => els.aiPromptBtn.classList.remove("is-copied"), 900);
+    showToast("AI 학습 프롬프트가 복사되었습니다");
+  } else {
+    showToast("복사에 실패했습니다. 다시 시도해 주세요");
+  }
+}
+
 // --- Events ---------------------------------------------------------------
 window.addEventListener("hashchange", route);
+
+els.aiPromptBtn.addEventListener("click", copyStudyPrompt);
 
 els.homeFeed.addEventListener("click", (event) => {
   const card = event.target.closest(".card");
