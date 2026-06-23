@@ -50,6 +50,7 @@ const els = {
   homeView: document.querySelector("#homeView"),
   detailView: document.querySelector("#detailView"),
   homeFeed: document.querySelector("#homeFeed"),
+  homeFilters: document.querySelector("#homeFilters"),
   homeCount: document.querySelector("#homeCount"),
   backBtn: document.querySelector("#backBtn"),
   segBtn: document.querySelector("#segBtn"),
@@ -158,7 +159,9 @@ function recordProgress(videoId, segIndex, total) {
     const all = loadProgress();
     const prev = all[videoId];
     const seg = prev ? Math.max(prev.seg, segIndex) : segIndex;
-    all[videoId] = { seg, total };
+    // `at` records the last-touched time so the home "이어보기" row can order
+    // in-progress videos most-recent-first. Older entries lack it (treated as 0).
+    all[videoId] = { seg, total, at: Date.now() };
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
   } catch {
     // localStorage unavailable (e.g. private mode) — resume/bars just won't persist.
@@ -168,10 +171,49 @@ function recordProgress(videoId, segIndex, total) {
 // HOME — a browse grid of thumbnail cards, grouped into labelled sections by
 // `category` (강연 vs 예능 등). Groups appear in first-seen order; videos keep
 // their order within a group. Each card carries its index into `videos`.
+//
+// As the library grows the home gets two affordances on top of the grid:
+//   • a sticky category filter-chip row (`homeFilter` narrows to one category);
+//   • a top "이어보기" row of in-progress videos (most-recent-first), shown only
+//     in the unfiltered "전체" view.
+// Finished videos (pct 100) get a check badge wherever they appear.
+const HOME_ALL = "전체";
+let homeFilter = HOME_ALL;
+
+// Per-video progress as a 0–100 percentage of segments reached (0 when unseen).
+function videoPercent(progressMap, videoId) {
+  const p = progressMap[videoId];
+  return p && p.total
+    ? Math.min(100, Math.round(((p.seg + 1) / p.total) * 100))
+    : 0;
+}
+
+// One thumbnail card. `index` is the position into `videos` (used by the click
+// handler); `cat` is the fallback meta label.
+function cardHtml(video, index, cat, pct) {
+  const title = video.title || video.tag || "제목 없음";
+  const segCount = (video.segments || []).length;
+  const done = pct >= 100;
+  return `
+    <button type="button" class="card" data-video="${index}">
+      <span class="card-thumb">
+        <img src="${thumbnailUrl(video.id)}" alt="" loading="lazy" />
+        <span class="card-badge">${segCount}구간</span>
+        ${done ? `<span class="card-done" aria-label="완료">✓</span>` : ""}
+        ${pct > 0 ? `<span class="card-progress"><span style="width:${pct}%"></span></span>` : ""}
+      </span>
+      <span class="card-body">
+        <span class="card-title">${escapeHtml(title)}</span>
+        <span class="card-meta">${escapeHtml(video.tag || cat)}</span>
+      </span>
+    </button>`;
+}
+
 function renderHome() {
   els.homeCount.textContent = videos.length ? `${videos.length}개 영상` : "";
 
   if (!videos.length) {
+    els.homeFilters.innerHTML = "";
     els.homeFeed.innerHTML = `<p class="home-empty">영상이 없습니다</p>`;
     return;
   }
@@ -185,35 +227,52 @@ function renderHome() {
     byCat.get(cat).push({ video, index });
   });
 
-  els.homeFeed.innerHTML = order
-    .map((cat) => {
-      const cards = byCat.get(cat).map(({ video, index }) => {
-        const title = video.title || video.tag || "제목 없음";
-        const segCount = (video.segments || []).length;
-        const progress = progressMap[video.id];
-        const pct = progress && progress.total
-          ? Math.min(100, Math.round(((progress.seg + 1) / progress.total) * 100))
-          : 0;
-        return `
-          <button type="button" class="card" data-video="${index}">
-            <span class="card-thumb">
-              <img src="${thumbnailUrl(video.id)}" alt="" loading="lazy" />
-              <span class="card-badge">${segCount}구간</span>
-              ${pct > 0 ? `<span class="card-progress"><span style="width:${pct}%"></span></span>` : ""}
-            </span>
-            <span class="card-body">
-              <span class="card-title">${escapeHtml(title)}</span>
-              <span class="card-meta">${escapeHtml(video.tag || cat)}</span>
-            </span>
-          </button>`;
-      }).join("");
-      return `
+  // A filter that no longer matches any category (e.g. its videos were removed)
+  // falls back to "전체" so the feed never renders empty.
+  if (homeFilter !== HOME_ALL && !byCat.has(homeFilter)) homeFilter = HOME_ALL;
+
+  // Filter chips: "전체" + one per category, each with its video count.
+  els.homeFilters.innerHTML = [[HOME_ALL, videos.length], ...order.map((c) => [c, byCat.get(c).length])]
+    .map(([cat, n]) => `
+      <button type="button" class="chip${cat === homeFilter ? " is-active" : ""}" data-cat="${escapeHtml(cat)}">
+        ${escapeHtml(cat)}<span class="chip-count">${n}</span>
+      </button>`)
+    .join("");
+
+  const sections = [];
+
+  // 이어보기 — in-progress videos (0 < pct < 100), most-recent-first. Only in
+  // the unfiltered view; selecting a category narrows to that grid alone.
+  if (homeFilter === HOME_ALL) {
+    const resume = videos
+      .map((video, index) => ({ video, index, pct: videoPercent(progressMap, video.id), at: progressMap[video.id]?.at || 0 }))
+      .filter((x) => x.pct > 0 && x.pct < 100)
+      .sort((a, b) => b.at - a.at);
+    if (resume.length) {
+      const cards = resume.map((x) => cardHtml(x.video, x.index, x.video.category || "기타", x.pct)).join("");
+      sections.push(`
+        <section class="feed-group">
+          <h2 class="feed-group-title">이어보기</h2>
+          <div class="card-grid">${cards}</div>
+        </section>`);
+    }
+  }
+
+  // Category sections (all, or just the selected one).
+  order
+    .filter((cat) => homeFilter === HOME_ALL || cat === homeFilter)
+    .forEach((cat) => {
+      const cards = byCat.get(cat)
+        .map(({ video, index }) => cardHtml(video, index, cat, videoPercent(progressMap, video.id)))
+        .join("");
+      sections.push(`
         <section class="feed-group">
           <h2 class="feed-group-title">${escapeHtml(cat)}</h2>
           <div class="card-grid">${cards}</div>
-        </section>`;
-    })
-    .join("");
+        </section>`);
+    });
+
+  els.homeFeed.innerHTML = sections.join("");
 }
 
 // --- Routing ---------------------------------------------------------------
@@ -692,6 +751,14 @@ els.homeFeed.addEventListener("click", (event) => {
   const card = event.target.closest(".card");
   if (!card) return;
   openVideo(videos[Number(card.dataset.video)]);
+});
+
+els.homeFilters.addEventListener("click", (event) => {
+  const chip = event.target.closest(".chip");
+  if (!chip || chip.dataset.cat === homeFilter) return;
+  homeFilter = chip.dataset.cat;
+  renderHome();
+  els.homeFeed.scrollIntoView({ block: "start" }); // jump back to the top of the narrowed feed
 });
 
 els.backBtn.addEventListener("click", goHome);
