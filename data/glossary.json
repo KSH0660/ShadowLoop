@@ -995,5 +995,168 @@
       { "term": "tricked out", "ko": "한껏 꾸민, 화려하게 개조한", "type": "idiom" },
       { "term": "state of the art", "ko": "최첨단의", "type": "idiom" }
     ]
+  },
+  "Dd7FixvoKBw": {
+    "0": [
+      { "term": "listen up", "ko": "잘 들어, 주목해", "type": "idiom" },
+      { "term": "substitute teacher", "ko": "대체 교사, 기간제 교사", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "inner city", "ko": "도심 빈민가", "type": "phrase" },
+      { "term": "mess with", "ko": "건드리다, 까불다", "type": "phrase" },
+      { "term": "feel me", "ko": "(속어) 내 말 알아듣겠어?", "type": "idiom" }
+    ],
+    "2": [
+      { "term": "take roll", "ko": "출석을 부르다", "type": "idiom" }
+    ],
+    "5": [
+      { "term": "that's how it's gonna be", "ko": "그렇게 나오시겠다 이거지", "type": "idiom" }
+    ],
+    "6": [
+      { "term": "got my eye on you", "ko": "너 주시하고 있어, 지켜보고 있어", "type": "idiom" }
+    ],
+    "9": [
+      { "term": "out of your goddamn mind", "ko": "제정신이 아니다, 미쳤다", "type": "idiom" }
+    ],
+    "10": [
+      { "term": "mocking voice", "ko": "비웃는 말투", "type": "phrase" },
+      { "term": "go to war", "ko": "한판 붙다, 전쟁하다", "type": "idiom" }
+    ],
+    "12": [
+      { "term": "check yourself", "ko": "(속어) 까불지 마, 정신 차려", "type": "idiom" }
+    ],
+    "14": [
+      { "term": "feel my wrath", "ko": "내 분노를 맛보다", "type": "idiom" }
+    ],
+    "20": [
+      { "term": "mute", "ko": "말을 못 하는, 벙어리의", "type": "word" }
+    ],
+    "24": [
+      { "term": "you done messed up", "ko": "(속어) 너 큰일 났어, 일 제대로 그르쳤어", "type": "idiom" },
+      { "term": "take your ass down to", "ko": "(속어) 당장 ~로 가", "type": "idiom" }
+    ],
+    "25": [
+      { "term": "break my foot off in your ass", "ko": "(속어) 아주 혼쭐을 내주다", "type": "idiom" }
+    ],
+    "26": [
+      { "term": "insubordinate", "ko": "반항적인, 명령에 불복하는", "type": "word" },
+      { "term": "churlish", "ko": "무례한, 상스러운", "type": "word" }
+    ],
+    "27": [
+      { "term": "present", "ko": "(점호 대답) 출석했습니다, 여기요", "type": "word" }
+    ]
+  },
+  "0z-oJTZ1b5Q": {
+    "0": [
+      { "term": "as far as I'm concerned", "ko": "내가 보기엔, 내 생각엔", "type": "idiom" },
+      { "term": "mercy kill", "ko": "고통 없이 끝장내다, 안락사시키다", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "learn manners", "ko": "예의를 배우다", "type": "phrase" },
+      { "term": "humble", "ko": "겸손한", "type": "word" }
+    ],
+    "2": [
+      { "term": "cane", "ko": "지팡이", "type": "word" }
+    ],
+    "3": [
+      { "term": "God's instrument", "ko": "신의 도구", "type": "phrase" }
+    ],
+    "4": [
+      { "term": "beg me for life", "ko": "살려달라고 내게 빌다", "type": "phrase" },
+      { "term": "open up to", "ko": "~에게 마음을 열다", "type": "phrase" },
+      { "term": "knock him out", "ko": "(권투) 그를 KO시키다", "type": "idiom" }
+    ],
+    "5": [
+      { "term": "doesn't make sense", "ko": "말이 안 된다", "type": "idiom" }
+    ],
+    "6": [
+      { "term": "paralyzed from the neck down", "ko": "목 아래로 마비된", "type": "phrase" }
+    ],
+    "7": [
+      { "term": "get people interested", "ko": "사람들의 관심을 끌다", "type": "phrase" }
+    ],
+    "9": [
+      { "term": "put this fight together", "ko": "이 시합을 성사시키다, 짜다", "type": "idiom" },
+      { "term": "that's not fair to", "ko": "~에게 공정하지 않다", "type": "phrase" }
+    ]
+  },
+  "EnBdGTX3vZc": {
+    "0": [
+      { "term": "comic book adaptation", "ko": "만화 원작의 영화화", "type": "phrase" },
+      { "term": "hands down", "ko": "단연코, 두말할 것 없이", "type": "idiom" }
+    ],
+    "1": [
+      { "term": "no argument", "ko": "이견 없음, 반박 불가", "type": "idiom" }
+    ],
+    "2": [
+      { "term": "in the minority", "ko": "소수 의견인, 소수파인", "type": "idiom" },
+      { "term": "overrated", "ko": "과대평가된", "type": "word" }
+    ],
+    "5": [
+      { "term": "prefaced it by saying", "ko": "~라고 미리 운을 떼다, 서두를 달다", "type": "phrase" }
+    ],
+    "8": [
+      { "term": "follow it up with", "ko": "~로 뒤를 이어 말하다", "type": "phrase" },
+      { "term": "contribution to the conversation", "ko": "대화에 보탬이 되는 말", "type": "phrase" }
+    ],
+    "9": [
+      { "term": "yikes", "ko": "(구어) 헉, 이런 (민망·당황 표현)", "type": "word" }
+    ],
+    "10": [
+      { "term": "low-stakes", "ko": "위험 부담이 적은, 별것 아닌", "type": "word" }
+    ],
+    "17": [
+      { "term": "asshole", "ko": "(욕설) 재수 없는 놈", "type": "word" }
+    ],
+    "21": [
+      { "term": "off the top of your head", "ko": "즉석에서, 생각나는 대로", "type": "idiom" }
+    ],
+    "24": [
+      { "term": "pop culture", "ko": "대중문화", "type": "phrase" }
+    ]
+  },
+  "OjFUJEoq8k0": {
+    "0": [
+      { "term": "first order of business", "ko": "가장 먼저 처리할 일, 첫 안건", "type": "idiom" },
+      { "term": "got pulled out the river", "ko": "강에서 (시신이) 건져졌다", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "the hood", "ko": "(속어) 빈민가, 동네", "type": "word" },
+      { "term": "listen up", "ko": "잘 들어, 주목해", "type": "idiom" }
+    ],
+    "2": [
+      { "term": "say some words", "ko": "(추도의) 몇 마디를 하다", "type": "phrase" }
+    ],
+    "3": [
+      { "term": "crew", "ko": "(속어) 패거리, 무리", "type": "word" },
+      { "term": "it takes a big man to", "ko": "~하는 건 대단한 사람이나 할 수 있다", "type": "idiom" }
+    ],
+    "4": [
+      { "term": "my boy", "ko": "(속어) 내 절친, 둘도 없는 친구", "type": "idiom" },
+      { "term": "back in the day", "ko": "옛날에, 그 시절에", "type": "idiom" },
+      { "term": "fort", "ko": "(아이들이 만드는) 요새, 아지트", "type": "word" }
+    ],
+    "5": [
+      { "term": "molten lava", "ko": "펄펄 끓는 용암", "type": "phrase" }
+    ],
+    "8": [
+      { "term": "best friends forever", "ko": "영원한 단짝", "type": "idiom" }
+    ],
+    "11": [
+      { "term": "I wish one of y'all would", "ko": "(위협조) 누구 하나 ~해 봐라", "type": "idiom" }
+    ],
+    "12": [
+      { "term": "blubbering", "ko": "엉엉 울며 말하는", "type": "word" }
+    ],
+    "13": [
+      { "term": "holding back sobs", "ko": "흐느낌을 억지로 참는", "type": "phrase" },
+      { "term": "manly tears", "ko": "사나이의 눈물", "type": "phrase" }
+    ],
+    "17": [
+      { "term": "fancied himself", "ko": "스스로를 ~라고 여기다, 자부하다", "type": "idiom" }
+    ],
+    "21": [
+      { "term": "sell some crack", "ko": "마약(크랙 코카인)을 팔다", "type": "phrase" }
+    ]
   }
 }
