@@ -14,7 +14,8 @@ description: >-
 Given a YouTube channel (or topic/drama), find videos that have **manual (human) English
 captions**, choose ones that are good for English shadowing, add them to `videos.json`,
 rebuild `data/transcripts.json`, and write Korean glosses for the hard words/idioms in each
-segment. Run from the repo root; `yt-dlp` is on PATH.
+segment. Run from the repo root. `yt-dlp` is needed at build time — locally it's usually on
+PATH; in a remote/cloud session it may not be, see **Environment setup** below.
 
 ## Why "manual captions only" matters
 
@@ -38,6 +39,47 @@ or a topic/drama, and optionally how many videos. Defaults if unspecified:
 
 If the channel/topic is ambiguous and you can't resolve a handle, do a quick WebSearch or
 try `yt-dlp "ytsearch3:<name> channel"`; only ask the user if still unsure.
+
+## Environment setup (do this first in a remote/cloud session)
+
+Locally `yt-dlp` is usually already on PATH and YouTube serves captions fine — skip this
+section. But in Claude Code's **remote/cloud environment** two things bite, and you should
+fix both up front (one-time per container) instead of rediscovering them mid-run:
+
+1. **`yt-dlp` is not installed.** Install it and call it via the module: `pip install -q
+   yt-dlp` then `python3 -m yt_dlp …`. (Also pass `--no-check-certificates` — the proxy uses
+   a self-signed CA that yt-dlp's bundled certs reject.)
+2. **YouTube bot-blocks caption downloads from the datacenter IP** — search/metadata work,
+   but per-video subtitle requests fail with *"Sign in to confirm you're not a bot"* on the
+   `web`/`ios`/`android`/`tv_embedded` clients. The fix is the **`web_embedded`** player
+   client, which bypasses the check and still exposes the manual `en` track. It returns no
+   video formats, so also add `--ignore-no-formats-error` (otherwise yt-dlp aborts with
+   "Requested format is not available" even with `--skip-download`). `mweb`/`web` bypass the
+   check too but report "has no subtitles", so they're useless here.
+
+The build script (`scripts/build-transcripts.mjs`) calls a bare `yt-dlp`, and the skill must
+not edit it. So make a **PATH shim** named `yt-dlp` that injects all of the above and
+delegates to the module — then both your manual checks *and* `npm run build:transcripts`
+just work:
+```bash
+pip install -q yt-dlp
+mkdir -p ~/.local/bin
+cat > ~/.local/bin/yt-dlp <<'EOF'
+#!/usr/bin/env bash
+exec python3 -m yt_dlp \
+  --no-check-certificates \
+  --ignore-no-formats-error \
+  --extractor-args "youtube:player_client=web_embedded" \
+  "$@"
+EOF
+chmod +x ~/.local/bin/yt-dlp
+export PATH="$HOME/.local/bin:$PATH"; hash -r
+yt-dlp --version   # confirm the shim resolves
+```
+The shim lives only in the container (not committed) and is invisible to local rebuilds. All
+`yt-dlp` commands below then run as written. If `web_embedded` ever stops bypassing the bot
+check, the remaining options are passing cookies (`--cookies`) or a PO-token provider —
+neither is available by default here, so report the blocker to the user.
 
 ## Workflow
 

@@ -853,5 +853,147 @@
     "29": [
       { "term": "be the bigger man", "ko": "(다투지 않고) 너그럽게 양보하다, 어른스럽게 굴다", "type": "idiom" }
     ]
+  },
+  "pJn3gIaxHqg": {
+    "0": [
+      { "term": "bake sale", "ko": "(모금용) 빵 판매 행사", "type": "word" },
+      { "term": "drives me crazy", "ko": "나를 미치게 한다", "type": "idiom" },
+      { "term": "in charge of", "ko": "~을 맡은, 책임지는", "type": "phrase" }
+    ],
+    "1": [
+      { "term": "flight to catch", "ko": "놓치면 안 되는 비행기", "type": "phrase" },
+      { "term": "help you out", "ko": "너를 (곤경에서) 도와주다", "type": "phrase" }
+    ],
+    "2": [
+      { "term": "control freak", "ko": "모든 걸 자기 맘대로 하려는 사람, 통제광", "type": "idiom" },
+      { "term": "bossy", "ko": "이래라저래라 명령하는", "type": "word" },
+      { "term": "looks down on", "ko": "~을 깔보다, 무시하다", "type": "phrase" }
+    ],
+    "6": [
+      { "term": "technically", "ko": "엄밀히 따지면", "type": "word" },
+      { "term": "hit the road", "ko": "출발하다, 길을 나서다", "type": "idiom" }
+    ],
+    "17": [
+      { "term": "grow a pair", "ko": "배짱을 키우다, 남자답게 굴다", "type": "idiom" }
+    ],
+    "28": [
+      { "term": "have every right to", "ko": "~할 만한 충분한 이유가 있다", "type": "phrase" }
+    ],
+    "33": [
+      { "term": "cracking the whip", "ko": "채찍질하듯 다그치다, 엄하게 몰아붙이다", "type": "idiom" }
+    ],
+    "35": [
+      { "term": "ride", "ko": "(사람을) 들들 볶다, 몰아붙이다", "type": "idiom" },
+      { "term": "let go", "ko": "긴장을 풀다, 느긋해지다", "type": "phrase" }
+    ],
+    "37": [
+      { "term": "pass out", "ko": "기절하다", "type": "phrase" }
+    ]
+  },
+  "liGKmzyJQMs": {
+    "2": [
+      { "term": "what with", "ko": "~ 등으로 인해, ~ 때문에", "type": "phrase" },
+      { "term": "start a new chapter", "ko": "인생의 새로운 장을 열다", "type": "idiom" }
+    ],
+    "3": [
+      { "term": "transition", "ko": "(은퇴가 아니라) 전환, 옮겨감", "type": "word" }
+    ],
+    "5": [
+      { "term": "RV", "ko": "캠핑카 (recreational vehicle)", "type": "word" },
+      { "term": "ballparks", "ko": "야구장", "type": "word" }
+    ],
+    "7": [
+      { "term": "hot shot", "ko": "잘나가는 실력자, 거물", "type": "idiom" },
+      { "term": "in good hands", "ko": "안심하고 맡길 수 있는", "type": "idiom" }
+    ],
+    "8": [
+      { "term": "yours truly", "ko": "(익살스럽게) 이 몸, 나 자신", "type": "idiom" },
+      { "term": "corner office", "ko": "임원실, 고위직의 상징인 사무실", "type": "phrase" }
+    ],
+    "10": [
+      { "term": "broken in", "ko": "(옷·신발을) 길들인", "type": "phrase" },
+      { "term": "every right to be mad", "ko": "화낼 만한 충분한 이유", "type": "phrase" }
+    ],
+    "11": [
+      { "term": "put off", "ko": "미루다, 연기하다", "type": "phrase" }
+    ],
+    "12": [
+      { "term": "insomnia", "ko": "불면증", "type": "word" }
+    ],
+    "16": [
+      { "term": "made him up", "ko": "(인물·이야기를) 지어냈다", "type": "phrase" },
+      { "term": "turned ... over to", "ko": "~에게 넘기다, 양도하다", "type": "phrase" },
+      { "term": "obligated", "ko": "의무감을 느끼는", "type": "word" }
+    ],
+    "17": [
+      { "term": "went bankrupt", "ko": "파산했다", "type": "phrase" }
+    ],
+    "18": [
+      { "term": "cents on the dollar", "ko": "1달러당 몇 센트, 즉 헐값에", "type": "idiom" }
+    ],
+    "19": [
+      { "term": "easy out", "ko": "손쉽게 빠져나갈 구실", "type": "idiom" }
+    ],
+    "25": [
+      { "term": "hand over the reins", "ko": "실권·통제권을 넘기다", "type": "idiom" },
+      { "term": "hump", "ko": "(속어) 별 볼 일 없는 놈", "type": "word" }
+    ],
+    "27": [
+      { "term": "hinges", "ko": "경첩", "type": "word" }
+    ],
+    "30": [
+      { "term": "ungrateful", "ko": "배은망덕한, 은혜를 모르는", "type": "word" }
+    ]
+  },
+  "1Ec3rMMLyWg": {
+    "0": [
+      { "term": "toasty", "ko": "따뜻하고 아늑한", "type": "word" },
+      { "term": "boasts", "ko": "(자랑할 만한 기능을) 갖추고 있다", "type": "word" }
+    ],
+    "1": [
+      { "term": "orchid", "ko": "난초", "type": "word" }
+    ],
+    "8": [
+      { "term": "novelty", "ko": "신기함, 새로움", "type": "word" },
+      { "term": "delaying the inevitable", "ko": "피할 수 없는 일을 미루는 것", "type": "idiom" }
+    ],
+    "9": [
+      { "term": "malevolent", "ko": "악의에 찬, 사악한", "type": "word" },
+      { "term": "hellspawn", "ko": "지옥에서 온 것, 악마 같은 존재", "type": "word" }
+    ],
+    "12": [
+      { "term": "sick of", "ko": "~에 진저리가 난, 지긋지긋한", "type": "phrase" }
+    ],
+    "16": [
+      { "term": "ocean to ocean", "ko": "대서양에서 태평양까지, 대륙 횡단", "type": "phrase" }
+    ],
+    "19": [
+      { "term": "it hit me", "ko": "문득 깨달았다", "type": "idiom" },
+      { "term": "confines", "ko": "비좁은 한정된 공간", "type": "word" },
+      { "term": "brings out the worst in", "ko": "~의 최악의 면을 끌어내다", "type": "idiom" }
+    ],
+    "20": [
+      { "term": "neutralize", "ko": "중화시키다, 무력화하다", "type": "word" },
+      { "term": "shame spiral", "ko": "수치심에 빠져드는 악순환", "type": "phrase" }
+    ],
+    "23": [
+      { "term": "colony collapse", "ko": "(벌의) 군집 붕괴 현상", "type": "phrase" },
+      { "term": "endangered", "ko": "멸종 위기에 처한", "type": "word" }
+    ],
+    "29": [
+      { "term": "pulling this thing over", "ko": "(차를) 길가에 세우다", "type": "phrase" }
+    ],
+    "34": [
+      { "term": "layover", "ko": "(여행 중) 경유, 중간 기착", "type": "word" }
+    ],
+    "36": [
+      { "term": "making a point", "ko": "(일부러) 자기 생각을 입증해 보이다", "type": "idiom" }
+    ],
+    "37": [
+      { "term": "boob", "ko": "(속어) 얼간이, 멍청이", "type": "word" },
+      { "term": "too much to ask", "ko": "지나친 요구", "type": "idiom" },
+      { "term": "tricked out", "ko": "한껏 꾸민, 화려하게 개조한", "type": "idiom" },
+      { "term": "state of the art", "ko": "최첨단의", "type": "idiom" }
+    ]
   }
 }
