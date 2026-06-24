@@ -42,6 +42,15 @@
       <div class="home-feed" id="libraryFeed"></div>
     </main>
 
+    <!-- WORDS — 단어장 (saved vocabulary) ------------------------------- -->
+    <main class="home" id="wordsView" aria-label="단어장" hidden>
+      <header class="home-top">
+        <h1 class="home-heading">단어장</h1>
+        <span class="home-count" id="wordsCount"></span>
+      </header>
+      <div class="home-feed" id="wordsFeed"></div>
+    </main>
+
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>
       <header class="topbar">
@@ -144,6 +153,10 @@
       <a class="tab is-active" id="tabHome" href="#/" aria-current="page">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7" /><path d="M6 10v9h12v-9" /></svg>
         <span>홈</span>
+      </a>
+      <a class="tab" id="tabWords" href="#/words">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a1 1 0 0 1 1-1h9a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4z" /><path d="M17 7a3 3 0 0 1 3-3v15a2 2 0 0 0-2 2" /></svg>
+        <span>단어장</span>
       </a>
       <a class="tab" id="tabLibrary" href="#/library">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" /></svg>

@@ -824,6 +824,77 @@ body.is-detail .tabbar {
   color: var(--muted);
 }
 
+.word-save {
+  margin-top: 18px;
+  padding: 13px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.word-save.is-saved {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+/* 단어장 (saved-vocabulary) tab — text rows, no thumbnail. */
+.word-rows {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.word-row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--line);
+}
+
+.word-row:last-child {
+  border-bottom: 0;
+}
+
+.word-row-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px 14px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.word-row-top {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.word-row-term {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--accent-ink);
+}
+
+.word-row-ko {
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.word-row-src {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+}
+
 /* AI prompt copy — sits just under the caption/glossary. */
 .cap-actions {
   display: flex;
@@ -1167,7 +1238,10 @@ body.is-detail .tabbar {
   position: fixed;
   inset: 0;
   background: rgba(20, 26, 23, 0.42);
-  z-index: 20;
+  /* Above the bottom tab bar (z-index 30): the word sheet can open from the
+     단어장 tab, where the tab bar is still visible and would otherwise cover the
+     sheet's bottom (e.g. the 단어장 저장 button). */
+  z-index: 40;
 }
 
 .sheet {
@@ -1175,7 +1249,7 @@ body.is-detail .tabbar {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 21;
+  z-index: 41;
   width: min(100%, 520px);
   margin: 0 auto;
   max-height: 76vh;

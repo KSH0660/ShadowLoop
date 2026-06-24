@@ -25,7 +25,7 @@ let _seekCooldown = 0;   // performance.now() deadline — suppress seek detecti
 let pendingSegment = null; // segment index to jump to once the next video finishes loading
 
 let state = {
-  view: "home",   // "home" (browse grid) | "library" (saved + in-progress) | "detail" (player)
+  view: "home",   // "home" (browse grid) | "library" | "words" (단어장) | "detail" (player)
   videoId: null,
   title: "영상을 불러오는 중…",
   segments: [],
@@ -39,6 +39,7 @@ let state = {
   peek: false,    // holding the peek button → show the full caption
   sheet: null,    // null | "seg" | "notes" | "word"
   wordItem: null, // glossary entry currently shown in the word-detail sheet
+  wordCtx: null,  // { video, seg, label } source of state.wordItem (for 단어장 저장)
   bookmarks: new Set(), // current video's saved segment indices (fast lookup for UI)
 };
 
@@ -52,13 +53,17 @@ const RING_CIRCUMFERENCE = 2 * Math.PI * 54;
 const els = {
   homeView: document.querySelector("#homeView"),
   libraryView: document.querySelector("#libraryView"),
+  wordsView: document.querySelector("#wordsView"),
   detailView: document.querySelector("#detailView"),
   homeFeed: document.querySelector("#homeFeed"),
   libraryFeed: document.querySelector("#libraryFeed"),
+  wordsFeed: document.querySelector("#wordsFeed"),
+  wordsCount: document.querySelector("#wordsCount"),
   homeFilters: document.querySelector("#homeFilters"),
   homeCount: document.querySelector("#homeCount"),
   tabHome: document.querySelector("#tabHome"),
   tabLibrary: document.querySelector("#tabLibrary"),
+  tabWords: document.querySelector("#tabWords"),
   backBtn: document.querySelector("#backBtn"),
   segBtn: document.querySelector("#segBtn"),
   topbarTitle: document.querySelector("#topbarTitle"),
@@ -249,6 +254,67 @@ function removeBookmark(videoId, seg) {
   if (next.length) all[videoId] = next;
   else delete all[videoId];
   saveBookmarks(all);
+}
+
+// --- Vocabulary (단어장) ----------------------------------------------------
+// The learner's personal word list, built by tapping "단어장에 저장" in the word-
+// detail sheet. Stored in localStorage (per device — no backend). Each saved word
+// keeps a full snapshot of its gloss (term/ko/type + any rich fields) plus where
+// it came from (video id, label, segment index), so the 단어장 tab and its review
+// modes are self-describing even if a transcript rebuild shifts segment indices.
+const VOCAB_KEY = "shadowloop:v1:vocab";
+
+function loadVocab() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(VOCAB_KEY));
+    return raw && Array.isArray(raw.words) ? raw : { words: [] };
+  } catch {
+    return { words: [] };
+  }
+}
+
+function saveVocab(data) {
+  try {
+    localStorage.setItem(VOCAB_KEY, JSON.stringify(data));
+  } catch {
+    // localStorage unavailable (e.g. private mode) — the word list just won't persist.
+  }
+}
+
+// Stable identity for a saved word: which gloss, in which video + segment. Lets a
+// word be saved once and toggled off, and the same term in two clips coexist.
+function vocabId(term, videoId, seg) {
+  return `${videoId}::${seg}::${term}`;
+}
+
+function isVocabSaved(term, videoId, seg) {
+  const id = vocabId(term, videoId, seg);
+  return loadVocab().words.some((w) => w.id === id);
+}
+
+// Save / unsave one glossary entry to the 단어장. Returns true if now saved.
+function toggleVocab(item, videoId, seg, videoLabel) {
+  if (!item || !videoId) return false;
+  const data = loadVocab();
+  const id = vocabId(item.term, videoId, seg);
+  const at = data.words.findIndex((w) => w.id === id);
+  let saved;
+  if (at >= 0) {
+    data.words.splice(at, 1);
+    saved = false;
+  } else {
+    // Snapshot the whole gloss (incl. optional rich fields) + its source.
+    data.words.push({ ...item, id, video: videoId, videoLabel, seg, addedAt: Date.now() });
+    saved = true;
+  }
+  saveVocab(data);
+  return saved;
+}
+
+function removeVocab(id) {
+  const data = loadVocab();
+  data.words = data.words.filter((w) => w.id !== id);
+  saveVocab(data);
 }
 
 // --- Study activity (daily learning heatmap) -------------------------------
@@ -571,9 +637,40 @@ function renderLibrary() {
   els.libraryFeed.innerHTML = sections.join("");
 }
 
+// WORDS (단어장) — the saved-vocabulary tab. Lists every saved gloss, most-recent
+// first; each row shows the term, its 간결한 뜻, type, and source clip. Tapping a row
+// reopens the same word-detail sheet; the × removes it.
+function wordRowHtml(w) {
+  const type = TYPE_LABEL[w.type];
+  const src = w.videoLabel ? `${escapeHtml(w.videoLabel)} · 구간 ${w.seg + 1}` : "";
+  return `
+    <div class="word-row">
+      <button type="button" class="word-row-main" data-id="${escapeHtml(w.id)}">
+        <span class="word-row-top">
+          <span class="word-row-term">${escapeHtml(w.term)}</span>
+          ${type ? `<span class="word-type">${type}</span>` : ""}
+        </span>
+        <span class="word-row-ko">${escapeHtml(w.ko)}</span>
+        ${src ? `<span class="word-row-src">${src}</span>` : ""}
+      </button>
+      <button type="button" class="note-del word-del" data-del="${escapeHtml(w.id)}" aria-label="단어장에서 삭제">×</button>
+    </div>`;
+}
+
+function renderWords() {
+  const words = loadVocab().words.slice().sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0));
+  els.wordsCount.textContent = words.length ? `${words.length}개 단어` : "";
+  if (!words.length) {
+    els.wordsFeed.innerHTML = `<p class="home-empty">아직 저장한 단어가 없어요.<br>영상 자막 밑의 단어 칩을 눌러 ‘단어장에 저장’해 보세요.</p>`;
+    return;
+  }
+  els.wordsFeed.innerHTML = `<div class="word-rows">${words.map(wordRowHtml).join("")}</div>`;
+}
+
 // --- Routing ---------------------------------------------------------------
 // #/            → home
 // #/library     → 보관함 (saved expressions + in-progress)
+// #/words       → 단어장 (saved vocabulary)
 // #/v/<videoId> → that video's detail page
 function route() {
   const hash = location.hash || "#/";
@@ -583,6 +680,7 @@ function route() {
     if (video) { showDetail(video); return; }
   }
   if (hash === "#/library") { showLibrary(); return; }
+  if (hash === "#/words") { showWords(); return; }
   showHome();
 }
 
@@ -601,7 +699,7 @@ function goHome() {
 
 // Reflect the active top-level view in the bottom tab bar (detail hides it).
 function setActiveTab(which) {
-  [["home", els.tabHome], ["library", els.tabLibrary]].forEach(([name, el]) => {
+  [["home", els.tabHome], ["words", els.tabWords], ["library", els.tabLibrary]].forEach(([name, el]) => {
     const on = name === which;
     el.classList.toggle("is-active", on);
     if (on) el.setAttribute("aria-current", "page");
@@ -616,6 +714,7 @@ function showHome() {
   renderHome(); // refresh thumbnail progress bars with the latest watched position
   els.homeView.hidden = false;
   els.libraryView.hidden = true;
+  els.wordsView.hidden = true;
   els.detailView.hidden = true;
   document.body.classList.remove("is-detail");
   setActiveTab("home");
@@ -629,9 +728,24 @@ function showLibrary() {
   renderLibrary(); // refresh saved/in-progress with the latest state
   els.homeView.hidden = true;
   els.libraryView.hidden = false;
+  els.wordsView.hidden = true;
   els.detailView.hidden = true;
   document.body.classList.remove("is-detail");
   setActiveTab("library");
+  window.scrollTo(0, 0);
+}
+
+function showWords() {
+  state.view = "words";
+  closeSheet();
+  if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
+  renderWords();
+  els.homeView.hidden = true;
+  els.libraryView.hidden = true;
+  els.wordsView.hidden = false;
+  els.detailView.hidden = true;
+  document.body.classList.remove("is-detail");
+  setActiveTab("words");
   window.scrollTo(0, 0);
 }
 
@@ -639,6 +753,7 @@ function showDetail(video) {
   state.view = "detail";
   els.homeView.hidden = true;
   els.libraryView.hidden = true;
+  els.wordsView.hidden = true;
   els.detailView.hidden = false;
   document.body.classList.add("is-detail");
   window.scrollTo(0, 0);
@@ -896,6 +1011,8 @@ function renderWordDetail(item) {
   ].filter(Boolean).join("");
 
   const typeLabel = TYPE_LABEL[item.type];
+  const ctx = state.wordCtx || {};
+  const saved = isVocabSaved(item.term, ctx.video, ctx.seg);
   els.wordDetail.innerHTML = `
     <div class="word-head">
       <div class="word-head-top">
@@ -904,14 +1021,27 @@ function renderWordDetail(item) {
       </div>
       <p class="word-ko">${escapeHtml(item.ko)}</p>
     </div>
-    ${body ? `<div class="word-fields">${body}</div>` : `<p class="word-empty">자세한 해설은 아직 준비 중이에요.</p>`}`;
+    ${body ? `<div class="word-fields">${body}</div>` : `<p class="word-empty">자세한 해설은 아직 준비 중이에요.</p>`}
+    <button type="button" class="word-save ${saved ? "is-saved" : ""}" id="wordSaveBtn">
+      ${saved ? "★ 단어장에 저장됨" : "☆ 단어장에 저장"}
+    </button>`;
 }
 
-// Open the word-detail sheet for a glossary entry. Re-renders if it's already
-// open (tapping a different chip), so switching words doesn't toggle it shut.
-function openWordSheet(item) {
+// The label of the currently-open video (its short tag), used as the source
+// label when saving a word to the 단어장 from the player.
+function currentVideoLabel() {
+  const v = videos.find((x) => x.id === state.videoId);
+  return v ? (v.tag || v.title || "") : state.title;
+}
+
+// Open the word-detail sheet for a glossary entry. `ctx` ({ video, seg, label })
+// records where the word came from so it can be saved to / removed from the 단어장;
+// it defaults to the current player segment. Re-renders if already open (tapping a
+// different chip), so switching words doesn't toggle the sheet shut.
+function openWordSheet(item, ctx) {
   if (!item) return;
   state.wordItem = item;
+  state.wordCtx = ctx || { video: state.videoId, seg: state.current, label: currentVideoLabel() };
   renderWordDetail(item);
   if (state.sheet !== "word") openSheet("word");
 }
@@ -1243,6 +1373,30 @@ els.glossList.addEventListener("click", (event) => {
   if (!chip) return;
   const items = state.segments[state.current]?.glossary || [];
   openWordSheet(items[Number(chip.dataset.gloss)]);
+});
+
+// Save / unsave the open word to the 단어장 (button lives inside the word sheet).
+els.wordDetail.addEventListener("click", (event) => {
+  if (!event.target.closest(".word-save")) return;
+  const ctx = state.wordCtx || {};
+  const saved = toggleVocab(state.wordItem, ctx.video, ctx.seg, ctx.label);
+  renderWordDetail(state.wordItem); // refresh the button's saved state
+  if (state.view === "words") renderWords(); // keep the list in sync if open behind
+  showToast(saved ? "단어장에 저장했어요" : "단어장에서 뺐어요");
+});
+
+// 단어장 list: tap a row to reopen its detail; × removes it.
+els.wordsFeed.addEventListener("click", (event) => {
+  const del = event.target.closest(".word-del");
+  if (del) {
+    removeVocab(del.dataset.del);
+    renderWords();
+    return;
+  }
+  const main = event.target.closest(".word-row-main");
+  if (!main) return;
+  const w = loadVocab().words.find((x) => x.id === main.dataset.id);
+  if (w) openWordSheet(w, { video: w.video, seg: w.seg, label: w.videoLabel });
 });
 
 els.segmentList.addEventListener("click", (event) => {
