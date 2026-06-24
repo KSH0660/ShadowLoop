@@ -48,8 +48,33 @@
         <h1 class="home-heading">단어장</h1>
         <span class="home-count" id="wordsCount"></span>
       </header>
+      <nav class="home-filters" id="wordsFilters" aria-label="단어 종류 필터"></nav>
       <div class="home-feed" id="wordsFeed"></div>
     </main>
+
+    <!-- REVIEW — 플래시카드 복습 (full-screen sub-mode of 단어장) ----------- -->
+    <div class="review" id="reviewView" hidden aria-label="단어 복습">
+      <header class="review-top">
+        <button type="button" class="iconbtn" id="reviewClose" aria-label="복습 닫기">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+        </button>
+        <span class="review-progress" id="reviewProgress">0 / 0</span>
+        <button type="button" class="iconbtn" id="reviewShuffle" aria-label="섞기">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 4h4v4M20 4l-7 7M4 20l6-6M16 20h4v-4M4 4l16 16" /></svg>
+        </button>
+      </header>
+      <button type="button" class="flashcard" id="flashcard" aria-label="카드 뒤집기">
+        <div class="flash-inner" id="flashInner">
+          <div class="flash-face flash-front" id="flashFront"></div>
+          <div class="flash-face flash-back" id="flashBack"></div>
+        </div>
+      </button>
+      <p class="review-hint" id="reviewHint">카드를 탭하면 뜻이 보여요</p>
+      <div class="review-nav">
+        <button type="button" class="review-btn" id="reviewPrev">이전</button>
+        <button type="button" class="review-btn review-next" id="reviewNext">다음</button>
+      </div>
+    </div>
 
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>

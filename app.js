@@ -59,6 +59,18 @@ const els = {
   libraryFeed: document.querySelector("#libraryFeed"),
   wordsFeed: document.querySelector("#wordsFeed"),
   wordsCount: document.querySelector("#wordsCount"),
+  wordsFilters: document.querySelector("#wordsFilters"),
+  reviewView: document.querySelector("#reviewView"),
+  reviewProgress: document.querySelector("#reviewProgress"),
+  reviewShuffle: document.querySelector("#reviewShuffle"),
+  reviewClose: document.querySelector("#reviewClose"),
+  reviewPrev: document.querySelector("#reviewPrev"),
+  reviewNext: document.querySelector("#reviewNext"),
+  reviewHint: document.querySelector("#reviewHint"),
+  flashcard: document.querySelector("#flashcard"),
+  flashInner: document.querySelector("#flashInner"),
+  flashFront: document.querySelector("#flashFront"),
+  flashBack: document.querySelector("#flashBack"),
   homeFilters: document.querySelector("#homeFilters"),
   homeCount: document.querySelector("#homeCount"),
   tabHome: document.querySelector("#tabHome"),
@@ -657,14 +669,104 @@ function wordRowHtml(w) {
     </div>`;
 }
 
-function renderWords() {
+// 난이도(=type) filter for the 단어장 list + review set. "all" or a gloss type.
+let wordsFilter = "all";
+const WORDS_FILTERS = [["all", "전체"], ["idiom", "관용구"], ["phrase", "표현"], ["word", "단어"]];
+
+// The saved words after the active type filter, most-recent-first (review order
+// shuffles a copy of this).
+function filteredVocab() {
   const words = loadVocab().words.slice().sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0));
-  els.wordsCount.textContent = words.length ? `${words.length}개 단어` : "";
-  if (!words.length) {
+  return wordsFilter === "all" ? words : words.filter((w) => w.type === wordsFilter);
+}
+
+function renderWords() {
+  const all = loadVocab().words;
+  els.wordsCount.textContent = all.length ? `${all.length}개 단어` : "";
+  if (!all.length) {
+    wordsFilter = "all";
+    els.wordsFilters.innerHTML = "";
     els.wordsFeed.innerHTML = `<p class="home-empty">아직 저장한 단어가 없어요.<br>영상 자막 밑의 단어 칩을 눌러 ‘단어장에 저장’해 보세요.</p>`;
     return;
   }
-  els.wordsFeed.innerHTML = `<div class="word-rows">${words.map(wordRowHtml).join("")}</div>`;
+
+  const counts = { all: all.length, word: 0, phrase: 0, idiom: 0 };
+  all.forEach((w) => { if (counts[w.type] != null) counts[w.type] += 1; });
+  // A filter whose type no longer has any words falls back to 전체.
+  if (wordsFilter !== "all" && !counts[wordsFilter]) wordsFilter = "all";
+
+  els.wordsFilters.innerHTML = WORDS_FILTERS
+    .filter(([k]) => k === "all" || counts[k] > 0)
+    .map(([k, label]) => `
+      <button type="button" class="chip${k === wordsFilter ? " is-active" : ""}" data-wfilter="${k}">
+        ${label}<span class="chip-count">${counts[k]}</span>
+      </button>`)
+    .join("");
+
+  const list = filteredVocab();
+  const cta = list.length
+    ? `<button type="button" class="review-cta" id="reviewStart">🎴 플래시카드 복습 · ${list.length}개</button>`
+    : "";
+  els.wordsFeed.innerHTML = cta +
+    (list.length ? `<div class="word-rows">${list.map(wordRowHtml).join("")}</div>` : "");
+}
+
+// --- Flashcard review (복습) ------------------------------------------------
+// A full-screen sub-mode of the 단어장: flip through the (filtered) saved words as
+// flashcards. Front = term; back = 뜻 + 쉬운 뜻 + 예문. Shuffled each start.
+const review = { cards: [], idx: 0, flipped: false };
+
+function shuffled(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startReview(words) {
+  if (!words.length) return;
+  review.cards = shuffled(words);
+  review.idx = 0;
+  renderCard();
+  els.reviewView.hidden = false;
+  document.body.classList.add("is-review");
+}
+
+function renderCard() {
+  const w = review.cards[review.idx];
+  if (!w) return;
+  els.reviewProgress.textContent = `${review.idx + 1} / ${review.cards.length}`;
+  const type = TYPE_LABEL[w.type];
+  els.flashFront.innerHTML = `
+    <span class="flash-term">${escapeHtml(w.term)}</span>
+    ${type ? `<span class="word-type">${type}</span>` : ""}`;
+  const back = [`<p class="flash-ko">${escapeHtml(w.ko)}</p>`];
+  if (w.easy) back.push(`<p class="flash-easy">${escapeHtml(w.easy)}</p>`);
+  if (w.ex) {
+    back.push(`<p class="flash-ex">${escapeHtml(w.ex)}${w.exKo ? `<br><span class="flash-exko">${escapeHtml(w.exKo)}</span>` : ""}</p>`);
+  }
+  els.flashBack.innerHTML = back.join("");
+  setFlip(false);
+}
+
+function setFlip(on) {
+  review.flipped = on;
+  els.flashInner.classList.toggle("is-flipped", on);
+  els.reviewHint.textContent = on ? "다시 탭하면 단어로" : "카드를 탭하면 뜻이 보여요";
+}
+
+function reviewStep(delta) {
+  const n = review.cards.length;
+  if (!n) return;
+  review.idx = (review.idx + delta + n) % n;
+  renderCard();
+}
+
+function closeReview() {
+  els.reviewView.hidden = true;
+  document.body.classList.remove("is-review");
 }
 
 // --- Routing ---------------------------------------------------------------
@@ -673,6 +775,7 @@ function renderWords() {
 // #/words       → 단어장 (saved vocabulary)
 // #/v/<videoId> → that video's detail page
 function route() {
+  closeReview(); // leaving / re-entering a view always exits the flashcard overlay
   const hash = location.hash || "#/";
   const match = hash.match(/^#\/v\/(.+)$/);
   if (match) {
@@ -1385,8 +1488,12 @@ els.wordDetail.addEventListener("click", (event) => {
   showToast(saved ? "단어장에 저장했어요" : "단어장에서 뺐어요");
 });
 
-// 단어장 list: tap a row to reopen its detail; × removes it.
+// 단어장 list: 복습 시작 / tap a row to reopen its detail / × removes it.
 els.wordsFeed.addEventListener("click", (event) => {
+  if (event.target.closest("#reviewStart")) {
+    startReview(filteredVocab());
+    return;
+  }
   const del = event.target.closest(".word-del");
   if (del) {
     removeVocab(del.dataset.del);
@@ -1397,6 +1504,26 @@ els.wordsFeed.addEventListener("click", (event) => {
   if (!main) return;
   const w = loadVocab().words.find((x) => x.id === main.dataset.id);
   if (w) openWordSheet(w, { video: w.video, seg: w.seg, label: w.videoLabel });
+});
+
+// 난이도(type) filter chips.
+els.wordsFilters.addEventListener("click", (event) => {
+  const chip = event.target.closest("[data-wfilter]");
+  if (!chip || chip.dataset.wfilter === wordsFilter) return;
+  wordsFilter = chip.dataset.wfilter;
+  renderWords();
+});
+
+// Flashcard review controls.
+els.flashcard.addEventListener("click", () => setFlip(!review.flipped));
+els.reviewNext.addEventListener("click", () => reviewStep(1));
+els.reviewPrev.addEventListener("click", () => reviewStep(-1));
+els.reviewClose.addEventListener("click", closeReview);
+els.reviewShuffle.addEventListener("click", () => {
+  if (!review.cards.length) return;
+  review.cards = shuffled(review.cards);
+  review.idx = 0;
+  renderCard();
 });
 
 els.segmentList.addEventListener("click", (event) => {
@@ -1455,6 +1582,16 @@ els.speedButtons.forEach((button) => {
 document.addEventListener("keydown", (event) => {
   if (event.target instanceof HTMLInputElement) return;
   const key = event.key.toLowerCase();
+
+  // Flashcard review overlay captures keys while open.
+  if (!els.reviewView.hidden) {
+    if (key === "escape") closeReview();
+    else if (key === "arrowright") reviewStep(1);
+    else if (key === "arrowleft") reviewStep(-1);
+    else if (key === " " || key === "enter") { event.preventDefault(); setFlip(!review.flipped); }
+    return;
+  }
+
   if (key === "escape") {
     if (state.sheet) closeSheet();
     else if (state.view !== "home") goHome();
