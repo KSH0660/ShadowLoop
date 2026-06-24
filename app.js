@@ -248,6 +248,88 @@ function removeBookmark(videoId, seg) {
   saveBookmarks(all);
 }
 
+// --- Study activity (daily learning heatmap) -------------------------------
+// A learning-streak record: per local calendar day, how many segments the user
+// finished revealing. Stored in localStorage (per device — no backend), so the
+// 보관함 heatmap can show which days were active. Keyed by *local* YYYY-MM-DD
+// (NOT UTC) so a late-night session counts toward the right wall-clock day. The
+// shape is deliberately self-describing (plain date → count) to make a future
+// server migration trivial, mirroring the bookmarks design.
+const ACTIVITY_KEY = "shadowloop:v1:activity";
+
+function loadActivity() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(ACTIVITY_KEY));
+    return raw && typeof raw === "object" && raw.days ? raw : { days: {} };
+  } catch {
+    return { days: {} };
+  }
+}
+
+// Local-calendar day key, e.g. "2026-06-24". Local (not UTC) so the day boundary
+// lines up with the user's clock rather than jumping at UTC midnight.
+function dayKey(date = new Date()) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
+// Count one completed segment toward today's activity. Called when a segment is
+// fully revealed in tick(). Only ever increases the day's tally.
+function recordStudy() {
+  try {
+    const data = loadActivity();
+    const k = dayKey();
+    data.days[k] = (data.days[k] || 0) + 1;
+    localStorage.setItem(ACTIVITY_KEY, JSON.stringify(data));
+  } catch {
+    // localStorage unavailable (e.g. private mode) — the heatmap just won't fill.
+  }
+}
+
+// Map a day's completed-segment count to a heatmap intensity level (0–3).
+function activityLevel(count) {
+  if (count <= 0) return 0;
+  if (count >= 6) return 3;
+  if (count >= 3) return 2;
+  return 1;
+}
+
+// Derive the heatmap day map plus the three headline metrics from the stored
+// counts. Everything here is computed on read (never persisted) so the metrics
+// can't drift out of sync with the raw day tallies.
+function activityStats() {
+  const days = loadActivity().days;
+
+  // Total distinct days with any activity.
+  const total = Object.values(days).filter((n) => n > 0).length;
+
+  // Current streak: walk backward from today while each day has activity. A
+  // today that hasn't been studied *yet* doesn't break a streak that ran
+  // through yesterday, so start the walk from yesterday in that case.
+  let streak = 0;
+  const cursor = new Date();
+  if (!(days[dayKey(cursor)] > 0)) cursor.setDate(cursor.getDate() - 1);
+  while (days[dayKey(cursor)] > 0) {
+    streak += 1;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+
+  // This week (Sunday-start, matching the heatmap columns): active days so far.
+  const weekStart = new Date();
+  weekStart.setHours(0, 0, 0, 0);
+  weekStart.setDate(weekStart.getDate() - weekStart.getDay());
+  let thisWeek = 0;
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(weekStart);
+    d.setDate(weekStart.getDate() + i);
+    if (days[dayKey(d)] > 0) thisWeek += 1;
+  }
+
+  return { days, total, streak, thisWeek };
+}
+
 // HOME — a browse grid of thumbnail cards, grouped into labelled sections by
 // `category` (강연 vs 예능 등). Groups appear in first-seen order; videos keep
 // their order within a group. Each card carries its index into `videos`.
@@ -390,12 +472,77 @@ function renderHome() {
   els.homeFeed.innerHTML = sections.join("");
 }
 
+// The three headline metrics (연속 / 총 / 이번 주) shown above the heatmap.
+function statsHtml(stats) {
+  return `
+    <div class="study-stats">
+      <div class="stat">
+        <span class="stat-num">🔥 ${stats.streak}</span>
+        <span class="stat-label">연속 학습일</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">${stats.total}</span>
+        <span class="stat-label">총 학습일</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">${stats.thisWeek}<span class="stat-sub">/7</span></span>
+        <span class="stat-label">이번 주</span>
+      </div>
+    </div>`;
+}
+
+// A GitHub-style contribution grid trimmed to the last 12 weeks so it fits a
+// phone screen without horizontal scrolling. Built column-by-column (one column
+// per week, 7 day-rows Sun→Sat); the CSS lays it out in column-major order. Days
+// after today render as empty "future" cells to keep the current week's shape.
+function heatmapHtml(days) {
+  const WEEKS = 12;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  // Sunday of 11 weeks ago → the grid spans 12 weeks ending with this week.
+  const start = new Date(today);
+  start.setDate(today.getDate() - today.getDay() - (WEEKS - 1) * 7);
+
+  const cells = [];
+  for (let w = 0; w < WEEKS; w++) {
+    for (let d = 0; d < 7; d++) {
+      const date = new Date(start);
+      date.setDate(start.getDate() + w * 7 + d);
+      if (date > today) {
+        cells.push(`<span class="hm-cell" data-lvl="f"></span>`);
+        continue;
+      }
+      const key = dayKey(date);
+      const count = days[key] || 0;
+      const label = `${key} · ${count}구간 완료`;
+      cells.push(
+        `<span class="hm-cell" data-lvl="${activityLevel(count)}" title="${label}" aria-label="${label}"></span>`
+      );
+    }
+  }
+  return `<div class="heatmap" role="img" aria-label="최근 12주 학습 기록">${cells.join("")}</div>`;
+}
+
 // LIBRARY (보관함) — the learner's personal collection, kept off the home so the
-// home stays discovery-focused. Two sections: saved expressions (저장한 표현) and
-// the full in-progress list (이어보기). Both reuse the home's row/card markup and
-// click handling. (Watch history / study stats can slot in here later.)
+// home stays discovery-focused. Sections, top to bottom: the study-activity
+// heatmap (학습 기록), saved expressions (저장한 표현), and the full in-progress
+// list (이어보기). The expression/resume blocks reuse the home's row/card markup
+// and click handling.
 function renderLibrary() {
   const sections = [];
+
+  // Study heatmap — always first, even with no data: it doubles as the library's
+  // empty-state hero and the app's main day-to-day return motivator.
+  const stats = activityStats();
+  sections.push(`
+    <section class="feed-group study-group">
+      <h2 class="feed-group-title">학습 기록</h2>
+      ${statsHtml(stats)}
+      ${heatmapHtml(stats.days)}
+      ${stats.total === 0
+        ? `<p class="study-hint">아직 학습 기록이 없어요. 오늘 첫 구간을 완료해 잔디를 심어보세요 🌱</p>`
+        : ""}
+    </section>`);
 
   const saved = savedExpressions();
   if (saved.length) {
@@ -416,9 +563,9 @@ function renderLibrary() {
       </section>`);
   }
 
-  els.libraryFeed.innerHTML = sections.length
-    ? sections.join("")
-    : `<p class="home-empty">아직 저장한 표현이나 학습 중인 영상이 없어요.<br />홈에서 영상을 골라 학습을 시작하고, 마음에 드는 문장은 ‘저장’해 보세요.</p>`;
+  // The study section is always present, so the feed never renders empty; its
+  // own 학습 기록 hint covers the brand-new-user case.
+  els.libraryFeed.innerHTML = sections.join("");
 }
 
 // --- Routing ---------------------------------------------------------------
@@ -806,7 +953,10 @@ function tick() {
 
     if (status === YT.PlayerState.PLAYING && now >= segment.end - 0.15) {
       if (state.loops + 1 >= state.target) {
-        // Fully revealed — move on (or stop at the last segment).
+        // Fully revealed — one segment finished. Count it toward today's study
+        // record (the PLAYING guard + loops reset on advance keep it to once per
+        // completion), then move on (or stop at the last segment).
+        recordStudy();
         if (state.current === state.segments.length - 1) player.pauseVideo();
         else selectSegment(state.current + 1, true);
       } else {
