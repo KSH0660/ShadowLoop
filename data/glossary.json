@@ -1211,5 +1211,1414 @@
     "21": [
       { "term": "sell some crack", "ko": "마약(크랙 코카인)을 팔다", "type": "phrase" }
     ]
+  },
+  "tKEh0zn9OM0": {
+    "0": [
+      {
+        "term": "in mourning",
+        "ko": "상중인, 애도 중인",
+        "type": "phrase",
+        "easy": "누가 죽어서 슬퍼하며 지내는 상태",
+        "nuance": "그냥 슬픈 게 아니라 격식 있게 '상을 치르는' 느낌",
+        "when": "가족이나 지인이 세상을 떠났을 때",
+        "ex": "She is still in mourning for her father.",
+        "exKo": "그녀는 아직 아버지를 애도하고 있어요.",
+        "tip": "mourn(슬퍼하다)의 명사형 mourning을 in과 함께 써요."
+      }
+    ],
+    "2": [
+      {
+        "term": "a wanted woman",
+        "ko": "지명수배된 여자",
+        "type": "phrase",
+        "easy": "경찰이 찾고 있는, 수배 중인 사람",
+        "nuance": "범죄로 쫓기는 상황을 농담조로 부풀린 느낌",
+        "when": "수배·체포 대상일 때",
+        "ex": "He's a wanted man in three states.",
+        "exKo": "그는 세 개 주에서 수배 중인 남자예요.",
+        "tip": "여기서 wanted는 '원하는'이 아니라 '수배된'이에요."
+      }
+    ],
+    "3": [
+      {
+        "term": "house of prostitution",
+        "ko": "매춘업소",
+        "type": "phrase"
+      },
+      {
+        "term": "on the lease",
+        "ko": "임대 계약서에 이름이 올라 있는",
+        "type": "phrase",
+        "easy": "집 계약서에 세입자로 이름이 적혀 있는 상태",
+        "when": "월세·전세 계약 이야기를 할 때",
+        "ex": "Both our names are on the lease.",
+        "exKo": "우리 둘 다 계약서에 이름이 올라 있어요."
+      }
+    ],
+    "5": [
+      {
+        "term": "burnt out",
+        "ko": "번아웃된, 진이 다 빠진",
+        "type": "idiom",
+        "easy": "일을 너무 해서 완전히 지쳐버린 상태",
+        "nuance": "그냥 피곤이 아니라 연료가 다 타버린 듯 방전된 느낌",
+        "when": "과로로 의욕·체력이 바닥났을 때",
+        "ex": "I'm totally burnt out after this project.",
+        "exKo": "이 프로젝트 끝나고 완전히 방전됐어요.",
+        "tip": "burn out(타서 꺼지다)에서 온 표현이에요."
+      },
+      {
+        "term": "in desperate need of",
+        "ko": "~가 절실히 필요한",
+        "type": "phrase",
+        "easy": "당장 너무너무 필요한",
+        "when": "뭔가가 급하게 필요할 때",
+        "ex": "I'm in desperate need of a vacation.",
+        "exKo": "휴가가 절실히 필요해요."
+      }
+    ],
+    "6": [
+      {
+        "term": "no brainer",
+        "ko": "고민할 것도 없는 일",
+        "type": "idiom",
+        "easy": "생각할 필요도 없이 당연한 선택",
+        "nuance": "너무 쉬워서 머리(brain)를 안 써도 되는 느낌",
+        "when": "결정이 너무 뻔할 때",
+        "ex": "Taking the free upgrade was a no brainer.",
+        "exKo": "공짜 업그레이드를 받는 건 고민할 것도 없었죠.",
+        "tip": "주로 'It's a no brainer'처럼 명사로 써요."
+      },
+      {
+        "term": "brothel",
+        "ko": "매춘업소",
+        "type": "word"
+      }
+    ],
+    "8": [
+      {
+        "term": "in no time",
+        "ko": "금방, 순식간에",
+        "type": "idiom",
+        "easy": "아주 빠르게, 곧",
+        "when": "일이 금세 끝날 거라고 안심시킬 때",
+        "ex": "We'll be there in no time.",
+        "exKo": "금방 도착할 거예요.",
+        "tip": "'시간이 없다'가 아니라 '눈 깜짝할 새'라는 뜻이에요."
+      },
+      {
+        "term": "county jail",
+        "ko": "지역(카운티) 구치소",
+        "type": "phrase"
+      }
+    ],
+    "10": [
+      {
+        "term": "petty theft",
+        "ko": "경범죄 절도, 좀도둑질",
+        "type": "phrase",
+        "easy": "큰돈이 아닌 작은 물건을 훔치는 가벼운 범죄",
+        "when": "법정·범죄 이야기를 할 때",
+        "ex": "She was charged with petty theft.",
+        "exKo": "그녀는 경범죄 절도로 기소됐어요.",
+        "tip": "petty는 '사소한' — petty cash(소액 현금)처럼 써요."
+      }
+    ],
+    "15": [
+      {
+        "term": "enter a plea",
+        "ko": "(법정에서) 답변하다",
+        "type": "phrase",
+        "easy": "법정에서 유죄인지 무죄인지 입장을 밝히다",
+        "when": "재판 절차에서",
+        "ex": "The defendant entered a plea of not guilty.",
+        "exKo": "피고인은 무죄를 주장했어요."
+      },
+      {
+        "term": "take up the court's time",
+        "ko": "법정의 시간을 잡아먹다",
+        "type": "phrase"
+      }
+    ],
+    "17": [
+      {
+        "term": "boils down to",
+        "ko": "결국 ~로 귀결되다, 핵심은 ~다",
+        "type": "idiom",
+        "easy": "이것저것 빼면 결국 핵심은 ~이다",
+        "nuance": "복잡한 걸 졸여서 본질만 남기는 느낌",
+        "when": "긴 이야기의 요점을 말할 때",
+        "ex": "It all boils down to money.",
+        "exKo": "결국 다 돈 문제예요.",
+        "tip": "boil down(졸이다)에서 온 비유예요."
+      }
+    ],
+    "19": [
+      {
+        "term": "case dismissed",
+        "ko": "(소송) 기각",
+        "type": "phrase",
+        "easy": "판사가 재판을 더 안 하고 사건을 끝내는 것",
+        "when": "법정 판결 장면에서",
+        "ex": "The judge said, 'Case dismissed.'",
+        "exKo": "판사가 '기각'이라고 했어요."
+      }
+    ],
+    "23": [
+      {
+        "term": "rusty",
+        "ko": "(실력이) 녹슨, 감이 떨어진",
+        "type": "word",
+        "easy": "오랫동안 안 해서 실력이 무뎌진",
+        "nuance": "쇠가 녹슬듯 실력이 둔해진 느낌",
+        "when": "한동안 안 하던 걸 다시 할 때",
+        "ex": "My Spanish is a bit rusty.",
+        "exKo": "제 스페인어가 좀 녹슬었어요.",
+        "tip": "rust(녹)에서 온 비유예요."
+      }
+    ],
+    "26": [
+      {
+        "term": "fateful",
+        "ko": "운명을 가른, 결정적인",
+        "type": "word",
+        "easy": "나중에 큰일로 이어진 중요한 (그날·그 순간)",
+        "when": "중대한 사건이 일어난 때를 가리킬 때",
+        "ex": "It was that fateful afternoon when everything changed.",
+        "exKo": "모든 게 바뀐 건 바로 그 운명적인 오후였어요.",
+        "tip": "fate(운명)에서 온 형용사예요."
+      }
+    ],
+    "29": [
+      {
+        "term": "how do you plead",
+        "ko": "어떻게 답변하시겠습니까 (유·무죄)",
+        "type": "phrase"
+      },
+      {
+        "term": "conspiring to promote prostitution",
+        "ko": "매춘 알선 공모(죄)",
+        "type": "phrase"
+      }
+    ],
+    "32": [
+      {
+        "term": "subletting",
+        "ko": "전대, (빌린 집을) 재임대하기",
+        "type": "word",
+        "easy": "내가 빌린 집을 다시 다른 사람에게 빌려주는 것",
+        "when": "임대·계약 이야기를 할 때",
+        "ex": "She's subletting her apartment for the summer.",
+        "exKo": "그녀는 여름 동안 자기 아파트를 전대하고 있어요."
+      },
+      {
+        "term": "canceled checks",
+        "ko": "결제 처리된 수표 (지급 증빙)",
+        "type": "phrase"
+      }
+    ],
+    "34": [
+      {
+        "term": "court adjourned",
+        "ko": "폐정 (재판 종료/휴정)",
+        "type": "phrase",
+        "easy": "판사가 재판을 끝내거나 잠시 멈추는 것",
+        "when": "재판이 끝날 때",
+        "ex": "Court is adjourned until tomorrow.",
+        "exKo": "재판은 내일까지 휴정합니다."
+      }
+    ]
+  },
+  "vNszDZDi6Xg": {
+    "4": [
+      {
+        "term": "we're all in this together",
+        "ko": "우리 모두 한배를 탔다",
+        "type": "idiom",
+        "easy": "다 같이 겪는 일이니 함께 힘쓰자",
+        "nuance": "혼자가 아니라 공동 운명이라는 연대의 느낌",
+        "when": "다 같이 노력하자고 다독일 때",
+        "ex": "Don't worry, we're all in this together.",
+        "exKo": "걱정 마, 우리 다 한배를 탔으니까.",
+        "tip": "재난·환경 같은 공동 문제를 말할 때 자주 써요."
+      }
+    ],
+    "5": [
+      {
+        "term": "a nice little gesture",
+        "ko": "좋은 (작은) 성의 표시",
+        "type": "phrase",
+        "easy": "마음을 보여주는 작은 행동",
+        "nuance": "고맙긴 한데 '귀엽게 봐주는' 약간 깔보는 뉘앙스",
+        "when": "누군가의 작은 선의를 평할 때",
+        "ex": "Bringing flowers was a nice gesture.",
+        "exKo": "꽃을 가져온 건 좋은 성의 표시였어요."
+      },
+      {
+        "term": "runs on reclaimed cooking oil",
+        "ko": "폐식용유로 굴러가다",
+        "type": "phrase"
+      }
+    ],
+    "8": [
+      {
+        "term": "solar powered",
+        "ko": "태양광으로 작동하는",
+        "type": "phrase"
+      },
+      {
+        "term": "sell energy back to the grid",
+        "ko": "(남는) 전기를 전력망에 되팔다",
+        "type": "phrase",
+        "easy": "집에서 만든 전기를 전기 회사에 다시 파는 것",
+        "when": "태양광·재생에너지 이야기를 할 때",
+        "ex": "Our solar panels sell energy back to the grid.",
+        "exKo": "우리 태양광 패널은 전기를 전력망에 되팔아요."
+      }
+    ],
+    "9": [
+      {
+        "term": "green",
+        "ko": "환경친화적인",
+        "type": "word",
+        "easy": "환경을 생각하는, 친환경의",
+        "nuance": "색깔이 아니라 '에코·친환경'이라는 비유적 의미",
+        "when": "환경 보호를 이야기할 때",
+        "ex": "Our company is trying to go green.",
+        "exKo": "우리 회사는 친환경으로 바꾸려 하고 있어요.",
+        "tip": "go green(친환경으로 전환하다)으로도 자주 써요."
+      }
+    ],
+    "10": [
+      {
+        "term": "drought tolerant",
+        "ko": "가뭄에 강한",
+        "type": "phrase"
+      },
+      {
+        "term": "succulents",
+        "ko": "다육식물",
+        "type": "word"
+      },
+      {
+        "term": "litter box",
+        "ko": "(고양이) 배변 상자",
+        "type": "phrase"
+      }
+    ],
+    "11": [
+      {
+        "term": "disposable diapers",
+        "ko": "일회용 기저귀",
+        "type": "phrase"
+      }
+    ],
+    "16": [
+      {
+        "term": "had the nerve to",
+        "ko": "뻔뻔하게도 ~하다",
+        "type": "idiom",
+        "easy": "염치없이 대담하게 무언가를 하다",
+        "nuance": "어이없고 괘씸하다는 화난 뉘앙스",
+        "when": "상대의 뻔뻔한 행동에 발끈할 때",
+        "ex": "He had the nerve to ask for a refund.",
+        "exKo": "걔가 뻔뻔하게 환불을 요구하더라고요.",
+        "tip": "nerve가 여기선 '신경'이 아니라 '뻔뻔함, 배짱'이에요."
+      }
+    ],
+    "22": [
+      {
+        "term": "wave that trophy in his face",
+        "ko": "트로피를 얼굴에 들이밀며 자랑하다",
+        "type": "idiom",
+        "easy": "이긴 걸 보란 듯이 코앞에서 뽐내다",
+        "when": "상대를 약 올리듯 자랑할 때",
+        "ex": "She waved her award in his face.",
+        "exKo": "그녀는 상을 그의 얼굴에 들이밀며 자랑했어요.",
+        "tip": "wave ... in someone's face = 코앞에서 흔들며 과시하다."
+      }
+    ],
+    "23": [
+      {
+        "term": "all over me about",
+        "ko": "~에 대해 잔소리를 퍼붓는",
+        "type": "idiom",
+        "easy": "어떤 일로 계속 지적하고 들들 볶는",
+        "when": "누가 한 가지로 계속 따질 때",
+        "ex": "My mom was all over me about my grades.",
+        "exKo": "엄마가 성적 가지고 계속 잔소리했어요."
+      },
+      {
+        "term": "endangered",
+        "ko": "멸종 위기의",
+        "type": "word"
+      }
+    ],
+    "25": [
+      {
+        "term": "outgreen",
+        "ko": "더 친환경적인 척 이기다",
+        "type": "phrase",
+        "easy": "누가 더 환경을 위하나 경쟁해서 앞서다",
+        "nuance": "green(친환경)에 out-(능가하다)을 붙여 만든 말장난",
+        "when": "이 장면처럼 친환경 경쟁을 비꼴 때",
+        "tip": "outdo(능가하다)처럼 out-을 붙여 즉석에서 만든 표현이에요."
+      }
+    ],
+    "33": [
+      {
+        "term": "biodiesel",
+        "ko": "바이오디젤 (식물성 기름 연료)",
+        "type": "word"
+      }
+    ],
+    "37": [
+      {
+        "term": "in retrospect",
+        "ko": "돌이켜 보면",
+        "type": "idiom",
+        "easy": "지금 와서 생각해 보니",
+        "nuance": "그때는 몰랐는데 이제 보니 ~했다는 후회·반성 느낌",
+        "when": "지난 일을 되짚어 평가할 때",
+        "ex": "In retrospect, I should have studied harder.",
+        "exKo": "돌이켜 보면 더 열심히 공부했어야 했어요."
+      }
+    ],
+    "38": [
+      {
+        "term": "come on too strong",
+        "ko": "너무 들이대다, 과하게 굴다",
+        "type": "idiom",
+        "easy": "처음부터 너무 세게 나가서 부담을 주다",
+        "nuance": "열의가 지나쳐 상대가 질리게 만드는 느낌",
+        "when": "소개·연애·영업에서 과하게 적극적일 때",
+        "ex": "Sorry if I came on too strong.",
+        "exKo": "제가 너무 들이댔다면 미안해요.",
+        "tip": "사람 사이 첫인상에서 부담을 줄 때 자주 써요."
+      }
+    ],
+    "39": [
+      {
+        "term": "want the credit without doing the work",
+        "ko": "노력 없이 공만 챙기려 하다",
+        "type": "phrase",
+        "easy": "고생은 안 하고 칭찬·인정만 받으려 하다",
+        "when": "남의 수고에 무임승차할 때",
+        "ex": "He wants the credit without doing the work.",
+        "exKo": "걔는 일은 안 하고 공만 챙기려 해요.",
+        "tip": "credit이 여기선 '신용'이 아니라 '공로, 인정'이에요."
+      }
+    ],
+    "40": [
+      {
+        "term": "alienating",
+        "ko": "사람을 멀어지게 하는",
+        "type": "word",
+        "easy": "주변 사람들이 거리를 두게 만드는",
+        "when": "어떤 태도가 남들을 떠나게 할 때",
+        "ex": "His arrogance is alienating his friends.",
+        "exKo": "그의 거만함이 친구들을 멀어지게 하고 있어요.",
+        "tip": "alien(이방인)에서 온 말로, '남처럼 느끼게 하다'예요."
+      }
+    ],
+    "42": [
+      {
+        "term": "salmonella",
+        "ko": "살모넬라 (식중독균)",
+        "type": "word"
+      }
+    ],
+    "45": [
+      {
+        "term": "sustainable materials",
+        "ko": "지속가능한(친환경) 재료",
+        "type": "phrase"
+      }
+    ]
+  },
+  "Ajgwh0L3haY": {
+    "1": [
+      {
+        "term": "he's hurting",
+        "ko": "(마음이) 많이 힘들어한다",
+        "type": "phrase",
+        "easy": "속으로 크게 괴로워하고 있다",
+        "nuance": "몸이 아니라 마음이 아프다는 뜻",
+        "when": "누가 정신적으로 힘들 때",
+        "ex": "Be gentle with him, he's hurting right now.",
+        "exKo": "지금 걔 많이 힘들어하니 살살 대해줘.",
+        "tip": "여기서 hurt는 '다치다'가 아니라 '마음이 아프다'예요."
+      }
+    ],
+    "2": [
+      {
+        "term": "cope with loss",
+        "ko": "상실을 견디다, 극복하다",
+        "type": "phrase",
+        "easy": "소중한 걸 잃은 슬픔을 버텨내다",
+        "when": "이별·사별 등 힘든 일을 이겨낼 때",
+        "ex": "Therapy helped her cope with the loss.",
+        "exKo": "상담이 그녀가 상실을 견디는 데 도움이 됐어요.",
+        "tip": "cope with = (어려움을) 감당하다, 대처하다."
+      }
+    ],
+    "5": [
+      {
+        "term": "in touch with people's feelings",
+        "ko": "남의 감정에 민감한",
+        "type": "phrase"
+      },
+      {
+        "term": "grow a pair",
+        "ko": "(겁먹지 말고) 사내답게 굴어라",
+        "type": "idiom",
+        "easy": "쫄지 말고 용기·배짱을 내라는 거친 말",
+        "nuance": "다소 거칠고 무례한 표현이라 친한 사이에서만",
+        "when": "겁내는 사람을 놀리듯 다그칠 때",
+        "ex": "Stop whining and grow a pair.",
+        "exKo": "그만 징징대고 좀 사내답게 굴어.",
+        "tip": "속된 표현이니 격식 자리에서는 피하세요."
+      }
+    ],
+    "13": [
+      {
+        "term": "Casanova",
+        "ko": "바람둥이, 카사노바",
+        "type": "word",
+        "easy": "여자에게 인기 많고 잘 꼬시는 남자",
+        "nuance": "실존 인물 이름에서 온 말, 보통 놀리듯 씀",
+        "when": "연애에 능한 남자를 가리킬 때",
+        "ex": "Look at you, Casanova!",
+        "exKo": "이야, 이 카사노바 좀 봐!"
+      }
+    ],
+    "16": [
+      {
+        "term": "have a bit of a situation",
+        "ko": "좀 곤란한 상황이다",
+        "type": "phrase",
+        "easy": "처리하기 까다로운 문제가 생겼다",
+        "nuance": "심각한 걸 일부러 가볍게 돌려 말하는 느낌",
+        "when": "곤란한 일을 조심스레 꺼낼 때",
+        "ex": "We have a bit of a situation here.",
+        "exKo": "여기 좀 곤란한 상황이 생겼어요."
+      }
+    ],
+    "18": [
+      {
+        "term": "hooker",
+        "ko": "매춘부 (속어)",
+        "type": "word"
+      }
+    ],
+    "21": [
+      {
+        "term": "got ripped off",
+        "ko": "바가지 썼다, 등쳐먹혔다",
+        "type": "idiom",
+        "easy": "비싸게 사거나 사기당해 손해 봤다",
+        "nuance": "억울하게 당했다는 분한 느낌",
+        "when": "값을 너무 비싸게 치렀을 때",
+        "ex": "Forty dollars for a coffee? You got ripped off.",
+        "exKo": "커피가 40달러? 너 바가지 썼네.",
+        "tip": "rip off = 바가지 씌우다; rip-off는 명사로 '바가지 상품'."
+      }
+    ],
+    "25": [
+      {
+        "term": "couldn't think straight",
+        "ko": "정신을 차릴 수 없었다",
+        "type": "idiom",
+        "easy": "머리가 복잡해 똑바로 생각이 안 됐다",
+        "when": "당황·피곤으로 판단이 흐려졌을 때",
+        "ex": "I was so tired I couldn't think straight.",
+        "exKo": "너무 피곤해서 정신을 차릴 수가 없었어요.",
+        "tip": "think straight = 또렷이/제대로 생각하다."
+      }
+    ],
+    "26": [
+      {
+        "term": "taut skin",
+        "ko": "탱탱한 피부",
+        "type": "phrase"
+      }
+    ],
+    "29": [
+      {
+        "term": "Beats me",
+        "ko": "나도 몰라, 금시초문이야",
+        "type": "idiom",
+        "easy": "전혀 모르겠다고 할 때 쓰는 말",
+        "nuance": "'그건 나를 이겼다' → '내 머리로는 모르겠다'는 캐주얼한 표현",
+        "when": "질문에 모른다고 가볍게 답할 때",
+        "ex": "Where did he go? Beats me.",
+        "exKo": "걔 어디 갔어? 나도 몰라."
+      },
+      {
+        "term": "freshen up",
+        "ko": "씻고 단장하다",
+        "type": "phrase",
+        "easy": "잠깐 세수하고 매무새를 가다듬다",
+        "when": "외출 전이나 손님 오기 전에",
+        "ex": "Let me freshen up before we leave.",
+        "exKo": "나가기 전에 잠깐 씻고 올게요."
+      }
+    ],
+    "42": [
+      {
+        "term": "at my wit's end",
+        "ko": "어찌할 바를 모르겠다",
+        "type": "idiom",
+        "easy": "방법이 다 떨어져 너무 답답하고 지친 상태",
+        "nuance": "할 수 있는 건 다 해봤다는 한계·좌절의 느낌",
+        "when": "문제를 도저히 못 풀어 지칠 때",
+        "ex": "I'm at my wit's end with this printer.",
+        "exKo": "이 프린터 때문에 정말 미치겠어요.",
+        "tip": "wit(지혜)이 끝(end)에 다다랐다는 비유예요."
+      }
+    ],
+    "46": [
+      {
+        "term": "skank",
+        "ko": "천박한 여자 (속어)",
+        "type": "word"
+      }
+    ]
+  },
+  "eS2xwKDTVQw": {
+    "5": [
+      {
+        "term": "makes way for",
+        "ko": "~에게 길을 비켜주다",
+        "type": "phrase",
+        "easy": "지나가게 옆으로 비켜서다",
+        "when": "사람·차에 길을 양보할 때",
+        "ex": "He stepped aside to make way for her.",
+        "exKo": "그는 그녀가 지나가게 옆으로 비켜섰어요."
+      },
+      {
+        "term": "conveniently leaves out",
+        "ko": "(자기 편한 대로) 슬쩍 빼먹다",
+        "type": "phrase",
+        "easy": "불리한 부분을 일부러 말 안 하다",
+        "nuance": "우연인 척하지만 사실 의도적으로 생략하는 느낌",
+        "when": "누가 이야기에서 불리한 사실을 뺄 때",
+        "ex": "He conveniently left out that it was his fault.",
+        "exKo": "걔는 자기 잘못이라는 건 슬쩍 빼먹었어요."
+      }
+    ],
+    "7": [
+      {
+        "term": "Suck it",
+        "ko": "꼴좋다, 약 오르지 (속어)",
+        "type": "idiom",
+        "easy": "이겼을 때 상대를 약 올리는 거친 말",
+        "nuance": "통쾌함을 과시하는 무례한 표현",
+        "when": "내기·논쟁에서 이겼다고 으스댈 때",
+        "tip": "속된 표현이라 아이들 앞·격식 자리에서는 피하세요."
+      }
+    ],
+    "8": [
+      {
+        "term": "went to all that trouble",
+        "ko": "그 수고를 다 했다",
+        "type": "idiom",
+        "easy": "굳이 그 귀찮은 일을 다 감수했다",
+        "nuance": "그렇게까지 할 필요 있었냐는 어이없음이 섞임",
+        "when": "누가 사소한 일에 큰 수고를 들였을 때",
+        "ex": "You went to all that trouble just for me?",
+        "exKo": "고작 나 때문에 그 수고를 다 한 거야?",
+        "tip": "go to trouble (to do) = 일부러 애써 ~하다."
+      }
+    ],
+    "9": [
+      {
+        "term": "bag boy",
+        "ko": "(마트) 짐 담아주는 직원",
+        "type": "phrase"
+      },
+      {
+        "term": "off site",
+        "ko": "외부의, 현장 밖의",
+        "type": "phrase"
+      }
+    ],
+    "11": [
+      {
+        "term": "Cake",
+        "ko": "식은 죽 먹기 (속어)",
+        "type": "idiom",
+        "easy": "아주 쉬운 일",
+        "nuance": "piece of cake를 짧게 줄여 '껌이지'라는 느낌",
+        "when": "어떤 일이 너무 쉬웠다고 할 때",
+        "ex": "The test? Cake.",
+        "exKo": "시험? 껌이었지.",
+        "tip": "원래 표현은 a piece of cake예요."
+      }
+    ],
+    "13": [
+      {
+        "term": "impressionable",
+        "ko": "쉽게 영향받는, 잘 물드는",
+        "type": "word",
+        "easy": "남의 말이나 행동에 쉽게 휩쓸리는",
+        "when": "특히 어린이·청소년을 두고 말할 때",
+        "ex": "Kids are very impressionable at that age.",
+        "exKo": "그 나이 아이들은 쉽게 영향을 받아요.",
+        "tip": "impress(인상을 주다)에서 온 말이에요."
+      }
+    ],
+    "21": [
+      {
+        "term": "on edge",
+        "ko": "예민한, 신경이 곤두선",
+        "type": "idiom",
+        "easy": "초조하고 짜증이 나기 쉬운 상태",
+        "nuance": "곧 터질 듯 날카로워진 느낌",
+        "when": "스트레스로 예민해져 있을 때",
+        "ex": "Sorry, I've been on edge all week.",
+        "exKo": "미안, 이번 주 내내 신경이 곤두서 있었어.",
+        "tip": "edge(가장자리)에 아슬아슬하게 서 있는 비유예요."
+      },
+      {
+        "term": "acting out",
+        "ko": "엇나가다, 말썽부리다",
+        "type": "phrase",
+        "easy": "(아이가) 떼쓰거나 문제 행동을 하다",
+        "when": "아이가 감정을 행동으로 터뜨릴 때",
+        "ex": "He's been acting out since the divorce.",
+        "exKo": "걔는 이혼 이후로 자꾸 엇나가고 있어요."
+      }
+    ],
+    "30": [
+      {
+        "term": "What's done is done",
+        "ko": "이미 엎질러진 물이다",
+        "type": "idiom",
+        "easy": "이미 벌어진 일은 되돌릴 수 없다",
+        "nuance": "후회 말고 받아들이자고 다독이는 느낌",
+        "when": "지난 실수를 그만 곱씹자고 할 때",
+        "ex": "What's done is done, let's move on.",
+        "exKo": "이미 끝난 일이니 그만 넘어가자.",
+        "tip": "한국어 '엎질러진 물'과 거의 같은 속담이에요."
+      }
+    ],
+    "31": [
+      {
+        "term": "propose a toast",
+        "ko": "건배를 제의하다",
+        "type": "phrase",
+        "easy": "다 같이 잔을 들자고 권하다",
+        "when": "축하 자리에서 건배사를 할 때",
+        "ex": "I'd like to propose a toast to the couple.",
+        "exKo": "신랑 신부를 위해 건배를 제의합니다.",
+        "tip": "toast가 여기선 '구운 빵'이 아니라 '건배'예요."
+      }
+    ],
+    "34": [
+      {
+        "term": "took his licks",
+        "ko": "벌(비난)을 달게 받았다",
+        "type": "idiom",
+        "easy": "잘못에 대한 혼남·벌을 묵묵히 받아들이다",
+        "nuance": "변명 없이 책임지는 의젓한 느낌",
+        "when": "실수의 대가를 떳떳이 치를 때",
+        "ex": "He made a mistake but took his licks.",
+        "exKo": "그는 실수했지만 벌을 달게 받았어요.",
+        "tip": "lick이 여기선 '핥다'가 아니라 '한 대 맞음, 벌'이에요."
+      }
+    ],
+    "37": [
+      {
+        "term": "he's got guts",
+        "ko": "배짱이 있다",
+        "type": "idiom",
+        "easy": "겁내지 않는 용기가 있다",
+        "nuance": "위험을 무릅쓰는 대담함을 칭찬하는 느낌",
+        "when": "용감한 행동을 인정할 때",
+        "ex": "It took guts to admit that.",
+        "exKo": "그걸 인정하다니 배짱이 필요했죠.",
+        "tip": "guts(창자)가 비유적으로 '배짱, 근성'이에요."
+      },
+      {
+        "term": "integrity",
+        "ko": "진실성, 강직함",
+        "type": "word"
+      }
+    ]
+  },
+  "hQWipNek35o": {
+    "2": [
+      {
+        "term": "wow factor",
+        "ko": "확 눈길을 끄는 요소",
+        "type": "phrase",
+        "easy": "보자마자 '와' 하게 만드는 매력 포인트",
+        "when": "집·제품의 인상적인 특징을 말할 때",
+        "ex": "This kitchen is the home's wow factor.",
+        "exKo": "이 주방이 이 집의 핵심 매력이에요."
+      }
+    ],
+    "4": [
+      {
+        "term": "cascading into a reservoir",
+        "ko": "저수조로 폭포처럼 흘러내리는",
+        "type": "phrase"
+      }
+    ],
+    "5": [
+      {
+        "term": "ambitious",
+        "ko": "야심 찬, 욕심이 큰",
+        "type": "word",
+        "easy": "목표가 크고 무리해 보이기도 한",
+        "nuance": "여기선 '계획이 과하다'는 살짝 부정적 뉘앙스",
+        "when": "계획·목표가 클 때 (좋게도, 무리하다고도)",
+        "ex": "That's an ambitious plan for one weekend.",
+        "exKo": "주말 하나치고는 욕심 많은 계획이네요."
+      },
+      {
+        "term": "call it a day",
+        "ko": "오늘은 이만하다, 마무리하다",
+        "type": "idiom",
+        "easy": "그만하고 일을 끝내다",
+        "when": "작업을 적당히 마칠 때",
+        "ex": "We've done enough, let's call it a day.",
+        "exKo": "충분히 했으니 오늘은 이만 끝내자.",
+        "tip": "call it a night는 밤에 쓰는 같은 표현이에요."
+      }
+    ],
+    "6": [
+      {
+        "term": "over our landscape budget",
+        "ko": "조경 예산을 초과한",
+        "type": "phrase"
+      },
+      {
+        "term": "surcharge",
+        "ko": "추가 요금, 할증료",
+        "type": "word"
+      }
+    ],
+    "8": [
+      {
+        "term": "throw numbers at me",
+        "ko": "숫자를 마구 들이대다",
+        "type": "idiom",
+        "easy": "복잡한 숫자를 쏟아내 헷갈리게 하다",
+        "when": "상대가 수치로 압박·혼란을 줄 때",
+        "ex": "Don't just throw numbers at me, explain it.",
+        "exKo": "숫자만 들이대지 말고 설명을 해줘."
+      },
+      {
+        "term": "manipulative",
+        "ko": "교묘하게 사람을 조종하는",
+        "type": "word",
+        "easy": "남을 자기 뜻대로 몰래 휘두르는",
+        "nuance": "은근슬쩍 속여 이용한다는 부정적 느낌",
+        "when": "누가 사람을 이용하려 들 때",
+        "ex": "Stop being so manipulative.",
+        "exKo": "그렇게 사람 좀 조종하려 들지 마.",
+        "tip": "manipulate(조종하다)의 형용사예요."
+      }
+    ],
+    "9": [
+      {
+        "term": "over-the-top",
+        "ko": "과한, 도를 넘은",
+        "type": "idiom",
+        "easy": "지나치게 화려하거나 요란한",
+        "nuance": "선을 넘어 부담스럽다는 느낌",
+        "when": "장식·반응·연기가 과할 때",
+        "ex": "The decorations were a bit over-the-top.",
+        "exKo": "장식이 좀 과했어요.",
+        "tip": "줄여서 OTT라고도 써요."
+      }
+    ],
+    "10": [
+      {
+        "term": "how dare you",
+        "ko": "감히 어떻게 그래",
+        "type": "idiom",
+        "easy": "상대의 무례한 행동에 발끈하는 말",
+        "nuance": "진심으로 화났거나, 장난스럽게 흉내 낼 때 둘 다",
+        "when": "상대가 선을 넘었다고 느낄 때",
+        "ex": "How dare you accuse me!",
+        "exKo": "네가 감히 날 의심해?"
+      }
+    ],
+    "11": [
+      {
+        "term": "the likes of you",
+        "ko": "너 같은 부류",
+        "type": "phrase",
+        "easy": "'너 같은 사람들'을 약간 깔보며 이르는 말",
+        "nuance": "무시·경멸이 섞인 다소 거만한 표현",
+        "when": "상대를 한 수 아래로 깎아내릴 때",
+        "ex": "I won't be insulted by the likes of you.",
+        "exKo": "너 같은 사람한테 모욕당하진 않겠어."
+      }
+    ],
+    "13": [
+      {
+        "term": "at a stalemate",
+        "ko": "교착 상태인, 막다른",
+        "type": "idiom",
+        "easy": "양쪽이 안 물러서 진전이 없는 상태",
+        "nuance": "체스에서 온 말로 '꼼짝 못 하는' 느낌",
+        "when": "협상·논쟁이 막혔을 때",
+        "ex": "The talks are at a stalemate.",
+        "exKo": "협상이 교착 상태예요."
+      },
+      {
+        "term": "break the tie",
+        "ko": "(동점·교착을) 깨고 결정짓다",
+        "type": "idiom",
+        "easy": "팽팽한 상황에서 한쪽 손을 들어주다",
+        "when": "결정을 못 내려 제3자가 정해줄 때",
+        "ex": "We need a third vote to break the tie.",
+        "exKo": "동점을 깨려면 한 표가 더 필요해요."
+      }
+    ],
+    "14": [
+      {
+        "term": "stack the deck",
+        "ko": "판을 유리하게 짜다 (속임수)",
+        "type": "idiom",
+        "easy": "처음부터 한쪽에 유리하게 몰래 꾸미다",
+        "nuance": "공정하지 않게 결과를 미리 정해둔 느낌",
+        "when": "불공정하게 상황을 조작할 때",
+        "ex": "The system is stacked against newcomers.",
+        "exKo": "그 구조는 신참에게 불리하게 짜여 있어요.",
+        "tip": "카드(deck)를 미리 쌓아 속이는 데서 온 말이에요."
+      }
+    ],
+    "19": [
+      {
+        "term": "objective",
+        "ko": "객관적인, 공정한",
+        "type": "word",
+        "easy": "한쪽 편 안 들고 사실대로 보는",
+        "nuance": "감정·편견을 뺀 중립적 태도",
+        "when": "공정한 판단을 강조할 때",
+        "ex": "We need an objective opinion.",
+        "exKo": "객관적인 의견이 필요해요.",
+        "tip": "반대말은 subjective(주관적인)예요."
+      }
+    ],
+    "23": [
+      {
+        "term": "head over heels in love",
+        "ko": "홀딱 반하다",
+        "type": "idiom",
+        "easy": "정신 못 차릴 만큼 깊이 사랑에 빠지다",
+        "nuance": "발이 머리 위로 갈 만큼 푹 빠진 과장된 느낌",
+        "when": "누가 사랑에 흠뻑 빠졌을 때",
+        "ex": "He fell head over heels for her.",
+        "exKo": "그는 그녀에게 홀딱 반했어요."
+      }
+    ],
+    "27": [
+      {
+        "term": "pricing ourselves out of the market",
+        "ko": "값을 너무 올려 안 팔리게 만들다",
+        "type": "phrase",
+        "easy": "가격을 높게 매겨 사는 사람이 없게 되다",
+        "when": "장사·부동산에서 가격을 잘못 매길 때",
+        "ex": "If we charge that much, we'll price ourselves out of the market.",
+        "exKo": "그렇게 비싸게 받으면 아무도 안 살 거예요."
+      }
+    ],
+    "34": [
+      {
+        "term": "go for it",
+        "ko": "한번 해봐, 질러봐",
+        "type": "idiom",
+        "easy": "망설이지 말고 그냥 시도하라는 응원",
+        "when": "결정을 못 내리는 사람을 밀어줄 때",
+        "ex": "If you really want it, go for it!",
+        "exKo": "정말 원하면 한번 질러봐!"
+      }
+    ]
+  },
+  "gto-K5DAnBM": {
+    "6": [
+      {
+        "term": "fake IDs",
+        "ko": "위조 신분증",
+        "type": "phrase"
+      }
+    ],
+    "10": [
+      {
+        "term": "ripped us off",
+        "ko": "우리를 등쳐먹다, 바가지 씌우다",
+        "type": "idiom",
+        "easy": "속이거나 비싸게 받아 손해 입히다",
+        "when": "사기·바가지를 당했을 때",
+        "ex": "That guy totally ripped us off.",
+        "exKo": "그 사람이 우리를 완전히 등쳐먹었어요.",
+        "tip": "rip-off(명사)는 '바가지 상품'이에요."
+      }
+    ],
+    "11": [
+      {
+        "term": "ran into a door",
+        "ko": "문에 부딪혔다 (뻔한 변명)",
+        "type": "idiom",
+        "easy": "멍든 이유를 둘러대는 흔한 핑계",
+        "nuance": "보통 진짜 이유를 숨길 때 쓰는 뻔한 변명",
+        "when": "다친 이유를 얼버무릴 때",
+        "ex": "Black eye? I ran into a door.",
+        "exKo": "눈에 멍? 문에 부딪혔어요."
+      }
+    ],
+    "16": [
+      {
+        "term": "growth spurt",
+        "ko": "(갑작스러운) 급성장기",
+        "type": "phrase",
+        "easy": "키나 몸이 갑자기 쑥 크는 시기",
+        "when": "아이·청소년이 부쩍 클 때",
+        "ex": "He had a growth spurt over the summer.",
+        "exKo": "걔는 여름 사이에 부쩍 컸어요."
+      },
+      {
+        "term": "one thing at a time",
+        "ko": "한 번에 하나씩",
+        "type": "idiom",
+        "easy": "차근차근 하나씩 처리하자",
+        "when": "일이 한꺼번에 몰릴 때 진정시키며",
+        "ex": "Calm down, one thing at a time.",
+        "exKo": "진정하고, 한 번에 하나씩 하자."
+      }
+    ],
+    "21": [
+      {
+        "term": "can't afford a scandal",
+        "ko": "스캔들(구설)을 감당할 수 없다",
+        "type": "phrase",
+        "easy": "지금 소문나면 큰일이라 그럴 여유가 없다",
+        "when": "평판이 중요한 상황에서",
+        "ex": "We can't afford a scandal before the election.",
+        "exKo": "선거 전에 구설에 오를 여유가 없어요.",
+        "tip": "afford가 여기선 돈이 아니라 '~할 여유/형편'이에요."
+      }
+    ],
+    "22": [
+      {
+        "term": "take my eye off the ball",
+        "ko": "잠깐 한눈팔다, 방심하다",
+        "type": "idiom",
+        "easy": "집중을 풀고 잠시 주의를 놓치다",
+        "nuance": "공에서 눈을 떼는 운동 비유, 방심의 느낌",
+        "when": "잠깐 신경 못 쓴 사이 일이 터졌을 때",
+        "ex": "I took my eye off the ball and missed the deadline.",
+        "exKo": "잠깐 방심한 사이 마감을 놓쳤어요.",
+        "tip": "keep your eye on the ball = 집중을 유지하다."
+      }
+    ],
+    "24": [
+      {
+        "term": "get my hands on",
+        "ko": "손에 넣다, 구하다",
+        "type": "idiom",
+        "easy": "어떻게든 구해서 가지다",
+        "nuance": "(돈·물건을) 마침내 확보한다는 느낌",
+        "when": "필요한 걸 구하려 할 때",
+        "ex": "I need to get my hands on that money.",
+        "exKo": "그 돈을 어떻게든 구해야 해요."
+      }
+    ],
+    "26": [
+      {
+        "term": "get away with",
+        "ko": "(벌 안 받고) 그냥 넘어가다",
+        "type": "idiom",
+        "easy": "잘못하고도 들키지 않거나 처벌을 피하다",
+        "nuance": "얄밉게 무사히 빠져나간다는 느낌",
+        "when": "누가 잘못을 저지르고도 멀쩡할 때",
+        "ex": "You can't get away with cheating.",
+        "exKo": "부정행위를 하고 그냥 넘어갈 순 없어.",
+        "tip": "get away with it = 그 일을 들키지 않고 넘기다."
+      },
+      {
+        "term": "pay this guy a visit",
+        "ko": "(따지러) 찾아가다",
+        "type": "idiom",
+        "easy": "직접 만나러 가다 (여기선 위협조)",
+        "when": "누구를 찾아가 따질 때",
+        "ex": "Maybe I'll pay him a visit.",
+        "exKo": "내가 한번 찾아가 봐야겠어."
+      }
+    ],
+    "28": [
+      {
+        "term": "vigilantes",
+        "ko": "자경단, 사적으로 응징하는 사람들",
+        "type": "word"
+      }
+    ],
+    "29": [
+      {
+        "term": "Shotgun!",
+        "ko": "조수석 내가 찜! (구호)",
+        "type": "idiom",
+        "easy": "차 앞자리에 먼저 타겠다고 외치는 말",
+        "nuance": "친구끼리 자리 차지할 때 쓰는 캐주얼한 외침",
+        "when": "차에 타기 직전 앞자리를 선점할 때",
+        "ex": "Shotgun! I'm sitting up front.",
+        "exKo": "조수석 내 거! 앞에 탈래."
+      }
+    ],
+    "38": [
+      {
+        "term": "make this right",
+        "ko": "바로잡다, 책임지고 해결하다",
+        "type": "idiom",
+        "easy": "잘못된 걸 제대로 되돌려 놓다",
+        "when": "실수·잘못을 수습하겠다고 할 때",
+        "ex": "I want to make this right.",
+        "exKo": "이걸 바로잡고 싶어요."
+      }
+    ],
+    "39": [
+      {
+        "term": "I don't need any hassle",
+        "ko": "귀찮은 일 만들기 싫다",
+        "type": "phrase",
+        "easy": "성가신 문제에 휘말리고 싶지 않다",
+        "when": "분쟁·번거로움을 피하고 싶을 때",
+        "ex": "Just take it, I don't need any hassle.",
+        "exKo": "그냥 가져가요, 귀찮은 일 만들기 싫으니.",
+        "tip": "hassle = 성가신 일, 번거로움."
+      }
+    ],
+    "41": [
+      {
+        "term": "we got a runner",
+        "ko": "도망친다!",
+        "type": "phrase",
+        "easy": "누가 달아난다고 외치는 말",
+        "when": "용의자·상대가 갑자기 달아날 때",
+        "ex": "Hey, we got a runner!",
+        "exKo": "야, 저놈 도망친다!"
+      }
+    ],
+    "51": [
+      {
+        "term": "I have learned my lesson",
+        "ko": "교훈을 얻었다, 다신 안 그럴게",
+        "type": "idiom",
+        "easy": "혼나고 나서 잘못을 깨달았다",
+        "when": "실수 후 반성할 때",
+        "ex": "I've learned my lesson, I promise.",
+        "exKo": "교훈을 얻었어요, 약속할게요."
+      }
+    ],
+    "52": [
+      {
+        "term": "you're grounded",
+        "ko": "외출 금지야 (벌)",
+        "type": "idiom",
+        "easy": "부모가 벌로 못 나가게 하는 것",
+        "nuance": "주로 부모가 아이에게 내리는 처벌",
+        "when": "아이가 잘못해 집에 묶어둘 때",
+        "ex": "You're grounded for two weeks!",
+        "exKo": "너 2주 동안 외출 금지야!",
+        "tip": "ground가 동사로 '외출을 금하다'예요."
+      }
+    ]
+  },
+  "JHju1BGTLlo": {
+    "5": [
+      {
+        "term": "rule out a stroke",
+        "ko": "뇌졸중 가능성을 배제하다",
+        "type": "phrase",
+        "easy": "혹시 뇌졸중인지 아닌지 확인해 제외하다",
+        "when": "의학적 가능성을 하나씩 지울 때",
+        "ex": "The doctor ruled out a stroke.",
+        "exKo": "의사가 뇌졸중은 아니라고 했어요.",
+        "tip": "rule out = (가능성을) 배제하다."
+      }
+    ],
+    "9": [
+      {
+        "term": "at your expense",
+        "ko": "너를 놀림감 삼아",
+        "type": "idiom",
+        "easy": "남을 웃음거리로 만들면서 즐기다",
+        "nuance": "그 사람이 손해·창피를 보는 대가로라는 뜻",
+        "when": "누구를 깎아내리며 농담할 때",
+        "ex": "They laughed at his expense.",
+        "exKo": "그들은 그를 놀림감 삼아 웃었어요.",
+        "tip": "expense가 여기선 '비용'이 아니라 '희생/대가'예요."
+      },
+      {
+        "term": "character flaw",
+        "ko": "성격적 결함",
+        "type": "phrase"
+      }
+    ],
+    "16": [
+      {
+        "term": "full of it",
+        "ko": "다 뻥이다, 허풍이 심하다",
+        "type": "idiom",
+        "easy": "말도 안 되는 소리를 한다는 핀잔",
+        "nuance": "'헛소리쟁이'라고 가볍게 놀리는 표현",
+        "when": "상대 말이 과장·거짓일 때",
+        "ex": "Don't believe him, he's full of it.",
+        "exKo": "걔 말 믿지 마, 다 뻥이야."
+      }
+    ],
+    "22": [
+      {
+        "term": "Time marches on",
+        "ko": "세월은 흘러간다",
+        "type": "idiom",
+        "easy": "시간은 멈추지 않고 계속 간다",
+        "nuance": "아쉬움·인생무상의 느낌이 담김",
+        "when": "세월이 빠르다고 감상에 젖을 때",
+        "ex": "The kids grew up so fast. Time marches on.",
+        "exKo": "애들이 참 빨리 컸네. 세월 참 빠르다."
+      }
+    ],
+    "26": [
+      {
+        "term": "congratulating yourselves",
+        "ko": "자화자찬하다",
+        "type": "phrase",
+        "easy": "스스로를 대단하다고 추켜세우다",
+        "when": "남들이 자기 칭찬에 취해 있을 때",
+        "ex": "Stop congratulating yourselves and get to work.",
+        "exKo": "자화자찬 그만하고 일이나 해."
+      },
+      {
+        "term": "compassionate",
+        "ko": "인정 많은, 동정심 있는",
+        "type": "word"
+      }
+    ],
+    "33": [
+      {
+        "term": "dermatologist",
+        "ko": "피부과 의사",
+        "type": "word"
+      }
+    ],
+    "38": [
+      {
+        "term": "had a bad reaction",
+        "ko": "부작용이 났다",
+        "type": "phrase",
+        "easy": "약·시술에 몸이 안 좋게 반응했다",
+        "when": "약이나 음식에 탈이 났을 때",
+        "ex": "I had a bad reaction to the medicine.",
+        "exKo": "그 약에 부작용이 생겼어요."
+      },
+      {
+        "term": "hit a nerve",
+        "ko": "신경을 건드리다",
+        "type": "idiom",
+        "easy": "(시술이) 신경을 잘못 건드리다 / 아픈 곳을 찌르다",
+        "nuance": "여기선 글자 그대로 '신경을 건드림', 비유로는 '정곡을 찌름'",
+        "when": "예민한 부분을 자극했을 때",
+        "ex": "That question really hit a nerve.",
+        "exKo": "그 질문이 정곡을 찔렀어요.",
+        "tip": "비유로는 '아픈 데를 건드리다'로도 자주 써요."
+      }
+    ],
+    "42": [
+      {
+        "term": "false alarm",
+        "ko": "괜한 소동, 헛경보",
+        "type": "idiom",
+        "easy": "큰일인 줄 알았는데 알고 보니 아무것도 아님",
+        "when": "걱정했던 일이 별일 아니었을 때",
+        "ex": "The fire alarm was a false alarm.",
+        "exKo": "화재경보는 오작동이었어요."
+      }
+    ],
+    "48": [
+      {
+        "term": "veteran",
+        "ko": "베테랑, 노련한 사람",
+        "type": "word",
+        "easy": "오래 해서 능숙한 사람 (또는 참전 군인)",
+        "nuance": "여기선 '잔뼈 굵은 노련한 사람'이라는 뜻",
+        "when": "경력이 많은 사람을 가리킬 때",
+        "ex": "She's a veteran teacher.",
+        "exKo": "그녀는 노련한 베테랑 교사예요."
+      }
+    ],
+    "51": [
+      {
+        "term": "valedictorian",
+        "ko": "졸업생 대표 (수석)",
+        "type": "word"
+      }
+    ]
+  },
+  "kDVptPB31ZU": {
+    "1": [
+      {
+        "term": "prime number",
+        "ko": "소수 (1과 자기 자신만 나뉘는 수)",
+        "type": "phrase"
+      }
+    ],
+    "3": [
+      {
+        "term": "a little part of me died",
+        "ko": "(실망해서) 마음 한구석이 무너졌다",
+        "type": "idiom",
+        "easy": "너무 실망스러워 속이 상했다는 과장된 말",
+        "nuance": "농담 섞인 과장으로 큰 실망을 표현",
+        "when": "어이없거나 크게 실망했을 때",
+        "ex": "When he said that, a little part of me died.",
+        "exKo": "걔가 그 말 했을 때 마음이 무너졌어."
+      }
+    ],
+    "4": [
+      {
+        "term": "tutored",
+        "ko": "(개인) 과외를 해주다",
+        "type": "word"
+      },
+      {
+        "term": "social skills",
+        "ko": "사교성, 사회성",
+        "type": "phrase"
+      }
+    ],
+    "5": [
+      {
+        "term": "bickering",
+        "ko": "(사소한 일로) 티격태격하는",
+        "type": "word",
+        "easy": "별것 아닌 일로 계속 옥신각신하다",
+        "nuance": "심각한 싸움이 아니라 잔소리 같은 말다툼",
+        "when": "형제·커플이 사소하게 다툴 때",
+        "ex": "Stop bickering, you two!",
+        "exKo": "너희 둘 그만 티격태격해!"
+      }
+    ],
+    "9": [
+      {
+        "term": "a masterclass in parenting",
+        "ko": "육아의 정석/명강의급 시범",
+        "type": "idiom",
+        "easy": "최고 수준의 모범을 보여준 것",
+        "nuance": "'~의 교과서'처럼 감탄하며 칭찬하는 표현",
+        "when": "누가 어떤 일을 아주 훌륭히 해냈을 때",
+        "ex": "That speech was a masterclass in persuasion.",
+        "exKo": "그 연설은 설득의 정석이었어요."
+      }
+    ],
+    "10": [
+      {
+        "term": "skillfully implanted",
+        "ko": "교묘하게 (생각을) 심어 넣은",
+        "type": "phrase",
+        "easy": "상대가 모르게 어떤 생각을 슬쩍 넣어준",
+        "when": "은근슬쩍 아이디어를 주입할 때",
+        "ex": "The idea was skillfully implanted in her mind.",
+        "exKo": "그 생각은 그녀 머릿속에 교묘하게 심어졌어요."
+      }
+    ],
+    "17": [
+      {
+        "term": "not a ringing endorsement",
+        "ko": "그다지 미덥지 않은 추천",
+        "type": "idiom",
+        "easy": "딱히 좋다고 보증하기 어려운 말",
+        "nuance": "에둘러서 '별로다'라고 말하는 점잖은 표현",
+        "when": "마지못해 또는 시큰둥하게 추천할 때",
+        "ex": "'It's okay, I guess' is not a ringing endorsement.",
+        "exKo": "'뭐 그럭저럭'은 그다지 미더운 추천은 아니죠.",
+        "tip": "ringing endorsement = 열렬한 지지/보증."
+      }
+    ],
+    "20": [
+      {
+        "term": "something in return",
+        "ko": "그 대가로 무언가",
+        "type": "phrase",
+        "easy": "내가 해주는 대신 받는 보답",
+        "when": "거래·교환을 제안할 때",
+        "ex": "I'll help, but I want something in return.",
+        "exKo": "도와줄게, 대신 대가가 있어야 해.",
+        "tip": "in return = 보답으로, 답례로."
+      }
+    ],
+    "35": [
+      {
+        "term": "loading and unloading",
+        "ko": "(차의) 승하차·짐 싣고 내리기 구역",
+        "type": "phrase"
+      }
+    ],
+    "37": [
+      {
+        "term": "do some unloading",
+        "ko": "쌓인 말을 쏟아내다 (말장난)",
+        "type": "idiom",
+        "easy": "마음에 담아둔 불만을 한꺼번에 털어놓다",
+        "nuance": "짐 내리기(unloading)와 '속풀이'를 겹친 말장난",
+        "when": "참았던 화·고민을 쏟아낼 때",
+        "ex": "I really need to unload about my day.",
+        "exKo": "오늘 있었던 일 좀 다 털어놔야겠어."
+      }
+    ],
+    "38": [
+      {
+        "term": "I know your type",
+        "ko": "네가 어떤 부류인지 안다",
+        "type": "idiom",
+        "easy": "너 같은 사람들이 어떤지 다 안다는 말",
+        "nuance": "상대를 단정 짓고 깎아내리는 도발적 느낌",
+        "when": "상대를 한 부류로 규정할 때",
+        "ex": "I know your type. All talk, no action.",
+        "exKo": "네가 어떤 부류인지 알아. 말만 번지르르하지."
+      }
+    ],
+    "39": [
+      {
+        "term": "made you feel small",
+        "ko": "너를 초라하게 만들었다",
+        "type": "idiom",
+        "easy": "기를 죽여 보잘것없는 기분이 들게 하다",
+        "when": "누가 무시당해 자존심 상했을 때",
+        "ex": "His comments made me feel small.",
+        "exKo": "그의 말에 내가 초라해진 기분이었어요.",
+        "tip": "feel small = 위축되다, 작아진 기분이 들다."
+      }
+    ],
+    "40": [
+      {
+        "term": "payback time",
+        "ko": "복수의 시간, 되갚아줄 때",
+        "type": "idiom",
+        "easy": "당한 걸 그대로 갚아줄 차례",
+        "nuance": "통쾌하게 복수한다는 느낌",
+        "when": "묵은 원한을 갚으려 할 때",
+        "ex": "Now it's payback time.",
+        "exKo": "이제 복수할 시간이야."
+      }
+    ],
+    "45": [
+      {
+        "term": "tarnish it",
+        "ko": "(명예를) 더럽히다, 먹칠하다",
+        "type": "idiom",
+        "easy": "좋은 이름·평판에 흠집을 내다",
+        "nuance": "금속이 변색되듯 명성이 칙칙해지는 비유",
+        "when": "평판·명예를 훼손할 때",
+        "ex": "One scandal can tarnish a good name.",
+        "exKo": "스캔들 하나가 좋은 이름에 먹칠할 수 있어요."
+      }
+    ]
   }
 }

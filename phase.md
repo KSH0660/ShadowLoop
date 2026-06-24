@@ -39,8 +39,9 @@
 
 ## 진행 현황 (이 세션)
 - **코드 페이즈 완료**: Phase 1·5·6·7 (단어 상세 시트 + 단어장 탭: 목록/복습/퀴즈). `npm run check` 통과.
-- **데이터 페이즈 보류**: Phase 2~4(영상 확장)는 `yt-dlp`와 YouTube 네트워크가 필요해 이 샌드박스에서 실행 불가 → 로컬/네트워크 가능한 환경에서 `/youtube-curator`로 진행 필요.
-- **Phase 8 착수**: 견본 1개 영상(ykN0VZiEDr8)의 해설 4건을 풍부 형식으로 전환. 나머지 489개는 배치 반복으로 후속 진행(파이프라인 `npm run build:glossary` 동작 확인).
+- **Phase 2 완료**: Modern Family(TBS) 수동 자막 8개 추가 + 풍부 글로싱 → **누계 30개 영상**. (curator 스킬의 `web_embedded` 우회로 클라우드 환경에서도 자막 다운로드 성공.)
+- **Phase 3~4 남음**: 다른 시트콤(빅뱅/프렌즈 등) 추가로 40~50개까지 — 같은 방식으로 진행 가능.
+- **Phase 8 착수**: 견본 1개 영상(ykN0VZiEDr8) 해설 4건을 풍부 형식으로 전환. 나머지 기존 해설은 배치 반복으로 후속 진행(파이프라인 `npm run build:glossary` 동작 확인).
 
 ## Phase 목록
 
@@ -53,11 +54,11 @@
 - [x] 견본으로 기존 영상 1개(ykN0VZiEDr8)의 해설 4건을 풍부 형식으로 업그레이드(검증용 데이터).
 - 완료 기준: `npm run check` 통과 + 단어 칩 탭 시 상세 시트가 뜨고, 풍부 필드 유무에 따라 정상 렌더. 기존 간결 항목도 깨지지 않음.
 
-### Phase 2 — 영상 확장 배치 A: Modern Family (목표 +8~12)
-- [ ] `/youtube-curator`로 Modern Family **수동 자막** 클립 추가(`videos.json`).
-- [ ] 추가분을 Phase 1 풍부 형식으로 글로싱.
-- [ ] `npm run build:transcripts` → `npm run check`.
-- 완료 기준: 새 영상이 홈에 보이고 재생/자막/해설 정상. 누계 영상 수 기록.
+### Phase 2 — 영상 확장 배치 A: Modern Family (목표 +8~12) ✅
+- [x] `/youtube-curator`로 Modern Family **수동 자막** 클립 8개 추가(`videos.json`) — TBS 채널, 전부 manual `en` 자막 확인.
+- [x] 추가분 8개를 Phase 1 풍부 형식으로 글로싱(136개 항목, 약 99개 풍부 필드 포함).
+- [x] `npm run build:transcripts` → `npm run build:glossary` → `npm run check`.
+- 완료 기준: 새 영상이 홈에 보이고 재생/자막/해설 정상. **누계 30개 영상**(모던 패밀리 7→14).
 
 ### Phase 3 — 영상 확장 배치 B: 다른 시트콤/드라마 후보 (목표 +8~12)
 - [ ] Big Bang Theory / Friends / Brooklyn 99 / The Office 등에서 **수동 자막** 보유 클립 탐색·채택.
