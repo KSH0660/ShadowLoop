@@ -698,6 +698,10 @@ body.is-detail .tabbar {
   list-style: none;
 }
 
+.gloss-list li {
+  display: inline-flex;
+}
+
 .gloss-item {
   display: inline-flex;
   align-items: baseline;
@@ -708,6 +712,14 @@ body.is-detail .tabbar {
   background: var(--surface);
   font-size: 13px;
   line-height: 1.4;
+  text-align: left;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.gloss-item:hover,
+.gloss-item:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .gloss-term {
@@ -717,6 +729,436 @@ body.is-detail .tabbar {
 
 .gloss-ko {
   color: var(--muted);
+}
+
+/* Word-detail sheet — opened by tapping a glossary chip. */
+.word-sheet {
+  gap: 0;
+}
+
+.word-detail {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.word-head {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.word-head-top {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.word-term {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.word-type {
+  flex: 0 0 auto;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.word-ko {
+  margin: 6px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--accent-ink);
+}
+
+.word-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 14px;
+}
+
+.word-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.word-field-label {
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.word-field-val {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.word-ex-en {
+  font-style: italic;
+  color: var(--accent-ink);
+}
+
+.word-ex-ko {
+  margin-top: 2px;
+  color: var(--muted);
+}
+
+.word-empty {
+  margin: 16px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.word-save {
+  margin-top: 18px;
+  padding: 13px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.word-save.is-saved {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+/* 단어장 (saved-vocabulary) tab — text rows, no thumbnail. */
+.word-rows {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.word-row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--line);
+}
+
+.word-row:last-child {
+  border-bottom: 0;
+}
+
+.word-row-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px 14px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.word-row-top {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.word-row-term {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--accent-ink);
+}
+
+.word-row-ko {
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.word-row-src {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--faint);
+}
+
+/* 플래시카드 복습 CTA at the top of the 단어장 feed. */
+.review-cta {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+
+/* Flashcard review — full-screen overlay above everything (incl. tab bar). */
+.review {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 18px calc(20px + env(safe-area-inset-bottom));
+  background: var(--paper);
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.review-progress {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.flashcard {
+  flex: 1;
+  min-height: 0;
+  margin: 8px 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  perspective: 1200px;
+}
+
+.flash-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.flash-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flash-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.flash-back {
+  transform: rotateY(180deg);
+}
+
+.flash-term {
+  font-family: var(--display);
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.flash-ko {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent-ink);
+}
+
+.flash-easy {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.flash-ex {
+  margin: 4px 0 0;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--accent-ink);
+}
+
+.flash-exko {
+  font-style: normal;
+  color: var(--muted);
+}
+
+.review-hint {
+  margin: 0 0 12px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--faint);
+}
+
+.review-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.review-btn {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.review-btn.review-next {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+/* 단어장 복습/퀴즈 CTAs row. */
+.review-ctas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.review-ctas .review-cta {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.review-cta.quiz-cta {
+  background: var(--accent-ink);
+}
+
+/* Wrong-answer badge in the 자주 틀린 단어 list. */
+.word-wrong {
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #fbe7e2;
+  color: #b4441f;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Quiz overlay (reuses .review full-screen shell). */
+.quiz-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  overflow-y: auto;
+}
+
+.quiz-prompt {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.quiz-term {
+  margin: 0;
+  text-align: center;
+  font-family: var(--display);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz-opt {
+  width: 100%;
+  padding: 15px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  font-size: 16px;
+  text-align: left;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.quiz-opt:disabled {
+  opacity: 1;
+}
+
+.quiz-opt.is-correct {
+  border-color: #2f9e54;
+  background: #e6f5ec;
+  color: #1c6b39;
+  font-weight: 600;
+}
+
+.quiz-opt.is-wrong {
+  border-color: #d4604a;
+  background: #fbe7e2;
+  color: #b4441f;
+}
+
+.quiz-score {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--accent-ink);
+}
+
+.quiz-result {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quiz-result-score {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--accent-ink);
+}
+
+.quiz-result-msg {
+  margin: 0;
+  font-size: 18px;
+  color: var(--ink);
 }
 
 /* AI prompt copy — sits just under the caption/glossary. */
@@ -1062,7 +1504,10 @@ body.is-detail .tabbar {
   position: fixed;
   inset: 0;
   background: rgba(20, 26, 23, 0.42);
-  z-index: 20;
+  /* Above the bottom tab bar (z-index 30): the word sheet can open from the
+     단어장 tab, where the tab bar is still visible and would otherwise cover the
+     sheet's bottom (e.g. the 단어장 저장 button). */
+  z-index: 40;
 }
 
 .sheet {
@@ -1070,7 +1515,7 @@ body.is-detail .tabbar {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 21;
+  z-index: 41;
   width: min(100%, 520px);
   margin: 0 auto;
   max-height: 76vh;

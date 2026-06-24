@@ -42,6 +42,64 @@
       <div class="home-feed" id="libraryFeed"></div>
     </main>
 
+    <!-- WORDS — 단어장 (saved vocabulary) ------------------------------- -->
+    <main class="home" id="wordsView" aria-label="단어장" hidden>
+      <header class="home-top">
+        <h1 class="home-heading">단어장</h1>
+        <span class="home-count" id="wordsCount"></span>
+      </header>
+      <nav class="home-filters" id="wordsFilters" aria-label="단어 종류 필터"></nav>
+      <div class="home-feed" id="wordsFeed"></div>
+    </main>
+
+    <!-- REVIEW — 플래시카드 복습 (full-screen sub-mode of 단어장) ----------- -->
+    <div class="review" id="reviewView" hidden aria-label="단어 복습">
+      <header class="review-top">
+        <button type="button" class="iconbtn" id="reviewClose" aria-label="복습 닫기">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+        </button>
+        <span class="review-progress" id="reviewProgress">0 / 0</span>
+        <button type="button" class="iconbtn" id="reviewShuffle" aria-label="섞기">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 4h4v4M20 4l-7 7M4 20l6-6M16 20h4v-4M4 4l16 16" /></svg>
+        </button>
+      </header>
+      <button type="button" class="flashcard" id="flashcard" aria-label="카드 뒤집기">
+        <div class="flash-inner" id="flashInner">
+          <div class="flash-face flash-front" id="flashFront"></div>
+          <div class="flash-face flash-back" id="flashBack"></div>
+        </div>
+      </button>
+      <p class="review-hint" id="reviewHint">카드를 탭하면 뜻이 보여요</p>
+      <div class="review-nav">
+        <button type="button" class="review-btn" id="reviewPrev">이전</button>
+        <button type="button" class="review-btn review-next" id="reviewNext">다음</button>
+      </div>
+    </div>
+
+    <!-- QUIZ — 객관식 뜻 맞히기 (full-screen sub-mode of 단어장) ----------- -->
+    <div class="review quiz" id="quizView" hidden aria-label="단어 퀴즈">
+      <header class="review-top">
+        <button type="button" class="iconbtn" id="quizClose" aria-label="퀴즈 닫기">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+        </button>
+        <span class="review-progress" id="quizProgress">0 / 0</span>
+        <span class="quiz-score" id="quizScore">⭐ 0</span>
+      </header>
+      <div class="quiz-body" id="quizBody">
+        <p class="quiz-prompt">이 표현의 뜻은?</p>
+        <p class="quiz-term" id="quizTerm"></p>
+        <div class="quiz-options" id="quizOptions"></div>
+      </div>
+      <div class="quiz-result" id="quizResult" hidden>
+        <p class="quiz-result-score" id="quizResultScore"></p>
+        <p class="quiz-result-msg" id="quizResultMsg"></p>
+      </div>
+      <div class="review-nav">
+        <button type="button" class="review-btn" id="quizRestart" hidden>다시 풀기</button>
+        <button type="button" class="review-btn review-next" id="quizNext" hidden>다음</button>
+      </div>
+    </div>
+
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>
       <header class="topbar">
@@ -145,6 +203,10 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7" /><path d="M6 10v9h12v-9" /></svg>
         <span>홈</span>
       </a>
+      <a class="tab" id="tabWords" href="#/words">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a1 1 0 0 1 1-1h9a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4z" /><path d="M17 7a3 3 0 0 1 3-3v15a2 2 0 0 0-2 2" /></svg>
+        <span>단어장</span>
+      </a>
       <a class="tab" id="tabLibrary" href="#/library">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" /></svg>
         <span>보관함</span>
@@ -172,6 +234,12 @@
       </div>
       <p class="notes-empty" id="notesEmpty" hidden>아직 저장한 구간이 없어요. 쉐도잉 중 ‘저장’을 눌러 보세요.</p>
       <div class="segment-list" id="notesList"></div>
+    </aside>
+
+    <!-- 단어 상세 시트 — 자막 밑 칩을 탭하면 그 단어의 풍부 해설이 열린다 -->
+    <aside class="sheet word-sheet" id="wordSheet" aria-label="단어 상세" aria-hidden="true">
+      <div class="sheet-grip"></div>
+      <div class="word-detail" id="wordDetail"></div>
     </aside>
 
     <script src="https://www.youtube.com/iframe_api" async></script>

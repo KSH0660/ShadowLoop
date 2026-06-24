@@ -166,20 +166,53 @@ be genuine help, not noise. Dump a video's segments to read them:
 ```bash
 node -e 'const d=require("./data/transcripts.json");const v=d.videos.find(v=>v.id===process.argv[1]);v.segments.forEach((s,i)=>console.log(i+":", s.lines.map(l=>l.text).join(" ")))' VIDEOID
 ```
-Edit `data/glossary.json`, keyed by video id then **segment index** (a string), each entry
-`{ term, ko, type }` (`type` ∈ `idiom` | `phrase` | `word`):
+Edit `data/glossary.json`, keyed by video id then **segment index** (a string). Each entry
+has three **required** fields plus optional **rich** fields:
+
 ```json
 "VIDEOID": {
   "3": [
-    { "term": "pull it off", "ko": "해내다, 성공시키다", "type": "idiom" },
+    {
+      "term": "pull it off",
+      "ko": "해내다, 성공시키다",
+      "type": "idiom",
+      "easy": "어렵거나 위험해 보이는 일을 끝내 성공시키다",
+      "nuance": "그냥 'do it'이 아니라, 남들이 못 할 거라 본 걸 멋지게 해냈다는 느낌.",
+      "when": "어려운 발표·계획·공연을 결국 성공시켰을 때.",
+      "ex": "I didn't think the plan would work, but she pulled it off.",
+      "exKo": "그 계획이 될 줄 몰랐는데, 그녀가 결국 해냈다.",
+      "vs": "succeed는 담백하게 '성공하다', pull off는 '어려운데도 해내다'의 뉘앙스.",
+      "tip": "pull off the road(차를 길가에 대다)와 다르다 — 목적어가 일/성과면 '해내다'."
+    },
     { "term": "albeit", "ko": "비록 ~이긴 하지만", "type": "word" }
   ],
   "7": [{ "term": "infant", "ko": "갓난아기", "type": "word" }]
 }
 ```
-- `term` is the English as it appears (use `...` for a span, e.g. `"welcomed ... into the world"`).
-- `ko` is a short Korean gloss in context — the meaning *here*, not a dictionary dump.
-- Keep `data/glossary.json` valid JSON; the leading `"//"` note stays.
+
+**Required** (always present — these form the inline chip under the caption):
+- `term` — the English as it appears (use `...` for a span, e.g. `"welcomed ... into the world"`).
+- `ko` — a short Korean gloss in context (the meaning *here*, not a dictionary dump).
+- `type` ∈ `idiom` | `phrase` | `word`.
+
+**Rich** (all optional, all shown in the tap-to-open word-detail sheet — write at a
+**TOEIC 700 수준 쉬운 한국어**, 풀어 쓰고 사전 덤프 금지). Add as many as genuinely help; a
+plain word may need none, a tricky idiom may use all:
+- `easy` — 쉬운 뜻을 아주 풀어 쓴 **한 줄** (어려운 한자어·전문용어 피하기).
+- `nuance` — 실제 뉘앙스/느낌 (비슷한 쉬운 말과 무엇이 다른지).
+- `when` — 자주 쓰는 상황 (어떤 장면에서 튀어나오는 말인지).
+- `ex` — 쉬운 **영어** 예문 (해당 영상 문장 말고, 짧고 일상적인 새 예문).
+- `exKo` — 그 예문의 자연스러운 한국어 해석.
+- `vs` — 헷갈리는 비슷한 단어와의 차이.
+- `tip` — 외우거나 헷갈릴 때의 포인트 (어원·형태·흔한 실수 등).
+
+Guidance: prioritize the rich fields on **idioms / phrasal verbs / tricky polysemes** (where
+a learner most needs the extra help) and keep truly simple words to `{ term, ko, type }`.
+Don't pad every field with filler — an empty field is better than noise. New videos should be
+glossed in this rich format from the start; the older `{ term, ko, type }`-only entries stay
+valid and render fine (header only).
+
+Keep `data/glossary.json` valid JSON; the leading `"//"` / `"//schema"` notes stay.
 
 Then merge the glosses into the built data **without re-downloading**:
 ```bash

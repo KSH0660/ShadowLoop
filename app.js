@@ -25,7 +25,7 @@ let _seekCooldown = 0;   // performance.now() deadline — suppress seek detecti
 let pendingSegment = null; // segment index to jump to once the next video finishes loading
 
 let state = {
-  view: "home",   // "home" (browse grid) | "library" (saved + in-progress) | "detail" (player)
+  view: "home",   // "home" (browse grid) | "library" | "words" (단어장) | "detail" (player)
   videoId: null,
   title: "영상을 불러오는 중…",
   segments: [],
@@ -37,7 +37,9 @@ let state = {
   cloze: [],      // maskable word indices, in reading order
   pace: "slow",   // slow (3–10 reps) | fast (2–4 reps)
   peek: false,    // holding the peek button → show the full caption
-  sheet: null,    // null | "seg" | "notes"
+  sheet: null,    // null | "seg" | "notes" | "word"
+  wordItem: null, // glossary entry currently shown in the word-detail sheet
+  wordCtx: null,  // { video, seg, label } source of state.wordItem (for 단어장 저장)
   bookmarks: new Set(), // current video's saved segment indices (fast lookup for UI)
 };
 
@@ -51,13 +53,41 @@ const RING_CIRCUMFERENCE = 2 * Math.PI * 54;
 const els = {
   homeView: document.querySelector("#homeView"),
   libraryView: document.querySelector("#libraryView"),
+  wordsView: document.querySelector("#wordsView"),
   detailView: document.querySelector("#detailView"),
   homeFeed: document.querySelector("#homeFeed"),
   libraryFeed: document.querySelector("#libraryFeed"),
+  wordsFeed: document.querySelector("#wordsFeed"),
+  wordsCount: document.querySelector("#wordsCount"),
+  wordsFilters: document.querySelector("#wordsFilters"),
+  reviewView: document.querySelector("#reviewView"),
+  reviewProgress: document.querySelector("#reviewProgress"),
+  reviewShuffle: document.querySelector("#reviewShuffle"),
+  reviewClose: document.querySelector("#reviewClose"),
+  reviewPrev: document.querySelector("#reviewPrev"),
+  reviewNext: document.querySelector("#reviewNext"),
+  reviewHint: document.querySelector("#reviewHint"),
+  flashcard: document.querySelector("#flashcard"),
+  flashInner: document.querySelector("#flashInner"),
+  flashFront: document.querySelector("#flashFront"),
+  flashBack: document.querySelector("#flashBack"),
+  quizView: document.querySelector("#quizView"),
+  quizProgress: document.querySelector("#quizProgress"),
+  quizScore: document.querySelector("#quizScore"),
+  quizClose: document.querySelector("#quizClose"),
+  quizBody: document.querySelector("#quizBody"),
+  quizTerm: document.querySelector("#quizTerm"),
+  quizOptions: document.querySelector("#quizOptions"),
+  quizResult: document.querySelector("#quizResult"),
+  quizResultScore: document.querySelector("#quizResultScore"),
+  quizResultMsg: document.querySelector("#quizResultMsg"),
+  quizNext: document.querySelector("#quizNext"),
+  quizRestart: document.querySelector("#quizRestart"),
   homeFilters: document.querySelector("#homeFilters"),
   homeCount: document.querySelector("#homeCount"),
   tabHome: document.querySelector("#tabHome"),
   tabLibrary: document.querySelector("#tabLibrary"),
+  tabWords: document.querySelector("#tabWords"),
   backBtn: document.querySelector("#backBtn"),
   segBtn: document.querySelector("#segBtn"),
   topbarTitle: document.querySelector("#topbarTitle"),
@@ -90,6 +120,8 @@ const els = {
   notesList: document.querySelector("#notesList"),
   notesCount: document.querySelector("#notesCount"),
   notesEmpty: document.querySelector("#notesEmpty"),
+  wordSheet: document.querySelector("#wordSheet"),
+  wordDetail: document.querySelector("#wordDetail"),
 };
 
 function onYouTubeIframeAPIReady() {
@@ -246,6 +278,78 @@ function removeBookmark(videoId, seg) {
   if (next.length) all[videoId] = next;
   else delete all[videoId];
   saveBookmarks(all);
+}
+
+// --- Vocabulary (단어장) ----------------------------------------------------
+// The learner's personal word list, built by tapping "단어장에 저장" in the word-
+// detail sheet. Stored in localStorage (per device — no backend). Each saved word
+// keeps a full snapshot of its gloss (term/ko/type + any rich fields) plus where
+// it came from (video id, label, segment index), so the 단어장 tab and its review
+// modes are self-describing even if a transcript rebuild shifts segment indices.
+const VOCAB_KEY = "shadowloop:v1:vocab";
+
+function loadVocab() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(VOCAB_KEY));
+    return raw && Array.isArray(raw.words) ? raw : { words: [] };
+  } catch {
+    return { words: [] };
+  }
+}
+
+function saveVocab(data) {
+  try {
+    localStorage.setItem(VOCAB_KEY, JSON.stringify(data));
+  } catch {
+    // localStorage unavailable (e.g. private mode) — the word list just won't persist.
+  }
+}
+
+// Stable identity for a saved word: which gloss, in which video + segment. Lets a
+// word be saved once and toggled off, and the same term in two clips coexist.
+function vocabId(term, videoId, seg) {
+  return `${videoId}::${seg}::${term}`;
+}
+
+function isVocabSaved(term, videoId, seg) {
+  const id = vocabId(term, videoId, seg);
+  return loadVocab().words.some((w) => w.id === id);
+}
+
+// Save / unsave one glossary entry to the 단어장. Returns true if now saved.
+function toggleVocab(item, videoId, seg, videoLabel) {
+  if (!item || !videoId) return false;
+  const data = loadVocab();
+  const id = vocabId(item.term, videoId, seg);
+  const at = data.words.findIndex((w) => w.id === id);
+  let saved;
+  if (at >= 0) {
+    data.words.splice(at, 1);
+    saved = false;
+  } else {
+    // Snapshot the whole gloss (incl. optional rich fields) + its source.
+    data.words.push({ ...item, id, video: videoId, videoLabel, seg, addedAt: Date.now() });
+    saved = true;
+  }
+  saveVocab(data);
+  return saved;
+}
+
+function removeVocab(id) {
+  const data = loadVocab();
+  data.words = data.words.filter((w) => w.id !== id);
+  saveVocab(data);
+}
+
+// Tally a quiz answer onto the saved word: correct/wrong counts drive the
+// "자주 틀린 단어" list. No-op if the word was meanwhile removed.
+function recordQuizResult(id, ok) {
+  const data = loadVocab();
+  const w = data.words.find((x) => x.id === id);
+  if (!w) return;
+  if (ok) w.correct = (w.correct || 0) + 1;
+  else w.wrong = (w.wrong || 0) + 1;
+  saveVocab(data);
 }
 
 // --- Study activity (daily learning heatmap) -------------------------------
@@ -568,11 +672,249 @@ function renderLibrary() {
   els.libraryFeed.innerHTML = sections.join("");
 }
 
+// WORDS (단어장) — the saved-vocabulary tab. Lists every saved gloss, most-recent
+// first; each row shows the term, its 간결한 뜻, type, and source clip. Tapping a row
+// reopens the same word-detail sheet; the × removes it.
+function wordRowHtml(w, opts = {}) {
+  const type = TYPE_LABEL[w.type];
+  const src = w.videoLabel ? `${escapeHtml(w.videoLabel)} · 구간 ${w.seg + 1}` : "";
+  const wrong = opts.showWrong && w.wrong ? `<span class="word-wrong">✕ ${w.wrong}</span>` : "";
+  return `
+    <div class="word-row">
+      <button type="button" class="word-row-main" data-id="${escapeHtml(w.id)}">
+        <span class="word-row-top">
+          <span class="word-row-term">${escapeHtml(w.term)}</span>
+          ${type ? `<span class="word-type">${type}</span>` : ""}
+          ${wrong}
+        </span>
+        <span class="word-row-ko">${escapeHtml(w.ko)}</span>
+        ${src ? `<span class="word-row-src">${src}</span>` : ""}
+      </button>
+      <button type="button" class="note-del word-del" data-del="${escapeHtml(w.id)}" aria-label="단어장에서 삭제">×</button>
+    </div>`;
+}
+
+// 난이도(=type) filter for the 단어장 list + review set. "all" or a gloss type.
+let wordsFilter = "all";
+const WORDS_FILTERS = [["all", "전체"], ["idiom", "관용구"], ["phrase", "표현"], ["word", "단어"]];
+
+// The saved words after the active type filter, most-recent-first (review order
+// shuffles a copy of this).
+function filteredVocab() {
+  const words = loadVocab().words.slice().sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0));
+  return wordsFilter === "all" ? words : words.filter((w) => w.type === wordsFilter);
+}
+
+function renderWords() {
+  const all = loadVocab().words;
+  els.wordsCount.textContent = all.length ? `${all.length}개 단어` : "";
+  if (!all.length) {
+    wordsFilter = "all";
+    els.wordsFilters.innerHTML = "";
+    els.wordsFeed.innerHTML = `<p class="home-empty">아직 저장한 단어가 없어요.<br>영상 자막 밑의 단어 칩을 눌러 ‘단어장에 저장’해 보세요.</p>`;
+    return;
+  }
+
+  const counts = { all: all.length, word: 0, phrase: 0, idiom: 0 };
+  all.forEach((w) => { if (counts[w.type] != null) counts[w.type] += 1; });
+  // A filter whose type no longer has any words falls back to 전체.
+  if (wordsFilter !== "all" && !counts[wordsFilter]) wordsFilter = "all";
+
+  els.wordsFilters.innerHTML = WORDS_FILTERS
+    .filter(([k]) => k === "all" || counts[k] > 0)
+    .map(([k, label]) => `
+      <button type="button" class="chip${k === wordsFilter ? " is-active" : ""}" data-wfilter="${k}">
+        ${label}<span class="chip-count">${counts[k]}</span>
+      </button>`)
+    .join("");
+
+  const list = filteredVocab();
+
+  // 자주 틀린 단어 — words with quiz misses, most-missed first. Cross-cutting, so
+  // only shown in the unfiltered 전체 view (it has its own ordering).
+  const troubled = wordsFilter === "all"
+    ? all.filter((w) => w.wrong > 0)
+        .sort((a, b) => (b.wrong - a.wrong) || ((b.addedAt || 0) - (a.addedAt || 0)))
+        .slice(0, 12)
+    : [];
+
+  let html = "";
+  if (troubled.length) {
+    html += `
+      <section class="feed-group">
+        <h2 class="feed-group-title">자주 틀린 단어</h2>
+        <div class="word-rows">${troubled.map((w) => wordRowHtml(w, { showWrong: true })).join("")}</div>
+      </section>`;
+  }
+
+  if (list.length) {
+    // 복습(플래시카드) is available with any word; 퀴즈 needs ≥4 words for choices.
+    html += `
+      <div class="review-ctas">
+        <button type="button" class="review-cta" id="reviewStart">🎴 플래시카드 · ${list.length}</button>
+        ${all.length >= 4 ? `<button type="button" class="review-cta quiz-cta" id="quizStart">📝 퀴즈 · ${list.length}</button>` : ""}
+      </div>
+      <section class="feed-group">
+        ${troubled.length ? `<h2 class="feed-group-title">전체 단어</h2>` : ""}
+        <div class="word-rows">${list.map((w) => wordRowHtml(w)).join("")}</div>
+      </section>`;
+  }
+
+  els.wordsFeed.innerHTML = html;
+}
+
+// --- Flashcard review (복습) ------------------------------------------------
+// A full-screen sub-mode of the 단어장: flip through the (filtered) saved words as
+// flashcards. Front = term; back = 뜻 + 쉬운 뜻 + 예문. Shuffled each start.
+const review = { cards: [], idx: 0, flipped: false };
+
+function shuffled(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startReview(words) {
+  if (!words.length) return;
+  review.cards = shuffled(words);
+  review.idx = 0;
+  renderCard();
+  els.reviewView.hidden = false;
+  document.body.classList.add("is-review");
+}
+
+function renderCard() {
+  const w = review.cards[review.idx];
+  if (!w) return;
+  els.reviewProgress.textContent = `${review.idx + 1} / ${review.cards.length}`;
+  const type = TYPE_LABEL[w.type];
+  els.flashFront.innerHTML = `
+    <span class="flash-term">${escapeHtml(w.term)}</span>
+    ${type ? `<span class="word-type">${type}</span>` : ""}`;
+  const back = [`<p class="flash-ko">${escapeHtml(w.ko)}</p>`];
+  if (w.easy) back.push(`<p class="flash-easy">${escapeHtml(w.easy)}</p>`);
+  if (w.ex) {
+    back.push(`<p class="flash-ex">${escapeHtml(w.ex)}${w.exKo ? `<br><span class="flash-exko">${escapeHtml(w.exKo)}</span>` : ""}</p>`);
+  }
+  els.flashBack.innerHTML = back.join("");
+  setFlip(false);
+}
+
+function setFlip(on) {
+  review.flipped = on;
+  els.flashInner.classList.toggle("is-flipped", on);
+  els.reviewHint.textContent = on ? "다시 탭하면 단어로" : "카드를 탭하면 뜻이 보여요";
+}
+
+function reviewStep(delta) {
+  const n = review.cards.length;
+  if (!n) return;
+  review.idx = (review.idx + delta + n) % n;
+  renderCard();
+}
+
+function closeReview() {
+  els.reviewView.hidden = true;
+  document.body.classList.remove("is-review");
+}
+
+// --- Quiz (퀴즈) ------------------------------------------------------------
+// Multiple-choice "meaning of this expression?" over the (filtered) saved words.
+// Each answer is tallied onto the word (correct/wrong) for the 자주 틀린 단어 list.
+const quiz = { cards: [], idx: 0, answered: false, correct: 0, source: [] };
+
+// Build the question deck: each card is a word + four Korean choices (its own
+// gloss plus distractors drawn from the whole 단어장), with the right index.
+function buildQuiz(words) {
+  const pool = [...new Set(loadVocab().words.map((w) => w.ko))];
+  return shuffled(words).map((w) => {
+    const distractors = shuffled(pool.filter((k) => k !== w.ko)).slice(0, 3);
+    const options = shuffled([w.ko, ...distractors]);
+    return { word: w, options, answer: options.indexOf(w.ko) };
+  });
+}
+
+function startQuiz(words) {
+  if (words.length < 1 || loadVocab().words.length < 4) return;
+  quiz.source = words;
+  quiz.cards = buildQuiz(words);
+  quiz.idx = 0;
+  quiz.correct = 0;
+  els.quizResult.hidden = true;
+  els.quizBody.hidden = false;
+  renderQuestion();
+  els.quizView.hidden = false;
+  document.body.classList.add("is-review");
+}
+
+function renderQuestion() {
+  const c = quiz.cards[quiz.idx];
+  if (!c) return;
+  quiz.answered = false;
+  els.quizProgress.textContent = `${quiz.idx + 1} / ${quiz.cards.length}`;
+  els.quizScore.textContent = `⭐ ${quiz.correct}`;
+  els.quizTerm.textContent = c.word.term;
+  els.quizOptions.innerHTML = c.options
+    .map((opt, i) => `<button type="button" class="quiz-opt" data-i="${i}">${escapeHtml(opt)}</button>`)
+    .join("");
+  els.quizNext.hidden = true;
+  els.quizRestart.hidden = true;
+}
+
+function answerQuiz(picked) {
+  if (quiz.answered) return;
+  quiz.answered = true;
+  const c = quiz.cards[quiz.idx];
+  const ok = picked === c.answer;
+  if (ok) quiz.correct += 1;
+  recordQuizResult(c.word.id, ok);
+  [...els.quizOptions.children].forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === c.answer) btn.classList.add("is-correct");
+    else if (i === picked) btn.classList.add("is-wrong");
+  });
+  els.quizScore.textContent = `⭐ ${quiz.correct}`;
+  const last = quiz.idx === quiz.cards.length - 1;
+  els.quizNext.textContent = last ? "결과 보기" : "다음";
+  els.quizNext.hidden = false;
+}
+
+function quizNext() {
+  if (quiz.idx >= quiz.cards.length - 1) { showQuizResult(); return; }
+  quiz.idx += 1;
+  renderQuestion();
+}
+
+function showQuizResult() {
+  const total = quiz.cards.length;
+  const score = quiz.correct;
+  els.quizBody.hidden = true;
+  els.quizResult.hidden = false;
+  els.quizResultScore.textContent = `${score} / ${total}`;
+  const pct = total ? score / total : 0;
+  els.quizResultMsg.textContent =
+    pct === 1 ? "완벽해요! 🎉" : pct >= 0.7 ? "잘했어요! 👏" : pct >= 0.4 ? "조금만 더! 💪" : "다시 복습해 볼까요? 📖";
+  els.quizProgress.textContent = `${total} / ${total}`;
+  els.quizNext.hidden = true;
+  els.quizRestart.hidden = false;
+}
+
+function closeQuiz() {
+  els.quizView.hidden = true;
+  document.body.classList.remove("is-review");
+}
+
 // --- Routing ---------------------------------------------------------------
 // #/            → home
 // #/library     → 보관함 (saved expressions + in-progress)
+// #/words       → 단어장 (saved vocabulary)
 // #/v/<videoId> → that video's detail page
 function route() {
+  closeReview(); // leaving / re-entering a view always exits the flashcard overlay
+  closeQuiz();
   const hash = location.hash || "#/";
   const match = hash.match(/^#\/v\/(.+)$/);
   if (match) {
@@ -580,6 +922,7 @@ function route() {
     if (video) { showDetail(video); return; }
   }
   if (hash === "#/library") { showLibrary(); return; }
+  if (hash === "#/words") { showWords(); return; }
   showHome();
 }
 
@@ -598,7 +941,7 @@ function goHome() {
 
 // Reflect the active top-level view in the bottom tab bar (detail hides it).
 function setActiveTab(which) {
-  [["home", els.tabHome], ["library", els.tabLibrary]].forEach(([name, el]) => {
+  [["home", els.tabHome], ["words", els.tabWords], ["library", els.tabLibrary]].forEach(([name, el]) => {
     const on = name === which;
     el.classList.toggle("is-active", on);
     if (on) el.setAttribute("aria-current", "page");
@@ -613,6 +956,7 @@ function showHome() {
   renderHome(); // refresh thumbnail progress bars with the latest watched position
   els.homeView.hidden = false;
   els.libraryView.hidden = true;
+  els.wordsView.hidden = true;
   els.detailView.hidden = true;
   document.body.classList.remove("is-detail");
   setActiveTab("home");
@@ -626,9 +970,24 @@ function showLibrary() {
   renderLibrary(); // refresh saved/in-progress with the latest state
   els.homeView.hidden = true;
   els.libraryView.hidden = false;
+  els.wordsView.hidden = true;
   els.detailView.hidden = true;
   document.body.classList.remove("is-detail");
   setActiveTab("library");
+  window.scrollTo(0, 0);
+}
+
+function showWords() {
+  state.view = "words";
+  closeSheet();
+  if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
+  renderWords();
+  els.homeView.hidden = true;
+  els.libraryView.hidden = true;
+  els.wordsView.hidden = false;
+  els.detailView.hidden = true;
+  document.body.classList.remove("is-detail");
+  setActiveTab("words");
   window.scrollTo(0, 0);
 }
 
@@ -636,6 +995,7 @@ function showDetail(video) {
   state.view = "detail";
   els.homeView.hidden = true;
   els.libraryView.hidden = true;
+  els.wordsView.hidden = true;
   els.detailView.hidden = false;
   document.body.classList.add("is-detail");
   window.scrollTo(0, 0);
@@ -853,14 +1213,79 @@ function renderGlossary(segment) {
     els.glossary.classList.remove("is-shown");
     return;
   }
+  // Each chip stays intentionally terse (term + 간결한 뜻); tapping it opens the
+  // word-detail sheet with whatever rich fields the gloss has (all optional).
   els.glossList.innerHTML = items
-    .map((g) => `
-        <li class="gloss-item">
-          <span class="gloss-term">${escapeHtml(g.term)}</span>
-          <span class="gloss-ko">${escapeHtml(g.ko)}</span>
+    .map((g, i) => `
+        <li>
+          <button type="button" class="gloss-item" data-gloss="${i}">
+            <span class="gloss-term">${escapeHtml(g.term)}</span>
+            <span class="gloss-ko">${escapeHtml(g.ko)}</span>
+          </button>
         </li>`)
     .join("");
   els.glossary.hidden = false;
+}
+
+// Korean labels for the gloss `type` (the only "난이도" signal we have for now).
+const TYPE_LABEL = { word: "단어", phrase: "표현", idiom: "관용구" };
+
+// Render one glossary entry's rich detail into the word sheet. Every rich field
+// (easy/nuance/when/ex/exKo/vs/tip) is optional — only the present ones show, so
+// older { term, ko, type }-only glosses still render cleanly (just the header).
+function renderWordDetail(item) {
+  const field = (label, value) =>
+    value ? `<div class="word-field"><span class="word-field-label">${label}</span><p class="word-field-val">${escapeHtml(value)}</p></div>` : "";
+
+  const exHtml = item.ex
+    ? `<div class="word-field"><span class="word-field-label">예문</span>
+         <p class="word-field-val word-ex-en">${escapeHtml(item.ex)}</p>
+         ${item.exKo ? `<p class="word-field-val word-ex-ko">${escapeHtml(item.exKo)}</p>` : ""}</div>`
+    : "";
+
+  const body = [
+    field("쉬운 뜻", item.easy),
+    field("뉘앙스", item.nuance),
+    field("이런 상황에", item.when),
+    exHtml,
+    field("비슷한 말과 차이", item.vs),
+    field("헷갈리면", item.tip),
+  ].filter(Boolean).join("");
+
+  const typeLabel = TYPE_LABEL[item.type];
+  const ctx = state.wordCtx || {};
+  const saved = isVocabSaved(item.term, ctx.video, ctx.seg);
+  els.wordDetail.innerHTML = `
+    <div class="word-head">
+      <div class="word-head-top">
+        <span class="word-term">${escapeHtml(item.term)}</span>
+        ${typeLabel ? `<span class="word-type">${typeLabel}</span>` : ""}
+      </div>
+      <p class="word-ko">${escapeHtml(item.ko)}</p>
+    </div>
+    ${body ? `<div class="word-fields">${body}</div>` : `<p class="word-empty">자세한 해설은 아직 준비 중이에요.</p>`}
+    <button type="button" class="word-save ${saved ? "is-saved" : ""}" id="wordSaveBtn">
+      ${saved ? "★ 단어장에 저장됨" : "☆ 단어장에 저장"}
+    </button>`;
+}
+
+// The label of the currently-open video (its short tag), used as the source
+// label when saving a word to the 단어장 from the player.
+function currentVideoLabel() {
+  const v = videos.find((x) => x.id === state.videoId);
+  return v ? (v.tag || v.title || "") : state.title;
+}
+
+// Open the word-detail sheet for a glossary entry. `ctx` ({ video, seg, label })
+// records where the word came from so it can be saved to / removed from the 단어장;
+// it defaults to the current player segment. Re-renders if already open (tapping a
+// different chip), so switching words doesn't toggle the sheet shut.
+function openWordSheet(item, ctx) {
+  if (!item) return;
+  state.wordItem = item;
+  state.wordCtx = ctx || { video: state.videoId, seg: state.current, label: currentVideoLabel() };
+  renderWordDetail(item);
+  if (state.sheet !== "word") openSheet("word");
 }
 
 // Push the current reveal progress into the DOM. The whole caption fades in as
@@ -975,8 +1400,9 @@ function tick() {
 
 requestAnimationFrame(tick);
 
-// Two bottom sheets, one open at a time: "seg" (segment list) and "notes"
-// (this video's saved segments). Passing the open sheet's name again closes it.
+// Bottom sheets, one open at a time: "seg" (segment list), "notes" (this video's
+// saved segments), and "word" (one glossary entry's rich detail). Passing the
+// open sheet's name again closes it.
 function openSheet(which) {
   state.sheet = state.sheet === which ? null : which;
   if (state.sheet === "notes") renderNotes();
@@ -984,6 +1410,8 @@ function openSheet(which) {
   els.segSheet.setAttribute("aria-hidden", String(state.sheet !== "seg"));
   els.notesSheet.classList.toggle("is-open", state.sheet === "notes");
   els.notesSheet.setAttribute("aria-hidden", String(state.sheet !== "notes"));
+  els.wordSheet.classList.toggle("is-open", state.sheet === "word");
+  els.wordSheet.setAttribute("aria-hidden", String(state.sheet !== "word"));
   els.sheetBackdrop.hidden = state.sheet === null;
   els.segBtn.setAttribute("aria-expanded", String(state.sheet === "seg"));
   els.notesBtn.setAttribute("aria-expanded", String(state.sheet === "notes"));
@@ -1181,6 +1609,78 @@ els.caption.addEventListener("click", (event) => {
   seekToLine(Number(line.dataset.line));
 });
 
+// Tapping a glossary chip opens its rich detail in the word sheet.
+els.glossList.addEventListener("click", (event) => {
+  const chip = event.target.closest(".gloss-item");
+  if (!chip) return;
+  const items = state.segments[state.current]?.glossary || [];
+  openWordSheet(items[Number(chip.dataset.gloss)]);
+});
+
+// Save / unsave the open word to the 단어장 (button lives inside the word sheet).
+els.wordDetail.addEventListener("click", (event) => {
+  if (!event.target.closest(".word-save")) return;
+  const ctx = state.wordCtx || {};
+  const saved = toggleVocab(state.wordItem, ctx.video, ctx.seg, ctx.label);
+  renderWordDetail(state.wordItem); // refresh the button's saved state
+  if (state.view === "words") renderWords(); // keep the list in sync if open behind
+  showToast(saved ? "단어장에 저장했어요" : "단어장에서 뺐어요");
+});
+
+// 단어장 list: 복습 시작 / tap a row to reopen its detail / × removes it.
+els.wordsFeed.addEventListener("click", (event) => {
+  if (event.target.closest("#reviewStart")) {
+    startReview(filteredVocab());
+    return;
+  }
+  if (event.target.closest("#quizStart")) {
+    startQuiz(filteredVocab());
+    return;
+  }
+  const del = event.target.closest(".word-del");
+  if (del) {
+    removeVocab(del.dataset.del);
+    renderWords();
+    return;
+  }
+  const main = event.target.closest(".word-row-main");
+  if (!main) return;
+  const w = loadVocab().words.find((x) => x.id === main.dataset.id);
+  if (w) openWordSheet(w, { video: w.video, seg: w.seg, label: w.videoLabel });
+});
+
+// 난이도(type) filter chips.
+els.wordsFilters.addEventListener("click", (event) => {
+  const chip = event.target.closest("[data-wfilter]");
+  if (!chip || chip.dataset.wfilter === wordsFilter) return;
+  wordsFilter = chip.dataset.wfilter;
+  renderWords();
+});
+
+// Flashcard review controls.
+els.flashcard.addEventListener("click", () => setFlip(!review.flipped));
+els.reviewNext.addEventListener("click", () => reviewStep(1));
+els.reviewPrev.addEventListener("click", () => reviewStep(-1));
+els.reviewClose.addEventListener("click", closeReview);
+els.reviewShuffle.addEventListener("click", () => {
+  if (!review.cards.length) return;
+  review.cards = shuffled(review.cards);
+  review.idx = 0;
+  renderCard();
+});
+
+// Quiz controls.
+els.quizOptions.addEventListener("click", (event) => {
+  const opt = event.target.closest(".quiz-opt");
+  if (opt) answerQuiz(Number(opt.dataset.i));
+});
+els.quizNext.addEventListener("click", quizNext);
+els.quizRestart.addEventListener("click", () => startQuiz(quiz.source));
+els.quizClose.addEventListener("click", () => {
+  closeQuiz();
+  if (state.view === "words") renderWords(); // refresh 자주 틀린 단어 with new tallies
+});
+
 els.segmentList.addEventListener("click", (event) => {
   const item = event.target.closest(".segment-item");
   if (!item) return;
@@ -1237,6 +1737,30 @@ els.speedButtons.forEach((button) => {
 document.addEventListener("keydown", (event) => {
   if (event.target instanceof HTMLInputElement) return;
   const key = event.key.toLowerCase();
+
+  // Quiz overlay captures keys while open: 1–4 pick an option, Enter advances.
+  if (!els.quizView.hidden) {
+    if (key === "escape") { closeQuiz(); if (state.view === "words") renderWords(); }
+    else if ("1234".includes(key) && !quiz.answered && !els.quizBody.hidden) {
+      const i = Number(key) - 1;
+      if (i < quiz.cards[quiz.idx]?.options.length) answerQuiz(i);
+    } else if (key === "enter" || key === " ") {
+      event.preventDefault();
+      if (!els.quizNext.hidden) quizNext();
+      else if (!els.quizRestart.hidden) startQuiz(quiz.source);
+    }
+    return;
+  }
+
+  // Flashcard review overlay captures keys while open.
+  if (!els.reviewView.hidden) {
+    if (key === "escape") closeReview();
+    else if (key === "arrowright") reviewStep(1);
+    else if (key === "arrowleft") reviewStep(-1);
+    else if (key === " " || key === "enter") { event.preventDefault(); setFlip(!review.flipped); }
+    return;
+  }
+
   if (key === "escape") {
     if (state.sheet) closeSheet();
     else if (state.view !== "home") goHome();
