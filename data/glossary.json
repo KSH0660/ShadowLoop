@@ -2620,5 +2620,574 @@
         "exKo": "스캔들 하나가 좋은 이름에 먹칠할 수 있어요."
       }
     ]
+  },
+  "7dVyEbHRTlU": {
+    "5": [
+      {
+        "term": "temp job",
+        "ko": "임시직, 잠깐 하는 일",
+        "type": "phrase",
+        "easy": "정식이 아니라 잠깐만 하기로 한 일",
+        "when": "단기·임시로 일할 때",
+        "ex": "It was just a temp job to pay the bills.",
+        "exKo": "그건 생활비 벌려고 잠깐 한 임시직이었어요.",
+        "tip": "temp는 temporary(임시의)를 줄인 말이에요."
+      }
+    ],
+    "10": [
+      {
+        "term": "figure it out",
+        "ko": "(스스로) 알아내다, 해결하다",
+        "type": "idiom",
+        "easy": "고민해서 답·방법을 찾아내다",
+        "when": "어려운 문제의 해법을 찾을 때",
+        "ex": "Don't worry, we'll figure it out.",
+        "exKo": "걱정 마, 우리가 알아낼 거야.",
+        "tip": "figure out = 알아내다; 대명사는 figure it out처럼 사이에 넣어요."
+      }
+    ],
+    "12": [
+      {
+        "term": "head chef",
+        "ko": "주방장, 수석 요리사",
+        "type": "phrase"
+      }
+    ],
+    "16": [
+      {
+        "term": "eclectic",
+        "ko": "여러 가지를 섞은, 다채로운",
+        "type": "word",
+        "easy": "한 가지에 안 치우치고 이것저것 두루 모은",
+        "nuance": "취향·메뉴가 폭넓고 개성 있다는 긍정적 느낌",
+        "when": "음악·음식·취향이 다양할 때",
+        "ex": "She has an eclectic taste in music.",
+        "exKo": "그녀는 음악 취향이 다채로워요."
+      }
+    ]
+  },
+  "221F55VPp2M": {
+    "2": [
+      {
+        "term": "Tony Award",
+        "ko": "토니상 (미국 뮤지컬·연극상)",
+        "type": "phrase"
+      }
+    ],
+    "9": [
+      {
+        "term": "two gifts in one",
+        "ko": "하나로 두 가지 (일석이조)",
+        "type": "phrase",
+        "easy": "선물 하나가 두 가지 역할을 함",
+        "when": "한 번에 두 효과를 볼 때",
+        "ex": "It's a speaker and a lamp — two gifts in one!",
+        "exKo": "스피커이자 램프예요 — 하나로 두 가지죠!"
+      }
+    ],
+    "16": [
+      {
+        "term": "audition",
+        "ko": "오디션 (배역 심사)",
+        "type": "word"
+      }
+    ],
+    "18": [
+      {
+        "term": "while you're at it",
+        "ko": "하는 김에, 그 김에",
+        "type": "idiom",
+        "easy": "이미 그 일을 하는 김에 한 가지 더",
+        "when": "부탁을 덧붙일 때",
+        "ex": "Get me a coffee, and while you're at it, grab a napkin.",
+        "exKo": "커피 좀 갖다줘, 그리고 하는 김에 냅킨도.",
+        "tip": "부탁을 자연스럽게 덧붙일 때 아주 자주 써요."
+      }
+    ]
+  },
+  "QY7BWZ_aSc4": {
+    "1": [
+      {
+        "term": "show up",
+        "ko": "(약속 장소에) 나타나다",
+        "type": "phrase",
+        "easy": "예정된 곳에 모습을 드러내다",
+        "when": "약속·행사에 오거나 안 올 때",
+        "ex": "He didn't show up to the meeting.",
+        "exKo": "그는 회의에 나타나지 않았어요.",
+        "tip": "show up = 나타나다; no-show는 '안 나타난 사람'."
+      },
+      {
+        "term": "agent",
+        "ko": "에이전트, (연예) 매니저",
+        "type": "word"
+      }
+    ],
+    "10": [
+      {
+        "term": "missed my chance",
+        "ko": "기회를 놓쳤다",
+        "type": "phrase",
+        "easy": "좋은 기회를 잡지 못하고 흘려보냈다",
+        "when": "타이밍을 놓쳤을 때",
+        "ex": "I missed my chance to apply.",
+        "exKo": "지원할 기회를 놓쳤어요."
+      }
+    ],
+    "13": [
+      {
+        "term": "what a sad little life she must lead",
+        "ko": "참 한심한 인생을 사는구나",
+        "type": "idiom",
+        "easy": "상대를 불쌍하고 한심하다고 비꼬는 말",
+        "nuance": "동정하는 척 깔보는 빈정거림",
+        "when": "누군가를 비꼴 때",
+        "tip": "lead a life = (어떤) 삶을 살다."
+      }
+    ],
+    "22": [
+      {
+        "term": "you are a doll",
+        "ko": "너 정말 천사야 (고마워)",
+        "type": "idiom",
+        "easy": "너무 착하고 고맙다는 다정한 칭찬",
+        "nuance": "doll(인형)처럼 사랑스럽다는 친근한 표현",
+        "when": "상대가 친절을 베풀었을 때",
+        "ex": "Thanks for helping — you're a doll!",
+        "exKo": "도와줘서 고마워 — 너 정말 천사야!"
+      }
+    ]
+  },
+  "iAnlaR398hs": {
+    "1": [
+      {
+        "term": "die an old maid",
+        "ko": "노처녀로 늙어 죽다",
+        "type": "idiom",
+        "easy": "결혼 못 하고 혼자 늙는다는 옛날식 표현",
+        "nuance": "old maid/spinster는 낡고 부정적인 말이라 농담조로만",
+        "when": "결혼 못 할까 봐 한탄할 때",
+        "ex": "I'm going to die an old maid!",
+        "exKo": "나 이러다 노처녀로 늙어 죽겠어!",
+        "tip": "spinster도 같은 뜻의 옛말이에요."
+      }
+    ],
+    "3": [
+      {
+        "term": "worse comes to worst",
+        "ko": "최악의 경우라도",
+        "type": "idiom",
+        "easy": "정 안 되면, 최악의 상황이 와도",
+        "when": "안 좋은 가능성에 대비할 때",
+        "ex": "If worse comes to worst, we'll take a taxi.",
+        "exKo": "정 안 되면 택시 타면 되죠."
+      }
+    ],
+    "6": [
+      {
+        "term": "boyfriend material",
+        "ko": "남자친구감",
+        "type": "idiom",
+        "easy": "사귀기에 괜찮은 사람",
+        "nuance": "잠깐 만날 사람이 아니라 진지하게 사귈 만한 사람",
+        "when": "연애 상대로 적합한지 따질 때",
+        "ex": "He's nice, but not boyfriend material.",
+        "exKo": "걔 착하긴 한데 남자친구감은 아니야.",
+        "tip": "marriage material(결혼감)처럼도 써요."
+      }
+    ],
+    "8": [
+      {
+        "term": "blind date",
+        "ko": "소개팅",
+        "type": "phrase",
+        "easy": "서로 모르는 사람끼리 주선으로 만나는 데이트",
+        "when": "지인이 짝을 소개해줄 때",
+        "ex": "My friend set me up on a blind date.",
+        "exKo": "친구가 소개팅을 주선해줬어요."
+      }
+    ],
+    "20": [
+      {
+        "term": "fashion-impaired",
+        "ko": "패션 감각이 없는",
+        "type": "phrase",
+        "easy": "옷 입는 센스가 영 없는 (농담조)",
+        "when": "옷차림 센스를 놀릴 때",
+        "tip": "-impaired는 '~능력이 떨어지는'이라는 말에 붙여 농담으로 써요."
+      }
+    ]
+  },
+  "dwcavo44AFk": {
+    "7": [
+      {
+        "term": "ASAP",
+        "ko": "최대한 빨리 (as soon as possible)",
+        "type": "word"
+      }
+    ],
+    "10": [
+      {
+        "term": "stick it out",
+        "ko": "끝까지 버티다, 참고 견디다",
+        "type": "idiom",
+        "easy": "힘들어도 그만두지 않고 끝까지 하다",
+        "when": "포기하고 싶지만 버틸 때",
+        "ex": "The job is hard, but I'll stick it out.",
+        "exKo": "일이 힘들지만 끝까지 버텨볼게요."
+      },
+      {
+        "term": "demeaning",
+        "ko": "굴욕적인, 자존심 상하는",
+        "type": "word",
+        "easy": "사람을 깎아내려 비참하게 만드는",
+        "when": "모욕적인 대우·일을 말할 때",
+        "ex": "He found the work demeaning.",
+        "exKo": "그는 그 일이 굴욕적이라고 느꼈어요."
+      }
+    ],
+    "12": [
+      {
+        "term": "pay my dues",
+        "ko": "(고생하며) 경력을 쌓다, 대가를 치르다",
+        "type": "idiom",
+        "easy": "성공 전에 힘든 시기를 버티며 자격을 갖추다",
+        "nuance": "낮은 자리에서 묵묵히 고생한다는 느낌",
+        "when": "초년의 고생을 이야기할 때",
+        "ex": "Every actor has to pay their dues.",
+        "exKo": "배우라면 누구나 무명의 고생을 거쳐야죠.",
+        "tip": "dues는 원래 '회비' — 값을 치른다는 비유예요."
+      }
+    ],
+    "13": [
+      {
+        "term": "is my misery amusing to you",
+        "ko": "내 불행이 그렇게 재밌니",
+        "type": "phrase"
+      }
+    ],
+    "15": [
+      {
+        "term": "I've been there",
+        "ko": "나도 겪어봤어 (그 심정 알아)",
+        "type": "idiom",
+        "easy": "나도 똑같은 일을 당해봐서 안다",
+        "nuance": "공감하며 위로할 때 쓰는 따뜻한 표현",
+        "when": "상대의 힘든 상황에 공감할 때",
+        "ex": "You failed too? I've been there.",
+        "exKo": "너도 떨어졌어? 그 심정 나도 알아."
+      }
+    ]
+  },
+  "YgRjRox5QLg": {
+    "0": [
+      {
+        "term": "sperm donor",
+        "ko": "정자 기증자",
+        "type": "phrase"
+      }
+    ],
+    "5": [
+      {
+        "term": "Lips moving, still talking",
+        "ko": "(내) 입 움직이지, 아직 말 안 끝났어",
+        "type": "idiom",
+        "easy": "말 끊지 말라고 익살스럽게 하는 말",
+        "when": "상대가 말허리를 자를 때",
+        "tip": "직역은 '입술 움직임=아직 말하는 중'이에요."
+      }
+    ],
+    "7": [
+      {
+        "term": "it makes me ache",
+        "ko": "(부러움에) 가슴이 아릴 정도다",
+        "type": "idiom",
+        "easy": "너무 부럽거나 뭉클해서 마음이 저리다",
+        "when": "간절히 부럽거나 애틋할 때",
+        "ex": "Seeing them so happy makes me ache.",
+        "exKo": "둘이 너무 행복해 보여서 가슴이 다 아려요.",
+        "tip": "ache는 '쑤시게 아프다' — 여기선 마음이 저린 느낌."
+      }
+    ],
+    "16": [
+      {
+        "term": "competitive",
+        "ko": "경쟁이 치열한",
+        "type": "word",
+        "easy": "다들 잘해서 뽑히기 어려운",
+        "when": "입시·취업 등 경쟁이 셀 때",
+        "ex": "The job market is very competitive.",
+        "exKo": "취업 시장이 아주 치열해요."
+      }
+    ],
+    "17": [
+      {
+        "term": "rocket scientist",
+        "ko": "(엄청난) 천재",
+        "type": "idiom",
+        "easy": "아주 똑똑한 사람을 가리키는 말",
+        "nuance": "보통 'It's not rocket science(별로 안 어렵다)'처럼 부정문에 자주",
+        "when": "머리가 비상한 사람을 비유할 때",
+        "ex": "You don't have to be a rocket scientist to use it.",
+        "exKo": "천재가 아니어도 쓸 수 있어요."
+      },
+      {
+        "term": "gig",
+        "ko": "단기 일거리, 공연",
+        "type": "word",
+        "easy": "한 번씩 하는 일이나 공연",
+        "when": "프리랜서 일·공연을 말할 때",
+        "ex": "I got a gig playing at a wedding.",
+        "exKo": "결혼식에서 연주하는 일을 하나 잡았어요."
+      }
+    ]
+  },
+  "nITZooG6ij8": {
+    "0": [
+      {
+        "term": "we're in trouble",
+        "ko": "큰일났다, 큰일이다",
+        "type": "phrase"
+      }
+    ],
+    "3": [
+      {
+        "term": "reluctant",
+        "ko": "마지못한, 내키지 않는",
+        "type": "word",
+        "easy": "하기 싫어 머뭇거리는",
+        "when": "누가 무언가를 꺼릴 때",
+        "ex": "She was reluctant to leave.",
+        "exKo": "그녀는 떠나기를 꺼렸어요."
+      }
+    ],
+    "7": [
+      {
+        "term": "I feel for you",
+        "ko": "네 심정 이해해, 안됐다",
+        "type": "idiom",
+        "easy": "네 마음이 어떤지 알아서 안쓰럽다",
+        "nuance": "진심으로 공감·동정하는 따뜻한 말",
+        "when": "상대의 힘든 처지에 공감할 때",
+        "ex": "You lost your job? I feel for you.",
+        "exKo": "직장을 잃었다고? 정말 안됐다."
+      },
+      {
+        "term": "issues with",
+        "ko": "~와의 갈등, ~에 대한 문제",
+        "type": "phrase"
+      }
+    ],
+    "13": [
+      {
+        "term": "call off the wedding",
+        "ko": "결혼식을 취소하다",
+        "type": "idiom",
+        "easy": "예정된 결혼(행사)을 없던 일로 하다",
+        "when": "행사·계획을 취소할 때",
+        "ex": "They called off the wedding last minute.",
+        "exKo": "그들은 막판에 결혼식을 취소했어요.",
+        "tip": "call off = (예정된 것을) 취소하다."
+      }
+    ],
+    "15": [
+      {
+        "term": "give me away",
+        "ko": "(결혼식에서) 신부를 데리고 입장하다",
+        "type": "idiom",
+        "easy": "보통 아버지가 신부를 신랑에게 인도하는 것",
+        "nuance": "결혼식 전통 표현이라 맥락이 중요",
+        "when": "결혼식 절차를 말할 때",
+        "ex": "Her father will give her away.",
+        "exKo": "아버지가 신부 입장을 함께 하실 거예요."
+      }
+    ],
+    "24": [
+      {
+        "term": "we're back on",
+        "ko": "(취소했다가) 다시 진행이다",
+        "type": "idiom",
+        "easy": "엎어졌던 일이 다시 살아나 진행됨",
+        "when": "취소·중단됐던 계획이 재개될 때",
+        "ex": "The deal is back on!",
+        "exKo": "그 거래 다시 진행돼!",
+        "tip": "반대는 it's off(취소됐다)예요."
+      }
+    ]
+  },
+  "lrNcx2D_FZI": {
+    "0": [
+      {
+        "term": "for future reference",
+        "ko": "앞으로 참고로",
+        "type": "idiom",
+        "easy": "다음을 위해 알아두라는 말",
+        "when": "팁·정보를 일러줄 때",
+        "ex": "For future reference, the meeting starts at 9.",
+        "exKo": "참고로, 회의는 9시에 시작해요."
+      }
+    ],
+    "3": [
+      {
+        "term": "needy",
+        "ko": "(애정에) 매달리는, 집착하는",
+        "type": "word",
+        "easy": "관심·사랑을 너무 갈구하는",
+        "nuance": "부담스러울 만큼 들러붙는 부정적 느낌",
+        "when": "연애·관계에서 집착할 때",
+        "ex": "I don't want to seem needy.",
+        "exKo": "너무 매달리는 것처럼 보이긴 싫어."
+      }
+    ],
+    "10": [
+      {
+        "term": "ended up having sex",
+        "ko": "결국 ~하게 됐다",
+        "type": "idiom",
+        "easy": "이런저런 끝에 결국 그렇게 됐다",
+        "when": "예상 못 한 결말을 말할 때",
+        "ex": "We ended up staying all night.",
+        "exKo": "우린 결국 밤새우게 됐어요.",
+        "tip": "end up -ing = 결국 ~하게 되다."
+      }
+    ],
+    "14": [
+      {
+        "term": "there's a history there",
+        "ko": "둘 사이에 (지난) 사연이 있다",
+        "type": "idiom",
+        "easy": "예전에 얽힌 관계나 일이 있다",
+        "nuance": "과거의 연애·갈등을 에둘러 말하는 느낌",
+        "when": "옛 인연을 암시할 때",
+        "ex": "Those two? There's a history there.",
+        "exKo": "저 둘? 둘 사이에 사연이 좀 있어."
+      }
+    ],
+    "17": [
+      {
+        "term": "apples and oranges",
+        "ko": "전혀 다른 것 (비교 불가)",
+        "type": "idiom",
+        "easy": "성질이 달라 비교 자체가 안 되는 둘",
+        "when": "두 가지가 비교 대상이 아니라고 할 때",
+        "ex": "Comparing them is apples and oranges.",
+        "exKo": "그 둘을 비교하는 건 사과랑 오렌지 비교하는 격이에요."
+      }
+    ],
+    "20": [
+      {
+        "term": "jam-packed",
+        "ko": "빈틈없이 꽉 찬",
+        "type": "word",
+        "easy": "사람·일정이 발 디딜 틈 없이 가득한",
+        "when": "일정·장소가 꽉 찼을 때",
+        "ex": "My schedule is jam-packed today.",
+        "exKo": "오늘 일정이 빈틈없이 꽉 찼어요."
+      }
+    ],
+    "26": [
+      {
+        "term": "the other woman",
+        "ko": "불륜 상대 여자, 내연녀",
+        "type": "phrase"
+      }
+    ]
+  },
+  "1QQBB3cwNM0": {
+    "2": [
+      {
+        "term": "aggressive, hostile or difficult",
+        "ko": "공격적이거나 적대적이거나 까다로운",
+        "type": "phrase"
+      }
+    ],
+    "5": [
+      {
+        "term": "limited time offer",
+        "ko": "한정 기간 특가",
+        "type": "phrase",
+        "easy": "정해진 기간에만 해주는 할인",
+        "when": "판매·마케팅에서",
+        "ex": "This is a limited time offer, act now!",
+        "exKo": "한정 기간 특가예요, 지금 결정하세요!"
+      }
+    ],
+    "8": [
+      {
+        "term": "How dare you",
+        "ko": "감히 어떻게 그래",
+        "type": "idiom",
+        "easy": "상대의 무례에 발끈하는 말",
+        "nuance": "진짜 화났거나 장난스럽게 흉내 낼 때 둘 다",
+        "when": "상대가 선을 넘었을 때",
+        "ex": "How dare you talk to me like that!",
+        "exKo": "네가 감히 나한테 그렇게 말해?"
+      }
+    ],
+    "15": [
+      {
+        "term": "hard of hearing",
+        "ko": "귀가 어두운, 잘 못 듣는",
+        "type": "idiom",
+        "easy": "청력이 약해 소리를 잘 못 듣는",
+        "when": "어르신·청력 약한 사람을 말할 때",
+        "ex": "Speak up, Grandpa's a little hard of hearing.",
+        "exKo": "크게 말해, 할아버지가 귀가 좀 어두우셔."
+      }
+    ],
+    "19": [
+      {
+        "term": "totally inappropriate",
+        "ko": "완전히 부적절한",
+        "type": "phrase",
+        "easy": "상황에 전혀 안 맞고 무례한",
+        "when": "예의·상황에 어긋난 행동을 지적할 때",
+        "ex": "That joke was totally inappropriate.",
+        "exKo": "그 농담은 완전히 부적절했어요."
+      }
+    ],
+    "28": [
+      {
+        "term": "see how it's done",
+        "ko": "이렇게 하는 거야 (시범)",
+        "type": "idiom",
+        "easy": "제대로 된 방법을 보여줄 때 하는 말",
+        "when": "본보기를 보이며 으스댈 때",
+        "ex": "Watch and learn — see how it's done?",
+        "exKo": "잘 봐 — 이렇게 하는 거야, 알겠지?"
+      }
+    ]
+  },
+  "kgUAQRHZ86M": {
+    "0": [
+      {
+        "term": "he's not in right now",
+        "ko": "지금 자리에 안 계세요",
+        "type": "phrase",
+        "easy": "그 사람이 지금 사무실에 없다는 정중한 말",
+        "when": "전화·방문 응대에서",
+        "ex": "Sorry, she's not in right now.",
+        "exKo": "죄송하지만 지금 자리에 안 계세요.",
+        "tip": "be in = (직장에) 나와 있다, 자리에 있다."
+      }
+    ],
+    "2": [
+      {
+        "term": "make an appointment",
+        "ko": "약속(예약)을 잡다",
+        "type": "phrase"
+      }
+    ],
+    "4": [
+      {
+        "term": "I can assure you",
+        "ko": "장담하건대, 분명히 말씀드려요",
+        "type": "idiom",
+        "easy": "확실하니 믿으라고 강조하는 말",
+        "when": "상대를 안심시키거나 확언할 때",
+        "ex": "I can assure you, it's completely safe.",
+        "exKo": "장담하는데, 완전히 안전합니다."
+      }
+    ]
   }
 }

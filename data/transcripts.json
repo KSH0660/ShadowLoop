@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T05:56:31.849Z",
+  "generatedAt": "2026-06-24T06:09:27.910Z",
   "videos": [
     {
       "id": "lSFJTUiX7Vg",
@@ -11888,6 +11888,4370 @@
               "text": "All good, Janet. All good.",
               "start": 242.46,
               "end": 244.29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7dVyEbHRTlU",
+      "url": "https://www.youtube.com/watch?v=7dVyEbHRTlU",
+      "title": "Friends: Chandler Quits His Job",
+      "tag": "Chandler quits",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 3.57,
+          "end": 7.84,
+          "lines": [
+            {
+              "text": "Hey, you guys, you guys, Chandler's coming.",
+              "start": 3.57,
+              "end": 5.97
+            },
+            {
+              "text": "And he says he has like, this incredible news.",
+              "start": 6.14,
+              "end": 7.84
+            }
+          ]
+        },
+        {
+          "start": 8.07,
+          "end": 14.78,
+          "lines": [
+            {
+              "text": "So when he comes, let's all act like, you know-- - Hey. - Okay, never mind.",
+              "start": 8.07,
+              "end": 12.28
+            },
+            {
+              "text": "But it was gonna be really good.",
+              "start": 13.08,
+              "end": 14.78
+            }
+          ]
+        },
+        {
+          "start": 16.08,
+          "end": 19.42,
+          "lines": [
+            {
+              "text": "- What's going on? - What's up?",
+              "start": 16.08,
+              "end": 17.48
+            },
+            {
+              "text": "So, it's a typical day at work.",
+              "start": 17.65,
+              "end": 19.42
+            }
+          ]
+        },
+        {
+          "start": 19.42,
+          "end": 29.26,
+          "lines": [
+            {
+              "text": "I'm in putting my numbers, and Big Al calls me into his office and tells me, he wants to make me \"processing supervisor\" - That is great! - Congratulations.",
+              "start": 19.42,
+              "end": 27.96
+            },
+            {
+              "text": "So...",
+              "start": 28.33,
+              "end": 29.26
+            }
+          ]
+        },
+        {
+          "start": 29.66,
+          "end": 32.33,
+          "lines": [
+            {
+              "text": "I quit.",
+              "start": 29.66,
+              "end": 30.66
+            },
+            {
+              "text": "- What? Why? - Why?",
+              "start": 31.03,
+              "end": 32.33
+            }
+          ]
+        },
+        {
+          "start": 32.43,
+          "end": 36.97,
+          "lines": [
+            {
+              "text": "Why? This was supposed to be a temp job!",
+              "start": 32.43,
+              "end": 34.67
+            },
+            {
+              "text": "Yeah, Chandler, you've been there for five years.",
+              "start": 34.93,
+              "end": 36.97
+            }
+          ],
+          "glossary": [
+            {
+              "term": "temp job",
+              "ko": "임시직, 잠깐 하는 일",
+              "type": "phrase",
+              "easy": "정식이 아니라 잠깐만 하기로 한 일",
+              "when": "단기·임시로 일할 때",
+              "ex": "It was just a temp job to pay the bills.",
+              "exKo": "그건 생활비 벌려고 잠깐 한 임시직이었어요.",
+              "tip": "temp는 temporary(임시의)를 줄인 말이에요."
+            }
+          ]
+        },
+        {
+          "start": 38.1,
+          "end": 43.94,
+          "lines": [
+            {
+              "text": "But, if I took this promotion it'd be like admitting that this is what I actually do!",
+              "start": 38.1,
+              "end": 42.18
+            },
+            {
+              "text": "So, is it a lot more money?",
+              "start": 42.51,
+              "end": 43.94
+            }
+          ]
+        },
+        {
+          "start": 44.01,
+          "end": 54.52,
+          "lines": [
+            {
+              "text": "It doesn't matter, I just don't wanna be one of those guys that's in his office until 12 o'clock at night worrying about the WENUS.",
+              "start": 44.01,
+              "end": 49.45
+            },
+            {
+              "text": "The... the \"WENUS\"?",
+              "start": 53.19,
+              "end": 54.52
+            }
+          ]
+        },
+        {
+          "start": 54.82,
+          "end": 59.03,
+          "lines": [
+            {
+              "text": "Weekly Estimated Net Usage Systems.",
+              "start": 54.82,
+              "end": 56.69
+            },
+            {
+              "text": "It's a processing term.",
+              "start": 57.29,
+              "end": 59.03
+            }
+          ]
+        },
+        {
+          "start": 59.53,
+          "end": 64.03,
+          "lines": [
+            {
+              "text": "Oh...that WEENUS.",
+              "start": 59.53,
+              "end": 61.39
+            },
+            {
+              "text": "So, what are you gonna do?",
+              "start": 62.86,
+              "end": 64.03
+            }
+          ]
+        },
+        {
+          "start": 64.4,
+          "end": 68.7,
+          "lines": [
+            {
+              "text": "I don't know. That's the thing. I don't know what I wanna do...",
+              "start": 64.4,
+              "end": 66.47
+            },
+            {
+              "text": "I just know I'm not gona figure it out working there.",
+              "start": 66.57,
+              "end": 68.7
+            }
+          ],
+          "glossary": [
+            {
+              "term": "figure it out",
+              "ko": "(스스로) 알아내다, 해결하다",
+              "type": "idiom",
+              "easy": "고민해서 답·방법을 찾아내다",
+              "when": "어려운 문제의 해법을 찾을 때",
+              "ex": "Don't worry, we'll figure it out.",
+              "exKo": "걱정 마, 우리가 알아낼 거야.",
+              "tip": "figure out = 알아내다; 대명사는 figure it out처럼 사이에 넣어요."
+            }
+          ]
+        },
+        {
+          "start": 68.87,
+          "end": 73.87,
+          "lines": [
+            {
+              "text": "Oh! I have something you can do.",
+              "start": 68.87,
+              "end": 70.54
+            },
+            {
+              "text": "I have this new massage client, Steve.",
+              "start": 71.4,
+              "end": 73.87
+            }
+          ]
+        },
+        {
+          "start": 75.21,
+          "end": 85.55,
+          "lines": [
+            {
+              "text": "Anyway, um.. he's opening up a restaurant and he's looking for a head chef.",
+              "start": 75.21,
+              "end": 80.88
+            },
+            {
+              "text": "- Um...hi, there. - Hi.",
+              "start": 82.82,
+              "end": 85.55
+            }
+          ],
+          "glossary": [
+            {
+              "term": "head chef",
+              "ko": "주방장, 수석 요리사",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 86.49,
+          "end": 89.49,
+          "lines": [
+            {
+              "text": "Oh, yeah, I know, I know, you're a chef.",
+              "start": 86.49,
+              "end": 87.89
+            },
+            {
+              "text": "I know and I thought of you first.",
+              "start": 88.02,
+              "end": 89.49
+            }
+          ]
+        },
+        {
+          "start": 89.66,
+          "end": 97.9,
+          "lines": [
+            {
+              "text": "But, um, Chandler's the one who needs a job right now. So..",
+              "start": 89.66,
+              "end": 92.66
+            },
+            {
+              "text": "Yeah, I just don't have a lot of cheffing experience.",
+              "start": 95.33,
+              "end": 97.9
+            }
+          ]
+        },
+        {
+          "start": 98.73,
+          "end": 102.27,
+          "lines": [
+            {
+              "text": "Unless it's an all-toast restaurant.",
+              "start": 98.73,
+              "end": 101.2
+            },
+            {
+              "text": "Yeah, yeah.",
+              "start": 101.57,
+              "end": 102.27
+            }
+          ]
+        },
+        {
+          "start": 103.17,
+          "end": 106.57,
+          "lines": [
+            {
+              "text": "What kind of food is he looking for?",
+              "start": 103.17,
+              "end": 104.4
+            },
+            {
+              "text": "Well, he wants to do something eclectic.",
+              "start": 104.84,
+              "end": 106.57
+            }
+          ],
+          "glossary": [
+            {
+              "term": "eclectic",
+              "ko": "여러 가지를 섞은, 다채로운",
+              "type": "word",
+              "easy": "한 가지에 안 치우치고 이것저것 두루 모은",
+              "nuance": "취향·메뉴가 폭넓고 개성 있다는 긍정적 느낌",
+              "when": "음악·음식·취향이 다양할 때",
+              "ex": "She has an eclectic taste in music.",
+              "exKo": "그녀는 음악 취향이 다채로워요."
+            }
+          ]
+        },
+        {
+          "start": 106.57,
+          "end": 111.74,
+          "lines": [
+            {
+              "text": "So he's looking for someone who can create the entire menu.",
+              "start": 106.57,
+              "end": 109.41
+            },
+            {
+              "text": "- Oh, my God! - Yeah, I know.",
+              "start": 110.18,
+              "end": 111.74
+            }
+          ]
+        },
+        {
+          "start": 112.35,
+          "end": 118.69,
+          "lines": [
+            {
+              "text": "So, what do you think?",
+              "start": 112.35,
+              "end": 113.75
+            },
+            {
+              "text": "Thanks, Phoebe, I just don't really see myself in a big white hat.",
+              "start": 115.35,
+              "end": 118.69
+            }
+          ]
+        },
+        {
+          "start": 118.95,
+          "end": 124.06,
+          "lines": [
+            {
+              "text": "Okay.",
+              "start": 118.95,
+              "end": 120.25
+            },
+            {
+              "text": "Oh, Monica, guess what!?",
+              "start": 121.92,
+              "end": 124.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221F55VPp2M",
+      "url": "https://www.youtube.com/watch?v=221F55VPp2M",
+      "title": "Friends: Joey's Bad Birthday Gift",
+      "tag": "Joey's gift",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 4.67,
+          "end": 8.8,
+          "lines": [
+            {
+              "text": "You know what we should all do?",
+              "start": 4.67,
+              "end": 6.34
+            },
+            {
+              "text": "Go see a musical.",
+              "start": 7.22,
+              "end": 8.8
+            }
+          ]
+        },
+        {
+          "start": 11.93,
+          "end": 16.02,
+          "lines": [
+            {
+              "text": "Sure.",
+              "start": 11.93,
+              "end": 13.01
+            },
+            {
+              "text": "You know which one we should see?",
+              "start": 14.6,
+              "end": 16.02
+            }
+          ]
+        },
+        {
+          "start": 17.35,
+          "end": 24.4,
+          "lines": [
+            {
+              "text": "The 1996 Tony Award winner.",
+              "start": 17.35,
+              "end": 20.56
+            },
+            {
+              "text": "Do you happen to know the name of that one?",
+              "start": 22.06,
+              "end": 24.4
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Tony Award",
+              "ko": "토니상 (미국 뮤지컬·연극상)",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 24.4,
+          "end": 29.4,
+          "lines": [
+            {
+              "text": "I don't know, um, \"Grease?\"",
+              "start": 24.4,
+              "end": 26.4
+            },
+            {
+              "text": "No.",
+              "start": 28.24,
+              "end": 29.4
+            }
+          ]
+        },
+        {
+          "start": 31.78,
+          "end": 34.91,
+          "lines": [
+            {
+              "text": "\"Rent?\"",
+              "start": 31.78,
+              "end": 33.58
+            },
+            {
+              "text": "Yes! \"Rent!\"",
+              "start": 33.58,
+              "end": 34.91
+            }
+          ]
+        },
+        {
+          "start": 36.29,
+          "end": 40.67,
+          "lines": [
+            {
+              "text": "Okay, so when do you want to go?",
+              "start": 36.29,
+              "end": 37.75
+            },
+            {
+              "text": "What? Oh, I'm sorry. I can't, I'm busy.",
+              "start": 37.83,
+              "end": 40.67
+            }
+          ]
+        },
+        {
+          "start": 43.84,
+          "end": 49.26,
+          "lines": [
+            {
+              "text": "- Hey. - 'Hey.'",
+              "start": 43.84,
+              "end": 45.59
+            },
+            {
+              "text": "Man, it is so hard to shop for girls.",
+              "start": 45.84,
+              "end": 49.26
+            }
+          ]
+        },
+        {
+          "start": 49.26,
+          "end": 52.97,
+          "lines": [
+            {
+              "text": "Oh!",
+              "start": 49.26,
+              "end": 50.34
+            },
+            {
+              "text": "Yes, it is, at Office Max!",
+              "start": 50.43,
+              "end": 52.97
+            }
+          ]
+        },
+        {
+          "start": 55.64,
+          "end": 60.77,
+          "lines": [
+            {
+              "text": "What did you get her?",
+              "start": 55.64,
+              "end": 56.81
+            },
+            {
+              "text": "A pen.",
+              "start": 58.64,
+              "end": 60.77
+            }
+          ]
+        },
+        {
+          "start": 61.1,
+          "end": 66.07,
+          "lines": [
+            {
+              "text": "It's two gifts in one. It's a pen that's also a clock.",
+              "start": 61.1,
+              "end": 64.65
+            },
+            {
+              "text": "Huh?",
+              "start": 64.65,
+              "end": 66.07
+            }
+          ],
+          "glossary": [
+            {
+              "term": "two gifts in one",
+              "ko": "하나로 두 가지 (일석이조)",
+              "type": "phrase",
+              "easy": "선물 하나가 두 가지 역할을 함",
+              "when": "한 번에 두 효과를 볼 때",
+              "ex": "It's a speaker and a lamp — two gifts in one!",
+              "exKo": "스피커이자 램프예요 — 하나로 두 가지죠!"
+            }
+          ]
+        },
+        {
+          "start": 67.44,
+          "end": 71.03,
+          "lines": [
+            {
+              "text": "You can't give her that.",
+              "start": 67.44,
+              "end": 69.15
+            },
+            {
+              "text": "- Why not? - Because she's not 11!",
+              "start": 69.15,
+              "end": 71.03
+            }
+          ]
+        },
+        {
+          "start": 72.61,
+          "end": 80.16,
+          "lines": [
+            {
+              "text": "And it's not the seventh night of Chanukah!",
+              "start": 72.61,
+              "end": 74.82
+            },
+            {
+              "text": "Okay, honey, what he means by that is..",
+              "start": 77.95,
+              "end": 80.16
+            }
+          ]
+        },
+        {
+          "start": 80.25,
+          "end": 86.21,
+          "lines": [
+            {
+              "text": "Well, this is a very nice gift maybe it's just not something a boyfriend gives.",
+              "start": 80.25,
+              "end": 84.79
+            },
+            {
+              "text": "Sure it is.",
+              "start": 84.79,
+              "end": 86.21
+            }
+          ]
+        },
+        {
+          "start": 86.46,
+          "end": 89.71,
+          "lines": [
+            {
+              "text": "She needs a pen for work.",
+              "start": 86.46,
+              "end": 87.96
+            },
+            {
+              "text": "She's writing, she turns it over.",
+              "start": 87.96,
+              "end": 89.71
+            }
+          ]
+        },
+        {
+          "start": 89.71,
+          "end": 96.47,
+          "lines": [
+            {
+              "text": "Whoa! It's time for my date with Joey!",
+              "start": 89.71,
+              "end": 92.05
+            },
+            {
+              "text": "Alright, look, look. What..",
+              "start": 94.64,
+              "end": 96.47
+            }
+          ]
+        },
+        {
+          "start": 96.47,
+          "end": 101.52,
+          "lines": [
+            {
+              "text": "What did you get for Angela Del Veccio for her birthday?",
+              "start": 96.47,
+              "end": 99.43
+            },
+            {
+              "text": "She didn't have a birthday while we were going out.",
+              "start": 99.52,
+              "end": 101.52
+            }
+          ]
+        },
+        {
+          "start": 101.6,
+          "end": 108.98,
+          "lines": [
+            {
+              "text": "For three years?",
+              "start": 101.6,
+              "end": 102.94
+            },
+            {
+              "text": "Look, it's too late, and I got an audition.",
+              "start": 105.94,
+              "end": 108.98
+            }
+          ],
+          "glossary": [
+            {
+              "term": "audition",
+              "ko": "오디션 (배역 심사)",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 108.98,
+          "end": 116.62,
+          "lines": [
+            {
+              "text": "I can't shop anymore. I..",
+              "start": 108.98,
+              "end": 111.86
+            },
+            {
+              "text": "Alright, I will go out and I will try to find something for her, okay?",
+              "start": 111.95,
+              "end": 116.62
+            }
+          ]
+        },
+        {
+          "start": 116.62,
+          "end": 121.83,
+          "lines": [
+            {
+              "text": "Thanks, man.",
+              "start": 116.62,
+              "end": 118.24
+            },
+            {
+              "text": "And oh, while you're at it could you get her a card?",
+              "start": 118.24,
+              "end": 121.83
+            }
+          ],
+          "glossary": [
+            {
+              "term": "while you're at it",
+              "ko": "하는 김에, 그 김에",
+              "type": "idiom",
+              "easy": "이미 그 일을 하는 김에 한 가지 더",
+              "when": "부탁을 덧붙일 때",
+              "ex": "Get me a coffee, and while you're at it, grab a napkin.",
+              "exKo": "커피 좀 갖다줘, 그리고 하는 김에 냅킨도.",
+              "tip": "부탁을 자연스럽게 덧붙일 때 아주 자주 써요."
+            }
+          ]
+        },
+        {
+          "start": 121.87,
+          "end": 128.29,
+          "lines": [
+            {
+              "text": "Would you like me to write her a little poem as well?",
+              "start": 121.87,
+              "end": 124.92
+            },
+            {
+              "text": "Or just get a card that has a poem already in it.",
+              "start": 125.17,
+              "end": 128.29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QY7BWZ_aSc4",
+      "url": "https://www.youtube.com/watch?v=QY7BWZ_aSc4",
+      "title": "Friends: Phoebe Pretends To Be Joey's Agent",
+      "tag": "Phoebe the agent",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.83,
+          "end": 3.25,
+          "lines": [
+            {
+              "text": "- Hey. - Hey.",
+              "start": 0.83,
+              "end": 1.63
+            },
+            {
+              "text": "Hey, man. What's up?",
+              "start": 1.67,
+              "end": 3.25
+            }
+          ]
+        },
+        {
+          "start": 3.84,
+          "end": 8.72,
+          "lines": [
+            {
+              "text": "Maybe you can tell me.",
+              "start": 3.84,
+              "end": 4.71
+            },
+            {
+              "text": "My agent would like to know why I didn't show up at the audition I didn't know I had today.",
+              "start": 5.01,
+              "end": 8.72
+            }
+          ],
+          "glossary": [
+            {
+              "term": "show up",
+              "ko": "(약속 장소에) 나타나다",
+              "type": "phrase",
+              "easy": "예정된 곳에 모습을 드러내다",
+              "when": "약속·행사에 오거나 안 올 때",
+              "ex": "He didn't show up to the meeting.",
+              "exKo": "그는 회의에 나타나지 않았어요.",
+              "tip": "show up = 나타나다; no-show는 '안 나타난 사람'."
+            },
+            {
+              "term": "agent",
+              "ko": "에이전트, (연예) 매니저",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 8.93,
+          "end": 12.51,
+          "lines": [
+            {
+              "text": "The first good thing she gets me in weeks.",
+              "start": 8.93,
+              "end": 10.59
+            },
+            {
+              "text": "How could you not give me the message?",
+              "start": 10.59,
+              "end": 12.51
+            }
+          ]
+        },
+        {
+          "start": 12.68,
+          "end": 17.56,
+          "lines": [
+            {
+              "text": "Uh, I tell you, I do enjoy guilt.",
+              "start": 12.68,
+              "end": 14.68
+            },
+            {
+              "text": "But, uh, it wasn't me.",
+              "start": 15.93,
+              "end": 17.56
+            }
+          ]
+        },
+        {
+          "start": 17.73,
+          "end": 22.98,
+          "lines": [
+            {
+              "text": "Yes, it was. It was him. Uh-huh.",
+              "start": 17.73,
+              "end": 19.44
+            },
+            {
+              "text": "Okay, it was me.",
+              "start": 21.69,
+              "end": 22.98
+            }
+          ]
+        },
+        {
+          "start": 25.36,
+          "end": 28.07,
+          "lines": [
+            {
+              "text": "How was it you?",
+              "start": 25.36,
+              "end": 26.07
+            },
+            {
+              "text": "Well, it was just, it was all so crazy, you know.",
+              "start": 26.11,
+              "end": 28.07
+            }
+          ]
+        },
+        {
+          "start": 28.19,
+          "end": 38.12,
+          "lines": [
+            {
+              "text": "I mean, Chandler was in the closet counting to ten and he was up to seven and I hadn't found a place to hide yet.",
+              "start": 28.19,
+              "end": 34.37
+            },
+            {
+              "text": "Look, I-I meant to tell you and I wrote it all down on my hand.",
+              "start": 35.24,
+              "end": 38.12
+            }
+          ]
+        },
+        {
+          "start": 38.16,
+          "end": 41.75,
+          "lines": [
+            {
+              "text": "See, all of it.",
+              "start": 38.16,
+              "end": 39.79
+            },
+            {
+              "text": "- Yep, that's my audition. - Yeah.",
+              "start": 39.87,
+              "end": 41.75
+            }
+          ]
+        },
+        {
+          "start": 42.38,
+          "end": 47.38,
+          "lines": [
+            {
+              "text": "See? Now this is why I keep notepads everywhere.",
+              "start": 42.38,
+              "end": 45.25
+            },
+            {
+              "text": "Yep, and that's why we don't invite you to play.",
+              "start": 45.46,
+              "end": 47.38
+            }
+          ]
+        },
+        {
+          "start": 49.55,
+          "end": 53.05,
+          "lines": [
+            {
+              "text": "What is the great tragedy here?",
+              "start": 49.55,
+              "end": 50.97
+            },
+            {
+              "text": "You go get yourself another appointment.",
+              "start": 51.09,
+              "end": 53.05
+            }
+          ]
+        },
+        {
+          "start": 53.14,
+          "end": 57.27,
+          "lines": [
+            {
+              "text": "Well, Estelle tried, you know?",
+              "start": 53.14,
+              "end": 54.85
+            },
+            {
+              "text": "The casting director told her that I missed my chance.",
+              "start": 55.06,
+              "end": 57.27
+            }
+          ],
+          "glossary": [
+            {
+              "term": "missed my chance",
+              "ko": "기회를 놓쳤다",
+              "type": "phrase",
+              "easy": "좋은 기회를 잡지 못하고 흘려보냈다",
+              "when": "타이밍을 놓쳤을 때",
+              "ex": "I missed my chance to apply.",
+              "exKo": "지원할 기회를 놓쳤어요."
+            }
+          ]
+        },
+        {
+          "start": 57.35,
+          "end": 61.35,
+          "lines": [
+            {
+              "text": "Well, that is unfair.",
+              "start": 57.35,
+              "end": 58.81
+            },
+            {
+              "text": "I'll call her. I'll tell her it was totally my fault.",
+              "start": 58.98,
+              "end": 61.35
+            }
+          ]
+        },
+        {
+          "start": 61.6,
+          "end": 64.44,
+          "lines": [
+            {
+              "text": "Phoebs, you can't do that.",
+              "start": 61.6,
+              "end": 62.6
+            },
+            {
+              "text": "The casting director doesn't talk to friends.",
+              "start": 62.69,
+              "end": 64.44
+            }
+          ]
+        },
+        {
+          "start": 64.77,
+          "end": 68.28,
+          "lines": [
+            {
+              "text": "She only talks to agents.",
+              "start": 64.77,
+              "end": 66.07
+            },
+            {
+              "text": "What a sad little life she must lead.",
+              "start": 66.07,
+              "end": 68.28
+            }
+          ],
+          "glossary": [
+            {
+              "term": "what a sad little life she must lead",
+              "ko": "참 한심한 인생을 사는구나",
+              "type": "idiom",
+              "easy": "상대를 불쌍하고 한심하다고 비꼬는 말",
+              "nuance": "동정하는 척 깔보는 빈정거림",
+              "when": "누군가를 비꼴 때",
+              "tip": "lead a life = (어떤) 삶을 살다."
+            }
+          ]
+        },
+        {
+          "start": 69.69,
+          "end": 72.91,
+          "lines": [
+            {
+              "text": "Okay. Ooh.",
+              "start": 69.69,
+              "end": 71.45
+            },
+            {
+              "text": "What are you doing? What are you doing?",
+              "start": 71.61,
+              "end": 72.91
+            }
+          ]
+        },
+        {
+          "start": 72.95,
+          "end": 79.25,
+          "lines": [
+            {
+              "text": "No, no, no, I know, I know. Ooh.",
+              "start": 72.95,
+              "end": 75.41
+            },
+            {
+              "text": "[low-pitched] Hi, this is Katelyn from Phoebe Buffay's office.",
+              "start": 75.91,
+              "end": 79.25
+            }
+          ]
+        },
+        {
+          "start": 79.33,
+          "end": 84.71,
+          "lines": [
+            {
+              "text": "Um, is, um, Ann there for Phoebe?",
+              "start": 79.33,
+              "end": 83.25
+            },
+            {
+              "text": "She'll know what it's about.",
+              "start": 83.42,
+              "end": 84.71
+            }
+          ]
+        },
+        {
+          "start": 85.79,
+          "end": 90.09,
+          "lines": [
+            {
+              "text": "Hang up. Hang up right..",
+              "start": 85.79,
+              "end": 87.05
+            },
+            {
+              "text": "Annie?",
+              "start": 89.17,
+              "end": 90.09
+            }
+          ]
+        },
+        {
+          "start": 90.17,
+          "end": 94.72,
+          "lines": [
+            {
+              "text": "Hi. Listen, we've got a problem with Joey Tribbiani.",
+              "start": 90.17,
+              "end": 93.09
+            },
+            {
+              "text": "Apparently he missed his audition.",
+              "start": 93.13,
+              "end": 94.72
+            }
+          ]
+        },
+        {
+          "start": 94.97,
+          "end": 98.81,
+          "lines": [
+            {
+              "text": "Who did you speak to in my office?",
+              "start": 94.97,
+              "end": 96.6
+            },
+            {
+              "text": "Estelle? No, I don't know what I'm gonna do with her.",
+              "start": 96.76,
+              "end": 98.81
+            }
+          ]
+        },
+        {
+          "start": 99.18,
+          "end": 103.39,
+          "lines": [
+            {
+              "text": "No, alright, so your husband leaves you and then burns down the apartment.",
+              "start": 99.18,
+              "end": 102.02
+            },
+            {
+              "text": "The world does not stop.",
+              "start": 102.1,
+              "end": 103.39
+            }
+          ]
+        },
+        {
+          "start": 104.69,
+          "end": 111.07,
+          "lines": [
+            {
+              "text": "Is anybody else scared?",
+              "start": 104.69,
+              "end": 106.4
+            },
+            {
+              "text": "Right, well, look, if Joey loses this audition then, that is it for Estelle.",
+              "start": 107.69,
+              "end": 111.07
+            }
+          ]
+        },
+        {
+          "start": 111.11,
+          "end": 114.41,
+          "lines": [
+            {
+              "text": "I don't care.",
+              "start": 111.11,
+              "end": 112.61
+            },
+            {
+              "text": "Annie, you are a doll.",
+              "start": 112.78,
+              "end": 114.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "you are a doll",
+              "ko": "너 정말 천사야 (고마워)",
+              "type": "idiom",
+              "easy": "너무 착하고 고맙다는 다정한 칭찬",
+              "nuance": "doll(인형)처럼 사랑스럽다는 친근한 표현",
+              "when": "상대가 친절을 베풀었을 때",
+              "ex": "Thanks for helping — you're a doll!",
+              "exKo": "도와줘서 고마워 — 너 정말 천사야!"
+            }
+          ]
+        },
+        {
+          "start": 114.7,
+          "end": 117.28,
+          "lines": [
+            {
+              "text": "What time can you see him?",
+              "start": 114.7,
+              "end": 115.62
+            },
+            {
+              "text": "[whispering] I need a pen, a pen.",
+              "start": 115.66,
+              "end": 117.28
+            }
+          ]
+        },
+        {
+          "start": 123.41,
+          "end": 126.5,
+          "lines": [
+            {
+              "text": "Get the woman a pad! Get the woman a pad!",
+              "start": 123.41,
+              "end": 125.25
+            },
+            {
+              "text": "A pad! A pad!",
+              "start": 125.29,
+              "end": 126.5
+            }
+          ]
+        },
+        {
+          "start": 127.54,
+          "end": 129.96,
+          "lines": [
+            {
+              "text": "Oh, now, you want a pad.",
+              "start": 127.54,
+              "end": 129.96
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iAnlaR398hs",
+      "url": "https://www.youtube.com/watch?v=iAnlaR398hs",
+      "title": "Friends: Monica Won't Be Chandler's Girlfriend",
+      "tag": "Monica & Chandler",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 2.59,
+          "end": 7.72,
+          "lines": [
+            {
+              "text": "Would you look at that?",
+              "start": 2.59,
+              "end": 4.8
+            },
+            {
+              "text": "I'm never going to find a boyfriend again.",
+              "start": 4.92,
+              "end": 7.72
+            }
+          ]
+        },
+        {
+          "start": 7.76,
+          "end": 12.26,
+          "lines": [
+            {
+              "text": "I'll die an old maid.",
+              "start": 7.76,
+              "end": 9.8
+            },
+            {
+              "text": "Oh, you're not going to die an old maid.",
+              "start": 9.88,
+              "end": 12.26
+            }
+          ],
+          "glossary": [
+            {
+              "term": "die an old maid",
+              "ko": "노처녀로 늙어 죽다",
+              "type": "idiom",
+              "easy": "결혼 못 하고 혼자 늙는다는 옛날식 표현",
+              "nuance": "old maid/spinster는 낡고 부정적인 말이라 농담조로만",
+              "when": "결혼 못 할까 봐 한탄할 때",
+              "ex": "I'm going to die an old maid!",
+              "exKo": "나 이러다 노처녀로 늙어 죽겠어!",
+              "tip": "spinster도 같은 뜻의 옛말이에요."
+            }
+          ]
+        },
+        {
+          "start": 12.35,
+          "end": 19.39,
+          "lines": [
+            {
+              "text": "Maybe an old... spinster cook.",
+              "start": 12.35,
+              "end": 15.14
+            },
+            {
+              "text": "- Thanks. - Hey, now besides.",
+              "start": 18.02,
+              "end": 19.39
+            }
+          ]
+        },
+        {
+          "start": 19.44,
+          "end": 27.57,
+          "lines": [
+            {
+              "text": "Worse comes to worst, I'll be your boyfriend.",
+              "start": 19.44,
+              "end": 22.27
+            },
+            {
+              "text": "Yeah, right.",
+              "start": 26.32,
+              "end": 27.57
+            }
+          ],
+          "glossary": [
+            {
+              "term": "worse comes to worst",
+              "ko": "최악의 경우라도",
+              "type": "idiom",
+              "easy": "정 안 되면, 최악의 상황이 와도",
+              "when": "안 좋은 가능성에 대비할 때",
+              "ex": "If worse comes to worst, we'll take a taxi.",
+              "exKo": "정 안 되면 택시 타면 되죠."
+            }
+          ]
+        },
+        {
+          "start": 30.57,
+          "end": 34.87,
+          "lines": [
+            {
+              "text": "Why is that so funny?",
+              "start": 30.57,
+              "end": 32.78
+            },
+            {
+              "text": "You made a joke, right?",
+              "start": 32.82,
+              "end": 34.87
+            }
+          ]
+        },
+        {
+          "start": 34.95,
+          "end": 40.29,
+          "lines": [
+            {
+              "text": "So I laughed.",
+              "start": 34.95,
+              "end": 35.99
+            },
+            {
+              "text": "A little too hard.",
+              "start": 38.96,
+              "end": 40.29
+            }
+          ]
+        },
+        {
+          "start": 41.67,
+          "end": 46.63,
+          "lines": [
+            {
+              "text": "What am I, not, uh, boyfriend material?",
+              "start": 41.67,
+              "end": 44.63
+            },
+            {
+              "text": "No, you're Chandler.",
+              "start": 44.67,
+              "end": 46.63
+            }
+          ],
+          "glossary": [
+            {
+              "term": "boyfriend material",
+              "ko": "남자친구감",
+              "type": "idiom",
+              "easy": "사귀기에 괜찮은 사람",
+              "nuance": "잠깐 만날 사람이 아니라 진지하게 사귈 만한 사람",
+              "when": "연애 상대로 적합한지 따질 때",
+              "ex": "He's nice, but not boyfriend material.",
+              "exKo": "걔 착하긴 한데 남자친구감은 아니야.",
+              "tip": "marriage material(결혼감)처럼도 써요."
+            }
+          ]
+        },
+        {
+          "start": 48.17,
+          "end": 55.01,
+          "lines": [
+            {
+              "text": "You know...Chandler.",
+              "start": 48.17,
+              "end": 51.3
+            },
+            {
+              "text": "Okay, so we've established my name and hit me.",
+              "start": 51.38,
+              "end": 55.01
+            }
+          ]
+        },
+        {
+          "start": 55.1,
+          "end": 62.52,
+          "lines": [
+            {
+              "text": "But theoretically, you know, I mean say, we weren't friends.",
+              "start": 55.1,
+              "end": 57.47
+            },
+            {
+              "text": "Say, it's a blind date, I show up at your door and I'm like, uh Hey, nice to meet you, hey..",
+              "start": 57.52,
+              "end": 62.52
+            }
+          ],
+          "glossary": [
+            {
+              "term": "blind date",
+              "ko": "소개팅",
+              "type": "phrase",
+              "easy": "서로 모르는 사람끼리 주선으로 만나는 데이트",
+              "when": "지인이 짝을 소개해줄 때",
+              "ex": "My friend set me up on a blind date.",
+              "exKo": "친구가 소개팅을 주선해줬어요."
+            }
+          ]
+        },
+        {
+          "start": 64.48,
+          "end": 70.15,
+          "lines": [
+            {
+              "text": "I'd probably be scared of the guy using a fake voice.",
+              "start": 64.48,
+              "end": 67.94
+            },
+            {
+              "text": "- 'Hey.' - Oh, hey.",
+              "start": 69.11,
+              "end": 70.15
+            }
+          ]
+        },
+        {
+          "start": 70.19,
+          "end": 73.57,
+          "lines": [
+            {
+              "text": "Oh, good, you bought food.",
+              "start": 70.19,
+              "end": 71.65
+            },
+            {
+              "text": "No, just my luggage.",
+              "start": 71.7,
+              "end": 73.57
+            }
+          ]
+        },
+        {
+          "start": 76.2,
+          "end": 78.75,
+          "lines": [
+            {
+              "text": "- 'Hey.' - Hi.",
+              "start": 76.2,
+              "end": 77.2
+            },
+            {
+              "text": "- 'Hey, guys.' - 'Whoo!'",
+              "start": 77.29,
+              "end": 78.75
+            }
+          ]
+        },
+        {
+          "start": 78.83,
+          "end": 83.5,
+          "lines": [
+            {
+              "text": "(Chandler) 'Alright. yes.'",
+              "start": 78.83,
+              "end": 81
+            },
+            {
+              "text": "Oh, I am having the best karma this week.",
+              "start": 81.08,
+              "end": 83.5
+            }
+          ]
+        },
+        {
+          "start": 83.58,
+          "end": 92.18,
+          "lines": [
+            {
+              "text": "First, I find this woman who knew my parents and then my client with the fuzzy back gives me his beach house.",
+              "start": 83.58,
+              "end": 88.88
+            },
+            {
+              "text": "Hmm, what about that bike messenger you hit?",
+              "start": 88.96,
+              "end": 92.18
+            }
+          ]
+        },
+        {
+          "start": 92.22,
+          "end": 96.72,
+          "lines": [
+            {
+              "text": "Oh, I wasn't talking about his karma.",
+              "start": 92.22,
+              "end": 94.93
+            },
+            {
+              "text": "- Hey. - Hey.",
+              "start": 95.01,
+              "end": 96.72
+            }
+          ]
+        },
+        {
+          "start": 96.72,
+          "end": 104.31,
+          "lines": [
+            {
+              "text": "(Joey) Hey, check out the hat.",
+              "start": 96.72,
+              "end": 99.14
+            },
+            {
+              "text": "Wait a minute, I know that hat.",
+              "start": 102.02,
+              "end": 104.31
+            }
+          ]
+        },
+        {
+          "start": 104.35,
+          "end": 109.94,
+          "lines": [
+            {
+              "text": "I was taken aboard that hat.",
+              "start": 104.35,
+              "end": 106.23
+            },
+            {
+              "text": "They did experiments on me.",
+              "start": 107.69,
+              "end": 109.94
+            }
+          ]
+        },
+        {
+          "start": 110.03,
+          "end": 115.12,
+          "lines": [
+            {
+              "text": "I can't have children!",
+              "start": 110.03,
+              "end": 112.78
+            },
+            {
+              "text": "Seriously, where did you get the hat?",
+              "start": 112.86,
+              "end": 115.12
+            }
+          ]
+        },
+        {
+          "start": 115.2,
+          "end": 118.58,
+          "lines": [
+            {
+              "text": "Ross gave it to me.",
+              "start": 115.2,
+              "end": 116.78
+            },
+            {
+              "text": "I think she looks good.",
+              "start": 116.87,
+              "end": 118.58
+            }
+          ]
+        },
+        {
+          "start": 118.66,
+          "end": 122.04,
+          "lines": [
+            {
+              "text": "- Oh, thank you.",
+              "start": 118.66,
+              "end": 119.83
+            },
+            {
+              "text": "Did he buy it for you or..",
+              "start": 119.87,
+              "end": 122.04
+            }
+          ]
+        },
+        {
+          "start": 122.12,
+          "end": 127.34,
+          "lines": [
+            {
+              "text": "Or win it for you?",
+              "start": 122.12,
+              "end": 124.67
+            },
+            {
+              "text": "Well, excuse me, my fashion-impaired friends.",
+              "start": 124.71,
+              "end": 127.34
+            }
+          ],
+          "glossary": [
+            {
+              "term": "fashion-impaired",
+              "ko": "패션 감각이 없는",
+              "type": "phrase",
+              "easy": "옷 입는 센스가 영 없는 (농담조)",
+              "when": "옷차림 센스를 놀릴 때",
+              "tip": "-impaired는 '~능력이 떨어지는'이라는 말에 붙여 농담으로 써요."
+            }
+          ]
+        },
+        {
+          "start": 127.38,
+          "end": 133.17,
+          "lines": [
+            {
+              "text": "I'm here to tell you that hats are back.",
+              "start": 127.38,
+              "end": 129.38
+            },
+            {
+              "text": "And this time they've ganged up and formed one giant superhat.",
+              "start": 129.46,
+              "end": 133.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dwcavo44AFk",
+      "url": "https://www.youtube.com/watch?v=dwcavo44AFk",
+      "title": "Friends: Rachel Hates Her New Job",
+      "tag": "Rachel's job",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.63,
+          "end": 4.17,
+          "lines": [
+            {
+              "text": "How's that coffee coming, dear?",
+              "start": 0.63,
+              "end": 1.75
+            },
+            {
+              "text": "Yeah, right away, Mr. Kaplan.",
+              "start": 1.79,
+              "end": 4.17
+            }
+          ]
+        },
+        {
+          "start": 4.17,
+          "end": 7.84,
+          "lines": [
+            {
+              "text": "I'm not supposed to drink coffee.",
+              "start": 4.17,
+              "end": 5.59
+            },
+            {
+              "text": "It makes me gassy.",
+              "start": 5.67,
+              "end": 7.84
+            }
+          ]
+        },
+        {
+          "start": 8.59,
+          "end": 17.43,
+          "lines": [
+            {
+              "text": "I know.",
+              "start": 8.59,
+              "end": 9.84
+            },
+            {
+              "text": "I'll bet you're thinking what's an intelligent girl who wants to be in fashion doing making coffee, huh?",
+              "start": 11.43,
+              "end": 17.43
+            }
+          ]
+        },
+        {
+          "start": 17.56,
+          "end": 20.31,
+          "lines": [
+            {
+              "text": "- Huh? - Ha! You got me.",
+              "start": 17.56,
+              "end": 19.27
+            },
+            {
+              "text": "- Ha ha ha. - Huh!",
+              "start": 19.39,
+              "end": 20.31
+            }
+          ]
+        },
+        {
+          "start": 20.31,
+          "end": 27.53,
+          "lines": [
+            {
+              "text": "Don't think I haven't noticed your potential.",
+              "start": 20.31,
+              "end": 23.11
+            },
+            {
+              "text": "Well, I've got a project for you that's a lot more related...to fashion.",
+              "start": 23.11,
+              "end": 27.53
+            }
+          ]
+        },
+        {
+          "start": 27.53,
+          "end": 31.24,
+          "lines": [
+            {
+              "text": "- How does that sound? - Oh! That sounds great.",
+              "start": 27.53,
+              "end": 29.95
+            },
+            {
+              "text": "[chuckling] Come on over here, sweetheart.",
+              "start": 29.95,
+              "end": 31.24
+            }
+          ]
+        },
+        {
+          "start": 31.24,
+          "end": 33.78,
+          "lines": [
+            {
+              "text": "- Come on, come on! - Thank you so much, Mr. Kaplan.",
+              "start": 31.24,
+              "end": 32.78
+            },
+            {
+              "text": "Thank you so much.",
+              "start": 32.91,
+              "end": 33.78
+            }
+          ]
+        },
+        {
+          "start": 33.78,
+          "end": 41.04,
+          "lines": [
+            {
+              "text": "I need these hangers separated ASAP.",
+              "start": 33.78,
+              "end": 37.29
+            },
+            {
+              "text": "You're welcome.",
+              "start": 39.71,
+              "end": 41.04
+            }
+          ],
+          "glossary": [
+            {
+              "term": "ASAP",
+              "ko": "최대한 빨리 (as soon as possible)",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 45.42,
+          "end": 48.01,
+          "lines": [
+            {
+              "text": "Oh, God, I hate my job. I hate it.",
+              "start": 45.42,
+              "end": 47.01
+            },
+            {
+              "text": "I hate my job. I hate it.",
+              "start": 47.01,
+              "end": 48.01
+            }
+          ]
+        },
+        {
+          "start": 48.09,
+          "end": 51.22,
+          "lines": [
+            {
+              "text": "I know, honey. I'm sorry.",
+              "start": 48.09,
+              "end": 49.63
+            },
+            {
+              "text": "Oh, I want to quit.",
+              "start": 49.72,
+              "end": 51.22
+            }
+          ]
+        },
+        {
+          "start": 51.47,
+          "end": 62.31,
+          "lines": [
+            {
+              "text": "But then I think I should stick it out.",
+              "start": 51.47,
+              "end": 53.39
+            },
+            {
+              "text": "Then, I think why would such a person stay in such a demeaning job just because it's remotely related to the field they're interested in.",
+              "start": 53.39,
+              "end": 62.31
+            }
+          ],
+          "glossary": [
+            {
+              "term": "stick it out",
+              "ko": "끝까지 버티다, 참고 견디다",
+              "type": "idiom",
+              "easy": "힘들어도 그만두지 않고 끝까지 하다",
+              "when": "포기하고 싶지만 버틸 때",
+              "ex": "The job is hard, but I'll stick it out.",
+              "exKo": "일이 힘들지만 끝까지 버텨볼게요."
+            },
+            {
+              "term": "demeaning",
+              "ko": "굴욕적인, 자존심 상하는",
+              "type": "word",
+              "easy": "사람을 깎아내려 비참하게 만드는",
+              "when": "모욕적인 대우·일을 말할 때",
+              "ex": "He found the work demeaning.",
+              "exKo": "그는 그 일이 굴욕적이라고 느꼈어요."
+            }
+          ]
+        },
+        {
+          "start": 64.36,
+          "end": 70.07,
+          "lines": [
+            {
+              "text": "Gee, I don't know, Rach. Order up.",
+              "start": 64.36,
+              "end": 66.98
+            },
+            {
+              "text": "I got a yentl soup, a James beans and a howdy, hold the doody.",
+              "start": 66.98,
+              "end": 70.07
+            }
+          ]
+        },
+        {
+          "start": 70.15,
+          "end": 74.95,
+          "lines": [
+            {
+              "text": "Oh! Honey, come on, I'm sorry.",
+              "start": 70.15,
+              "end": 72.16
+            },
+            {
+              "text": "I didn't, I don't mind paying my dues, you know?",
+              "start": 72.16,
+              "end": 74.95
+            }
+          ],
+          "glossary": [
+            {
+              "term": "pay my dues",
+              "ko": "(고생하며) 경력을 쌓다, 대가를 치르다",
+              "type": "idiom",
+              "easy": "성공 전에 힘든 시기를 버티며 자격을 갖추다",
+              "nuance": "낮은 자리에서 묵묵히 고생한다는 느낌",
+              "when": "초년의 고생을 이야기할 때",
+              "ex": "Every actor has to pay their dues.",
+              "exKo": "배우라면 누구나 무명의 고생을 거쳐야죠.",
+              "tip": "dues는 원래 '회비' — 값을 치른다는 비유예요."
+            }
+          ]
+        },
+        {
+          "start": 74.95,
+          "end": 86.84,
+          "lines": [
+            {
+              "text": "It's just, how much am I gonna learn about fashion by walking Myra, the arthritic seamstress to the bathroom?",
+              "start": 74.95,
+              "end": 81.25
+            },
+            {
+              "text": "Hi. Is my misery amusing to you?",
+              "start": 84,
+              "end": 86.84
+            }
+          ],
+          "glossary": [
+            {
+              "term": "is my misery amusing to you",
+              "ko": "내 불행이 그렇게 재밌니",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 87.3,
+          "end": 92.18,
+          "lines": [
+            {
+              "text": "I'm sorry. I was, I was just, uh..",
+              "start": 87.3,
+              "end": 89.88
+            },
+            {
+              "text": "It's not funny. This is actually my job.",
+              "start": 89.88,
+              "end": 92.18
+            }
+          ]
+        },
+        {
+          "start": 92.51,
+          "end": 97.39,
+          "lines": [
+            {
+              "text": "Oh, believe me, I, I've , I've been there.",
+              "start": 92.51,
+              "end": 94.18
+            },
+            {
+              "text": "I had to sort mannequin heads at that Mannequins Plus.",
+              "start": 94.18,
+              "end": 97.39
+            }
+          ],
+          "glossary": [
+            {
+              "term": "I've been there",
+              "ko": "나도 겪어봤어 (그 심정 알아)",
+              "type": "idiom",
+              "easy": "나도 똑같은 일을 당해봐서 안다",
+              "nuance": "공감하며 위로할 때 쓰는 따뜻한 표현",
+              "when": "상대의 힘든 상황에 공감할 때",
+              "ex": "You failed too? I've been there.",
+              "exKo": "너도 떨어졌어? 그 심정 나도 알아."
+            }
+          ]
+        },
+        {
+          "start": 97.64,
+          "end": 102.14,
+          "lines": [
+            {
+              "text": "Oh, well, then.",
+              "start": 97.64,
+              "end": 99.1
+            },
+            {
+              "text": "So, I'm, I'm just gonna go back talking to my friend here.",
+              "start": 99.22,
+              "end": 102.14
+            }
+          ]
+        },
+        {
+          "start": 102.31,
+          "end": 108.53,
+          "lines": [
+            {
+              "text": "And you can go back to enjoying your little hamburger.",
+              "start": 102.31,
+              "end": 104.6
+            },
+            {
+              "text": "Oh, well, just, uh, one other thing?",
+              "start": 106.4,
+              "end": 108.53
+            }
+          ]
+        },
+        {
+          "start": 108.53,
+          "end": 115.91,
+          "lines": [
+            {
+              "text": "[clearing throat] Yes?",
+              "start": 108.53,
+              "end": 109.86
+            },
+            {
+              "text": "I, uh, I work at Bloomingdale's and I might know of a job possibility if you're, if you're interested.",
+              "start": 110.03,
+              "end": 115.91
+            }
+          ]
+        },
+        {
+          "start": 118.2,
+          "end": 120.16,
+          "lines": [
+            {
+              "text": "Do you want my pickle?",
+              "start": 118.2,
+              "end": 120.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "YgRjRox5QLg",
+      "url": "https://www.youtube.com/watch?v=YgRjRox5QLg",
+      "title": "Friends: Monica Looks for a Donor",
+      "tag": "Monica's plan",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 2.92,
+          "end": 10.59,
+          "lines": [
+            {
+              "text": "No, that's alright. I just had a jar of mustard.",
+              "start": 2.92,
+              "end": 5.26
+            },
+            {
+              "text": "Okay, sperm donor number 03815.",
+              "start": 7.01,
+              "end": 10.59
+            }
+          ],
+          "glossary": [
+            {
+              "term": "sperm donor",
+              "ko": "정자 기증자",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 10.64,
+          "end": 18.31,
+          "lines": [
+            {
+              "text": "Come on down!",
+              "start": 10.64,
+              "end": 12.93
+            },
+            {
+              "text": "Hey, he's 6'2, 170 pounds and he describes himself as a male Geena Davis.",
+              "start": 13.01,
+              "end": 18.31
+            }
+          ]
+        },
+        {
+          "start": 18.39,
+          "end": 24.11,
+          "lines": [
+            {
+              "text": "You mean there's more than one of us?",
+              "start": 18.39,
+              "end": 20.44
+            },
+            {
+              "text": "You can't do this, Mon, alright.",
+              "start": 22.23,
+              "end": 24.11
+            }
+          ]
+        },
+        {
+          "start": 24.15,
+          "end": 31.16,
+          "lines": [
+            {
+              "text": "If you do this, I'm-I'm gonna, I'm-I'm-- - You're gonna what? - I'm gonna tell mom.",
+              "start": 24.15,
+              "end": 29.32
+            },
+            {
+              "text": "Honey, I'm sorry, but he's right.",
+              "start": 29.4,
+              "end": 31.16
+            }
+          ]
+        },
+        {
+          "start": 31.24,
+          "end": 36.37,
+          "lines": [
+            {
+              "text": "- I love you, but you're crazy. - Crazy.",
+              "start": 31.24,
+              "end": 33.7
+            },
+            {
+              "text": "What? Why? Why is this crazy?",
+              "start": 33.78,
+              "end": 36.37
+            }
+          ]
+        },
+        {
+          "start": 36.74,
+          "end": 44.79,
+          "lines": [
+            {
+              "text": "So this isn't the ideal way to do something-- - Oh, it's not the ideal-- - Lips moving, still talking.",
+              "start": 36.74,
+              "end": 41.29
+            },
+            {
+              "text": "They may not be ideal, but..",
+              "start": 42.63,
+              "end": 44.79
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Lips moving, still talking",
+              "ko": "(내) 입 움직이지, 아직 말 안 끝났어",
+              "type": "idiom",
+              "easy": "말 끊지 말라고 익살스럽게 하는 말",
+              "when": "상대가 말허리를 자를 때",
+              "tip": "직역은 '입술 움직임=아직 말하는 중'이에요."
+            }
+          ]
+        },
+        {
+          "start": 44.79,
+          "end": 49.72,
+          "lines": [
+            {
+              "text": "...I'm so ready.",
+              "start": 44.79,
+              "end": 47.01
+            },
+            {
+              "text": "You know, I-I see the way Ben looks at you.",
+              "start": 47.09,
+              "end": 49.72
+            }
+          ]
+        },
+        {
+          "start": 49.8,
+          "end": 55.51,
+          "lines": [
+            {
+              "text": "I-it makes me ache, you know?",
+              "start": 49.8,
+              "end": 52.3
+            },
+            {
+              "text": "Check it out, jam crackers, I mean..",
+              "start": 52.39,
+              "end": 55.51
+            }
+          ],
+          "glossary": [
+            {
+              "term": "it makes me ache",
+              "ko": "(부러움에) 가슴이 아릴 정도다",
+              "type": "idiom",
+              "easy": "너무 부럽거나 뭉클해서 마음이 저리다",
+              "when": "간절히 부럽거나 애틋할 때",
+              "ex": "Seeing them so happy makes me ache.",
+              "exKo": "둘이 너무 행복해 보여서 가슴이 다 아려요.",
+              "tip": "ache는 '쑤시게 아프다' — 여기선 마음이 저린 느낌."
+            }
+          ]
+        },
+        {
+          "start": 59.02,
+          "end": 64.65,
+          "lines": [
+            {
+              "text": "Okay, alright, how's this?",
+              "start": 59.02,
+              "end": 61.23
+            },
+            {
+              "text": "\"Twenty seven, Italian-American guy.",
+              "start": 61.31,
+              "end": 64.65
+            }
+          ]
+        },
+        {
+          "start": 64.69,
+          "end": 69.99,
+          "lines": [
+            {
+              "text": "He is an actor, born in Queens.",
+              "start": 64.69,
+              "end": 68.49
+            },
+            {
+              "text": "Wow, big family.",
+              "start": 68.57,
+              "end": 69.99
+            }
+          ]
+        },
+        {
+          "start": 70.07,
+          "end": 76.2,
+          "lines": [
+            {
+              "text": "Seven sisters, and he's the only..",
+              "start": 70.07,
+              "end": 74.49
+            },
+            {
+              "text": "...boy.",
+              "start": 74.53,
+              "end": 76.2
+            }
+          ]
+        },
+        {
+          "start": 78.83,
+          "end": 84.92,
+          "lines": [
+            {
+              "text": "Oh, my God, under personal comments \"New York Knicks rule.\"",
+              "start": 78.83,
+              "end": 82.62
+            },
+            {
+              "text": "Yeah, the Knicks rule!",
+              "start": 82.67,
+              "end": 84.92
+            }
+          ]
+        },
+        {
+          "start": 88.34,
+          "end": 92.3,
+          "lines": [
+            {
+              "text": "Joey, this is you.",
+              "start": 88.34,
+              "end": 90.67
+            },
+            {
+              "text": "Let me see.",
+              "start": 90.76,
+              "end": 92.3
+            }
+          ]
+        },
+        {
+          "start": 94.55,
+          "end": 98.85,
+          "lines": [
+            {
+              "text": "Oh, right, yeah.",
+              "start": 94.55,
+              "end": 95.97
+            },
+            {
+              "text": "When did you go to a sperm bank?",
+              "start": 96.93,
+              "end": 98.85
+            }
+          ]
+        },
+        {
+          "start": 98.93,
+          "end": 104.65,
+          "lines": [
+            {
+              "text": "Well, right after I did that sex study down at NYU.",
+              "start": 98.93,
+              "end": 101.52
+            },
+            {
+              "text": "Hey, remember that sweater I gave you for your birthday?",
+              "start": 101.6,
+              "end": 104.65
+            }
+          ]
+        },
+        {
+          "start": 104.69,
+          "end": 111.19,
+          "lines": [
+            {
+              "text": "And that's how you bought it?",
+              "start": 104.69,
+              "end": 106.36
+            },
+            {
+              "text": "No, that's what I was wearing when I donated.",
+              "start": 107.69,
+              "end": 111.19
+            }
+          ]
+        },
+        {
+          "start": 114.32,
+          "end": 119.41,
+          "lines": [
+            {
+              "text": "I'm kinda surprised there's any of my boys left.",
+              "start": 114.32,
+              "end": 116.99
+            },
+            {
+              "text": "Well, honey, it is pretty competitive.",
+              "start": 117.03,
+              "end": 119.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "competitive",
+              "ko": "경쟁이 치열한",
+              "type": "word",
+              "easy": "다들 잘해서 뽑히기 어려운",
+              "when": "입시·취업 등 경쟁이 셀 때",
+              "ex": "The job market is very competitive.",
+              "exKo": "취업 시장이 아주 치열해요."
+            }
+          ]
+        },
+        {
+          "start": 119.49,
+          "end": 126.5,
+          "lines": [
+            {
+              "text": "I mean, I've got an actual rocket scientist here.",
+              "start": 119.49,
+              "end": 122
+            },
+            {
+              "text": "Hey, maybe I should call this place and get 'em to put my \"Days Of Our Lives\" gig on here.",
+              "start": 122.04,
+              "end": 126.5
+            }
+          ],
+          "glossary": [
+            {
+              "term": "rocket scientist",
+              "ko": "(엄청난) 천재",
+              "type": "idiom",
+              "easy": "아주 똑똑한 사람을 가리키는 말",
+              "nuance": "보통 'It's not rocket science(별로 안 어렵다)'처럼 부정문에 자주",
+              "when": "머리가 비상한 사람을 비유할 때",
+              "ex": "You don't have to be a rocket scientist to use it.",
+              "exKo": "천재가 아니어도 쓸 수 있어요."
+            },
+            {
+              "term": "gig",
+              "ko": "단기 일거리, 공연",
+              "type": "word",
+              "easy": "한 번씩 하는 일이나 공연",
+              "when": "프리랜서 일·공연을 말할 때",
+              "ex": "I got a gig playing at a wedding.",
+              "exKo": "결혼식에서 연주하는 일을 하나 잡았어요."
+            }
+          ]
+        },
+        {
+          "start": 126.54,
+          "end": 129.17,
+          "lines": [
+            {
+              "text": "You know, juice this puppy up a little.",
+              "start": 126.54,
+              "end": 129.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nITZooG6ij8",
+      "url": "https://www.youtube.com/watch?v=nITZooG6ij8",
+      "title": "Friends: Monica Caters Ross' Ex-Wife's Wedding",
+      "tag": "Monica caters",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 4.13,
+          "lines": [
+            {
+              "text": "Alright, people, we're in trouble here.",
+              "start": 0.04,
+              "end": 1.88
+            },
+            {
+              "text": "We've got 12 hours and 36 minutes left.",
+              "start": 1.88,
+              "end": 4.13
+            }
+          ],
+          "glossary": [
+            {
+              "term": "we're in trouble",
+              "ko": "큰일났다, 큰일이다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 4.3,
+          "end": 9.63,
+          "lines": [
+            {
+              "text": "Move! Move! Move!",
+              "start": 4.3,
+              "end": 6.13
+            },
+            {
+              "text": "Monica, I feel like you should have German subtitles.",
+              "start": 6.26,
+              "end": 9.63
+            }
+          ]
+        },
+        {
+          "start": 11.55,
+          "end": 14.56,
+          "lines": [
+            {
+              "text": "Joey, speed it up.",
+              "start": 11.55,
+              "end": 13.22
+            },
+            {
+              "text": "I'm sorry. It's the pigs!",
+              "start": 13.22,
+              "end": 14.56
+            }
+          ]
+        },
+        {
+          "start": 14.72,
+          "end": 19.94,
+          "lines": [
+            {
+              "text": "They're reluctant to get in the blankets.",
+              "start": 14.72,
+              "end": 18.23
+            },
+            {
+              "text": "Monica, how did this happen?",
+              "start": 18.48,
+              "end": 19.94
+            }
+          ],
+          "glossary": [
+            {
+              "term": "reluctant",
+              "ko": "마지못한, 내키지 않는",
+              "type": "word",
+              "easy": "하기 싫어 머뭇거리는",
+              "when": "누가 무언가를 꺼릴 때",
+              "ex": "She was reluctant to leave.",
+              "exKo": "그녀는 떠나기를 꺼렸어요."
+            }
+          ]
+        },
+        {
+          "start": 19.98,
+          "end": 25.07,
+          "lines": [
+            {
+              "text": "I thought you had this all planned out.",
+              "start": 19.98,
+              "end": 22.23
+            },
+            {
+              "text": "Do you want me to cry?",
+              "start": 22.27,
+              "end": 25.07
+            }
+          ]
+        },
+        {
+          "start": 25.07,
+          "end": 29.4,
+          "lines": [
+            {
+              "text": "Is that what you want?",
+              "start": 25.07,
+              "end": 26.94
+            },
+            {
+              "text": "Do you want to see me cry?",
+              "start": 27.07,
+              "end": 29.4
+            }
+          ]
+        },
+        {
+          "start": 29.49,
+          "end": 36.74,
+          "lines": [
+            {
+              "text": "Sir, no, sir.",
+              "start": 29.49,
+              "end": 31.32
+            },
+            {
+              "text": "- Alright, you. - What? No.",
+              "start": 34.45,
+              "end": 36.74
+            }
+          ]
+        },
+        {
+          "start": 36.74,
+          "end": 44.17,
+          "lines": [
+            {
+              "text": "Look, I told you. I am not a part of this thing.",
+              "start": 36.74,
+              "end": 39.58
+            },
+            {
+              "text": "Alright, look, Ross, I realize that you have issues with Carol and Susan, and I feel for you, I do.",
+              "start": 39.66,
+              "end": 44.17
+            }
+          ],
+          "glossary": [
+            {
+              "term": "I feel for you",
+              "ko": "네 심정 이해해, 안됐다",
+              "type": "idiom",
+              "easy": "네 마음이 어떤지 알아서 안쓰럽다",
+              "nuance": "진심으로 공감·동정하는 따뜻한 말",
+              "when": "상대의 힘든 처지에 공감할 때",
+              "ex": "You lost your job? I feel for you.",
+              "exKo": "직장을 잃었다고? 정말 안됐다."
+            },
+            {
+              "term": "issues with",
+              "ko": "~와의 갈등, ~에 대한 문제",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 44.34,
+          "end": 53.01,
+          "lines": [
+            {
+              "text": "But if you don't help me cook, I'm going to take a bunch of those little hot dogs and create a new appetizer called \"Pigs-in-Ross.\"",
+              "start": 44.34,
+              "end": 49.88
+            },
+            {
+              "text": "Alright, ball a melon!",
+              "start": 51.68,
+              "end": 53.01
+            }
+          ]
+        },
+        {
+          "start": 53.09,
+          "end": 62.35,
+          "lines": [
+            {
+              "text": "Hey, how come I'm stuck dicing when he gets to ball a melon?",
+              "start": 53.09,
+              "end": 56.51
+            },
+            {
+              "text": "- Hi. - Hi. How's it going?",
+              "start": 61.02,
+              "end": 62.35
+            }
+          ]
+        },
+        {
+          "start": 62.44,
+          "end": 66.02,
+          "lines": [
+            {
+              "text": "Oh, it's going great, right on schedule.",
+              "start": 62.44,
+              "end": 64.73
+            },
+            {
+              "text": "Got my little happy helpers.",
+              "start": 64.77,
+              "end": 66.02
+            }
+          ]
+        },
+        {
+          "start": 68.78,
+          "end": 72.2,
+          "lines": [
+            {
+              "text": "Well, that's fine. Whatever.",
+              "start": 68.78,
+              "end": 71.03
+            },
+            {
+              "text": "What's the matter?",
+              "start": 71.03,
+              "end": 72.2
+            }
+          ]
+        },
+        {
+          "start": 72.53,
+          "end": 76.37,
+          "lines": [
+            {
+              "text": "Nothing.",
+              "start": 72.53,
+              "end": 74.87
+            },
+            {
+              "text": "Okay, everything.",
+              "start": 74.87,
+              "end": 76.37
+            }
+          ]
+        },
+        {
+          "start": 76.37,
+          "end": 79.7,
+          "lines": [
+            {
+              "text": "I think we're calling off the wedding.",
+              "start": 76.37,
+              "end": 78.45
+            },
+            {
+              "text": "What?",
+              "start": 78.79,
+              "end": 79.7
+            }
+          ],
+          "glossary": [
+            {
+              "term": "call off the wedding",
+              "ko": "결혼식을 취소하다",
+              "type": "idiom",
+              "easy": "예정된 결혼(행사)을 없던 일로 하다",
+              "when": "행사·계획을 취소할 때",
+              "ex": "They called off the wedding last minute.",
+              "exKo": "그들은 막판에 결혼식을 취소했어요.",
+              "tip": "call off = (예정된 것을) 취소하다."
+            }
+          ]
+        },
+        {
+          "start": 79.7,
+          "end": 85.38,
+          "lines": [
+            {
+              "text": "You're still going to pay me, right?",
+              "start": 79.7,
+              "end": 80.91
+            },
+            {
+              "text": "Or something a little less selfish.",
+              "start": 83.75,
+              "end": 85.38
+            }
+          ]
+        },
+        {
+          "start": 86.75,
+          "end": 91.22,
+          "lines": [
+            {
+              "text": "Carol, what's the matter? What happened?",
+              "start": 86.75,
+              "end": 88.59
+            },
+            {
+              "text": "My parents called this afternoon to say they weren't coming.",
+              "start": 88.88,
+              "end": 91.22
+            }
+          ],
+          "glossary": [
+            {
+              "term": "give me away",
+              "ko": "(결혼식에서) 신부를 데리고 입장하다",
+              "type": "idiom",
+              "easy": "보통 아버지가 신부를 신랑에게 인도하는 것",
+              "nuance": "결혼식 전통 표현이라 맥락이 중요",
+              "when": "결혼식 절차를 말할 때",
+              "ex": "Her father will give her away.",
+              "exKo": "아버지가 신부 입장을 함께 하실 거예요."
+            }
+          ]
+        },
+        {
+          "start": 91.26,
+          "end": 95.97,
+          "lines": [
+            {
+              "text": "Oh, my God.",
+              "start": 91.26,
+              "end": 92.22
+            },
+            {
+              "text": "I mean, I knew they were having trouble with this whole thing, but..",
+              "start": 92.3,
+              "end": 95.97
+            }
+          ]
+        },
+        {
+          "start": 96.05,
+          "end": 100.73,
+          "lines": [
+            {
+              "text": "But they're my parents, I mean they're supposed to give me away and everything.",
+              "start": 96.05,
+              "end": 98.77
+            },
+            {
+              "text": "Okay. I'm sorry.",
+              "start": 98.93,
+              "end": 100.73
+            }
+          ]
+        },
+        {
+          "start": 100.73,
+          "end": 113.45,
+          "lines": [
+            {
+              "text": "'And then Susan and I got in this big fight' 'cause I said maybe we should call off the wedding and then she said, we're not doing this for them.",
+              "start": 100.73,
+              "end": 106.77
+            },
+            {
+              "text": "We're doing it for us, and if I couldn't see that then maybe we should call off the wedding and I don't know what to do.",
+              "start": 106.77,
+              "end": 113.45
+            }
+          ]
+        },
+        {
+          "start": 115.41,
+          "end": 123.25,
+          "lines": [
+            {
+              "text": "I, uh, can't believe I'm going to say this but I think Susan's right.",
+              "start": 115.41,
+              "end": 119.66
+            },
+            {
+              "text": "- You do? - Look, do you love her?",
+              "start": 120.25,
+              "end": 123.25
+            }
+          ]
+        },
+        {
+          "start": 123.41,
+          "end": 129.59,
+          "lines": [
+            {
+              "text": "And you don't have to be too emphatic about this.",
+              "start": 123.41,
+              "end": 126.42
+            },
+            {
+              "text": "Of course, I do.",
+              "start": 128.25,
+              "end": 129.59
+            }
+          ]
+        },
+        {
+          "start": 129.59,
+          "end": 136.97,
+          "lines": [
+            {
+              "text": "Well, then, that's it and if George and Adelaide can't accept that then the hell with them.",
+              "start": 129.59,
+              "end": 135.26
+            },
+            {
+              "text": "Look. I mean..",
+              "start": 135.3,
+              "end": 136.97
+            }
+          ]
+        },
+        {
+          "start": 137.26,
+          "end": 146.19,
+          "lines": [
+            {
+              "text": "If my parents didn't want me to marry you no way that would have stopped me.",
+              "start": 137.26,
+              "end": 142.68
+            },
+            {
+              "text": "Alright, look this is your wedding.",
+              "start": 142.77,
+              "end": 146.19
+            }
+          ]
+        },
+        {
+          "start": 146.27,
+          "end": 152.94,
+          "lines": [
+            {
+              "text": "Do it.",
+              "start": 146.27,
+              "end": 147.6
+            },
+            {
+              "text": "You're right. Of course, you're right.",
+              "start": 150.28,
+              "end": 152.94
+            }
+          ]
+        },
+        {
+          "start": 153.28,
+          "end": 158.32,
+          "lines": [
+            {
+              "text": "- So we're back on? - We're back on.",
+              "start": 153.28,
+              "end": 155.95
+            },
+            {
+              "text": "You heard the woman. Peel. Chop. Devil.",
+              "start": 156.11,
+              "end": 158.32
+            }
+          ],
+          "glossary": [
+            {
+              "term": "we're back on",
+              "ko": "(취소했다가) 다시 진행이다",
+              "type": "idiom",
+              "easy": "엎어졌던 일이 다시 살아나 진행됨",
+              "when": "취소·중단됐던 계획이 재개될 때",
+              "ex": "The deal is back on!",
+              "exKo": "그 거래 다시 진행돼!",
+              "tip": "반대는 it's off(취소됐다)예요."
+            }
+          ]
+        },
+        {
+          "start": 161.16,
+          "end": 163.12,
+          "lines": [
+            {
+              "text": "I can't believe I lost two minutes.",
+              "start": 161.16,
+              "end": 163.12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lrNcx2D_FZI",
+      "url": "https://www.youtube.com/watch?v=lrNcx2D_FZI",
+      "title": "Friends: Chandler Gets a Little Desperate",
+      "tag": "Chandler desperate",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 5.47,
+          "end": 11.24,
+          "lines": [
+            {
+              "text": "- Can I use your phone? - Yeah.",
+              "start": 5.47,
+              "end": 7.17
+            },
+            {
+              "text": "Uh, but for future reference uh, that thing in your hand can also be used as a phone.",
+              "start": 7.41,
+              "end": 11.24
+            }
+          ],
+          "glossary": [
+            {
+              "term": "for future reference",
+              "ko": "앞으로 참고로",
+              "type": "idiom",
+              "easy": "다음을 위해 알아두라는 말",
+              "when": "팁·정보를 일러줄 때",
+              "ex": "For future reference, the meeting starts at 9.",
+              "exKo": "참고로, 회의는 9시에 시작해요."
+            }
+          ]
+        },
+        {
+          "start": 16.52,
+          "end": 21.52,
+          "lines": [
+            {
+              "text": "Yes, it's working.",
+              "start": 16.52,
+              "end": 17.75
+            },
+            {
+              "text": "Why isn't she calling me back?",
+              "start": 20.25,
+              "end": 21.52
+            }
+          ]
+        },
+        {
+          "start": 21.92,
+          "end": 29.53,
+          "lines": [
+            {
+              "text": "Maybe she never got your message.",
+              "start": 21.92,
+              "end": 23.32
+            },
+            {
+              "text": "You know, if you want you can call her machine and if she has a lot of beeps that means she probably didn't get her messages yet.",
+              "start": 23.86,
+              "end": 29.53
+            }
+          ]
+        },
+        {
+          "start": 30.53,
+          "end": 34.03,
+          "lines": [
+            {
+              "text": "You don't think that makes me seem a little..",
+              "start": 30.53,
+              "end": 31.86
+            },
+            {
+              "text": "Desperate, needy, pathetic?",
+              "start": 31.86,
+              "end": 34.03
+            }
+          ],
+          "glossary": [
+            {
+              "term": "needy",
+              "ko": "(애정에) 매달리는, 집착하는",
+              "type": "word",
+              "easy": "관심·사랑을 너무 갈구하는",
+              "nuance": "부담스러울 만큼 들러붙는 부정적 느낌",
+              "when": "연애·관계에서 집착할 때",
+              "ex": "I don't want to seem needy.",
+              "exKo": "너무 매달리는 것처럼 보이긴 싫어."
+            }
+          ]
+        },
+        {
+          "start": 34.97,
+          "end": 42.38,
+          "lines": [
+            {
+              "text": "Ah, you obviously saw my personal ad.",
+              "start": 34.97,
+              "end": 36.87
+            },
+            {
+              "text": "- How many beeps? - She answered.",
+              "start": 40.71,
+              "end": 42.38
+            }
+          ]
+        },
+        {
+          "start": 44.94,
+          "end": 50.45,
+          "lines": [
+            {
+              "text": "You see, this is where you'd use that \"Hello\" word we talked .",
+              "start": 44.94,
+              "end": 48.78
+            },
+            {
+              "text": "I'm not gonna talk to her.",
+              "start": 49.38,
+              "end": 50.45
+            }
+          ]
+        },
+        {
+          "start": 50.45,
+          "end": 55.52,
+          "lines": [
+            {
+              "text": "She obviously got my message and is choosing not to call me.",
+              "start": 50.45,
+              "end": 52.72
+            },
+            {
+              "text": "Now, I'm needy and snubbed.",
+              "start": 53.39,
+              "end": 55.52
+            }
+          ]
+        },
+        {
+          "start": 56.96,
+          "end": 61.36,
+          "lines": [
+            {
+              "text": "God, I miss just being needy.",
+              "start": 56.96,
+              "end": 58.73
+            },
+            {
+              "text": "(all) 'Hey.'",
+              "start": 60.36,
+              "end": 61.36
+            }
+          ]
+        },
+        {
+          "start": 61.86,
+          "end": 66.3,
+          "lines": [
+            {
+              "text": "How'd he take it?",
+              "start": 61.86,
+              "end": 63.16
+            },
+            {
+              "text": "Pretty well, actually.",
+              "start": 63.73,
+              "end": 66.3
+            }
+          ]
+        },
+        {
+          "start": 67.5,
+          "end": 71.4,
+          "lines": [
+            {
+              "text": "- Uh, Rach? - What?",
+              "start": 67.5,
+              "end": 68.9
+            },
+            {
+              "text": "How come you have dental floss in your hair?",
+              "start": 68.9,
+              "end": 71.4
+            }
+          ]
+        },
+        {
+          "start": 73.24,
+          "end": 80.01,
+          "lines": [
+            {
+              "text": "- Oh, do I? - Uh-huh.",
+              "start": 73.24,
+              "end": 75.21
+            },
+            {
+              "text": "We ended up having sex in his chair.",
+              "start": 77.71,
+              "end": 80.01
+            }
+          ],
+          "glossary": [
+            {
+              "term": "ended up having sex",
+              "ko": "결국 ~하게 됐다",
+              "type": "idiom",
+              "easy": "이런저런 끝에 결국 그렇게 됐다",
+              "when": "예상 못 한 결말을 말할 때",
+              "ex": "We ended up staying all night.",
+              "exKo": "우린 결국 밤새우게 됐어요.",
+              "tip": "end up -ing = 결국 ~하게 되다."
+            }
+          ]
+        },
+        {
+          "start": 80.71,
+          "end": 90.09,
+          "lines": [
+            {
+              "text": "You had sex in his chair?",
+              "start": 80.71,
+              "end": 82.68
+            },
+            {
+              "text": "I said that a little too loudly, didn't I?",
+              "start": 87.09,
+              "end": 90.09
+            }
+          ]
+        },
+        {
+          "start": 91.09,
+          "end": 96.23,
+          "lines": [
+            {
+              "text": "You, you had what?",
+              "start": 91.09,
+              "end": 92.43
+            },
+            {
+              "text": "Sex in his chair.",
+              "start": 94.19,
+              "end": 96.23
+            }
+          ]
+        },
+        {
+          "start": 98.7,
+          "end": 103.1,
+          "lines": [
+            {
+              "text": "What, uh, what were you thinking?",
+              "start": 98.7,
+              "end": 101.33
+            },
+            {
+              "text": "I don't know.",
+              "start": 101.77,
+              "end": 103.1
+            }
+          ]
+        },
+        {
+          "start": 103.1,
+          "end": 107.84,
+          "lines": [
+            {
+              "text": "I mean, we still care about each other.",
+              "start": 103.1,
+              "end": 104.37
+            },
+            {
+              "text": "There's a history there. It's like you and Carol.",
+              "start": 105.44,
+              "end": 107.84
+            }
+          ],
+          "glossary": [
+            {
+              "term": "there's a history there",
+              "ko": "둘 사이에 (지난) 사연이 있다",
+              "type": "idiom",
+              "easy": "예전에 얽힌 관계나 일이 있다",
+              "nuance": "과거의 연애·갈등을 에둘러 말하는 느낌",
+              "when": "옛 인연을 암시할 때",
+              "ex": "Those two? There's a history there.",
+              "exKo": "저 둘? 둘 사이에 사연이 좀 있어."
+            }
+          ]
+        },
+        {
+          "start": 108.24,
+          "end": 112.71,
+          "lines": [
+            {
+              "text": "No. No, no.",
+              "start": 108.24,
+              "end": 110.18
+            },
+            {
+              "text": "It's nothing like me and Carol.",
+              "start": 110.91,
+              "end": 112.71
+            }
+          ]
+        },
+        {
+          "start": 113.11,
+          "end": 123.72,
+          "lines": [
+            {
+              "text": "Please, if she said to , \"Ross, I want you on this couch. Right here, right now,\" what would you say?",
+              "start": 113.11,
+              "end": 119.95
+            },
+            {
+              "text": "If it helps, I could slide over.",
+              "start": 121.85,
+              "end": 123.72
+            }
+          ]
+        },
+        {
+          "start": 126.46,
+          "end": 131.13,
+          "lines": [
+            {
+              "text": "It's, it's-it's uh, a totally different situation..",
+              "start": 126.46,
+              "end": 129.53
+            },
+            {
+              "text": "It's-it's apples and oranges..",
+              "start": 129.56,
+              "end": 131.13
+            }
+          ],
+          "glossary": [
+            {
+              "term": "apples and oranges",
+              "ko": "전혀 다른 것 (비교 불가)",
+              "type": "idiom",
+              "easy": "성질이 달라 비교 자체가 안 되는 둘",
+              "when": "두 가지가 비교 대상이 아니라고 할 때",
+              "ex": "Comparing them is apples and oranges.",
+              "exKo": "그 둘을 비교하는 건 사과랑 오렌지 비교하는 격이에요."
+            }
+          ]
+        },
+        {
+          "start": 131.13,
+          "end": 137.54,
+          "lines": [
+            {
+              "text": "It's-it's orthodontists and lesb- I got to go.",
+              "start": 131.13,
+              "end": 134.07
+            },
+            {
+              "text": "- Wh-where are you going? - I just have to go!",
+              "start": 135.1,
+              "end": 137.54
+            }
+          ]
+        },
+        {
+          "start": 137.54,
+          "end": 141.87,
+          "lines": [
+            {
+              "text": "Alright. Do I need a reason, huh?",
+              "start": 137.54,
+              "end": 139.81
+            },
+            {
+              "text": "I mean, I have things to do with my life.",
+              "start": 139.81,
+              "end": 141.87
+            }
+          ]
+        },
+        {
+          "start": 141.87,
+          "end": 152.99,
+          "lines": [
+            {
+              "text": "I have a jam-packed schedule and I am late for keeping up with it, okay?",
+              "start": 141.87,
+              "end": 147.58
+            },
+            {
+              "text": "Hello? Hello?",
+              "start": 150.98,
+              "end": 152.99
+            }
+          ],
+          "glossary": [
+            {
+              "term": "jam-packed",
+              "ko": "빈틈없이 꽉 찬",
+              "type": "word",
+              "easy": "사람·일정이 발 디딜 틈 없이 가득한",
+              "when": "일정·장소가 꽉 찼을 때",
+              "ex": "My schedule is jam-packed today.",
+              "exKo": "오늘 일정이 빈틈없이 꽉 찼어요."
+            }
+          ]
+        },
+        {
+          "start": 166.1,
+          "end": 173.61,
+          "lines": [
+            {
+              "text": "Hell is filled with people like you.",
+              "start": 166.1,
+              "end": 169.3
+            },
+            {
+              "text": "He's back. The peeper's back.",
+              "start": 172.1,
+              "end": 173.61
+            }
+          ]
+        },
+        {
+          "start": 174.91,
+          "end": 178.01,
+          "lines": [
+            {
+              "text": "- Get down! - Get down?",
+              "start": 174.91,
+              "end": 176.91
+            },
+            {
+              "text": "And boogie.",
+              "start": 177.28,
+              "end": 178.01
+            }
+          ]
+        },
+        {
+          "start": 180.45,
+          "end": 185.62,
+          "lines": [
+            {
+              "text": "Thanks, but I got to go to work and get my eyes scratched out by Mindy.",
+              "start": 180.45,
+              "end": 183.65
+            },
+            {
+              "text": "Relax. You know, She may not even know.",
+              "start": 184.18,
+              "end": 185.62
+            }
+          ]
+        },
+        {
+          "start": 185.99,
+          "end": 193.49,
+          "lines": [
+            {
+              "text": "Please, I haven't heard from her in seven months and now she calls me I mean, what else is it about?",
+              "start": 185.99,
+              "end": 190.62
+            },
+            {
+              "text": "Oh. She was my best friend you guys.",
+              "start": 191.29,
+              "end": 193.49
+            }
+          ]
+        },
+        {
+          "start": 193.79,
+          "end": 198.3,
+          "lines": [
+            {
+              "text": "We went to camp together.",
+              "start": 193.79,
+              "end": 195.13
+            },
+            {
+              "text": "- She taught me how to kiss. - Yeah?",
+              "start": 195.96,
+              "end": 198.3
+            }
+          ]
+        },
+        {
+          "start": 200.67,
+          "end": 205.27,
+          "lines": [
+            {
+              "text": "Now, you know, I'm like the other woman.",
+              "start": 200.67,
+              "end": 203.6
+            },
+            {
+              "text": "Oh, I feel so..",
+              "start": 203.87,
+              "end": 205.27
+            }
+          ],
+          "glossary": [
+            {
+              "term": "the other woman",
+              "ko": "불륜 상대 여자, 내연녀",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 205.3,
+          "end": 210.01,
+          "lines": [
+            {
+              "text": "Naughty.",
+              "start": 205.3,
+              "end": 206.77
+            },
+            {
+              "text": "Alright, I'll see you guys later.",
+              "start": 208.81,
+              "end": 210.01
+            }
+          ]
+        },
+        {
+          "start": 210.04,
+          "end": 215.95,
+          "lines": [
+            {
+              "text": "Oh, hold up, I'll walk out with you.",
+              "start": 210.04,
+              "end": 211.11
+            },
+            {
+              "text": "Now, Rach, when she taught you to kiss you were at camp and were you wearing any kind of little uniform or..",
+              "start": 211.48,
+              "end": 215.95
+            }
+          ]
+        },
+        {
+          "start": 219.12,
+          "end": 223.62,
+          "lines": [
+            {
+              "text": "That's fine, yeah.",
+              "start": 219.12,
+              "end": 220.05
+            },
+            {
+              "text": "Okay, I'm gonna go to the bathroom.",
+              "start": 222.12,
+              "end": 223.62
+            }
+          ]
+        },
+        {
+          "start": 223.86,
+          "end": 226.13,
+          "lines": [
+            {
+              "text": "Will you watch my phone?",
+              "start": 223.86,
+              "end": 224.99
+            },
+            {
+              "text": "Why don't you just take it with you?",
+              "start": 224.99,
+              "end": 226.13
+            }
+          ]
+        },
+        {
+          "start": 226.33,
+          "end": 229.73,
+          "lines": [
+            {
+              "text": "Hey, we haven't been on a second date.",
+              "start": 226.33,
+              "end": 228.39
+            },
+            {
+              "text": "She needs to hear me pee?",
+              "start": 228.39,
+              "end": 229.73
+            }
+          ]
+        },
+        {
+          "start": 230.4,
+          "end": 233.33,
+          "lines": [
+            {
+              "text": "Why don't you just call her?",
+              "start": 230.4,
+              "end": 231.73
+            },
+            {
+              "text": "I can't call her. I left a message.",
+              "start": 231.9,
+              "end": 233.33
+            }
+          ]
+        },
+        {
+          "start": 234.07,
+          "end": 236.7,
+          "lines": [
+            {
+              "text": "- I have some pride. - Do you?",
+              "start": 234.07,
+              "end": 235.84
+            },
+            {
+              "text": "No.",
+              "start": 236.07,
+              "end": 236.7
+            }
+          ]
+        },
+        {
+          "start": 243.98,
+          "end": 247.58,
+          "lines": [
+            {
+              "text": "Danielle? Hi.",
+              "start": 243.98,
+              "end": 244.81
+            },
+            {
+              "text": "Hi, it's uh, it's Chandler.",
+              "start": 245.48,
+              "end": 247.58
+            }
+          ]
+        },
+        {
+          "start": 247.98,
+          "end": 251.72,
+          "lines": [
+            {
+              "text": "I'm fine.",
+              "start": 247.98,
+              "end": 248.82
+            },
+            {
+              "text": "Uh, listen.",
+              "start": 250.22,
+              "end": 251.72
+            }
+          ]
+        },
+        {
+          "start": 251.82,
+          "end": 264.23,
+          "lines": [
+            {
+              "text": "I don't know if you tried to call me because, uh..idiot that I am I accidentally shut off my phone.",
+              "start": 251.82,
+              "end": 258.09
+            },
+            {
+              "text": "Oh, okay-okay. That's, that's-that's fine That's great. Okay.",
+              "start": 260.26,
+              "end": 264.23
+            }
+          ]
+        },
+        {
+          "start": 265.37,
+          "end": 275.88,
+          "lines": [
+            {
+              "text": "She's on the other line. She's gonna call me back.",
+              "start": 265.37,
+              "end": 267.7
+            },
+            {
+              "text": "♪ She's on the other line she's gonna call me back♪ ♪ She's on the other line gonna call me back ♪ - Don't you have to pee? - It's why I'm dancing.",
+              "start": 268.87,
+              "end": 275.88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1QQBB3cwNM0",
+      "url": "https://www.youtube.com/watch?v=1QQBB3cwNM0",
+      "title": "The Office: Our Prices Have Never Been Lower!",
+      "tag": "Lowest prices",
+      "category": "미드 · 오피스",
+      "segments": [
+        {
+          "start": 0.06,
+          "end": 11.44,
+          "lines": [
+            {
+              "text": "Here's what's going to happen. I am going to have to fix you.",
+              "start": 0.06,
+              "end": 3.44
+            },
+            {
+              "text": "Manage you two, on a more personal scale. A more micro form of management. Jim, what is that called?",
+              "start": 3.54,
+              "end": 11.44
+            }
+          ]
+        },
+        {
+          "start": 11.46,
+          "end": 13.16,
+          "lines": [
+            {
+              "text": "\"Micro-gement?\"",
+              "start": 11.46,
+              "end": 12.39
+            },
+            {
+              "text": "Boom. Yes.",
+              "start": 12.39,
+              "end": 13.16
+            }
+          ]
+        },
+        {
+          "start": 13.18,
+          "end": 21.92,
+          "lines": [
+            {
+              "text": "Now Jim is going to be the client.",
+              "start": 13.18,
+              "end": 15.7
+            },
+            {
+              "text": "Dwight, you're going to have to sell to him without being aggressive, hostile or difficult. Let's go.",
+              "start": 15.7,
+              "end": 21.92
+            }
+          ],
+          "glossary": [
+            {
+              "term": "aggressive, hostile or difficult",
+              "ko": "공격적이거나 적대적이거나 까다로운",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 22,
+          "end": 27.66,
+          "lines": [
+            {
+              "text": "All right fine.",
+              "start": 22,
+              "end": 24.24
+            },
+            {
+              "text": "bbbrrring (bing) Hello.",
+              "start": 24.64,
+              "end": 27.66
+            }
+          ]
+        },
+        {
+          "start": 27.82,
+          "end": 32.58,
+          "lines": [
+            {
+              "text": "Hello, this is Dwight Schrute from the Dunder Mifflin paper company.",
+              "start": 27.82,
+              "end": 30.2
+            },
+            {
+              "text": "Well that's great, because I need paper.",
+              "start": 30.4,
+              "end": 32.58
+            }
+          ]
+        },
+        {
+          "start": 32.58,
+          "end": 38.74,
+          "lines": [
+            {
+              "text": "Excellent, then you are in luck because we are having a limited time offer, only on EVERYTHING.",
+              "start": 32.58,
+              "end": 37.54
+            },
+            {
+              "text": "Wow, this is my lucky day!",
+              "start": 37.54,
+              "end": 38.74
+            }
+          ],
+          "glossary": [
+            {
+              "term": "limited time offer",
+              "ko": "한정 기간 특가",
+              "type": "phrase",
+              "easy": "정해진 기간에만 해주는 할인",
+              "when": "판매·마케팅에서",
+              "ex": "This is a limited time offer, act now!",
+              "exKo": "한정 기간 특가예요, 지금 결정하세요!"
+            }
+          ]
+        },
+        {
+          "start": 38.74,
+          "end": 40.66,
+          "lines": [
+            {
+              "text": "[whispered] Ask him his name.",
+              "start": 38.74,
+              "end": 39.44
+            },
+            {
+              "text": "What is your name sir?",
+              "start": 39.44,
+              "end": 40.66
+            }
+          ]
+        },
+        {
+          "start": 40.82,
+          "end": 44.56,
+          "lines": [
+            {
+              "text": "I am Bill Buttlicker.",
+              "start": 40.82,
+              "end": 42.36
+            },
+            {
+              "text": "Really, that's your real name?",
+              "start": 43.54,
+              "end": 44.56
+            }
+          ]
+        },
+        {
+          "start": 45.44,
+          "end": 50.54,
+          "lines": [
+            {
+              "text": "How dare you?",
+              "start": 45.44,
+              "end": 46.58
+            },
+            {
+              "text": "My family built this country by the way, Be respectful Dwight, please.",
+              "start": 47.24,
+              "end": 50.54
+            }
+          ],
+          "glossary": [
+            {
+              "term": "How dare you",
+              "ko": "감히 어떻게 그래",
+              "type": "idiom",
+              "easy": "상대의 무례에 발끈하는 말",
+              "nuance": "진짜 화났거나 장난스럽게 흉내 낼 때 둘 다",
+              "when": "상대가 선을 넘었을 때",
+              "ex": "How dare you talk to me like that!",
+              "exKo": "네가 감히 나한테 그렇게 말해?"
+            }
+          ]
+        },
+        {
+          "start": 50.7,
+          "end": 52.68,
+          "lines": [
+            {
+              "text": "Yes, Michael.",
+              "start": 50.7,
+              "end": 51.4
+            },
+            {
+              "text": "Could you hold on one second, it's my other line.",
+              "start": 51.62,
+              "end": 52.68
+            }
+          ]
+        },
+        {
+          "start": 52.68,
+          "end": 54.88,
+          "lines": [
+            {
+              "text": "What? No, but I...",
+              "start": 52.68,
+              "end": 54.16
+            },
+            {
+              "text": "Hello?",
+              "start": 54.3,
+              "end": 54.88
+            }
+          ]
+        },
+        {
+          "start": 55.64,
+          "end": 63.98,
+          "lines": [
+            {
+              "text": "Yeah *Laughs* No, I'm just on the phone with this STUPID salesman. He's so dumb.",
+              "start": 55.64,
+              "end": 60.22
+            },
+            {
+              "text": "Probably just gonna keep him on the line forever and not buy anything.",
+              "start": 61.04,
+              "end": 63.98
+            }
+          ]
+        },
+        {
+          "start": 65.36,
+          "end": 67.86,
+          "lines": [
+            {
+              "text": "Okay!",
+              "start": 65.36,
+              "end": 66.08
+            },
+            {
+              "text": "It's up to you to change his mind.",
+              "start": 66.28,
+              "end": 67.86
+            }
+          ]
+        },
+        {
+          "start": 68,
+          "end": 71.78,
+          "lines": [
+            {
+              "text": "Sorry, that was a family emergency.",
+              "start": 68,
+              "end": 70.56
+            },
+            {
+              "text": "Oh no, what's wrong?",
+              "start": 70.72,
+              "end": 71.78
+            }
+          ]
+        },
+        {
+          "start": 71.86,
+          "end": 74.78,
+          "lines": [
+            {
+              "text": "You know what? That's private.",
+              "start": 71.86,
+              "end": 72.86
+            },
+            {
+              "text": "Boundaries, Dwight! C'mon!",
+              "start": 73.62,
+              "end": 74.78
+            }
+          ]
+        },
+        {
+          "start": 74.78,
+          "end": 80.66,
+          "lines": [
+            {
+              "text": "Oh, I'm sorry, Mr. Buttlicker! As I was saying: we are having a limited- Sorry could you speak up a little bit louder?",
+              "start": 74.78,
+              "end": 79.6
+            },
+            {
+              "text": "I'm hard of hearing.",
+              "start": 79.6,
+              "end": 80.66
+            }
+          ],
+          "glossary": [
+            {
+              "term": "hard of hearing",
+              "ko": "귀가 어두운, 잘 못 듣는",
+              "type": "idiom",
+              "easy": "청력이 약해 소리를 잘 못 듣는",
+              "when": "어르신·청력 약한 사람을 말할 때",
+              "ex": "Speak up, Grandpa's a little hard of hearing.",
+              "exKo": "크게 말해, 할아버지가 귀가 좀 어두우셔."
+            }
+          ]
+        },
+        {
+          "start": 80.7,
+          "end": 84.4,
+          "lines": [
+            {
+              "text": "It's hard if he's an old man.",
+              "start": 80.7,
+              "end": 81.72
+            },
+            {
+              "text": "Okay, as I was saying right now - You gotta talk louder.",
+              "start": 81.72,
+              "end": 84.4
+            }
+          ]
+        },
+        {
+          "start": 84.5,
+          "end": 88.28,
+          "lines": [
+            {
+              "text": "Okay. Our prices have never been lower - Son, you have to talk louder!",
+              "start": 84.5,
+              "end": 87.5
+            },
+            {
+              "text": "... Never been lower!",
+              "start": 87.5,
+              "end": 88.28
+            }
+          ]
+        },
+        {
+          "start": 88.28,
+          "end": 92.28,
+          "lines": [
+            {
+              "text": "LOUDER, SON!",
+              "start": 88.28,
+              "end": 89.08
+            },
+            {
+              "text": "BUTTLICKER! OUR PRICES HAVE NEVER BEEN LOWER!",
+              "start": 89.08,
+              "end": 92.28
+            }
+          ]
+        },
+        {
+          "start": 92.28,
+          "end": 96.7,
+          "lines": [
+            {
+              "text": "Stop it, stop it!",
+              "start": 92.28,
+              "end": 93.14
+            },
+            {
+              "text": "That is totally inappropriate.",
+              "start": 94.7,
+              "end": 96.7
+            }
+          ],
+          "glossary": [
+            {
+              "term": "totally inappropriate",
+              "ko": "완전히 부적절한",
+              "type": "phrase",
+              "easy": "상황에 전혀 안 맞고 무례한",
+              "when": "예의·상황에 어긋난 행동을 지적할 때",
+              "ex": "That joke was totally inappropriate.",
+              "exKo": "그 농담은 완전히 부적절했어요."
+            }
+          ]
+        },
+        {
+          "start": 96.88,
+          "end": 100.32,
+          "lines": [
+            {
+              "text": "You never yell at the client!",
+              "start": 96.88,
+              "end": 98.14
+            },
+            {
+              "text": "Now you listen to me, sir.",
+              "start": 98.58,
+              "end": 100.32
+            }
+          ]
+        },
+        {
+          "start": 100.4,
+          "end": 106.52,
+          "lines": [
+            {
+              "text": "Here we go.",
+              "start": 100.4,
+              "end": 101.06
+            },
+            {
+              "text": "The three words I would describe you as, is aggressive, hostile and definitely difficult!",
+              "start": 101.3,
+              "end": 106.52
+            }
+          ]
+        },
+        {
+          "start": 106.52,
+          "end": 108.48,
+          "lines": [
+            {
+              "text": "Please Mr Buttlicker.",
+              "start": 106.52,
+              "end": 107.52
+            },
+            {
+              "text": "Am I right, right now?",
+              "start": 107.52,
+              "end": 108.48
+            }
+          ]
+        },
+        {
+          "start": 108.48,
+          "end": 111.06,
+          "lines": [
+            {
+              "text": "Give me the phone.",
+              "start": 108.48,
+              "end": 109.24
+            },
+            {
+              "text": "Please give me another chance. Mr Buttlicker?",
+              "start": 109.24,
+              "end": 111.06
+            }
+          ]
+        },
+        {
+          "start": 111.06,
+          "end": 112.82,
+          "lines": [
+            {
+              "text": "Give me the phone.",
+              "start": 111.06,
+              "end": 111.56
+            },
+            {
+              "text": "I have to put you on with my boss.",
+              "start": 111.66,
+              "end": 112.82
+            }
+          ]
+        },
+        {
+          "start": 112.9,
+          "end": 114.98,
+          "lines": [
+            {
+              "text": "Well I should hope so.",
+              "start": 112.9,
+              "end": 114.06
+            },
+            {
+              "text": "Who is this?",
+              "start": 114.4,
+              "end": 114.98
+            }
+          ]
+        },
+        {
+          "start": 115.18,
+          "end": 119.34,
+          "lines": [
+            {
+              "text": "Hello. This is Michael Scott, regional manager.",
+              "start": 115.18,
+              "end": 117.16
+            },
+            {
+              "text": "Well, this is William M. Buttlicker.",
+              "start": 117.52,
+              "end": 119.34
+            }
+          ]
+        },
+        {
+          "start": 119.72,
+          "end": 127.54,
+          "lines": [
+            {
+              "text": "Hello, Mr. Buttlicker. How may we help you?",
+              "start": 119.72,
+              "end": 121.66
+            },
+            {
+              "text": "Michael, I like the sound of your voice. You know what I'm gonna do? I'm gonna buy 1 million dollars worth of paper products today.",
+              "start": 122.28,
+              "end": 127.54
+            }
+          ]
+        },
+        {
+          "start": 128.76,
+          "end": 135.04,
+          "lines": [
+            {
+              "text": "See how it's done? Thank you very much, sir. I don't think you'll regret it. See what I did?",
+              "start": 128.76,
+              "end": 134.26
+            },
+            {
+              "text": "You're the master.",
+              "start": 134.26,
+              "end": 135.04
+            }
+          ],
+          "glossary": [
+            {
+              "term": "see how it's done",
+              "ko": "이렇게 하는 거야 (시범)",
+              "type": "idiom",
+              "easy": "제대로 된 방법을 보여줄 때 하는 말",
+              "when": "본보기를 보이며 으스댈 때",
+              "ex": "Watch and learn — see how it's done?",
+              "exKo": "잘 봐 — 이렇게 하는 거야, 알겠지?"
+            }
+          ]
+        },
+        {
+          "start": 135.04,
+          "end": 136.7,
+          "lines": [
+            {
+              "text": "There is one condition Michael.",
+              "start": 135.04,
+              "end": 136.16
+            },
+            {
+              "text": "Yes?",
+              "start": 136.18,
+              "end": 136.7
+            }
+          ]
+        },
+        {
+          "start": 136.7,
+          "end": 139.92,
+          "lines": [
+            {
+              "text": "You have to fire the salesman that treated me so terribly.",
+              "start": 136.7,
+              "end": 138.95
+            },
+            {
+              "text": "Don't do, it Michael.",
+              "start": 138.95,
+              "end": 139.92
+            }
+          ]
+        },
+        {
+          "start": 141.68,
+          "end": 143.06,
+          "lines": [
+            {
+              "text": "*whispers* It's a million dollar sale.",
+              "start": 141.68,
+              "end": 143.06
+            }
+          ]
+        },
+        {
+          "start": 163.06,
+          "end": 165.06,
+          "lines": [
+            {
+              "text": "You",
+              "start": 163.06,
+              "end": 165.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kgUAQRHZ86M",
+      "url": "https://www.youtube.com/watch?v=kgUAQRHZ86M",
+      "title": "The Office: How to Swerve the Phone Salesmen",
+      "tag": "Phone salesmen",
+      "category": "미드 · 오피스",
+      "segments": [
+        {
+          "start": 4.3,
+          "end": 18.28,
+          "lines": [
+            {
+              "text": "Hi Good morning. Can I help you?",
+              "start": 4.3,
+              "end": 7.26
+            },
+            {
+              "text": "Yes. I'm from Tech Star, about a new phone system for you I was wondering if I could talk to...Michael Scott I'm sorry, he's not in right now Really?",
+              "start": 7.26,
+              "end": 18.28
+            }
+          ],
+          "glossary": [
+            {
+              "term": "he's not in right now",
+              "ko": "지금 자리에 안 계세요",
+              "type": "phrase",
+              "easy": "그 사람이 지금 사무실에 없다는 정중한 말",
+              "when": "전화·방문 응대에서",
+              "ex": "Sorry, she's not in right now.",
+              "exKo": "죄송하지만 지금 자리에 안 계세요.",
+              "tip": "be in = (직장에) 나와 있다, 자리에 있다."
+            }
+          ]
+        },
+        {
+          "start": 18.28,
+          "end": 37.12,
+          "lines": [
+            {
+              "text": "He's never around when I come by Shoot They have new phone systems now that can ring directly to a salesman Or someone presses star and they go to accounting Basically 95% of my job But I'd like to see a machine that puts out candy for everyone Vending machine...",
+              "start": 18.28,
+              "end": 37.12
+            }
+          ]
+        },
+        {
+          "start": 37.54,
+          "end": 53.76,
+          "lines": [
+            {
+              "text": "How about I make an appointment to come back?",
+              "start": 37.54,
+              "end": 39.54
+            },
+            {
+              "text": "That way I'll know he'll be here That is a great idea Great Uuuhm Oh boy He's really...",
+              "start": 39.62,
+              "end": 53.76
+            }
+          ],
+          "glossary": [
+            {
+              "term": "make an appointment",
+              "ko": "약속(예약)을 잡다",
+              "type": "phrase"
+            }
+          ]
+        },
+        {
+          "start": 53.76,
+          "end": 57.1,
+          "lines": [
+            {
+              "text": "Michael Scott, manager Hi, how are you?",
+              "start": 53.76,
+              "end": 56.06
+            },
+            {
+              "text": "Oh hi. There he is!",
+              "start": 56.34,
+              "end": 57.1
+            }
+          ]
+        },
+        {
+          "start": 57.1,
+          "end": 64.64,
+          "lines": [
+            {
+              "text": "Nice to meet you Great Yeah Look at that Whoo, I can assure you we don't need a new system though Happy with ours Hello, may I help you?",
+              "start": 57.1,
+              "end": 64.06
+            },
+            {
+              "text": "Jimbo!",
+              "start": 64.06,
+              "end": 64.64
+            }
+          ],
+          "glossary": [
+            {
+              "term": "I can assure you",
+              "ko": "장담하건대, 분명히 말씀드려요",
+              "type": "idiom",
+              "easy": "확실하니 믿으라고 강조하는 말",
+              "when": "상대를 안심시키거나 확언할 때",
+              "ex": "I can assure you, it's completely safe.",
+              "exKo": "장담하는데, 완전히 안전합니다."
+            }
+          ]
+        },
+        {
+          "start": 67.36,
+          "end": 72.16,
+          "lines": [
+            {
+              "text": "Jim?",
+              "start": 67.36,
+              "end": 68.52
+            },
+            {
+              "text": "Ayyyyyyy!",
+              "start": 70.16,
+              "end": 72.16
+            }
+          ]
+        },
+        {
+          "start": 75.8,
+          "end": 79.38,
+          "lines": [
+            {
+              "text": "Ayyyyyy!",
+              "start": 75.8,
+              "end": 77.46
+            },
+            {
+              "text": "Ayyyy!",
+              "start": 78.42,
+              "end": 79.38
+            }
+          ]
+        },
+        {
+          "start": 79.38,
+          "end": 81.92,
+          "lines": [
+            {
+              "text": "Ayyyyyyyy!",
+              "start": 79.38,
+              "end": 80.48
+            },
+            {
+              "text": "Ayyyyyyy!",
+              "start": 80.48,
+              "end": 81.92
+            }
+          ]
+        },
+        {
+          "start": 82.32,
+          "end": 86.74,
+          "lines": [
+            {
+              "text": "Ayyyyyy!",
+              "start": 82.32,
+              "end": 83.34
+            },
+            {
+              "text": "Ayyyyyyy!",
+              "start": 83.34,
+              "end": 86.74
+            }
+          ]
+        },
+        {
+          "start": 87,
+          "end": 92.14,
+          "lines": [
+            {
+              "text": "Okay..",
+              "start": 87,
+              "end": 87.76
+            },
+            {
+              "text": "I'm a...gonna be going Ayyyyyy!",
+              "start": 88.14,
+              "end": 92.14
+            }
+          ]
+        },
+        {
+          "start": 94.7,
+          "end": 102.12,
+          "lines": [
+            {
+              "text": "What was that?",
+              "start": 94.7,
+              "end": 95.8
+            },
+            {
+              "text": "That was funny That wás funny Let's go do it to somebody else Ayyyyy!",
+              "start": 95.9,
+              "end": 102.12
             }
           ]
         }
