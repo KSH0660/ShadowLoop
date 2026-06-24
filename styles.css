@@ -100,6 +100,56 @@ button {
   color: var(--muted);
 }
 
+/* Category filter chips. Sticks to the top of the viewport so it stays reachable
+   while the feed scrolls under it (the --paper band covers the cards beneath). */
+.home-filters {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 8px 0;
+  background: var(--paper);
+}
+
+.home-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.chip:hover {
+  border-color: var(--faint);
+}
+
+.chip.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.chip-count {
+  font-family: var(--mono);
+  font-size: 11px;
+  opacity: 0.7;
+}
+
 .home-feed {
   display: flex;
   flex-direction: column;
@@ -190,6 +240,25 @@ button {
   font-family: var(--mono);
   font-size: 12px;
   line-height: 1.4;
+}
+
+/* Completion check: shown once the user has reached the last segment (pct 100). */
+.card-done {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgba(31, 36, 33, 0.3);
 }
 
 /* YouTube-style watch-progress bar: how far the user got through this video's
