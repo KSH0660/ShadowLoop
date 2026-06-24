@@ -1041,6 +1041,126 @@ body.is-detail .tabbar {
   color: #fff;
 }
 
+/* 단어장 복습/퀴즈 CTAs row. */
+.review-ctas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.review-ctas .review-cta {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.review-cta.quiz-cta {
+  background: var(--accent-ink);
+}
+
+/* Wrong-answer badge in the 자주 틀린 단어 list. */
+.word-wrong {
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #fbe7e2;
+  color: #b4441f;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Quiz overlay (reuses .review full-screen shell). */
+.quiz-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  overflow-y: auto;
+}
+
+.quiz-prompt {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.quiz-term {
+  margin: 0;
+  text-align: center;
+  font-family: var(--display);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz-opt {
+  width: 100%;
+  padding: 15px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  font-size: 16px;
+  text-align: left;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.quiz-opt:disabled {
+  opacity: 1;
+}
+
+.quiz-opt.is-correct {
+  border-color: #2f9e54;
+  background: #e6f5ec;
+  color: #1c6b39;
+  font-weight: 600;
+}
+
+.quiz-opt.is-wrong {
+  border-color: #d4604a;
+  background: #fbe7e2;
+  color: #b4441f;
+}
+
+.quiz-score {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--accent-ink);
+}
+
+.quiz-result {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quiz-result-score {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--accent-ink);
+}
+
+.quiz-result-msg {
+  margin: 0;
+  font-size: 18px;
+  color: var(--ink);
+}
+
 /* AI prompt copy — sits just under the caption/glossary. */
 .cap-actions {
   display: flex;

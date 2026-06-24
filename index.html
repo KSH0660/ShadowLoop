@@ -76,6 +76,30 @@
       </div>
     </div>
 
+    <!-- QUIZ — 객관식 뜻 맞히기 (full-screen sub-mode of 단어장) ----------- -->
+    <div class="review quiz" id="quizView" hidden aria-label="단어 퀴즈">
+      <header class="review-top">
+        <button type="button" class="iconbtn" id="quizClose" aria-label="퀴즈 닫기">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+        </button>
+        <span class="review-progress" id="quizProgress">0 / 0</span>
+        <span class="quiz-score" id="quizScore">⭐ 0</span>
+      </header>
+      <div class="quiz-body" id="quizBody">
+        <p class="quiz-prompt">이 표현의 뜻은?</p>
+        <p class="quiz-term" id="quizTerm"></p>
+        <div class="quiz-options" id="quizOptions"></div>
+      </div>
+      <div class="quiz-result" id="quizResult" hidden>
+        <p class="quiz-result-score" id="quizResultScore"></p>
+        <p class="quiz-result-msg" id="quizResultMsg"></p>
+      </div>
+      <div class="review-nav">
+        <button type="button" class="review-btn" id="quizRestart" hidden>다시 풀기</button>
+        <button type="button" class="review-btn review-next" id="quizNext" hidden>다음</button>
+      </div>
+    </div>
+
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>
       <header class="topbar">

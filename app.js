@@ -71,6 +71,18 @@ const els = {
   flashInner: document.querySelector("#flashInner"),
   flashFront: document.querySelector("#flashFront"),
   flashBack: document.querySelector("#flashBack"),
+  quizView: document.querySelector("#quizView"),
+  quizProgress: document.querySelector("#quizProgress"),
+  quizScore: document.querySelector("#quizScore"),
+  quizClose: document.querySelector("#quizClose"),
+  quizBody: document.querySelector("#quizBody"),
+  quizTerm: document.querySelector("#quizTerm"),
+  quizOptions: document.querySelector("#quizOptions"),
+  quizResult: document.querySelector("#quizResult"),
+  quizResultScore: document.querySelector("#quizResultScore"),
+  quizResultMsg: document.querySelector("#quizResultMsg"),
+  quizNext: document.querySelector("#quizNext"),
+  quizRestart: document.querySelector("#quizRestart"),
   homeFilters: document.querySelector("#homeFilters"),
   homeCount: document.querySelector("#homeCount"),
   tabHome: document.querySelector("#tabHome"),
@@ -326,6 +338,17 @@ function toggleVocab(item, videoId, seg, videoLabel) {
 function removeVocab(id) {
   const data = loadVocab();
   data.words = data.words.filter((w) => w.id !== id);
+  saveVocab(data);
+}
+
+// Tally a quiz answer onto the saved word: correct/wrong counts drive the
+// "자주 틀린 단어" list. No-op if the word was meanwhile removed.
+function recordQuizResult(id, ok) {
+  const data = loadVocab();
+  const w = data.words.find((x) => x.id === id);
+  if (!w) return;
+  if (ok) w.correct = (w.correct || 0) + 1;
+  else w.wrong = (w.wrong || 0) + 1;
   saveVocab(data);
 }
 
@@ -652,15 +675,17 @@ function renderLibrary() {
 // WORDS (단어장) — the saved-vocabulary tab. Lists every saved gloss, most-recent
 // first; each row shows the term, its 간결한 뜻, type, and source clip. Tapping a row
 // reopens the same word-detail sheet; the × removes it.
-function wordRowHtml(w) {
+function wordRowHtml(w, opts = {}) {
   const type = TYPE_LABEL[w.type];
   const src = w.videoLabel ? `${escapeHtml(w.videoLabel)} · 구간 ${w.seg + 1}` : "";
+  const wrong = opts.showWrong && w.wrong ? `<span class="word-wrong">✕ ${w.wrong}</span>` : "";
   return `
     <div class="word-row">
       <button type="button" class="word-row-main" data-id="${escapeHtml(w.id)}">
         <span class="word-row-top">
           <span class="word-row-term">${escapeHtml(w.term)}</span>
           ${type ? `<span class="word-type">${type}</span>` : ""}
+          ${wrong}
         </span>
         <span class="word-row-ko">${escapeHtml(w.ko)}</span>
         ${src ? `<span class="word-row-src">${src}</span>` : ""}
@@ -704,11 +729,38 @@ function renderWords() {
     .join("");
 
   const list = filteredVocab();
-  const cta = list.length
-    ? `<button type="button" class="review-cta" id="reviewStart">🎴 플래시카드 복습 · ${list.length}개</button>`
-    : "";
-  els.wordsFeed.innerHTML = cta +
-    (list.length ? `<div class="word-rows">${list.map(wordRowHtml).join("")}</div>` : "");
+
+  // 자주 틀린 단어 — words with quiz misses, most-missed first. Cross-cutting, so
+  // only shown in the unfiltered 전체 view (it has its own ordering).
+  const troubled = wordsFilter === "all"
+    ? all.filter((w) => w.wrong > 0)
+        .sort((a, b) => (b.wrong - a.wrong) || ((b.addedAt || 0) - (a.addedAt || 0)))
+        .slice(0, 12)
+    : [];
+
+  let html = "";
+  if (troubled.length) {
+    html += `
+      <section class="feed-group">
+        <h2 class="feed-group-title">자주 틀린 단어</h2>
+        <div class="word-rows">${troubled.map((w) => wordRowHtml(w, { showWrong: true })).join("")}</div>
+      </section>`;
+  }
+
+  if (list.length) {
+    // 복습(플래시카드) is available with any word; 퀴즈 needs ≥4 words for choices.
+    html += `
+      <div class="review-ctas">
+        <button type="button" class="review-cta" id="reviewStart">🎴 플래시카드 · ${list.length}</button>
+        ${all.length >= 4 ? `<button type="button" class="review-cta quiz-cta" id="quizStart">📝 퀴즈 · ${list.length}</button>` : ""}
+      </div>
+      <section class="feed-group">
+        ${troubled.length ? `<h2 class="feed-group-title">전체 단어</h2>` : ""}
+        <div class="word-rows">${list.map((w) => wordRowHtml(w)).join("")}</div>
+      </section>`;
+  }
+
+  els.wordsFeed.innerHTML = html;
 }
 
 // --- Flashcard review (복습) ------------------------------------------------
@@ -769,6 +821,92 @@ function closeReview() {
   document.body.classList.remove("is-review");
 }
 
+// --- Quiz (퀴즈) ------------------------------------------------------------
+// Multiple-choice "meaning of this expression?" over the (filtered) saved words.
+// Each answer is tallied onto the word (correct/wrong) for the 자주 틀린 단어 list.
+const quiz = { cards: [], idx: 0, answered: false, correct: 0, source: [] };
+
+// Build the question deck: each card is a word + four Korean choices (its own
+// gloss plus distractors drawn from the whole 단어장), with the right index.
+function buildQuiz(words) {
+  const pool = [...new Set(loadVocab().words.map((w) => w.ko))];
+  return shuffled(words).map((w) => {
+    const distractors = shuffled(pool.filter((k) => k !== w.ko)).slice(0, 3);
+    const options = shuffled([w.ko, ...distractors]);
+    return { word: w, options, answer: options.indexOf(w.ko) };
+  });
+}
+
+function startQuiz(words) {
+  if (words.length < 1 || loadVocab().words.length < 4) return;
+  quiz.source = words;
+  quiz.cards = buildQuiz(words);
+  quiz.idx = 0;
+  quiz.correct = 0;
+  els.quizResult.hidden = true;
+  els.quizBody.hidden = false;
+  renderQuestion();
+  els.quizView.hidden = false;
+  document.body.classList.add("is-review");
+}
+
+function renderQuestion() {
+  const c = quiz.cards[quiz.idx];
+  if (!c) return;
+  quiz.answered = false;
+  els.quizProgress.textContent = `${quiz.idx + 1} / ${quiz.cards.length}`;
+  els.quizScore.textContent = `⭐ ${quiz.correct}`;
+  els.quizTerm.textContent = c.word.term;
+  els.quizOptions.innerHTML = c.options
+    .map((opt, i) => `<button type="button" class="quiz-opt" data-i="${i}">${escapeHtml(opt)}</button>`)
+    .join("");
+  els.quizNext.hidden = true;
+  els.quizRestart.hidden = true;
+}
+
+function answerQuiz(picked) {
+  if (quiz.answered) return;
+  quiz.answered = true;
+  const c = quiz.cards[quiz.idx];
+  const ok = picked === c.answer;
+  if (ok) quiz.correct += 1;
+  recordQuizResult(c.word.id, ok);
+  [...els.quizOptions.children].forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === c.answer) btn.classList.add("is-correct");
+    else if (i === picked) btn.classList.add("is-wrong");
+  });
+  els.quizScore.textContent = `⭐ ${quiz.correct}`;
+  const last = quiz.idx === quiz.cards.length - 1;
+  els.quizNext.textContent = last ? "결과 보기" : "다음";
+  els.quizNext.hidden = false;
+}
+
+function quizNext() {
+  if (quiz.idx >= quiz.cards.length - 1) { showQuizResult(); return; }
+  quiz.idx += 1;
+  renderQuestion();
+}
+
+function showQuizResult() {
+  const total = quiz.cards.length;
+  const score = quiz.correct;
+  els.quizBody.hidden = true;
+  els.quizResult.hidden = false;
+  els.quizResultScore.textContent = `${score} / ${total}`;
+  const pct = total ? score / total : 0;
+  els.quizResultMsg.textContent =
+    pct === 1 ? "완벽해요! 🎉" : pct >= 0.7 ? "잘했어요! 👏" : pct >= 0.4 ? "조금만 더! 💪" : "다시 복습해 볼까요? 📖";
+  els.quizProgress.textContent = `${total} / ${total}`;
+  els.quizNext.hidden = true;
+  els.quizRestart.hidden = false;
+}
+
+function closeQuiz() {
+  els.quizView.hidden = true;
+  document.body.classList.remove("is-review");
+}
+
 // --- Routing ---------------------------------------------------------------
 // #/            → home
 // #/library     → 보관함 (saved expressions + in-progress)
@@ -776,6 +914,7 @@ function closeReview() {
 // #/v/<videoId> → that video's detail page
 function route() {
   closeReview(); // leaving / re-entering a view always exits the flashcard overlay
+  closeQuiz();
   const hash = location.hash || "#/";
   const match = hash.match(/^#\/v\/(.+)$/);
   if (match) {
@@ -1494,6 +1633,10 @@ els.wordsFeed.addEventListener("click", (event) => {
     startReview(filteredVocab());
     return;
   }
+  if (event.target.closest("#quizStart")) {
+    startQuiz(filteredVocab());
+    return;
+  }
   const del = event.target.closest(".word-del");
   if (del) {
     removeVocab(del.dataset.del);
@@ -1524,6 +1667,18 @@ els.reviewShuffle.addEventListener("click", () => {
   review.cards = shuffled(review.cards);
   review.idx = 0;
   renderCard();
+});
+
+// Quiz controls.
+els.quizOptions.addEventListener("click", (event) => {
+  const opt = event.target.closest(".quiz-opt");
+  if (opt) answerQuiz(Number(opt.dataset.i));
+});
+els.quizNext.addEventListener("click", quizNext);
+els.quizRestart.addEventListener("click", () => startQuiz(quiz.source));
+els.quizClose.addEventListener("click", () => {
+  closeQuiz();
+  if (state.view === "words") renderWords(); // refresh 자주 틀린 단어 with new tallies
 });
 
 els.segmentList.addEventListener("click", (event) => {
@@ -1582,6 +1737,20 @@ els.speedButtons.forEach((button) => {
 document.addEventListener("keydown", (event) => {
   if (event.target instanceof HTMLInputElement) return;
   const key = event.key.toLowerCase();
+
+  // Quiz overlay captures keys while open: 1–4 pick an option, Enter advances.
+  if (!els.quizView.hidden) {
+    if (key === "escape") { closeQuiz(); if (state.view === "words") renderWords(); }
+    else if ("1234".includes(key) && !quiz.answered && !els.quizBody.hidden) {
+      const i = Number(key) - 1;
+      if (i < quiz.cards[quiz.idx]?.options.length) answerQuiz(i);
+    } else if (key === "enter" || key === " ") {
+      event.preventDefault();
+      if (!els.quizNext.hidden) quizNext();
+      else if (!els.quizRestart.hidden) startQuiz(quiz.source);
+    }
+    return;
+  }
 
   // Flashcard review overlay captures keys while open.
   if (!els.reviewView.hidden) {
