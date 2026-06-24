@@ -25,7 +25,7 @@ let _seekCooldown = 0;   // performance.now() deadline — suppress seek detecti
 let pendingSegment = null; // segment index to jump to once the next video finishes loading
 
 let state = {
-  view: "home",   // "home" (browse grid) | "detail" (player)
+  view: "home",   // "home" (browse grid) | "library" (saved + in-progress) | "detail" (player)
   videoId: null,
   title: "영상을 불러오는 중…",
   segments: [],
@@ -50,10 +50,14 @@ const RING_CIRCUMFERENCE = 2 * Math.PI * 54;
 
 const els = {
   homeView: document.querySelector("#homeView"),
+  libraryView: document.querySelector("#libraryView"),
   detailView: document.querySelector("#detailView"),
   homeFeed: document.querySelector("#homeFeed"),
+  libraryFeed: document.querySelector("#libraryFeed"),
   homeFilters: document.querySelector("#homeFilters"),
   homeCount: document.querySelector("#homeCount"),
+  tabHome: document.querySelector("#tabHome"),
+  tabLibrary: document.querySelector("#tabLibrary"),
   backBtn: document.querySelector("#backBtn"),
   segBtn: document.querySelector("#segBtn"),
   topbarTitle: document.querySelector("#topbarTitle"),
@@ -248,13 +252,49 @@ function removeBookmark(videoId, seg) {
 // `category` (강연 vs 예능 등). Groups appear in first-seen order; videos keep
 // their order within a group. Each card carries its index into `videos`.
 //
-// As the library grows the home gets two affordances on top of the grid:
-//   • a sticky category filter-chip row (`homeFilter` narrows to one category);
-//   • a top "이어보기" row of in-progress videos (most-recent-first), shown only
-//     in the unfiltered "전체" view.
-// Finished videos (pct 100) get a check badge wherever they appear.
+// Home stays discovery-focused: a sticky category filter-chip row narrows the
+// grid to one category, and a thin horizontal "이어보기" strip at the top brings
+// the learner straight back to whatever they were drilling (the app's core
+// return trigger). The personal collection — saved expressions plus the full
+// in-progress list — lives in the separate 보관함 (library) tab, so the home
+// doesn't get crowded out as that grows. Finished videos (pct 100) get a check
+// badge wherever they appear.
 const HOME_ALL = "전체";
 let homeFilter = HOME_ALL;
+
+// In-progress videos (0 < pct < 100), most-recently-watched first. Shared by the
+// home "이어보기" strip and the library's full "이어보기" grid.
+function resumeList(progressMap) {
+  return videos
+    .map((video, index) => ({
+      video,
+      index,
+      pct: videoPercent(progressMap, video.id),
+      at: progressMap[video.id]?.at || 0,
+    }))
+    .filter((x) => x.pct > 0 && x.pct < 100)
+    .sort((a, b) => b.at - a.at);
+}
+
+// Every saved segment across all videos, most-recently-saved first. Drives the
+// library's "저장한 표현" list.
+function savedExpressions() {
+  const bm = loadBookmarks();
+  const saved = [];
+  videos.forEach((video, index) => {
+    (bm[video.id] || []).forEach((b) => saved.push({ video, index, b }));
+  });
+  return saved.sort((a, b) => (b.b.at || 0) - (a.b.at || 0));
+}
+
+// One compact saved-expression row (no thumbnail); taps deep-link to the segment.
+function noteRowHtml({ video, index, b }) {
+  return `
+    <button type="button" class="note-row" data-video="${index}" data-seg="${b.seg}">
+      <span class="note-row-text">${escapeHtml(b.text)}</span>
+      <span class="note-row-meta">${escapeHtml(video.tag || video.title || "")} · ${formatTime(b.start)}</span>
+    </button>`;
+}
 
 // Per-video progress as a 0–100 percentage of segments reached (0 when unseen).
 function videoPercent(progressMap, videoId) {
@@ -317,44 +357,18 @@ function renderHome() {
 
   const sections = [];
 
-  // 저장한 표현 — saved segments across every video, most-recently-saved first.
-  // Only in the unfiltered view; tapping a row deep-links to that segment.
+  // 이어보기 — a thin horizontal strip of in-progress videos (most-recent-first)
+  // so reopening the app lands the learner back on what they were drilling. Only
+  // in the unfiltered view; selecting a category narrows to that grid alone. The
+  // full list (and saved expressions) live in the 보관함 tab.
   if (homeFilter === HOME_ALL) {
-    const bm = loadBookmarks();
-    const saved = [];
-    videos.forEach((video, index) => {
-      (bm[video.id] || []).forEach((b) => saved.push({ video, index, b }));
-    });
-    saved.sort((a, b) => (b.b.at || 0) - (a.b.at || 0));
-    if (saved.length) {
-      const rows = saved
-        .map(({ video, index, b }) => `
-          <button type="button" class="note-row" data-video="${index}" data-seg="${b.seg}">
-            <span class="note-row-text">${escapeHtml(b.text)}</span>
-            <span class="note-row-meta">${escapeHtml(video.tag || video.title || "")} · ${formatTime(b.start)}</span>
-          </button>`)
-        .join("");
-      sections.push(`
-        <section class="feed-group">
-          <h2 class="feed-group-title">저장한 표현</h2>
-          <div class="note-rows">${rows}</div>
-        </section>`);
-    }
-  }
-
-  // 이어보기 — in-progress videos (0 < pct < 100), most-recent-first. Only in
-  // the unfiltered view; selecting a category narrows to that grid alone.
-  if (homeFilter === HOME_ALL) {
-    const resume = videos
-      .map((video, index) => ({ video, index, pct: videoPercent(progressMap, video.id), at: progressMap[video.id]?.at || 0 }))
-      .filter((x) => x.pct > 0 && x.pct < 100)
-      .sort((a, b) => b.at - a.at);
+    const resume = resumeList(progressMap);
     if (resume.length) {
       const cards = resume.map((x) => cardHtml(x.video, x.index, x.video.category || "기타", x.pct)).join("");
       sections.push(`
         <section class="feed-group">
           <h2 class="feed-group-title">이어보기</h2>
-          <div class="card-grid">${cards}</div>
+          <div class="resume-strip">${cards}</div>
         </section>`);
     }
   }
@@ -376,8 +390,40 @@ function renderHome() {
   els.homeFeed.innerHTML = sections.join("");
 }
 
+// LIBRARY (보관함) — the learner's personal collection, kept off the home so the
+// home stays discovery-focused. Two sections: saved expressions (저장한 표현) and
+// the full in-progress list (이어보기). Both reuse the home's row/card markup and
+// click handling. (Watch history / study stats can slot in here later.)
+function renderLibrary() {
+  const sections = [];
+
+  const saved = savedExpressions();
+  if (saved.length) {
+    sections.push(`
+      <section class="feed-group">
+        <h2 class="feed-group-title">저장한 표현</h2>
+        <div class="note-rows">${saved.map(noteRowHtml).join("")}</div>
+      </section>`);
+  }
+
+  const resume = resumeList(loadProgress());
+  if (resume.length) {
+    const cards = resume.map((x) => cardHtml(x.video, x.index, x.video.category || "기타", x.pct)).join("");
+    sections.push(`
+      <section class="feed-group">
+        <h2 class="feed-group-title">이어보기</h2>
+        <div class="card-grid">${cards}</div>
+      </section>`);
+  }
+
+  els.libraryFeed.innerHTML = sections.length
+    ? sections.join("")
+    : `<p class="home-empty">아직 저장한 표현이나 학습 중인 영상이 없어요.<br />홈에서 영상을 골라 학습을 시작하고, 마음에 드는 문장은 ‘저장’해 보세요.</p>`;
+}
+
 // --- Routing ---------------------------------------------------------------
 // #/            → home
+// #/library     → 보관함 (saved expressions + in-progress)
 // #/v/<videoId> → that video's detail page
 function route() {
   const hash = location.hash || "#/";
@@ -386,6 +432,7 @@ function route() {
     const video = videos.find((v) => v.id === decodeURIComponent(match[1]));
     if (video) { showDetail(video); return; }
   }
+  if (hash === "#/library") { showLibrary(); return; }
   showHome();
 }
 
@@ -402,20 +449,46 @@ function goHome() {
   navigate("#/");
 }
 
+// Reflect the active top-level view in the bottom tab bar (detail hides it).
+function setActiveTab(which) {
+  [["home", els.tabHome], ["library", els.tabLibrary]].forEach(([name, el]) => {
+    const on = name === which;
+    el.classList.toggle("is-active", on);
+    if (on) el.setAttribute("aria-current", "page");
+    else el.removeAttribute("aria-current");
+  });
+}
+
 function showHome() {
   state.view = "home";
   closeSheet();
   if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
   renderHome(); // refresh thumbnail progress bars with the latest watched position
   els.homeView.hidden = false;
+  els.libraryView.hidden = true;
   els.detailView.hidden = true;
   document.body.classList.remove("is-detail");
+  setActiveTab("home");
+  window.scrollTo(0, 0);
+}
+
+function showLibrary() {
+  state.view = "library";
+  closeSheet();
+  if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
+  renderLibrary(); // refresh saved/in-progress with the latest state
+  els.homeView.hidden = true;
+  els.libraryView.hidden = false;
+  els.detailView.hidden = true;
+  document.body.classList.remove("is-detail");
+  setActiveTab("library");
   window.scrollTo(0, 0);
 }
 
 function showDetail(video) {
   state.view = "detail";
   els.homeView.hidden = true;
+  els.libraryView.hidden = true;
   els.detailView.hidden = false;
   document.body.classList.add("is-detail");
   window.scrollTo(0, 0);
@@ -906,7 +979,9 @@ window.addEventListener("hashchange", route);
 
 els.aiPromptBtn.addEventListener("click", copyStudyPrompt);
 
-els.homeFeed.addEventListener("click", (event) => {
+// Shared by the home and library feeds: a saved-expression row deep-links to its
+// segment; a thumbnail card opens its video.
+function onFeedClick(event) {
   const row = event.target.closest(".note-row");
   if (row) {
     pendingSegment = Number(row.dataset.seg); // jump to the saved segment on load
@@ -916,7 +991,9 @@ els.homeFeed.addEventListener("click", (event) => {
   const card = event.target.closest(".card");
   if (!card) return;
   openVideo(videos[Number(card.dataset.video)]);
-});
+}
+els.homeFeed.addEventListener("click", onFeedClick);
+els.libraryFeed.addEventListener("click", onFeedClick);
 
 els.homeFilters.addEventListener("click", (event) => {
   const chip = event.target.closest(".chip");
@@ -1012,7 +1089,7 @@ document.addEventListener("keydown", (event) => {
   const key = event.key.toLowerCase();
   if (key === "escape") {
     if (state.sheet) closeSheet();
-    else if (state.view === "detail") goHome();
+    else if (state.view !== "home") goHome();
     return;
   }
   // The rest only apply on the detail page.
