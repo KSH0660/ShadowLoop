@@ -1,25 +1,78 @@
 {
   "//": "Korean hints for hard words/idioms, by video id then segment index. Authored by the youtube-curator skill; merged onto segments at build time. See scripts/build-transcripts.mjs.",
+  "//schema": "Each entry: { term, ko, type } required (type ∈ word|phrase|idiom) — drives the compact caption chip. Optional rich fields (TOEIC-700-friendly, easy Korean; ALL optional, render only when present) power the word-detail sheet: easy(쉬운 한 줄 뜻), nuance(뉘앙스/느낌), when(자주 쓰는 상황), ex(쉬운 영어 예문), exKo(예문 한국어 해석), vs(비슷한 단어와의 차이), tip(헷갈리는 포인트).",
   "ykN0VZiEDr8": {
     "0": [
-      { "term": "crushing workload", "ko": "살인적인 업무량", "type": "phrase" }
+      {
+        "term": "crushing workload",
+        "ko": "살인적인 업무량",
+        "type": "phrase",
+        "easy": "감당하기 힘들 만큼 많은 일의 양",
+        "nuance": "단순히 '많다'가 아니라, 사람을 짓누를 만큼 부담스럽다는 느낌",
+        "when": "일이나 과제가 너무 많아 버거울 때",
+        "ex": "I had a crushing workload last week.",
+        "exKo": "지난주에 일이 살인적으로 많았어요.",
+        "vs": "heavy workload는 그냥 '많다', crushing workload는 '짓눌릴 만큼 많다'로 더 셉니다.",
+        "tip": "crushing은 crush(으스러뜨리다)에서 온 강조 표현이에요."
+      }
     ],
     "2": [
       { "term": "chafing dish", "ko": "(뷔페용) 음식 보온 그릇", "type": "word" }
     ],
     "7": [
-      { "term": "rebel against", "ko": "~에 반항하다, 거스르다", "type": "phrase" },
-      { "term": "redirect", "ko": "(관심을) 다른 데로 돌리다", "type": "word" }
+      {
+        "term": "rebel against",
+        "ko": "~에 반항하다, 거스르다",
+        "type": "phrase",
+        "easy": "규칙이나 권위에 맞서 따르지 않다",
+        "nuance": "그냥 안 따르는 게 아니라, 적극적으로 반항·저항하는 느낌",
+        "when": "부모·규칙·시스템에 반발할 때",
+        "ex": "Teenagers often rebel against their parents.",
+        "exKo": "십대들은 종종 부모에게 반항해요.",
+        "vs": "disobey는 '안 따르다', rebel against는 '맞서 싸우듯 반항하다'예요.",
+        "tip": "뒤에 항상 against가 따라옵니다."
+      },
+      {
+        "term": "redirect",
+        "ko": "(관심을) 다른 데로 돌리다",
+        "type": "word",
+        "easy": "방향이나 관심을 다른 쪽으로 돌리다",
+        "nuance": "막는 게 아니라, 자연스럽게 딴 데로 흐르게 하는 느낌",
+        "when": "아이의 떼나 관심을 돌릴 때, 웹페이지를 옮길 때",
+        "ex": "She redirected his attention to a toy.",
+        "exKo": "그녀는 그의 관심을 장난감으로 돌렸어요.",
+        "tip": "re(다시) + direct(향하게 하다) = 다시 방향을 잡아주다."
+      }
     ],
     "9": [
-      { "term": "cracked the code", "ko": "비결을 알아내다, 완전히 파악하다", "type": "idiom" },
+      {
+        "term": "cracked the code",
+        "ko": "비결을 알아내다, 완전히 파악하다",
+        "type": "idiom",
+        "easy": "오래 안 풀리던 문제의 비결을 알아내다",
+        "nuance": "안 풀리던 걸 '딱' 알아낸 통쾌한 느낌",
+        "when": "노하우나 비밀을 마침내 파악했을 때",
+        "ex": "I finally cracked the code on saving money.",
+        "exKo": "드디어 돈 모으는 비결을 알아냈어요.",
+        "tip": "암호(code)를 풀었다(crack)는 데서 온 비유 표현이에요."
+      },
       { "term": "child rearing", "ko": "육아, 아이 기르기", "type": "phrase" }
     ],
     "13": [
       { "term": "garbage disposal", "ko": "(싱크대) 음식물 분쇄기", "type": "word" }
     ],
     "17": [
-      { "term": "went down the drain", "ko": "수포로 돌아가다 (배수구로 내려가다 말장난)", "type": "idiom" }
+      {
+        "term": "went down the drain",
+        "ko": "수포로 돌아가다 (배수구로 내려가다 말장난)",
+        "type": "idiom",
+        "easy": "애쓴 노력이나 돈이 헛되이 사라지다",
+        "nuance": "애써 한 게 물거품이 된 허무한 느낌",
+        "when": "계획·노력·돈이 수포로 돌아갔을 때",
+        "ex": "All my hard work went down the drain.",
+        "exKo": "내 모든 노력이 수포로 돌아갔어요.",
+        "tip": "drain은 배수구 — 물처럼 흘러내려가 사라진다는 비유예요."
+      }
     ],
     "24": [
       { "term": "shred her confidence", "ko": "자신감을 짓밟다", "type": "phrase" },

@@ -42,6 +42,20 @@
       <div class="home-feed" id="libraryFeed"></div>
     </main>
 
+    <!-- WORDS — saved vocabulary: list, flashcard review, quiz ---------- -->
+    <main class="home" id="wordsView" aria-label="단어장" hidden>
+      <header class="home-top">
+        <h1 class="home-heading">단어장</h1>
+        <span class="home-count" id="wordsCount"></span>
+      </header>
+      <div class="words-modes" id="wordsModes" role="group" aria-label="단어장 모드">
+        <button type="button" class="wmode is-active" data-mode="list">목록</button>
+        <button type="button" class="wmode" data-mode="review">복습</button>
+        <button type="button" class="wmode" data-mode="quiz">퀴즈</button>
+      </div>
+      <div class="words-body" id="wordsBody"></div>
+    </main>
+
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>
       <header class="topbar">
@@ -79,7 +93,7 @@
       </section>
 
       <section class="glossary" id="glossary" aria-label="어려운 표현" hidden>
-        <ul class="gloss-list" id="glossList"></ul>
+        <div class="gloss-list" id="glossList"></div>
       </section>
 
       <div class="cap-actions">
@@ -149,6 +163,10 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" /></svg>
         <span>보관함</span>
       </a>
+      <a class="tab" id="tabWords" href="#/words">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h11a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4z" /><path d="M20 5H9a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h11z" /></svg>
+        <span>단어장</span>
+      </a>
     </nav>
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
@@ -172,6 +190,19 @@
       </div>
       <p class="notes-empty" id="notesEmpty" hidden>아직 저장한 구간이 없어요. 쉐도잉 중 ‘저장’을 눌러 보세요.</p>
       <div class="segment-list" id="notesList"></div>
+    </aside>
+
+    <aside class="sheet word-sheet" id="wordSheet" aria-label="단어 상세" aria-hidden="true">
+      <div class="sheet-grip"></div>
+      <div class="word-head">
+        <div class="word-head-main">
+          <p class="word-term" id="wordTerm"></p>
+          <p class="word-ko" id="wordKo"></p>
+        </div>
+        <span class="word-type" id="wordType"></span>
+      </div>
+      <div class="word-body" id="wordBody"></div>
+      <button type="button" class="word-save" id="wordSaveBtn">단어장에 저장</button>
     </aside>
 
     <script src="https://www.youtube.com/iframe_api" async></script>

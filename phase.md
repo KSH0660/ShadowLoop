@@ -37,15 +37,20 @@
 
 ---
 
+## 진행 현황 (이 세션)
+- **코드 페이즈 완료**: Phase 1·5·6·7 (단어 상세 시트 + 단어장 탭: 목록/복습/퀴즈). `npm run check` 통과.
+- **데이터 페이즈 보류**: Phase 2~4(영상 확장)는 `yt-dlp`와 YouTube 네트워크가 필요해 이 샌드박스에서 실행 불가 → 로컬/네트워크 가능한 환경에서 `/youtube-curator`로 진행 필요.
+- **Phase 8 착수**: 견본 1개 영상(ykN0VZiEDr8)의 해설 4건을 풍부 형식으로 전환. 나머지 489개는 배치 반복으로 후속 진행(파이프라인 `npm run build:glossary` 동작 확인).
+
 ## Phase 목록
 
-### Phase 1 — 풍부한 단어 해설 기반 (스키마 + 탭 상세 시트)
-- [ ] glossary 스키마에 위 optional 필드 정의(파일 상단 주석 `data/glossary.json` 갱신).
-- [ ] `index.html`: 단어 상세 시트 `#wordSheet` 추가(기존 `#notesSheet` 패턴 복제).
-- [ ] `app.js`: `renderGlossary()`의 `.gloss-item`을 탭 가능하게 → 탭 시 해당 단어의 풍부 필드를 `#wordSheet`에 렌더(`openSheet("word")`). 칩 자체는 `term`+`ko`로 간결 유지. 풍부 필드 없으면 있는 것만 표시.
-- [ ] `styles.css`: 단어 상세 시트 + 필드 라벨(쉬운 뜻/뉘앙스/상황/예문/해석/유사어/포인트) 스타일.
-- [ ] `.claude/skills/youtube-curator/SKILL.md`: 글로싱 가이드를 **토익 700 수준 + 풍부 필드** 기준으로 갱신(쉬운 한국어, 사전 덤프 금지).
-- [ ] 견본으로 기존 영상 1개의 해설을 풍부 형식으로 업그레이드(검증용 데이터).
+### Phase 1 — 풍부한 단어 해설 기반 (스키마 + 탭 상세 시트) ✅
+- [x] glossary 스키마에 위 optional 필드 정의(파일 상단 주석 `data/glossary.json` 갱신 — `"//schema"` 추가).
+- [x] `index.html`: 단어 상세 시트 `#wordSheet` 추가(기존 `#notesSheet` 패턴 복제).
+- [x] `app.js`: `renderGlossary()`의 `.gloss-item`을 탭 가능하게 → 탭 시 해당 단어의 풍부 필드를 `#wordSheet`에 렌더(`openSheet("word")`). 칩 자체는 `term`+`ko`로 간결 유지. 풍부 필드 없으면 있는 것만 표시.
+- [x] `styles.css`: 단어 상세 시트 + 필드 라벨(쉬운 뜻/뉘앙스/상황/예문/해석/유사어/포인트) 스타일.
+- [x] `.claude/skills/youtube-curator/SKILL.md`: 글로싱 가이드를 **토익 700 수준 + 풍부 필드** 기준으로 갱신(쉬운 한국어, 사전 덤프 금지).
+- [x] 견본으로 기존 영상 1개(ykN0VZiEDr8)의 해설 4건을 풍부 형식으로 업그레이드(검증용 데이터).
 - 완료 기준: `npm run check` 통과 + 단어 칩 탭 시 상세 시트가 뜨고, 풍부 필드 유무에 따라 정상 렌더. 기존 간결 항목도 깨지지 않음.
 
 ### Phase 2 — 영상 확장 배치 A: Modern Family (목표 +8~12)
@@ -64,23 +69,23 @@
 - [ ] 글로싱 + 빌드 + check.
 - 완료 기준: 누계 약 40~50개(수동 자막 한계 시 확보분까지) + 카테고리별 분포 점검.
 
-### Phase 5 — 단어장 탭 기반 (저장 + 목록)
-- [ ] `index.html` tabbar에 `#tabWords`(`#/words`) 추가, `#wordsView` 뷰 추가.
-- [ ] `app.js`: `route()`/`setActiveTab()`/`els`에 단어장 연결, `showWords()`/`renderWords()`.
-- [ ] localStorage `shadowloop:v1:vocab` 스키마: `{ words: [{ term, ko, type, easy?, video, seg, addedAt, ... }] }`.
-- [ ] 단어 저장 액션: 단어 상세 시트(`#wordSheet`)에 "단어장에 저장" 버튼 → vocab에 적재(중복 토글).
-- [ ] 단어장 목록 렌더(최근순 + 출처 영상/구간 표시, 삭제).
+### Phase 5 — 단어장 탭 기반 (저장 + 목록) ✅
+- [x] `index.html` tabbar에 `#tabWords`(`#/words`) 추가, `#wordsView` 뷰 추가.
+- [x] `app.js`: `route()`/`setActiveTab()`/`els`에 단어장 연결, `showWords()`/`renderWords()`.
+- [x] localStorage `shadowloop:v1:vocab` 스키마: `{ words: [{ id, term, ko, type, easy?, …, video, videoTitle, seg, addedAt, correct, wrong }] }`.
+- [x] 단어 저장 액션: 단어 상세 시트(`#wordSheet`)에 "단어장에 저장" 버튼 → vocab에 적재(중복 토글).
+- [x] 단어장 목록 렌더(최근순 + 출처 영상/구간 표시, 삭제).
 - 완료 기준: 단어 저장→단어장 탭에서 확인·삭제, 새로고침 후 유지. `npm run check` 통과.
 
-### Phase 6 — 단어장 복습 (랜덤 보기 + 난이도별 보기 + 플래시카드)
-- [ ] 랜덤 보기(셔플) / 난이도별(=type) 필터.
-- [ ] 플래시카드(앞: 단어 / 뒤: 쉬운 뜻+예문, 탭으로 뒤집기).
-- [ ] 복습 진행 표시(본 단어 수 등).
+### Phase 6 — 단어장 복습 (랜덤 보기 + 난이도별 보기 + 플래시카드) ✅
+- [x] 랜덤 보기(셔플) / 난이도별(=type) 필터.
+- [x] 플래시카드(앞: 단어 / 뒤: 쉬운 뜻+예문, 탭으로 뒤집기).
+- [x] 복습 진행 표시(n / 총 + 이전/다음/다시 섞기).
 - 완료 기준: 랜덤·난이도별·플래시카드 동작, 모바일 단일 집중 UI 유지.
 
-### Phase 7 — 퀴즈 + 자주 틀린 단어
-- [ ] 퀴즈(객관식 또는 뜻 맞히기) — 정답/오답을 vocab 레코드에 기록(`correct`/`wrong` 카운트).
-- [ ] "자주 틀린 단어" 보기(오답 카운트 정렬).
+### Phase 7 — 퀴즈 + 자주 틀린 단어 ✅
+- [x] 퀴즈(4지선다 뜻 맞히기) — 정답/오답을 vocab 레코드에 기록(`correct`/`wrong` 카운트).
+- [x] "자주 틀린 단어" 보기(목록의 `자주 틀림` 필터 = 오답 카운트 정렬).
 - 완료 기준: 퀴즈 1라운드 후 결과·오답 누적, 자주 틀린 단어 목록 반영.
 
 ### Phase 8 — 기존 489개 해설 점진적 보강 (배치 반복)

@@ -451,7 +451,8 @@ body.is-detail .tabbar {
   flex-direction: column;
   align-items: center;
   gap: 3px;
-  width: 104px;
+  width: 100px;
+  max-width: 30vw;
   padding: 6px 0;
   border-radius: 12px;
   text-decoration: none;
@@ -708,6 +709,13 @@ body.is-detail .tabbar {
   background: var(--surface);
   font-size: 13px;
   line-height: 1.4;
+  text-align: left;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.gloss-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .gloss-term {
@@ -717,6 +725,19 @@ body.is-detail .tabbar {
 
 .gloss-ko {
   color: var(--muted);
+}
+
+/* Chevron hint that the chip opens a detail sheet; brighter when rich fields
+   exist (has-detail), faint otherwise. */
+.gloss-more {
+  align-self: center;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--faint);
+}
+
+.gloss-item.has-detail .gloss-more {
+  color: var(--accent);
 }
 
 /* AI prompt copy — sits just under the caption/glossary. */
@@ -1260,6 +1281,490 @@ body.is-detail .tabbar {
   font-family: var(--mono);
   font-size: 12px;
   color: var(--muted);
+}
+
+/* Word detail sheet (#wordSheet) — opened from a gloss chip or a saved word.
+   Shows whatever optional rich fields a gloss carries, plus a save action. */
+.word-sheet {
+  gap: 14px;
+}
+
+.word-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.word-term {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.word-ko {
+  margin: 2px 0 0;
+  font-size: 15px;
+  color: var(--accent-ink);
+}
+
+.word-type {
+  flex: 0 0 auto;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.word-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.wfield {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.wf-label {
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.wf-val {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.wf-en {
+  font-style: italic;
+  color: var(--accent-ink);
+}
+
+.wf-ko {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.word-noinfo {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.word-src {
+  margin: 4px 0 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--faint);
+}
+
+.word-save {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 13px;
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.word-save.is-saved {
+  background: var(--surface);
+  color: var(--accent-ink);
+}
+
+/* 단어장 (vocab) tab -------------------------------------------------------- */
+.words-modes {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.wmode {
+  flex: 1;
+  padding: 9px 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wmode.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.words-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.words-filters {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.words-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.words-empty {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+  padding: 48px 16px;
+}
+
+.words-empty-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.words-empty-sub {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* 목록 — saved-word rows. */
+.word-rows {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.word-row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--line);
+}
+
+.word-row:last-child {
+  border-bottom: 0;
+}
+
+.word-row-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px 14px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.word-row-main:hover {
+  background: var(--accent-soft);
+}
+
+.word-row-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.word-row-term {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.word-row-type {
+  flex: 0 0 auto;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.word-row-ko {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.word-row-meta {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--faint);
+}
+
+.word-del {
+  flex: 0 0 auto;
+  width: 40px;
+  border: 0;
+  background: transparent;
+  color: var(--faint);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.word-del:hover {
+  color: var(--accent);
+}
+
+/* 복습 — flashcards. */
+.flashcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 220px;
+  padding: 28px 20px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.flashcard.is-flipped {
+  background: var(--accent-soft);
+  border-color: var(--accent-soft);
+}
+
+.fc-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fc-type {
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.fc-term {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.fc-hint {
+  font-size: 12px;
+  color: var(--faint);
+}
+
+.fc-easy {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.fc-ko {
+  margin: 0;
+  font-size: 15px;
+  color: var(--accent-ink);
+}
+
+.fc-ex {
+  margin: 6px 0 0;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.fc-exko {
+  margin: 0;
+  font-size: 13px;
+  color: var(--faint);
+}
+
+.fc-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fc-btn {
+  padding: 9px 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.fc-btn:disabled {
+  opacity: 0.4;
+}
+
+.fc-progress {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.fc-shuffle {
+  align-self: center;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent-ink);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* 퀴즈 — start, question, results. */
+.quiz-start,
+.quiz-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding: 36px 16px;
+}
+
+.quiz-start-title,
+.quiz-result-score {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.quiz-result-score {
+  font-family: var(--mono);
+  color: var(--accent-ink);
+}
+
+.quiz-start-sub,
+.quiz-result-sub {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.quiz-go {
+  margin-top: 6px;
+  padding: 12px 26px;
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.quiz-go.ghost {
+  background: var(--surface);
+  color: var(--accent-ink);
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quiz-progress {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.quiz-score {
+  color: var(--accent-ink);
+}
+
+.quiz-q {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.quiz-term {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.quiz-opts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz-opt {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  font-size: 15px;
+  text-align: left;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.quiz-opt:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.quiz-opt.is-correct {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-weight: 600;
+}
+
+.quiz-opt.is-wrong {
+  border-color: #d98b8b;
+  background: #f7e7e7;
+  color: #9a3b3b;
 }
 
 @media (prefers-reduced-motion: reduce) {

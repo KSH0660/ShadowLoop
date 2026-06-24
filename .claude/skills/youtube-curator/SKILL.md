@@ -151,35 +151,63 @@ messy (e.g. it slipped through as auto), remove it from `videos.json`, rebuild, 
 another candidate. Also check the real segment count here: if a video built to **more than
 30 segments**, remove it (too long to gloss well) unless the user asked for it.
 
-### 5. Write Korean glosses for learners (target: OPIC IH / TOEIC 800)
+### 5. Write Korean glosses for learners (rich format, easy 토익 700 Korean)
 For each newly added video, read its built segments and gloss every expression an
-**upper-intermediate Korean learner (OPIC IH / TOEIC 800)** would find worth studying —
-**idioms, phrasal verbs, collocations, and any B2+ / less-common vocabulary**, including
-tricky polysemes whose meaning *here* differs from the basic one (e.g. `content` 만족하는,
-`singular` 각별한, `storied` 화려한 이력의). Be **generous**: cover these thoroughly rather than
-picking only the single hardest item. This is **not** a full translation — keep skipping
-truly basic words (run, happy, ship, …), and leave low-value segments empty. In practice
-that lands around **2–5 entries on substantive segments**, with plenty of segments at 0;
-across a talk expect roughly **1–1.7 glosses per segment** (a ~33-segment TED talk ≈ 50–60
-glosses). These show up in the app under the caption on the later loops, so each one should
-be genuine help, not noise. Dump a video's segments to read them:
+**upper-intermediate Korean learner** would find worth studying — **idioms, phrasal verbs,
+collocations, and any B2+ / less-common vocabulary**, including tricky polysemes whose
+meaning *here* differs from the basic one (e.g. `content` 만족하는, `singular` 각별한,
+`storied` 화려한 이력의). Be **generous**: cover these thoroughly rather than picking only the
+single hardest item. This is **not** a full translation — keep skipping truly basic words
+(run, happy, ship, …), and leave low-value segments empty. In practice that lands around
+**2–5 entries on substantive segments**, with plenty of segments at 0; across a talk expect
+roughly **1–1.7 glosses per segment** (a ~33-segment TED talk ≈ 50–60 glosses). Dump a
+video's segments to read them:
 ```bash
 node -e 'const d=require("./data/transcripts.json");const v=d.videos.find(v=>v.id===process.argv[1]);v.segments.forEach((s,i)=>console.log(i+":", s.lines.map(l=>l.text).join(" ")))' VIDEOID
 ```
-Edit `data/glossary.json`, keyed by video id then **segment index** (a string), each entry
-`{ term, ko, type }` (`type` ∈ `idiom` | `phrase` | `word`):
+Edit `data/glossary.json`, keyed by video id then **segment index** (a string). The compact
+chip under the caption shows just `term` + `ko`; tapping it opens a **detail sheet** with the
+optional rich fields. So author the **rich format** for new videos:
+
 ```json
 "VIDEOID": {
   "3": [
-    { "term": "pull it off", "ko": "해내다, 성공시키다", "type": "idiom" },
+    {
+      "term": "pull it off",
+      "ko": "해내다, 성공시키다",
+      "type": "idiom",
+      "easy": "어려운 일을 결국 성공해내다",
+      "nuance": "쉽지 않은 걸 보란 듯이 해낸 느낌",
+      "when": "힘든 일을 멋지게 끝냈을 때",
+      "ex": "I didn't think he could pull it off, but he did.",
+      "exKo": "그가 해낼 거라 생각 못 했는데, 결국 해냈어요.",
+      "vs": "succeed는 단순히 '성공하다', pull it off는 '어려운 걸 용케 해내다'예요.",
+      "tip": "뒤에 it 같은 목적어가 들어가는 자리(pull ___ off)에 주의하세요."
+    },
     { "term": "albeit", "ko": "비록 ~이긴 하지만", "type": "word" }
-  ],
-  "7": [{ "term": "infant", "ko": "갓난아기", "type": "word" }]
+  ]
 }
 ```
+
+**Required fields** (every entry): `term`, `ko`, `type` (`idiom` | `phrase` | `word`).
 - `term` is the English as it appears (use `...` for a span, e.g. `"welcomed ... into the world"`).
-- `ko` is a short Korean gloss in context — the meaning *here*, not a dictionary dump.
-- Keep `data/glossary.json` valid JSON; the leading `"//"` note stays.
+- `ko` is a short in-context gloss — the meaning *here*, not a dictionary dump.
+
+**Rich fields** (all optional — include the ones that genuinely help; omit the rest):
+- `easy` — 쉬운 한 줄 뜻. Plain, spoken Korean a **토익 700** learner gets at a glance. No 한자어 jargon.
+- `nuance` — the real feel/connotation (not just the dictionary meaning).
+- `when` — a typical situation it's used in.
+- `ex` — a **short, easy** English example sentence (not lifted from the transcript).
+- `exKo` — the Korean translation of `ex`.
+- `vs` — how it differs from a similar word the learner might confuse it with.
+- `tip` — a gotcha (grammar pattern, false friend, common mistake).
+
+Guidelines for the rich fields:
+- Write **easy, friendly Korean** (해요체), aimed at 토익 700 — explain, don't define. Never dump
+  a dictionary entry or list every sense; give the one that matters *here* plus how it feels.
+- Keep each field to **one short line**. Skip a field rather than padding it.
+- Basic entries may stay `{ term, ko, type }` only — the detail sheet renders whatever is present.
+- Keep `data/glossary.json` valid JSON; the leading `"//"`/`"//schema"` notes stay.
 
 Then merge the glosses into the built data **without re-downloading**:
 ```bash
