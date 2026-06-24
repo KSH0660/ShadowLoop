@@ -121,7 +121,7 @@ window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
 
 async function init() {
   try {
-    const response = await fetch("data/transcripts.json", { cache: "no-store" });
+    const response = await fetch("data/transcripts.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     videos = data.videos || [];
