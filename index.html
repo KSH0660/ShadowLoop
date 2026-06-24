@@ -37,7 +37,10 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
         </button>
         <p class="topbar-title" id="topbarTitle">영상</p>
-        <button type="button" class="iconbtn" id="segBtn" aria-label="구간 목록">
+        <button type="button" class="iconbtn" id="notesBtn" aria-label="저장한 표현" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" /></svg>
+        </button>
+        <button type="button" class="iconbtn" id="segBtn" aria-label="구간 목록" aria-expanded="false">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01" /></svg>
         </button>
       </header>
@@ -68,6 +71,10 @@
       </section>
 
       <div class="cap-actions">
+        <button type="button" class="save-seg" id="saveSegBtn" aria-label="이 구간 저장">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" /></svg>
+          <span>저장</span>
+        </button>
         <button type="button" class="ai-copy" id="aiPromptBtn" aria-label="AI 학습 프롬프트 복사">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
           <span>AI로 이해하기</span>
@@ -131,6 +138,16 @@
         <span class="count" id="segmentCount">0개 구간</span>
       </div>
       <div class="segment-list" id="segmentList"></div>
+    </aside>
+
+    <aside class="sheet" id="notesSheet" aria-label="저장한 표현" aria-hidden="true">
+      <div class="sheet-grip"></div>
+      <div class="sheet-head">
+        <p class="label">저장한 표현</p>
+        <span class="count" id="notesCount">0개</span>
+      </div>
+      <p class="notes-empty" id="notesEmpty" hidden>아직 저장한 구간이 없어요. 쉐도잉 중 ‘저장’을 눌러 보세요.</p>
+      <div class="segment-list" id="notesList"></div>
     </aside>
 
     <script src="https://www.youtube.com/iframe_api"></script>

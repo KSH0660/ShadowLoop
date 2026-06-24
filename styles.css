@@ -548,7 +548,55 @@ button {
 .cap-actions {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
   margin-top: 8px;
+}
+
+/* Save segment — pill mirroring .ai-copy; fills accent when the current
+   segment is saved to the personal notes. */
+.save-seg {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: transform 0.12s ease, background-color 0.2s ease;
+}
+
+.save-seg:hover {
+  background: #efdcbf;
+}
+
+.save-seg:active {
+  transform: scale(0.96);
+}
+
+.save-seg svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.save-seg.is-saved {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.save-seg.is-saved svg {
+  fill: currentColor;
 }
 
 .ai-copy {
@@ -940,6 +988,100 @@ button {
 
 .segment-dur {
   flex: 0 0 auto;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Saved-segment marker in the segment list. */
+.segment-mark {
+  flex: 0 0 auto;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.segment-item.is-saved .segment-index {
+  color: var(--accent);
+}
+
+/* Notes sheet — each saved segment is a jump button plus a delete button. */
+.note-item {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.note-item:last-child {
+  border-bottom: 0;
+}
+
+.note-item .note-go {
+  flex: 1;
+  min-width: 0;
+  border-bottom: 0;
+}
+
+.note-del {
+  flex: 0 0 auto;
+  width: 36px;
+  border: 0;
+  background: transparent;
+  color: var(--faint);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.note-del:hover {
+  color: var(--accent);
+}
+
+.notes-empty {
+  margin: 0;
+  padding: 8px 6px 4px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* Home "저장한 표현" section — compact text rows (no thumbnail). */
+.note-rows {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.note-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px 14px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  text-align: left;
+}
+
+.note-row:last-child {
+  border-bottom: 0;
+}
+
+.note-row:hover {
+  background: var(--accent-soft);
+}
+
+.note-row-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.note-row-meta {
   font-family: var(--mono);
   font-size: 12px;
   color: var(--muted);
