@@ -22,6 +22,7 @@ let lineEls = [];
 let wordEls = [];
 let _prevTime = null;    // last polled getCurrentTime(), for user-seek detection
 let _seekCooldown = 0;   // performance.now() deadline — suppress seek detection until then
+let pendingSegment = null; // segment index to jump to once the next video finishes loading
 
 let state = {
   view: "home",   // "home" (browse grid) | "detail" (player)
@@ -36,7 +37,8 @@ let state = {
   cloze: [],      // maskable word indices, in reading order
   pace: "slow",   // slow (3–10 reps) | fast (2–4 reps)
   peek: false,    // holding the peek button → show the full caption
-  sheet: null,    // null | "seg"
+  sheet: null,    // null | "seg" | "notes"
+  bookmarks: new Set(), // current video's saved segment indices (fast lookup for UI)
 };
 
 // Repeats until full reveal, by pace. "slow" drills deeper, "fast" skims.
@@ -78,6 +80,12 @@ const els = {
   sheetBackdrop: document.querySelector("#sheetBackdrop"),
   aiPromptBtn: document.querySelector("#aiPromptBtn"),
   toast: document.querySelector("#toast"),
+  saveSegBtn: document.querySelector("#saveSegBtn"),
+  notesBtn: document.querySelector("#notesBtn"),
+  notesSheet: document.querySelector("#notesSheet"),
+  notesList: document.querySelector("#notesList"),
+  notesCount: document.querySelector("#notesCount"),
+  notesEmpty: document.querySelector("#notesEmpty"),
 };
 
 function onYouTubeIframeAPIReady() {
@@ -168,6 +176,74 @@ function recordProgress(videoId, segIndex, total) {
   }
 }
 
+// --- Bookmarks (saved segments → personal notes) ---------------------------
+// Per video, a list of segments the learner saved to revisit. Stored in
+// localStorage alongside progress (per device — no backend). Each entry keeps a
+// snapshot of the caption text + timecodes, so it stays self-describing even if
+// a transcript rebuild shifts segment indices, and so it's easy to migrate to a
+// server later. The `seg` index is used for fast lookup and to jump back.
+const BOOKMARKS_KEY = "shadowloop:v1:bookmarks";
+
+function loadBookmarks() {
+  try {
+    return JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveBookmarks(map) {
+  try {
+    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(map));
+  } catch {
+    // localStorage unavailable (e.g. private mode) — saves just won't persist.
+  }
+}
+
+// The saved segments for one video, ordered by segment index.
+function getVideoBookmarks(videoId) {
+  const list = loadBookmarks()[videoId];
+  return Array.isArray(list) ? list : [];
+}
+
+// Toggle a segment's saved state. Returns true if it is now saved, false if removed.
+function toggleBookmark(videoId, seg, segment) {
+  if (!videoId || !segment) return false;
+  const all = loadBookmarks();
+  const list = Array.isArray(all[videoId]) ? all[videoId] : [];
+  const at = list.findIndex((b) => b.seg === seg);
+  let saved;
+  if (at >= 0) {
+    list.splice(at, 1);
+    saved = false;
+  } else {
+    list.push({
+      seg,
+      text: segment.lines.map((l) => l.text).join(" ").trim(),
+      start: segment.start,
+      end: segment.end,
+      at: Date.now(),
+    });
+    list.sort((a, b) => a.seg - b.seg);
+    saved = true;
+  }
+  if (list.length) all[videoId] = list;
+  else delete all[videoId];
+  saveBookmarks(all);
+  return saved;
+}
+
+// Remove a saved segment regardless of whether its segment still exists (a
+// transcript rebuild can drift indices, leaving an orphaned bookmark).
+function removeBookmark(videoId, seg) {
+  const all = loadBookmarks();
+  const list = Array.isArray(all[videoId]) ? all[videoId] : [];
+  const next = list.filter((b) => b.seg !== seg);
+  if (next.length) all[videoId] = next;
+  else delete all[videoId];
+  saveBookmarks(all);
+}
+
 // HOME — a browse grid of thumbnail cards, grouped into labelled sections by
 // `category` (강연 vs 예능 등). Groups appear in first-seen order; videos keep
 // their order within a group. Each card carries its index into `videos`.
@@ -240,6 +316,31 @@ function renderHome() {
     .join("");
 
   const sections = [];
+
+  // 저장한 표현 — saved segments across every video, most-recently-saved first.
+  // Only in the unfiltered view; tapping a row deep-links to that segment.
+  if (homeFilter === HOME_ALL) {
+    const bm = loadBookmarks();
+    const saved = [];
+    videos.forEach((video, index) => {
+      (bm[video.id] || []).forEach((b) => saved.push({ video, index, b }));
+    });
+    saved.sort((a, b) => (b.b.at || 0) - (a.b.at || 0));
+    if (saved.length) {
+      const rows = saved
+        .map(({ video, index, b }) => `
+          <button type="button" class="note-row" data-video="${index}" data-seg="${b.seg}">
+            <span class="note-row-text">${escapeHtml(b.text)}</span>
+            <span class="note-row-meta">${escapeHtml(video.tag || video.title || "")} · ${formatTime(b.start)}</span>
+          </button>`)
+        .join("");
+      sections.push(`
+        <section class="feed-group">
+          <h2 class="feed-group-title">저장한 표현</h2>
+          <div class="note-rows">${rows}</div>
+        </section>`);
+    }
+  }
 
   // 이어보기 — in-progress videos (0 < pct < 100), most-recent-first. Only in
   // the unfiltered view; selecting a category narrows to that grid alone.
@@ -318,7 +419,14 @@ function showDetail(video) {
   els.detailView.hidden = false;
   document.body.classList.add("is-detail");
   window.scrollTo(0, 0);
-  if (state.videoId !== video.id) loadVideo(video);
+  if (state.videoId !== video.id) {
+    loadVideo(video);
+  } else if (pendingSegment != null) {
+    // Same video already loaded — jump straight to the requested segment.
+    const seg = pendingSegment;
+    pendingSegment = null;
+    selectSegment(seg, true);
+  }
 }
 
 function loadVideo(video) {
@@ -329,6 +437,12 @@ function loadVideo(video) {
   // (reached the last segment) — then start over from the top, like YouTube.
   const saved = getVideoProgress(video.id);
   state.current = saved && saved.seg < state.segments.length - 1 ? saved.seg : 0;
+  // A deep link / saved-segment tap overrides the resume position.
+  if (pendingSegment != null) {
+    state.current = Math.max(0, Math.min(pendingSegment, state.segments.length - 1));
+    pendingSegment = null;
+  }
+  state.bookmarks = new Set(getVideoBookmarks(video.id).map((b) => b.seg));
   state.line = -1;
   state.loops = 0;
   state.peek = false;
@@ -397,6 +511,18 @@ function selectSegment(index, autoplay = true) {
   if (autoplay) playCurrentSegment();
 }
 
+// Save / unsave the current segment to the personal notes (one tap, no typing).
+function toggleSaveCurrent() {
+  const segment = state.segments[state.current];
+  if (!state.videoId || !segment) return;
+  const saved = toggleBookmark(state.videoId, state.current, segment);
+  if (saved) state.bookmarks.add(state.current);
+  else state.bookmarks.delete(state.current);
+  render();
+  if (state.sheet === "notes") renderNotes();
+  showToast(saved ? "메모에 저장했어요" : "메모에서 뺐어요");
+}
+
 // Seek straight to a caption sentence within the current segment.
 function seekToLine(lineIndex) {
   const line = state.segments[state.current]?.lines[lineIndex];
@@ -439,14 +565,17 @@ function render() {
     button.classList.toggle("is-active", button.dataset.pace === state.pace);
   });
 
+  if (els.saveSegBtn) els.saveSegBtn.classList.toggle("is-saved", state.bookmarks.has(state.current));
+
   renderCaption(segment);
   renderLoopDots();
 
   els.segmentList.innerHTML = state.segments
     .map((item, index) => `
-        <button type="button" class="segment-item ${index === state.current ? "is-active" : ""}" data-index="${index}">
+        <button type="button" class="segment-item ${index === state.current ? "is-active" : ""} ${state.bookmarks.has(index) ? "is-saved" : ""}" data-index="${index}">
           <span class="segment-index">${String(index + 1).padStart(2, "0")}</span>
           <span class="segment-text">${escapeHtml(item.lines.map((l) => l.text).join(" "))}</span>
+          ${state.bookmarks.has(index) ? '<span class="segment-mark" aria-label="저장됨">★</span>' : ""}
           <span class="segment-dur">${Math.round(item.end - item.start)}초</span>
         </button>
       `)
@@ -623,13 +752,43 @@ function tick() {
 
 requestAnimationFrame(tick);
 
-// The segment list is the only bottom sheet. Passing "seg" again closes it.
+// Two bottom sheets, one open at a time: "seg" (segment list) and "notes"
+// (this video's saved segments). Passing the open sheet's name again closes it.
 function openSheet(which) {
   state.sheet = state.sheet === which ? null : which;
+  if (state.sheet === "notes") renderNotes();
   els.segSheet.classList.toggle("is-open", state.sheet === "seg");
   els.segSheet.setAttribute("aria-hidden", String(state.sheet !== "seg"));
+  els.notesSheet.classList.toggle("is-open", state.sheet === "notes");
+  els.notesSheet.setAttribute("aria-hidden", String(state.sheet !== "notes"));
   els.sheetBackdrop.hidden = state.sheet === null;
   els.segBtn.setAttribute("aria-expanded", String(state.sheet === "seg"));
+  els.notesBtn.setAttribute("aria-expanded", String(state.sheet === "notes"));
+}
+
+// The notes sheet lists the current video's saved segments; each row jumps to
+// its segment, and the × removes it.
+function renderNotes() {
+  const list = getVideoBookmarks(state.videoId);
+  els.notesCount.textContent = `${list.length}개`;
+  if (!list.length) {
+    els.notesList.innerHTML = "";
+    els.notesEmpty.hidden = false;
+    return;
+  }
+  els.notesEmpty.hidden = true;
+  els.notesList.innerHTML = list
+    .map((b) => `
+        <div class="note-item">
+          <button type="button" class="segment-item note-go" data-index="${b.seg}">
+            <span class="segment-index">${String(b.seg + 1).padStart(2, "0")}</span>
+            <span class="segment-text">${escapeHtml(b.text)}</span>
+            <span class="segment-dur">${formatTime(b.start)}</span>
+          </button>
+          <button type="button" class="note-del" data-del="${b.seg}" aria-label="메모에서 삭제">×</button>
+        </div>
+      `)
+    .join("");
 }
 
 function closeSheet() {
@@ -748,6 +907,12 @@ window.addEventListener("hashchange", route);
 els.aiPromptBtn.addEventListener("click", copyStudyPrompt);
 
 els.homeFeed.addEventListener("click", (event) => {
+  const row = event.target.closest(".note-row");
+  if (row) {
+    pendingSegment = Number(row.dataset.seg); // jump to the saved segment on load
+    openVideo(videos[Number(row.dataset.video)]);
+    return;
+  }
   const card = event.target.closest(".card");
   if (!card) return;
   openVideo(videos[Number(card.dataset.video)]);
@@ -763,7 +928,25 @@ els.homeFilters.addEventListener("click", (event) => {
 
 els.backBtn.addEventListener("click", goHome);
 els.segBtn.addEventListener("click", () => openSheet("seg"));
+els.notesBtn.addEventListener("click", () => openSheet("notes"));
+els.saveSegBtn.addEventListener("click", toggleSaveCurrent);
 els.sheetBackdrop.addEventListener("click", closeSheet);
+
+els.notesList.addEventListener("click", (event) => {
+  const del = event.target.closest(".note-del");
+  if (del) {
+    const seg = Number(del.dataset.del);
+    removeBookmark(state.videoId, seg);
+    state.bookmarks.delete(seg);
+    renderNotes();
+    render();
+    return;
+  }
+  const go = event.target.closest(".note-go");
+  if (!go) return;
+  selectSegment(Number(go.dataset.index), true);
+  closeSheet();
+});
 
 els.caption.addEventListener("click", (event) => {
   const line = event.target.closest(".cap-line");
@@ -840,6 +1023,10 @@ document.addEventListener("keydown", (event) => {
   }
   if (key === "arrowleft") selectSegment(state.current - 1, true);
   if (key === "arrowright") selectSegment(state.current + 1, true);
+  if (key === "b") {
+    event.preventDefault();
+    toggleSaveCurrent();
+  }
 });
 
 init();
