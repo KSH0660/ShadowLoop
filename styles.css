@@ -698,6 +698,10 @@ body.is-detail .tabbar {
   list-style: none;
 }
 
+.gloss-list li {
+  display: inline-flex;
+}
+
 .gloss-item {
   display: inline-flex;
   align-items: baseline;
@@ -708,6 +712,14 @@ body.is-detail .tabbar {
   background: var(--surface);
   font-size: 13px;
   line-height: 1.4;
+  text-align: left;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.gloss-item:hover,
+.gloss-item:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .gloss-term {
@@ -716,6 +728,99 @@ body.is-detail .tabbar {
 }
 
 .gloss-ko {
+  color: var(--muted);
+}
+
+/* Word-detail sheet — opened by tapping a glossary chip. */
+.word-sheet {
+  gap: 0;
+}
+
+.word-detail {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.word-head {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.word-head-top {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.word-term {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.word-type {
+  flex: 0 0 auto;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.word-ko {
+  margin: 6px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--accent-ink);
+}
+
+.word-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 14px;
+}
+
+.word-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.word-field-label {
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.word-field-val {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.word-ex-en {
+  font-style: italic;
+  color: var(--accent-ink);
+}
+
+.word-ex-ko {
+  margin-top: 2px;
+  color: var(--muted);
+}
+
+.word-empty {
+  margin: 16px 0 0;
+  font-size: 14px;
   color: var(--muted);
 }
 

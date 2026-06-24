@@ -37,7 +37,8 @@ let state = {
   cloze: [],      // maskable word indices, in reading order
   pace: "slow",   // slow (3–10 reps) | fast (2–4 reps)
   peek: false,    // holding the peek button → show the full caption
-  sheet: null,    // null | "seg" | "notes"
+  sheet: null,    // null | "seg" | "notes" | "word"
+  wordItem: null, // glossary entry currently shown in the word-detail sheet
   bookmarks: new Set(), // current video's saved segment indices (fast lookup for UI)
 };
 
@@ -90,6 +91,8 @@ const els = {
   notesList: document.querySelector("#notesList"),
   notesCount: document.querySelector("#notesCount"),
   notesEmpty: document.querySelector("#notesEmpty"),
+  wordSheet: document.querySelector("#wordSheet"),
+  wordDetail: document.querySelector("#wordDetail"),
 };
 
 function onYouTubeIframeAPIReady() {
@@ -853,14 +856,64 @@ function renderGlossary(segment) {
     els.glossary.classList.remove("is-shown");
     return;
   }
+  // Each chip stays intentionally terse (term + 간결한 뜻); tapping it opens the
+  // word-detail sheet with whatever rich fields the gloss has (all optional).
   els.glossList.innerHTML = items
-    .map((g) => `
-        <li class="gloss-item">
-          <span class="gloss-term">${escapeHtml(g.term)}</span>
-          <span class="gloss-ko">${escapeHtml(g.ko)}</span>
+    .map((g, i) => `
+        <li>
+          <button type="button" class="gloss-item" data-gloss="${i}">
+            <span class="gloss-term">${escapeHtml(g.term)}</span>
+            <span class="gloss-ko">${escapeHtml(g.ko)}</span>
+          </button>
         </li>`)
     .join("");
   els.glossary.hidden = false;
+}
+
+// Korean labels for the gloss `type` (the only "난이도" signal we have for now).
+const TYPE_LABEL = { word: "단어", phrase: "표현", idiom: "관용구" };
+
+// Render one glossary entry's rich detail into the word sheet. Every rich field
+// (easy/nuance/when/ex/exKo/vs/tip) is optional — only the present ones show, so
+// older { term, ko, type }-only glosses still render cleanly (just the header).
+function renderWordDetail(item) {
+  const field = (label, value) =>
+    value ? `<div class="word-field"><span class="word-field-label">${label}</span><p class="word-field-val">${escapeHtml(value)}</p></div>` : "";
+
+  const exHtml = item.ex
+    ? `<div class="word-field"><span class="word-field-label">예문</span>
+         <p class="word-field-val word-ex-en">${escapeHtml(item.ex)}</p>
+         ${item.exKo ? `<p class="word-field-val word-ex-ko">${escapeHtml(item.exKo)}</p>` : ""}</div>`
+    : "";
+
+  const body = [
+    field("쉬운 뜻", item.easy),
+    field("뉘앙스", item.nuance),
+    field("이런 상황에", item.when),
+    exHtml,
+    field("비슷한 말과 차이", item.vs),
+    field("헷갈리면", item.tip),
+  ].filter(Boolean).join("");
+
+  const typeLabel = TYPE_LABEL[item.type];
+  els.wordDetail.innerHTML = `
+    <div class="word-head">
+      <div class="word-head-top">
+        <span class="word-term">${escapeHtml(item.term)}</span>
+        ${typeLabel ? `<span class="word-type">${typeLabel}</span>` : ""}
+      </div>
+      <p class="word-ko">${escapeHtml(item.ko)}</p>
+    </div>
+    ${body ? `<div class="word-fields">${body}</div>` : `<p class="word-empty">자세한 해설은 아직 준비 중이에요.</p>`}`;
+}
+
+// Open the word-detail sheet for a glossary entry. Re-renders if it's already
+// open (tapping a different chip), so switching words doesn't toggle it shut.
+function openWordSheet(item) {
+  if (!item) return;
+  state.wordItem = item;
+  renderWordDetail(item);
+  if (state.sheet !== "word") openSheet("word");
 }
 
 // Push the current reveal progress into the DOM. The whole caption fades in as
@@ -975,8 +1028,9 @@ function tick() {
 
 requestAnimationFrame(tick);
 
-// Two bottom sheets, one open at a time: "seg" (segment list) and "notes"
-// (this video's saved segments). Passing the open sheet's name again closes it.
+// Bottom sheets, one open at a time: "seg" (segment list), "notes" (this video's
+// saved segments), and "word" (one glossary entry's rich detail). Passing the
+// open sheet's name again closes it.
 function openSheet(which) {
   state.sheet = state.sheet === which ? null : which;
   if (state.sheet === "notes") renderNotes();
@@ -984,6 +1038,8 @@ function openSheet(which) {
   els.segSheet.setAttribute("aria-hidden", String(state.sheet !== "seg"));
   els.notesSheet.classList.toggle("is-open", state.sheet === "notes");
   els.notesSheet.setAttribute("aria-hidden", String(state.sheet !== "notes"));
+  els.wordSheet.classList.toggle("is-open", state.sheet === "word");
+  els.wordSheet.setAttribute("aria-hidden", String(state.sheet !== "word"));
   els.sheetBackdrop.hidden = state.sheet === null;
   els.segBtn.setAttribute("aria-expanded", String(state.sheet === "seg"));
   els.notesBtn.setAttribute("aria-expanded", String(state.sheet === "notes"));
@@ -1179,6 +1235,14 @@ els.caption.addEventListener("click", (event) => {
   const line = event.target.closest(".cap-line");
   if (!line) return;
   seekToLine(Number(line.dataset.line));
+});
+
+// Tapping a glossary chip opens its rich detail in the word sheet.
+els.glossList.addEventListener("click", (event) => {
+  const chip = event.target.closest(".gloss-item");
+  if (!chip) return;
+  const items = state.segments[state.current]?.glossary || [];
+  openWordSheet(items[Number(chip.dataset.gloss)]);
 });
 
 els.segmentList.addEventListener("click", (event) => {
