@@ -3189,5 +3189,842 @@
         "exKo": "장담하는데, 완전히 안전합니다."
       }
     ]
+  },
+  "w-oGpGf03Ag": {
+    "0": [
+      {
+        "term": "out of anything other than love",
+        "ko": "사랑이 아닌 다른 이유로",
+        "type": "phrase",
+        "easy": "오직 사랑 때문이지 다른 의도는 없다는 뜻이에요",
+        "nuance": "변명하거나 진심을 강조할 때 쓰는 표현이에요"
+      }
+    ],
+    "4": [
+      {
+        "term": "marking your territory",
+        "ko": "네 영역 표시하는 것",
+        "type": "idiom",
+        "easy": "여긴 내 거라고 표시하는 거예요",
+        "nuance": "동물이 영역에 오줌 누는 데서 온 비유라 약간 우습고 비꼬는 느낌이에요",
+        "when": "남자친구가 질투로 소유욕을 드러낼 때",
+        "ex": "He kept hugging me in front of his ex like he was marking his territory.",
+        "exKo": "그는 전 여친 앞에서 영역 표시하듯 계속 나를 안았어요."
+      },
+      {
+        "term": "might as well have",
+        "ko": "차라리 ~한 거나 마찬가지였다",
+        "type": "phrase",
+        "easy": "사실상 그렇게 한 거나 다름없다는 뜻이에요",
+        "tip": "'might as well + 동사'는 '차라리 ~하는 게 낫다', 'might as well have p.p.'는 '차라리 ~한 셈이다'예요"
+      }
+    ],
+    "9": [
+      {
+        "term": "hitting on her",
+        "ko": "그녀에게 작업 거는 것",
+        "type": "phrase",
+        "easy": "이성에게 들이대며 호감을 표현하는 거예요",
+        "nuance": "가벼운 구어체로, 노골적으로 접근하는 느낌이에요",
+        "ex": "Some guy was hitting on her at the bar.",
+        "exKo": "어떤 남자가 바에서 그녀에게 작업 걸고 있었어요."
+      },
+      {
+        "term": "confidante",
+        "ko": "속마음을 털어놓는 친한 상대",
+        "type": "word",
+        "easy": "비밀이나 고민을 믿고 말하는 사람이에요",
+        "vs": "friend보다 '비밀을 나누는 깊은 사이'라는 느낌이 강해요"
+      }
+    ],
+    "13": [
+      {
+        "term": "before you know it",
+        "ko": "어느새, 눈 깜짝할 새에",
+        "type": "idiom",
+        "easy": "금방, 생각보다 빨리 그렇게 된다는 뜻이에요",
+        "when": "시간이 빨리 지나갈 거라고 말할 때",
+        "ex": "Before you know it, summer will be over.",
+        "exKo": "어느새 여름이 끝나 있을 거예요."
+      }
+    ],
+    "17": [
+      {
+        "term": "get over it",
+        "ko": "그만 잊어버려, 극복해",
+        "type": "idiom",
+        "easy": "속상한 일을 더 이상 마음에 두지 말라는 뜻이에요",
+        "nuance": "위로보다는 '이제 그만 좀 해'라는 약간 답답해하는 느낌이에요",
+        "ex": "It was years ago. Just get over it.",
+        "exKo": "몇 년 전 일이잖아. 그냥 잊어버려."
+      }
+    ],
+    "18": [
+      {
+        "term": "paints quite a picture",
+        "ko": "상황을 생생하게 그려내네",
+        "type": "idiom",
+        "easy": "말로 장면을 눈에 보이듯 자세히 설명한다는 뜻이에요",
+        "nuance": "여기선 너무 비관적으로 그려낸다는 살짝 비꼬는 느낌이에요"
+      }
+    ]
+  },
+  "L7APBWkgw50": {
+    "6": [
+      {
+        "term": "figure it out",
+        "ko": "방법을 알아내다, 해결하다",
+        "type": "idiom",
+        "easy": "고민해서 해답이나 방법을 찾아낸다는 뜻이에요",
+        "ex": "Don't worry, we'll figure it out.",
+        "exKo": "걱정 마, 우리가 방법을 찾을 거야."
+      }
+    ],
+    "8": [
+      {
+        "term": "flipping",
+        "ko": "뒤집는 중",
+        "type": "word",
+        "easy": "여기선 매트리스를 위아래로 뒤집는 거예요"
+      }
+    ],
+    "15": [
+      {
+        "term": "got in that big fight",
+        "ko": "크게 싸웠다",
+        "type": "phrase",
+        "easy": "심하게 말다툼하거나 다퉜다는 뜻이에요"
+      },
+      {
+        "term": "broke up",
+        "ko": "헤어졌다",
+        "type": "phrase",
+        "easy": "연인 관계를 끝냈다는 뜻이에요"
+      },
+      {
+        "term": "stuck in here",
+        "ko": "여기 갇혀 있던",
+        "type": "phrase",
+        "easy": "나가지 못하고 꼼짝없이 있는 상황이에요",
+        "ex": "We got stuck in the elevator for an hour.",
+        "exKo": "우리 엘리베이터에 한 시간 갇혀 있었어요."
+      }
+    ],
+    "18": [
+      {
+        "term": "repopulate the Earth",
+        "ko": "지구에 다시 인구를 채우다",
+        "type": "phrase",
+        "easy": "사람이 멸종한 뒤 다시 번식해 인구를 늘린다는 농담이에요",
+        "nuance": "여기선 콘돔이 왜 필요한지 둘러대는 우스갯소리예요"
+      }
+    ],
+    "19": [
+      {
+        "term": "boils down to",
+        "ko": "결국 ~로 귀결된다, 핵심은 ~다",
+        "type": "idiom",
+        "easy": "여러 말을 줄이면 결국 이거다, 라는 뜻이에요",
+        "when": "복잡한 얘기를 한마디로 요약할 때",
+        "ex": "It all boils down to money.",
+        "exKo": "결국 다 돈 문제로 귀결돼요."
+      }
+    ]
+  },
+  "uaO3otiN0-U": {
+    "0": [
+      {
+        "term": "catch up",
+        "ko": "그동안의 안부를 나누다",
+        "type": "idiom",
+        "easy": "오랜만에 만나 못다 한 근황을 주고받는 거예요",
+        "ex": "Let's grab coffee and catch up sometime.",
+        "exKo": "언제 커피 마시면서 밀린 얘기 좀 하자."
+      }
+    ],
+    "1": [
+      {
+        "term": "Good for you",
+        "ko": "잘됐네, 축하해",
+        "type": "idiom",
+        "easy": "상대에게 좋은 일이 생겼을 때 해 주는 말이에요",
+        "nuance": "진심일 수도, 때론 비꼬는 투일 수도 있어요"
+      }
+    ],
+    "8": [
+      {
+        "term": "ask them for a favor",
+        "ko": "부탁을 하다",
+        "type": "phrase",
+        "easy": "도와달라고 청하는 거예요",
+        "ex": "Can I ask you for a favor?",
+        "exKo": "부탁 하나 해도 될까요?"
+      },
+      {
+        "term": "put in some time",
+        "ko": "시간을 좀 들이다, 공을 들이다",
+        "type": "idiom",
+        "easy": "관계나 일에 어느 정도 정성과 시간을 쏟는다는 뜻이에요",
+        "nuance": "여기선 갑자기 부탁하지 말고 먼저 관계에 공을 들이라는 뜻이에요"
+      }
+    ],
+    "10": [
+      {
+        "term": "going out with",
+        "ko": "~와 사귀다",
+        "type": "idiom",
+        "easy": "연인으로 데이트하며 만나는 거예요",
+        "vs": "go out (그냥 외출)과 달리 'go out with 사람'은 '사귀다'예요"
+      }
+    ],
+    "13": [
+      {
+        "term": "ran into",
+        "ko": "우연히 마주쳤다",
+        "type": "idiom",
+        "easy": "계획 없이 길에서 아는 사람을 만난 거예요",
+        "ex": "I ran into an old friend at the mall.",
+        "exKo": "쇼핑몰에서 옛 친구를 우연히 만났어요."
+      }
+    ],
+    "16": [
+      {
+        "term": "How you doin'?",
+        "ko": "잘 지내? (조이의 작업 멘트)",
+        "type": "phrase",
+        "easy": "원래 안부 인사인데, 프렌즈에서 조이의 유명한 작업 멘트예요"
+      }
+    ],
+    "17": [
+      {
+        "term": "The nerve",
+        "ko": "참 뻔뻔하네, 어이없네",
+        "type": "idiom",
+        "easy": "어떻게 그런 무례한 짓을 하냐며 기막혀하는 표현이에요",
+        "nuance": "'the nerve (of someone)' 형태로 황당함과 분노를 담아요",
+        "ex": "She didn't even apologize. The nerve!",
+        "exKo": "사과도 안 하더라고. 참 뻔뻔하지!"
+      }
+    ],
+    "18": [
+      {
+        "term": "last minute",
+        "ko": "급하게, 막판에",
+        "type": "idiom",
+        "easy": "준비할 시간 없이 갑자기 닥쳐서 하는 거예요",
+        "ex": "Sorry, this is all last minute.",
+        "exKo": "미안, 다 급하게 준비한 거야."
+      }
+    ],
+    "26": [
+      {
+        "term": "been through so much",
+        "ko": "정말 많은 일을 겪었다",
+        "type": "idiom",
+        "easy": "힘든 일을 잔뜩 겪어 고생했다는 뜻이에요",
+        "ex": "You've been through so much this year.",
+        "exKo": "올해 정말 많은 일을 겪었구나."
+      }
+    ]
+  },
+  "KL2OXGNE7Tg": {
+    "3": [
+      {
+        "term": "had a blast",
+        "ko": "엄청 즐거운 시간을 보냈다",
+        "type": "idiom",
+        "easy": "정말 신나게 잘 놀았다는 뜻이에요",
+        "when": "파티나 행사가 아주 재미있었을 때",
+        "ex": "We had a blast at the concert.",
+        "exKo": "콘서트에서 정말 신나게 놀았어요."
+      }
+    ],
+    "4": [
+      {
+        "term": "bachelor party",
+        "ko": "총각 파티 (결혼 전 남자들 파티)",
+        "type": "word",
+        "easy": "결혼 앞둔 남자가 친구들과 여는 파티예요"
+      }
+    ],
+    "5": [
+      {
+        "term": "pick one of those babies up",
+        "ko": "저런 거 하나 장만하다",
+        "type": "idiom",
+        "easy": "여기서 babies는 '저 좋은 물건'을 친근하게 부르는 말이에요",
+        "nuance": "마음에 드는 물건을 사겠다고 할 때 쓰는 가벼운 표현이에요"
+      }
+    ],
+    "7": [
+      {
+        "term": "the clothes on her back",
+        "ko": "입고 있던 옷가지",
+        "type": "idiom",
+        "easy": "가진 게 그것밖에 없을 만큼 가난했다는 뜻이에요",
+        "nuance": "'all she had were the clothes on her back'처럼 빈털터리 신세를 강조해요"
+      },
+      {
+        "term": "irreplaceable",
+        "ko": "대체 불가능한, 둘도 없는",
+        "type": "word",
+        "easy": "다른 걸로 바꿀 수 없을 만큼 소중하다는 뜻이에요"
+      },
+      {
+        "term": "been in my family for generations",
+        "ko": "대대로 집안에 내려온",
+        "type": "phrase",
+        "easy": "여러 세대 동안 물려받아 온 거예요"
+      }
+    ],
+    "10": [
+      {
+        "term": "best man",
+        "ko": "신랑 들러리 (대표)",
+        "type": "word",
+        "easy": "결혼식에서 신랑을 돕는 가장 친한 친구 역할이에요"
+      }
+    ],
+    "11": [
+      {
+        "term": "screwed up",
+        "ko": "망쳤다, 사고 쳤다",
+        "type": "idiom",
+        "easy": "실수로 일을 크게 그르쳤다는 뜻이에요",
+        "nuance": "구어체로 자기 잘못을 인정할 때 자주 써요",
+        "ex": "I'm sorry, I really screwed up.",
+        "exKo": "미안해, 내가 정말 크게 실수했어."
+      },
+      {
+        "term": "turn me in",
+        "ko": "나를 신고하다, 고발하다",
+        "type": "idiom",
+        "easy": "잘못한 사람을 경찰에 넘긴다는 뜻이에요",
+        "vs": "turn in은 '제출하다'도 되지만 'turn 사람 in'은 '신고하다'예요"
+      },
+      {
+        "term": "the cops",
+        "ko": "경찰",
+        "type": "word",
+        "easy": "police를 편하게 부르는 구어 표현이에요"
+      }
+    ],
+    "12": [
+      {
+        "term": "look into it",
+        "ko": "그 일을 알아보다, 조사하다",
+        "type": "idiom",
+        "easy": "문제를 들여다보고 살펴본다는 뜻이에요",
+        "ex": "I'll look into it and get back to you.",
+        "exKo": "제가 알아보고 다시 연락드릴게요."
+      }
+    ],
+    "16": [
+      {
+        "term": "under a fake name",
+        "ko": "가짜 이름으로",
+        "type": "phrase",
+        "easy": "진짜가 아닌 거짓 이름을 쓰는 거예요"
+      }
+    ]
+  },
+  "ocvBuybgyks": {
+    "0": [
+      {
+        "term": "So we meet again",
+        "ko": "또 만났네 (영화 속 악당 같은 말투)",
+        "type": "phrase",
+        "nuance": "영화나 만화에서 라이벌끼리 다시 마주칠 때 쓰는 과장된 말투예요",
+        "when": "장난스럽게 아는 사람을 다시 볼 때"
+      }
+    ],
+    "2": [
+      {
+        "term": "I appreciate you getting me the costume",
+        "ko": "옷 구해줘서 고마워요",
+        "type": "phrase",
+        "tip": "appreciate 뒤에 -ing가 오면 '~해준 것에 감사하다'예요"
+      },
+      {
+        "term": "you did this to him",
+        "ko": "네가 걔한테 이런 짓을 한 거야?",
+        "type": "phrase",
+        "nuance": "약간 어이없거나 따지는 느낌이에요"
+      }
+    ],
+    "7": [
+      {
+        "term": "That is so you",
+        "ko": "완전 너답다",
+        "type": "phrase",
+        "easy": "딱 네 스타일이야",
+        "ex": "Buying that book? That is so you.",
+        "exKo": "그 책을 샀다고? 완전 너답다."
+      }
+    ],
+    "8": [
+      {
+        "term": "Trick or treat",
+        "ko": "사탕 안 주면 장난칠 거예요 (할로윈 인사)",
+        "type": "idiom",
+        "when": "할로윈에 아이들이 집집마다 다니며 외치는 말"
+      }
+    ],
+    "11": [
+      {
+        "term": "that earns two pieces of candy",
+        "ko": "그건 사탕 두 개짜리네 (그럴 자격이 있다)",
+        "type": "phrase",
+        "nuance": "earn은 여기서 '받을 만하다, ~할 자격이 있다'는 뜻이에요"
+      }
+    ],
+    "15": [
+      {
+        "term": "no wonder",
+        "ko": "어쩐지, 그래서 ~구나",
+        "type": "idiom",
+        "easy": "이유를 알고 나서 '그래서 그랬구나' 할 때",
+        "ex": "No wonder you're tired, you slept two hours.",
+        "exKo": "두 시간 잤으니 피곤한 게 당연하지."
+      }
+    ],
+    "16": [
+      {
+        "term": "What are you supposed to be?",
+        "ko": "(분장으로) 뭐로 꾸민 거야?",
+        "type": "phrase",
+        "nuance": "코스튬을 보고 '무슨 캐릭터야?' 물을 때 자주 써요"
+      }
+    ],
+    "19": [
+      {
+        "term": "came as",
+        "ko": "~로 분장하고 왔다",
+        "type": "phrase",
+        "tip": "파티에서 'come as + 캐릭터'는 그 분장을 하고 온다는 뜻이에요"
+      }
+    ]
+  },
+  "m3OdHm7nuAM": {
+    "1": [
+      {
+        "term": "involved",
+        "ko": "(연인으로) 사귀는 사이",
+        "type": "word",
+        "nuance": "여기 involved는 '연애 관계로 엮여 있다'는 뜻이에요",
+        "vs": "단순한 involved(관여된)와 달리 연애 맥락에서는 '사귀는 사이'를 뜻해요"
+      }
+    ],
+    "2": [
+      {
+        "term": "seeing each other",
+        "ko": "서로 만나는(사귀는) 사이였다",
+        "type": "idiom",
+        "easy": "데이트하며 사귀던 사이",
+        "nuance": "see someone은 '~와 사귀다'는 뜻이에요"
+      }
+    ],
+    "7": [
+      {
+        "term": "don't get too worked up over it",
+        "ko": "그거에 너무 들뜨지 마요",
+        "type": "idiom",
+        "easy": "너무 흥분하거나 호들갑 떨지 마",
+        "nuance": "get worked up은 감정적으로 흥분/동요하는 거예요",
+        "ex": "Don't get worked up, it's just a game.",
+        "exKo": "흥분하지 마, 그냥 게임이잖아."
+      }
+    ],
+    "11": [
+      {
+        "term": "right around the corner",
+        "ko": "바로 코앞에, 아주 가까이",
+        "type": "idiom",
+        "easy": "걸어서 금방 가는 거리"
+      },
+      {
+        "term": "work out",
+        "ko": "운동하다",
+        "type": "phrase",
+        "nuance": "헬스장에서 몸 만드는 운동을 말해요"
+      }
+    ],
+    "19": [
+      {
+        "term": "brazen",
+        "ko": "(부끄럼 없이) 뻔뻔한, 대놓고 들이대는",
+        "type": "word",
+        "nuance": "잘못인 줄 알면서도 당당하게 행동하는 느낌이에요"
+      }
+    ],
+    "21": [
+      {
+        "term": "about to pop",
+        "ko": "(임신해서) 곧 터질 것 같은, 출산 임박",
+        "type": "idiom",
+        "easy": "배가 너무 불러서 곧 아기 나올 것 같은",
+        "nuance": "임산부 배가 풍선처럼 곧 터질 것 같다는 농담조 표현이에요"
+      },
+      {
+        "term": "picking up",
+        "ko": "(이성을) 꼬시다, 작업 걸다",
+        "type": "phrase",
+        "nuance": "pick up someone은 모르는 이성에게 수작 걸어 데려가는 거예요"
+      }
+    ],
+    "23": [
+      {
+        "term": "Why so fancy?",
+        "ko": "왜 이렇게 차려입었어?",
+        "type": "phrase",
+        "nuance": "fancy는 평소보다 멋지게/격식 차려 입은 모습이에요"
+      },
+      {
+        "term": "a big deal",
+        "ko": "중요한 일, 큰 일",
+        "type": "idiom",
+        "easy": "신경 써야 할 대단한 일"
+      }
+    ],
+    "26": [
+      {
+        "term": "don't get your hopes up",
+        "ko": "너무 기대하지 마요",
+        "type": "idiom",
+        "easy": "기대했다 실망할 수 있으니 김칫국 마시지 마",
+        "ex": "Don't get your hopes up, they may say no.",
+        "exKo": "너무 기대 마, 안 된다고 할 수도 있어."
+      }
+    ],
+    "30": [
+      {
+        "term": "trying too hard",
+        "ko": "너무 애쓰는 게 티가 나는",
+        "type": "idiom",
+        "easy": "잘 보이려고 지나치게 노력해서 오히려 부담스러운",
+        "nuance": "억지스럽고 작위적으로 보일 때 써요"
+      }
+    ],
+    "31": [
+      {
+        "term": "come off a little needy",
+        "ko": "좀 애정에 목마른 사람처럼 보이다",
+        "type": "phrase",
+        "easy": "관심받고 싶어 안달난 것처럼 비치다",
+        "nuance": "come off (as)는 '~한 인상을 주다', needy는 '정에 굶주린'이에요",
+        "tip": "come off = 남에게 ~하게 비치다 (스스로 의도와 무관)"
+      }
+    ]
+  },
+  "2fch6wJNuxE": {
+    "0": [
+      {
+        "term": "Woman in labor",
+        "ko": "산모 진통 중! (출산 중)",
+        "type": "phrase",
+        "nuance": "labor는 여기서 '노동'이 아니라 '분만 진통'이에요",
+        "vs": "평소 labor는 '노동'이지만 임신 맥락에선 '진통/분만'을 뜻해요"
+      },
+      {
+        "term": "Look what I got going here",
+        "ko": "내가 뭐 준비했는지 봐봐",
+        "type": "phrase",
+        "nuance": "have something going은 뭔가 진행/준비 중이라는 캐주얼한 말이에요"
+      }
+    ],
+    "1": [
+      {
+        "term": "Save it for the cab",
+        "ko": "그건 택시에서 (나중에) 해",
+        "type": "idiom",
+        "easy": "지금 말고 나중에 하라는 핀잔",
+        "nuance": "Save it!만 쓰면 '그만해, 됐어'라는 뜻도 돼요"
+      }
+    ],
+    "9": [
+      {
+        "term": "her water broken",
+        "ko": "양수가 터졌다",
+        "type": "idiom",
+        "when": "출산이 임박했을 때 쓰는 표현",
+        "tip": "water breaks = 양수가 터지다 (출산 신호)"
+      }
+    ],
+    "10": [
+      {
+        "term": "mucus plug",
+        "ko": "(출산 전 빠지는) 점액 마개",
+        "type": "word",
+        "nuance": "출산 직전 자궁 입구를 막던 점액이 빠지는 것"
+      }
+    ],
+    "11": [
+      {
+        "term": "handin' out cigars",
+        "ko": "(아빠 된 기념) 시가를 돌리다",
+        "type": "idiom",
+        "when": "예전에 아빠가 된 남자가 축하로 사람들에게 시가를 나눠주던 관습"
+      }
+    ],
+    "13": [
+      {
+        "term": "giving birth",
+        "ko": "출산하다, 아기를 낳다",
+        "type": "phrase"
+      },
+      {
+        "term": "contraction",
+        "ko": "(분만) 진통, 자궁 수축",
+        "type": "word",
+        "nuance": "출산 때 배가 주기적으로 조여오는 진통이에요"
+      }
+    ],
+    "14": [
+      {
+        "term": "You have to pick your moments",
+        "ko": "때와 장소를 가려서 해야지",
+        "type": "idiom",
+        "easy": "농담도 타이밍 봐가면서 하라는 말",
+        "nuance": "적절한 순간을 골라야 한다는 뜻이에요"
+      }
+    ],
+    "17": [
+      {
+        "term": "Where the hell have you been?",
+        "ko": "도대체 어디 갔었어?",
+        "type": "phrase",
+        "nuance": "the hell은 짜증/강조를 더하는 말이에요"
+      }
+    ],
+    "22": [
+      {
+        "term": "resent you",
+        "ko": "너를 원망하다, 미워하다",
+        "type": "word",
+        "nuance": "속으로 서운하고 분하게 여기는 감정이에요"
+      }
+    ],
+    "25": [
+      {
+        "term": "what do you say",
+        "ko": "어때? (제안할 때)",
+        "type": "idiom",
+        "easy": "'~하는 거 어때?'라고 제안하는 말",
+        "ex": "What do you say we grab lunch?",
+        "exKo": "우리 점심 먹는 거 어때?"
+      }
+    ],
+    "26": [
+      {
+        "term": "hypothetically",
+        "ko": "가정해서 (말하면), 만약에",
+        "type": "word",
+        "nuance": "실제가 아니라 '그냥 가정상으로'라는 뜻이에요"
+      }
+    ],
+    "28": [
+      {
+        "term": "fundamentally unmarriable",
+        "ko": "근본적으로 결혼 못 할 (사람)",
+        "type": "phrase",
+        "nuance": "un + marri + able = 결혼 상대로 영 아닌, fundamentally는 '본질적으로'예요"
+      }
+    ],
+    "30": [
+      {
+        "term": "dressy dress",
+        "ko": "쫙 빼입었네 (옷이 멋지네)",
+        "type": "phrase",
+        "nuance": "dressy는 격식 있고 멋스럽게 차려입은 거예요"
+      }
+    ],
+    "31": [
+      {
+        "term": "been by",
+        "ko": "잠깐 들렀다",
+        "type": "phrase",
+        "ex": "Has the nurse been by?",
+        "exKo": "간호사가 다녀갔어?",
+        "tip": "come/be by = 잠깐 들르다"
+      }
+    ],
+    "33": [
+      {
+        "term": "what is the deal with",
+        "ko": "~는 도대체 뭐가 문제야/사정이 뭐야",
+        "type": "idiom",
+        "easy": "'대체 무슨 일이야/왜 그래?'라고 캐물을 때",
+        "ex": "What's the deal with you two?",
+        "exKo": "너희 둘 사이 대체 뭐야?"
+      }
+    ]
+  },
+  "xwdYHde4ZgM": {
+    "0": [
+      {
+        "term": "Dealt in",
+        "ko": "(카드게임) 나도 끼워줘, 한 판 낄게",
+        "type": "phrase",
+        "nuance": "카드 게임에서 자기에게도 카드를 돌려달라는 말이에요"
+      }
+    ],
+    "1": [
+      {
+        "term": "don't trouble yourself",
+        "ko": "수고스럽게 그러지 마세요, 신경 쓰지 마요",
+        "type": "idiom",
+        "easy": "괜히 애쓰지 말라는 정중한 말"
+      },
+      {
+        "term": "stubborn",
+        "ko": "고집 센",
+        "type": "word"
+      },
+      {
+        "term": "till the rapture",
+        "ko": "휴거 때까지 (=영원히, 한참)",
+        "type": "idiom",
+        "nuance": "기독교의 '휴거'를 빌려 '아주 오래도록'이란 과장으로 쓴 거예요"
+      }
+    ],
+    "2": [
+      {
+        "term": "love the boy to death",
+        "ko": "그 애를 죽을 만큼 사랑해",
+        "type": "idiom",
+        "easy": "엄청나게 아낀다는 강조 표현",
+        "tip": "to death = 죽도록, 엄청나게 (강조)"
+      }
+    ],
+    "3": [
+      {
+        "term": "fell out of me",
+        "ko": "내 배에서 나온 (태어난) 이후로",
+        "type": "phrase",
+        "nuance": "'태어나다'를 투박하고 시골스럽게 표현한 거예요"
+      },
+      {
+        "term": "Excuse me for being so bold",
+        "ko": "이런 말 해서 좀 그렇지만 (대담하지만)",
+        "type": "phrase",
+        "when": "약간 들이대는 말을 하기 전 미리 양해 구할 때"
+      },
+      {
+        "term": "smoldering good looks",
+        "ko": "은근히 섹시한 외모",
+        "type": "phrase",
+        "nuance": "smoldering은 '타오르는 듯 매력적인' 느낌이에요"
+      }
+    ],
+    "4": [
+      {
+        "term": "that ain't going to work",
+        "ko": "그런다고 안 통해요",
+        "type": "phrase",
+        "nuance": "ain't는 isn't의 비격식·시골 말투예요"
+      }
+    ],
+    "12": [
+      {
+        "term": "freaked out",
+        "ko": "완전 멘붕하다, 흥분해서 난리치다",
+        "type": "idiom",
+        "easy": "놀라거나 화나서 정신 못 차리는 상태",
+        "ex": "She freaked out when she saw the spider.",
+        "exKo": "거미를 보고 그녀는 기겁했어."
+      }
+    ],
+    "14": [
+      {
+        "term": "fissionable materials",
+        "ko": "핵분열 가능한 물질",
+        "type": "word",
+        "nuance": "원자로에 필요한 우라늄 같은 재료를 말해요"
+      }
+    ],
+    "15": [
+      {
+        "term": "sat him down real gentle",
+        "ko": "아주 부드럽게 앉혀놓고 (타이르고)",
+        "type": "phrase",
+        "nuance": "sit someone down은 진지하게 얘기하려고 앉히는 거예요"
+      },
+      {
+        "term": "had a fit",
+        "ko": "발작하듯 화내다, 길길이 날뛰다",
+        "type": "idiom",
+        "easy": "엄청 화나서 난리법석을 떨다"
+      },
+      {
+        "term": "yellowcake uranium",
+        "ko": "옐로케이크 우라늄 (농축 전 원료)",
+        "type": "word"
+      }
+    ],
+    "17": [
+      {
+        "term": "pissed our dog off to no end",
+        "ko": "우리 개를 끝도 없이 짜증나게 했다",
+        "type": "idiom",
+        "easy": "엄청 화나게/거슬리게 했다",
+        "nuance": "piss off는 비속어로 '열받게 하다', to no end는 '한없이'예요",
+        "tip": "to no end = 끝없이/대단히 (in the end와 혼동 주의)"
+      }
+    ],
+    "18": [
+      {
+        "term": "make a cute couple",
+        "ko": "잘 어울리는 커플이다",
+        "type": "phrase",
+        "easy": "둘이 사귀면 보기 좋겠다는 말"
+      }
+    ],
+    "19": [
+      {
+        "term": "Did I pluck a nerve there?",
+        "ko": "내가 아픈 데를 건드렸나?",
+        "type": "idiom",
+        "easy": "민감한 부분을 건드려 발끈하게 만들었나",
+        "nuance": "보통은 hit/touch a nerve로 더 많이 써요"
+      }
+    ],
+    "21": [
+      {
+        "term": "get back on his rocker",
+        "ko": "제정신을 되찾다",
+        "type": "idiom",
+        "nuance": "보통 off one's rocker(돌았다)를 비틀어 '정신 차리다'로 쓴 거예요"
+      },
+      {
+        "term": "the Holy Spirit moves you",
+        "ko": "성령이 너를 이끌면 (마음이 동하면)",
+        "type": "phrase",
+        "nuance": "move는 여기서 '마음을 움직이다'예요"
+      }
+    ],
+    "24": [
+      {
+        "term": "spook him",
+        "ko": "걔를 놀라게 해서 도망가게 하다",
+        "type": "word",
+        "nuance": "spook은 겁줘서 움찔하게 만드는 거예요"
+      },
+      {
+        "term": "let him come to you",
+        "ko": "걔가 스스로 다가오게 둬",
+        "type": "phrase",
+        "easy": "다그치지 말고 기다리라는 말"
+      }
+    ],
+    "25": [
+      {
+        "term": "snap out of it",
+        "ko": "정신 차려, 그만 좀 해",
+        "type": "idiom",
+        "easy": "우울하거나 멍한 상태에서 퍼뜩 깨어나라는 말",
+        "ex": "Snap out of it, we have work to do.",
+        "exKo": "정신 차려, 할 일 있잖아."
+      }
+    ]
   }
 }

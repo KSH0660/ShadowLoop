@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T06:09:27.910Z",
+  "generatedAt": "2026-06-24T06:27:18.187Z",
   "videos": [
     {
       "id": "lSFJTUiX7Vg",
@@ -15452,6 +15452,4185 @@
               "text": "♪ She's on the other line she's gonna call me back♪ ♪ She's on the other line gonna call me back ♪ - Don't you have to pee? - It's why I'm dancing.",
               "start": 268.87,
               "end": 275.88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-oGpGf03Ag",
+      "url": "https://www.youtube.com/watch?v=w-oGpGf03Ag",
+      "title": "Friends: Ross is Jealous of Rachel's New Coworker",
+      "tag": "Ross jealous",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.33,
+          "end": 7.42,
+          "lines": [
+            {
+              "text": "I'm hurt.",
+              "start": 0.33,
+              "end": 1.54
+            },
+            {
+              "text": "I'm actually hurt that you would think I would send you any of those things out of anything other than love.",
+              "start": 1.63,
+              "end": 7.42
+            }
+          ],
+          "glossary": [
+            {
+              "term": "out of anything other than love",
+              "ko": "사랑이 아닌 다른 이유로",
+              "type": "phrase",
+              "easy": "오직 사랑 때문이지 다른 의도는 없다는 뜻이에요",
+              "nuance": "변명하거나 진심을 강조할 때 쓰는 표현이에요"
+            }
+          ]
+        },
+        {
+          "start": 7.51,
+          "end": 11.43,
+          "lines": [
+            {
+              "text": "Hurt. Hurt.",
+              "start": 7.51,
+              "end": 9.68
+            },
+            {
+              "text": "Alright, Ross. I get it.",
+              "start": 9.88,
+              "end": 11.43
+            }
+          ]
+        },
+        {
+          "start": 11.43,
+          "end": 16.68,
+          "lines": [
+            {
+              "text": "Oh, my God.",
+              "start": 11.43,
+              "end": 12.55
+            },
+            {
+              "text": "Can't-can't a guy send a barbershop quartet to his girlfriend's office anymore?",
+              "start": 12.76,
+              "end": 16.68
+            }
+          ]
+        },
+        {
+          "start": 16.73,
+          "end": 22.4,
+          "lines": [
+            {
+              "text": "'Oh.'",
+              "start": 16.73,
+              "end": 18.06
+            },
+            {
+              "text": "Oh, please, Ross, it was so obvious.",
+              "start": 19.64,
+              "end": 22.4
+            }
+          ]
+        },
+        {
+          "start": 22.48,
+          "end": 28.9,
+          "lines": [
+            {
+              "text": "It was like you were marking your territory.",
+              "start": 22.48,
+              "end": 24.61
+            },
+            {
+              "text": "I mean, you might as well have just come in and peed all around my desk.",
+              "start": 24.69,
+              "end": 28.9
+            }
+          ],
+          "glossary": [
+            {
+              "term": "marking your territory",
+              "ko": "네 영역 표시하는 것",
+              "type": "idiom",
+              "easy": "여긴 내 거라고 표시하는 거예요",
+              "nuance": "동물이 영역에 오줌 누는 데서 온 비유라 약간 우습고 비꼬는 느낌이에요",
+              "when": "남자친구가 질투로 소유욕을 드러낼 때",
+              "ex": "He kept hugging me in front of his ex like he was marking his territory.",
+              "exKo": "그는 전 여친 앞에서 영역 표시하듯 계속 나를 안았어요."
+            },
+            {
+              "term": "might as well have",
+              "ko": "차라리 ~한 거나 마찬가지였다",
+              "type": "phrase",
+              "easy": "사실상 그렇게 한 거나 다름없다는 뜻이에요",
+              "tip": "'might as well + 동사'는 '차라리 ~하는 게 낫다', 'might as well have p.p.'는 '차라리 ~한 셈이다'예요"
+            }
+          ]
+        },
+        {
+          "start": 30.7,
+          "end": 37.49,
+          "lines": [
+            {
+              "text": "I would never do that.",
+              "start": 30.7,
+              "end": 33.07
+            },
+            {
+              "text": "Look, I know what's going on here, okay?",
+              "start": 35.28,
+              "end": 37.49
+            }
+          ]
+        },
+        {
+          "start": 37.58,
+          "end": 41.75,
+          "lines": [
+            {
+              "text": "Mark explained it all to me.",
+              "start": 37.58,
+              "end": 38.79
+            },
+            {
+              "text": "He said this is what you guys do.",
+              "start": 38.87,
+              "end": 41.75
+            }
+          ]
+        },
+        {
+          "start": 41.83,
+          "end": 47.26,
+          "lines": [
+            {
+              "text": "Yeah, well, if, if, if Mark said that then Mark's an idiot.",
+              "start": 41.83,
+              "end": 45.92
+            },
+            {
+              "text": "Mark's a genius.",
+              "start": 45.92,
+              "end": 47.26
+            }
+          ]
+        },
+        {
+          "start": 47.42,
+          "end": 51.55,
+          "lines": [
+            {
+              "text": "Oh, why? How is he a genius?",
+              "start": 47.42,
+              "end": 49.76
+            },
+            {
+              "text": "Look, don't you see what's happening here?",
+              "start": 49.8,
+              "end": 51.55
+            }
+          ]
+        },
+        {
+          "start": 51.59,
+          "end": 58.35,
+          "lines": [
+            {
+              "text": "Instead of hitting on her right away he's becoming her confidante.",
+              "start": 51.59,
+              "end": 55.1
+            },
+            {
+              "text": "Now, he's gonna be the guy that she goes to to complain about you.",
+              "start": 55.1,
+              "end": 58.35
+            }
+          ],
+          "glossary": [
+            {
+              "term": "hitting on her",
+              "ko": "그녀에게 작업 거는 것",
+              "type": "phrase",
+              "easy": "이성에게 들이대며 호감을 표현하는 거예요",
+              "nuance": "가벼운 구어체로, 노골적으로 접근하는 느낌이에요",
+              "ex": "Some guy was hitting on her at the bar.",
+              "exKo": "어떤 남자가 바에서 그녀에게 작업 걸고 있었어요."
+            },
+            {
+              "term": "confidante",
+              "ko": "속마음을 털어놓는 친한 상대",
+              "type": "word",
+              "easy": "비밀이나 고민을 믿고 말하는 사람이에요",
+              "vs": "friend보다 '비밀을 나누는 깊은 사이'라는 느낌이 강해요"
+            }
+          ]
+        },
+        {
+          "start": 58.43,
+          "end": 62.02,
+          "lines": [
+            {
+              "text": "What am I going to do?",
+              "start": 58.43,
+              "end": 59.43
+            },
+            {
+              "text": "Well, why don't you send her a musical bug?",
+              "start": 59.48,
+              "end": 62.02
+            }
+          ]
+        },
+        {
+          "start": 62.1,
+          "end": 69.28,
+          "lines": [
+            {
+              "text": "Oh, no. You already did that.",
+              "start": 62.1,
+              "end": 64.11
+            },
+            {
+              "text": "Alright, look. You're gonna have to go there yourself now, okay.",
+              "start": 66.11,
+              "end": 69.28
+            }
+          ]
+        },
+        {
+          "start": 69.28,
+          "end": 72.86,
+          "lines": [
+            {
+              "text": "Make a few surprise visits.",
+              "start": 69.28,
+              "end": 70.82
+            },
+            {
+              "text": "- I don't know, you guys. - Alright. Fine.",
+              "start": 71.11,
+              "end": 72.86
+            }
+          ]
+        },
+        {
+          "start": 72.86,
+          "end": 83.46,
+          "lines": [
+            {
+              "text": "Don't do anything. Just sit here and talk to us.",
+              "start": 72.86,
+              "end": 74.78
+            },
+            {
+              "text": "Meanwhile, she is talking to him about you and he's being Mr. Joe sensitive and she starts thinking, \"Maybe this is the guy for me because he understands me.\"",
+              "start": 74.78,
+              "end": 83.46
+            }
+          ],
+          "glossary": [
+            {
+              "term": "before you know it",
+              "ko": "어느새, 눈 깜짝할 새에",
+              "type": "idiom",
+              "easy": "금방, 생각보다 빨리 그렇게 된다는 뜻이에요",
+              "when": "시간이 빨리 지나갈 거라고 말할 때",
+              "ex": "Before you know it, summer will be over.",
+              "exKo": "어느새 여름이 끝나 있을 거예요."
+            }
+          ]
+        },
+        {
+          "start": 83.58,
+          "end": 91.22,
+          "lines": [
+            {
+              "text": "And before you know it, she's with him and you'll be all, \"Oh, man.\"",
+              "start": 83.58,
+              "end": 88.46
+            },
+            {
+              "text": "And he'll be all, \"Yes!\"",
+              "start": 89.34,
+              "end": 91.22
+            }
+          ]
+        },
+        {
+          "start": 91.3,
+          "end": 97.68,
+          "lines": [
+            {
+              "text": "Huh?",
+              "start": 91.3,
+              "end": 92.76
+            },
+            {
+              "text": "And us, we'll be like, \"Oh, dude.\"",
+              "start": 92.8,
+              "end": 97.68
+            }
+          ]
+        },
+        {
+          "start": 97.68,
+          "end": 105.48,
+          "lines": [
+            {
+              "text": "And pretty soon, you'll be like, \"Hi.\"",
+              "start": 97.68,
+              "end": 102.85
+            },
+            {
+              "text": "And, and, and, \"Well, I can't go.",
+              "start": 103.06,
+              "end": 105.48
+            }
+          ]
+        },
+        {
+          "start": 105.56,
+          "end": 110.28,
+          "lines": [
+            {
+              "text": "Rachel and Mark might be there.\"",
+              "start": 105.56,
+              "end": 108.9
+            },
+            {
+              "text": "And we'll be like, \"Man, get over it!",
+              "start": 108.98,
+              "end": 110.28
+            }
+          ],
+          "glossary": [
+            {
+              "term": "get over it",
+              "ko": "그만 잊어버려, 극복해",
+              "type": "idiom",
+              "easy": "속상한 일을 더 이상 마음에 두지 말라는 뜻이에요",
+              "nuance": "위로보다는 '이제 그만 좀 해'라는 약간 답답해하는 느낌이에요",
+              "ex": "It was years ago. Just get over it.",
+              "exKo": "몇 년 전 일이잖아. 그냥 잊어버려."
+            }
+          ]
+        },
+        {
+          "start": 110.32,
+          "end": 117.03,
+          "lines": [
+            {
+              "text": "It's been four years!\"",
+              "start": 110.32,
+              "end": 112.11
+            },
+            {
+              "text": "He paints quite a picture, doesn't he?",
+              "start": 114.95,
+              "end": 117.03
+            }
+          ],
+          "glossary": [
+            {
+              "term": "paints quite a picture",
+              "ko": "상황을 생생하게 그려내네",
+              "type": "idiom",
+              "easy": "말로 장면을 눈에 보이듯 자세히 설명한다는 뜻이에요",
+              "nuance": "여기선 너무 비관적으로 그려낸다는 살짝 비꼬는 느낌이에요"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L7APBWkgw50",
+      "url": "https://www.youtube.com/watch?v=L7APBWkgw50",
+      "title": "Friends: Ross Can't See Rachel Anymore",
+      "tag": "Ross & Rachel",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.79,
+          "end": 3.63,
+          "lines": [
+            {
+              "text": "- Hey. - 'Hey.'",
+              "start": 0.79,
+              "end": 1.92
+            },
+            {
+              "text": "Is Rachel here? I've got to talk to her.",
+              "start": 2,
+              "end": 3.63
+            }
+          ]
+        },
+        {
+          "start": 3.67,
+          "end": 7.42,
+          "lines": [
+            {
+              "text": "No, she's out shopping.",
+              "start": 3.67,
+              "end": 5.17
+            },
+            {
+              "text": "- Damn. - 'What's going on?'",
+              "start": 5.21,
+              "end": 7.42
+            }
+          ]
+        },
+        {
+          "start": 8.55,
+          "end": 15.85,
+          "lines": [
+            {
+              "text": "I told Emily to come..",
+              "start": 8.55,
+              "end": 10.18
+            },
+            {
+              "text": "...and I just need to, you know talk to Rachel about it.",
+              "start": 10.26,
+              "end": 15.85
+            }
+          ]
+        },
+        {
+          "start": 15.93,
+          "end": 24.23,
+          "lines": [
+            {
+              "text": "Wait a minute, so, when Emily comes you're just, you're not gonna see Rachel anymore?",
+              "start": 15.93,
+              "end": 20.6
+            },
+            {
+              "text": "Well, look, I'm just trying to focus on the I-get-to-see-my-wife part, alright?",
+              "start": 20.69,
+              "end": 24.23
+            }
+          ]
+        },
+        {
+          "start": 24.32,
+          "end": 33.03,
+          "lines": [
+            {
+              "text": "And not on the part that makes me do this.",
+              "start": 24.32,
+              "end": 26.53
+            },
+            {
+              "text": "Ross, so you guys are, you're never gonna be in the same room together?",
+              "start": 30.2,
+              "end": 33.03
+            }
+          ]
+        },
+        {
+          "start": 33.12,
+          "end": 37.08,
+          "lines": [
+            {
+              "text": "How is that even gonna work?",
+              "start": 33.12,
+              "end": 34.45
+            },
+            {
+              "text": "I have no idea. I mean..",
+              "start": 34.53,
+              "end": 37.08
+            }
+          ]
+        },
+        {
+          "start": 37.16,
+          "end": 44.88,
+          "lines": [
+            {
+              "text": "But-but I assure you, I-I will figure it out.",
+              "start": 37.16,
+              "end": 40.25
+            },
+            {
+              "text": "Doesn't seem like it's going to work.",
+              "start": 42.5,
+              "end": 44.88
+            }
+          ],
+          "glossary": [
+            {
+              "term": "figure it out",
+              "ko": "방법을 알아내다, 해결하다",
+              "type": "idiom",
+              "easy": "고민해서 해답이나 방법을 찾아낸다는 뜻이에요",
+              "ex": "Don't worry, we'll figure it out.",
+              "exKo": "걱정 마, 우리가 방법을 찾을 거야."
+            }
+          ]
+        },
+        {
+          "start": 47.01,
+          "end": 49.72,
+          "lines": [
+            {
+              "text": "- Hi, guys. - Hi.",
+              "start": 47.01,
+              "end": 48.09
+            },
+            {
+              "text": "- Hey. - Hey.",
+              "start": 48.17,
+              "end": 49.72
+            }
+          ]
+        },
+        {
+          "start": 49.76,
+          "end": 54.22,
+          "lines": [
+            {
+              "text": "What's going on?",
+              "start": 49.76,
+              "end": 51.89
+            },
+            {
+              "text": "We're flipping Monica's mattress.",
+              "start": 51.93,
+              "end": 54.22
+            }
+          ],
+          "glossary": [
+            {
+              "term": "flipping",
+              "ko": "뒤집는 중",
+              "type": "word",
+              "easy": "여기선 매트리스를 위아래로 뒤집는 거예요"
+            }
+          ]
+        },
+        {
+          "start": 56.77,
+          "end": 64.61,
+          "lines": [
+            {
+              "text": "So I'm thinking, basically, we pick it up and then we flip it.",
+              "start": 56.77,
+              "end": 60.27
+            },
+            {
+              "text": "That's better than my way.",
+              "start": 62.94,
+              "end": 64.61
+            }
+          ]
+        },
+        {
+          "start": 66.4,
+          "end": 71.11,
+          "lines": [
+            {
+              "text": "Oh, okay. Hey, guys, would you flip mine too?",
+              "start": 66.4,
+              "end": 68.9
+            },
+            {
+              "text": "- Oh. - Oh, man.",
+              "start": 68.94,
+              "end": 71.11
+            }
+          ]
+        },
+        {
+          "start": 74.07,
+          "end": 80.75,
+          "lines": [
+            {
+              "text": "Oh, look! A letter from my mom.",
+              "start": 74.07,
+              "end": 76.58
+            },
+            {
+              "text": "So, Rach..",
+              "start": 78.5,
+              "end": 80.75
+            }
+          ]
+        },
+        {
+          "start": 80.83,
+          "end": 85.13,
+          "lines": [
+            {
+              "text": "...you know, you know how Emily is coming, right?",
+              "start": 80.83,
+              "end": 83.46
+            },
+            {
+              "text": "Oh, yeah, I know.",
+              "start": 83.54,
+              "end": 85.13
+            }
+          ]
+        },
+        {
+          "start": 85.21,
+          "end": 89.59,
+          "lines": [
+            {
+              "text": "- Can you hear anything? - Oh, yeah.",
+              "start": 85.21,
+              "end": 87.25
+            },
+            {
+              "text": "Somebody just said, \"Can you hear anything?\"",
+              "start": 87.3,
+              "end": 89.59
+            }
+          ]
+        },
+        {
+          "start": 95.35,
+          "end": 101.1,
+          "lines": [
+            {
+              "text": "Hey, Joey's ass.",
+              "start": 95.35,
+              "end": 97.43
+            },
+            {
+              "text": "What are you doing?",
+              "start": 99.77,
+              "end": 101.1
+            }
+          ]
+        },
+        {
+          "start": 101.14,
+          "end": 111.86,
+          "lines": [
+            {
+              "text": "Well, remember when they got in that big fight and broke up and we were all stuck in here all night with no food or anything?",
+              "start": 101.14,
+              "end": 106.61
+            },
+            {
+              "text": "Well, when Ross said \"Rachel\" at the wedding I figured it was gonna happen again, you know?",
+              "start": 106.69,
+              "end": 111.86
+            }
+          ],
+          "glossary": [
+            {
+              "term": "got in that big fight",
+              "ko": "크게 싸웠다",
+              "type": "phrase",
+              "easy": "심하게 말다툼하거나 다퉜다는 뜻이에요"
+            },
+            {
+              "term": "broke up",
+              "ko": "헤어졌다",
+              "type": "phrase",
+              "easy": "연인 관계를 끝냈다는 뜻이에요"
+            },
+            {
+              "term": "stuck in here",
+              "ko": "여기 갇혀 있던",
+              "type": "phrase",
+              "easy": "나가지 못하고 꼼짝없이 있는 상황이에요",
+              "ex": "We got stuck in the elevator for an hour.",
+              "exKo": "우리 엘리베이터에 한 시간 갇혀 있었어요."
+            }
+          ]
+        },
+        {
+          "start": 111.95,
+          "end": 116.12,
+          "lines": [
+            {
+              "text": "So I hid this in here.",
+              "start": 111.95,
+              "end": 113.11
+            },
+            {
+              "text": "Ooh. Candy bars, crossword puzzles.",
+              "start": 113.2,
+              "end": 116.12
+            }
+          ]
+        },
+        {
+          "start": 116.2,
+          "end": 122.21,
+          "lines": [
+            {
+              "text": "Ooh, Mad Libs. Mine!",
+              "start": 116.2,
+              "end": 118.33
+            },
+            {
+              "text": "Condoms?",
+              "start": 120.87,
+              "end": 122.21
+            }
+          ]
+        },
+        {
+          "start": 124.42,
+          "end": 129.96,
+          "lines": [
+            {
+              "text": "Hey, you don't know how long we're gonna be in here.",
+              "start": 124.42,
+              "end": 127.42
+            },
+            {
+              "text": "We may have to repopulate the Earth.",
+              "start": 127.46,
+              "end": 129.96
+            }
+          ],
+          "glossary": [
+            {
+              "term": "repopulate the Earth",
+              "ko": "지구에 다시 인구를 채우다",
+              "type": "phrase",
+              "easy": "사람이 멸종한 뒤 다시 번식해 인구를 늘린다는 농담이에요",
+              "nuance": "여기선 콘돔이 왜 필요한지 둘러대는 우스갯소리예요"
+            }
+          ]
+        },
+        {
+          "start": 132.01,
+          "end": 139.97,
+          "lines": [
+            {
+              "text": "And condoms are the way to do that?",
+              "start": 132.01,
+              "end": 134.3
+            },
+            {
+              "text": "Anyway, it-it kinda, it all boils down to this.",
+              "start": 136.64,
+              "end": 139.97
+            }
+          ],
+          "glossary": [
+            {
+              "term": "boils down to",
+              "ko": "결국 ~로 귀결된다, 핵심은 ~다",
+              "type": "idiom",
+              "easy": "여러 말을 줄이면 결국 이거다, 라는 뜻이에요",
+              "when": "복잡한 얘기를 한마디로 요약할 때",
+              "ex": "It all boils down to money.",
+              "exKo": "결국 다 돈 문제로 귀결돼요."
+            }
+          ]
+        },
+        {
+          "start": 140.01,
+          "end": 143.98,
+          "lines": [
+            {
+              "text": "The, the last time I talked to Emily..",
+              "start": 140.01,
+              "end": 142.31
+            },
+            {
+              "text": "[gasps] Oh, my God!",
+              "start": 142.35,
+              "end": 143.98
+            }
+          ]
+        },
+        {
+          "start": 144.06,
+          "end": 148.4,
+          "lines": [
+            {
+              "text": "Our dog died.",
+              "start": 144.06,
+              "end": 146.81
+            },
+            {
+              "text": "- What? - 'Oh, my God.'",
+              "start": 146.85,
+              "end": 148.4
+            }
+          ]
+        },
+        {
+          "start": 148.48,
+          "end": 154.03,
+          "lines": [
+            {
+              "text": "Lapooh, our dog.",
+              "start": 148.48,
+              "end": 151.28
+            },
+            {
+              "text": "Lapooh's still alive?",
+              "start": 151.32,
+              "end": 154.03
+            }
+          ]
+        },
+        {
+          "start": 154.11,
+          "end": 162.2,
+          "lines": [
+            {
+              "text": "Oh, it says he was hit by an ice cream truck.",
+              "start": 154.11,
+              "end": 158.2
+            },
+            {
+              "text": "And dragged for nine...teen blocks.",
+              "start": 158.28,
+              "end": 162.2
+            }
+          ]
+        },
+        {
+          "start": 164.5,
+          "end": 169.13,
+          "lines": [
+            {
+              "text": "- Oh, my God. - Sweetie, we heard you crying.",
+              "start": 164.5,
+              "end": 167.17
+            },
+            {
+              "text": "Please don't cry.",
+              "start": 167.21,
+              "end": 169.13
+            }
+          ]
+        },
+        {
+          "start": 169.17,
+          "end": 173.3,
+          "lines": [
+            {
+              "text": "- It's Lapooh. - I know.",
+              "start": 169.17,
+              "end": 170.88
+            },
+            {
+              "text": "It's Lapooh right now, but it'll get better.",
+              "start": 170.96,
+              "end": 173.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uaO3otiN0-U",
+      "url": "https://www.youtube.com/watch?v=uaO3otiN0-U",
+      "title": "Friends: Chandler Goes Out With an Ex-Girlfriend",
+      "tag": "Chandler's ex",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.25,
+          "end": 3.46,
+          "lines": [
+            {
+              "text": "God, it's great to catch up!",
+              "start": 0.25,
+              "end": 1.67
+            },
+            {
+              "text": "I can't believe how long it's been!",
+              "start": 1.75,
+              "end": 3.46
+            }
+          ],
+          "glossary": [
+            {
+              "term": "catch up",
+              "ko": "그동안의 안부를 나누다",
+              "type": "idiom",
+              "easy": "오랜만에 만나 못다 한 근황을 주고받는 거예요",
+              "ex": "Let's grab coffee and catch up sometime.",
+              "exKo": "언제 커피 마시면서 밀린 얘기 좀 하자."
+            }
+          ]
+        },
+        {
+          "start": 3.55,
+          "end": 10.01,
+          "lines": [
+            {
+              "text": "Hey, Chandler...is that?",
+              "start": 3.55,
+              "end": 5.67
+            },
+            {
+              "text": "Oh, that's great! Good for you.",
+              "start": 8.43,
+              "end": 10.01
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Good for you",
+              "ko": "잘됐네, 축하해",
+              "type": "idiom",
+              "easy": "상대에게 좋은 일이 생겼을 때 해 주는 말이에요",
+              "nuance": "진심일 수도, 때론 비꼬는 투일 수도 있어요"
+            }
+          ]
+        },
+        {
+          "start": 10.09,
+          "end": 16.31,
+          "lines": [
+            {
+              "text": "Hey, hey, hey..",
+              "start": 10.09,
+              "end": 11.55
+            },
+            {
+              "text": "Okay! So, yeah, maybe we can get together, umm..",
+              "start": 13.3,
+              "end": 16.31
+            }
+          ]
+        },
+        {
+          "start": 22.94,
+          "end": 26.32,
+          "lines": [
+            {
+              "text": "Can you hold on for one second, please?",
+              "start": 22.94,
+              "end": 24.82
+            },
+            {
+              "text": "What?",
+              "start": 24.86,
+              "end": 26.32
+            }
+          ]
+        },
+        {
+          "start": 26.4,
+          "end": 32.2,
+          "lines": [
+            {
+              "text": "When you're off the phone, do you wanna get a pizza?",
+              "start": 26.4,
+              "end": 28.82
+            },
+            {
+              "text": "Hi, I'm back.",
+              "start": 30.16,
+              "end": 32.2
+            }
+          ]
+        },
+        {
+          "start": 32.28,
+          "end": 37.29,
+          "lines": [
+            {
+              "text": "Yeah, that sounds great. Okay. Well, we'll do it then.",
+              "start": 32.28,
+              "end": 35.28
+            },
+            {
+              "text": "Okay, bye.",
+              "start": 35.33,
+              "end": 37.29
+            }
+          ]
+        },
+        {
+          "start": 39.16,
+          "end": 45.05,
+          "lines": [
+            {
+              "text": "Listen, so when-when's my audition? I mean I know it's Thursday, but what time?",
+              "start": 39.16,
+              "end": 42.88
+            },
+            {
+              "text": "- Hi. - Hey.",
+              "start": 43.63,
+              "end": 45.05
+            }
+          ]
+        },
+        {
+          "start": 45.13,
+          "end": 51.84,
+          "lines": [
+            {
+              "text": "We didn't get to the audition. I'm gonna take her to coffee and then we'll do it then.",
+              "start": 45.13,
+              "end": 49.01
+            },
+            {
+              "text": "Wow! So, now you're going on a date with this girl?",
+              "start": 49.09,
+              "end": 51.84
+            }
+          ]
+        },
+        {
+          "start": 51.93,
+          "end": 59.35,
+          "lines": [
+            {
+              "text": "Honey, it is not a date! I haven't talked to her in ten years! You can't just call up somebody you haven't talked to in ten years and ask them for a favor.",
+              "start": 51.93,
+              "end": 57.81
+            },
+            {
+              "text": "There are rules, you know. You gotta..",
+              "start": 57.85,
+              "end": 59.35
+            }
+          ],
+          "glossary": [
+            {
+              "term": "ask them for a favor",
+              "ko": "부탁을 하다",
+              "type": "phrase",
+              "easy": "도와달라고 청하는 거예요",
+              "ex": "Can I ask you for a favor?",
+              "exKo": "부탁 하나 해도 될까요?"
+            },
+            {
+              "term": "put in some time",
+              "ko": "시간을 좀 들이다, 공을 들이다",
+              "type": "idiom",
+              "easy": "관계나 일에 어느 정도 정성과 시간을 쏟는다는 뜻이에요",
+              "nuance": "여기선 갑자기 부탁하지 말고 먼저 관계에 공을 들이라는 뜻이에요"
+            }
+          ]
+        },
+        {
+          "start": 59.43,
+          "end": 62.48,
+          "lines": [
+            {
+              "text": "...you gotta put in some time.",
+              "start": 59.43,
+              "end": 60.69
+            },
+            {
+              "text": "You're right, I'm sorry.",
+              "start": 60.77,
+              "end": 62.48
+            }
+          ]
+        },
+        {
+          "start": 62.52,
+          "end": 67.65,
+          "lines": [
+            {
+              "text": "It's not like you're, you know, going out with an ex-girlfriend.",
+              "start": 62.52,
+              "end": 64.36
+            },
+            {
+              "text": "- No, we only went out once. - You dated her?",
+              "start": 64.44,
+              "end": 67.65
+            }
+          ],
+          "glossary": [
+            {
+              "term": "going out with",
+              "ko": "~와 사귀다",
+              "type": "idiom",
+              "easy": "연인으로 데이트하며 만나는 거예요",
+              "vs": "go out (그냥 외출)과 달리 'go out with 사람'은 '사귀다'예요"
+            }
+          ]
+        },
+        {
+          "start": 69.03,
+          "end": 76.24,
+          "lines": [
+            {
+              "text": "Not once.",
+              "start": 69.03,
+              "end": 70.15
+            },
+            {
+              "text": "Great, well...why don't I go out with an ex-boyfriend, you know and you know, do Joey a favor.",
+              "start": 71.86,
+              "end": 76.24
+            }
+          ]
+        },
+        {
+          "start": 76.33,
+          "end": 90.97,
+          "lines": [
+            {
+              "text": "Hey, you wanna do Joey a favor, maybe you go out with Joey.",
+              "start": 76.33,
+              "end": 79.16
+            },
+            {
+              "text": "[laughing] Oh, that's great, my friend Joey's in the movie business.",
+              "start": 87.75,
+              "end": 90.97
+            }
+          ]
+        },
+        {
+          "start": 91.05,
+          "end": 97.51,
+          "lines": [
+            {
+              "text": "Hmm...you know who I ran into from school? Howie.",
+              "start": 91.05,
+              "end": 94.51
+            },
+            {
+              "text": "[giggling] My friend's name is Joey.",
+              "start": 94.55,
+              "end": 97.51
+            }
+          ],
+          "glossary": [
+            {
+              "term": "ran into",
+              "ko": "우연히 마주쳤다",
+              "type": "idiom",
+              "easy": "계획 없이 길에서 아는 사람을 만난 거예요",
+              "ex": "I ran into an old friend at the mall.",
+              "exKo": "쇼핑몰에서 옛 친구를 우연히 만났어요."
+            }
+          ]
+        },
+        {
+          "start": 97.56,
+          "end": 104.73,
+          "lines": [
+            {
+              "text": "Apparently, Howie's editing now.",
+              "start": 97.56,
+              "end": 100.06
+            },
+            {
+              "text": "Yeah, h-he calls me up and asks me if he can edit my new movie.",
+              "start": 100.1,
+              "end": 104.73
+            }
+          ]
+        },
+        {
+          "start": 104.77,
+          "end": 116.37,
+          "lines": [
+            {
+              "text": "Can you believe that? You know I-I-I haven't spoken to him in in what, ten years and he asks me for a favor.",
+              "start": 104.77,
+              "end": 111.69
+            },
+            {
+              "text": "Yeah, I've always hated that Howie.",
+              "start": 114.24,
+              "end": 116.37
+            }
+          ]
+        },
+        {
+          "start": 117.45,
+          "end": 122.62,
+          "lines": [
+            {
+              "text": "No, no \"How you doin'?\"",
+              "start": 117.45,
+              "end": 119.49
+            },
+            {
+              "text": "[laughing] Man, I mean not even a cup of coffee first!",
+              "start": 119.58,
+              "end": 122.62
+            }
+          ],
+          "glossary": [
+            {
+              "term": "How you doin'?",
+              "ko": "잘 지내? (조이의 작업 멘트)",
+              "type": "phrase",
+              "easy": "원래 안부 인사인데, 프렌즈에서 조이의 유명한 작업 멘트예요"
+            }
+          ]
+        },
+        {
+          "start": 122.71,
+          "end": 126.42,
+          "lines": [
+            {
+              "text": "- Ha! The nerve huh? - Yeah.",
+              "start": 122.71,
+              "end": 125.38
+            },
+            {
+              "text": "Refill?",
+              "start": 125.42,
+              "end": 126.42
+            }
+          ],
+          "glossary": [
+            {
+              "term": "The nerve",
+              "ko": "참 뻔뻔하네, 어이없네",
+              "type": "idiom",
+              "easy": "어떻게 그런 무례한 짓을 하냐며 기막혀하는 표현이에요",
+              "nuance": "'the nerve (of someone)' 형태로 황당함과 분노를 담아요",
+              "ex": "She didn't even apologize. The nerve!",
+              "exKo": "사과도 안 하더라고. 참 뻔뻔하지!"
+            }
+          ]
+        },
+        {
+          "start": 128.29,
+          "end": 138.64,
+          "lines": [
+            {
+              "text": "Now, this is last minute so I want to apologize for the mess. Okay?",
+              "start": 128.29,
+              "end": 132.84
+            },
+            {
+              "text": "Oh, my God!",
+              "start": 136.76,
+              "end": 138.64
+            }
+          ],
+          "glossary": [
+            {
+              "term": "last minute",
+              "ko": "급하게, 막판에",
+              "type": "idiom",
+              "easy": "준비할 시간 없이 갑자기 닥쳐서 하는 거예요",
+              "ex": "Sorry, this is all last minute.",
+              "exKo": "미안, 다 급하게 준비한 거야."
+            }
+          ]
+        },
+        {
+          "start": 138.72,
+          "end": 142.14,
+          "lines": [
+            {
+              "text": "It sure didn't look this way when I lived here.",
+              "start": 138.72,
+              "end": 140.6
+            },
+            {
+              "text": "I know.",
+              "start": 140.68,
+              "end": 142.14
+            }
+          ]
+        },
+        {
+          "start": 143.39,
+          "end": 146.85,
+          "lines": [
+            {
+              "text": "Now look, there's only one problem though.",
+              "start": 143.39,
+              "end": 145.1
+            },
+            {
+              "text": "There's only room for one. So, I guess..",
+              "start": 145.15,
+              "end": 146.85
+            }
+          ]
+        },
+        {
+          "start": 146.94,
+          "end": 152.32,
+          "lines": [
+            {
+              "text": "...one of you will have to stay at Joey's.",
+              "start": 146.94,
+              "end": 149.69
+            },
+            {
+              "text": "Well, since the fire was kinda my fault I guess..",
+              "start": 149.77,
+              "end": 152.32
+            }
+          ]
+        },
+        {
+          "start": 152.4,
+          "end": 157.16,
+          "lines": [
+            {
+              "text": "...you should get to stay here.",
+              "start": 152.4,
+              "end": 153.86
+            },
+            {
+              "text": "Hey! Hey-hey, now this was no one's fault Pheebs. Okay?",
+              "start": 153.95,
+              "end": 157.16
+            }
+          ]
+        },
+        {
+          "start": 157.24,
+          "end": 161.04,
+          "lines": [
+            {
+              "text": "- It was an accident. - Well, no. It was my fault.",
+              "start": 157.24,
+              "end": 159.53
+            },
+            {
+              "text": "So you should get the nice room.",
+              "start": 159.62,
+              "end": 161.04
+            }
+          ]
+        },
+        {
+          "start": 161.12,
+          "end": 165.5,
+          "lines": [
+            {
+              "text": "Okay.",
+              "start": 161.12,
+              "end": 163.41
+            },
+            {
+              "text": "So, Rach! You're the first guest at Hotel Monica!",
+              "start": 163.45,
+              "end": 165.5
+            }
+          ]
+        },
+        {
+          "start": 165.58,
+          "end": 169.13,
+          "lines": [
+            {
+              "text": "Hotel Monica!",
+              "start": 165.58,
+              "end": 167.17
+            },
+            {
+              "text": "You'll just have to tell me how like your eggs in the morning.",
+              "start": 167.25,
+              "end": 169.13
+            }
+          ]
+        },
+        {
+          "start": 169.17,
+          "end": 173.51,
+          "lines": [
+            {
+              "text": "And I thought I would bring them to you, you know, in bed.",
+              "start": 169.17,
+              "end": 171.96
+            },
+            {
+              "text": "W-well, you have been through so much.",
+              "start": 172.05,
+              "end": 173.51
+            }
+          ],
+          "glossary": [
+            {
+              "term": "been through so much",
+              "ko": "정말 많은 일을 겪었다",
+              "type": "idiom",
+              "easy": "힘든 일을 잔뜩 겪어 고생했다는 뜻이에요",
+              "ex": "You've been through so much this year.",
+              "exKo": "올해 정말 많은 일을 겪었구나."
+            }
+          ]
+        },
+        {
+          "start": 173.59,
+          "end": 178.3,
+          "lines": [
+            {
+              "text": "I have.",
+              "start": 173.59,
+              "end": 174.92
+            },
+            {
+              "text": "This right here is where I keep the pizza.",
+              "start": 176.18,
+              "end": 178.3
+            }
+          ]
+        },
+        {
+          "start": 180.56,
+          "end": 186.39,
+          "lines": [
+            {
+              "text": "And, uh, that's where the napkin is.",
+              "start": 180.56,
+              "end": 183.31
+            },
+            {
+              "text": "- What's that smell? - I know! I don't..",
+              "start": 183.35,
+              "end": 186.39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KL2OXGNE7Tg",
+      "url": "https://www.youtube.com/watch?v=KL2OXGNE7Tg",
+      "title": "Friends: Joey Loses Ross' Wedding Ring",
+      "tag": "Lost ring",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.5,
+          "end": 4.34,
+          "lines": [
+            {
+              "text": "I don't know what I'm gonna do.",
+              "start": 0.5,
+              "end": 1.71
+            },
+            {
+              "text": "I called the company that sent her and they don't care.",
+              "start": 1.71,
+              "end": 4.34
+            }
+          ]
+        },
+        {
+          "start": 4.34,
+          "end": 8.88,
+          "lines": [
+            {
+              "text": "Then I called 911 and they yelled at me.",
+              "start": 4.34,
+              "end": 6.51
+            },
+            {
+              "text": "If this isn't an emergency! then what is?",
+              "start": 6.51,
+              "end": 8.88
+            }
+          ]
+        },
+        {
+          "start": 10.64,
+          "end": 15.68,
+          "lines": [
+            {
+              "text": "- Hey, guys. - Hey.",
+              "start": 10.64,
+              "end": 13.18
+            },
+            {
+              "text": "I just wanted to thank you again for last night.",
+              "start": 13.68,
+              "end": 15.68
+            }
+          ]
+        },
+        {
+          "start": 15.68,
+          "end": 18.68,
+          "lines": [
+            {
+              "text": "What a great party.",
+              "start": 15.68,
+              "end": 16.93
+            },
+            {
+              "text": "And the guys from work had a blast.",
+              "start": 16.93,
+              "end": 18.68
+            }
+          ],
+          "glossary": [
+            {
+              "term": "had a blast",
+              "ko": "엄청 즐거운 시간을 보냈다",
+              "type": "idiom",
+              "easy": "정말 신나게 잘 놀았다는 뜻이에요",
+              "when": "파티나 행사가 아주 재미있었을 때",
+              "ex": "We had a blast at the concert.",
+              "exKo": "콘서트에서 정말 신나게 놀았어요."
+            }
+          ]
+        },
+        {
+          "start": 18.68,
+          "end": 30.95,
+          "lines": [
+            {
+              "text": "And you know, one of them had never been to a bachelor party before Yeah, another one had been to a party before, so..",
+              "start": 18.68,
+              "end": 26.53
+            },
+            {
+              "text": "So, uh, hey, that wedding ring, huh?",
+              "start": 28.03,
+              "end": 30.95
+            }
+          ],
+          "glossary": [
+            {
+              "term": "bachelor party",
+              "ko": "총각 파티 (결혼 전 남자들 파티)",
+              "type": "word",
+              "easy": "결혼 앞둔 남자가 친구들과 여는 파티예요"
+            }
+          ]
+        },
+        {
+          "start": 32.2,
+          "end": 38,
+          "lines": [
+            {
+              "text": "- Man, that is nice. - Yeah, right?",
+              "start": 32.2,
+              "end": 34.2
+            },
+            {
+              "text": "Yeah, I was thinkin' I might pick one of those babies up for myself.",
+              "start": 34.2,
+              "end": 38
+            }
+          ],
+          "glossary": [
+            {
+              "term": "pick one of those babies up",
+              "ko": "저런 거 하나 장만하다",
+              "type": "idiom",
+              "easy": "여기서 babies는 '저 좋은 물건'을 친근하게 부르는 말이에요",
+              "nuance": "마음에 드는 물건을 사겠다고 할 때 쓰는 가벼운 표현이에요"
+            }
+          ]
+        },
+        {
+          "start": 38,
+          "end": 42.46,
+          "lines": [
+            {
+              "text": "Where might one get one of those?",
+              "start": 38,
+              "end": 40.42
+            },
+            {
+              "text": "That ring?",
+              "start": 41.37,
+              "end": 42.46
+            }
+          ]
+        },
+        {
+          "start": 43.04,
+          "end": 60.19,
+          "lines": [
+            {
+              "text": "When my grandmother first came to this country that ring and the clothes on her back were all she had with her.",
+              "start": 43.04,
+              "end": 49.22
+            },
+            {
+              "text": "So you might say that the ring is irreplaceable Oh, absolutely. It's been in my family for generations.",
+              "start": 52.05,
+              "end": 60.19
+            }
+          ],
+          "glossary": [
+            {
+              "term": "the clothes on her back",
+              "ko": "입고 있던 옷가지",
+              "type": "idiom",
+              "easy": "가진 게 그것밖에 없을 만큼 가난했다는 뜻이에요",
+              "nuance": "'all she had were the clothes on her back'처럼 빈털터리 신세를 강조해요"
+            },
+            {
+              "term": "irreplaceable",
+              "ko": "대체 불가능한, 둘도 없는",
+              "type": "word",
+              "easy": "다른 걸로 바꿀 수 없을 만큼 소중하다는 뜻이에요"
+            },
+            {
+              "term": "been in my family for generations",
+              "ko": "대대로 집안에 내려온",
+              "type": "phrase",
+              "easy": "여러 세대 동안 물려받아 온 거예요"
+            }
+          ]
+        },
+        {
+          "start": 60.19,
+          "end": 73.99,
+          "lines": [
+            {
+              "text": "And every bride who's worn it has lived a long and happy life So you might say it's a magic ring.",
+              "start": 60.19,
+              "end": 68.53
+            },
+            {
+              "text": "Yeah, the stripper stole it.",
+              "start": 71.82,
+              "end": 73.99
+            }
+          ]
+        },
+        {
+          "start": 76.49,
+          "end": 83.04,
+          "lines": [
+            {
+              "text": "M-my ring? My-my wedding ring?",
+              "start": 76.49,
+              "end": 79.04
+            },
+            {
+              "text": "The-the stripper stole my wedding ring?",
+              "start": 79.04,
+              "end": 83.04
+            }
+          ]
+        },
+        {
+          "start": 83.04,
+          "end": 89.88,
+          "lines": [
+            {
+              "text": "How-how could this happen?",
+              "start": 83.04,
+              "end": 85.29
+            },
+            {
+              "text": "Well I think it all started when you said \"Hey, Joey, why don't you be my best man!\"",
+              "start": 85.29,
+              "end": 89.88
+            }
+          ],
+          "glossary": [
+            {
+              "term": "best man",
+              "ko": "신랑 들러리 (대표)",
+              "type": "word",
+              "easy": "결혼식에서 신랑을 돕는 가장 친한 친구 역할이에요"
+            }
+          ]
+        },
+        {
+          "start": 91.26,
+          "end": 102.64,
+          "lines": [
+            {
+              "text": "Alright, alright, fine, I'm go-gonna call the cops Dude, I-I screwed up. You don't have to turn me in.",
+              "start": 91.26,
+              "end": 97.6
+            },
+            {
+              "text": "- Not on you, on the stripper. - Oh, yeah, I already did.",
+              "start": 98.77,
+              "end": 102.64
+            }
+          ],
+          "glossary": [
+            {
+              "term": "screwed up",
+              "ko": "망쳤다, 사고 쳤다",
+              "type": "idiom",
+              "easy": "실수로 일을 크게 그르쳤다는 뜻이에요",
+              "nuance": "구어체로 자기 잘못을 인정할 때 자주 써요",
+              "ex": "I'm sorry, I really screwed up.",
+              "exKo": "미안해, 내가 정말 크게 실수했어."
+            },
+            {
+              "term": "turn me in",
+              "ko": "나를 신고하다, 고발하다",
+              "type": "idiom",
+              "easy": "잘못한 사람을 경찰에 넘긴다는 뜻이에요",
+              "vs": "turn in은 '제출하다'도 되지만 'turn 사람 in'은 '신고하다'예요"
+            },
+            {
+              "term": "the cops",
+              "ko": "경찰",
+              "type": "word",
+              "easy": "police를 편하게 부르는 구어 표현이에요"
+            }
+          ]
+        },
+        {
+          "start": 102.73,
+          "end": 110.61,
+          "lines": [
+            {
+              "text": "They said they'd look into it right after they solve all the murders.",
+              "start": 102.73,
+              "end": 106.27
+            },
+            {
+              "text": "Okay, well, then, we'll the company that sent her Well, I did that too.",
+              "start": 107.11,
+              "end": 110.61
+            }
+          ],
+          "glossary": [
+            {
+              "term": "look into it",
+              "ko": "그 일을 알아보다, 조사하다",
+              "type": "idiom",
+              "easy": "문제를 들여다보고 살펴본다는 뜻이에요",
+              "ex": "I'll look into it and get back to you.",
+              "exKo": "제가 알아보고 다시 연락드릴게요."
+            }
+          ]
+        },
+        {
+          "start": 110.61,
+          "end": 117.74,
+          "lines": [
+            {
+              "text": "They wouldn't give me her real name or her number.",
+              "start": 110.61,
+              "end": 112.61
+            },
+            {
+              "text": "They said if I bothered them again, they'd call the police I said, \"You talk to the police you tell them I'm missin' a ring.\"",
+              "start": 112.9,
+              "end": 117.74
+            }
+          ]
+        },
+        {
+          "start": 119.45,
+          "end": 122.96,
+          "lines": [
+            {
+              "text": "So, what, Joey, what are you telling me?",
+              "start": 119.45,
+              "end": 121.45
+            },
+            {
+              "text": "That there's nothing we can do?",
+              "start": 121.45,
+              "end": 122.96
+            }
+          ]
+        },
+        {
+          "start": 122.96,
+          "end": 128.13,
+          "lines": [
+            {
+              "text": "'How could this happen?'",
+              "start": 122.96,
+              "end": 124.25
+            },
+            {
+              "text": "Look, Ross, I am so, so, sorry.",
+              "start": 124.25,
+              "end": 128.13
+            }
+          ]
+        },
+        {
+          "start": 130.63,
+          "end": 141.81,
+          "lines": [
+            {
+              "text": "Well, what if we just called her used a fake name and had her come to my office?",
+              "start": 130.63,
+              "end": 138.05
+            },
+            {
+              "text": "Oh, that sounds like fun, but we got a ring to find!",
+              "start": 138.05,
+              "end": 141.81
+            }
+          ],
+          "glossary": [
+            {
+              "term": "under a fake name",
+              "ko": "가짜 이름으로",
+              "type": "phrase",
+              "easy": "진짜가 아닌 거짓 이름을 쓰는 거예요"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocvBuybgyks",
+      "url": "https://www.youtube.com/watch?v=ocvBuybgyks",
+      "title": "Friends: Ross' Terrible Halloween Costume",
+      "tag": "Halloween costume",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 6.84,
+          "end": 12.76,
+          "lines": [
+            {
+              "text": "Ah, Catwoman. So we meet again.",
+              "start": 6.84,
+              "end": 9.76
+            },
+            {
+              "text": "So we do, Supergirl.",
+              "start": 10.93,
+              "end": 12.76
+            }
+          ],
+          "glossary": [
+            {
+              "term": "So we meet again",
+              "ko": "또 만났네 (영화 속 악당 같은 말투)",
+              "type": "phrase",
+              "nuance": "영화나 만화에서 라이벌끼리 다시 마주칠 때 쓰는 과장된 말투예요",
+              "when": "장난스럽게 아는 사람을 다시 볼 때"
+            }
+          ]
+        },
+        {
+          "start": 13.14,
+          "end": 20.27,
+          "lines": [
+            {
+              "text": "No, it's me, Phoebe.",
+              "start": 13.14,
+              "end": 14.56
+            },
+            {
+              "text": "Monica, can I talk to you for a second?",
+              "start": 17.89,
+              "end": 20.27
+            }
+          ]
+        },
+        {
+          "start": 26.61,
+          "end": 33.41,
+          "lines": [
+            {
+              "text": "Listen, I appreciate you getting me the costume Oh, you did this to him?",
+              "start": 26.61,
+              "end": 30.49
+            },
+            {
+              "text": "What? I thought he'd love it.",
+              "start": 31.57,
+              "end": 33.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "I appreciate you getting me the costume",
+              "ko": "옷 구해줘서 고마워요",
+              "type": "phrase",
+              "tip": "appreciate 뒤에 -ing가 오면 '~해준 것에 감사하다'예요"
+            },
+            {
+              "term": "you did this to him",
+              "ko": "네가 걔한테 이런 짓을 한 거야?",
+              "type": "phrase",
+              "nuance": "약간 어이없거나 따지는 느낌이에요"
+            }
+          ]
+        },
+        {
+          "start": 33.41,
+          "end": 42.13,
+          "lines": [
+            {
+              "text": "His favorite kid's book was \"The Velveteen Rabbit\" \"The Velveteen Rabbit\" was brown and white!",
+              "start": 33.41,
+              "end": 38.2
+            },
+            {
+              "text": "Well, it was either a pink bunny, or no bunny at all.",
+              "start": 39.62,
+              "end": 42.13
+            }
+          ]
+        },
+        {
+          "start": 42.13,
+          "end": 49.97,
+          "lines": [
+            {
+              "text": "No bunny at all. Always no bunny at all!",
+              "start": 42.13,
+              "end": 44.88
+            },
+            {
+              "text": "- Hey. - You didn't dress up either?",
+              "start": 47.59,
+              "end": 49.97
+            }
+          ]
+        },
+        {
+          "start": 49.97,
+          "end": 59.56,
+          "lines": [
+            {
+              "text": "Yes, I did. I'm Chandler.",
+              "start": 49.97,
+              "end": 52.22
+            },
+            {
+              "text": "Dude, what happened?",
+              "start": 57.68,
+              "end": 59.56
+            }
+          ]
+        },
+        {
+          "start": 60.44,
+          "end": 64.65,
+          "lines": [
+            {
+              "text": "- How is that me? - 'Okay.'",
+              "start": 60.44,
+              "end": 62.35
+            },
+            {
+              "text": "I'm Chandler.",
+              "start": 63.56,
+              "end": 64.65
+            }
+          ]
+        },
+        {
+          "start": 66.4,
+          "end": 71.24,
+          "lines": [
+            {
+              "text": "Oh! That is so you!",
+              "start": 66.4,
+              "end": 69.03
+            },
+            {
+              "text": "When have I ever done that?",
+              "start": 69.69,
+              "end": 71.24
+            }
+          ],
+          "glossary": [
+            {
+              "term": "That is so you",
+              "ko": "완전 너답다",
+              "type": "phrase",
+              "easy": "딱 네 스타일이야",
+              "ex": "Buying that book? That is so you.",
+              "exKo": "그 책을 샀다고? 완전 너답다."
+            }
+          ]
+        },
+        {
+          "start": 71.24,
+          "end": 79.7,
+          "lines": [
+            {
+              "text": "\"When have I ever done that?\"",
+              "start": 71.24,
+              "end": 72.49
+            },
+            {
+              "text": "- 'Trick or treat.' - Oh.",
+              "start": 77.79,
+              "end": 79.7
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Trick or treat",
+              "ko": "사탕 안 주면 장난칠 거예요 (할로윈 인사)",
+              "type": "idiom",
+              "when": "할로윈에 아이들이 집집마다 다니며 외치는 말"
+            }
+          ]
+        },
+        {
+          "start": 82.96,
+          "end": 88.05,
+          "lines": [
+            {
+              "text": "Oh, well, you're just the prettiest ballerina I've ever seen.",
+              "start": 82.96,
+              "end": 86.84
+            },
+            {
+              "text": "Thank you.",
+              "start": 87.13,
+              "end": 88.05
+            }
+          ]
+        },
+        {
+          "start": 88.84,
+          "end": 92.97,
+          "lines": [
+            {
+              "text": "Oh, wow! That deserves another piece of candy.",
+              "start": 88.84,
+              "end": 91.63
+            },
+            {
+              "text": "Thank you.",
+              "start": 91.67,
+              "end": 92.97
+            }
+          ]
+        },
+        {
+          "start": 96.18,
+          "end": 101.81,
+          "lines": [
+            {
+              "text": "Well, I have to say, that earns two-two pieces of candy.",
+              "start": 96.18,
+              "end": 99.93
+            },
+            {
+              "text": "I love you!",
+              "start": 99.93,
+              "end": 101.81
+            }
+          ],
+          "glossary": [
+            {
+              "term": "that earns two pieces of candy",
+              "ko": "그건 사탕 두 개짜리네 (그럴 자격이 있다)",
+              "type": "phrase",
+              "nuance": "earn은 여기서 '받을 만하다, ~할 자격이 있다'는 뜻이에요"
+            }
+          ]
+        },
+        {
+          "start": 101.81,
+          "end": 104.02,
+          "lines": [
+            {
+              "text": "Oh! Oh!",
+              "start": 101.81,
+              "end": 102.56
+            },
+            {
+              "text": "Aw!",
+              "start": 103.02,
+              "end": 104.02
+            }
+          ]
+        },
+        {
+          "start": 104.52,
+          "end": 114.24,
+          "lines": [
+            {
+              "text": "Aw, honey, here, take it all.",
+              "start": 104.52,
+              "end": 106.86
+            },
+            {
+              "text": "Monica? We need more candy.",
+              "start": 112.03,
+              "end": 114.24
+            }
+          ]
+        },
+        {
+          "start": 114.24,
+          "end": 120.29,
+          "lines": [
+            {
+              "text": "What? There's only been like four kids.",
+              "start": 114.24,
+              "end": 116.66
+            },
+            {
+              "text": "Yeah, I know, but one om just said that she loved me so I just gave her everything.",
+              "start": 116.66,
+              "end": 120.29
+            }
+          ]
+        },
+        {
+          "start": 121.12,
+          "end": 127.54,
+          "lines": [
+            {
+              "text": "Oh, no wonder you're pregnant.",
+              "start": 121.12,
+              "end": 123.04
+            },
+            {
+              "text": "- Hey. - Hey.",
+              "start": 125.96,
+              "end": 127.54
+            }
+          ],
+          "glossary": [
+            {
+              "term": "no wonder",
+              "ko": "어쩐지, 그래서 ~구나",
+              "type": "idiom",
+              "easy": "이유를 알고 나서 '그래서 그랬구나' 할 때",
+              "ex": "No wonder you're tired, you slept two hours.",
+              "exKo": "두 시간 잤으니 피곤한 게 당연하지."
+            }
+          ]
+        },
+        {
+          "start": 129.21,
+          "end": 133.55,
+          "lines": [
+            {
+              "text": "What are you supposed to be?",
+              "start": 129.21,
+              "end": 130.42
+            },
+            {
+              "text": "Remember the Russian satellite, Sputnik?",
+              "start": 130.42,
+              "end": 133.55
+            }
+          ],
+          "glossary": [
+            {
+              "term": "What are you supposed to be?",
+              "ko": "(분장으로) 뭐로 꾸민 거야?",
+              "type": "phrase",
+              "nuance": "코스튬을 보고 '무슨 캐릭터야?' 물을 때 자주 써요"
+            }
+          ]
+        },
+        {
+          "start": 135.64,
+          "end": 143.39,
+          "lines": [
+            {
+              "text": "Well, I'm a potato ...or a spud....",
+              "start": 135.64,
+              "end": 140.56
+            },
+            {
+              "text": "...and these are my antennas.",
+              "start": 140.56,
+              "end": 143.39
+            }
+          ]
+        },
+        {
+          "start": 143.48,
+          "end": 154.11,
+          "lines": [
+            {
+              "text": "So Sputnik becomes..",
+              "start": 143.48,
+              "end": 146.44
+            },
+            {
+              "text": "...Spud-nik! Spud-nik.",
+              "start": 150.73,
+              "end": 154.11
+            }
+          ]
+        },
+        {
+          "start": 156.24,
+          "end": 169.38,
+          "lines": [
+            {
+              "text": "Wow! I don't have the worst costume anymore Hey, alright! Ross came as doodie.",
+              "start": 156.24,
+              "end": 165
+            },
+            {
+              "text": "- No, I'm-I'm not doodi. - No, space-doodie.",
+              "start": 166.21,
+              "end": 169.38
+            }
+          ],
+          "glossary": [
+            {
+              "term": "came as",
+              "ko": "~로 분장하고 왔다",
+              "type": "phrase",
+              "tip": "파티에서 'come as + 캐릭터'는 그 분장을 하고 온다는 뜻이에요"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m3OdHm7nuAM",
+      "url": "https://www.youtube.com/watch?v=m3OdHm7nuAM",
+      "title": "Friends: Pregnant Rachel Gets Jealous",
+      "tag": "Rachel jealous",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 0.21,
+          "end": 4.92,
+          "lines": [
+            {
+              "text": "Do you, uh, want these things delivered, Mr. and Mrs. Geller?",
+              "start": 0.21,
+              "end": 3.29
+            },
+            {
+              "text": "- Oh, no, no, no! - Oh!",
+              "start": 3.38,
+              "end": 4.92
+            }
+          ]
+        },
+        {
+          "start": 4.96,
+          "end": 9.93,
+          "lines": [
+            {
+              "text": "No, no, no, we're not married.",
+              "start": 4.96,
+              "end": 6.46
+            },
+            {
+              "text": "We are having a baby together, but we're-we're not involved.",
+              "start": 6.51,
+              "end": 9.93
+            }
+          ],
+          "glossary": [
+            {
+              "term": "involved",
+              "ko": "(연인으로) 사귀는 사이",
+              "type": "word",
+              "nuance": "여기 involved는 '연애 관계로 엮여 있다'는 뜻이에요",
+              "vs": "단순한 involved(관여된)와 달리 연애 맥락에서는 '사귀는 사이'를 뜻해요"
+            }
+          ]
+        },
+        {
+          "start": 11.14,
+          "end": 17.02,
+          "lines": [
+            {
+              "text": "I mean, uh, we-we..",
+              "start": 11.14,
+              "end": 12.97
+            },
+            {
+              "text": "...we were seeing each other a while ago but then we were just friends.",
+              "start": 13.01,
+              "end": 17.02
+            }
+          ],
+          "glossary": [
+            {
+              "term": "seeing each other",
+              "ko": "서로 만나는(사귀는) 사이였다",
+              "type": "idiom",
+              "easy": "데이트하며 사귀던 사이",
+              "nuance": "see someone은 '~와 사귀다'는 뜻이에요"
+            }
+          ]
+        },
+        {
+          "start": 17.1,
+          "end": 25.28,
+          "lines": [
+            {
+              "text": "And then there was one drunken night..",
+              "start": 17.1,
+              "end": 19.64
+            },
+            {
+              "text": "Or, yes, stranger, we'd like this delivered please.",
+              "start": 22.19,
+              "end": 25.28
+            }
+          ]
+        },
+        {
+          "start": 26.82,
+          "end": 30.24,
+          "lines": [
+            {
+              "text": "Why don't you fill out this address card?",
+              "start": 26.82,
+              "end": 28.45
+            },
+            {
+              "text": "Oh, okay.",
+              "start": 28.49,
+              "end": 30.24
+            }
+          ]
+        },
+        {
+          "start": 30.32,
+          "end": 36.2,
+          "lines": [
+            {
+              "text": "I noticed you picked out a lot of our dinosaur items.",
+              "start": 30.32,
+              "end": 32.28
+            },
+            {
+              "text": "Oh, yeah, actually that's one of the reasons why we're not a couple.",
+              "start": 32.32,
+              "end": 36.2
+            }
+          ]
+        },
+        {
+          "start": 37.66,
+          "end": 42.67,
+          "lines": [
+            {
+              "text": "I chose those, I'm a Paleontologist.",
+              "start": 37.66,
+              "end": 40.33
+            },
+            {
+              "text": "Really? That is so cool.",
+              "start": 40.42,
+              "end": 42.67
+            }
+          ]
+        },
+        {
+          "start": 42.71,
+          "end": 47.21,
+          "lines": [
+            {
+              "text": "Oh. Oh, yeah, don't get too worked up over it.",
+              "start": 42.71,
+              "end": 44.42
+            },
+            {
+              "text": "I mean, it sounds like he's a doctor, but he's not.",
+              "start": 44.5,
+              "end": 47.21
+            }
+          ],
+          "glossary": [
+            {
+              "term": "don't get too worked up over it",
+              "ko": "그거에 너무 들뜨지 마요",
+              "type": "idiom",
+              "easy": "너무 흥분하거나 호들갑 떨지 마",
+              "nuance": "get worked up은 감정적으로 흥분/동요하는 거예요",
+              "ex": "Don't get worked up, it's just a game.",
+              "exKo": "흥분하지 마, 그냥 게임이잖아."
+            }
+          ]
+        },
+        {
+          "start": 48.67,
+          "end": 52.97,
+          "lines": [
+            {
+              "text": "Oh, no, no, I'm fascinated by Paleontology.",
+              "start": 48.67,
+              "end": 51.22
+            },
+            {
+              "text": "Have you read the new Walter Alvarez book?",
+              "start": 51.3,
+              "end": 52.97
+            }
+          ]
+        },
+        {
+          "start": 53.01,
+          "end": 57.68,
+          "lines": [
+            {
+              "text": "Yeah! I-I teach it in my class.",
+              "start": 53.01,
+              "end": 55.51
+            },
+            {
+              "text": "Oh, my God. I'm standing at a cash register.",
+              "start": 55.6,
+              "end": 57.68
+            }
+          ]
+        },
+        {
+          "start": 57.72,
+          "end": 63.86,
+          "lines": [
+            {
+              "text": "I'm holding a credit card, and I'm bored.",
+              "start": 57.72,
+              "end": 59.93
+            },
+            {
+              "text": "Oh, I love your neighborhood.",
+              "start": 62.35,
+              "end": 63.86
+            }
+          ]
+        },
+        {
+          "start": 63.94,
+          "end": 68.86,
+          "lines": [
+            {
+              "text": "There's a great gym right around the corner from your building.",
+              "start": 63.94,
+              "end": 65.94
+            },
+            {
+              "text": "- That's my gym. - I can tell you work out.",
+              "start": 66.02,
+              "end": 68.86
+            }
+          ],
+          "glossary": [
+            {
+              "term": "right around the corner",
+              "ko": "바로 코앞에, 아주 가까이",
+              "type": "idiom",
+              "easy": "걸어서 금방 가는 거리"
+            },
+            {
+              "term": "work out",
+              "ko": "운동하다",
+              "type": "phrase",
+              "nuance": "헬스장에서 몸 만드는 운동을 말해요"
+            }
+          ]
+        },
+        {
+          "start": 74.99,
+          "end": 79.37,
+          "lines": [
+            {
+              "text": "A paleontologist who works out.",
+              "start": 74.99,
+              "end": 77.66
+            },
+            {
+              "text": "You're like Indiana Jones.",
+              "start": 77.7,
+              "end": 79.37
+            }
+          ]
+        },
+        {
+          "start": 83.58,
+          "end": 94.55,
+          "lines": [
+            {
+              "text": "I am like Indiana Jones.",
+              "start": 83.58,
+              "end": 86
+            },
+            {
+              "text": "- Hi, Pheebs. - Hey!",
+              "start": 92.88,
+              "end": 94.55
+            }
+          ]
+        },
+        {
+          "start": 94.64,
+          "end": 99.52,
+          "lines": [
+            {
+              "text": "Oh, how did baby shopping go?",
+              "start": 94.64,
+              "end": 96.68
+            },
+            {
+              "text": "Oh, it was great. We got everything that we needed.",
+              "start": 96.72,
+              "end": 99.52
+            }
+          ]
+        },
+        {
+          "start": 99.56,
+          "end": 105.02,
+          "lines": [
+            {
+              "text": "Oh, and Ross, almost got something that wasn't on the list.",
+              "start": 99.56,
+              "end": 102.6
+            },
+            {
+              "text": "A whore.",
+              "start": 103.73,
+              "end": 105.02
+            }
+          ]
+        },
+        {
+          "start": 107.11,
+          "end": 113.36,
+          "lines": [
+            {
+              "text": "What?",
+              "start": 107.11,
+              "end": 107.94
+            },
+            {
+              "text": "Well, we were paying for our stuff and this saleswoman just started flirting with him.",
+              "start": 108.02,
+              "end": 113.36
+            }
+          ]
+        },
+        {
+          "start": 113.4,
+          "end": 117.03,
+          "lines": [
+            {
+              "text": "Can you believe that?",
+              "start": 113.4,
+              "end": 114.57
+            },
+            {
+              "text": "Well, did she know you two weren't married?",
+              "start": 114.66,
+              "end": 117.03
+            }
+          ]
+        },
+        {
+          "start": 117.08,
+          "end": 126.84,
+          "lines": [
+            {
+              "text": "- Yeah. - Oh, my God!",
+              "start": 117.08,
+              "end": 120.25
+            },
+            {
+              "text": "Well, the idea of a woman flirting with a-with a single man we-we must alert the church elders.",
+              "start": 121.33,
+              "end": 126.84
+            }
+          ]
+        },
+        {
+          "start": 128.29,
+          "end": 134.34,
+          "lines": [
+            {
+              "text": "You don't understand. You didn't see how brazen she was.",
+              "start": 128.29,
+              "end": 132.67
+            },
+            {
+              "text": "It sounds like you're a little jealous.",
+              "start": 132.76,
+              "end": 134.34
+            }
+          ],
+          "glossary": [
+            {
+              "term": "brazen",
+              "ko": "(부끄럼 없이) 뻔뻔한, 대놓고 들이대는",
+              "type": "word",
+              "nuance": "잘못인 줄 알면서도 당당하게 행동하는 느낌이에요"
+            }
+          ]
+        },
+        {
+          "start": 134.43,
+          "end": 138.85,
+          "lines": [
+            {
+              "text": "No, I'm not.",
+              "start": 134.43,
+              "end": 135.68
+            },
+            {
+              "text": "I-I-I just think it's wrong. It's-it's that I'm..",
+              "start": 135.76,
+              "end": 138.85
+            }
+          ]
+        },
+        {
+          "start": 138.93,
+          "end": 147.35,
+          "lines": [
+            {
+              "text": "Here I am about to pop and he's out picking up some shop girl at Sluts R Us!",
+              "start": 138.93,
+              "end": 143.98
+            },
+            {
+              "text": "Is that a real place?",
+              "start": 145.85,
+              "end": 147.35
+            }
+          ],
+          "glossary": [
+            {
+              "term": "about to pop",
+              "ko": "(임신해서) 곧 터질 것 같은, 출산 임박",
+              "type": "idiom",
+              "easy": "배가 너무 불러서 곧 아기 나올 것 같은",
+              "nuance": "임산부 배가 풍선처럼 곧 터질 것 같다는 농담조 표현이에요"
+            },
+            {
+              "term": "picking up",
+              "ko": "(이성을) 꼬시다, 작업 걸다",
+              "type": "phrase",
+              "nuance": "pick up someone은 모르는 이성에게 수작 걸어 데려가는 거예요"
+            }
+          ]
+        },
+        {
+          "start": 148.69,
+          "end": 154.4,
+          "lines": [
+            {
+              "text": "Are they hiring?",
+              "start": 148.69,
+              "end": 150.15
+            },
+            {
+              "text": "- Hey Phoebe! Fatty! - What?",
+              "start": 152.28,
+              "end": 154.4
+            }
+          ]
+        },
+        {
+          "start": 156.28,
+          "end": 161.2,
+          "lines": [
+            {
+              "text": "- Hey. Chandler. Why so fancy? - Well, I got a job interview.",
+              "start": 156.28,
+              "end": 159.24
+            },
+            {
+              "text": "It's kind of a big deal too. It's a lot more money.",
+              "start": 159.28,
+              "end": 161.2
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Why so fancy?",
+              "ko": "왜 이렇게 차려입었어?",
+              "type": "phrase",
+              "nuance": "fancy는 평소보다 멋지게/격식 차려 입은 모습이에요"
+            },
+            {
+              "term": "a big deal",
+              "ko": "중요한 일, 큰 일",
+              "type": "idiom",
+              "easy": "신경 써야 할 대단한 일"
+            }
+          ]
+        },
+        {
+          "start": 161.29,
+          "end": 166.37,
+          "lines": [
+            {
+              "text": "And I'd be doing data re-configuration and statistical factoring.",
+              "start": 161.29,
+              "end": 164.33
+            },
+            {
+              "text": "Wait, I think I know someone who does that.",
+              "start": 164.41,
+              "end": 166.37
+            }
+          ]
+        },
+        {
+          "start": 166.46,
+          "end": 172.17,
+          "lines": [
+            {
+              "text": "Me! I do that.",
+              "start": 166.46,
+              "end": 168.04
+            },
+            {
+              "text": "So, seriously, do I-do I look okay? I'm a little nervous.",
+              "start": 169.54,
+              "end": 172.17
+            }
+          ]
+        },
+        {
+          "start": 172.26,
+          "end": 176.76,
+          "lines": [
+            {
+              "text": "Oh, yeah. You really-you look great.",
+              "start": 172.26,
+              "end": 174.84
+            },
+            {
+              "text": "You know, just don't get your hopes up.",
+              "start": 174.92,
+              "end": 176.76
+            }
+          ],
+          "glossary": [
+            {
+              "term": "don't get your hopes up",
+              "ko": "너무 기대하지 마요",
+              "type": "idiom",
+              "easy": "기대했다 실망할 수 있으니 김칫국 마시지 마",
+              "ex": "Don't get your hopes up, they may say no.",
+              "exKo": "너무 기대 마, 안 된다고 할 수도 있어."
+            }
+          ]
+        },
+        {
+          "start": 178.64,
+          "end": 182.52,
+          "lines": [
+            {
+              "text": "- Why not? - Well, the interview..",
+              "start": 178.64,
+              "end": 181.14
+            },
+            {
+              "text": "- What about it? - You know.",
+              "start": 181.18,
+              "end": 182.52
+            }
+          ]
+        },
+        {
+          "start": 182.6,
+          "end": 189.15,
+          "lines": [
+            {
+              "text": "You don't make a very good first impression.",
+              "start": 182.6,
+              "end": 184.93
+            },
+            {
+              "text": "- What? - Oh, you don't know.",
+              "start": 186.73,
+              "end": 189.15
+            }
+          ]
+        },
+        {
+          "start": 190.19,
+          "end": 197.28,
+          "lines": [
+            {
+              "text": "- Are you serious? - Yes.",
+              "start": 190.19,
+              "end": 191.82
+            },
+            {
+              "text": "When I first met you you were like \"Blah, blah, blah.\" I was like, \"Shh!\"",
+              "start": 191.9,
+              "end": 197.28
+            }
+          ]
+        },
+        {
+          "start": 200.62,
+          "end": 204.29,
+          "lines": [
+            {
+              "text": "What is it that I do?",
+              "start": 200.62,
+              "end": 202.08
+            },
+            {
+              "text": "Well, it's just like you're trying too hard.",
+              "start": 202.16,
+              "end": 204.29
+            }
+          ],
+          "glossary": [
+            {
+              "term": "trying too hard",
+              "ko": "너무 애쓰는 게 티가 나는",
+              "type": "idiom",
+              "easy": "잘 보이려고 지나치게 노력해서 오히려 부담스러운",
+              "nuance": "억지스럽고 작위적으로 보일 때 써요"
+            }
+          ]
+        },
+        {
+          "start": 204.33,
+          "end": 211.96,
+          "lines": [
+            {
+              "text": "Always making jokes, you know, you just you come off a little needy.",
+              "start": 204.33,
+              "end": 207.83
+            },
+            {
+              "text": "Did you like me when we first met?",
+              "start": 209.33,
+              "end": 211.96
+            }
+          ],
+          "glossary": [
+            {
+              "term": "come off a little needy",
+              "ko": "좀 애정에 목마른 사람처럼 보이다",
+              "type": "phrase",
+              "easy": "관심받고 싶어 안달난 것처럼 비치다",
+              "nuance": "come off (as)는 '~한 인상을 주다', needy는 '정에 굶주린'이에요",
+              "tip": "come off = 남에게 ~하게 비치다 (스스로 의도와 무관)"
+            }
+          ]
+        },
+        {
+          "start": 212,
+          "end": 216.72,
+          "lines": [
+            {
+              "text": "Chandler, I'm not gonna lie to you.",
+              "start": 212,
+              "end": 213.92
+            },
+            {
+              "text": "But I'm gonna run away from here.",
+              "start": 215.01,
+              "end": 216.72
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2fch6wJNuxE",
+      "url": "https://www.youtube.com/watch?v=2fch6wJNuxE",
+      "title": "Friends: Ross is Having a Baby",
+      "tag": "Ross's baby",
+      "category": "미드 · 프렌즈",
+      "segments": [
+        {
+          "start": 1.13,
+          "end": 5.81,
+          "lines": [
+            {
+              "text": "Monica, let's go. Come on now people! Woman in labor!",
+              "start": 1.13,
+              "end": 4.24
+            },
+            {
+              "text": "Hey Ross. Look what I got going here.",
+              "start": 4.6,
+              "end": 5.81
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Woman in labor",
+              "ko": "산모 진통 중! (출산 중)",
+              "type": "phrase",
+              "nuance": "labor는 여기서 '노동'이 아니라 '분만 진통'이에요",
+              "vs": "평소 labor는 '노동'이지만 임신 맥락에선 '진통/분만'을 뜻해요"
+            },
+            {
+              "term": "Look what I got going here",
+              "ko": "내가 뭐 준비했는지 봐봐",
+              "type": "phrase",
+              "nuance": "have something going은 뭔가 진행/준비 중이라는 캐주얼한 말이에요"
+            }
+          ]
+        },
+        {
+          "start": 5.84,
+          "end": 9.98,
+          "lines": [
+            {
+              "text": "Yeah. Save it for the cab. Okay?",
+              "start": 5.84,
+              "end": 7.91
+            },
+            {
+              "text": "What are you doing? What are you doing?",
+              "start": 8.81,
+              "end": 9.98
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Save it for the cab",
+              "ko": "그건 택시에서 (나중에) 해",
+              "type": "idiom",
+              "easy": "지금 말고 나중에 하라는 핀잔",
+              "nuance": "Save it!만 쓰면 '그만해, 됐어'라는 뜻도 돼요"
+            }
+          ]
+        },
+        {
+          "start": 10.14,
+          "end": 13.81,
+          "lines": [
+            {
+              "text": "We're going to a hospital What, so I can't look nice?",
+              "start": 10.14,
+              "end": 12.41
+            },
+            {
+              "text": "There might be doctors there.",
+              "start": 12.41,
+              "end": 13.81
+            }
+          ]
+        },
+        {
+          "start": 14.65,
+          "end": 20.25,
+          "lines": [
+            {
+              "text": "- Joey, get out of the fridge. - 'Alright! Alright.'",
+              "start": 14.65,
+              "end": 17.25
+            },
+            {
+              "text": "- What is that? - For the ride.",
+              "start": 18.85,
+              "end": 20.25
+            }
+          ]
+        },
+        {
+          "start": 20.59,
+          "end": 25.99,
+          "lines": [
+            {
+              "text": "- Oh, yeah. Like in a c- - Save it!",
+              "start": 20.59,
+              "end": 22.49
+            },
+            {
+              "text": "- Okay. Hating this. - Monica, come on now! Let's go!",
+              "start": 22.96,
+              "end": 25.99
+            }
+          ]
+        },
+        {
+          "start": 26.03,
+          "end": 29.7,
+          "lines": [
+            {
+              "text": "- Baby coming, god! - I can't believe it.",
+              "start": 26.03,
+              "end": 27.16
+            },
+            {
+              "text": "- I'm gonna be an aunt!",
+              "start": 27.46,
+              "end": 29.7
+            }
+          ]
+        },
+        {
+          "start": 30.03,
+          "end": 35.84,
+          "lines": [
+            {
+              "text": "- I'm going to have a nephew! - Yeah...that's nice. Get out!",
+              "start": 30.03,
+              "end": 33.13
+            },
+            {
+              "text": "Well, let's go. Come on. That's it.",
+              "start": 34,
+              "end": 35.84
+            }
+          ]
+        },
+        {
+          "start": 36.94,
+          "end": 48.65,
+          "lines": [
+            {
+              "text": "(Joey) 'Alright, alright. I'm going. I'm going.'",
+              "start": 36.94,
+              "end": 39.37
+            },
+            {
+              "text": "- Here we go. Here we go. - Rossy. Rossy. Come on.",
+              "start": 46.01,
+              "end": 48.65
+            }
+          ]
+        },
+        {
+          "start": 57.06,
+          "end": 61.29,
+          "lines": [
+            {
+              "text": "(woman on PA) 'Johnson, we have a call on line seven.'",
+              "start": 57.06,
+              "end": 58.83
+            },
+            {
+              "text": "She's not here yet. She's not here.",
+              "start": 59.69,
+              "end": 61.29
+            }
+          ]
+        },
+        {
+          "start": 61.33,
+          "end": 64.83,
+          "lines": [
+            {
+              "text": "She's having my baby and she's not here.",
+              "start": 61.33,
+              "end": 62.83
+            },
+            {
+              "text": "I'm sure everything's fine. H-has her water broken yet?",
+              "start": 62.86,
+              "end": 64.83
+            }
+          ],
+          "glossary": [
+            {
+              "term": "her water broken",
+              "ko": "양수가 터졌다",
+              "type": "idiom",
+              "when": "출산이 임박했을 때 쓰는 표현",
+              "tip": "water breaks = 양수가 터지다 (출산 신호)"
+            }
+          ]
+        },
+        {
+          "start": 65.23,
+          "end": 74.41,
+          "lines": [
+            {
+              "text": "I don't know, but when I spoke to her she said she had already passed the mucus plug.",
+              "start": 65.23,
+              "end": 69.33
+            },
+            {
+              "text": "Do we have to know about that?",
+              "start": 73.04,
+              "end": 74.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "mucus plug",
+              "ko": "(출산 전 빠지는) 점액 마개",
+              "type": "word",
+              "nuance": "출산 직전 자궁 입구를 막던 점액이 빠지는 것"
+            }
+          ]
+        },
+        {
+          "start": 75.54,
+          "end": 80.41,
+          "lines": [
+            {
+              "text": "Joey, what are you gonno when you have a baby?",
+              "start": 75.54,
+              "end": 77.41
+            },
+            {
+              "text": "I'm gonna be in the waiting room, handin' out cigars.",
+              "start": 77.58,
+              "end": 80.41
+            }
+          ],
+          "glossary": [
+            {
+              "term": "handin' out cigars",
+              "ko": "(아빠 된 기념) 시가를 돌리다",
+              "type": "idiom",
+              "when": "예전에 아빠가 된 남자가 축하로 사람들에게 시가를 나눠주던 관습"
+            }
+          ]
+        },
+        {
+          "start": 81.75,
+          "end": 88.75,
+          "lines": [
+            {
+              "text": "Yes, Joey's made arrangements to have his baby in a movie from the '50s.",
+              "start": 81.75,
+              "end": 85.89
+            },
+            {
+              "text": "God! I don't believe this.",
+              "start": 86.82,
+              "end": 88.75
+            }
+          ]
+        },
+        {
+          "start": 88.89,
+          "end": 97.43,
+          "lines": [
+            {
+              "text": "I mean, she could be giving birth in the cab.",
+              "start": 88.89,
+              "end": 90.59
+            },
+            {
+              "text": "Oh, Ross, relax, it's probably only like two dollars for the first contraction and then 50 cents each additional contraction..",
+              "start": 91.02,
+              "end": 97.43
+            }
+          ],
+          "glossary": [
+            {
+              "term": "giving birth",
+              "ko": "출산하다, 아기를 낳다",
+              "type": "phrase"
+            },
+            {
+              "term": "contraction",
+              "ko": "(분만) 진통, 자궁 수축",
+              "type": "word",
+              "nuance": "출산 때 배가 주기적으로 조여오는 진통이에요"
+            }
+          ]
+        },
+        {
+          "start": 98.83,
+          "end": 107.11,
+          "lines": [
+            {
+              "text": "What, it's okay when Chandler does it?",
+              "start": 98.83,
+              "end": 100.67
+            },
+            {
+              "text": "You have to pick your moments Hi. Did I miss it? Did I miss it?",
+              "start": 102.57,
+              "end": 107.11
+            }
+          ],
+          "glossary": [
+            {
+              "term": "You have to pick your moments",
+              "ko": "때와 장소를 가려서 해야지",
+              "type": "idiom",
+              "easy": "농담도 타이밍 봐가면서 하라는 말",
+              "nuance": "적절한 순간을 골라야 한다는 뜻이에요"
+            }
+          ]
+        },
+        {
+          "start": 107.17,
+          "end": 110.01,
+          "lines": [
+            {
+              "text": "- No, she's not even here yet. - Oh!",
+              "start": 107.17,
+              "end": 108.54
+            },
+            {
+              "text": "What's with the guitar?",
+              "start": 108.77,
+              "end": 110.01
+            }
+          ]
+        },
+        {
+          "start": 110.11,
+          "end": 114.68,
+          "lines": [
+            {
+              "text": "Well, I just thought we might be here for a while so, you know, things might get musical.",
+              "start": 110.11,
+              "end": 113.71
+            },
+            {
+              "text": "- Oh! - Oh!",
+              "start": 114.18,
+              "end": 114.68
+            }
+          ]
+        },
+        {
+          "start": 115.41,
+          "end": 117.72,
+          "lines": [
+            {
+              "text": "Hey! Where the hell have you been?",
+              "start": 115.41,
+              "end": 116.78
+            },
+            {
+              "text": "Oh, we stopped at the gift shop.",
+              "start": 116.78,
+              "end": 117.72
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Where the hell have you been?",
+              "ko": "도대체 어디 갔었어?",
+              "type": "phrase",
+              "nuance": "the hell은 짜증/강조를 더하는 말이에요"
+            }
+          ]
+        },
+        {
+          "start": 117.75,
+          "end": 121.09,
+          "lines": [
+            {
+              "text": "The gift.. Wow! Wow! Wha..",
+              "start": 117.75,
+              "end": 118.72
+            },
+            {
+              "text": "I was looking at stuffed animals and Susan wanted a Chunky.",
+              "start": 118.95,
+              "end": 121.09
+            }
+          ]
+        },
+        {
+          "start": 121.09,
+          "end": 123.12,
+          "lines": [
+            {
+              "text": "Oh, Susan wanted a Chun.",
+              "start": 121.09,
+              "end": 121.59
+            },
+            {
+              "text": "You're havin' a baby, okay? A baby.",
+              "start": 122.29,
+              "end": 123.12
+            }
+          ]
+        },
+        {
+          "start": 123.79,
+          "end": 126.96,
+          "lines": [
+            {
+              "text": "You don't stop for Chunky's!",
+              "start": 123.79,
+              "end": 124.96
+            },
+            {
+              "text": "I used to have that bumper sticker.",
+              "start": 125.39,
+              "end": 126.96
+            }
+          ]
+        },
+        {
+          "start": 129.29,
+          "end": 131.1,
+          "lines": [
+            {
+              "text": "You see what I mean?",
+              "start": 129.29,
+              "end": 131.1
+            }
+          ]
+        },
+        {
+          "start": 135.14,
+          "end": 155.66,
+          "lines": [
+            {
+              "text": "♪ They're tiny and chubby and so sweet to touch ♪ ♪ But soon they'll grow up and resent you so much ♪ ♪ Now they're yelling at you and you don't know why ♪ ♪ And you cry and you cry and you cry ♪ ♪ And you cry and you cry and you.. ♪",
+              "start": 135.14,
+              "end": 155.66
+            }
+          ],
+          "glossary": [
+            {
+              "term": "resent you",
+              "ko": "너를 원망하다, 미워하다",
+              "type": "word",
+              "nuance": "속으로 서운하고 분하게 여기는 감정이에요"
+            }
+          ]
+        },
+        {
+          "start": 156.76,
+          "end": 160.66,
+          "lines": [
+            {
+              "text": "- Thanks, Ross. - Yeah. I'm paying you to stop!",
+              "start": 156.76,
+              "end": 158.99
+            },
+            {
+              "text": "- Okay? - Okay.",
+              "start": 159.49,
+              "end": 160.66
+            }
+          ]
+        },
+        {
+          "start": 162.43,
+          "end": 171,
+          "lines": [
+            {
+              "text": "(Monica) 'Oh, look, twins. Hi, guys. Oh, cute, cute' Ugh. No fair! I don't even have one.",
+              "start": 162.43,
+              "end": 169.8
+            },
+            {
+              "text": "How come they get two?",
+              "start": 169.8,
+              "end": 171
+            }
+          ]
+        },
+        {
+          "start": 171.94,
+          "end": 180.78,
+          "lines": [
+            {
+              "text": "- You'll get one. - Oh, yeah? When?",
+              "start": 171.94,
+              "end": 173.67
+            },
+            {
+              "text": "(Chandler) 'Alright, I'll tell you what' When we're 40, if neither of us are married what do you say you and I get together and have one?",
+              "start": 174.41,
+              "end": 180.78
+            }
+          ],
+          "glossary": [
+            {
+              "term": "what do you say",
+              "ko": "어때? (제안할 때)",
+              "type": "idiom",
+              "easy": "'~하는 거 어때?'라고 제안하는 말",
+              "ex": "What do you say we grab lunch?",
+              "exKo": "우리 점심 먹는 거 어때?"
+            }
+          ]
+        },
+        {
+          "start": 181.61,
+          "end": 186.85,
+          "lines": [
+            {
+              "text": "Why won't I be married when I'm 40?",
+              "start": 181.61,
+              "end": 183.85
+            },
+            {
+              "text": "Oh, no, no. No. I-I just meant hypothetically.",
+              "start": 184.92,
+              "end": 186.85
+            }
+          ],
+          "glossary": [
+            {
+              "term": "hypothetically",
+              "ko": "가정해서 (말하면), 만약에",
+              "type": "word",
+              "nuance": "실제가 아니라 '그냥 가정상으로'라는 뜻이에요"
+            }
+          ]
+        },
+        {
+          "start": 186.85,
+          "end": 189.76,
+          "lines": [
+            {
+              "text": "Okay, hypothetically..",
+              "start": 186.85,
+              "end": 187.85
+            },
+            {
+              "text": "why won't I be married when I'm 40?",
+              "start": 187.85,
+              "end": 189.76
+            }
+          ]
+        },
+        {
+          "start": 190.16,
+          "end": 197.63,
+          "lines": [
+            {
+              "text": "- No. No, no. - No, no, what is it? Seriously Is there something fundamentally unmarriable about me?",
+              "start": 190.16,
+              "end": 195.09
+            },
+            {
+              "text": "- Uh-uh, uh-- - Well?",
+              "start": 195.93,
+              "end": 197.63
+            }
+          ],
+          "glossary": [
+            {
+              "term": "fundamentally unmarriable",
+              "ko": "근본적으로 결혼 못 할 (사람)",
+              "type": "phrase",
+              "nuance": "un + marri + able = 결혼 상대로 영 아닌, fundamentally는 '본질적으로'예요"
+            }
+          ]
+        },
+        {
+          "start": 198.63,
+          "end": 205.51,
+          "lines": [
+            {
+              "text": "Dear God! This-this parachute is a knapsack.",
+              "start": 198.63,
+              "end": 201.63
+            },
+            {
+              "text": "- Hey. - Hey.",
+              "start": 204.94,
+              "end": 205.51
+            }
+          ]
+        },
+        {
+          "start": 206.27,
+          "end": 213.28,
+          "lines": [
+            {
+              "text": "Ooh! Look at you, dressy dress - Huh. - Did you go home and change?",
+              "start": 206.27,
+              "end": 210.44
+            },
+            {
+              "text": "Uh, well, it's an important day. I wanna look nice.",
+              "start": 210.88,
+              "end": 213.28
+            }
+          ],
+          "glossary": [
+            {
+              "term": "dressy dress",
+              "ko": "쫙 빼입었네 (옷이 멋지네)",
+              "type": "phrase",
+              "nuance": "dressy는 격식 있고 멋스럽게 차려입은 거예요"
+            }
+          ]
+        },
+        {
+          "start": 214.11,
+          "end": 220.05,
+          "lines": [
+            {
+              "text": "Um, has, uh, Dr. Franzblau been by?",
+              "start": 214.11,
+              "end": 217.15
+            },
+            {
+              "text": "- No, I haven't seen him. - Well, where is he?",
+              "start": 218.35,
+              "end": 220.05
+            }
+          ],
+          "glossary": [
+            {
+              "term": "been by",
+              "ko": "잠깐 들렀다",
+              "type": "phrase",
+              "ex": "Has the nurse been by?",
+              "exKo": "간호사가 다녀갔어?",
+              "tip": "come/be by = 잠깐 들르다"
+            }
+          ]
+        },
+        {
+          "start": 220.69,
+          "end": 225.86,
+          "lines": [
+            {
+              "text": "He is supposed to be here.",
+              "start": 220.69,
+              "end": 222.66
+            },
+            {
+              "text": "What if the baby needs him?",
+              "start": 225.12,
+              "end": 225.86
+            }
+          ]
+        },
+        {
+          "start": 226.99,
+          "end": 231.4,
+          "lines": [
+            {
+              "text": "Rachel, what is the deal with you and doctors anyway?",
+              "start": 226.99,
+              "end": 229.13
+            },
+            {
+              "text": "Is, like, your-your father a doctor?",
+              "start": 229.2,
+              "end": 231.4
+            }
+          ],
+          "glossary": [
+            {
+              "term": "what is the deal with",
+              "ko": "~는 도대체 뭐가 문제야/사정이 뭐야",
+              "type": "idiom",
+              "easy": "'대체 무슨 일이야/왜 그래?'라고 캐물을 때",
+              "ex": "What's the deal with you two?",
+              "exKo": "너희 둘 사이 대체 뭐야?"
+            }
+          ]
+        },
+        {
+          "start": 231.5,
+          "end": 235.97,
+          "lines": [
+            {
+              "text": "Yeah, why?",
+              "start": 231.5,
+              "end": 232.67
+            },
+            {
+              "text": "No reason.",
+              "start": 234.5,
+              "end": 235.97
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xwdYHde4ZgM",
+      "url": "https://www.youtube.com/watch?v=xwdYHde4ZgM",
+      "title": "The Big Bang Theory: Sheldon's Friends Meet His Mother",
+      "tag": "Sheldon's mom",
+      "category": "미드 · 빅뱅이론",
+      "segments": [
+        {
+          "start": 0.02,
+          "end": 2.6,
+          "lines": [
+            {
+              "text": "Dealt in. Your mom made dinner.",
+              "start": 0.02,
+              "end": 1.48
+            },
+            {
+              "text": "I'm not hungry.",
+              "start": 1.49,
+              "end": 2.6
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Dealt in",
+              "ko": "(카드게임) 나도 끼워줘, 한 판 낄게",
+              "type": "phrase",
+              "nuance": "카드 게임에서 자기에게도 카드를 돌려달라는 말이에요"
+            }
+          ]
+        },
+        {
+          "start": 2.77,
+          "end": 7.34,
+          "lines": [
+            {
+              "text": "Oh, Leonard, don't trouble yourself.",
+              "start": 2.77,
+              "end": 4.7
+            },
+            {
+              "text": "He's stubborn. He may stay in there till the rapture.",
+              "start": 4.7,
+              "end": 7.34
+            }
+          ],
+          "glossary": [
+            {
+              "term": "don't trouble yourself",
+              "ko": "수고스럽게 그러지 마세요, 신경 쓰지 마요",
+              "type": "idiom",
+              "easy": "괜히 애쓰지 말라는 정중한 말"
+            },
+            {
+              "term": "stubborn",
+              "ko": "고집 센",
+              "type": "word"
+            },
+            {
+              "term": "till the rapture",
+              "ko": "휴거 때까지 (=영원히, 한참)",
+              "type": "idiom",
+              "nuance": "기독교의 '휴거'를 빌려 '아주 오래도록'이란 과장으로 쓴 거예요"
+            }
+          ]
+        },
+        {
+          "start": 9.17,
+          "end": 13.19,
+          "lines": [
+            {
+              "text": "Why are we so sure that's a bad thing?",
+              "start": 9.17,
+              "end": 10.79
+            },
+            {
+              "text": "I tell you, I love the boy to death.",
+              "start": 11.66,
+              "end": 13.19
+            }
+          ],
+          "glossary": [
+            {
+              "term": "love the boy to death",
+              "ko": "그 애를 죽을 만큼 사랑해",
+              "type": "idiom",
+              "easy": "엄청나게 아낀다는 강조 표현",
+              "tip": "to death = 죽도록, 엄청나게 (강조)"
+            }
+          ]
+        },
+        {
+          "start": 13.19,
+          "end": 24.91,
+          "lines": [
+            {
+              "text": "But he has been difficult since he fell out of me at the Kmart.",
+              "start": 13.19,
+              "end": 16.13
+            },
+            {
+              "text": "Excuse me for being so bold, but I now see where Sheldon gets his smoldering good looks. Oh.",
+              "start": 19.24,
+              "end": 24.91
+            }
+          ],
+          "glossary": [
+            {
+              "term": "fell out of me",
+              "ko": "내 배에서 나온 (태어난) 이후로",
+              "type": "phrase",
+              "nuance": "'태어나다'를 투박하고 시골스럽게 표현한 거예요"
+            },
+            {
+              "term": "Excuse me for being so bold",
+              "ko": "이런 말 해서 좀 그렇지만 (대담하지만)",
+              "type": "phrase",
+              "when": "약간 들이대는 말을 하기 전 미리 양해 구할 때"
+            },
+            {
+              "term": "smoldering good looks",
+              "ko": "은근히 섹시한 외모",
+              "type": "phrase",
+              "nuance": "smoldering은 '타오르는 듯 매력적인' 느낌이에요"
+            }
+          ]
+        },
+        {
+          "start": 26.11,
+          "end": 28.48,
+          "lines": [
+            {
+              "text": "Honey, that ain't going to work.",
+              "start": 26.11,
+              "end": 27.28
+            },
+            {
+              "text": "But you keep trying.",
+              "start": 27.28,
+              "end": 28.48
+            }
+          ],
+          "glossary": [
+            {
+              "term": "that ain't going to work",
+              "ko": "그런다고 안 통해요",
+              "type": "phrase",
+              "nuance": "ain't는 isn't의 비격식·시골 말투예요"
+            }
+          ]
+        },
+        {
+          "start": 29.74,
+          "end": 35.86,
+          "lines": [
+            {
+              "text": "I made chicken.",
+              "start": 29.74,
+              "end": 31.18
+            },
+            {
+              "text": "I hope that isn't one of the animals that you people think is magic.",
+              "start": 31.6,
+              "end": 35.86
+            }
+          ]
+        },
+        {
+          "start": 41.45,
+          "end": 46.64,
+          "lines": [
+            {
+              "text": "You know, we have an Indian gentleman at our church, a Dr.",
+              "start": 41.45,
+              "end": 44.69
+            },
+            {
+              "text": "Patel. It's a beautiful story.",
+              "start": 44.69,
+              "end": 46.64
+            }
+          ]
+        },
+        {
+          "start": 46.64,
+          "end": 52.43,
+          "lines": [
+            {
+              "text": "The Lord spoke to him and moved him to give us all 20% off on Lasik.",
+              "start": 46.64,
+              "end": 51.08
+            },
+            {
+              "text": "You know, those that needed it.",
+              "start": 51.11,
+              "end": 52.43
+            }
+          ]
+        },
+        {
+          "start": 53.54,
+          "end": 57.32,
+          "lines": [
+            {
+              "text": "That is a lovely story.",
+              "start": 53.54,
+              "end": 55.19
+            },
+            {
+              "text": "Are we going to do anything about Sheldon?",
+              "start": 55.52,
+              "end": 57.32
+            }
+          ]
+        },
+        {
+          "start": 57.32,
+          "end": 60.2,
+          "lines": [
+            {
+              "text": "Oh, we will.",
+              "start": 57.32,
+              "end": 58.13
+            },
+            {
+              "text": "You have to take your time with Sheldon.",
+              "start": 58.13,
+              "end": 60.2
+            }
+          ]
+        },
+        {
+          "start": 60.23,
+          "end": 67.73,
+          "lines": [
+            {
+              "text": "His father, God rest his soul, used to always say to me, Mary, you have to take your time with Sheldon.",
+              "start": 60.23,
+              "end": 64.58
+            },
+            {
+              "text": "Sounds like a wise man.",
+              "start": 66.34,
+              "end": 67.73
+            }
+          ]
+        },
+        {
+          "start": 67.73,
+          "end": 69.98,
+          "lines": [
+            {
+              "text": "Oh, not so wise.",
+              "start": 67.73,
+              "end": 69.32
+            },
+            {
+              "text": "He once tried to.",
+              "start": 69.32,
+              "end": 69.98
+            }
+          ]
+        },
+        {
+          "start": 69.98,
+          "end": 77.99,
+          "lines": [
+            {
+              "text": "Fight a bobcat for some licorice.",
+              "start": 69.98,
+              "end": 71.99
+            },
+            {
+              "text": "So everybody grab a plate and a pretty placemat that Shelley wove.",
+              "start": 73.19,
+              "end": 77.99
+            }
+          ],
+          "glossary": [
+            {
+              "term": "freaked out",
+              "ko": "완전 멘붕하다, 흥분해서 난리치다",
+              "type": "idiom",
+              "easy": "놀라거나 화나서 정신 못 차리는 상태",
+              "ex": "She freaked out when she saw the spider.",
+              "exKo": "거미를 보고 그녀는 기겁했어."
+            }
+          ]
+        },
+        {
+          "start": 78.71,
+          "end": 82.49,
+          "lines": [
+            {
+              "text": "Has Shelley ever freaked out like this before?",
+              "start": 78.71,
+              "end": 80.92
+            },
+            {
+              "text": "Oh, all the time.",
+              "start": 80.93,
+              "end": 82.49
+            }
+          ]
+        },
+        {
+          "start": 82.49,
+          "end": 95.45,
+          "lines": [
+            {
+              "text": "I remember one summer when he was 13, he built a small nuclear reactor in the shed and told everybody he was going to provide free electricity for the whole town.",
+              "start": 82.49,
+              "end": 91.25
+            },
+            {
+              "text": "Well, the only problem was he had no what you call fissionable materials.",
+              "start": 91.25,
+              "end": 95.45
+            }
+          ],
+          "glossary": [
+            {
+              "term": "fissionable materials",
+              "ko": "핵분열 가능한 물질",
+              "type": "word",
+              "nuance": "원자로에 필요한 우라늄 같은 재료를 말해요"
+            }
+          ]
+        },
+        {
+          "start": 96.32,
+          "end": 114.75,
+          "lines": [
+            {
+              "text": "Anyway, when he went on the Internet to get some a man from the government came by and sat him down real gentle and told him it's against the law to have yellowcake uranium in a shed. Well, what happened?",
+              "start": 96.32,
+              "end": 109.88
+            },
+            {
+              "text": "Well, poor boy had a fit, locked himself in his room and built a sonic death Ray.",
+              "start": 109.89,
+              "end": 114.75
+            }
+          ],
+          "glossary": [
+            {
+              "term": "sat him down real gentle",
+              "ko": "아주 부드럽게 앉혀놓고 (타이르고)",
+              "type": "phrase",
+              "nuance": "sit someone down은 진지하게 얘기하려고 앉히는 거예요"
+            },
+            {
+              "term": "had a fit",
+              "ko": "발작하듯 화내다, 길길이 날뛰다",
+              "type": "idiom",
+              "easy": "엄청 화나서 난리법석을 떨다"
+            },
+            {
+              "term": "yellowcake uranium",
+              "ko": "옐로케이크 우라늄 (농축 전 원료)",
+              "type": "word"
+            }
+          ]
+        },
+        {
+          "start": 115.47,
+          "end": 117.9,
+          "lines": [
+            {
+              "text": "A death Ray?",
+              "start": 115.47,
+              "end": 116.37
+            },
+            {
+              "text": "Well, that's what he called it.",
+              "start": 116.37,
+              "end": 117.9
+            }
+          ]
+        },
+        {
+          "start": 117.9,
+          "end": 122.97,
+          "lines": [
+            {
+              "text": "Didn't even slow down the neighbor kids.",
+              "start": 117.9,
+              "end": 119.61
+            },
+            {
+              "text": "It pissed our dog off to no end.",
+              "start": 121.26,
+              "end": 122.97
+            }
+          ],
+          "glossary": [
+            {
+              "term": "pissed our dog off to no end",
+              "ko": "우리 개를 끝도 없이 짜증나게 했다",
+              "type": "idiom",
+              "easy": "엄청 화나게/거슬리게 했다",
+              "nuance": "piss off는 비속어로 '열받게 하다', to no end는 '한없이'예요",
+              "tip": "to no end = 끝없이/대단히 (in the end와 혼동 주의)"
+            }
+          ]
+        },
+        {
+          "start": 125.3,
+          "end": 130.36,
+          "lines": [
+            {
+              "text": "You know, you two make a cute couple.",
+              "start": 125.3,
+              "end": 127.73
+            },
+            {
+              "text": "No, we're not.",
+              "start": 129.23,
+              "end": 130.36
+            }
+          ],
+          "glossary": [
+            {
+              "term": "make a cute couple",
+              "ko": "잘 어울리는 커플이다",
+              "type": "phrase",
+              "easy": "둘이 사귀면 보기 좋겠다는 말"
+            }
+          ]
+        },
+        {
+          "start": 130.37,
+          "end": 142.07,
+          "lines": [
+            {
+              "text": "We're not. Not a couple. We're singles to singles. Like those individually wrapped slices of cheese that our friends.",
+              "start": 130.37,
+              "end": 139.16
+            },
+            {
+              "text": "Did I pluck a nerve there?",
+              "start": 140.9,
+              "end": 142.07
+            }
+          ],
+          "glossary": [
+            {
+              "term": "Did I pluck a nerve there?",
+              "ko": "내가 아픈 데를 건드렸나?",
+              "type": "idiom",
+              "easy": "민감한 부분을 건드려 발끈하게 만들었나",
+              "nuance": "보통은 hit/touch a nerve로 더 많이 써요"
+            }
+          ]
+        },
+        {
+          "start": 142.1,
+          "end": 149.12,
+          "lines": [
+            {
+              "text": "Oh, yeah. Okay. All right, everybody, it's time to eat. Oh, Lord.",
+              "start": 142.1,
+              "end": 147.56
+            },
+            {
+              "text": "We thank you for this meal.",
+              "start": 147.56,
+              "end": 149.12
+            }
+          ]
+        },
+        {
+          "start": 149.36,
+          "end": 166.96,
+          "lines": [
+            {
+              "text": "All your bounty.",
+              "start": 149.36,
+              "end": 150.47
+            },
+            {
+              "text": "And we pray that you help Sheldon get back on his rocker. Now, after a moment of silent meditation, I'm going to end with in Jesus name. But you two don't feel any obligation to join in. Unless, of course, the Holy Spirit moves you.",
+              "start": 151.55,
+              "end": 166.96
+            }
+          ],
+          "glossary": [
+            {
+              "term": "get back on his rocker",
+              "ko": "제정신을 되찾다",
+              "type": "idiom",
+              "nuance": "보통 off one's rocker(돌았다)를 비틀어 '정신 차리다'로 쓴 거예요"
+            },
+            {
+              "term": "the Holy Spirit moves you",
+              "ko": "성령이 너를 이끌면 (마음이 동하면)",
+              "type": "phrase",
+              "nuance": "move는 여기서 '마음을 움직이다'예요"
+            }
+          ]
+        },
+        {
+          "start": 176.73,
+          "end": 183.42,
+          "lines": [
+            {
+              "text": "Oh, my God. This is the best cobbler I've ever had. It was always Sheldon's favorite.",
+              "start": 176.73,
+              "end": 181.08
+            },
+            {
+              "text": "You know what the secret ingredient is?",
+              "start": 181.11,
+              "end": 183.42
+            }
+          ]
+        },
+        {
+          "start": 183.45,
+          "end": 191.43,
+          "lines": [
+            {
+              "text": "Love, Lard.",
+              "start": 183.45,
+              "end": 184.89
+            },
+            {
+              "text": "Hey, look who's coming.",
+              "start": 190.3,
+              "end": 191.43
+            }
+          ]
+        },
+        {
+          "start": 191.86,
+          "end": 197.78,
+          "lines": [
+            {
+              "text": "You'll spook him. He's like a baby deer.",
+              "start": 191.86,
+              "end": 196.31
+            },
+            {
+              "text": "You got to let him come to you.",
+              "start": 196.34,
+              "end": 197.78
+            }
+          ],
+          "glossary": [
+            {
+              "term": "spook him",
+              "ko": "걔를 놀라게 해서 도망가게 하다",
+              "type": "word",
+              "nuance": "spook은 겁줘서 움찔하게 만드는 거예요"
+            },
+            {
+              "term": "let him come to you",
+              "ko": "걔가 스스로 다가오게 둬",
+              "type": "phrase",
+              "easy": "다그치지 말고 기다리라는 말"
+            }
+          ]
+        },
+        {
+          "start": 206.37,
+          "end": 209.67,
+          "lines": [
+            {
+              "text": "This is ridiculous.",
+              "start": 206.37,
+              "end": 207.55
+            },
+            {
+              "text": "Damn it, Sheldon, snap out of it.",
+              "start": 207.57,
+              "end": 209.67
+            }
+          ],
+          "glossary": [
+            {
+              "term": "snap out of it",
+              "ko": "정신 차려, 그만 좀 해",
+              "type": "idiom",
+              "easy": "우울하거나 멍한 상태에서 퍼뜩 깨어나라는 말",
+              "ex": "Snap out of it, we have work to do.",
+              "exKo": "정신 차려, 할 일 있잖아."
+            }
+          ]
+        },
+        {
+          "start": 209.7,
+          "end": 222.29,
+          "lines": [
+            {
+              "text": "You're a physicist. You belong at the university doing research, not hiding in your room.",
+              "start": 209.7,
+              "end": 213.9
+            },
+            {
+              "text": "You don't hunt, do you?",
+              "start": 220.79,
+              "end": 222.29
             }
           ]
         }
