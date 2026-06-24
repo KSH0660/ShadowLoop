@@ -78,10 +78,11 @@ button {
 }
 
 /* Home — browse grid ------------------------------------------- */
+/* Bottom padding clears the fixed tab bar so the last cards stay reachable. */
 .home {
   width: min(100% - 28px, 940px);
   margin: 0 auto;
-  padding: 16px 0 56px;
+  padding: 16px 0 calc(78px + env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -91,6 +92,14 @@ button {
   display: flex;
   align-items: baseline;
   gap: 12px;
+}
+
+.home-heading {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1;
 }
 
 .home-count {
@@ -193,6 +202,35 @@ button {
 @media (min-width: 880px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* "이어보기" strip on the home — a single horizontal row of in-progress videos
+   that scrolls sideways, so it stays thin no matter how many there are. The full
+   list lives in the 보관함 tab as a normal grid. */
+.resume-strip {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin: 0 -2px;
+  padding: 2px;
+  scroll-snap-type: x mandatory;
+}
+
+.resume-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.resume-strip .card {
+  flex: 0 0 78%;
+  max-width: 320px;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 600px) {
+  .resume-strip .card {
+    flex-basis: 300px;
   }
 }
 
@@ -299,6 +337,58 @@ button {
 .card-meta {
   font-size: 13px;
   color: var(--muted);
+}
+
+/* Bottom tab bar — top-level nav between 홈 and 보관함. Fixed to the viewport
+   bottom on the browse views; hidden on the single-focus detail (player) view so
+   nothing competes with the caption. */
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 0 calc(6px + env(safe-area-inset-bottom));
+  background: rgba(250, 250, 248, 0.92);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-top: 1px solid var(--line);
+}
+
+body.is-detail .tabbar {
+  display: none;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  width: 104px;
+  padding: 6px 0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--muted);
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tab svg {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tab.is-active {
+  color: var(--accent-ink);
 }
 
 /* Detail shell -------------------------------------------------- */

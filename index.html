@@ -34,6 +34,14 @@
       </div>
     </main>
 
+    <!-- LIBRARY — saved expressions + in-progress videos ---------------- -->
+    <main class="home" id="libraryView" aria-label="보관함" hidden>
+      <header class="home-top">
+        <h1 class="home-heading">보관함</h1>
+      </header>
+      <div class="home-feed" id="libraryFeed"></div>
+    </main>
+
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>
       <header class="topbar">
@@ -130,6 +138,18 @@
         </div>
       </section>
     </main>
+
+    <!-- Bottom tab bar — hidden on the detail (player) view ------------- -->
+    <nav class="tabbar" aria-label="주 메뉴">
+      <a class="tab is-active" id="tabHome" href="#/" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7" /><path d="M6 10v9h12v-9" /></svg>
+        <span>홈</span>
+      </a>
+      <a class="tab" id="tabLibrary" href="#/library">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z" /></svg>
+        <span>보관함</span>
+      </a>
+    </nav>
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
