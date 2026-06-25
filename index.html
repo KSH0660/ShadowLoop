@@ -100,6 +100,26 @@
       </div>
     </div>
 
+    <!-- FINISH — completion screen: turn shadowing into your own English - -->
+    <div class="finish" id="finishView" hidden aria-label="학습 완료">
+      <div class="finish-card">
+        <span class="finish-eyebrow" id="finishEyebrow"></span>
+        <p class="finish-emoji" aria-hidden="true">🎉</p>
+        <h2 class="finish-title">이 영상, 끝까지 따라 읽었어요</h2>
+        <p class="finish-sub">이제 들은 표현을 <b>내 문장으로 바꿔 말할</b> 차례예요.</p>
+        <div class="finish-chips" id="finishChips" aria-label="이 영상에서 집중한 표현"></div>
+        <button type="button" class="finish-cta" id="finishCopyBtn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2z" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
+          <span id="finishCopyLabel">AI 튜터와 내 표현 만들기</span>
+        </button>
+        <p class="finish-help" id="finishHelp">이 버튼을 누르면 영상 전체 흐름과 핵심 표현이 담긴 학습 프롬프트가 복사돼요.</p>
+        <div class="finish-actions">
+          <button type="button" class="finish-ghost" id="finishRestart">처음부터 다시</button>
+          <button type="button" class="finish-ghost" id="finishClose">닫기</button>
+        </div>
+      </div>
+    </div>
+
     <!-- DETAIL — single-focus shadowing player -------------------------- -->
     <main class="app" id="detailView" aria-label="영상 재생" hidden>
       <header class="topbar">

@@ -1161,6 +1161,165 @@ body.is-detail .tabbar {
   color: var(--ink);
 }
 
+/* Completion overlay — the end-of-video screen that reframes "쉐도잉 끝" as
+   "이제 내 표현을 만들 차례". Full-screen, above sheets/tab bar (below toast). */
+.finish {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px calc(24px + env(safe-area-inset-bottom));
+  background: rgba(31, 36, 33, 0.55);
+  backdrop-filter: saturate(1.2) blur(6px);
+  -webkit-backdrop-filter: saturate(1.2) blur(6px);
+  animation: finish-fade 0.24s ease both;
+}
+
+@keyframes finish-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.finish-card {
+  width: 100%;
+  max-width: 420px;
+  max-height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  padding: 30px 24px 24px;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  animation: finish-rise 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes finish-rise {
+  from { opacity: 0; transform: translateY(18px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.finish-eyebrow {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+}
+
+.finish-emoji {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.finish-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.finish-sub {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.finish-sub b {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.finish-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 4px 0 2px;
+}
+
+.finish-chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.finish-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 8px;
+  padding: 15px 18px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, background-color 0.2s ease;
+}
+
+.finish-cta:active {
+  transform: scale(0.98);
+}
+
+.finish-cta.is-copied {
+  background: var(--accent-ink);
+}
+
+.finish-cta svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.finish-help {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.finish-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.finish-ghost {
+  padding: 9px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.finish-ghost:active {
+  transform: scale(0.97);
+}
+
 /* AI prompt copy — sits just under the caption/glossary. */
 .cap-actions {
   display: flex;

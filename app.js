@@ -113,6 +113,14 @@ const els = {
   segSheet: document.querySelector("#segSheet"),
   sheetBackdrop: document.querySelector("#sheetBackdrop"),
   aiPromptBtn: document.querySelector("#aiPromptBtn"),
+  finishView: document.querySelector("#finishView"),
+  finishEyebrow: document.querySelector("#finishEyebrow"),
+  finishChips: document.querySelector("#finishChips"),
+  finishCopyBtn: document.querySelector("#finishCopyBtn"),
+  finishCopyLabel: document.querySelector("#finishCopyLabel"),
+  finishHelp: document.querySelector("#finishHelp"),
+  finishRestart: document.querySelector("#finishRestart"),
+  finishClose: document.querySelector("#finishClose"),
   toast: document.querySelector("#toast"),
   saveSegBtn: document.querySelector("#saveSegBtn"),
   notesBtn: document.querySelector("#notesBtn"),
@@ -915,6 +923,7 @@ function closeQuiz() {
 function route() {
   closeReview(); // leaving / re-entering a view always exits the flashcard overlay
   closeQuiz();
+  closeFinish();
   const hash = location.hash || "#/";
   const match = hash.match(/^#\/v\/(.+)$/);
   if (match) {
@@ -1382,8 +1391,14 @@ function tick() {
         // record (the PLAYING guard + loops reset on advance keep it to once per
         // completion), then move on (or stop at the last segment).
         recordStudy();
-        if (state.current === state.segments.length - 1) player.pauseVideo();
-        else selectSegment(state.current + 1, true);
+        if (state.current === state.segments.length - 1) {
+          // The whole video is done — pause and surface the completion screen
+          // that turns the finished session into "now make it your own English".
+          player.pauseVideo();
+          showFinish();
+        } else {
+          selectSegment(state.current + 1, true);
+        }
       } else {
         state.loops += 1;
         _seekCooldown = performance.now() + 600;
@@ -1552,10 +1567,142 @@ async function copyStudyPrompt() {
   }
 }
 
+// --- Completion screen + AI tutor prompt ------------------------------------
+// The signature end-of-video moment: once the whole video is shadowed, we don't
+// just stop — we hand the learner a ready-to-paste prompt that turns the AI into
+// a 1:1 English tutor for *producing* their own sentences from this video.
+
+// Gather the expressions the app already emphasised for this video, in priority
+// order so the AI starts where the learner's attention already was:
+//   1. glossary terms we hinted under each segment,
+//   2. words they saved to the 단어장 from this video,
+//   3. sentences they bookmarked.
+// Terms are deduped case-insensitively; sentences kept verbatim.
+function collectEmphasis(video) {
+  const terms = [];
+  const seen = new Set();
+  const pushTerm = (term, ko) => {
+    const t = (term || "").trim();
+    const key = t.toLowerCase();
+    if (!t || seen.has(key)) return;
+    seen.add(key);
+    terms.push({ term: t, ko: (ko || "").trim() });
+  };
+  (video.segments || []).forEach((seg) =>
+    (seg.glossary || []).forEach((g) => pushTerm(g.term, g.ko)));
+  loadVocab().words
+    .filter((w) => w.video === video.id)
+    .forEach((w) => pushTerm(w.term, w.ko));
+  const sentences = getVideoBookmarks(video.id).map((b) => b.text).filter(Boolean);
+  return { terms, sentences };
+}
+
+// Build the whole-video tutor prompt: the full transcript (the flow + every
+// sentence the learner repeated), the emphasised expressions to lead with, and
+// a strict conversational lesson protocol so the AI teaches one expression at a
+// time and pushes the learner to rephrase + write rather than dumping a wall of
+// translation.
+function buildTutorPrompt(video) {
+  const title = video.title || video.tag || "영어 영상";
+  const transcript = (video.segments || [])
+    .map((seg, i) => `${i + 1}. ${segmentText(seg)}`)
+    .filter((line) => line.trim().length > 3)
+    .join("\n");
+  const { terms, sentences } = collectEmphasis(video);
+
+  const termList = terms.length
+    ? terms.map((t) => (t.ko ? `- ${t.term} (${t.ko})` : `- ${t.term}`)).join("\n")
+    : "- (따로 표시된 표현이 없어요 — 위 대본에서 직접 핵심 표현을 골라 주세요)";
+
+  const lines = [
+    "당신은 친절하고 인내심 있는 1:1 영어 회화 튜터입니다. 저는 아래 영어 영상을 문장 단위로 반복해 듣고 따라 말하는 '쉐도잉'을 막 끝낸 한국어 사용자예요.",
+    "이제 해석을 듣는 단계를 넘어, 이 영상 속 표현을 '제 표현'으로 만들어 실제로 말하고 쓸 수 있게 도와주세요.",
+    "",
+    `[영상] ${title}`,
+    "",
+    "[영상 전체 대본 — 제가 반복 학습한 문장들이고, 이게 전체 흐름이에요]",
+    transcript,
+    "",
+    "[제가 특히 집중한 핵심 표현 — 여기서부터 시작해 주세요]",
+    termList,
+  ];
+  if (sentences.length) {
+    lines.push(
+      "",
+      "[제가 따로 저장해 둔 문장들 — 우선적으로 다뤄 주세요]",
+      sentences.map((s) => `- "${s}"`).join("\n"),
+    );
+  }
+  lines.push(
+    "",
+    "[수업 진행 방식 — 꼭 지켜 주세요]",
+    "1. 한 번에 다 설명하지 마세요. 핵심 표현을 하나씩, 대화하듯 천천히 다뤄 주세요.",
+    "2. 각 표현마다 (1) 영상 속 상황과 화자의 감정, (2) 표현의 핵심 의미와 뉘앙스, (3) 직역과 실제로 쓰이는 자연스러운 의미의 차이, (4) 일상에서 바로 쓰는 짧은 실제 예문 2개를 알려 주세요.",
+    "3. 설명한 뒤에는 곧바로 저에게 질문을 던져, 그 표현을 '제 상황'에 맞춰 직접 영어 문장으로 바꿔 말해 보게 해 주세요.",
+    "4. 제가 만든 문장을 자연스럽게 다듬어 주고 더 나은 표현을 제안한 뒤, 짧은 영작 과제를 하나 내 주세요.",
+    "5. 제가 답하기 전에는 절대 다음 표현으로 넘어가지 마세요. 매 단계 끝에 '준비되면 다음으로 넘어갈까요?'처럼 제 반응을 기다려 주세요.",
+    "6. 설명은 한국어로, 예문과 제가 연습할 문장은 영어로 해 주세요.",
+    "",
+    "준비됐으면, 먼저 짧게 인사하고 위 핵심 표현 중 첫 번째 하나만 골라 설명한 다음, 저에게 첫 질문을 해 주세요.",
+  );
+  return lines.join("\n");
+}
+
+// Show up to six emphasised expressions as chips so the learner can see, at a
+// glance, what the AI lesson will start from (and feel it's *their* material).
+function renderFinishChips(emphasis) {
+  const chips = emphasis.terms.slice(0, 6);
+  if (!chips.length) {
+    els.finishChips.hidden = true;
+    els.finishChips.innerHTML = "";
+    return;
+  }
+  els.finishChips.hidden = false;
+  els.finishChips.innerHTML = chips
+    .map((t) => `<span class="finish-chip">${escapeHtml(t.term)}</span>`)
+    .join("");
+}
+
+function showFinish() {
+  const video = videos.find((v) => v.id === state.videoId);
+  if (!video) return;
+  els.finishEyebrow.textContent = video.tag || video.title || "학습 완료";
+  renderFinishChips(collectEmphasis(video));
+  els.finishCopyBtn.classList.remove("is-copied");
+  els.finishCopyLabel.textContent = "AI 튜터와 내 표현 만들기";
+  els.finishHelp.textContent = "이 버튼을 누르면 영상 전체 흐름과 핵심 표현이 담긴 학습 프롬프트가 복사돼요.";
+  els.finishView.hidden = false;
+  document.body.classList.add("is-finish");
+}
+
+function closeFinish() {
+  els.finishView.hidden = true;
+  document.body.classList.remove("is-finish");
+}
+
+async function copyTutorPrompt() {
+  const video = videos.find((v) => v.id === state.videoId);
+  if (!video) return;
+  const ok = await copyToClipboard(buildTutorPrompt(video));
+  if (ok) {
+    els.finishCopyBtn.classList.add("is-copied");
+    els.finishCopyLabel.textContent = "프롬프트 복사됨 ✓";
+    els.finishHelp.textContent =
+      "복사했어요! ChatGPT·Claude 같은 AI에 붙여넣으면 이 영상 속 표현으로 1:1 회화·작문 수업이 시작돼요.";
+    showToast("복사 완료! AI에 붙여넣으면 내 표현 수업이 시작돼요");
+  } else {
+    showToast("복사에 실패했습니다. 다시 시도해 주세요");
+  }
+}
+
 // --- Events ---------------------------------------------------------------
 window.addEventListener("hashchange", route);
 
 els.aiPromptBtn.addEventListener("click", copyStudyPrompt);
+
+els.finishCopyBtn.addEventListener("click", copyTutorPrompt);
+els.finishRestart.addEventListener("click", () => { closeFinish(); selectSegment(0, true); });
+els.finishClose.addEventListener("click", closeFinish);
 
 // Shared by the home and library feeds: a saved-expression row deep-links to its
 // segment; a thumbnail card opens its video.
@@ -1749,6 +1896,12 @@ document.addEventListener("keydown", (event) => {
       if (!els.quizNext.hidden) quizNext();
       else if (!els.quizRestart.hidden) startQuiz(quiz.source);
     }
+    return;
+  }
+
+  // Completion overlay captures keys while open: Esc closes it.
+  if (!els.finishView.hidden) {
+    if (key === "escape") closeFinish();
     return;
   }
 
