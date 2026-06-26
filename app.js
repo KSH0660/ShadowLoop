@@ -35,7 +35,7 @@ let state = {
   loops: 0,       // completed repeats of the current segment
   target: 3,      // repeats until fully revealed, scaled by caption length + pace
   cloze: [],      // maskable word indices, in reading order
-  pace: "slow",   // slow (3–10 reps) | fast (2–4 reps)
+  pace: "fast",   // fast (2–4 reps, default) | slow (3–10 reps)
   peek: false,    // holding the peek button → show the full caption
   sheet: null,    // null | "seg" | "notes" | "word"
   wordItem: null, // glossary entry currently shown in the word-detail sheet
@@ -488,6 +488,23 @@ function noteRowHtml({ video, index, b }) {
       <span class="note-row-text">${escapeHtml(b.text)}</span>
       <span class="note-row-meta">${escapeHtml(video.tag || video.title || "")} · ${formatTime(b.start)}</span>
     </button>`;
+}
+
+// The next video the learner hasn't started yet (no saved progress), for
+// autoplay after finishing a video. Scans forward from the current video and
+// wraps around, so it lands on the nearest fresh clip; returns null once every
+// video has been touched (then the finish screen shows instead).
+function nextUnstudiedVideo() {
+  if (!videos.length) return null;
+  const progressMap = loadProgress();
+  const startIndex = videos.findIndex((v) => v.id === state.videoId);
+  for (let i = 1; i <= videos.length; i++) {
+    const video = videos[(startIndex + i) % videos.length];
+    if (video.id !== state.videoId && videoPercent(progressMap, video.id) === 0) {
+      return video;
+    }
+  }
+  return null;
 }
 
 // Per-video progress as a 0–100 percentage of segments reached (0 when unseen).
@@ -1392,10 +1409,17 @@ function tick() {
         // completion), then move on (or stop at the last segment).
         recordStudy();
         if (state.current === state.segments.length - 1) {
-          // The whole video is done — pause and surface the completion screen
-          // that turns the finished session into "now make it your own English".
-          player.pauseVideo();
-          showFinish();
+          // The whole video is done. Auto-advance to the next video the learner
+          // hasn't started yet (continuous learning), like a playlist. When none
+          // is left, pause and surface the completion screen that turns the
+          // finished session into "now make it your own English".
+          const next = nextUnstudiedVideo();
+          if (next) {
+            openVideo(next); // loadVideoById autoplays from the new video's start
+          } else {
+            player.pauseVideo();
+            showFinish();
+          }
         } else {
           selectSegment(state.current + 1, true);
         }
