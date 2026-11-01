@@ -1,0 +1,823 @@
+{
+  "id": "5CvlKCBrPHI",
+  "segments": [
+    {
+      "start": 4.27,
+      "end": 7.2,
+      "lines": [
+        {
+          "text": "My name is Kate.",
+          "start": 4.27,
+          "end": 5.8
+        },
+        {
+          "text": "I am a designer.",
+          "start": 5.84,
+          "end": 7.2
+        }
+      ]
+    },
+    {
+      "start": 7.24,
+      "end": 18.78,
+      "lines": [
+        {
+          "text": "And my design superpower is noticing.",
+          "start": 7.24,
+          "end": 11.54
+        },
+        {
+          "text": "I am pretty much always watching how people navigate the designed world.",
+          "start": 11.94,
+          "end": 18.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "navigate",
+          "ko": "(상황을) 헤쳐나가다, 다루다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 19.38,
+      "end": 36.8,
+      "lines": [
+        {
+          "text": "And one of the things that I notice a lot is stuff like this.",
+          "start": 19.38,
+          "end": 24.09
+        },
+        {
+          "text": "For over 20 years, I have been taking photographs of signs that help us get around everyday situations.",
+          "start": 27.22,
+          "end": 36.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get around (everyday situations)",
+          "ko": "(일상 상황을) 잘 대처하다, 헤쳐나가다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 36.8,
+      "end": 44.24,
+      "lines": [
+        {
+          "text": "Places where, for whatever reason, we just need a little extra coaching.",
+          "start": 36.8,
+          "end": 41.67
+        },
+        {
+          "text": "Signs like this.",
+          "start": 43.01,
+          "end": 44.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "for whatever reason",
+          "ko": "무슨 이유에서든",
+          "type": "phrase"
+        },
+        {
+          "term": "coaching",
+          "ko": "(여기) 약간의 안내·도움",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 47.38,
+      "end": 48.55,
+      "lines": [
+        {
+          "text": "And like this.",
+          "start": 47.38,
+          "end": 48.55
+        }
+      ]
+    },
+    {
+      "start": 53.38,
+      "end": 69.2,
+      "lines": [
+        {
+          "text": "I really love this kind of sign a lot, where something is technically fully functioning the way it was designed, like this keypad, but it's not really usable without this extra layer of instruction.",
+          "start": 53.38,
+          "end": 69.2
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fully functioning",
+          "ko": "완전히 제대로 작동하는",
+          "type": "phrase"
+        },
+        {
+          "term": "a layer of instruction",
+          "ko": "한 겹의 추가 설명·안내",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 69.83,
+      "end": 85.05,
+      "lines": [
+        {
+          "text": "And I've come to see the makers of the signs as designers.",
+          "start": 69.83,
+          "end": 74.34
+        },
+        {
+          "text": "They're coming in after the work of the original design team, to make it so that you can actually do the thing that you're trying to do, in this case, unlock a door.",
+          "start": 74.87,
+          "end": 85.05
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come to see ... as",
+          "ko": "~을 …로 여기게 되다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 86.72,
+      "end": 92.96,
+      "lines": [
+        {
+          "text": "Sometimes these signs are kind of subtle.",
+          "start": 86.72,
+          "end": 90.45
+        },
+        {
+          "text": "You just know what to do.",
+          "start": 90.49,
+          "end": 92.96
+        }
+      ],
+      "glossary": [
+        {
+          "term": "subtle",
+          "ko": "미묘한, 알 듯 말 듯한",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 94.79,
+      "end": 103.6,
+      "lines": [
+        {
+          "text": "Other times ...",
+          "start": 94.79,
+          "end": 96.16
+        },
+        {
+          "text": "This sign is actually helping us think.",
+          "start": 100.73,
+          "end": 103.6
+        }
+      ]
+    },
+    {
+      "start": 104.14,
+      "end": 112.58,
+      "lines": [
+        {
+          "text": "We have been so trained to see red as danger.",
+          "start": 104.14,
+          "end": 108.71
+        },
+        {
+          "text": "Thankfully, here, someone is letting us know it is just a light switch.",
+          "start": 108.74,
+          "end": 112.58
+        }
+      ]
+    },
+    {
+      "start": 113.81,
+      "end": 122.52,
+      "lines": [
+        {
+          "text": "I think of myself as almost like an anthropologist in the world of everyday instructions.",
+          "start": 113.81,
+          "end": 120.92
+        },
+        {
+          "text": "I am obsessed.",
+          "start": 120.95,
+          "end": 122.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "anthropologist",
+          "ko": "인류학자",
+          "type": "word"
+        },
+        {
+          "term": "obsessed",
+          "ko": "푹 빠진, 집착하는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 123.52,
+      "end": 132.26,
+      "lines": [
+        {
+          "text": "I have hundreds and hundreds of photographs like this.",
+          "start": 123.52,
+          "end": 128.19
+        },
+        {
+          "text": "You've all seen signs like this.",
+          "start": 130.73,
+          "end": 132.26
+        }
+      ]
+    },
+    {
+      "start": 132.3,
+      "end": 137.64,
+      "lines": [
+        {
+          "text": "You've probably seen them already today.",
+          "start": 132.3,
+          "end": 135.4
+        },
+        {
+          "text": "Especially if you have paid for something.",
+          "start": 135.43,
+          "end": 137.64
+        }
+      ]
+    },
+    {
+      "start": 139.7,
+      "end": 157.49,
+      "lines": [
+        {
+          "text": "We have a very consistent issue -- with point of sale machines.",
+          "start": 139.7,
+          "end": 147.71
+        },
+        {
+          "text": "We also, as a group ...",
+          "start": 155.52,
+          "end": 157.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "point of sale machines",
+          "ko": "결제 단말기 (POS기)",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 160.56,
+      "end": 172.07,
+      "lines": [
+        {
+          "text": "Seem to really be struggling in the public bathroom.",
+          "start": 160.56,
+          "end": 164.4
+        },
+        {
+          "text": "An inexplicably large proportion of my photos were taken in a public bathroom.",
+          "start": 166.7,
+          "end": 172.07
+        }
+      ],
+      "glossary": [
+        {
+          "term": "inexplicably",
+          "ko": "설명할 수 없게, 영문 모르게",
+          "type": "word"
+        },
+        {
+          "term": "a large proportion of",
+          "ko": "~의 상당 부분",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 173.44,
+      "end": 184.68,
+      "lines": [
+        {
+          "text": "I could have done the entire talk using only public bathroom photos.",
+          "start": 173.44,
+          "end": 178.34
+        },
+        {
+          "text": "And I find this bewildering.",
+          "start": 182.11,
+          "end": 184.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bewildering",
+          "ko": "어리둥절하게 만드는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 188.69,
+      "end": 194.53,
+      "lines": [
+        {
+          "text": "Audience: Oh!",
+          "start": 188.69,
+          "end": 189.95
+        },
+        {
+          "text": "Kate Canales: But also weirdly delightful.",
+          "start": 191.59,
+          "end": 194.53
+        }
+      ]
+    },
+    {
+      "start": 198.86,
+      "end": 213.01,
+      "lines": [
+        {
+          "text": "A place that we all use, every day, still requires so much guidance.",
+          "start": 198.86,
+          "end": 206.44
+        },
+        {
+          "text": "This machine fills cups with water.",
+          "start": 210.14,
+          "end": 213.01
+        }
+      ]
+    },
+    {
+      "start": 213.48,
+      "end": 221.49,
+      "lines": [
+        {
+          "text": "That's all it does.",
+          "start": 213.48,
+          "end": 214.78
+        },
+        {
+          "text": "You would be forgiven for thinking it could do more, like send a fax or analyze a blood sample.",
+          "start": 214.81,
+          "end": 221.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "You would be forgiven for thinking",
+          "ko": "~라고 생각해도 무리가 아니다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 221.52,
+      "end": 232.4,
+      "lines": [
+        {
+          "text": "It has been so overdesigned, so slicked out.",
+          "start": 221.52,
+          "end": 226.42
+        },
+        {
+          "text": "Its function is not legible to us until someone made these signs.",
+          "start": 226.42,
+          "end": 232.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "slicked out",
+          "ko": "번지르르하게 꾸민",
+          "type": "phrase"
+        },
+        {
+          "term": "legible",
+          "ko": "(여기) 알아볼 수 있는, 이해되는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 233.8,
+      "end": 251.52,
+      "lines": [
+        {
+          "text": "When I started taking these photographs, I really was on a mission to document examples of bad design, the way it frustrates and interferes.",
+          "start": 233.8,
+          "end": 243.24
+        },
+        {
+          "text": "But I've become much more interested in preserving the signs as examples of ingenious human problem solving.",
+          "start": 243.87,
+          "end": 251.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "on a mission to",
+          "ko": "~하려는 사명을 띠고",
+          "type": "phrase"
+        },
+        {
+          "term": "ingenious",
+          "ko": "기발한, 독창적인",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 256.25,
+      "end": 262.83,
+      "lines": [
+        {
+          "text": "Not. Is not.",
+          "start": 256.25,
+          "end": 257.59
+        },
+        {
+          "text": "When we arrive on the scene, the sign is already here.",
+          "start": 258.92,
+          "end": 262.83
+        }
+      ]
+    },
+    {
+      "start": 263.36,
+      "end": 274.4,
+      "lines": [
+        {
+          "text": "But I love to imagine what was happening before there was a sign.",
+          "start": 263.36,
+          "end": 268.37
+        },
+        {
+          "text": "Visualize with me this scene before there was a sign.",
+          "start": 270.93,
+          "end": 274.4
+        }
+      ]
+    },
+    {
+      "start": 274.81,
+      "end": 285.02,
+      "lines": [
+        {
+          "text": "People are starting to congregate outside of this fourth-floor elevator that does not stop on the fourth floor.",
+          "start": 274.81,
+          "end": 281.41
+        },
+        {
+          "text": "Until someone fixed it with a sign.",
+          "start": 282.18,
+          "end": 285.02
+        }
+      ],
+      "glossary": [
+        {
+          "term": "congregate",
+          "ko": "모여들다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 288.79,
+      "end": 293.59,
+      "lines": [
+        {
+          "text": "Who hasn't?",
+          "start": 288.79,
+          "end": 289.95
+        },
+        {
+          "text": "Who hasn't backed into something that was closer than they thought it was?",
+          "start": 289.99,
+          "end": 293.59
+        }
+      ],
+      "glossary": [
+        {
+          "term": "back into something",
+          "ko": "(뒷걸음치다) ~에 부딪치다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 293.92,
+      "end": 309.04,
+      "lines": [
+        {
+          "text": "A sign would have been helpful.",
+          "start": 293.92,
+          "end": 295.83
+        },
+        {
+          "text": "Now when you are solving problems for humans and you yourself are human, sometimes it can be hard.",
+          "start": 301.37,
+          "end": 309.04
+        }
+      ]
+    },
+    {
+      "start": 309.07,
+      "end": 318.78,
+      "lines": [
+        {
+          "text": "And I have several examples of how hard sometimes it is to get this right.",
+          "start": 309.07,
+          "end": 314.81
+        },
+        {
+          "text": "Audience: Oh!",
+          "start": 316.61,
+          "end": 318.78
+        }
+      ]
+    },
+    {
+      "start": 321.42,
+      "end": 336.07,
+      "lines": [
+        {
+          "text": "[To lock, push Schlage button Turn to right (outside) Do not turn] KC: Sometimes you just don’t know which way to Schlage.",
+          "start": 321.42,
+          "end": 327.56
+        },
+        {
+          "text": "I think we have all been on this airport elevator.",
+          "start": 331.9,
+          "end": 336.07
+        }
+      ]
+    },
+    {
+      "start": 336.1,
+      "end": 339.8,
+      "lines": [
+        {
+          "text": "Metaphorically.",
+          "start": 336.1,
+          "end": 337.8
+        },
+        {
+          "text": "Where is the plane?",
+          "start": 338.3,
+          "end": 339.8
+        }
+      ]
+    },
+    {
+      "start": 345.14,
+      "end": 348.65,
+      "lines": [
+        {
+          "text": "Temporarily.",
+          "start": 345.14,
+          "end": 346.71
+        },
+        {
+          "text": "This is not temporary.",
+          "start": 347.04,
+          "end": 348.65
+        }
+      ]
+    },
+    {
+      "start": 355.12,
+      "end": 367.03,
+      "lines": [
+        {
+          "text": "OK.",
+          "start": 355.12,
+          "end": 356.35
+        },
+        {
+          "text": "Don't you love that there's someone out there who needs an entire recycling bin just for their champagne bottles?",
+          "start": 361.06,
+          "end": 367.03
+        }
+      ]
+    },
+    {
+      "start": 367.4,
+      "end": 375.31,
+      "lines": [
+        {
+          "text": "Good for them, good for them.",
+          "start": 367.4,
+          "end": 369.53
+        },
+        {
+          "text": "The reality is that most of the signs in my collection are as simple as this.",
+          "start": 370.2,
+          "end": 375.31
+        }
+      ]
+    },
+    {
+      "start": 375.87,
+      "end": 379.11,
+      "lines": [
+        {
+          "text": "Downstairs, upstairs.",
+          "start": 375.87,
+          "end": 377.41
+        },
+        {
+          "text": "It's almost invisible.",
+          "start": 377.44,
+          "end": 379.11
+        }
+      ]
+    },
+    {
+      "start": 380.24,
+      "end": 392.46,
+      "lines": [
+        {
+          "text": "The original design assignment here was not complex, but it still missed the mark.",
+          "start": 380.24,
+          "end": 385.98
+        },
+        {
+          "text": "And I think a version of this is always going to be true, we're all out here, designing experiences for one another.",
+          "start": 386.48,
+          "end": 392.46
+        }
+      ],
+      "glossary": [
+        {
+          "term": "missed the mark",
+          "ko": "핵심을 빗나가다, 기대에 못 미치다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 392.49,
+      "end": 398.83,
+      "lines": [
+        {
+          "text": "Sometimes we nail it, sometimes it is terrible.",
+          "start": 392.49,
+          "end": 395.43
+        },
+        {
+          "text": "Sometimes we need someone else to come in and put a layer over it.",
+          "start": 395.46,
+          "end": 398.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "nail it",
+          "ko": "멋지게 해내다, 딱 맞히다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 398.86,
+      "end": 409.24,
+      "lines": [
+        {
+          "text": "Make it OK.",
+          "start": 398.86,
+          "end": 400.13
+        },
+        {
+          "text": "Walking through a door should be very intuitive, but doors are an area where we still need a ton of support.",
+          "start": 401.93,
+          "end": 409.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "intuitive",
+          "ko": "직관적인",
+          "type": "word"
+        },
+        {
+          "term": "a ton of",
+          "ko": "엄청나게 많은",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 410.51,
+      "end": 422.09,
+      "lines": [
+        {
+          "text": "This is a reality that I actually find reassuring.",
+          "start": 410.51,
+          "end": 414.48
+        },
+        {
+          "text": "These \"push\" signs with their little scotch tape borders, the very fact that there are two of them.",
+          "start": 415.51,
+          "end": 422.09
+        }
+      ],
+      "glossary": [
+        {
+          "term": "reassuring",
+          "ko": "안심이 되는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 423.52,
+      "end": 428.19,
+      "lines": [
+        {
+          "text": "This is so tender to me.",
+          "start": 423.52,
+          "end": 425.76
+        },
+        {
+          "text": "This is so human.",
+          "start": 425.79,
+          "end": 428.19
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tender",
+          "ko": "(여기) 뭉클한, 따뜻한",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 429.66,
+      "end": 444.44,
+      "lines": [
+        {
+          "text": "No matter how you may feel about the advancement of technology in our everyday lives, these signs are evidence that we still need each other out here in the real world, to do some very basic things.",
+          "start": 429.66,
+          "end": 444.44
+        }
+      ]
+    },
+    {
+      "start": 445.88,
+      "end": 459.39,
+      "lines": [
+        {
+          "text": "The person who came before us took the time to leave some instructions to make sure that our experience is a little bit better than theirs.",
+          "start": 445.88,
+          "end": 454.55
+        },
+        {
+          "text": "And that is a sign of humanity that I am always happy to stumble upon.",
+          "start": 454.85,
+          "end": 459.39
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stumble upon",
+          "ko": "우연히 발견하다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 460.46,
+      "end": 461.63,
+      "lines": [
+        {
+          "text": "Thank you.",
+          "start": 460.46,
+          "end": 461.63
+        }
+      ]
+    }
+  ]
+}

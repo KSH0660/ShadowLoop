@@ -6,15 +6,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Shadow Loop is a YouTube English-shadowing web app. Users pick one of a curated set of videos and the app loops it in short, sentence-based segments (at most two sentences each) for repeat listening, shadowing, and memorization. Each segment shows its **real transcript** (English captions with timestamps), which stays fixed while the segment loops and reveals itself progressively over the repeats (see the reveal mechanic below). The UI is mobile-first and single-focus — built for glanceable phone use (e.g. driving, eating). The UI is in Korean; the shadowing content is English.
 
-The transcript data is produced by a **local build step** (`npm run build:transcripts`), committed to git, and shipped as a static JSON file — the deployed site never fetches captions at runtime. There is no framework, no runtime dependencies, no backend logic: vanilla JavaScript plus a static file server. It deploys as a pure static site (e.g. Vercel; see `vercel.json`). The app's job is curated/segmented looping, synced caption display, and playback-speed control — not voice recording (there is none).
+The transcript data is produced by a **local build step** (`npm run build:transcripts`), committed to git, and shipped as static JSON files (a small index plus one file per video) — the deployed site never fetches captions at runtime. There is no framework, no runtime dependencies, no backend logic: vanilla JavaScript plus a static file server. It deploys as a pure static site (e.g. Vercel; see `vercel.json`). The app's job is curated/segmented looping, synced caption display, and playback-speed control — not voice recording (there is none).
 
 ## Data pipeline (offline / admin)
 
 Runtime has no backend, so captions are pre-extracted:
 
 1. `videos.json` — the admin-managed list of curated videos (`id`, `tag`, optional `title`, optional `category`). Edit this to add/remove videos. `category` is the group label videos are bucketed under in the video-picker sheet (videos sharing the same string form one section, e.g. `"TED 강연"` vs `"예능 · 타블로"`); it defaults to `"기타"`.
-2. `npm run build:transcripts` runs `scripts/build-transcripts.mjs`: for each video it shells out to **`yt-dlp`** to download the English VTT captions, parses them into cleaned timestamped lines, merges caption cues into whole sentences (`mergeIntoSentences`), groups them into segments of at most two sentences, and writes `data/transcripts.json`.
-3. Commit both `videos.json` and `data/transcripts.json`. The app loads only `data/transcripts.json`.
+2. `npm run build:transcripts` runs `scripts/build-transcripts.mjs`: for each video it shells out to **`yt-dlp`** to download the English VTT captions, parses them into cleaned timestamped lines, merges caption cues into whole sentences (`mergeIntoSentences`), groups them into segments of at most two sentences, merges the hand-authored Korean glosses from `data/glossary.json` onto each segment, and writes the split runtime data: `data/index.json` (home list) plus one `data/v/<id>.json` per video. Per-video files for videos no longer built are deleted. `npm run build:glossary` (`--glossary-only`) re-applies `data/glossary.json` to the existing `data/v/*.json` files without re-downloading captions.
+3. Commit `videos.json`, `data/glossary.json`, `data/index.json`, and `data/v/`. The app loads only `data/index.json` and `data/v/<id>.json`.
 
 Requires `yt-dlp` on PATH (build-time only, not a runtime/npm dependency). Segment tuning constants (`SENTENCES_PER_SEG`, `MAX_SEG_SECONDS` — the latter both caps a segment's length and force-breaks a punctuation-less auto-caption run) live at the top of the build script.
 
@@ -26,7 +26,8 @@ The build script auto-detects caption format per video: manual/clean captions ar
 
 ```bash
 npm run dev               # start the server (node server.js) at http://localhost:4173
-npm run build:transcripts # regenerate data/transcripts.json from videos.json (needs yt-dlp)
+npm run build:transcripts # regenerate data/index.json + data/v/*.json from videos.json (needs yt-dlp)
+npm run build:glossary    # re-merge data/glossary.json into data/v/*.json (no download)
 npm run check             # node --check on server.js, app.js, and the build script (the only "test")
 PORT=3000 npm run dev     # override the port
 ```
@@ -37,12 +38,12 @@ There is no test suite, linter, or bundler. `npm run check` is the full verifica
 
 **`server.js`** — a static file server only (no API). `serveStatic` confines reads to the project root (path-normalization check) and sends `Cache-Control: no-store`. It exists for local dev (`npm run dev`); in production the static files are served directly (Vercel). All app logic lives in the client.
 
-**`data/transcripts.json`** — the generated runtime data: `{ generatedAt, videos: [{ id, url, title, tag, category, segments: [{ start, end, lines: [{ text, start, end }] }] }] }`. Do not hand-edit; regenerate via the build step.
+**`data/index.json`** + **`data/v/<id>.json`** — the generated runtime data, split so the first load stays small. `index.json` is only what the home list needs: `{ generatedAt, videos: [{ id, title, tag, category, segCount }] }`. Each `v/<id>.json` is `{ id, segments: [{ start, end, lines: [{ text, start, end }], glossary? }] }`. Do not hand-edit; regenerate via the build step (`vercel.json` serves both with `no-cache`, so a rebuild shows up immediately).
 
-**`app.js`** — the entire client. `init()` fetches `data/transcripts.json` into the module-level `videos` array, renders the video list, and loads the first video. It drives the YouTube IFrame Player API and a single mutable `state`; `render()` re-renders the caption, loop dots, segment position, and segment list from `state` (no virtual DOM — call `render()` after mutating state).
+**`app.js`** — the entire client. `init()` fetches `data/index.json` into the module-level `videos` array, renders the home list, and routes to the hash. A video's segments are fetched on open by `fetchSegments(video)` and cached on its index entry as `video.segments` (so anything that needs another video's segments must `await fetchSegments()` first; `segCount` from the index is enough for counts). `showDetail()` blanks the player state while a fetch is pending and uses `detailToken` so a slow fetch can't load over a newer navigation; `selectSegment()` prefetches the autoplay-next video when the last segment is reached. It drives the YouTube IFrame Player API and a single mutable `state`; `render()` re-renders the caption, loop dots, segment position, and segment list from `state` (no virtual DOM — call `render()` after mutating state).
 
 Key client mechanics:
-- `loadVideo(video)` sets up `state.segments` from the video's pre-built segments and points the player at the **resume** segment — the furthest one the user has reached before (or the first segment if it's new or was finished). There is no URL-paste / fallback path: only curated videos (they're the only ones with transcripts).
+- `loadVideo(video, jumpTo)` sets up `state.segments` from the video's (already fetched) segments and points the player at the **resume** segment — the furthest one the user has reached before (or the first segment if it's new or was finished). There is no URL-paste / fallback path: only curated videos (they're the only ones with transcripts).
 - **Watch progress** is the one persisted bit of state. `recordProgress()`/`getVideoProgress()` keep, per video, the furthest segment index reached in `localStorage` (key `shadowloop:v1:progress`; per device — there is no backend/account). It drives resume-on-reopen (`loadVideo`) and the YouTube-style red `.card-progress` bar on each home thumbnail. `selectSegment()` records the position (the value only ever increases); finishing a video leaves the bar full but restarts playback from the top.
 - The YouTube player uses `cc_load_policy: 0` (the in-player CC overlay is off — captions are rendered by our own panel instead).
 - **Progressive reveal** is the signature interaction. A segment loops while its caption reveals itself: the first listen is fully invisible, then the caption fades in (`--reveal` → `.caption` opacity) while blanked words (`.cap-word.is-hidden` redaction bars) uncover left-to-right, fully clear by the last repeat. The repeat count `state.target` scales with caption length and the **pace** mode (`segmentTarget()` + the `PACE` table: `slow` 3–10 reps, `fast` 2–4, chosen via the 학습 빠르게/천천히 toggle), shown as that many loop dots. The 👁 **peek** button force-shows the full caption while held (`state.peek`, honored by `applyReveal()`) without touching the loop count. There is no plain/fade/cloze or manual repeat toggle.

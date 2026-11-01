@@ -1,0 +1,1118 @@
+{
+  "id": "vNszDZDi6Xg",
+  "segments": [
+    {
+      "start": 0.36,
+      "end": 3.8,
+      "lines": [
+        {
+          "text": "Hey there, neighbor.",
+          "start": 0.36,
+          "end": 1.48
+        },
+        {
+          "text": "Oh, hey, it's Asher, right?",
+          "start": 1.72,
+          "end": 3.8
+        }
+      ]
+    },
+    {
+      "start": 3.84,
+      "end": 5.96,
+      "lines": [
+        {
+          "text": "Yeah.",
+          "start": 3.84,
+          "end": 4.34
+        },
+        {
+          "text": "Um, I just wanted to let you know.",
+          "start": 4.34,
+          "end": 5.96
+        }
+      ],
+      "glossary": [
+        {
+          "term": "let you know",
+          "ko": "알려주다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 5.97,
+      "end": 8.37,
+      "lines": [
+        {
+          "text": "I think there might be something wrong with your air conditioner.",
+          "start": 5.97,
+          "end": 7.64
+        },
+        {
+          "text": "Oh, really?",
+          "start": 7.68,
+          "end": 8.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "there might be something wrong with",
+          "ko": "~에 뭔가 문제가 있는 것 같다",
+          "type": "phrase",
+          "easy": "~가 고장 났거나 이상한 것 같다고 조심스럽게 말하는 표현.",
+          "when": "남의 물건이나 상태에 문제가 보일 때 부드럽게 말할 때."
+        }
+      ]
+    },
+    {
+      "start": 8.37,
+      "end": 15.48,
+      "lines": [
+        {
+          "text": "Yeah. I mean, it just seems to be running a lot, even when it's, uh, kind of cool outside.",
+          "start": 8.37,
+          "end": 12
+        },
+        {
+          "text": "Oh, no. No. Um, my partner runs a little hot so.",
+          "start": 12.04,
+          "end": 15.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "runs a little hot",
+          "ko": "체온이 좀 높은 편이다",
+          "type": "phrase",
+          "easy": "사람이 평소에 더위를 잘 타거나 몸이 따뜻한 편이라는 말.",
+          "nuance": "기계가 'run a lot(많이 돌다)'과 말장난처럼 이어지는 표현이라 웃음 포인트.",
+          "tip": "run이 '작동하다/움직이다'라는 뜻이라 'run hot'은 '뜨겁게 돌아가다'."
+        }
+      ]
+    },
+    {
+      "start": 15.48,
+      "end": 21.24,
+      "lines": [
+        {
+          "text": "Not as hot as our planet.",
+          "start": 15.48,
+          "end": 16.6
+        },
+        {
+          "text": "Sorry. I don't mean to be that guy. It's just, um, we're all in this together.",
+          "start": 17.48,
+          "end": 21.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "that guy",
+          "ko": "(눈치 없이 잔소리하는) 그런 사람",
+          "type": "idiom",
+          "easy": "분위기 깨고 따지거나 설교하는, 모두가 싫어하는 부류의 사람.",
+          "nuance": "'I don't mean to be that guy'는 '잔소리꾼처럼 굴려는 건 아닌데'라는 미안함 섞인 표현.",
+          "when": "지적이나 충고를 꺼내기 전에 미리 양해를 구할 때.",
+          "ex": "I don't mean to be that guy, but you parked in my spot.",
+          "exKo": "이런 말 하기 싫지만, 네가 내 자리에 주차했어."
+        },
+        {
+          "term": "we're all in this together",
+          "ko": "우리 모두 한배를 탄 거다",
+          "type": "idiom",
+          "easy": "같은 문제를 함께 겪고 있으니 같이 노력하자는 뜻.",
+          "when": "공동의 문제(환경 등)를 두고 협력을 강조할 때."
+        }
+      ]
+    },
+    {
+      "start": 21.28,
+      "end": 26.24,
+      "lines": [
+        {
+          "text": "Yeah, I drive a Prius, so.",
+          "start": 21.28,
+          "end": 23.16
+        },
+        {
+          "text": "And that's a nice little gesture. My car runs on reclaimed cooking oil.",
+          "start": 23.2,
+          "end": 26.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "gesture",
+          "ko": "(마음을 보여주는) 행동, 제스처",
+          "type": "word",
+          "easy": "말이 아니라 행동으로 보여주는 작은 성의나 표시.",
+          "ex": "Bringing flowers was a sweet gesture.",
+          "exKo": "꽃을 가져온 건 다정한 표시였다."
+        },
+        {
+          "term": "reclaimed cooking oil",
+          "ko": "재활용한 식용유",
+          "type": "phrase",
+          "easy": "쓰고 버린 기름을 다시 모아 연료로 쓴 것.",
+          "tip": "reclaimed는 '버려진 걸 되살려 다시 쓴'이라는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 26.56,
+      "end": 29.08,
+      "lines": [
+        {
+          "text": "I have some literature if you want it.",
+          "start": 26.56,
+          "end": 27.64
+        },
+        {
+          "text": "That's okay. Save the paper.",
+          "start": 27.64,
+          "end": 29.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "literature",
+          "ko": "(홍보용) 인쇄물, 자료",
+          "type": "word",
+          "easy": "여기서는 '문학'이 아니라 나눠주는 안내 책자나 전단지를 뜻함.",
+          "nuance": "기본 뜻은 '문학'이지만, 이 맥락에선 광고·홍보 인쇄물.",
+          "when": "캠페인·제품 안내 자료를 가리킬 때."
+        },
+        {
+          "term": "Save the paper",
+          "ko": "종이 아껴라 (됐어요)",
+          "type": "phrase",
+          "easy": "종이 낭비하지 말라며 정중히 거절하는 말."
+        }
+      ]
+    },
+    {
+      "start": 29.28,
+      "end": 33,
+      "lines": [
+        {
+          "text": "I haven't printed anything since 2004. I was going to email you.",
+          "start": 29.28,
+          "end": 31.76
+        },
+        {
+          "text": "In your power hungry computer?",
+          "start": 31.8,
+          "end": 33
+        }
+      ],
+      "glossary": [
+        {
+          "term": "power hungry",
+          "ko": "전기를 많이 잡아먹는",
+          "type": "phrase",
+          "easy": "에너지를 아주 많이 쓰는.",
+          "nuance": "사람한테 쓰면 '권력에 굶주린'이지만, 여기선 기계가 전기를 많이 먹는다는 뜻.",
+          "tip": "hungry for ~ = ~을 몹시 원하는. power hungry = 전력을 몹시 원하는."
+        }
+      ]
+    },
+    {
+      "start": 33,
+      "end": 37.12,
+      "lines": [
+        {
+          "text": "My entire house is solar powered.",
+          "start": 33,
+          "end": 34.44
+        },
+        {
+          "text": "I sell energy back to the grid and use that money to save polar bears.",
+          "start": 34.6,
+          "end": 37.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sell energy back to the grid",
+          "ko": "전력망에 전기를 되팔다",
+          "type": "phrase",
+          "easy": "내가 만든 태양광 전기를 전력 회사에 다시 팔다.",
+          "tip": "the grid = 전력망(전기 공급 네트워크)."
+        }
+      ]
+    },
+    {
+      "start": 37.7,
+      "end": 42.41,
+      "lines": [
+        {
+          "text": "I'm an environmental lawyer, so you know I'm pretty green.",
+          "start": 37.7,
+          "end": 40.2
+        },
+        {
+          "text": "So is your lawn.",
+          "start": 40.6,
+          "end": 42.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "green",
+          "ko": "환경 친화적인",
+          "type": "word",
+          "easy": "여기서 green은 색이 아니라 '환경을 생각하는, 친환경적인'.",
+          "nuance": "이 영상 전체의 말장난 핵심 단어 — 친환경 / 잔디(green lawn) / 미숙함 등으로 계속 비틀어 씀.",
+          "when": "친환경 생활·제품·사람을 말할 때."
+        }
+      ]
+    },
+    {
+      "start": 43,
+      "end": 50.24,
+      "lines": [
+        {
+          "text": "I went drought tolerant. Succulents, indigenous plants, rock garden.",
+          "start": 43,
+          "end": 46.48
+        },
+        {
+          "text": "My other daddy says your yard looks like a litter box.",
+          "start": 47.04,
+          "end": 50.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "drought tolerant",
+          "ko": "가뭄에 강한 (식물)",
+          "type": "phrase",
+          "easy": "물이 적어도 잘 자라는 식물.",
+          "tip": "tolerant = 잘 견디는. drought = 가뭄."
+        },
+        {
+          "term": "litter box",
+          "ko": "고양이 화장실 (모래통)",
+          "type": "word",
+          "easy": "고양이가 볼일 보는 모래 담긴 통. 마당이 그처럼 지저분해 보인다는 농담."
+        }
+      ]
+    },
+    {
+      "start": 50.8,
+      "end": 58,
+      "lines": [
+        {
+          "text": "It's a cute kid. I remember when she was in disposable diapers.",
+          "start": 50.8,
+          "end": 53.92
+        },
+        {
+          "text": "Special dollhouse delivery for Lily.",
+          "start": 55.84,
+          "end": 58
+        }
+      ],
+      "glossary": [
+        {
+          "term": "disposable diapers",
+          "ko": "일회용 기저귀",
+          "type": "phrase",
+          "easy": "한 번 쓰고 버리는 기저귀.",
+          "tip": "disposable = 한 번 쓰고 버리는."
+        }
+      ]
+    },
+    {
+      "start": 58.04,
+      "end": 60.72,
+      "lines": [
+        {
+          "text": "It's here! it's here!",
+          "start": 58.04,
+          "end": 58.92
+        },
+        {
+          "text": "I think you're going to love it.",
+          "start": 59.24,
+          "end": 60.72
+        }
+      ]
+    },
+    {
+      "start": 60.72,
+      "end": 64.08,
+      "lines": [
+        {
+          "text": "I spent so many hours playing with this when I was your age.",
+          "start": 60.72,
+          "end": 62.92
+        },
+        {
+          "text": "Yeah, me too.",
+          "start": 63.04,
+          "end": 64.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "when I was your age",
+          "ko": "내가 네 나이였을 때",
+          "type": "phrase",
+          "easy": "어른이 아이에게 옛날 자기 어릴 적 이야기를 꺼낼 때 쓰는 말."
+        }
+      ]
+    },
+    {
+      "start": 64.34,
+      "end": 66.16,
+      "lines": [
+        {
+          "text": "Hey, quick, turn off your car.",
+          "start": 64.34,
+          "end": 65.32
+        },
+        {
+          "text": "Why? It's in park.",
+          "start": 65.36,
+          "end": 66.16
+        }
+      ]
+    },
+    {
+      "start": 66.16,
+      "end": 68.56,
+      "lines": [
+        {
+          "text": "I think.",
+          "start": 66.16,
+          "end": 66.67
+        },
+        {
+          "text": "I have a judgy green neighbor.",
+          "start": 66.67,
+          "end": 68.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "judgy",
+          "ko": "남을 잘 판단(평가)하는, 따지는",
+          "type": "word",
+          "easy": "남을 자꾸 비판하고 흠잡는 성격.",
+          "nuance": "judge에서 온 구어체 단어로, '잘난 척하며 남 평가하는' 부정적 느낌.",
+          "when": "은근히 남을 깔보거나 비판하는 사람을 욕할 때."
+        }
+      ]
+    },
+    {
+      "start": 68.6,
+      "end": 73.34,
+      "lines": [
+        {
+          "text": "He had the nerve to come over here and tell me that I'm not green enough.",
+          "start": 68.6,
+          "end": 71.62
+        },
+        {
+          "text": "Shut up! You're super green.",
+          "start": 71.66,
+          "end": 73.34
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have the nerve to",
+          "ko": "뻔뻔하게 ~하다",
+          "type": "idiom",
+          "easy": "그럴 자격도 없으면서 염치없이 ~하다.",
+          "nuance": "황당하고 화날 정도로 무례하게 굴 때 쓰는 표현.",
+          "when": "상대의 무례함에 어이없어할 때.",
+          "ex": "He had the nerve to ask me for money again.",
+          "exKo": "걔는 뻔뻔하게 또 나한테 돈을 빌려달라더라.",
+          "tip": "nerve에는 '용기/배짱'과 '뻔뻔함' 두 뜻이 있어요."
+        },
+        {
+          "term": "Shut up!",
+          "ko": "에이, 설마! / 말도 안 돼!",
+          "type": "idiom",
+          "easy": "여기선 '닥쳐'가 아니라 놀라움·반가움의 감탄.",
+          "nuance": "좋은 소식이나 칭찬에 '진짜?! 말도 안 돼!' 하고 반응하는 캐주얼한 말.",
+          "when": "친구끼리 놀라거나 들떴을 때.",
+          "tip": "톤이 핵심 — 화내는 게 아니라 반가워하는 감탄이에요."
+        }
+      ]
+    },
+    {
+      "start": 73.38,
+      "end": 77.34,
+      "lines": [
+        {
+          "text": "Thank you. I'm recycling a dollhouse.",
+          "start": 73.38,
+          "end": 75.7
+        },
+        {
+          "text": "I even recycled a child.",
+          "start": 75.83,
+          "end": 77.34
+        }
+      ],
+      "glossary": [
+        {
+          "term": "recycle",
+          "ko": "재활용하다",
+          "type": "word",
+          "easy": "버릴 걸 다시 쓰다. 여기선 '아이까지 재활용했다'는 농담으로 비틀어 씀."
+        }
+      ]
+    },
+    {
+      "start": 77.38,
+      "end": 82.94,
+      "lines": [
+        {
+          "text": "Didn't you win some award?",
+          "start": 77.38,
+          "end": 78.38
+        },
+        {
+          "text": "Yes, yes. The State Bar Association award for sustained excellence in the field of environmental...",
+          "start": 78.42,
+          "end": 82.94
+        }
+      ]
+    },
+    {
+      "start": 82.98,
+      "end": 84.34,
+      "lines": [
+        {
+          "text": "Yeah, yeah, yeah. That's the one.",
+          "start": 82.98,
+          "end": 83.79
+        },
+        {
+          "text": "Law.",
+          "start": 83.79,
+          "end": 84.34
+        }
+      ]
+    },
+    {
+      "start": 84.62,
+      "end": 87.62,
+      "lines": [
+        {
+          "text": "There was one word left. You didn't have to cut me off.",
+          "start": 84.62,
+          "end": 86.54
+        },
+        {
+          "text": "Dollhouse, please.",
+          "start": 86.58,
+          "end": 87.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "cut me off",
+          "ko": "내 말을 끊다",
+          "type": "idiom",
+          "easy": "남이 말하는 도중에 끼어들어 말을 막다.",
+          "nuance": "운전 중 '끼어들다(차로 막다)'라는 뜻도 있어 상황에 따라 달라짐.",
+          "when": "대화 중 누가 내 말을 가로막았을 때.",
+          "ex": "Sorry to cut you off, but we're out of time.",
+          "exKo": "말 끊어서 미안한데, 시간이 다 됐어요."
+        }
+      ]
+    },
+    {
+      "start": 87.66,
+      "end": 90.82,
+      "lines": [
+        {
+          "text": "Okay, okay.",
+          "start": 87.66,
+          "end": 88.64
+        },
+        {
+          "text": "You know what you should do?",
+          "start": 89.71,
+          "end": 90.82
+        }
+      ]
+    },
+    {
+      "start": 91.02,
+      "end": 95.94,
+      "lines": [
+        {
+          "text": "March right over there and wave that trophy in his stupid eco face.",
+          "start": 91.02,
+          "end": 94.58
+        },
+        {
+          "text": "No. You think?",
+          "start": 94.62,
+          "end": 95.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "march right over there",
+          "ko": "곧장 당당하게 걸어가다",
+          "type": "phrase",
+          "easy": "망설이지 말고 씩씩하게 그쪽으로 가다.",
+          "nuance": "march는 군인처럼 단호하게 걷는 느낌 — '기세 좋게 쳐들어가라'.",
+          "when": "누군가에게 따지러 가라고 부추길 때."
+        },
+        {
+          "term": "wave that trophy in his ... face",
+          "ko": "트로피를 그의 얼굴에 들이대며 과시하다",
+          "type": "idiom",
+          "easy": "자랑거리를 상대 코앞에서 흔들며 약 올리다.",
+          "nuance": "'in your face'는 대놓고 과시하거나 약 올리는 느낌.",
+          "when": "이겼다고 상대 앞에서 보란 듯이 자랑할 때."
+        }
+      ]
+    },
+    {
+      "start": 96.18,
+      "end": 101.6,
+      "lines": [
+        {
+          "text": "Yes. Those people are so annoying.",
+          "start": 96.18,
+          "end": 97.86
+        },
+        {
+          "text": "There's this girl at my school who was all over me about my boots 'cause they're leather.",
+          "start": 97.9,
+          "end": 101.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "all over me about",
+          "ko": "~에 대해 나를 들들 볶다",
+          "type": "idiom",
+          "easy": "한 가지 일로 나를 계속 따지고 잔소리하다.",
+          "nuance": "be all over someone = 끈질기게 들러붙어 잔소리/비난하다.",
+          "when": "누가 한 가지로 계속 시비를 걸 때.",
+          "ex": "My boss was all over me about the late report.",
+          "exKo": "상사가 늦은 보고서 때문에 나를 계속 닦달했다."
+        }
+      ]
+    },
+    {
+      "start": 101.68,
+      "end": 106.06,
+      "lines": [
+        {
+          "text": "Meanwhile, she's wearing crocs, like those aren't endangered.",
+          "start": 101.68,
+          "end": 104.46
+        },
+        {
+          "text": "You know what? I am gonna do that.",
+          "start": 104.62,
+          "end": 106.06
+        }
+      ],
+      "glossary": [
+        {
+          "term": "endangered",
+          "ko": "멸종 위기의",
+          "type": "word",
+          "easy": "거의 사라질 위험에 처한 (동물 등). 여기선 크록스(신발)를 멸종위기종에 빗댄 농담."
+        }
+      ]
+    },
+    {
+      "start": 106.3,
+      "end": 109.62,
+      "lines": [
+        {
+          "text": "Show him to outgreen me. Okay.",
+          "start": 106.3,
+          "end": 108.94
+        },
+        {
+          "text": "Oh, no.",
+          "start": 109.14,
+          "end": 109.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "outgreen me",
+          "ko": "나보다 더 친환경적인 척하다 (나를 친환경으로 이기다)",
+          "type": "phrase",
+          "easy": "out- + green을 붙여 만든 말장난 — '나보다 더 green한 척하다'.",
+          "tip": "out- 접두사는 '~보다 더 잘하다/능가하다' (outrun = 더 빨리 달리다)."
+        }
+      ]
+    },
+    {
+      "start": 109.62,
+      "end": 113.49,
+      "lines": [
+        {
+          "text": "Oh, no!",
+          "start": 109.62,
+          "end": 110.12
+        },
+        {
+          "text": "All right, those are blowing into his yard. That is... That's definitely gonna hurt my case.",
+          "start": 110.14,
+          "end": 113.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hurt my case",
+          "ko": "내 입장(주장)에 불리하게 작용하다",
+          "type": "idiom",
+          "easy": "내가 옳다고 주장하던 입장을 더 나쁘게 만들다.",
+          "nuance": "case는 '주장·논리'. 변호사 캐릭터라 법정 용어로 농담함.",
+          "when": "내 주장에 흠집이 나는 상황일 때."
+        }
+      ]
+    },
+    {
+      "start": 113.49,
+      "end": 116.58,
+      "lines": [
+        {
+          "text": "Uh, you pick these up. I'm gonna go get the trophy.",
+          "start": 113.49,
+          "end": 115.7
+        },
+        {
+          "text": "Lily help her.",
+          "start": 115.7,
+          "end": 116.58
+        }
+      ]
+    },
+    {
+      "start": 116.62,
+      "end": 120.41,
+      "lines": [
+        {
+          "text": "I heard that recycled child comment.",
+          "start": 116.62,
+          "end": 118.82
+        },
+        {
+          "text": "He's not home.",
+          "start": 119.36,
+          "end": 120.41
+        }
+      ]
+    },
+    {
+      "start": 121.23,
+      "end": 124.42,
+      "lines": [
+        {
+          "text": "How's the cleanup going?",
+          "start": 121.23,
+          "end": 122.34
+        },
+        {
+          "text": "Well, I think I got most of them.",
+          "start": 122.58,
+          "end": 124.42
+        }
+      ]
+    },
+    {
+      "start": 124.46,
+      "end": 128.42,
+      "lines": [
+        {
+          "text": "You've been at this a while. How can you only have like eight peanuts?",
+          "start": 124.46,
+          "end": 126.9
+        },
+        {
+          "text": "Instead of carrying them around.",
+          "start": 126.94,
+          "end": 128.42
+        }
+      ],
+      "glossary": [
+        {
+          "term": "been at this a while",
+          "ko": "이걸 한참 동안 하고 있다",
+          "type": "idiom",
+          "easy": "어떤 일을 꽤 오래 붙잡고 있다.",
+          "nuance": "be at it = (그 일을) 계속 하고 있다.",
+          "when": "누가 같은 일을 오래 하고 있을 때."
+        }
+      ]
+    },
+    {
+      "start": 128.42,
+      "end": 134.54,
+      "lines": [
+        {
+          "text": "I made a huge pile right over....again!?",
+          "start": 128.42,
+          "end": 132.22
+        },
+        {
+          "text": "Geez. They're everywhere. Oh, God.",
+          "start": 132.42,
+          "end": 134.54
+        }
+      ]
+    },
+    {
+      "start": 134.58,
+      "end": 138.61,
+      "lines": [
+        {
+          "text": "Oh, bird!",
+          "start": 134.58,
+          "end": 135.94
+        },
+        {
+          "text": "No! No! No! No! No! No!",
+          "start": 137.01,
+          "end": 138.61
+        }
+      ]
+    },
+    {
+      "start": 138.61,
+      "end": 143.2,
+      "lines": [
+        {
+          "text": "Oh, no! What is that smell? It smells like French fries.",
+          "start": 138.61,
+          "end": 141.76
+        },
+        {
+          "text": "Biodiesel. Can you plug it up?",
+          "start": 141.8,
+          "end": 143.2
+        }
+      ],
+      "glossary": [
+        {
+          "term": "plug it up",
+          "ko": "(구멍을) 막다",
+          "type": "phrase",
+          "easy": "새는 구멍을 막아서 멈추게 하다.",
+          "tip": "plug = 마개로 막다. plug up = 완전히 틀어막다."
+        }
+      ]
+    },
+    {
+      "start": 143.24,
+      "end": 148.08,
+      "lines": [
+        {
+          "text": "Oh. What? With what? Popcorn?",
+          "start": 143.24,
+          "end": 145
+        },
+        {
+          "text": "- Geez. Um, no! - This is a disaster!",
+          "start": 145.04,
+          "end": 148.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "disaster",
+          "ko": "엉망진창, 재앙",
+          "type": "word",
+          "easy": "일이 완전히 망해버린 상황.",
+          "ex": "The party was a total disaster.",
+          "exKo": "그 파티는 완전 엉망이었어."
+        }
+      ]
+    },
+    {
+      "start": 148.12,
+      "end": 150.32,
+      "lines": [
+        {
+          "text": "Save the seals!",
+          "start": 148.12,
+          "end": 149.24
+        },
+        {
+          "text": "What, what, what, what the hell?",
+          "start": 149.24,
+          "end": 150.32
+        }
+      ]
+    },
+    {
+      "start": 151.35,
+      "end": 155.14,
+      "lines": [
+        {
+          "text": "What did you do?",
+          "start": 151.35,
+          "end": 152
+        },
+        {
+          "text": "Uh, I won a green award.",
+          "start": 152.84,
+          "end": 155.14
+        }
+      ]
+    },
+    {
+      "start": 155.39,
+      "end": 163.23,
+      "lines": [
+        {
+          "text": "That's what.",
+          "start": 155.39,
+          "end": 155.96
+        },
+        {
+          "text": "Again, I am so sorry. I guess in retrospect, it was a little crazy that I wanted to show you my State Bar Association award. - Stop.",
+          "start": 156.64,
+          "end": 163.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in retrospect",
+          "ko": "돌이켜 보면",
+          "type": "idiom",
+          "easy": "지나고 나서 다시 생각해 보니.",
+          "nuance": "당시엔 몰랐는데 지금 보니 그랬다는 후회·반성 느낌.",
+          "when": "과거 행동을 뒤늦게 평가할 때.",
+          "ex": "In retrospect, I shouldn't have said that.",
+          "exKo": "돌이켜 보면, 그 말은 하지 말았어야 했어."
+        }
+      ]
+    },
+    {
+      "start": 163.64,
+      "end": 168.84,
+      "lines": [
+        {
+          "text": "And it's possible I come on a little too strong.",
+          "start": 163.64,
+          "end": 165.72
+        },
+        {
+          "text": "No, no, no. I like to think that I'm greener than I am.",
+          "start": 165.76,
+          "end": 168.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come on too strong",
+          "ko": "너무 들이대다, 지나치게 강하게 나가다",
+          "type": "idiom",
+          "easy": "상대가 부담스러울 만큼 너무 적극적으로 굴다.",
+          "nuance": "호감·주장·태도를 너무 세게 밀어붙여 상대를 질리게 함.",
+          "when": "처음부터 너무 들이대 부담을 줄 때.",
+          "ex": "He came on too strong on the first date.",
+          "exKo": "그는 첫 데이트에서 너무 들이댔다."
+        }
+      ]
+    },
+    {
+      "start": 168.84,
+      "end": 175.28,
+      "lines": [
+        {
+          "text": "But maybe I just want the credit without doing all the hard work that you do.",
+          "start": 168.84,
+          "end": 172.24
+        },
+        {
+          "text": "Well, you're right, it is hard, but, you know, it's also alienating.",
+          "start": 172.36,
+          "end": 175.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "want the credit",
+          "ko": "공(인정)을 차지하고 싶다",
+          "type": "phrase",
+          "easy": "잘했다는 칭찬·인정을 받고 싶다.",
+          "tip": "credit = (한 일에 대한) 인정·공로. take credit = 공을 차지하다."
+        },
+        {
+          "term": "alienating",
+          "ko": "(사람을) 멀어지게 하는, 소외시키는",
+          "type": "word",
+          "easy": "남들이 거리감을 느껴 멀어지게 만드는.",
+          "nuance": "alienate = 가깝던 사람을 등 돌리게 하다.",
+          "when": "어떤 태도 때문에 주변 사람이 떠나갈 때."
+        }
+      ]
+    },
+    {
+      "start": 175.32,
+      "end": 181.04,
+      "lines": [
+        {
+          "text": "You know, no one wants to be friends with me.",
+          "start": 175.32,
+          "end": 176.91
+        },
+        {
+          "text": "I can't tell you the last time I had people over for dinner, which is probably a good thing.",
+          "start": 176.91,
+          "end": 181.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have people over",
+          "ko": "사람들을 집에 초대하다",
+          "type": "idiom",
+          "easy": "손님을 우리 집으로 부르다.",
+          "nuance": "have ~ over = (집으로) 초대하다.",
+          "when": "집들이·저녁식사 등 집에 손님을 부를 때.",
+          "ex": "Let's have some friends over this weekend.",
+          "exKo": "이번 주말에 친구들 좀 집에 부르자."
+        }
+      ]
+    },
+    {
+      "start": 181.08,
+      "end": 184.3,
+      "lines": [
+        {
+          "text": "You know, with solar power, it takes four days to roast a chicken.",
+          "start": 181.08,
+          "end": 183.68
+        },
+        {
+          "text": "Really?",
+          "start": 183.8,
+          "end": 184.3
+        }
+      ]
+    },
+    {
+      "start": 184.32,
+      "end": 187.88,
+      "lines": [
+        {
+          "text": "If you want to cook all the way through, yeah.",
+          "start": 184.32,
+          "end": 186.01
+        },
+        {
+          "text": "You know, I had salmonella three times.",
+          "start": 186.52,
+          "end": 187.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "all the way through",
+          "ko": "속까지 완전히",
+          "type": "phrase",
+          "easy": "겉만이 아니라 안쪽까지 다.",
+          "when": "고기를 속까지 익히다 등 완전함을 강조할 때."
+        },
+        {
+          "term": "salmonella",
+          "ko": "살모넬라 (식중독균)",
+          "type": "word",
+          "easy": "덜 익힌 음식에서 생기는 식중독을 일으키는 세균."
+        }
+      ]
+    },
+    {
+      "start": 188.2,
+      "end": 189.05,
+      "lines": [
+        {
+          "text": "Wow.",
+          "start": 188.2,
+          "end": 188.6
+        },
+        {
+          "text": "Yeah.",
+          "start": 188.6,
+          "end": 189.05
+        }
+      ]
+    },
+    {
+      "start": 189.05,
+      "end": 193.24,
+      "lines": [
+        {
+          "text": "If you want to come over to our house for dinner? We kind of owe you.",
+          "start": 189.05,
+          "end": 191.28
+        },
+        {
+          "text": "You can play with my dollhouse.",
+          "start": 191.52,
+          "end": 193.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "owe you",
+          "ko": "너에게 신세를 졌다, 빚졌다",
+          "type": "idiom",
+          "easy": "고마운 일이 있어 갚아야 할 마음의 빚이 있다.",
+          "nuance": "꼭 돈이 아니라 '고마우니 보답할게'라는 뜻으로도 씀.",
+          "when": "신세 진 사람에게 보답하려 할 때.",
+          "ex": "Thanks for the help — I owe you one.",
+          "exKo": "도와줘서 고마워 — 내가 신세 졌네."
+        }
+      ]
+    },
+    {
+      "start": 193.49,
+      "end": 196.2,
+      "lines": [
+        {
+          "text": "Yeah?",
+          "start": 193.49,
+          "end": 194.06
+        },
+        {
+          "text": "Is it made from sustainable materials?",
+          "start": 194.72,
+          "end": 196.2
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sustainable materials",
+          "ko": "친환경(지속 가능한) 재료",
+          "type": "phrase",
+          "easy": "환경을 해치지 않고 오래 쓸 수 있게 만든 재료.",
+          "tip": "sustainable = 지속 가능한 (자원을 고갈시키지 않는)."
+        }
+      ]
+    },
+    {
+      "start": 196.39,
+      "end": 197.16,
+      "lines": [
+        {
+          "text": "Forget it.",
+          "start": 196.39,
+          "end": 197.16
+        }
+      ]
+    }
+  ]
+}

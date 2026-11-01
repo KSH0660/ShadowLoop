@@ -1,0 +1,904 @@
+{
+  "id": "nGuYas7G3q4",
+  "segments": [
+    {
+      "start": 3.9,
+      "end": 16.28,
+      "lines": [
+        {
+          "text": "During COVID, everyone was sequestered in their own corners of the world.",
+          "start": 3.9,
+          "end": 7.61
+        },
+        {
+          "text": "I had the strange fortune of being sequestered here, aboard the Ocean Explorer, one of the most advanced research vessels on the planet, filming a show for National Geographic.",
+          "start": 7.61,
+          "end": 16.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sequestered",
+          "ko": "격리된, 외부와 차단된",
+          "type": "word"
+        },
+        {
+          "term": "aboard",
+          "ko": "~을 타고, 승선하여",
+          "type": "word"
+        },
+        {
+          "term": "research vessel",
+          "ko": "연구선(연구용 배)",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 16.28,
+      "end": 25.76,
+      "lines": [
+        {
+          "text": "The ship was designed not just for research but also for storytelling.",
+          "start": 16.28,
+          "end": 19.68
+        },
+        {
+          "text": "My job was to travel the world and show people what exploration is like from the perspective of an engineer.",
+          "start": 19.72,
+          "end": 25.76
+        }
+      ],
+      "glossary": [
+        {
+          "term": "exploration",
+          "ko": "탐험, 탐사",
+          "type": "word"
+        },
+        {
+          "term": "from the perspective of",
+          "ko": "~의 관점에서",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 25.76,
+      "end": 32.36,
+      "lines": [
+        {
+          "text": "When I tell people this, they usually have three questions: What was it like?",
+          "start": 25.76,
+          "end": 29.73
+        },
+        {
+          "text": "What did you learn? And how did you get the job?",
+          "start": 29.76,
+          "end": 32.36
+        }
+      ]
+    },
+    {
+      "start": 32.4,
+      "end": 36.8,
+      "lines": [
+        {
+          "text": "I'll go backward.",
+          "start": 32.4,
+          "end": 33.73
+        },
+        {
+          "text": "I wasn't always a great engineer.",
+          "start": 34.37,
+          "end": 36.8
+        }
+      ]
+    },
+    {
+      "start": 36.83,
+      "end": 44.24,
+      "lines": [
+        {
+          "text": "I wasn't even a good student, I spent more time tinkering than doing homework.",
+          "start": 36.83,
+          "end": 40.54
+        },
+        {
+          "text": "But I love engineering, and that has led me on an incredible journey.",
+          "start": 40.57,
+          "end": 44.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tinkering",
+          "ko": "이것저것 만지작거리며 손보기",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 44.28,
+      "end": 62.73,
+      "lines": [
+        {
+          "text": "With friends, I built low-cost underwater robots designed to democratize exploration, and that democratization drew the attention of the show's producers.",
+          "start": 44.28,
+          "end": 52.68
+        },
+        {
+          "text": "You can watch the show to see what we discovered, but for me, the most powerful moments were seeing things that no one had ever seen before, using the tools that we had built.",
+          "start": 52.72,
+          "end": 62.73
+        }
+      ],
+      "glossary": [
+        {
+          "term": "democratize",
+          "ko": "누구나 할 수 있게 만들다",
+          "type": "word"
+        },
+        {
+          "term": "drew the attention of",
+          "ko": "~의 관심을 끌다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 63.69,
+      "end": 77.31,
+      "lines": [
+        {
+          "text": "In the Azores, we teamed up with Rui Peredo, [a] renowned whale biologist who spent decades studying sperm whales.",
+          "start": 63.69,
+          "end": 70.4
+        },
+        {
+          "text": "These giants can dive to over a mile deep to hunt, and we know very little about what they do when they're down there.",
+          "start": 70.43,
+          "end": 77.31
+        }
+      ],
+      "glossary": [
+        {
+          "term": "teamed up with",
+          "ko": "~와 팀을 이루다, 협력하다",
+          "type": "phrase"
+        },
+        {
+          "term": "renowned",
+          "ko": "저명한, 유명한",
+          "type": "word"
+        },
+        {
+          "term": "sperm whales",
+          "ko": "향유고래",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 77.34,
+      "end": 90.49,
+      "lines": [
+        {
+          "text": "So to find out, Rui had put together a very DIY tag.",
+          "start": 77.34,
+          "end": 80.74
+        },
+        {
+          "text": "He used a taken-apart action camera, it had a light, there was a radio beacon, and it had suction cups designed to stick to the whale for a few hours and then pop off and float to the surface.",
+          "start": 80.78,
+          "end": 90.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "put together",
+          "ko": "조립하다, 만들어내다",
+          "type": "phrase"
+        },
+        {
+          "term": "DIY tag",
+          "ko": "직접 만든 (고래) 추적 장치",
+          "type": "phrase"
+        },
+        {
+          "term": "radio beacon",
+          "ko": "무선 발신기",
+          "type": "word"
+        },
+        {
+          "term": "suction cups",
+          "ko": "흡착판",
+          "type": "phrase"
+        },
+        {
+          "term": "pop off",
+          "ko": "툭 떨어져 나오다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 90.52,
+      "end": 97.93,
+      "lines": [
+        {
+          "text": "It was very DIY, but even on an advanced research ship, building your own tools is often the way to get the information you need.",
+          "start": 90.52,
+          "end": 96.69
+        },
+        {
+          "text": "It barely worked.",
+          "start": 96.73,
+          "end": 97.93
+        }
+      ],
+      "glossary": [
+        {
+          "term": "barely",
+          "ko": "간신히, 가까스로",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 97.93,
+      "end": 106.64,
+      "lines": [
+        {
+          "text": "We had to spend nights soldering and improvising to try to get it going, and at like two in the morning, we finally got it going.",
+          "start": 97.93,
+          "end": 104
+        },
+        {
+          "text": "And while I overslept, Rui was already out on the boat.",
+          "start": 104.03,
+          "end": 106.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "soldering",
+          "ko": "납땜",
+          "type": "word"
+        },
+        {
+          "term": "improvising",
+          "ko": "임기응변으로 만들어내기",
+          "type": "word"
+        },
+        {
+          "term": "overslept",
+          "ko": "늦잠을 자다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 106.64,
+      "end": 115.05,
+      "lines": [
+        {
+          "text": "He placed the tag on a whale, and I remember him radioing back the tag was on.",
+          "start": 106.64,
+          "end": 110.31
+        },
+        {
+          "text": "OK, a huge amount of suspense: Would it ever come back to the surface, or would it flood with water?",
+          "start": 110.31,
+          "end": 115.05
+        }
+      ],
+      "glossary": [
+        {
+          "term": "suspense",
+          "ko": "긴장감, 마음 졸임",
+          "type": "word"
+        },
+        {
+          "term": "flood with water",
+          "ko": "물에 잠기다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 115.05,
+      "end": 118.32,
+      "lines": [
+        {
+          "text": "Would the battery die, would the camera work?",
+          "start": 115.05,
+          "end": 117.15
+        },
+        {
+          "text": "We had no idea.",
+          "start": 117.18,
+          "end": 118.32
+        }
+      ]
+    },
+    {
+      "start": 118.35,
+      "end": 123.82,
+      "lines": [
+        {
+          "text": "But it did come up, we found it.",
+          "start": 118.35,
+          "end": 119.88
+        },
+        {
+          "text": "We took it back to the ship, and fingers were crossed.",
+          "start": 119.92,
+          "end": 123.82
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fingers were crossed",
+          "ko": "행운을 빌었다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 123.85,
+      "end": 126.69,
+      "lines": [
+        {
+          "text": "Finally we opened it up.",
+          "start": 123.85,
+          "end": 125.39
+        },
+        {
+          "text": "There was no water inside.",
+          "start": 125.42,
+          "end": 126.69
+        }
+      ]
+    },
+    {
+      "start": 126.69,
+      "end": 136.67,
+      "lines": [
+        {
+          "text": "Oh my God, we pulled out the SD card and like, with bated breath, we put it in the computer and waited for the files to load.",
+          "start": 126.69,
+          "end": 133.23
+        },
+        {
+          "text": "And oh my God, we had footage from the back of a sperm whale.",
+          "start": 133.23,
+          "end": 136.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "with bated breath",
+          "ko": "숨죽이고, 마음 졸이며",
+          "type": "idiom"
+        },
+        {
+          "term": "footage",
+          "ko": "촬영 영상",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 138.47,
+      "end": 144.51,
+      "lines": [
+        {
+          "text": "Rui and I were losing it.",
+          "start": 138.47,
+          "end": 139.7
+        },
+        {
+          "text": "The first thing we saw was the whale's head and back as she descended into the bottom.",
+          "start": 139.74,
+          "end": 144.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "losing it",
+          "ko": "(흥분해서) 어쩔 줄 모르다",
+          "type": "idiom"
+        },
+        {
+          "term": "descended",
+          "ko": "내려가다, 하강하다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 144.54,
+      "end": 151.01,
+      "lines": [
+        {
+          "text": "You could hear the water rushing by as she swam faster and faster into the deep.",
+          "start": 144.54,
+          "end": 148.78
+        },
+        {
+          "text": "Particles rushed by the camera.",
+          "start": 148.78,
+          "end": 151.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "rushing by",
+          "ko": "빠르게 스쳐 지나가다",
+          "type": "phrase"
+        },
+        {
+          "term": "particles",
+          "ko": "입자, 작은 알갱이",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 151.05,
+      "end": 163.23,
+      "lines": [
+        {
+          "text": "And the water pressure was so immense from the speed that eventually the suction cups started to come loose.",
+          "start": 151.05,
+          "end": 156.45
+        },
+        {
+          "text": "I thought that was going to be it, we were going to lose it, but one suction cup miraculously held on, and it caused the tag to rotate backward.",
+          "start": 156.45,
+          "end": 163.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come loose",
+          "ko": "헐거워지다, 떨어지려 하다",
+          "type": "phrase"
+        },
+        {
+          "term": "that was going to be it",
+          "ko": "이제 끝이구나 싶었다",
+          "type": "idiom"
+        },
+        {
+          "term": "held on",
+          "ko": "버티며 떨어지지 않았다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 163.23,
+      "end": 174.77,
+      "lines": [
+        {
+          "text": "And now we could see the whale’s massive fluke, these can be 16 feet across on some whales, driving her into the depths.",
+          "start": 163.23,
+          "end": 169.63
+        },
+        {
+          "text": "And as it got deeper, we started hearing the camera’s microphone clicking.",
+          "start": 170.07,
+          "end": 174.77
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fluke",
+          "ko": "고래의 꼬리지느러미",
+          "type": "word"
+        },
+        {
+          "term": "the depths",
+          "ko": "깊은 바닷속",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 174.81,
+      "end": 177.47,
+      "lines": [
+        {
+          "text": "You guys hear that?",
+          "start": 174.81,
+          "end": 176.21
+        },
+        {
+          "text": "That is echolocation.",
+          "start": 176.24,
+          "end": 177.47
+        }
+      ],
+      "glossary": [
+        {
+          "term": "echolocation",
+          "ko": "반향정위(음파로 위치를 파악)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 177.47,
+      "end": 183.85,
+      "lines": [
+        {
+          "text": "That is the sound of the sperm whale hunting by listening for echoes bouncing off of prey.",
+          "start": 177.47,
+          "end": 182.18
+        },
+        {
+          "text": "I couldn't believe it.",
+          "start": 182.68,
+          "end": 183.85
+        }
+      ],
+      "glossary": [
+        {
+          "term": "echoes",
+          "ko": "메아리, 반향",
+          "type": "word"
+        },
+        {
+          "term": "bouncing off",
+          "ko": "~에 부딪혀 튕겨 나오다",
+          "type": "phrase"
+        },
+        {
+          "term": "prey",
+          "ko": "먹잇감",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 183.85,
+      "end": 191.89,
+      "lines": [
+        {
+          "text": "And it didn't seem like she caught anything that time.",
+          "start": 183.85,
+          "end": 186.42
+        },
+        {
+          "text": "But as she came shallower and the light grew brighter, we were just like, amazed at what we were seeing.",
+          "start": 186.42,
+          "end": 191.89
+        }
+      ],
+      "glossary": [
+        {
+          "term": "shallower",
+          "ko": "더 얕은",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 191.89,
+      "end": 196.13,
+      "lines": [
+        {
+          "text": "It didn't seem like this was possible.",
+          "start": 191.89,
+          "end": 193.72
+        },
+        {
+          "text": "And then we started hearing a different sound.",
+          "start": 193.76,
+          "end": 196.13
+        }
+      ]
+    },
+    {
+      "start": 196.16,
+      "end": 200.1,
+      "lines": [
+        {
+          "text": "It was a rapid series of clicks.",
+          "start": 196.16,
+          "end": 198.23
+        },
+        {
+          "text": "Dot dot dot, dot, that’s called codas.",
+          "start": 198.26,
+          "end": 200.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "codas",
+          "ko": "코다(향유고래의 의사소통 신호음)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 200.13,
+      "end": 205.64,
+      "lines": [
+        {
+          "text": "This is the way sperm whales use to communicate with each other.",
+          "start": 200.13,
+          "end": 203.33
+        },
+        {
+          "text": "So we were hearing her talking to another whale.",
+          "start": 203.37,
+          "end": 205.64
+        }
+      ]
+    },
+    {
+      "start": 205.67,
+      "end": 211.14,
+      "lines": [
+        {
+          "text": "We could not believe our ears, and then we couldn't believe our eyes.",
+          "start": 205.67,
+          "end": 209.81
+        },
+        {
+          "text": "Rui and I were losing it.",
+          "start": 209.84,
+          "end": 211.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "couldn't believe our ears",
+          "ko": "(들은 것이 믿기지 않아) 귀를 의심하다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 211.18,
+      "end": 218.22,
+      "lines": [
+        {
+          "text": "The other whale came into the shot, and they were talking back and forth.",
+          "start": 211.18,
+          "end": 215.15
+        },
+        {
+          "text": "They were swimming and bumping alongside each other for minutes.",
+          "start": 215.18,
+          "end": 218.22
+        }
+      ],
+      "glossary": [
+        {
+          "term": "back and forth",
+          "ko": "서로 주고받으며, 오가며",
+          "type": "idiom"
+        },
+        {
+          "term": "alongside",
+          "ko": "나란히, ~옆에서",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 218.25,
+      "end": 226.79,
+      "lines": [
+        {
+          "text": "We watched in disbelief ... this exchange of these two whales.",
+          "start": 218.25,
+          "end": 222.55
+        },
+        {
+          "text": "Friends, family, lovers, we can never know for sure.",
+          "start": 222.59,
+          "end": 226.79
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in disbelief",
+          "ko": "믿기지 않는 듯이",
+          "type": "phrase"
+        },
+        {
+          "term": "exchange",
+          "ko": "(의사를) 주고받음, 교류",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 226.82,
+      "end": 236.77,
+      "lines": [
+        {
+          "text": "But what we were witnessing was something no one had ever seen before.",
+          "start": 226.82,
+          "end": 230.49
+        },
+        {
+          "text": "I remember seeing the bond that they had with my eyes and also feeling it with my heart.",
+          "start": 230.53,
+          "end": 236.77
+        }
+      ],
+      "glossary": [
+        {
+          "term": "witnessing",
+          "ko": "목격하다",
+          "type": "word"
+        },
+        {
+          "term": "the bond",
+          "ko": "유대, 정서적 연결",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 238.6,
+      "end": 244.04,
+      "lines": [
+        {
+          "text": "The footage we had seen was not just data.",
+          "start": 238.6,
+          "end": 241.61
+        },
+        {
+          "text": "This was an experience of life.",
+          "start": 242.21,
+          "end": 244.04
+        }
+      ]
+    },
+    {
+      "start": 244.07,
+      "end": 249.98,
+      "lines": [
+        {
+          "text": "It was reminding me why exploration really matters.",
+          "start": 244.07,
+          "end": 246.48
+        },
+        {
+          "text": "It's not just about understanding the world with our logical minds.",
+          "start": 246.51,
+          "end": 249.98
+        }
+      ]
+    },
+    {
+      "start": 250.01,
+      "end": 262.09,
+      "lines": [
+        {
+          "text": "I believe exploration has huge potential to allow us to experience things with emotion and feel the context of why we’re here on Earth.",
+          "start": 250.01,
+          "end": 257.52
+        },
+        {
+          "text": "We saw that they even dive together, and that is really something that moved me.",
+          "start": 257.86,
+          "end": 262.09
+        }
+      ]
+    },
+    {
+      "start": 262.73,
+      "end": 272.5,
+      "lines": [
+        {
+          "text": "That one last dive [showed] that maybe it’s not even such a lonely place down there after all.",
+          "start": 262.73,
+          "end": 268.33
+        },
+        {
+          "text": "We are all here together, and that is something extremely powerful.",
+          "start": 268.37,
+          "end": 272.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "after all",
+          "ko": "결국, 어쨌든",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 273,
+      "end": 290.89,
+      "lines": [
+        {
+          "text": "So we are living in an era now where our tools can give us amazing ability to understand the world in ways never before possible.",
+          "start": 273,
+          "end": 281.01
+        },
+        {
+          "text": "The same advances that have put computers in our pockets and access to almost unlimited information on our screens can also allow us to explore in brand-new ways.",
+          "start": 281.01,
+          "end": 290.89
+        }
+      ],
+      "glossary": [
+        {
+          "term": "era",
+          "ko": "시대",
+          "type": "word"
+        },
+        {
+          "term": "advances",
+          "ko": "발전, 진보",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 291.79,
+      "end": 298.76,
+      "lines": [
+        {
+          "text": "Our tools no longer limit what we can understand.",
+          "start": 291.79,
+          "end": 295.39
+        },
+        {
+          "text": "It's more that our understanding is limited by curiosity.",
+          "start": 295.43,
+          "end": 298.76
+        }
+      ]
+    },
+    {
+      "start": 299.4,
+      "end": 303.83,
+      "lines": [
+        {
+          "text": "So the question isn’t what can we explore.",
+          "start": 299.4,
+          "end": 302.07
+        },
+        {
+          "text": "So much is already within our reach.",
+          "start": 302.1,
+          "end": 303.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "within our reach",
+          "ko": "손이 닿는 곳에, 이룰 수 있는",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 303.87,
+      "end": 308.57,
+      "lines": [
+        {
+          "text": "The real question is, what will we wonder about next?",
+          "start": 303.87,
+          "end": 307.37
+        },
+        {
+          "text": "Thank you very much.",
+          "start": 307.4,
+          "end": 308.57
+        }
+      ]
+    }
+  ]
+}

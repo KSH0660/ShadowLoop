@@ -1,0 +1,717 @@
+{
+  "id": "fcXip3xBtps",
+  "segments": [
+    {
+      "start": 0.92,
+      "end": 6.48,
+      "lines": [
+        {
+          "text": "Damn it! Jim!",
+          "start": 0.92,
+          "end": 2.58
+        },
+        {
+          "text": "Okay, hold on, hold on. Judge is in session. What is the problem here?",
+          "start": 2.58,
+          "end": 6.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hold on",
+          "ko": "잠깐만, 기다려",
+          "type": "phrase",
+          "easy": "말이나 행동을 잠시 멈추라고 할 때 쓰는 말",
+          "when": "누가 너무 빨리 말하거나, 흥분했을 때 진정시키며.",
+          "ex": "Hold on, let me finish my sentence.",
+          "exKo": "잠깐만, 내 말 좀 끝내자."
+        },
+        {
+          "term": "in session",
+          "ko": "(회의·재판이) 진행 중인",
+          "type": "phrase",
+          "easy": "법정이나 회의가 지금 열려서 진행되고 있다는 뜻",
+          "when": "재판·회의가 시작되었음을 알릴 때. 여기선 장난스럽게 '재판 시작'.",
+          "ex": "Please be quiet, the court is in session.",
+          "exKo": "조용히 하세요, 지금 재판 중입니다."
+        }
+      ]
+    },
+    {
+      "start": 7,
+      "end": 13.56,
+      "lines": [
+        {
+          "text": "He put my stuff in Jell-O again.",
+          "start": 7,
+          "end": 8.68
+        },
+        {
+          "text": "That's real professional. Thanks.",
+          "start": 11.92,
+          "end": 13.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "put ... in Jell-O",
+          "ko": "~을 젤리(젤로) 속에 넣다",
+          "type": "phrase",
+          "easy": "물건을 젤리 디저트 안에 넣어 굳혀버리는 장난",
+          "nuance": "Jell-O는 미국의 흔들리는 젤리 디저트 브랜드. 여기선 장난(prank) 도구.",
+          "when": "이 영상의 핵심 장난. 'put 사물 in Jell-O'로 '젤리에 가둬놓다'."
+        },
+        {
+          "term": "That's real professional",
+          "ko": "참 프로답네 (비꼬는 말)",
+          "type": "phrase",
+          "easy": "전혀 프로답지 않은데 일부러 반대로 칭찬하듯 비꼬는 말",
+          "nuance": "real을 강조어로 써서 비꼬는 느낌. 진짜 칭찬이 아니라 빈정거림.",
+          "when": "상대가 한심한 행동을 했을 때 비꼬듯.",
+          "ex": "You broke it and just left? That's real professional.",
+          "exKo": "부숴놓고 그냥 가버렸다고? 참 프로답네."
+        }
+      ]
+    },
+    {
+      "start": 13.6,
+      "end": 26.88,
+      "lines": [
+        {
+          "text": "This is the third time. And it wasn't funny the first two times, either, Jim. It's okay here. Uh, but people sometimes take advantage because it's so relaxed.",
+          "start": 13.6,
+          "end": 20.72
+        },
+        {
+          "text": "I'm a volunteer sheriff's deputy on the weekends, and you cannot screw around there.",
+          "start": 21.12,
+          "end": 26.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take advantage",
+          "ko": "(상황·사람을) 이용하다, 악용하다",
+          "type": "phrase",
+          "easy": "느슨한 분위기나 친절을 나쁘게 이용해먹다",
+          "nuance": "take advantage of something은 '기회를 잘 활용하다'도 되지만, 여기선 '편한 분위기를 악용하다'.",
+          "when": "분위기가 너무 편해서 사람들이 막 행동할 때.",
+          "ex": "Don't take advantage of his kindness.",
+          "exKo": "그의 친절을 이용해먹지 마.",
+          "tip": "take advantage of + 좋은 것 = 활용하다 / + 사람 = 이용해먹다(나쁜 뜻)."
+        },
+        {
+          "term": "screw around",
+          "ko": "장난치다, 빈둥거리다",
+          "type": "phrase",
+          "easy": "진지하게 안 하고 시간 낭비하거나 장난만 치다",
+          "nuance": "약간 거친 표현. '진지하게 안 하고 농땡이 부린다'는 느낌.",
+          "when": "일이나 의무를 안 하고 노닥거릴 때.",
+          "ex": "Stop screwing around and get to work.",
+          "exKo": "장난 그만 치고 일 좀 해."
+        }
+      ]
+    },
+    {
+      "start": 27.88,
+      "end": 31.36,
+      "lines": [
+        {
+          "text": "It's sort of one of the rules.",
+          "start": 27.88,
+          "end": 29.56
+        },
+        {
+          "text": "What is that? - It's my stapler.",
+          "start": 30.04,
+          "end": 31.36
+        }
+      ]
+    },
+    {
+      "start": 31.4,
+      "end": 38.08,
+      "lines": [
+        {
+          "text": "No, no no, no. Do not take it out.",
+          "start": 31.4,
+          "end": 33.84
+        },
+        {
+          "text": "You have to eat it out of there. Because there are starving people in the world and which I hate.",
+          "start": 33.88,
+          "end": 38.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take it out",
+          "ko": "그것을 꺼내다",
+          "type": "phrase",
+          "easy": "안에 들어 있는 물건을 밖으로 빼내다",
+          "tip": "take out은 '꺼내다' 외에 '음식 포장해 가다'의 뜻도 있음. 여기선 '꺼내다'."
+        },
+        {
+          "term": "eat it out of there",
+          "ko": "그 안에서 (그것을) 먹어서 꺼내다",
+          "type": "phrase",
+          "easy": "손으로 꺼내지 말고 젤리째 입으로 먹어서 빼라는 말",
+          "when": "장난으로 만든 상황을 더 우습게 만들 때."
+        },
+        {
+          "term": "starving",
+          "ko": "굶주린, 몹시 배고픈",
+          "type": "word",
+          "easy": "먹을 게 없어서 아주 심하게 배고픈 상태",
+          "vs": "hungry는 그냥 배고픈 것, starving은 굶어 죽을 만큼 심하게 배고픈 것.",
+          "ex": "I'm starving — let's eat now.",
+          "exKo": "나 너무 배고파, 지금 먹자."
+        }
+      ]
+    },
+    {
+      "start": 38.08,
+      "end": 42.44,
+      "lines": [
+        {
+          "text": "And it is a waste of that kind of.",
+          "start": 38.08,
+          "end": 39.8
+        },
+        {
+          "text": "Okay, you know what? You can be a witness. Can you reprimand him, please?",
+          "start": 39.84,
+          "end": 42.44
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a waste of",
+          "ko": "~의 낭비",
+          "type": "phrase",
+          "easy": "아깝게 버려지는 것, 쓸데없이 쓰는 것",
+          "ex": "Throwing food away is a waste of money.",
+          "exKo": "음식을 버리는 건 돈 낭비야."
+        },
+        {
+          "term": "witness",
+          "ko": "증인",
+          "type": "word",
+          "easy": "어떤 일을 직접 본 사람, 재판에서 증언하는 사람",
+          "when": "여기선 장난 재판 콘셉트라 농담으로 '증인 서달라'고."
+        },
+        {
+          "term": "reprimand",
+          "ko": "꾸짖다, 질책하다",
+          "type": "word",
+          "easy": "잘못한 사람을 윗사람이 공식적으로 혼내다",
+          "nuance": "그냥 화내는 게 아니라 좀 격식 있게 '징계하듯 혼낸다'는 느낌.",
+          "ex": "The boss reprimanded him for being late.",
+          "exKo": "상사가 지각한 그를 질책했다.",
+          "vs": "scold는 일상적으로 혼내다, reprimand는 더 공식적·진지하게 혼내다."
+        }
+      ]
+    },
+    {
+      "start": 44.68,
+      "end": 48.16,
+      "lines": [
+        {
+          "text": "How do you know it was me?",
+          "start": 44.68,
+          "end": 45.8
+        },
+        {
+          "text": "It's always you. Are you gonna discipline him or not?",
+          "start": 45.84,
+          "end": 48.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "discipline",
+          "ko": "(사람을) 징계하다, 벌주다",
+          "type": "word",
+          "easy": "잘못한 사람에게 벌을 주거나 단단히 단속하다",
+          "nuance": "명사로는 '규율·자제력'도 되지만, 여기선 동사로 '벌주다'.",
+          "when": "직장·학교에서 규칙 어긴 사람을 처벌할 때.",
+          "ex": "The school disciplined the students for cheating.",
+          "exKo": "학교는 부정행위를 한 학생들을 징계했다."
+        }
+      ]
+    },
+    {
+      "start": 48.2,
+      "end": 65.04,
+      "lines": [
+        {
+          "text": "Ooh. Discipline. Kinky. All right, here's the deal.",
+          "start": 48.2,
+          "end": 52.4
+        },
+        {
+          "text": "You guys think about a practical joke is that you have to know when to start, as well as when to stop. And, yeah, Jim, now is the time to stop putting Dwight's personal effects into jello.",
+          "start": 52.4,
+          "end": 65.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Kinky",
+          "ko": "변태적인, (성적으로) 야릇한",
+          "type": "word",
+          "easy": "보통과 다른, 좀 야한·변태스러운 것을 뜻하는 속어",
+          "nuance": "여기선 'discipline(벌주다)'을 야한 뜻으로 받아쳐서 농담한 것.",
+          "tip": "원래는 '꼬불꼬불한'이지만 구어로는 '성적으로 별난'이라는 뜻이 강함."
+        },
+        {
+          "term": "here's the deal",
+          "ko": "자, 이렇게 하자 / 상황은 이래",
+          "type": "phrase",
+          "easy": "본론을 꺼내거나 조건을 말할 때 쓰는 표현",
+          "when": "이제 핵심·결론을 말하겠다고 운을 뗄 때.",
+          "ex": "Okay, here's the deal: you clean up and I'll cook.",
+          "exKo": "자, 이렇게 하자. 너는 치우고 나는 요리할게."
+        },
+        {
+          "term": "practical joke",
+          "ko": "(행동으로 하는) 짓궂은 장난",
+          "type": "phrase",
+          "easy": "말이 아니라 실제 행동으로 골탕 먹이는 장난",
+          "vs": "joke는 말로 하는 농담, practical joke는 물건·행동으로 골탕 먹이는 장난.",
+          "ex": "Putting salt in the sugar jar is a classic practical joke.",
+          "exKo": "설탕통에 소금 넣기는 대표적인 짓궂은 장난이야."
+        },
+        {
+          "term": "personal effects",
+          "ko": "개인 소지품",
+          "type": "phrase",
+          "easy": "한 사람이 늘 지니는 자기 물건들 (지갑·열쇠 같은)",
+          "nuance": "effects가 '소지품'이라는 좀 격식 있는 뜻. 여기선 진지한 척하는 농담.",
+          "tip": "effect의 흔한 뜻은 '효과'지만, 복수 personal effects는 '소지품'."
+        }
+      ]
+    },
+    {
+      "start": 67.4,
+      "end": 78.22,
+      "lines": [
+        {
+          "text": "Okay, Dwight, I'm sorry, because I have always been your biggest \"flan\".",
+          "start": 67.4,
+          "end": 72.58
+        },
+        {
+          "text": "Nice. That's the way it is around here.",
+          "start": 75.02,
+          "end": 78.22
+        }
+      ],
+      "glossary": [
+        {
+          "term": "biggest \"flan\"",
+          "ko": "가장 큰 팬 (fan을 디저트 flan으로 비튼 말장난)",
+          "type": "phrase",
+          "easy": "'biggest fan(왕팬)'을 푸딩 비슷한 디저트 'flan'으로 바꾼 말장난",
+          "nuance": "젤리·디저트 주제라서 fan→flan으로 익살. 발음이 비슷해서 웃긴 것.",
+          "tip": "flan은 캐러멜 푸딩 같은 디저트. 여기선 fan(팬)과 발음 장난."
+        },
+        {
+          "term": "That's the way it is",
+          "ko": "원래 그런 거야, 어쩔 수 없어",
+          "type": "phrase",
+          "easy": "상황이 그냥 그렇다고, 받아들이라는 식의 말",
+          "when": "바꿀 수 없는 현실을 체념하듯 말할 때.",
+          "ex": "Life isn't always fair — that's the way it is.",
+          "exKo": "인생이 늘 공평하진 않아, 원래 그런 거야."
+        }
+      ]
+    },
+    {
+      "start": 78.26,
+      "end": 81.94,
+      "lines": [
+        {
+          "text": "Just kind of goes round and round.",
+          "start": 78.26,
+          "end": 79.62
+        },
+        {
+          "text": "You should have put him in custody.",
+          "start": 80.02,
+          "end": 81.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "goes round and round",
+          "ko": "돌고 돌다, 반복되다",
+          "type": "phrase",
+          "easy": "같은 일이 계속 돌아가며 반복된다는 뜻",
+          "when": "장난을 주고받는 일이 끝없이 반복될 때.",
+          "ex": "The same argument just goes round and round.",
+          "exKo": "똑같은 말다툼이 돌고 또 돈다."
+        },
+        {
+          "term": "put him in custody",
+          "ko": "그를 구금하다, 유치장에 넣다",
+          "type": "phrase",
+          "easy": "경찰이 사람을 잡아 가둬두는 것",
+          "nuance": "여기선 '보안관 놀이' 콘셉트라 농담으로 '체포했어야지'.",
+          "tip": "custody는 '구금' 외에 '(자녀) 양육권'의 뜻도 있음."
+        }
+      ]
+    },
+    {
+      "start": 81.98,
+      "end": 91.78,
+      "lines": [
+        {
+          "text": "Oh, hey. Yes. New guy scores.",
+          "start": 81.98,
+          "end": 86.22
+        },
+        {
+          "text": "Okay. That's great. I guess what I'm most concerned with is damage to company property.",
+          "start": 86.58,
+          "end": 91.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "scores",
+          "ko": "득점하다, 한 건 하다 / 성공하다",
+          "type": "word",
+          "easy": "점수를 따다, 즉 뭔가 잘 해내서 이득을 보다",
+          "nuance": "'New guy scores'는 '신입이 한 건 했네'처럼 칭찬·놀림.",
+          "ex": "He scored free tickets to the show.",
+          "exKo": "걔가 공짜 공연 티켓을 구했어."
+        },
+        {
+          "term": "concerned with",
+          "ko": "~을 걱정하다, ~에 신경 쓰다",
+          "type": "phrase",
+          "easy": "어떤 일을 마음 쓰며 걱정하다",
+          "tip": "concerned with = 관련되다 / concerned about = 걱정하다. 여기선 about에 가까운 뜻.",
+          "ex": "I'm most concerned with safety.",
+          "exKo": "나는 안전이 제일 걱정돼."
+        },
+        {
+          "term": "company property",
+          "ko": "회사 재산, 회사 물건",
+          "type": "phrase",
+          "easy": "회사 소유의 물건이나 장비",
+          "when": "회사 비품·기기를 망가뜨린 일을 따질 때."
+        }
+      ]
+    },
+    {
+      "start": 92.46,
+      "end": 99.74,
+      "lines": [
+        {
+          "text": "That's all.",
+          "start": 92.46,
+          "end": 93.02
+        },
+        {
+          "text": "Pudding.",
+          "start": 97.82,
+          "end": 99.74
+        }
+      ]
+    },
+    {
+      "start": 100.86,
+      "end": 103.7,
+      "lines": [
+        {
+          "text": "I'm trying to.",
+          "start": 100.86,
+          "end": 101.42
+        },
+        {
+          "text": "Think of another dessert to do.",
+          "start": 101.42,
+          "end": 103.7
+        }
+      ]
+    },
+    {
+      "start": 105.7,
+      "end": 111.82,
+      "lines": [
+        {
+          "text": "Do you like going out at the end of the week for a drink?",
+          "start": 105.7,
+          "end": 108.26
+        },
+        {
+          "text": "Yeah. That's why we're all going out.",
+          "start": 109.06,
+          "end": 111.82
+        }
+      ]
+    },
+    {
+      "start": 111.9,
+      "end": 114.5,
+      "lines": [
+        {
+          "text": "So we can have an end of the week drink.",
+          "start": 111.9,
+          "end": 113.42
+        },
+        {
+          "text": "When are we going out?",
+          "start": 113.78,
+          "end": 114.5
+        }
+      ]
+    },
+    {
+      "start": 114.54,
+      "end": 121.16,
+      "lines": [
+        {
+          "text": "I don't know, tonight. Hopefully. Okay.",
+          "start": 114.54,
+          "end": 116.26
+        },
+        {
+          "text": "Hey, man.",
+          "start": 120.5,
+          "end": 121.16
+        }
+      ]
+    },
+    {
+      "start": 121.16,
+      "end": 123.6,
+      "lines": [
+        {
+          "text": "Hey! - What's going on?",
+          "start": 121.16,
+          "end": 121.94
+        },
+        {
+          "text": "Hey.",
+          "start": 123.1,
+          "end": 123.6
+        }
+      ]
+    },
+    {
+      "start": 123.6,
+      "end": 134.9,
+      "lines": [
+        {
+          "text": "Uh, Roy is my fiancé.",
+          "start": 123.6,
+          "end": 124.74
+        },
+        {
+          "text": "We've been engaged about, um, about three years, and we were supposed to get married in September, but I think we're going to get married in the spring.",
+          "start": 125.18,
+          "end": 134.9
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fiancé",
+          "ko": "약혼자 (남자)",
+          "type": "word",
+          "easy": "결혼하기로 약속한 남자",
+          "vs": "fiancé는 남자 약혼자, fiancée(e 두 개)는 여자 약혼자. 발음은 같음.",
+          "tip": "프랑스어에서 온 단어라 끝에 강세 'fee-on-SAY'."
+        },
+        {
+          "term": "engaged",
+          "ko": "약혼한",
+          "type": "word",
+          "easy": "결혼하기로 약속한 상태",
+          "nuance": "be engaged = 약혼한 상태. get engaged = 약혼하게 되다.",
+          "tip": "engaged는 '바쁜·~하는 중인'의 뜻도 있지만, 결혼 얘기에선 '약혼한'."
+        },
+        {
+          "term": "be supposed to",
+          "ko": "~하기로 되어 있다",
+          "type": "phrase",
+          "easy": "원래 그렇게 하기로 예정되어 있었다는 뜻",
+          "nuance": "계획이나 약속이 있었음을 나타냄. 종종 '근데 못 했다'는 뉘앙스로 이어짐.",
+          "ex": "We were supposed to meet at six.",
+          "exKo": "우리 원래 6시에 만나기로 했었어."
+        }
+      ]
+    },
+    {
+      "start": 136.38,
+      "end": 142.48,
+      "lines": [
+        {
+          "text": "Do you mind if I go out for a drink with these guys?",
+          "start": 136.38,
+          "end": 138.7
+        },
+        {
+          "text": "Uh, no. Come on, let's get out of here.",
+          "start": 139.86,
+          "end": 142.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Do you mind if",
+          "ko": "~해도 괜찮을까요?",
+          "type": "phrase",
+          "easy": "정중하게 허락을 구할 때 쓰는 표현",
+          "tip": "대답이 헷갈림! 'No'가 '괜찮다(해도 돼)'는 뜻. mind=꺼리다라서 No=안 꺼린다.",
+          "ex": "Do you mind if I open the window?",
+          "exKo": "창문 좀 열어도 될까요?"
+        },
+        {
+          "term": "get out of here",
+          "ko": "여기서 나가자, 떠나자",
+          "type": "phrase",
+          "easy": "이 장소를 떠나서 가자는 말",
+          "nuance": "직역은 '여기서 나가'지만 가볍게 '가자'는 뜻으로도 자주 씀."
+        }
+      ]
+    },
+    {
+      "start": 142.52,
+      "end": 144.2,
+      "lines": [
+        {
+          "text": "Go home.",
+          "start": 142.52,
+          "end": 143.35
+        },
+        {
+          "text": "Okay.",
+          "start": 143.35,
+          "end": 144.2
+        }
+      ]
+    },
+    {
+      "start": 144.4,
+      "end": 149.6,
+      "lines": [
+        {
+          "text": "Um, I'm gonna be a few minutes.",
+          "start": 144.4,
+          "end": 146
+        },
+        {
+          "text": "Oh, it's only 5:20. I still have to do my faxes.",
+          "start": 146.04,
+          "end": 149.6
+        }
+      ]
+    },
+    {
+      "start": 154.52,
+      "end": 165.08,
+      "lines": [
+        {
+          "text": "You know what? You should uh... you should come with us because, you know, we're all going out, and it could be a good chance for you to see what people are like outside of the office. You know, I think it could be fun.",
+          "start": 154.52,
+          "end": 163.52
+        },
+        {
+          "text": "No, it sounds sounds good.",
+          "start": 163.72,
+          "end": 165.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come with us",
+          "ko": "우리랑 같이 가자",
+          "type": "phrase",
+          "easy": "함께 가자고 권하는 표현"
+        },
+        {
+          "term": "a good chance",
+          "ko": "좋은 기회",
+          "type": "phrase",
+          "easy": "뭔가를 할 수 있는 좋은 기회",
+          "tip": "chance는 '가능성'도 되지만 여기선 'opportunity(기회)'의 뜻.",
+          "ex": "This is a good chance to practice English.",
+          "exKo": "이건 영어를 연습할 좋은 기회야."
+        }
+      ]
+    },
+    {
+      "start": 165.12,
+      "end": 168.4,
+      "lines": [
+        {
+          "text": "Oh, no. Seriously, we gotta get going.",
+          "start": 165.12,
+          "end": 167.28
+        },
+        {
+          "text": "Yeah, yeah, yeah.",
+          "start": 167.32,
+          "end": 168.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "we gotta get going",
+          "ko": "우리 이제 가야 해",
+          "type": "phrase",
+          "easy": "이제 출발해야 한다는 캐주얼한 말",
+          "nuance": "gotta = got to(=have to). get going = 출발하다/시작하다.",
+          "ex": "It's late, we gotta get going.",
+          "exKo": "늦었어, 우리 이제 가야 해."
+        }
+      ]
+    },
+    {
+      "start": 177.92,
+      "end": 184.2,
+      "lines": [
+        {
+          "text": "Um, what's in the, uh... What's in the bag?",
+          "start": 177.92,
+          "end": 181.4
+        },
+        {
+          "text": "Just tell her I'll talk to her later.",
+          "start": 183.4,
+          "end": 184.2
+        }
+      ]
+    },
+    {
+      "start": 184.24,
+      "end": 194.72,
+      "lines": [
+        {
+          "text": "No, definitely. All right. Dude. Awesome. Will do.",
+          "start": 184.24,
+          "end": 186.92
+        },
+        {
+          "text": "Do I think I'll be invited to the wedding?",
+          "start": 191.12,
+          "end": 194.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Will do",
+          "ko": "그렇게 할게요, 알겠어요",
+          "type": "phrase",
+          "easy": "부탁받은 일을 하겠다고 짧게 답하는 말",
+          "nuance": "'I will do it'을 줄인 캐주얼한 대답. 'OK 할게' 느낌.",
+          "ex": "\"Tell him I called.\" \"Will do.\"",
+          "exKo": "\"내가 전화했다고 전해줘.\" \"알겠어.\""
+        }
+      ]
+    }
+  ]
+}

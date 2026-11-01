@@ -1,5 +1,5 @@
 {
-  "//": "관리자용 영상 목록. 여기에 영상을 추가/수정한 뒤 `npm run build:transcripts`를 실행하면 data/transcripts.json이 다시 생성됩니다. tag는 샘플 칩에 보이는 짧은 라벨, title을 비우면 yt-dlp가 가져온 제목을 사용합니다. category는 영상 선택 메뉴에서 묶이는 그룹 이름(같은 문자열끼리 한 그룹).",
+  "//": "관리자용 영상 목록. 여기에 영상을 추가/수정한 뒤 `npm run build:transcripts`를 실행하면 data/index.json과 data/v/<id>.json이 다시 생성됩니다. tag는 샘플 칩에 보이는 짧은 라벨, title을 비우면 yt-dlp가 가져온 제목을 사용합니다. category는 영상 선택 메뉴에서 묶이는 그룹 이름(같은 문자열끼리 한 그룹).",
   "videos": [
     { "id": "lSFJTUiX7Vg", "category": "예능 · 타블로", "tag": "Tablo Disneyland", "title": "Tablo: That Disneyland fight story (TTP Ep.12)" },
     { "id": "KMTJr-m7Fmg", "category": "예능 · 타블로", "tag": "Tablo aliens", "title": "Tablo on aliens & Scientology (TTP Ep.1)" },

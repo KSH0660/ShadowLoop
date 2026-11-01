@@ -2,21 +2,31 @@
 //
 // Reads videos.json (the admin-managed list), downloads each video's English
 // captions with yt-dlp, parses the VTT into timestamped lines, groups them into
-// short (≤2-sentence) shadowing segments, and writes data/transcripts.json. That JSON is
-// committed to git and is the only thing the static site loads at runtime — the
-// deployed app never calls yt-dlp or YouTube's caption endpoints.
+// short (≤2-sentence) shadowing segments, and writes them split for fast loading:
+//
+//   data/index.json    — the home list only: { generatedAt, videos: [{ id, title,
+//                        tag, category, segCount }] } (fetched once at startup)
+//   data/v/<id>.json   — one video's { id, segments } (glossary merged onto each
+//                        segment), fetched only when that video is opened
+//
+// Both are committed to git and are the only things the static site loads at
+// runtime — the deployed app never calls yt-dlp or YouTube's caption endpoints.
 //
 //   npm run build:transcripts
 //
 // Requires yt-dlp on PATH.
 
 import { execFileSync } from "node:child_process";
-import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, existsSync, rmSync } from "node:fs";
+import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, existsSync, rmSync, readdirSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const dataDir = join(root, "data");
+const indexPath = join(dataDir, "index.json");
+const videoDir = join(dataDir, "v");
+const videoPath = (id) => join(videoDir, `${id}.json`);
 
 // Segment tuning: each shadowing segment is at most SENTENCES_PER_SEG full
 // sentences, so the caption stays fixed (and short) while the segment loops.
@@ -277,18 +287,46 @@ function attachGlossary(video, glossForVideo = {}) {
   });
 }
 
+function writeJson(path, data) {
+  writeFileSync(path, JSON.stringify(data, null, 2) + "\n");
+}
+
+// Write the split output: one small index for the home list, plus one file per
+// video. Per-video files for ids no longer built are deleted so removed videos
+// don't linger in data/v/.
+function writeOutput(videos) {
+  mkdirSync(videoDir, { recursive: true });
+  const keep = new Set();
+  for (const video of videos) {
+    writeJson(videoPath(video.id), { id: video.id, segments: video.segments });
+    keep.add(`${video.id}.json`);
+  }
+  for (const file of readdirSync(videoDir)) {
+    if (file.endsWith(".json") && !keep.has(file)) rmSync(join(videoDir, file));
+  }
+  writeJson(indexPath, {
+    generatedAt: new Date().toISOString(),
+    videos: videos.map(({ id, title, tag, category, segments }) => ({
+      id, title, tag, category, segCount: segments.length,
+    })),
+  });
+}
+
 // Cheap path for iterating on glossary.json: re-apply glosses to the already
-// built data/transcripts.json without re-downloading any captions.
+// built data/v/<id>.json files without re-downloading any captions. Segment
+// counts don't change, so data/index.json is left as is.
 function mergeGlossaryOnly(glossary) {
-  const dataPath = join(root, "data", "transcripts.json");
-  if (!existsSync(dataPath)) {
-    log("! no data/transcripts.json yet — run a full build first");
+  if (!existsSync(indexPath)) {
+    log("! no data/index.json yet — run a full build first");
     return;
   }
-  const out = JSON.parse(readFileSync(dataPath, "utf8"));
-  for (const video of out.videos) attachGlossary(video, glossary[video.id] || {});
-  writeFileSync(dataPath, JSON.stringify(out, null, 2) + "\n");
-  log(`merged glossary into ${dataPath} (${out.videos.length} videos, no re-download)`);
+  const index = JSON.parse(readFileSync(indexPath, "utf8"));
+  for (const { id } of index.videos) {
+    const video = JSON.parse(readFileSync(videoPath(id), "utf8"));
+    attachGlossary(video, glossary[id] || {});
+    writeJson(videoPath(id), video);
+  }
+  log(`merged glossary into ${videoDir} (${index.videos.length} videos, no re-download)`);
 }
 
 function main() {
@@ -296,7 +334,7 @@ function main() {
   if (process.argv.includes("--glossary-only")) return mergeGlossaryOnly(glossary);
 
   const config = JSON.parse(readFileSync(join(root, "videos.json"), "utf8"));
-  const out = { generatedAt: new Date().toISOString(), videos: [] };
+  const built = [];
 
   for (const video of config.videos) {
     const id = video.id;
@@ -318,24 +356,20 @@ function main() {
       continue;
     }
 
-    const built = {
+    const entry = {
       id,
-      url,
       title: video.title || fetchTitle(url) || id,
       tag: video.tag || video.title || id,
       category: video.category || "기타",
       segments,
     };
-    attachGlossary(built, glossary[id] || {}); // merge any hand-authored Korean glosses
-    out.videos.push(built);
+    attachGlossary(entry, glossary[id] || {}); // merge any hand-authored Korean glosses
+    built.push(entry);
     log(`  ✓ ${segments.length} segments, ${lines.length} lines`);
   }
 
-  const dataDir = join(root, "data");
-  mkdirSync(dataDir, { recursive: true });
-  const dataPath = join(dataDir, "transcripts.json");
-  writeFileSync(dataPath, JSON.stringify(out, null, 2) + "\n");
-  log(`wrote ${dataPath} (${out.videos.length} videos)`);
+  writeOutput(built);
+  log(`wrote ${indexPath} + ${videoDir}/ (${built.length} videos)`);
 }
 
 main();

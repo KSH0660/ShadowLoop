@@ -1,0 +1,808 @@
+{
+  "id": "2fYU50qbkHk",
+  "segments": [
+    {
+      "start": 4.34,
+      "end": 17.21,
+      "lines": [
+        {
+          "text": "If you're able to, please close your eyes.",
+          "start": 4.34,
+          "end": 7.17
+        },
+        {
+          "text": "Take a deep breath in and a deep breath out.",
+          "start": 10.94,
+          "end": 17.21
+        }
+      ]
+    },
+    {
+      "start": 20.45,
+      "end": 25.26,
+      "lines": [
+        {
+          "text": "Relax your shoulders.",
+          "start": 20.45,
+          "end": 21.89
+        },
+        {
+          "text": "Unclench your jaw.",
+          "start": 23.79,
+          "end": 25.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "unclench your jaw",
+          "ko": "꽉 다문 턱의 힘을 풀다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 27.73,
+      "end": 39.04,
+      "lines": [
+        {
+          "text": "Take another deep breath in and another breath out.",
+          "start": 27.73,
+          "end": 34.37
+        },
+        {
+          "text": "You can open your eyes now.",
+          "start": 37.47,
+          "end": 39.04
+        }
+      ]
+    },
+    {
+      "start": 40.04,
+      "end": 42.74,
+      "lines": [
+        {
+          "text": "My name is David.",
+          "start": 40.04,
+          "end": 41.34
+        },
+        {
+          "text": "I'm a poet and author.",
+          "start": 41.34,
+          "end": 42.74
+        }
+      ],
+      "glossary": [
+        {
+          "term": "poet",
+          "ko": "시인",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 43.14,
+      "end": 50.48,
+      "lines": [
+        {
+          "text": "I write about the things that bring me joy.",
+          "start": 43.14,
+          "end": 45.44
+        },
+        {
+          "text": "You'd be surprised just how often that means I pick up my pen and use my voice.",
+          "start": 45.94,
+          "end": 50.48
+        }
+      ]
+    },
+    {
+      "start": 51.22,
+      "end": 60.06,
+      "lines": [
+        {
+          "text": "Whenever I have a truly bad day, frustrating as it may be, it's a matter of time until my next smile.",
+          "start": 51.22,
+          "end": 58.49
+        },
+        {
+          "text": "Good things are coming to me.",
+          "start": 58.49,
+          "end": 60.06
+        }
+      ],
+      "glossary": [
+        {
+          "term": "frustrating as it may be",
+          "ko": "아무리 짜증스러울지라도",
+          "type": "phrase"
+        },
+        {
+          "term": "a matter of time",
+          "ko": "시간 문제 (곧 일어날 일)",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 61.09,
+      "end": 63.63,
+      "lines": [
+        {
+          "text": "That may sound glib.",
+          "start": 61.09,
+          "end": 62.33
+        },
+        {
+          "text": "It may sound naive.",
+          "start": 62.36,
+          "end": 63.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "glib",
+          "ko": "(말이) 입에 발린, 가벼운",
+          "type": "word"
+        },
+        {
+          "term": "naive",
+          "ko": "순진한, 세상 물정 모르는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 63.66,
+      "end": 67.2,
+      "lines": [
+        {
+          "text": "Life is far more complicated than that.",
+          "start": 63.66,
+          "end": 66
+        },
+        {
+          "text": "I won’t argue with you.",
+          "start": 66.03,
+          "end": 67.2
+        }
+      ]
+    },
+    {
+      "start": 67.23,
+      "end": 71.14,
+      "lines": [
+        {
+          "text": "I know that that's true.",
+          "start": 67.23,
+          "end": 68.6
+        },
+        {
+          "text": "No one makes it through their whole life intact.",
+          "start": 68.6,
+          "end": 71.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "makes it through ... intact",
+          "ko": "온전한 채로 (인생을) 버텨내다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 71.54,
+      "end": 81.81,
+      "lines": [
+        {
+          "text": "If you talked to every pillow I've had in my life, you would hear about plenty of tears.",
+          "start": 71.54,
+          "end": 76.47
+        },
+        {
+          "text": "If you stole my journal from my hotel room, you would read about plenty of fears.",
+          "start": 77.37,
+          "end": 81.81
+        }
+      ]
+    },
+    {
+      "start": 82.78,
+      "end": 92.66,
+      "lines": [
+        {
+          "text": "If I'd had the emotional literacy when I was younger, you'd have heard me articulate pain.",
+          "start": 82.78,
+          "end": 87.49
+        },
+        {
+          "text": "I do all I can to avoid all of those states, but I'm sure that I'll feel them again.",
+          "start": 88.42,
+          "end": 92.66
+        }
+      ],
+      "glossary": [
+        {
+          "term": "emotional literacy",
+          "ko": "감정을 인식하고 표현하는 능력",
+          "type": "phrase"
+        },
+        {
+          "term": "articulate",
+          "ko": "또렷이 말로 표현하다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 93.96,
+      "end": 98.63,
+      "lines": [
+        {
+          "text": "I'm saying all this with a smile on my face.",
+          "start": 93.96,
+          "end": 96.49
+        },
+        {
+          "text": "Not because I don't understand language.",
+          "start": 96.53,
+          "end": 98.63
+        }
+      ]
+    },
+    {
+      "start": 99.03,
+      "end": 103.17,
+      "lines": [
+        {
+          "text": "I just know there's far more for my feelings in store.",
+          "start": 99.03,
+          "end": 101.87
+        },
+        {
+          "text": "I look on the bright side.",
+          "start": 101.9,
+          "end": 103.17
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in store",
+          "ko": "앞으로 다가올, 준비되어 있는",
+          "type": "idiom"
+        },
+        {
+          "term": "look on the bright side",
+          "ko": "긍정적인 면을 보다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 103.2,
+      "end": 115.01,
+      "lines": [
+        {
+          "text": "It's a habit.",
+          "start": 103.2,
+          "end": 104.4
+        },
+        {
+          "text": "Because even in the very worst of times when it seems that I'll always feel down, I've learned over time, in the darkest of skies, there will come a break in the clouds.",
+          "start": 104.84,
+          "end": 115.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "feel down",
+          "ko": "우울하다, 기분이 처지다",
+          "type": "phrase"
+        },
+        {
+          "term": "a break in the clouds",
+          "ko": "어둠 속 한 줄기 희망 (구름 사이로 비치는 빛)",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 115.88,
+      "end": 125.39,
+      "lines": [
+        {
+          "text": "I don't think that it's naive at all to look for joy in the everyday.",
+          "start": 115.88,
+          "end": 120.12
+        },
+        {
+          "text": "In fact, if I'm ever to be truly content, it seems to me to be the only way.",
+          "start": 120.92,
+          "end": 125.39
+        }
+      ],
+      "glossary": [
+        {
+          "term": "content",
+          "ko": "(형용사) 만족하는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 125.99,
+      "end": 129.99,
+      "lines": [
+        {
+          "text": "There is nothing too small to be happy about.",
+          "start": 125.99,
+          "end": 128.26
+        },
+        {
+          "text": "I mean, truly, nothing at all.",
+          "start": 128.29,
+          "end": 129.99
+        }
+      ]
+    },
+    {
+      "start": 130.59,
+      "end": 143.24,
+      "lines": [
+        {
+          "text": "And because I take small joys most seriously, they stack up to be rather tall.",
+          "start": 130.59,
+          "end": 135.17
+        },
+        {
+          "text": "You see, if I saw \"real\" happiness as the big headline news events, I'd have maybe one a month if I'm lucky.",
+          "start": 135.8,
+          "end": 143.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stack up",
+          "ko": "차곡차곡 쌓이다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 143.27,
+      "end": 150.88,
+      "lines": [
+        {
+          "text": "And between them, what would I do then?",
+          "start": 143.27,
+          "end": 145.58
+        },
+        {
+          "text": "I think of the day that my sister was born, of the singular joy that day was.",
+          "start": 146.21,
+          "end": 150.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "singular",
+          "ko": "각별한, 보기 드문",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 151.65,
+      "end": 156.92,
+      "lines": [
+        {
+          "text": "Moments like that, the joy's beyond belief.",
+          "start": 151.65,
+          "end": 154.32
+        },
+        {
+          "text": "They’re so immense, they almost have to be one-offs.",
+          "start": 154.32,
+          "end": 156.92
+        }
+      ],
+      "glossary": [
+        {
+          "term": "beyond belief",
+          "ko": "믿기 어려울 만큼",
+          "type": "idiom"
+        },
+        {
+          "term": "immense",
+          "ko": "엄청나게 큰",
+          "type": "word"
+        },
+        {
+          "term": "one-offs",
+          "ko": "단 한 번뿐인 일",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 157.76,
+      "end": 166.83,
+      "lines": [
+        {
+          "text": "Some things have to exist at that scale to be truly appreciated.",
+          "start": 157.76,
+          "end": 161.89
+        },
+        {
+          "text": "That doesn't mean my reserves of joy can't be regularly topped up and updated.",
+          "start": 162.66,
+          "end": 166.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "reserves",
+          "ko": "비축분, 비축해 둔 것",
+          "type": "word"
+        },
+        {
+          "term": "topped up",
+          "ko": "다시 가득 채워지다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 167.77,
+      "end": 176.51,
+      "lines": [
+        {
+          "text": "Because joy is not just a fanciful thing; it's a whimsical, powerful tool.",
+          "start": 167.77,
+          "end": 172.87
+        },
+        {
+          "text": "It's a thread of resilience woven into our lives.",
+          "start": 173.7,
+          "end": 176.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fanciful",
+          "ko": "공상적인, 비현실적인",
+          "type": "word"
+        },
+        {
+          "term": "whimsical",
+          "ko": "엉뚱하고 기발한",
+          "type": "word"
+        },
+        {
+          "term": "resilience",
+          "ko": "회복력",
+          "type": "word"
+        },
+        {
+          "term": "woven into",
+          "ko": "~에 짜여 든, 깊이 스며든",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 176.54,
+      "end": 182.35,
+      "lines": [
+        {
+          "text": "When there are cracks in things, joy brings light through.",
+          "start": 176.54,
+          "end": 179.54
+        },
+        {
+          "text": "Even if my happiness isn't total.",
+          "start": 180.38,
+          "end": 182.35
+        }
+      ]
+    },
+    {
+      "start": 183.31,
+      "end": 190.92,
+      "lines": [
+        {
+          "text": "Even when I don't think I deserve it.",
+          "start": 183.31,
+          "end": 185.32
+        },
+        {
+          "text": "Finding the small joys in every day is a practice that's always so worth it.",
+          "start": 186.28,
+          "end": 190.92
+        }
+      ],
+      "glossary": [
+        {
+          "term": "deserve",
+          "ko": "~을 받을 자격이 있다",
+          "type": "word"
+        },
+        {
+          "term": "worth it",
+          "ko": "그럴 가치가 있는",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 192.42,
+      "end": 200.16,
+      "lines": [
+        {
+          "text": "It's easier on some days than others.",
+          "start": 192.42,
+          "end": 194.53
+        },
+        {
+          "text": "It takes effort, that I won't deny, but I am deserving of my own best efforts.",
+          "start": 194.56,
+          "end": 200.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "deny",
+          "ko": "부인하다, 부정하다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 200.2,
+      "end": 208.81,
+      "lines": [
+        {
+          "text": "Life is effort. Why wouldn’t I try?",
+          "start": 200.2,
+          "end": 202.63
+        },
+        {
+          "text": "I spent far too long believing that joy was for someone more deserving than me.",
+          "start": 204.1,
+          "end": 208.81
+        }
+      ]
+    },
+    {
+      "start": 208.84,
+      "end": 218.42,
+      "lines": [
+        {
+          "text": "I spent even longer believing contentment was ambition's worst enemy, when in fact we matter because we exist.",
+          "start": 208.84,
+          "end": 216.18
+        },
+        {
+          "text": "We deserve joy by virtue of this.",
+          "start": 216.55,
+          "end": 218.42
+        }
+      ],
+      "glossary": [
+        {
+          "term": "contentment",
+          "ko": "만족감",
+          "type": "word"
+        },
+        {
+          "term": "ambition",
+          "ko": "야망, 포부",
+          "type": "word"
+        },
+        {
+          "term": "by virtue of",
+          "ko": "~덕분에, ~로 인해",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 219.15,
+      "end": 227.52,
+      "lines": [
+        {
+          "text": "And contentment means that any ambition that follows is the healthiest kind that exists.",
+          "start": 219.15,
+          "end": 223.99
+        },
+        {
+          "text": "I'm capable of finding moments of joy.",
+          "start": 225.02,
+          "end": 227.52
+        }
+      ]
+    },
+    {
+      "start": 227.56,
+      "end": 235.07,
+      "lines": [
+        {
+          "text": "There are plenty of opportunities.",
+          "start": 227.56,
+          "end": 229.46
+        },
+        {
+          "text": "And if I can find joy wherever I am, then where I am, joy shall be.",
+          "start": 230.29,
+          "end": 235.07
+        }
+      ]
+    },
+    {
+      "start": 236.77,
+      "end": 248.71,
+      "lines": [
+        {
+          "text": "Next time your drink is the perfect temperature or your fork holds the perfect bite.",
+          "start": 236.77,
+          "end": 242.91
+        },
+        {
+          "text": "Next time you put on your favorite socks or adjust so you’re sitting just right.",
+          "start": 242.94,
+          "end": 248.71
+        }
+      ]
+    },
+    {
+      "start": 248.75,
+      "end": 258.29,
+      "lines": [
+        {
+          "text": "Next time you stumble across a great song that you haven’t heard in a while.",
+          "start": 248.75,
+          "end": 253.88
+        },
+        {
+          "text": "Next time you catch eyes with a stranger who offers a nod or a genuine smile.",
+          "start": 253.92,
+          "end": 258.29
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stumble across",
+          "ko": "우연히 마주치다, 발견하다",
+          "type": "idiom"
+        },
+        {
+          "term": "catch eyes with",
+          "ko": "~와 눈이 마주치다",
+          "type": "phrase"
+        },
+        {
+          "term": "genuine",
+          "ko": "진심 어린, 진짜의",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 259.96,
+      "end": 266.9,
+      "lines": [
+        {
+          "text": "When you stretch your body and relax it again.",
+          "start": 259.96,
+          "end": 263.36
+        },
+        {
+          "text": "When you take a deep breath and you sigh.",
+          "start": 263.39,
+          "end": 266.9
+        }
+      ]
+    },
+    {
+      "start": 269.37,
+      "end": 281.15,
+      "lines": [
+        {
+          "text": "When you get to relax at the end of a long day.",
+          "start": 269.37,
+          "end": 272.6
+        },
+        {
+          "text": "When you turn your face up to the sky, remember, life is made of the average days, and each one offers joy aplenty.",
+          "start": 272.64,
+          "end": 281.15
+        }
+      ]
+    },
+    {
+      "start": 281.91,
+      "end": 286.88,
+      "lines": [
+        {
+          "text": "The smallest joys are the simplest to find.",
+          "start": 281.91,
+          "end": 284.28
+        },
+        {
+          "text": "And they add up more often than any.",
+          "start": 284.68,
+          "end": 286.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "add up",
+          "ko": "모여서 쌓이다, 늘어나다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 287.48,
+      "end": 293.76,
+      "lines": [
+        {
+          "text": "I always pay attention when a small joy grabs me.",
+          "start": 287.48,
+          "end": 290.15
+        },
+        {
+          "text": "Some say easily pleased, I say frequently happy.",
+          "start": 290.45,
+          "end": 293.76
+        }
+      ],
+      "glossary": [
+        {
+          "term": "easily pleased",
+          "ko": "쉽게 만족하는",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 294.96,
+      "end": 297.9,
+      "lines": [
+        {
+          "text": "Because you deserve it.",
+          "start": 294.96,
+          "end": 296.43
+        },
+        {
+          "text": "Because I do too.",
+          "start": 296.43,
+          "end": 297.9
+        }
+      ]
+    },
+    {
+      "start": 297.93,
+      "end": 302.47,
+      "lines": [
+        {
+          "text": "In our everyday, may joy always shine through.",
+          "start": 297.93,
+          "end": 301.3
+        },
+        {
+          "text": "Thank you.",
+          "start": 301.33,
+          "end": 302.47
+        }
+      ],
+      "glossary": [
+        {
+          "term": "shine through",
+          "ko": "환히 비치다, 빛을 발하다",
+          "type": "phrase"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "id": "BZCEHXBPRAg",
+  "segments": [
+    {
+      "start": 4.53,
+      "end": 9.61,
+      "lines": [
+        {
+          "text": "Go away. I don't have any fish for you.",
+          "start": 4.53,
+          "end": 6.64
+        },
+        {
+          "text": "Stop following me. I'm allergic.",
+          "start": 7.52,
+          "end": 9.61
+        }
+      ],
+      "glossary": [
+        {
+          "term": "allergic",
+          "ko": "알레르기가 있는",
+          "type": "word",
+          "easy": "어떤 것에 몸이 거부 반응을 일으키는",
+          "ex": "I'm allergic to cats, so my eyes get watery.",
+          "exKo": "나는 고양이 알레르기가 있어서 눈물이 나.",
+          "tip": "allergic to + 알레르기 유발 대상. 발음은 '얼러직'에 가깝다."
+        }
+      ]
+    },
+    {
+      "start": 10.48,
+      "end": 19.02,
+      "lines": [
+        {
+          "text": "Oh! Oh!",
+          "start": 10.48,
+          "end": 11.48
+        },
+        {
+          "text": "No!",
+          "start": 15.79,
+          "end": 19.02
+        }
+      ]
+    },
+    {
+      "start": 19.65,
+      "end": 25.32,
+      "lines": [
+        {
+          "text": "The closet business is a bit of a boy's club.",
+          "start": 19.65,
+          "end": 21.76
+        },
+        {
+          "text": "So, yes, I am proud of breaking through the cedar ceiling.",
+          "start": 21.76,
+          "end": 25.32
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a bit of a boy's club",
+          "ko": "남자들끼리만 노는 분위기",
+          "type": "idiom",
+          "easy": "남자들끼리만 어울리고 여자는 끼기 어려운 집단이나 분야",
+          "nuance": "비판하는 느낌. 여성이 들어가기 힘든 '남자들의 세계'라는 뜻.",
+          "when": "특정 업계나 모임이 남성 위주라 여성이 소외될 때.",
+          "ex": "Tech startups can still be a bit of a boy's club.",
+          "exKo": "기술 스타트업은 아직도 좀 남자들끼리의 세계일 수 있어.",
+          "tip": "'a bit of a ~'는 '좀 ~한 면이 있는'이라는 완곡한 표현."
+        },
+        {
+          "term": "breaking through the cedar ceiling",
+          "ko": "(옷장 업계의) 보이지 않는 한계를 깬",
+          "type": "idiom",
+          "easy": "여자가 올라가기 힘든 장벽을 뚫고 성공했다는 말장난",
+          "nuance": "원래 'glass ceiling(유리 천장)'이라는 말을, 옷장(나무 cedar)에 빗댄 농담.",
+          "when": "여성이 남성 위주 분야에서 성공했다고 자랑할 때 (여기선 웃기려고).",
+          "tip": "glass ceiling = 여성·소수자의 보이지 않는 승진 장벽. cedar는 옷장에 쓰는 삼나무라 농담이 됨."
+        }
+      ]
+    },
+    {
+      "start": 25.44,
+      "end": 28.48,
+      "lines": [
+        {
+          "text": "Speaking of closets.",
+          "start": 25.44,
+          "end": 26.32
+        },
+        {
+          "text": "Any chance we can get some shots in the master bedroom?",
+          "start": 26.32,
+          "end": 28.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Any chance we can ...",
+          "ko": "혹시 ~할 수 있을까요?",
+          "type": "phrase",
+          "easy": "조심스럽게 부탁할 때 쓰는 '혹시 ~될까요?'",
+          "when": "정중하게 가능 여부를 물을 때.",
+          "ex": "Any chance we can move the meeting to Friday?",
+          "exKo": "혹시 회의를 금요일로 옮길 수 있을까요?",
+          "tip": "= Is there any chance ~? 부드럽게 요청하는 표현."
+        },
+        {
+          "term": "get some shots",
+          "ko": "사진을 좀 찍다",
+          "type": "phrase",
+          "easy": "여기서 shot은 '사진 한 컷'을 뜻함",
+          "nuance": "shot은 주사·총이 아니라 '사진/장면 한 컷'.",
+          "tip": "polyseme(다의어): a shot of vodka(술 한 잔), give it a shot(시도해봐), get a shot(사진 찍기)."
+        }
+      ]
+    },
+    {
+      "start": 28.76,
+      "end": 34.8,
+      "lines": [
+        {
+          "text": "Sure, but no peeking at my unfinished novel.",
+          "start": 28.76,
+          "end": 32.64
+        },
+        {
+          "text": "Hey.",
+          "start": 34.16,
+          "end": 34.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "no peeking",
+          "ko": "엿보기 없기, 훔쳐보지 마",
+          "type": "phrase",
+          "easy": "몰래 들여다보지 말라는 가벼운 말",
+          "when": "보면 안 되는 걸 농담조로 가리킬 때.",
+          "ex": "No peeking — it's a surprise gift!",
+          "exKo": "훔쳐보지 마 — 깜짝 선물이야!",
+          "tip": "peek = 살짝 엿보다. peak(정상)·pique(자극하다)와 철자 혼동 주의."
+        }
+      ]
+    },
+    {
+      "start": 34.8,
+      "end": 39.24,
+      "lines": [
+        {
+          "text": "I'm...so...cold.",
+          "start": 34.8,
+          "end": 38.53
+        },
+        {
+          "text": "We get it.",
+          "start": 38.53,
+          "end": 39.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "We get it",
+          "ko": "알았어, 무슨 말인지 알겠어",
+          "type": "phrase",
+          "easy": "그만 좀 해, 이미 알아들었다는 약간 짜증난 말투",
+          "nuance": "단순히 '이해해'가 아니라 '됐어, 그만 강조해'라는 핀잔 느낌일 때가 많다.",
+          "when": "상대가 같은 말을 계속 반복할 때.",
+          "ex": "We get it, you're tired. You can stop saying it.",
+          "exKo": "알았어, 너 피곤하지. 그만 말해도 돼."
+        }
+      ]
+    },
+    {
+      "start": 39.28,
+      "end": 42.72,
+      "lines": [
+        {
+          "text": "It's cold in Antarctica.",
+          "start": 39.28,
+          "end": 40.78
+        },
+        {
+          "text": "No! You stupid...stupid.",
+          "start": 40.78,
+          "end": 42.72
+        }
+      ]
+    },
+    {
+      "start": 43.12,
+      "end": 49.36,
+      "lines": [
+        {
+          "text": "I'm home! I'm stuck in a- Fireplace? That happened to Dylan.",
+          "start": 43.12,
+          "end": 46.92
+        },
+        {
+          "text": "Oh. Thank God. Just come pick me up.",
+          "start": 47.32,
+          "end": 49.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I'm stuck in a-",
+          "ko": "나 ~에 끼었어",
+          "type": "phrase",
+          "easy": "몸이 어딘가에 박혀서 못 빠져나오는 상태",
+          "ex": "Help, I'm stuck in the elevator!",
+          "exKo": "도와줘, 나 엘리베이터에 갇혔어!",
+          "tip": "be stuck in + 장소 = ~에 갇히다/끼다."
+        },
+        {
+          "term": "come pick me up",
+          "ko": "나 좀 데리러 와",
+          "type": "phrase",
+          "easy": "차로 와서 나를 태워 가라는 말",
+          "ex": "Can you come pick me up at the station?",
+          "exKo": "역으로 나 좀 데리러 와줄래?",
+          "tip": "pick up = (사람을) 데리러 가다 / (물건을) 집어 들다, 둘 다 됨."
+        }
+      ]
+    },
+    {
+      "start": 49.68,
+      "end": 51.37,
+      "lines": [
+        {
+          "text": "I can't.",
+          "start": 49.68,
+          "end": 50.48
+        },
+        {
+          "text": "Let me call Luke.",
+          "start": 50.6,
+          "end": 51.37
+        }
+      ]
+    },
+    {
+      "start": 52.47,
+      "end": 53.61,
+      "lines": [
+        {
+          "text": "Yo!",
+          "start": 52.47,
+          "end": 53.11
+        },
+        {
+          "text": "Where are you?",
+          "start": 53.11,
+          "end": 53.61
+        }
+      ]
+    },
+    {
+      "start": 54.32,
+      "end": 57.35,
+      "lines": [
+        {
+          "text": "Mom made me drop off dad's bike helmet at school.",
+          "start": 54.32,
+          "end": 56.28
+        },
+        {
+          "text": "That's weird.",
+          "start": 56.4,
+          "end": 57.35
+        }
+      ],
+      "glossary": [
+        {
+          "term": "drop off",
+          "ko": "(어딘가에) 갖다 놓다, 떨궈주다",
+          "type": "phrase",
+          "easy": "물건이나 사람을 어떤 곳에 두고 오는 것",
+          "when": "택배·아이·물건을 어디에 두고 올 때.",
+          "ex": "I'll drop off the package at your house.",
+          "exKo": "내가 그 택배를 너희 집에 갖다 놓을게.",
+          "vs": "pick up은 '데리러/가지러 가다', drop off는 그 반대 '갖다 놓다'."
+        }
+      ]
+    },
+    {
+      "start": 57.35,
+      "end": 61.32,
+      "lines": [
+        {
+          "text": "She makes him keep an extra one there.",
+          "start": 57.35,
+          "end": 58.96
+        },
+        {
+          "text": "You know, she didn't even seem happy to see me.",
+          "start": 59,
+          "end": 61.32
+        }
+      ],
+      "glossary": [
+        {
+          "term": "an extra one",
+          "ko": "여분 하나",
+          "type": "phrase",
+          "easy": "원래 것 말고 하나 더 있는 예비용",
+          "tip": "extra = 여분의, 추가의. one은 앞에 나온 helmet을 가리킴."
+        }
+      ]
+    },
+    {
+      "start": 61.36,
+      "end": 68.04,
+      "lines": [
+        {
+          "text": "She just wanted me to get some soup.",
+          "start": 61.36,
+          "end": 63.6
+        },
+        {
+          "text": "Plus, mom said she was sick, but she was wearing that stuff that makes her look like a prostitute.",
+          "start": 63.64,
+          "end": 68.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "that stuff that makes her look like ...",
+          "ko": "그녀를 ~처럼 보이게 하는 그것",
+          "type": "phrase",
+          "easy": "make + 사람 + look like ~ : ~처럼 보이게 만들다",
+          "ex": "This jacket makes him look like a gangster.",
+          "exKo": "이 재킷은 그를 갱처럼 보이게 해.",
+          "tip": "make + 목적어 + 동사원형(look) = 사역동사. to 안 붙음."
+        }
+      ]
+    },
+    {
+      "start": 68.04,
+      "end": 69.52,
+      "lines": [
+        {
+          "text": "Eyeliner?",
+          "start": 68.04,
+          "end": 68.54
+        },
+        {
+          "text": "Exactly.",
+          "start": 68.76,
+          "end": 69.52
+        }
+      ]
+    },
+    {
+      "start": 69.56,
+      "end": 73.12,
+      "lines": [
+        {
+          "text": "Mm.",
+          "start": 69.56,
+          "end": 70.06
+        },
+        {
+          "text": "You know, mom did mention some big interview coming up.",
+          "start": 70.12,
+          "end": 73.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "coming up",
+          "ko": "다가오는, 곧 있을",
+          "type": "phrase",
+          "easy": "곧 일어날 예정인 일",
+          "when": "다가오는 일정·행사를 말할 때.",
+          "ex": "I have a big test coming up next week.",
+          "exKo": "다음 주에 중요한 시험이 다가오고 있어.",
+          "tip": "come up = (일이) 생기다/다가오다. What's coming up? = 앞으로 뭐가 있어?"
+        }
+      ]
+    },
+    {
+      "start": 73.36,
+      "end": 78.8,
+      "lines": [
+        {
+          "text": "Did she get rid of us so we didn't make her look bad?",
+          "start": 73.36,
+          "end": 75.24
+        },
+        {
+          "text": "Alex. Meet us at home as soon as you get out of that fireplace.",
+          "start": 75.56,
+          "end": 78.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get rid of",
+          "ko": "없애다, 치우다, 떼어놓다",
+          "type": "phrase",
+          "easy": "귀찮거나 필요 없는 것을 없애거나 보내버리다",
+          "nuance": "여기선 '우리를 떼어놓다(쫓아내다)'는 뜻으로 쓰임.",
+          "when": "물건을 버리거나, 사람·문제를 떼어낼 때.",
+          "ex": "I need to get rid of these old clothes.",
+          "exKo": "이 낡은 옷들을 좀 버려야겠어.",
+          "tip": "get rid of + 사람 = 그 사람을 떼어놓다/쫓아내다."
+        },
+        {
+          "term": "make her look bad",
+          "ko": "그녀를 창피하게 만들다",
+          "type": "phrase",
+          "easy": "남 앞에서 누군가의 이미지를 나쁘게 만들다",
+          "ex": "Don't make me look bad in front of my boss.",
+          "exKo": "상사 앞에서 날 창피하게 만들지 마.",
+          "tip": "look bad = 나빠 보이다 / 체면이 깎이다."
+        }
+      ]
+    },
+    {
+      "start": 83.6,
+      "end": 88.56,
+      "lines": [
+        {
+          "text": "Mom's not in the kitchen or the yard.",
+          "start": 83.6,
+          "end": 85.24
+        },
+        {
+          "text": "She must be...in her room.",
+          "start": 86.32,
+          "end": 88.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "She must be ...",
+          "ko": "그녀는 분명 ~일 거야",
+          "type": "phrase",
+          "easy": "확실하진 않지만 거의 틀림없다고 추측할 때",
+          "when": "근거를 보고 강하게 추측할 때.",
+          "ex": "The lights are off; he must be asleep.",
+          "exKo": "불이 꺼졌네, 분명 자고 있을 거야.",
+          "tip": "must = ~임에 틀림없다(강한 추측). may/might는 약한 추측."
+        }
+      ]
+    },
+    {
+      "start": 88.84,
+      "end": 91.2,
+      "lines": [
+        {
+          "text": "Good thinking, dude.",
+          "start": 88.84,
+          "end": 89.68
+        },
+        {
+          "text": "Oh.",
+          "start": 90.16,
+          "end": 91.2
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Good thinking",
+          "ko": "좋은 생각이야, 잘 생각했어",
+          "type": "phrase",
+          "easy": "상대의 판단이나 아이디어를 칭찬하는 말",
+          "ex": "Bringing an umbrella? Good thinking.",
+          "exKo": "우산 챙겼다고? 잘 생각했어."
+        }
+      ]
+    },
+    {
+      "start": 95.27,
+      "end": 97.08,
+      "lines": [
+        {
+          "text": "Wait.",
+          "start": 95.27,
+          "end": 95.81
+        },
+        {
+          "text": "You're in bed?",
+          "start": 96.01,
+          "end": 97.08
+        }
+      ]
+    },
+    {
+      "start": 97.12,
+      "end": 101.2,
+      "lines": [
+        {
+          "text": "Everything hurts. Did you get my soup?",
+          "start": 97.12,
+          "end": 99.8
+        },
+        {
+          "text": "Wait, you're actually sick?",
+          "start": 99.84,
+          "end": 101.2
+        }
+      ]
+    },
+    {
+      "start": 101.2,
+      "end": 104.84,
+      "lines": [
+        {
+          "text": "We thought you were just trying to get rid of us.",
+          "start": 101.2,
+          "end": 102.88
+        },
+        {
+          "text": "Oh, you thought I lied to you?",
+          "start": 102.92,
+          "end": 104.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "trying to get rid of us",
+          "ko": "우리를 떼어놓으려고 (하는)",
+          "type": "phrase",
+          "easy": "우리를 귀찮아서 보내버리려는",
+          "tip": "get rid of가 사람 목적어와 함께 '쫓아내다'로 다시 쓰임."
+        }
+      ]
+    },
+    {
+      "start": 104.96,
+      "end": 106.5,
+      "lines": [
+        {
+          "text": "I didn't, mommy.",
+          "start": 104.96,
+          "end": 105.96
+        },
+        {
+          "text": "Oh.",
+          "start": 106,
+          "end": 106.5
+        }
+      ]
+    },
+    {
+      "start": 106.64,
+      "end": 111.56,
+      "lines": [
+        {
+          "text": "We're sorry. We never should have- Where'd that come from?",
+          "start": 106.64,
+          "end": 110.24
+        },
+        {
+          "text": "It's always been there.",
+          "start": 110.48,
+          "end": 111.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Where'd that come from?",
+          "ko": "그건 어디서 난 거야? / 갑자기 웬 거야?",
+          "type": "idiom",
+          "easy": "갑자기 나타난 것을 보고 '이게 어디서 생겼지?'라고 묻는 말",
+          "nuance": "물건뿐 아니라 갑작스러운 말·행동에도 '갑자기 왜 그래?'로 쓰임.",
+          "when": "전에 없던 게 갑자기 보일 때.",
+          "ex": "A new car? Where'd that come from?",
+          "exKo": "새 차야? 그거 갑자기 어디서 났어?",
+          "tip": "Where'd = Where did의 축약."
+        }
+      ]
+    },
+    {
+      "start": 111.6,
+      "end": 115.52,
+      "lines": [
+        {
+          "text": "No, it hasn't. We don't have taste.",
+          "start": 111.6,
+          "end": 113.68
+        },
+        {
+          "text": "You are wearing makeup.",
+          "start": 114.4,
+          "end": 115.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "We don't have taste",
+          "ko": "우린 안목이 없어",
+          "type": "idiom",
+          "easy": "여기서 taste는 '맛'이 아니라 미적 안목·센스",
+          "nuance": "have (good) taste = 보는 눈/취향이 좋다.",
+          "ex": "She has great taste in clothes.",
+          "exKo": "그녀는 옷 보는 안목이 뛰어나.",
+          "tip": "polyseme: taste(맛) vs taste(안목·취향). 여기선 후자."
+        }
+      ]
+    },
+    {
+      "start": 115.52,
+      "end": 120.57,
+      "lines": [
+        {
+          "text": "Admit it. You're not sick.",
+          "start": 115.52,
+          "end": 117.02
+        },
+        {
+          "text": "Fine, I lied.",
+          "start": 118.32,
+          "end": 120.57
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Admit it",
+          "ko": "인정해, 솔직히 말해",
+          "type": "phrase",
+          "easy": "사실을 숨기지 말고 인정하라고 다그치는 말",
+          "when": "상대가 발뺌할 때 몰아세우며.",
+          "ex": "Admit it, you forgot my birthday.",
+          "exKo": "솔직히 말해, 너 내 생일 잊었지.",
+          "tip": "admit = (잘못·사실을) 인정하다."
+        }
+      ]
+    },
+    {
+      "start": 120.57,
+      "end": 127.25,
+      "lines": [
+        {
+          "text": "I had an interview with a magazine today, and I just wanted everything to be perfect.",
+          "start": 120.57,
+          "end": 125.72
+        },
+        {
+          "text": "Which means getting rid of us.",
+          "start": 125.8,
+          "end": 127.25
+        }
+      ]
+    },
+    {
+      "start": 127.25,
+      "end": 132,
+      "lines": [
+        {
+          "text": "Sorry we're such an embarrassment.",
+          "start": 127.25,
+          "end": 128.8
+        },
+        {
+          "text": "You're right. There's no excuse for what I did.",
+          "start": 128.96,
+          "end": 132
+        }
+      ],
+      "glossary": [
+        {
+          "term": "such an embarrassment",
+          "ko": "정말 창피한 존재",
+          "type": "phrase",
+          "easy": "남 보기 부끄럽게 만드는 사람이나 일",
+          "nuance": "embarrass(동사 창피하게 하다) → embarrassment(명사 창피한 일/사람).",
+          "ex": "He's such an embarrassment when he's drunk.",
+          "exKo": "걘 취하면 정말 창피해.",
+          "tip": "an embarrassment = '창피의 원인'인 사람/것."
+        },
+        {
+          "term": "There's no excuse for ...",
+          "ko": "~에 대해 변명의 여지가 없다",
+          "type": "idiom",
+          "easy": "그건 어떤 이유로도 정당화될 수 없다",
+          "when": "잘못을 깔끔하게 인정할 때.",
+          "ex": "There's no excuse for being so rude.",
+          "exKo": "그렇게 무례한 건 변명의 여지가 없어.",
+          "tip": "excuse = 변명, 핑계."
+        }
+      ]
+    },
+    {
+      "start": 132.28,
+      "end": 147.21,
+      "lines": [
+        {
+          "text": "I mean, except that you used to make me drop you off three blocks from school, and when you had friends over, you referred to me as Helga, your Swedish nanny.",
+          "start": 132.28,
+          "end": 141.59
+        },
+        {
+          "text": "And you told your entire Girl Scout troop for three years that your mother was dead.",
+          "start": 142.01,
+          "end": 147.21
+        }
+      ],
+      "glossary": [
+        {
+          "term": "drop you off three blocks from school",
+          "ko": "학교에서 세 블록 떨어진 데 내려주다",
+          "type": "phrase",
+          "easy": "창피해서 학교 앞이 아니라 멀찍이 떨어진 곳에 내려주다",
+          "tip": "drop off가 또 나옴 = (차로) 내려주다. three blocks from = ~에서 세 블록 거리."
+        },
+        {
+          "term": "referred to me as",
+          "ko": "나를 ~라고 불렀다, ~라고 칭했다",
+          "type": "phrase",
+          "easy": "refer to A as B = A를 B라고 부르다/일컫다",
+          "ex": "They referred to him as the boss.",
+          "exKo": "그들은 그를 '보스'라고 불렀다.",
+          "tip": "refer to + as 형태로 꼭 as가 따라온다."
+        },
+        {
+          "term": "Girl Scout troop",
+          "ko": "걸스카우트 단(團)",
+          "type": "word",
+          "easy": "걸스카우트 아이들의 한 무리/소대",
+          "tip": "troop = (스카우트·군인의) 무리, 부대."
+        }
+      ]
+    },
+    {
+      "start": 147.21,
+      "end": 151.14,
+      "lines": [
+        {
+          "text": "You have been embarrassed by me your whole lives.",
+          "start": 147.21,
+          "end": 149.64
+        },
+        {
+          "text": "I get one day.",
+          "start": 149.68,
+          "end": 151.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "embarrassed by me",
+          "ko": "나 때문에 창피해한",
+          "type": "phrase",
+          "easy": "be embarrassed by ~ : ~ 때문에 부끄러워하다",
+          "ex": "She was embarrassed by her dad's loud singing.",
+          "exKo": "그녀는 아빠가 크게 노래해서 창피해했다.",
+          "tip": "by 뒤에 창피함의 원인이 온다."
+        },
+        {
+          "term": "I get one day",
+          "ko": "나도 하루쯤은 (그래도 되잖아)",
+          "type": "phrase",
+          "easy": "여기서 get은 '얻다/누릴 자격이 있다'는 뜻",
+          "nuance": "'너희가 평생 그랬으니 나도 하루 정도는 봐줘'라는 항변.",
+          "tip": "get = 갖다·받다 외에 '~할 기회/자격을 얻다'로도 쓰임."
+        }
+      ]
+    },
+    {
+      "start": 154.64,
+      "end": 155.48,
+      "lines": [
+        {
+          "text": "Worth it.",
+          "start": 154.64,
+          "end": 155.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Worth it",
+          "ko": "그럴 만한 가치가 있었어",
+          "type": "idiom",
+          "easy": "고생했지만 결과를 보니 할 만했다는 말",
+          "when": "수고·대가가 있었지만 만족스러울 때.",
+          "ex": "The hike was long, but the view was worth it.",
+          "exKo": "등산은 길었지만 그 경치는 그럴 만했어.",
+          "tip": "be worth it = (그것에) 그만한 값어치가 있다."
+        }
+      ]
+    }
+  ]
+}

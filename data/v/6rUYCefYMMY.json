@@ -1,0 +1,789 @@
+{
+  "id": "6rUYCefYMMY",
+  "segments": [
+    {
+      "start": 2.32,
+      "end": 5.16,
+      "lines": [
+        {
+          "text": "What are you boys doing?",
+          "start": 2.32,
+          "end": 3.48
+        },
+        {
+          "text": "We're going to the basement to wrestle.",
+          "start": 3.48,
+          "end": 5.16
+        }
+      ]
+    },
+    {
+      "start": 5.2,
+      "end": 9.76,
+      "lines": [
+        {
+          "text": "But wrestling's dangerous.",
+          "start": 5.2,
+          "end": 6.76
+        },
+        {
+          "text": "Not the way we do it Mother. We never actually get physical.",
+          "start": 6.76,
+          "end": 9.76
+        }
+      ]
+    },
+    {
+      "start": 9.84,
+      "end": 15.84,
+      "lines": [
+        {
+          "text": "It's all about the pageantry.",
+          "start": 9.84,
+          "end": 11.96
+        },
+        {
+          "text": "Now you're just dangerously close to me calling you a pu**y.",
+          "start": 13.08,
+          "end": 15.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "It's all about the pageantry",
+          "ko": "중요한 건 화려한 쇼/볼거리야",
+          "type": "idiom",
+          "easy": "실제 내용보다 보여주기 위한 화려한 연출이 핵심이라는 말.",
+          "nuance": "pageantry는 보기 좋게 꾸민 '겉치레 쇼' 느낌. 진짜 싸움이 아니라 보여주기용이라는 뜻.",
+          "when": "행사·공연·프로레슬링처럼 '내용보다 보여주기'가 중요할 때.",
+          "ex": "The royal wedding was all about the pageantry.",
+          "exKo": "그 왕실 결혼식은 온통 화려한 볼거리뿐이었다."
+        },
+        {
+          "term": "dangerously close to",
+          "ko": "위험할 만큼 ~에 가까운, 거의 ~할 지경인",
+          "type": "phrase",
+          "easy": "조금만 더 하면 안 좋은 일이 벌어질 만큼 아슬아슬하게 가까운 상태.",
+          "ex": "You're dangerously close to losing your job.",
+          "exKo": "너 지금 일자리 잃기 직전이야."
+        }
+      ]
+    },
+    {
+      "start": 18,
+      "end": 22.92,
+      "lines": [
+        {
+          "text": "It's so quiet. Where is everyone?",
+          "start": 18,
+          "end": 19.84
+        },
+        {
+          "text": "Well, Stan's on a mission, so everyone's doing whatever they want.",
+          "start": 19.84,
+          "end": 22.92
+        }
+      ],
+      "glossary": [
+        {
+          "term": "on a mission",
+          "ko": "임무 수행 중인",
+          "type": "phrase",
+          "easy": "맡은 임무를 하러 나가 있는 상태. 여기선 스파이 임무.",
+          "tip": "비유로 'be on a mission'은 '뭔가에 단단히 꽂혀 몰두하다'라는 뜻도 된다."
+        }
+      ]
+    },
+    {
+      "start": 22.96,
+      "end": 30.64,
+      "lines": [
+        {
+          "text": "Steve's wrestling in the basement, and Hayley's finally getting into it with direct TV.",
+          "start": 22.96,
+          "end": 27.36
+        },
+        {
+          "text": "Listen Randall, I know this isn't your fault.",
+          "start": 28.26,
+          "end": 30.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get into it with",
+          "ko": "~와 한판 붙다, 말다툼하다",
+          "type": "idiom",
+          "easy": "누군가와 심하게 다투거나 언쟁을 벌이다.",
+          "nuance": "여기선 케이블TV 회사(직원)와 전화로 실랑이를 벌이는 상황. 단순 대화가 아니라 갈등.",
+          "when": "고객센터·상대와 따지고 싸울 때.",
+          "ex": "He got into it with the referee over the call.",
+          "exKo": "그는 그 판정 때문에 심판과 한판 붙었다."
+        },
+        {
+          "term": "solid dude",
+          "ko": "괜찮은/믿음직한 녀석",
+          "type": "phrase",
+          "easy": "성격 좋고 믿을 만한 사람을 가리키는 캐주얼한 표현.",
+          "nuance": "solid는 사람한테 쓰면 '듬직하고 믿을 만한'. dude는 친근한 '남자, 녀석'."
+        }
+      ]
+    },
+    {
+      "start": 30.64,
+      "end": 35.44,
+      "lines": [
+        {
+          "text": "You seem like a really solid dude.",
+          "start": 30.64,
+          "end": 32.84
+        },
+        {
+          "text": "So you say your husband's gone?",
+          "start": 32.84,
+          "end": 35.44
+        }
+      ]
+    },
+    {
+      "start": 35.48,
+      "end": 38.44,
+      "lines": [
+        {
+          "text": "Yeah.",
+          "start": 35.48,
+          "end": 35.98
+        },
+        {
+          "text": "And you say my husband's gone?",
+          "start": 36.1,
+          "end": 38.44
+        }
+      ]
+    },
+    {
+      "start": 38.44,
+      "end": 40.7,
+      "lines": [
+        {
+          "text": "I didn't say that.",
+          "start": 38.44,
+          "end": 39.8
+        },
+        {
+          "text": "Well, he is.",
+          "start": 39.84,
+          "end": 40.7
+        }
+      ]
+    },
+    {
+      "start": 41.13,
+      "end": 46.56,
+      "lines": [
+        {
+          "text": "Which makes us both - Widows! - Widows!",
+          "start": 41.13,
+          "end": 45.04
+        },
+        {
+          "text": "I love the Widow game.",
+          "start": 45.08,
+          "end": 46.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "catching on",
+          "ko": "알아차리다, 눈치채다",
+          "type": "phrase",
+          "easy": "무슨 일이 벌어지는지 뒤늦게 이해하거나 알아채다.",
+          "nuance": "catch on은 '이해가 딱 오다' 또는 '유행하다' 두 뜻. 여기선 '눈치채다'.",
+          "ex": "It took him a while to catch on to the joke.",
+          "exKo": "그는 그 농담을 알아채는 데 한참 걸렸다.",
+          "vs": "understand는 차분히 '이해하다', catch on은 '뒤늦게 감 잡다' 느낌."
+        }
+      ]
+    },
+    {
+      "start": 46.56,
+      "end": 50.04,
+      "lines": [
+        {
+          "text": "But you never love catching on when I'm trying to get you to play it.",
+          "start": 46.56,
+          "end": 48.92
+        },
+        {
+          "text": "You know I don't.",
+          "start": 48.92,
+          "end": 50.04
+        }
+      ]
+    },
+    {
+      "start": 52.58,
+      "end": 57.04,
+      "lines": [
+        {
+          "text": "Just some steak for a tragically young widow, please.",
+          "start": 52.58,
+          "end": 55.92
+        },
+        {
+          "text": "Which kind would you like?",
+          "start": 55.92,
+          "end": 57.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tragically young",
+          "ko": "비극적으로 젊은, 너무 일찍 (상을 당한)",
+          "type": "phrase",
+          "easy": "이렇게 젊은데 안된 일을 겪어 안쓰럽다는 과장된 표현.",
+          "nuance": "여기선 동정을 사려고 일부러 불쌍하게 말하는 코미디적 과장."
+        }
+      ]
+    },
+    {
+      "start": 57.08,
+      "end": 60.95,
+      "lines": [
+        {
+          "text": "There are different kinds?",
+          "start": 57.08,
+          "end": 58.88
+        },
+        {
+          "text": "My dead husband buys.",
+          "start": 59.16,
+          "end": 60.95
+        }
+      ]
+    },
+    {
+      "start": 61.32,
+      "end": 65.64,
+      "lines": [
+        {
+          "text": "I'm sorry.",
+          "start": 61.32,
+          "end": 62
+        },
+        {
+          "text": "My dead husband used to buy our steaks.",
+          "start": 62.32,
+          "end": 65.64
+        }
+      ]
+    },
+    {
+      "start": 66.08,
+      "end": 70.24,
+      "lines": [
+        {
+          "text": "As I said, I'm a widow.",
+          "start": 66.08,
+          "end": 68.6
+        },
+        {
+          "text": "Ribeye is the best.",
+          "start": 68.8,
+          "end": 70.24
+        }
+      ]
+    },
+    {
+      "start": 70.24,
+      "end": 79.49,
+      "lines": [
+        {
+          "text": "But does it also cost the least?",
+          "start": 70.24,
+          "end": 72.84
+        },
+        {
+          "text": "Since my husband died, I've been so overwhelmed learning what different things cost.",
+          "start": 73.04,
+          "end": 79.49
+        }
+      ]
+    },
+    {
+      "start": 79.49,
+      "end": 83.48,
+      "lines": [
+        {
+          "text": "For a widow, it's on the house.",
+          "start": 79.49,
+          "end": 81.24
+        },
+        {
+          "text": "I'm the same as her, just drop it in the sack.",
+          "start": 81.64,
+          "end": 83.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "on the house",
+          "ko": "가게가 공짜로 주는, 서비스로",
+          "type": "idiom",
+          "easy": "가게나 식당이 돈 안 받고 그냥 주는 것.",
+          "nuance": "손님이 내는 게 아니라 가게가 부담한다는 뜻. 흔한 식당 표현.",
+          "when": "식당·바에서 음료나 음식을 서비스로 줄 때.",
+          "ex": "Dessert is on the house tonight.",
+          "exKo": "오늘 디저트는 저희가 서비스로 드립니다."
+        },
+        {
+          "term": "drop it in the sack",
+          "ko": "봉지에 담아 줘",
+          "type": "phrase",
+          "easy": "sack은 종이/비닐 봉지. 그냥 봉지에 넣어 달라는 말."
+        }
+      ]
+    },
+    {
+      "start": 85.72,
+      "end": 89.04,
+      "lines": [
+        {
+          "text": "Widows!",
+          "start": 85.72,
+          "end": 86.87
+        },
+        {
+          "text": "I can't let you test drive a Lamborghini!",
+          "start": 87,
+          "end": 89.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "test drive",
+          "ko": "시승하다, 시운전하다",
+          "type": "phrase",
+          "easy": "차를 사기 전에 직접 몰아 보는 것.",
+          "tip": "명사로도 'take a test drive(시승해 보다)'처럼 쓴다."
+        }
+      ]
+    },
+    {
+      "start": 89.31,
+      "end": 92.4,
+      "lines": [
+        {
+          "text": "You have no jobs, no credit.",
+          "start": 89.31,
+          "end": 91.25
+        },
+        {
+          "text": "No husbands.",
+          "start": 91.25,
+          "end": 92.4
+        }
+      ]
+    },
+    {
+      "start": 92.72,
+      "end": 102.42,
+      "lines": [
+        {
+          "text": "We're widows.",
+          "start": 92.72,
+          "end": 93.52
+        },
+        {
+          "text": "- Widows! - Widows!",
+          "start": 100.75,
+          "end": 102.42
+        }
+      ]
+    },
+    {
+      "start": 104.24,
+      "end": 127.16,
+      "lines": [
+        {
+          "text": "♪ For the land of the free ♪ ♪ And the home of the brave widows ♪ Pull over! You're being so crazy right now.",
+          "start": 104.24,
+          "end": 127.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Pull over!",
+          "ko": "차 세워!, 갓길에 대!",
+          "type": "phrase",
+          "easy": "운전 중인 차를 길가에 세우라는 말.",
+          "when": "운전자에게 차를 멈추거나 갓길에 대라고 할 때.",
+          "ex": "The cop told him to pull over.",
+          "exKo": "경찰이 그에게 차를 세우라고 했다.",
+          "tip": "pull off the road와 비슷. pull up은 '(목적지에) 차를 대며 멈추다'."
+        }
+      ]
+    },
+    {
+      "start": 127.32,
+      "end": 131.86,
+      "lines": [
+        {
+          "text": "We're widows!",
+          "start": 127.32,
+          "end": 128.47
+        },
+        {
+          "text": "Good luck finding love again!",
+          "start": 130.14,
+          "end": 131.86
+        }
+      ]
+    },
+    {
+      "start": 132.21,
+      "end": 134.12,
+      "lines": [
+        {
+          "text": "Love?",
+          "start": 132.21,
+          "end": 132.72
+        },
+        {
+          "text": "I'm trying to get laid.",
+          "start": 132.88,
+          "end": 134.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get laid",
+          "ko": "(속어) 성관계를 하다",
+          "type": "idiom",
+          "easy": "이성과 잠자리를 갖다. 꽤 직설적이고 속된 표현.",
+          "nuance": "캐주얼하지만 점잖은 자리에선 안 쓰는 비격식 속어.",
+          "when": "친구끼리 농담조로. 공식·예의 상황에선 피한다."
+        }
+      ]
+    },
+    {
+      "start": 141.11,
+      "end": 144.52,
+      "lines": [
+        {
+          "text": "- Widows! - Widows!",
+          "start": 141.11,
+          "end": 141.75
+        },
+        {
+          "text": "Folks, we're now beginning our descent into Denver.",
+          "start": 141.8,
+          "end": 144.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "begin our descent",
+          "ko": "하강을 시작하다 (착륙 준비)",
+          "type": "phrase",
+          "easy": "비행기가 고도를 낮춰 착륙 준비에 들어간다는 기내 안내 표현.",
+          "nuance": "descent는 '내려감, 하강'. 기내 방송에서 자주 나오는 정형 문구."
+        }
+      ]
+    },
+    {
+      "start": 144.72,
+      "end": 148.24,
+      "lines": [
+        {
+          "text": "- Oh, widows. - Oh, widows.",
+          "start": 144.72,
+          "end": 146.05
+        },
+        {
+          "text": "More champagne?",
+          "start": 147.38,
+          "end": 148.24
+        }
+      ]
+    },
+    {
+      "start": 148.44,
+      "end": 156.56,
+      "lines": [
+        {
+          "text": "Actually, hate to be this widow, but we just remembered our favorite restaurant is in Saint Louis.",
+          "start": 148.44,
+          "end": 155.56
+        },
+        {
+          "text": "And we're widows.",
+          "start": 155.6,
+          "end": 156.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hate to be this widow, but",
+          "ko": "이런 식으로 말하긴 싫지만",
+          "type": "idiom",
+          "easy": "'hate to be that guy, but(이런 말 하기 좀 그렇지만)' 표현을 'widow'로 바꾼 말장난.",
+          "nuance": "보통은 'I hate to be that person, but~'으로 까다롭게 굴기 전 미리 양해를 구하는 표현.",
+          "ex": "I hate to be that guy, but you parked in my spot.",
+          "exKo": "이런 말 하기 좀 그렇지만, 당신이 제 자리에 주차했어요."
+        }
+      ]
+    },
+    {
+      "start": 158.03,
+      "end": 164.48,
+      "lines": [
+        {
+          "text": "Widows!",
+          "start": 158.03,
+          "end": 159.09
+        },
+        {
+          "text": "I'll have a spicy Italian with the works.",
+          "start": 161,
+          "end": 164.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "with the works",
+          "ko": "(들어가는 거) 다 넣어서, 풀옵션으로",
+          "type": "idiom",
+          "easy": "음식에 올릴 수 있는 토핑·재료를 전부 다 넣어 달라는 표현.",
+          "when": "샌드위치·햄버거·핫도그 주문할 때.",
+          "ex": "I'll take a hot dog with the works.",
+          "exKo": "핫도그 하나, 다 올려서 주세요."
+        }
+      ]
+    },
+    {
+      "start": 164.72,
+      "end": 167.56,
+      "lines": [
+        {
+          "text": "Oh, and add avocado.",
+          "start": 164.72,
+          "end": 166.12
+        },
+        {
+          "text": "Avocado's, a dollar extra.",
+          "start": 166.16,
+          "end": 167.56
+        }
+      ]
+    },
+    {
+      "start": 167.6,
+      "end": 175.41,
+      "lines": [
+        {
+          "text": "Even for widows?",
+          "start": 167.6,
+          "end": 168.6
+        },
+        {
+          "text": "Widows!",
+          "start": 173.94,
+          "end": 175.41
+        }
+      ]
+    },
+    {
+      "start": 181.75,
+      "end": 186.55,
+      "lines": [
+        {
+          "text": "We made great time from Saint Louis.",
+          "start": 181.75,
+          "end": 184.07
+        },
+        {
+          "text": "Lights and sirens, baby lights and sirens.",
+          "start": 184.11,
+          "end": 186.55
+        }
+      ],
+      "glossary": [
+        {
+          "term": "made great time",
+          "ko": "엄청 빨리 도착했다, 시간 잘 단축했다",
+          "type": "idiom",
+          "easy": "예상보다 빠르게 목적지에 도착했다는 뜻.",
+          "nuance": "'make good/great time'은 이동이 순조롭고 빨랐을 때 쓰는 표현.",
+          "ex": "We made great time and got there an hour early.",
+          "exKo": "우리는 빨리 가서 한 시간 일찍 도착했다."
+        },
+        {
+          "term": "lights and sirens",
+          "ko": "경광등과 사이렌 켜고 (긴급 주행)",
+          "type": "phrase",
+          "easy": "경찰차·구급차가 비상등과 사이렌을 켜고 급히 달리는 것."
+        }
+      ]
+    },
+    {
+      "start": 186.55,
+      "end": 189.79,
+      "lines": [
+        {
+          "text": "Francine?",
+          "start": 186.55,
+          "end": 187.31
+        },
+        {
+          "text": "Oh, crap, here comes a taco.",
+          "start": 188.03,
+          "end": 189.79
+        }
+      ]
+    },
+    {
+      "start": 189.83,
+      "end": 192.71,
+      "lines": [
+        {
+          "text": "It's me Bunny.",
+          "start": 189.83,
+          "end": 190.98
+        },
+        {
+          "text": "Bunny Sanders.",
+          "start": 191.72,
+          "end": 192.71
+        }
+      ]
+    },
+    {
+      "start": 192.83,
+      "end": 197.91,
+      "lines": [
+        {
+          "text": "Bunny! I didn't recognize you.",
+          "start": 192.83,
+          "end": 194.99
+        },
+        {
+          "text": "You look so different. How are things?",
+          "start": 195.11,
+          "end": 197.91
+        }
+      ]
+    },
+    {
+      "start": 198.07,
+      "end": 203.55,
+      "lines": [
+        {
+          "text": "I'm a dancing taco, Francine.",
+          "start": 198.07,
+          "end": 200.14
+        },
+        {
+          "text": "Right, but wasn't that always something you talked about being?",
+          "start": 200.14,
+          "end": 203.55
+        }
+      ],
+      "glossary": [
+        {
+          "term": "something you talked about being",
+          "ko": "되고 싶다고 말하던 것",
+          "type": "phrase",
+          "easy": "예전부터 '나 이거 되고 싶어'라고 말해 온 그 무엇.",
+          "nuance": "talk about -ing는 '~하는 것에 대해 말하다'. 여기선 그 꿈을 비꼬는 농담."
+        }
+      ]
+    },
+    {
+      "start": 203.59,
+      "end": 208.03,
+      "lines": [
+        {
+          "text": "No. I had to take this job after my husband died.",
+          "start": 203.59,
+          "end": 207.03
+        },
+        {
+          "text": "Widows!",
+          "start": 207.07,
+          "end": 208.03
+        }
+      ]
+    },
+    {
+      "start": 209.51,
+      "end": 212.1,
+      "lines": [
+        {
+          "text": "Sanders died?",
+          "start": 209.51,
+          "end": 211.24
+        },
+        {
+          "text": "How?",
+          "start": 211.4,
+          "end": 212.1
+        }
+      ]
+    },
+    {
+      "start": 212.15,
+      "end": 215.93,
+      "lines": [
+        {
+          "text": "On a mission.",
+          "start": 212.15,
+          "end": 213.07
+        },
+        {
+          "text": "I just wish I'd been prepared for life after John, you know?",
+          "start": 213.37,
+          "end": 215.93
+        }
+      ]
+    },
+    {
+      "start": 216.03,
+      "end": 220.59,
+      "lines": [
+        {
+          "text": "I had no idea.",
+          "start": 216.03,
+          "end": 217.47
+        },
+        {
+          "text": "Every day, is a brutal struggle.",
+          "start": 217.51,
+          "end": 220.59
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a brutal struggle",
+          "ko": "지독한 고생, 힘겨운 싸움",
+          "type": "phrase",
+          "easy": "매우 힘들고 괴로운 시간을 보낸다는 뜻.",
+          "nuance": "brutal은 '잔인한'이지만 일상에선 '진짜 힘든/혹독한'을 강조할 때 자주 쓴다.",
+          "ex": "Final exams were a brutal struggle this year.",
+          "exKo": "올해 기말고사는 정말 힘든 싸움이었다."
+        }
+      ]
+    },
+    {
+      "start": 224.07,
+      "end": 225.18,
+      "lines": [
+        {
+          "text": "Thank you!",
+          "start": 224.07,
+          "end": 225.18
+        }
+      ]
+    }
+  ]
+}

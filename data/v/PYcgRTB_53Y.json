@@ -1,0 +1,642 @@
+{
+  "id": "PYcgRTB_53Y",
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.34,
+      "lines": [
+        {
+          "text": "That's the way our parents are.",
+          "start": 0,
+          "end": 2.09
+        },
+        {
+          "text": "Ages zero through 30, \"No girls!\" At 35, \"Why can't you talk to girls?\"",
+          "start": 2.21,
+          "end": 6.34
+        }
+      ]
+    },
+    {
+      "start": 6.46,
+      "end": 13.1,
+      "lines": [
+        {
+          "text": "That's basically it. \"Ah, you kill me!\"",
+          "start": 6.46,
+          "end": 8.93
+        },
+        {
+          "text": "That's the way our parents are, right?",
+          "start": 10.76,
+          "end": 13.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "you kill me",
+          "ko": "너 때문에 못 살아, 웃겨 죽겠어",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 13.22,
+      "end": 21.1,
+      "lines": [
+        {
+          "text": "Our parents are like a firewall to the outside world.",
+          "start": 13.22,
+          "end": 17.31
+        },
+        {
+          "text": "They disseminate information to us. It's like living in North Korea.",
+          "start": 17.35,
+          "end": 21.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "firewall to the outside world",
+          "ko": "바깥세상을 막는 방화벽(차단막)",
+          "type": "phrase"
+        },
+        {
+          "term": "disseminate information",
+          "ko": "정보를 (걸러서) 퍼뜨리다, 전달하다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 22.36,
+      "end": 27.36,
+      "lines": [
+        {
+          "text": "My dad is the leader of the household.",
+          "start": 22.36,
+          "end": 24.65
+        },
+        {
+          "text": "So when 9-11 happened I was in high school.",
+          "start": 24.77,
+          "end": 27.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the leader of the household",
+          "ko": "집안의 가장",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 27.49,
+      "end": 34.91,
+      "lines": [
+        {
+          "text": "My dad sits everybody down.",
+          "start": 27.49,
+          "end": 29.36
+        },
+        {
+          "text": "He's like, \"Hasan, whatever you do, do not tell people you're Muslim or talk about politics.\"",
+          "start": 29.49,
+          "end": 34.91
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sits everybody down",
+          "ko": "모두를 앉혀 놓고 (진지하게 말하다)",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 34.95,
+      "end": 41.54,
+      "lines": [
+        {
+          "text": "\"Alright, Dad, I'll just hide it. This just rubs off.\"",
+          "start": 34.95,
+          "end": 39.25
+        },
+        {
+          "text": "We're sitting there. Phone rings.",
+          "start": 39.37,
+          "end": 41.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "This just rubs off",
+          "ko": "(태도·영향이) 그냥 옮아 묻는다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 41.67,
+      "end": 46.67,
+      "lines": [
+        {
+          "text": "I run, but my dad beats me to the phone.",
+          "start": 41.67,
+          "end": 44.38
+        },
+        {
+          "text": "\"Hello?\" I grab the second phone.",
+          "start": 44.42,
+          "end": 46.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "beats me to the phone",
+          "ko": "나보다 먼저 전화를 받다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 46.71,
+      "end": 52.72,
+      "lines": [
+        {
+          "text": "I hear a voice. \"Hey, you sand nigger, where's Osama?\"",
+          "start": 46.71,
+          "end": 49.92
+        },
+        {
+          "text": "He looks at me.",
+          "start": 51.51,
+          "end": 52.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sand nigger",
+          "ko": "(중동·아랍계 비하) 인종차별 멸칭",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 53.43,
+      "end": 64.23,
+      "lines": [
+        {
+          "text": "\"You can hear me, right? You fucking dune coon. Where's Osama?\"",
+          "start": 53.43,
+          "end": 57.1
+        },
+        {
+          "text": "\"Hey, 2631 Regatta Lane, that's where you live, right?",
+          "start": 60.98,
+          "end": 64.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "dune coon",
+          "ko": "(중동계 비하) 인종차별 멸칭",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 64.27,
+      "end": 69.69,
+      "lines": [
+        {
+          "text": "I'm going to fucking kill you.\" Click.",
+          "start": 64.27,
+          "end": 66.52
+        },
+        {
+          "text": "And my dad's looking at me.",
+          "start": 67.94,
+          "end": 69.69
+        }
+      ]
+    },
+    {
+      "start": 70.24,
+      "end": 79.29,
+      "lines": [
+        {
+          "text": "Do you ever see your parents, and you see the mortality in them?",
+          "start": 70.24,
+          "end": 75.12
+        },
+        {
+          "text": "I'm looking at my dad and I see all five-seven of him.",
+          "start": 75.83,
+          "end": 79.29
+        }
+      ],
+      "glossary": [
+        {
+          "term": "see the mortality in them",
+          "ko": "그들도 언젠가 죽는 존재임을 문득 깨닫다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 80.12,
+      "end": 87.75,
+      "lines": [
+        {
+          "text": "And that's when I realize I'm a darapok. I'm a scaredy-cat.",
+          "start": 80.12,
+          "end": 83.96
+        },
+        {
+          "text": "We can speak two languages. We can speak at home and outside.",
+          "start": 84,
+          "end": 87.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "scaredy-cat",
+          "ko": "겁쟁이",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 87.84,
+      "end": 93.89,
+      "lines": [
+        {
+          "text": "I should have said something. I didn't.",
+          "start": 87.84,
+          "end": 90.55
+        },
+        {
+          "text": "We sit down. I hear \"thud, thud, thud\" outside.",
+          "start": 91.13,
+          "end": 93.89
+        }
+      ]
+    },
+    {
+      "start": 94.68,
+      "end": 102.39,
+      "lines": [
+        {
+          "text": "Me and Dad run outside and all the windows on the Camry are smashed in.",
+          "start": 94.68,
+          "end": 98.56
+        },
+        {
+          "text": "My backpack's open. \"Fuck, they stole my stuff.\"",
+          "start": 99.27,
+          "end": 102.39
+        }
+      ],
+      "glossary": [
+        {
+          "term": "smashed in",
+          "ko": "박살나다, 부서져 들어가다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 102.44,
+      "end": 107.48,
+      "lines": [
+        {
+          "text": "I reach and I pull out my backpack.",
+          "start": 102.44,
+          "end": 104.73
+        },
+        {
+          "text": "Pieces of glass get caught in my arm.",
+          "start": 105.31,
+          "end": 107.48
+        }
+      ]
+    },
+    {
+      "start": 107.57,
+      "end": 113.61,
+      "lines": [
+        {
+          "text": "Now blood is gushing down my arm, and I'm pissed, I'm fucking mad.",
+          "start": 107.57,
+          "end": 112.4
+        },
+        {
+          "text": "Fuck this, man!",
+          "start": 112.45,
+          "end": 113.61
+        }
+      ],
+      "glossary": [
+        {
+          "term": "gushing down my arm",
+          "ko": "(피가) 팔을 타고 솟구쳐 흐르다",
+          "type": "phrase"
+        },
+        {
+          "term": "pissed",
+          "ko": "열받은, 화난 (속어)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 113.74,
+      "end": 121.2,
+      "lines": [
+        {
+          "text": "These kids know where we live, they're timing this, so they're watching us.",
+          "start": 113.74,
+          "end": 117.99
+        },
+        {
+          "text": "So I'm looking in the trees, the bushes...",
+          "start": 118.03,
+          "end": 121.2
+        }
+      ],
+      "glossary": [
+        {
+          "term": "they're timing this",
+          "ko": "때를 노리고 있다, 타이밍을 재고 있다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 121.33,
+      "end": 133.63,
+      "lines": [
+        {
+          "text": "I look back in the middle of the street, my dad is in the middle of the road sweeping glass out of the road like he works at a barbershop.",
+          "start": 121.33,
+          "end": 129.29
+        },
+        {
+          "text": "\"We've got customers. Log kya kahenge? We've got to clean this up.\"",
+          "start": 130.17,
+          "end": 133.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Log kya kahenge",
+          "ko": "(힌디어) \"남들이 뭐라고 하겠니?\"",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 134.22,
+      "end": 138.3,
+      "lines": [
+        {
+          "text": "Zen!",
+          "start": 134.22,
+          "end": 135.47
+        },
+        {
+          "text": "Brown Mr Miyagi, just, like, not saying a word.",
+          "start": 135.59,
+          "end": 138.3
+        }
+      ]
+    },
+    {
+      "start": 138.35,
+      "end": 143.06,
+      "lines": [
+        {
+          "text": "I'm like, \"Why aren't you saying something?",
+          "start": 138.35,
+          "end": 140.81
+        },
+        {
+          "text": "I'm asking you, say something!\"",
+          "start": 140.89,
+          "end": 143.06
+        }
+      ]
+    },
+    {
+      "start": 143.81,
+      "end": 157.37,
+      "lines": [
+        {
+          "text": "He looks at me and goes, \"Hasan...\"",
+          "start": 143.81,
+          "end": 145.81
+        },
+        {
+          "text": "\"These things happen, and these things will continue to happen.",
+          "start": 152.65,
+          "end": 157.37
+        }
+      ]
+    },
+    {
+      "start": 158.45,
+      "end": 165.37,
+      "lines": [
+        {
+          "text": "That's the price we pay for being here.\"",
+          "start": 158.45,
+          "end": 160.74
+        },
+        {
+          "text": "That's when I was like, \"We really are from two different generations.\"",
+          "start": 161.49,
+          "end": 165.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the price we pay for being here",
+          "ko": "여기 사는 대가로 치러야 할 값",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 165.46,
+      "end": 174.63,
+      "lines": [
+        {
+          "text": "BMX bikes aside.",
+          "start": 165.46,
+          "end": 167.21
+        },
+        {
+          "text": "My dad's from that generation where he feels like if you come to this country, you pay the American dream tax.",
+          "start": 167.67,
+          "end": 174.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "BMX bikes aside",
+          "ko": "BMX 자전거 얘긴 차치하고",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 174.67,
+      "end": 179.64,
+      "lines": [
+        {
+          "text": "You endure racism, and if it doesn't cost you your life, pay it.",
+          "start": 174.67,
+          "end": 178.18
+        },
+        {
+          "text": "There you go, Uncle Sam.",
+          "start": 178.22,
+          "end": 179.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "endure racism",
+          "ko": "인종차별을 견뎌내다",
+          "type": "phrase"
+        },
+        {
+          "term": "Uncle Sam",
+          "ko": "엉클 샘 (미국 정부의 별칭)",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 180.22,
+      "end": 185.69,
+      "lines": [
+        {
+          "text": "But for me, I was born here.",
+          "start": 180.22,
+          "end": 182.56
+        },
+        {
+          "text": "So I actually have the audacity of equality.",
+          "start": 183.22,
+          "end": 185.69
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the audacity of equality",
+          "ko": "평등을 당당히 요구하는 대담함",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 186.23,
+      "end": 192.69,
+      "lines": [
+        {
+          "text": "I'm like, \"I'm in Honors Gov, I have it right here.",
+          "start": 186.23,
+          "end": 189.11
+        },
+        {
+          "text": "Life, liberty, pursuit of happiness. All men created equal.\"",
+          "start": 189.23,
+          "end": 192.69
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pursuit of happiness",
+          "ko": "행복 추구 (의 권리)",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 192.82,
+      "end": 196.65,
+      "lines": [
+        {
+          "text": "It says it right here, I'm equal.",
+          "start": 192.82,
+          "end": 194.65
+        },
+        {
+          "text": "I'm equal. I don't deserve this.",
+          "start": 194.78,
+          "end": 196.65
+        }
+      ]
+    },
+    {
+      "start": 199.24,
+      "end": 207,
+      "lines": [
+        {
+          "text": "But as soon as I say that...",
+          "start": 199.24,
+          "end": 200.95
+        },
+        {
+          "text": "He looks at me like I believe in Santa. \"Hasan, you'll never understand.\"",
+          "start": 202.87,
+          "end": 207
+        }
+      ]
+    },
+    {
+      "start": 207.12,
+      "end": 214.88,
+      "lines": [
+        {
+          "text": "\"I'll never understand?",
+          "start": 207.12,
+          "end": 208.83
+        },
+        {
+          "text": "Dad, you're the guy that will argue with the cashier at Costco when he doesn't let you return used underwear.",
+          "start": 208.88,
+          "end": 214.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "argue with the cashier",
+          "ko": "계산원과 말다툼하다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 214.96,
+      "end": 216.84,
+      "lines": [
+        {
+          "text": "And now you want to be the bigger man?",
+          "start": 214.96,
+          "end": 216.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "be the bigger man",
+          "ko": "(다투지 않고) 너그럽게 양보하다, 어른스럽게 굴다",
+          "type": "idiom"
+        }
+      ]
+    }
+  ]
+}

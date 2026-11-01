@@ -1,0 +1,439 @@
+{
+  "id": "jKwMnnuN7-g",
+  "segments": [
+    {
+      "start": 0.78,
+      "end": 5.75,
+      "lines": [
+        {
+          "text": "- And there weren't special things for kids the way they are now.",
+          "start": 0.78,
+          "end": 3.55
+        },
+        {
+          "text": "Like, we would just go see movies, any movie.",
+          "start": 3.55,
+          "end": 5.75
+        }
+      ]
+    },
+    {
+      "start": 5.75,
+      "end": 10.5,
+      "lines": [
+        {
+          "text": "Like, \"Back to the Future.\"",
+          "start": 5.75,
+          "end": 6.83
+        },
+        {
+          "text": "That was a movie like, everyone could see, (audience cheers) kids could kinda see it.",
+          "start": 6.83,
+          "end": 10.5
+        }
+      ]
+    },
+    {
+      "start": 10.5,
+      "end": 15.86,
+      "lines": [
+        {
+          "text": "Great movie, right?",
+          "start": 10.5,
+          "end": 12.22
+        },
+        {
+          "text": "I re-watched it recently, it's a very weird movie.",
+          "start": 12.22,
+          "end": 15.86
+        }
+      ]
+    },
+    {
+      "start": 17.37,
+      "end": 31.29,
+      "lines": [
+        {
+          "text": "Marty McFly is a 17-year-old high school student, whose best friend is a disgraced nuclear physicist.",
+          "start": 17.37,
+          "end": 24.61
+        },
+        {
+          "text": "And I shit you not, they never explain how they became friends.",
+          "start": 26.07,
+          "end": 31.29
+        }
+      ],
+      "glossary": [
+        {
+          "term": "disgraced",
+          "ko": "불명예를 안은, 망신당한",
+          "type": "word"
+        },
+        {
+          "term": "nuclear physicist",
+          "ko": "핵물리학자",
+          "type": "phrase"
+        },
+        {
+          "term": "I shit you not",
+          "ko": "진짜 농담 아니야, 정말이야 (비속어)",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 32.12,
+      "end": 36.42,
+      "lines": [
+        {
+          "text": "They never explain it.",
+          "start": 32.12,
+          "end": 33.05
+        },
+        {
+          "text": "There's not, not even in a lazy way, like, \"Hey 'member when we met in the science building?\"",
+          "start": 33.05,
+          "end": 36.42
+        }
+      ]
+    },
+    {
+      "start": 36.42,
+      "end": 42.33,
+      "lines": [
+        {
+          "text": "Like, they don't even do that.",
+          "start": 36.42,
+          "end": 37.48
+        },
+        {
+          "text": "And we were all fine with it, we were just like, \"What, who's his best friend?",
+          "start": 38.31,
+          "end": 42.33
+        }
+      ]
+    },
+    {
+      "start": 42.33,
+      "end": 45.44,
+      "lines": [
+        {
+          "text": "\"A disgraced nuclear physicist?",
+          "start": 42.33,
+          "end": 43.92
+        },
+        {
+          "text": "\"All right, proceed.\"",
+          "start": 43.92,
+          "end": 45.44
+        }
+      ]
+    },
+    {
+      "start": 46.9,
+      "end": 52,
+      "lines": [
+        {
+          "text": "What a strange movie to sell to be a family movie.",
+          "start": 46.9,
+          "end": 50.33
+        },
+        {
+          "text": "Two guys had to go in and do that.",
+          "start": 50.33,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "start": 52,
+      "end": 55.43,
+      "lines": [
+        {
+          "text": "They had to be like, (gravelly voice) \"Okay!",
+          "start": 52,
+          "end": 53.82
+        },
+        {
+          "text": "\"We got an idea.",
+          "start": 53.82,
+          "end": 55.43
+        }
+      ],
+      "glossary": [
+        {
+          "term": "gravelly voice",
+          "ko": "거칠고 쉰 목소리",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 56.27,
+      "end": 61.52,
+      "lines": [
+        {
+          "text": "\"For the next big family action comedy.",
+          "start": 56.27,
+          "end": 59.07
+        },
+        {
+          "text": "\"All right, it's about a guy named Marty.",
+          "start": 59.07,
+          "end": 61.52
+        }
+      ]
+    },
+    {
+      "start": 61.52,
+      "end": 65.76,
+      "lines": [
+        {
+          "text": "\"And he's very lazy.",
+          "start": 61.52,
+          "end": 63.41
+        },
+        {
+          "text": "\"He's always sleeping late.\"",
+          "start": 64.24,
+          "end": 65.76
+        }
+      ]
+    },
+    {
+      "start": 66.59,
+      "end": 70.92,
+      "lines": [
+        {
+          "text": "\"Okay, is he cool like Ferris Bueller?\"",
+          "start": 66.59,
+          "end": 69.89
+        },
+        {
+          "text": "\"No.",
+          "start": 69.89,
+          "end": 70.92
+        }
+      ]
+    },
+    {
+      "start": 72.17,
+      "end": 87.73,
+      "lines": [
+        {
+          "text": "\"But, he does have this best friend, \"who's, y'know, \"a disgraced \"nuclear physicist.\"",
+          "start": 72.17,
+          "end": 81.14
+        },
+        {
+          "text": "\"I'm confused here, this best friend, \"this is another student, or--?\"",
+          "start": 84.47,
+          "end": 87.73
+        }
+      ]
+    },
+    {
+      "start": 87.73,
+      "end": 92.07,
+      "lines": [
+        {
+          "text": "\"Oh, no, no, no.",
+          "start": 87.73,
+          "end": 89.48
+        },
+        {
+          "text": "\"No, this guy's either like 40 or 80.",
+          "start": 89.48,
+          "end": 92.07
+        }
+      ]
+    },
+    {
+      "start": 93.3,
+      "end": 102.88,
+      "lines": [
+        {
+          "text": "\"Even we don't know how old this guy's supposed to be.",
+          "start": 93.3,
+          "end": 96.02
+        },
+        {
+          "text": "\"But one day, the boy and the scientist, \"they go back in time and they build a time machine!",
+          "start": 97.02,
+          "end": 102.88
+        }
+      ]
+    },
+    {
+      "start": 102.88,
+      "end": 112.83,
+      "lines": [
+        {
+          "text": "\"Whoa!\"",
+          "start": 102.88,
+          "end": 105.05
+        },
+        {
+          "text": "\"Okay, I think I see where you're going here, \"they build a time machine, and they go back in time, \"and they stop the Kennedy assassination.\"",
+          "start": 105.05,
+          "end": 112.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I see where you're going",
+          "ko": "무슨 얘기 하려는지 알겠다",
+          "type": "idiom"
+        },
+        {
+          "term": "the Kennedy assassination",
+          "ko": "케네디 암살",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 112.83,
+      "end": 117.64,
+      "lines": [
+        {
+          "text": "\"Ah.",
+          "start": 112.83,
+          "end": 113.88
+        },
+        {
+          "text": "\"Well, that's a really good idea.",
+          "start": 115.41,
+          "end": 117.64
+        }
+      ]
+    },
+    {
+      "start": 117.64,
+      "end": 122.22,
+      "lines": [
+        {
+          "text": "\"We didn't even think of that.\"",
+          "start": 117.64,
+          "end": 119.67
+        },
+        {
+          "text": "\"All right, well, what do they do with the time machine?\"",
+          "start": 119.67,
+          "end": 122.22
+        }
+      ]
+    },
+    {
+      "start": 122.22,
+      "end": 137.04,
+      "lines": [
+        {
+          "text": "\"Well, now I'm embarrassed to say.",
+          "start": 122.22,
+          "end": 124.73
+        },
+        {
+          "text": "\"All right, all right, all right we thought, \"we thought it would be funny, y'know, \"if the boy, if he went back in time and, y'know, \"he tried to fuck his mom!",
+          "start": 126.51,
+          "end": 137.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I'm embarrassed to say",
+          "ko": "말하기 부끄럽지만",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 139.93,
+      "end": 147.1,
+      "lines": [
+        {
+          "text": "\"I dunno, we thought that'd be fun for people.",
+          "start": 139.93,
+          "end": 143.34
+        },
+        {
+          "text": "\"But, no good point, he doesn't get to, he doesn't get to.",
+          "start": 143.34,
+          "end": 147.1
+        }
+      ]
+    },
+    {
+      "start": 147.1,
+      "end": 161.52,
+      "lines": [
+        {
+          "text": "\"'Cause this family friend named Biff, \"he comes in and he tries to rape the mom \"in front of the son, \"the dad's gotta beat the rapist off of her, \"and also, we're gonna imply \"that a white man wrote 'Johnny B. Goode,' \"so we're gonna take that away from 'em.\"",
+          "start": 147.1,
+          "end": 161.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "imply",
+          "ko": "넌지시 암시하다",
+          "type": "word"
+        },
+        {
+          "term": "beat the rapist off of her",
+          "ko": "(달려드는 자를) 떼어내 쫓아내다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 166.92,
+      "end": 172.98,
+      "lines": [
+        {
+          "text": "\"Well this is the best movie idea \"I have ever heard in my life.",
+          "start": 166.92,
+          "end": 170.48
+        },
+        {
+          "text": "\"We're gonna make three of them.",
+          "start": 170.48,
+          "end": 172.98
+        }
+      ]
+    },
+    {
+      "start": 172.98,
+      "end": 178.14,
+      "lines": [
+        {
+          "text": "\"Now they say they go to the past, \"how 'bout we call it 'Back to the Past'?\"",
+          "start": 172.98,
+          "end": 177.26
+        },
+        {
+          "text": "\"No, no, no.",
+          "start": 177.26,
+          "end": 178.14
+        }
+      ]
+    },
+    {
+      "start": 179.32,
+      "end": 186.62,
+      "lines": [
+        {
+          "text": "\"'Back to the Future.'\" \"Right, but they go to the past.\"",
+          "start": 179.32,
+          "end": 183.9
+        },
+        {
+          "text": "\"Yeah.\"",
+          "start": 185.58,
+          "end": 186.62
+        }
+      ]
+    }
+  ]
+}

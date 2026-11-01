@@ -1,0 +1,937 @@
+{
+  "id": "nlLZDLqo7vQ",
+  "segments": [
+    {
+      "start": 0.72,
+      "end": 6.67,
+      "lines": [
+        {
+          "text": "Eddie? Edward. Hi, Mama. You seen Eddie?",
+          "start": 0.72,
+          "end": 3.64
+        },
+        {
+          "text": "No. Here. Hold this.",
+          "start": 3.68,
+          "end": 6.67
+        }
+      ]
+    },
+    {
+      "start": 7.63,
+      "end": 14.6,
+      "lines": [
+        {
+          "text": "Harriette. Where's Eddie?",
+          "start": 7.63,
+          "end": 9.21
+        },
+        {
+          "text": "I have arranged for him to meet Will \"The Thrill\" Morgan.",
+          "start": 10.18,
+          "end": 14.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "arranged for ... to meet",
+          "ko": "~가 만나도록 자리를 마련했다",
+          "type": "phrase",
+          "easy": "두 사람이 만나게 미리 약속을 잡아 주다",
+          "nuance": "그냥 introduce가 아니라, 미리 계획을 짜서 만남을 성사시켰다는 느낌.",
+          "when": "소개팅, 면담, 미팅을 일부러 주선해 줄 때.",
+          "ex": "I arranged for my son to meet the coach.",
+          "exKo": "나는 아들이 그 코치를 만나도록 자리를 마련했다."
+        }
+      ]
+    },
+    {
+      "start": 15.16,
+      "end": 21.88,
+      "lines": [
+        {
+          "text": "The basketball player? -That's right. And he's due here any minute.",
+          "start": 15.16,
+          "end": 18.12
+        },
+        {
+          "text": "You see, I went down to Chicago Stadium today to pick up the tickets for the Bulls game.",
+          "start": 18.16,
+          "end": 21.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "due here any minute",
+          "ko": "곧 여기 도착할 예정이다",
+          "type": "phrase",
+          "easy": "조금 있으면 곧 도착할 거라는 뜻",
+          "nuance": "be due = 도착/예정된 상태. any minute을 붙여 '금방'이라는 임박함을 강조.",
+          "when": "기다리던 사람이 거의 다 온 상황에서.",
+          "ex": "The bus is due any minute now.",
+          "exKo": "버스가 이제 곧 올 거야.",
+          "tip": "due는 '~할 예정인'과 '돈을 갚아야 하는' 두 뜻이 있다."
+        },
+        {
+          "term": "pick up the tickets",
+          "ko": "표를 받으러 가다, 표를 찾으러 가다",
+          "type": "phrase",
+          "easy": "예약해 둔 표를 직접 가서 받아오다",
+          "nuance": "pick up은 '집어 들다'가 아니라 여기선 '가서 받아오다/사오다'.",
+          "when": "예매한 티켓이나 물건을 직접 찾으러 갈 때.",
+          "ex": "Can you pick up the tickets on your way home?",
+          "exKo": "집에 오는 길에 표 좀 찾아올 수 있어?"
+        }
+      ]
+    },
+    {
+      "start": 22,
+      "end": 26.8,
+      "lines": [
+        {
+          "text": "And what do you know? I met him, so we started talking.",
+          "start": 22,
+          "end": 24.28
+        },
+        {
+          "text": "I told him about Edward, and he said he'd speak with him.",
+          "start": 24.28,
+          "end": 26.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "what do you know",
+          "ko": "이게 웬일이야, 놀랍게도",
+          "type": "idiom",
+          "easy": "뜻밖의 일이 생겼을 때 '어머나, 신기하게도'라는 감탄",
+          "nuance": "진짜 질문이 아니라, 우연이나 놀라움을 나타내는 표현.",
+          "when": "예상 못 한 좋은 우연이 생겼을 때.",
+          "ex": "And what do you know, he showed up too!",
+          "exKo": "그런데 이게 웬일이야, 그 사람도 나타난 거야!"
+        },
+        {
+          "term": "speak with him",
+          "ko": "그와 이야기해 보다",
+          "type": "phrase",
+          "easy": "그 사람과 대화를 나눠 보겠다는 뜻",
+          "nuance": "talk to보다 약간 격식 있고, '문제를 의논하다'의 느낌도 있다."
+        }
+      ]
+    },
+    {
+      "start": 27.56,
+      "end": 32.48,
+      "lines": [
+        {
+          "text": "Whoa! What is this?",
+          "start": 27.56,
+          "end": 30.96
+        },
+        {
+          "text": "Rachel made them.",
+          "start": 31.4,
+          "end": 32.48
+        }
+      ]
+    },
+    {
+      "start": 32.84,
+      "end": 38.54,
+      "lines": [
+        {
+          "text": "Shouldn't that be written on here?",
+          "start": 32.84,
+          "end": 34.79
+        },
+        {
+          "text": "That's Will.",
+          "start": 36.78,
+          "end": 38.54
+        }
+      ]
+    },
+    {
+      "start": 41.54,
+      "end": 44.39,
+      "lines": [
+        {
+          "text": "Hiya, Will. Nice to see you again.",
+          "start": 41.54,
+          "end": 43.52
+        },
+        {
+          "text": "How are you doing, Carl?",
+          "start": 43.56,
+          "end": 44.39
+        }
+      ]
+    },
+    {
+      "start": 44.39,
+      "end": 49.22,
+      "lines": [
+        {
+          "text": "Okay. Will, this is my wife, Harriette.",
+          "start": 44.39,
+          "end": 47.2
+        },
+        {
+          "text": "Harriette, this is Will \"The Thrill\" Morgan.",
+          "start": 47.2,
+          "end": 49.22
+        }
+      ]
+    },
+    {
+      "start": 49.22,
+      "end": 51.4,
+      "lines": [
+        {
+          "text": "Nice to meet you, Harriette.",
+          "start": 49.22,
+          "end": 50.32
+        },
+        {
+          "text": "Nice to meet you, too.",
+          "start": 50.4,
+          "end": 51.4
+        }
+      ]
+    },
+    {
+      "start": 52.8,
+      "end": 58.96,
+      "lines": [
+        {
+          "text": "Harriette. I'm sure that Will would enjoy some refreshments.",
+          "start": 52.8,
+          "end": 56.24
+        },
+        {
+          "text": "Me, too. What are you fixing?",
+          "start": 56.76,
+          "end": 58.96
+        }
+      ],
+      "glossary": [
+        {
+          "term": "refreshments",
+          "ko": "다과, 간단한 음식과 음료",
+          "type": "word",
+          "easy": "손님에게 내는 가벼운 먹을거리와 마실 거리",
+          "when": "모임·행사에서 가볍게 내놓는 음식 이야기할 때.",
+          "ex": "Refreshments will be served after the meeting.",
+          "exKo": "회의 후에 다과가 제공됩니다."
+        },
+        {
+          "term": "fixing",
+          "ko": "(음식을) 준비하는, 만드는",
+          "type": "word",
+          "easy": "여기서 fix는 '고치다'가 아니라 '음식을 차리다/만들다'",
+          "nuance": "미국 구어에서 fix food = 음식을 준비하다.",
+          "tip": "fix = 고치다로만 외우면 오해한다. 음식 앞에선 '차리다'."
+        }
+      ]
+    },
+    {
+      "start": 61.68,
+      "end": 68.36,
+      "lines": [
+        {
+          "text": "Harriette?",
+          "start": 61.68,
+          "end": 62.4
+        },
+        {
+          "text": "Okay, but I'll be right back.",
+          "start": 66,
+          "end": 68.36
+        }
+      ]
+    },
+    {
+      "start": 69.44,
+      "end": 76.34,
+      "lines": [
+        {
+          "text": "Come on in, Will.",
+          "start": 69.44,
+          "end": 70.48
+        },
+        {
+          "text": "So, if you're still interested in buying my Porsche, I've decided to ask 45,000.",
+          "start": 71.48,
+          "end": 76.34
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come on in",
+          "ko": "어서 들어와요",
+          "type": "phrase",
+          "easy": "집 안으로 편하게 들어오라고 권하는 말",
+          "nuance": "come in보다 더 친근하고 따뜻하게 맞이하는 느낌."
+        }
+      ]
+    },
+    {
+      "start": 78.14,
+      "end": 82.94,
+      "lines": [
+        {
+          "text": "Buy a Porsche?",
+          "start": 78.14,
+          "end": 80.1
+        },
+        {
+          "text": "Oh, no. Did I ruin a surprise?",
+          "start": 80.74,
+          "end": 82.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "ruin a surprise",
+          "ko": "깜짝 이벤트를 망치다, 비밀을 들키게 하다",
+          "type": "phrase",
+          "easy": "몰래 준비한 깜짝 선물·이벤트를 미리 말해서 망치다",
+          "when": "비밀로 하려던 걸 실수로 말해 버렸을 때.",
+          "ex": "Don't tell her about the party — you'll ruin the surprise.",
+          "exKo": "파티 얘기 하지 마, 깜짝 이벤트 망친다고."
+        }
+      ]
+    },
+    {
+      "start": 84.94,
+      "end": 90.46,
+      "lines": [
+        {
+          "text": "Well, yeah, in a way.",
+          "start": 84.94,
+          "end": 86.54
+        },
+        {
+          "text": "Well, I think we better talk.",
+          "start": 88.3,
+          "end": 90.46
+        }
+      ]
+    },
+    {
+      "start": 90.74,
+      "end": 94.22,
+      "lines": [
+        {
+          "text": "Uh huh.",
+          "start": 90.74,
+          "end": 91.35
+        },
+        {
+          "text": "Um. Excuse us, Will, won't you sit down?",
+          "start": 91.35,
+          "end": 94.22
+        }
+      ]
+    },
+    {
+      "start": 94.26,
+      "end": 97.54,
+      "lines": [
+        {
+          "text": "Make yourself at home. Put your feet up.",
+          "start": 94.26,
+          "end": 96.38
+        },
+        {
+          "text": "Don't eat that.",
+          "start": 96.66,
+          "end": 97.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "make yourself at home",
+          "ko": "편하게 있어요, 내 집처럼 편히 계세요",
+          "type": "idiom",
+          "easy": "손님에게 '눈치 보지 말고 편하게 쉬어요'라고 하는 말",
+          "nuance": "손님을 환대하는 대표적인 표현. 격식 없이 따뜻함.",
+          "when": "손님이 막 집에 들어왔을 때.",
+          "ex": "Come in and make yourself at home.",
+          "exKo": "들어와서 편하게 계세요."
+        },
+        {
+          "term": "put your feet up",
+          "ko": "다리 쭉 펴고 쉬어요, 편히 쉬어요",
+          "type": "idiom",
+          "easy": "일 안 하고 푹 쉬라는 뜻 (발을 올려 놓고 쉰다는 데서)",
+          "nuance": "쉬엄쉬엄 편히 쉬라고 권할 때 쓰는 친근한 말.",
+          "ex": "You've worked hard all day — put your feet up.",
+          "exKo": "하루 종일 고생했으니 편히 좀 쉬어."
+        }
+      ]
+    },
+    {
+      "start": 108.98,
+      "end": 115.94,
+      "lines": [
+        {
+          "text": "Carl, I can't believe you told that man that you would buy his car.",
+          "start": 108.98,
+          "end": 112.18
+        },
+        {
+          "text": "Well, that was the only way I could be sure he'd come over.",
+          "start": 112.58,
+          "end": 115.94
+        }
+      ]
+    },
+    {
+      "start": 116.42,
+      "end": 123.42,
+      "lines": [
+        {
+          "text": "You mean you lied to the man?",
+          "start": 116.42,
+          "end": 117.78
+        },
+        {
+          "text": "Look, Harriette, the most important thing here is to get Edward playing basketball again now.",
+          "start": 118.58,
+          "end": 123.42
+        }
+      ]
+    },
+    {
+      "start": 123.42,
+      "end": 127.98,
+      "lines": [
+        {
+          "text": "And I just couldn't pass up this opportunity.",
+          "start": 123.42,
+          "end": 125.58
+        },
+        {
+          "text": "Carl, you've dribbled one ball too many.",
+          "start": 126.18,
+          "end": 127.98
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pass up this opportunity",
+          "ko": "이 기회를 놓치다, 그냥 지나치다",
+          "type": "phrase",
+          "easy": "좋은 기회를 잡지 않고 그냥 넘겨 버리다",
+          "nuance": "보통 '아까워서 놓칠 수 없다'는 식으로 부정과 함께 쓴다.",
+          "when": "좋은 기회를 잡을지 말지 이야기할 때.",
+          "ex": "It was a great deal, so I couldn't pass it up.",
+          "exKo": "정말 좋은 조건이라 놓칠 수가 없었어.",
+          "vs": "miss는 '그냥 놓치다', pass up은 '일부러 또는 아까워하며 안 잡다'의 느낌."
+        },
+        {
+          "term": "dribbled one ball too many",
+          "ko": "농구를 너무 해서 머리가 어떻게 됐다 (말장난 핀잔)",
+          "type": "idiom",
+          "easy": "'one too many'에 농구 dribble을 끼워 만든 농담 — 정신이 좀 이상해졌다는 핀잔",
+          "nuance": "원래 'have one too many(과음하다)' 표현을 농구로 비틀어 '머리가 어떻게 된 거 아냐'라고 놀리는 말.",
+          "tip": "one ... too many = '하나 너무 많은' → 도가 지나쳐 탈이 났다는 틀."
+        }
+      ]
+    },
+    {
+      "start": 129.5,
+      "end": 132.66,
+      "lines": [
+        {
+          "text": "Excuse me!",
+          "start": 129.5,
+          "end": 130.46
+        },
+        {
+          "text": "I'll just clean up later.",
+          "start": 130.82,
+          "end": 132.66
+        }
+      ]
+    },
+    {
+      "start": 133.98,
+      "end": 145.28,
+      "lines": [
+        {
+          "text": "Now, I don't care what you say. It just ain't right.",
+          "start": 133.98,
+          "end": 136.14
+        },
+        {
+          "text": "Whoa! Whoa! Will \"The Thrill\" Morgan is in the living room.",
+          "start": 136.94,
+          "end": 145.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "it just ain't right",
+          "ko": "그건 옳지 않아, 잘못된 거야",
+          "type": "phrase",
+          "easy": "ain't는 is not/are not의 구어체 — '그건 정말 아니야'",
+          "nuance": "ain't는 비격식 회화체. 시험 영어에선 안 쓰지만 미드에 자주 나온다.",
+          "tip": "ain't = am/is/are not, has/have not 모두 대신할 수 있는 구어 표현."
+        }
+      ]
+    },
+    {
+      "start": 145.92,
+      "end": 150,
+      "lines": [
+        {
+          "text": "He's here to see Carl.",
+          "start": 145.92,
+          "end": 147.36
+        },
+        {
+          "text": "I always wanted to meet him.",
+          "start": 148.24,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "start": 150.28,
+      "end": 154.04,
+      "lines": [
+        {
+          "text": "So go say hello.",
+          "start": 150.28,
+          "end": 151.44
+        },
+        {
+          "text": "I can't meet a star looking like this.",
+          "start": 152.08,
+          "end": 154.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go say hello",
+          "ko": "가서 인사해",
+          "type": "phrase",
+          "easy": "그 사람한테 가서 인사 한마디 건네라는 뜻",
+          "nuance": "go and say에서 and가 빠진 구어체. '가서 ~해'."
+        },
+        {
+          "term": "looking like this",
+          "ko": "이런 (지저분한) 꼴로",
+          "type": "phrase",
+          "easy": "지금 내 모습이 별로라서 누구를 못 만나겠다는 뜻",
+          "when": "차림새가 안 됐을 때 '이 꼴로는 못 나가'."
+        }
+      ]
+    },
+    {
+      "start": 155.08,
+      "end": 164.04,
+      "lines": [
+        {
+          "text": "No, honey, I gotta go fix myself up.",
+          "start": 155.08,
+          "end": 157.28
+        },
+        {
+          "text": "Now. Harriette, you are my wife, and I want you to stand behind me on this.",
+          "start": 159.8,
+          "end": 164.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fix myself up",
+          "ko": "단장하다, 꾸미고 차려입다",
+          "type": "phrase",
+          "easy": "머리·옷·화장 등을 손봐서 예쁘게 꾸미다",
+          "nuance": "여기 fix는 '고치다'가 아니라 '몸단장하다'.",
+          "ex": "Give me ten minutes to fix myself up.",
+          "exKo": "단장할 시간 10분만 줘."
+        },
+        {
+          "term": "stand behind me on this",
+          "ko": "이 일에서 내 편을 들어 줘, 나를 지지해 줘",
+          "type": "idiom",
+          "easy": "이 문제에서 내 뜻을 응원하고 지지해 달라는 뜻",
+          "nuance": "stand behind = 뒤에서 지지하다/밀어주다. 물리적 '뒤에 서다'와 헷갈리는 말장난이 24번에서 이어진다.",
+          "ex": "Whatever happens, I'll stand behind you.",
+          "exKo": "무슨 일이 있어도 난 네 편이야."
+        }
+      ]
+    },
+    {
+      "start": 164.96,
+      "end": 177.4,
+      "lines": [
+        {
+          "text": "Carl. I'll be standing so far behind you, you won't even see me.",
+          "start": 164.96,
+          "end": 168.6
+        },
+        {
+          "text": "Sorry, Will. My wife and I had a difference of opinion about cars.",
+          "start": 173.84,
+          "end": 177.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "had a difference of opinion",
+          "ko": "의견 차이가 있었다",
+          "type": "phrase",
+          "easy": "서로 생각이 달라 살짝 다퉜다는 점잖은 표현",
+          "nuance": "'싸웠다'를 부드럽게 돌려 말하는 어른스러운 표현.",
+          "ex": "We had a difference of opinion about the budget.",
+          "exKo": "우리는 예산을 두고 의견 차이가 있었어."
+        }
+      ]
+    },
+    {
+      "start": 177.68,
+      "end": 183.6,
+      "lines": [
+        {
+          "text": "She's holding out for a Rolls Royce.",
+          "start": 177.68,
+          "end": 179.52
+        },
+        {
+          "text": "Speaking of Rolls, is Rachel out of the kitchen yet?",
+          "start": 180.76,
+          "end": 183.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "holding out for",
+          "ko": "더 좋은 걸 바라며 버티다, ~을 고집하다",
+          "type": "phrase",
+          "easy": "지금 것에 만족 안 하고 더 나은 걸 기다리며 버티다",
+          "nuance": "양보 안 하고 원하는 조건이 올 때까지 기다린다는 느낌.",
+          "when": "더 좋은 제안·조건을 기다리며 거절할 때.",
+          "ex": "She's holding out for a higher salary.",
+          "exKo": "그녀는 더 높은 연봉을 받으려고 버티고 있어."
+        }
+      ]
+    },
+    {
+      "start": 184.92,
+      "end": 194.88,
+      "lines": [
+        {
+          "text": "Mama, we have company. Uh, Will, this is Estelle Winslow, my mother. Mama, meet Will \"The Thrill\" Morgan.",
+          "start": 184.92,
+          "end": 191.52
+        },
+        {
+          "text": "This man needs no introduction.",
+          "start": 191.92,
+          "end": 194.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "needs no introduction",
+          "ko": "소개가 필요 없는 분 (이미 유명한 분)",
+          "type": "idiom",
+          "easy": "너무 유명해서 따로 설명 안 해도 다 아는 사람이라는 뜻",
+          "nuance": "유명인을 소개할 때 쓰는 정중하고 띄워 주는 상투 표현.",
+          "ex": "Our next guest needs no introduction.",
+          "exKo": "다음 손님은 따로 소개가 필요 없는 분입니다."
+        }
+      ]
+    },
+    {
+      "start": 195.2,
+      "end": 198.92,
+      "lines": [
+        {
+          "text": "Will \"The Thrill\" Morgan.",
+          "start": 195.2,
+          "end": 197.16
+        },
+        {
+          "text": "It's nice to meet you, Mrs. Winslow.",
+          "start": 197.28,
+          "end": 198.92
+        }
+      ]
+    },
+    {
+      "start": 199,
+      "end": 202.68,
+      "lines": [
+        {
+          "text": "Now, if you really meant that you'd plant one right here.",
+          "start": 199,
+          "end": 202.08
+        },
+        {
+          "text": "Gladly.",
+          "start": 202.12,
+          "end": 202.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "plant one right here",
+          "ko": "여기에 한 번 (뽀뽀를) 해 줘 (볼을 가리키며)",
+          "type": "idiom",
+          "easy": "plant a kiss = 입을 맞추다. one은 a kiss를 가리킴",
+          "nuance": "볼이나 입술을 톡 가리키며 '여기 뽀뽀해 줘'라고 장난스럽게 청하는 말.",
+          "tip": "plant a kiss on someone = ~에게 입맞춤하다."
+        }
+      ]
+    },
+    {
+      "start": 206.84,
+      "end": 220.14,
+      "lines": [
+        {
+          "text": "I'm gonna call all my girlfriends in the canasta group.",
+          "start": 206.84,
+          "end": 210.68
+        },
+        {
+          "text": "They're going to die. They are- So ready to see the car?",
+          "start": 210.72,
+          "end": 220.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "They're going to die",
+          "ko": "다들 기절초풍할 거야, 까무러칠 거야",
+          "type": "idiom",
+          "easy": "정말 죽는 게 아니라 '너무 놀라/부러워 난리 날 거야'",
+          "nuance": "과장된 회화체. 놀랍거나 부럽거나 웃긴 소식에 대한 반응.",
+          "ex": "When she hears this, she's going to die!",
+          "exKo": "이 얘기 들으면 걔 완전 뒤집어질걸!"
+        }
+      ]
+    },
+    {
+      "start": 220.7,
+      "end": 229.47,
+      "lines": [
+        {
+          "text": "Uh, sure. Yeah, but, you know, Will, I really want to take my time going over it?",
+          "start": 220.7,
+          "end": 226.94
+        },
+        {
+          "text": "Hey, who's red Porsche is that out there?",
+          "start": 227.94,
+          "end": 229.47
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take my time going over it",
+          "ko": "천천히 꼼꼼히 살펴보다",
+          "type": "phrase",
+          "easy": "go over = 자세히 살펴보다, take one's time = 서두르지 않다",
+          "nuance": "서두르지 않고 충분히 시간 들여 점검하겠다는 뜻.",
+          "ex": "Take your time going over the contract.",
+          "exKo": "계약서를 천천히 꼼꼼히 살펴봐."
+        }
+      ]
+    },
+    {
+      "start": 231.45,
+      "end": 234.46,
+      "lines": [
+        {
+          "text": "Oh, sweat!",
+          "start": 231.45,
+          "end": 232.54
+        },
+        {
+          "text": "You're Will Morgan.",
+          "start": 233.3,
+          "end": 234.46
+        }
+      ]
+    },
+    {
+      "start": 235.02,
+      "end": 241.22,
+      "lines": [
+        {
+          "text": "Will, this is our son, Eddie.",
+          "start": 235.02,
+          "end": 237.38
+        },
+        {
+          "text": "It's nice to meet you, Eddie. And that's my Porsche outside. But your dad might buy it.",
+          "start": 237.54,
+          "end": 241.22
+        }
+      ]
+    },
+    {
+      "start": 241.82,
+      "end": 251.14,
+      "lines": [
+        {
+          "text": "Oh, we're gonna get a Porsche?",
+          "start": 241.82,
+          "end": 243.02
+        },
+        {
+          "text": "Uh, maybe. Say, Will. You know what really clears my head before a big decision?",
+          "start": 243.3,
+          "end": 251.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "clears my head",
+          "ko": "머리를 맑게 해 준다, 생각을 정리해 준다",
+          "type": "idiom",
+          "easy": "복잡한 생각을 비우고 정신을 맑게 만들다",
+          "nuance": "산책·운동처럼 머릿속을 비워 개운하게 만드는 것.",
+          "when": "고민·스트레스를 떨치고 싶을 때.",
+          "ex": "A short walk always clears my head.",
+          "exKo": "잠깐 걷고 나면 항상 머리가 맑아져."
+        }
+      ]
+    },
+    {
+      "start": 251.42,
+      "end": 253.78,
+      "lines": [
+        {
+          "text": "Basketball.",
+          "start": 251.42,
+          "end": 252.42
+        },
+        {
+          "text": "Basketball?",
+          "start": 253.26,
+          "end": 253.78
+        }
+      ]
+    },
+    {
+      "start": 253.78,
+      "end": 256.9,
+      "lines": [
+        {
+          "text": "Yeah. Sure. It'll be fun.",
+          "start": 253.78,
+          "end": 255.5
+        },
+        {
+          "text": "We'll go over to the high school.",
+          "start": 255.5,
+          "end": 256.9
+        }
+      ]
+    },
+    {
+      "start": 257.18,
+      "end": 261.18,
+      "lines": [
+        {
+          "text": "You wouldn't mind shooting around with a real pro, now, would you, Edward?",
+          "start": 257.18,
+          "end": 260.26
+        },
+        {
+          "text": "No.",
+          "start": 260.7,
+          "end": 261.18
+        }
+      ],
+      "glossary": [
+        {
+          "term": "shooting around",
+          "ko": "(농구공을) 가볍게 던지며 놀다, 슛 연습하다",
+          "type": "phrase",
+          "easy": "진지한 시합 말고 그냥 슛 던지며 가볍게 노는 것",
+          "nuance": "shoot hoops와 비슷. 부담 없이 농구를 즐긴다는 뜻.",
+          "ex": "Let's just shoot around for a while.",
+          "exKo": "그냥 잠깐 슛이나 던지며 놀자."
+        }
+      ]
+    },
+    {
+      "start": 261.18,
+      "end": 263.62,
+      "lines": [
+        {
+          "text": "Go up and get Fred.",
+          "start": 261.18,
+          "end": 262.22
+        },
+        {
+          "text": "Is Fred Eddie's brother?",
+          "start": 262.38,
+          "end": 263.62
+        }
+      ]
+    },
+    {
+      "start": 264.14,
+      "end": 271.66,
+      "lines": [
+        {
+          "text": "No, it's his basketball. He named it just like the pros do.",
+          "start": 264.14,
+          "end": 269.58
+        },
+        {
+          "text": "Where'd he get a dumb idea like that?",
+          "start": 270.1,
+          "end": 271.66
+        }
+      ]
+    },
+    {
+      "start": 271.7,
+      "end": 279.1,
+      "lines": [
+        {
+          "text": "I don't know.",
+          "start": 271.7,
+          "end": 272.58
+        },
+        {
+          "text": "You know, Carl is funny, but I'm getting the feeling the car isn't the real reason you asked me here.",
+          "start": 274.74,
+          "end": 279.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "getting the feeling",
+          "ko": "~라는 느낌이 들기 시작한다",
+          "type": "phrase",
+          "easy": "확실하진 않지만 점점 그런 생각이 든다는 뜻",
+          "nuance": "직감적으로 눈치채기 시작했다는 부드러운 표현.",
+          "ex": "I'm getting the feeling you don't like it.",
+          "exKo": "네가 그걸 별로 안 좋아하는 것 같다는 느낌이 드네."
+        }
+      ]
+    },
+    {
+      "start": 279.74,
+      "end": 283.5,
+      "lines": [
+        {
+          "text": "Is it the real reason? Okay, I lied.",
+          "start": 279.74,
+          "end": 283.5
+        }
+      ]
+    }
+  ]
+}

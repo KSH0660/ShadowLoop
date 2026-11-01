@@ -1,7 +1,9 @@
-// Shadow Loop client. All video + transcript data is pre-built into
-// data/transcripts.json by scripts/build-transcripts.mjs; this file only loads
-// that JSON and drives the YouTube player, the segment loop, and the synced
-// caption. There is no runtime caption fetching.
+// Shadow Loop client. All video + transcript data is pre-built by
+// scripts/build-transcripts.mjs into data/index.json (the home list) and one
+// data/v/<id>.json per video (its segments + glossary). This file loads the
+// index at startup, fetches a video's file only when it is opened, and drives
+// the YouTube player, the segment loop, and the synced caption. There is no
+// runtime caption fetching.
 //
 // The app has two views, like a video site: a HOME browse grid of thumbnail
 // cards, and a DETAIL page that plays one video and runs the shadowing loop.
@@ -17,12 +19,13 @@
 
 let player;
 let playerReady = false;
-let videos = [];
+let videos = [];         // index entries; `segments` is filled in once a video's file loads
 let lineEls = [];
 let wordEls = [];
 let _prevTime = null;    // last polled getCurrentTime(), for user-seek detection
 let _seekCooldown = 0;   // performance.now() deadline — suppress seek detection until then
 let pendingSegment = null; // segment index to jump to once the next video finishes loading
+let detailToken = 0;     // bumped per showDetail(), so a slow fetch can't load over a newer one
 
 let state = {
   view: "home",   // "home" (browse grid) | "library" | "words" (단어장) | "detail" (player)
@@ -165,7 +168,7 @@ window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
 
 async function init() {
   try {
-    const response = await fetch("data/transcripts.json");
+    const response = await fetch("data/index.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     videos = data.videos || [];
@@ -176,6 +179,27 @@ async function init() {
 
   renderHome();
   route(); // open whatever the current hash points to (home or a deep-linked video)
+}
+
+// Fetch one video's segments (data/v/<id>.json) and keep them on its index
+// entry as `video.segments`. Requests are shared while in flight, so opening a
+// video twice (or prefetching it) costs one download; a failed one is forgotten
+// so the next open retries.
+const segmentRequests = new Map();
+
+function fetchSegments(video) {
+  if (video.segments) return Promise.resolve(video.segments);
+  if (!segmentRequests.has(video.id)) {
+    const request = fetch(`data/v/${encodeURIComponent(video.id)}.json`)
+      .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
+      .then((data) => (video.segments = data.segments || []))
+      .finally(() => segmentRequests.delete(video.id));
+    segmentRequests.set(video.id, request);
+  }
+  return segmentRequests.get(video.id);
 }
 
 // YouTube thumbnail for a video id. hqdefault is 4:3 with letterbox bars; the
@@ -519,7 +543,7 @@ function videoPercent(progressMap, videoId) {
 // handler); `cat` is the fallback meta label.
 function cardHtml(video, index, cat, pct) {
   const title = video.title || video.tag || "제목 없음";
-  const segCount = (video.segments || []).length;
+  const segCount = video.segCount || 0;
   const done = pct >= 100;
   return `
     <button type="button" class="card" data-video="${index}">
@@ -1025,17 +1049,46 @@ function showDetail(video) {
   els.detailView.hidden = false;
   document.body.classList.add("is-detail");
   window.scrollTo(0, 0);
-  if (state.videoId !== video.id) {
-    loadVideo(video);
-  } else if (pendingSegment != null) {
+  const token = ++detailToken;
+  const jumpTo = pendingSegment; // a deep link / saved-segment tap
+  pendingSegment = null;
+  if (state.videoId === video.id) {
     // Same video already loaded — jump straight to the requested segment.
-    const seg = pendingSegment;
-    pendingSegment = null;
-    selectSegment(seg, true);
+    if (jumpTo != null) selectSegment(jumpTo, true);
+    return;
   }
+  if (video.segments) {
+    loadVideo(video, jumpTo);
+    return;
+  }
+
+  // Its segment file isn't here yet. Blank the player state while it loads:
+  // the empty segment list idles tick() (so a just-finished video can't re-fire
+  // its end) and shows the caption's loading message.
+  state.videoId = null;
+  state.segments = [];
+  state.current = 0;
+  state.bookmarks = new Set();
+  els.emptyPlayer.classList.remove("is-hidden");
+  if (playerReady && player && typeof player.pauseVideo === "function") player.pauseVideo();
+  els.topbarTitle.textContent = video.tag || video.title || "영상";
+  els.videoTitle.textContent = video.title || video.tag || "";
+  els.videoSub.textContent = "";
+  render();
+  fetchSegments(video).then(
+    () => {
+      if (token === detailToken && state.view === "detail") loadVideo(video, jumpTo);
+    },
+    () => {
+      if (token !== detailToken) return;
+      els.caption.innerHTML = `<p class="caption-empty">자막 데이터를 불러오지 못했습니다</p>`;
+    },
+  );
 }
 
-function loadVideo(video) {
+// `jumpTo` (a segment index) overrides the resume position. Expects the video's
+// segments to be loaded already (see showDetail).
+function loadVideo(video, jumpTo = null) {
   state.videoId = video.id;
   state.title = video.title || video.tag || "";
   state.segments = video.segments || [];
@@ -1043,10 +1096,8 @@ function loadVideo(video) {
   // (reached the last segment) — then start over from the top, like YouTube.
   const saved = getVideoProgress(video.id);
   state.current = saved && saved.seg < state.segments.length - 1 ? saved.seg : 0;
-  // A deep link / saved-segment tap overrides the resume position.
-  if (pendingSegment != null) {
-    state.current = Math.max(0, Math.min(pendingSegment, state.segments.length - 1));
-    pendingSegment = null;
+  if (jumpTo != null) {
+    state.current = Math.max(0, Math.min(jumpTo, state.segments.length - 1));
   }
   state.bookmarks = new Set(getVideoBookmarks(video.id).map((b) => b.seg));
   state.line = -1;
@@ -1115,6 +1166,11 @@ function selectSegment(index, autoplay = true) {
   recordProgress(state.videoId, state.current, state.segments.length);
   render();
   if (autoplay) playCurrentSegment();
+  // On the last segment, warm up the video that autoplay will move to next.
+  if (state.current === state.segments.length - 1) {
+    const next = nextUnstudiedVideo();
+    if (next) fetchSegments(next).catch(() => {});
+  }
 }
 
 // Save / unsave the current segment to the personal notes (one tap, no typing).

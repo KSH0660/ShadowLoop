@@ -1,0 +1,925 @@
+{
+  "id": "AAYrkc51x3A",
+  "segments": [
+    {
+      "start": 0,
+      "end": 3.2,
+      "lines": [
+        {
+          "text": "I want you to take a card.",
+          "start": 0,
+          "end": 1.36
+        },
+        {
+          "text": "Put it on your fore- Don't look at the card.",
+          "start": 1.4,
+          "end": 3.2
+        }
+      ]
+    },
+    {
+      "start": 3.84,
+      "end": 17.28,
+      "lines": [
+        {
+          "text": "I want you to take the card, and I want you to put it on your forehead and take a card. Take a card, any card.",
+          "start": 3.84,
+          "end": 9.6
+        },
+        {
+          "text": "Um, and I want you to treat other people like the race that is on their forehead.",
+          "start": 9.96,
+          "end": 17.28
+        }
+      ]
+    },
+    {
+      "start": 17.32,
+      "end": 19.8,
+      "lines": [
+        {
+          "text": "Okay?",
+          "start": 17.32,
+          "end": 18.35
+        },
+        {
+          "text": "So everybody has a different race.",
+          "start": 18.35,
+          "end": 19.8
+        }
+      ]
+    },
+    {
+      "start": 20.12,
+      "end": 27.4,
+      "lines": [
+        {
+          "text": "Nobody knows what their race is.",
+          "start": 20.12,
+          "end": 22.32
+        },
+        {
+          "text": "So I want you to really go for it because this is real.",
+          "start": 22.8,
+          "end": 27.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go for it",
+          "ko": "한번 제대로 해보다, 마음껏 해보다",
+          "type": "idiom",
+          "easy": "망설이지 말고 적극적으로 해보라는 말",
+          "nuance": "그냥 'do it'보다 더 힘차게, '눈치 보지 말고 가!' 하는 응원/허락의 느낌.",
+          "when": "누가 망설일 때 밀어줄 때, 또는 도전을 권할 때.",
+          "ex": "If you really want that job, just go for it.",
+          "exKo": "그 일을 정말 원하면, 그냥 한번 도전해 봐.",
+          "tip": "여기서는 '연기를 적극적으로 해보라'는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 27.44,
+      "end": 35.8,
+      "lines": [
+        {
+          "text": "You know, this isn't just an exercise. This is real life.",
+          "start": 27.44,
+          "end": 29.68
+        },
+        {
+          "text": "And I have a dream that you will really let the sparks fly.",
+          "start": 29.68,
+          "end": 35.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "let the sparks fly",
+          "ko": "불꽃이 튀게 하다, 격하게 부딪치다",
+          "type": "idiom",
+          "easy": "감정이나 갈등이 확 타오르게 그냥 두라는 말",
+          "nuance": "흥미진진하거나 격렬한 충돌/열기가 생기도록 내버려 두는 느낌.",
+          "when": "토론·연기·로맨스 등에서 강한 반응이 터질 때.",
+          "ex": "Put those two rivals together and let the sparks fly.",
+          "exKo": "그 두 라이벌을 붙여 놓고 불꽃 튀게 둬봐."
+        }
+      ]
+    },
+    {
+      "start": 37.03,
+      "end": 41.6,
+      "lines": [
+        {
+          "text": "Get her done.",
+          "start": 37.03,
+          "end": 38.12
+        },
+        {
+          "text": "Why? Because Martin Luther King is a hero of mine.",
+          "start": 39.28,
+          "end": 41.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Get her done",
+          "ko": "(일을) 해치우자, 끝내자",
+          "type": "idiom",
+          "easy": "어서 일을 시작해서 끝내버리자는 미국식 슬랭",
+          "nuance": "'Git-R-Done'이라는 코미디언 유행어. 거칠고 시골스러운 느낌의 '자, 가자!'",
+          "when": "일을 신나게 밀어붙일 때 농담조로.",
+          "tip": "여기 her는 진짜 '그녀'가 아니라 그냥 일/대상을 가리키는 슬랭 표현."
+        },
+        {
+          "term": "a hero of mine",
+          "ko": "내가 존경하는 영웅",
+          "type": "phrase",
+          "easy": "'내 영웅 중 한 명'이라는 뜻",
+          "tip": "'a friend of mine(내 친구 중 한 명)'처럼 'of mine'은 '내 ~ 중 하나'."
+        }
+      ]
+    },
+    {
+      "start": 41.92,
+      "end": 51.64,
+      "lines": [
+        {
+          "text": "There's this great Chris Rock bit about how streets named after Martin Luther King tend to be more violent.",
+          "start": 41.92,
+          "end": 49.07
+        },
+        {
+          "text": "I'm not going to do it, but it's.",
+          "start": 49.07,
+          "end": 51.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bit",
+          "ko": "(코미디의) 개그, 코너",
+          "type": "word",
+          "easy": "코미디언이 짜놓은 짧은 웃긴 이야기/연기 한 토막",
+          "nuance": "'조금'이라는 뜻이 아니라, 무대에서 하는 정해진 웃긴 레퍼토리.",
+          "when": "스탠드업 코미디나 농담 코너를 말할 때.",
+          "ex": "He did a hilarious bit about airline food.",
+          "exKo": "그는 기내식에 관한 엄청 웃긴 개그를 했다."
+        },
+        {
+          "term": "tend to be",
+          "ko": "~하는 경향이 있다",
+          "type": "phrase",
+          "easy": "보통/대체로 그렇다는 뜻",
+          "ex": "Mondays tend to be busy.",
+          "exKo": "월요일은 대체로 바쁜 편이다."
+        }
+      ]
+    },
+    {
+      "start": 52.72,
+      "end": 56.2,
+      "lines": [
+        {
+          "text": "Oh, this is a good one.",
+          "start": 52.72,
+          "end": 53.76
+        },
+        {
+          "text": "Um, hi. How are you?",
+          "start": 54.6,
+          "end": 56.2
+        }
+      ]
+    },
+    {
+      "start": 56.72,
+      "end": 58.87,
+      "lines": [
+        {
+          "text": "Fine. How are you?",
+          "start": 56.72,
+          "end": 57.88
+        },
+        {
+          "text": "Great.",
+          "start": 58.24,
+          "end": 58.87
+        }
+      ]
+    },
+    {
+      "start": 58.87,
+      "end": 59.88,
+      "lines": [
+        {
+          "text": "Push it.",
+          "start": 58.87,
+          "end": 59.37
+        },
+        {
+          "text": "Um.",
+          "start": 59.37,
+          "end": 59.88
+        }
+      ]
+    },
+    {
+      "start": 60.84,
+      "end": 64.72,
+      "lines": [
+        {
+          "text": "I admire your culture's success in America.",
+          "start": 60.84,
+          "end": 63.64
+        },
+        {
+          "text": "Thank you.",
+          "start": 64,
+          "end": 64.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "admire",
+          "ko": "감탄하다, 존경하다",
+          "type": "word",
+          "easy": "어떤 것이 멋져서 우러러보고 좋게 여기다",
+          "ex": "I really admire her courage.",
+          "exKo": "나는 그녀의 용기를 정말 존경한다."
+        }
+      ]
+    },
+    {
+      "start": 65.64,
+      "end": 69.48,
+      "lines": [
+        {
+          "text": "Bum bum bum bum bum. Come on.",
+          "start": 65.64,
+          "end": 67.76
+        },
+        {
+          "text": "Olympics of suffering. Right here.",
+          "start": 67.8,
+          "end": 69.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Olympics of suffering",
+          "ko": "고통 올림픽 (누가 더 힘들었나 겨루기)",
+          "type": "phrase",
+          "easy": "누구 민족/집단이 더 고통받았는지 경쟁하듯 따지는 것을 비꼰 말",
+          "nuance": "직접 만든 비유적 표현. 고통을 시합처럼 다룬다는 풍자.",
+          "when": "서로 '내가 더 힘들었다'며 비교할 때 비꼴 때."
+        }
+      ]
+    },
+    {
+      "start": 69.84,
+      "end": 71.92,
+      "lines": [
+        {
+          "text": "Slavery versus the Holocaust.",
+          "start": 69.84,
+          "end": 71.2
+        },
+        {
+          "text": "Come on.",
+          "start": 71.24,
+          "end": 71.92
+        }
+      ]
+    },
+    {
+      "start": 72.8,
+      "end": 76.62,
+      "lines": [
+        {
+          "text": "What am I supposed to be?",
+          "start": 72.8,
+          "end": 73.64
+        },
+        {
+          "text": "It's going to percolate. No no, no. Well, that that was inadvertent.",
+          "start": 73.64,
+          "end": 76.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "percolate",
+          "ko": "서서히 퍼지다, 천천히 스며들다",
+          "type": "word",
+          "easy": "커피가 천천히 내려오듯, 생각·효과가 서서히 번지다",
+          "nuance": "원래 커피 내리는 동작에서 온 말. 여기선 '천천히 효과가 나타날 거야'.",
+          "when": "아이디어·감정이 시간을 두고 스며들 때.",
+          "ex": "Give the idea time to percolate before deciding.",
+          "exKo": "결정 전에 그 생각이 좀 무르익게 시간을 줘."
+        },
+        {
+          "term": "inadvertent",
+          "ko": "의도치 않은, 무심코 한",
+          "type": "word",
+          "easy": "일부러 한 게 아니라 실수로/모르고 생긴",
+          "vs": "intentional(의도적인)의 반대.",
+          "ex": "It was an inadvertent mistake, not on purpose.",
+          "exKo": "그건 일부러가 아니라 무심코 한 실수였어."
+        }
+      ]
+    },
+    {
+      "start": 76.62,
+      "end": 80.21,
+      "lines": [
+        {
+          "text": "We didn't actually plan that.",
+          "start": 76.62,
+          "end": 78.01
+        },
+        {
+          "text": "Lots of cultures eat rice.",
+          "start": 78.44,
+          "end": 80.21
+        }
+      ]
+    },
+    {
+      "start": 80.25,
+      "end": 83.37,
+      "lines": [
+        {
+          "text": "It doesn't help me.",
+          "start": 80.25,
+          "end": 81.25
+        },
+        {
+          "text": "Um, Shalom.",
+          "start": 81.25,
+          "end": 83.37
+        }
+      ]
+    },
+    {
+      "start": 84.01,
+      "end": 87.61,
+      "lines": [
+        {
+          "text": "I'd like to apply for a loan.",
+          "start": 84.01,
+          "end": 85.85
+        },
+        {
+          "text": "That's nice, Dwight.",
+          "start": 86.73,
+          "end": 87.61
+        }
+      ],
+      "glossary": [
+        {
+          "term": "apply for a loan",
+          "ko": "대출을 신청하다",
+          "type": "phrase",
+          "easy": "은행에서 돈을 빌리려고 신청하다",
+          "tip": "apply for + 신청 대상(job, loan, visa). apply to + 기관."
+        }
+      ]
+    },
+    {
+      "start": 87.65,
+      "end": 92.13,
+      "lines": [
+        {
+          "text": "Okay. Do me something stereotypical so I can get it really quick.",
+          "start": 87.65,
+          "end": 90.33
+        },
+        {
+          "text": "Okay. I like your food.",
+          "start": 90.73,
+          "end": 92.13
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stereotypical",
+          "ko": "틀에 박힌, 고정관념 같은",
+          "type": "word",
+          "easy": "어떤 집단에 대해 흔히 떠올리는 뻔한 이미지대로인",
+          "tip": "명사는 stereotype(고정관념)."
+        }
+      ]
+    },
+    {
+      "start": 92.41,
+      "end": 97.97,
+      "lines": [
+        {
+          "text": "Uh, Outback Steakhouse. I'm Australian, mate.",
+          "start": 92.41,
+          "end": 95.25
+        },
+        {
+          "text": "Pam. Come on. I like your food?",
+          "start": 95.29,
+          "end": 97.97
+        }
+      ]
+    },
+    {
+      "start": 98.21,
+      "end": 102.65,
+      "lines": [
+        {
+          "text": "No. Come on, stir the pot.",
+          "start": 98.21,
+          "end": 99.85
+        },
+        {
+          "text": "Stir the melting pot. Pam, let's do it.",
+          "start": 99.85,
+          "end": 102.65
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stir the pot",
+          "ko": "분란을 일으키다, 들쑤시다",
+          "type": "idiom",
+          "easy": "일부러 말썽이나 갈등을 부추겨 상황을 시끄럽게 만들다",
+          "nuance": "냄비를 휘젓듯 평온한 상황을 일부러 휘젓는 느낌. 약간 짓궂음.",
+          "when": "누가 괜히 갈등을 부추길 때.",
+          "ex": "He loves to stir the pot at family dinners.",
+          "exKo": "그는 가족 모임에서 괜히 분란 일으키는 걸 좋아해.",
+          "tip": "여기선 인종 melting pot(용광로) 농담과 말장난으로 'stir the melting pot'."
+        },
+        {
+          "term": "melting pot",
+          "ko": "용광로 (여러 민족이 섞인 사회)",
+          "type": "idiom",
+          "easy": "여러 인종·문화가 한데 섞여 사는 사회를 가리키는 말 (특히 미국)",
+          "when": "다양한 배경이 섞인 곳을 말할 때.",
+          "ex": "New York is a real melting pot of cultures.",
+          "exKo": "뉴욕은 여러 문화가 섞인 진짜 용광로 같은 곳이다."
+        }
+      ]
+    },
+    {
+      "start": 102.69,
+      "end": 114.93,
+      "lines": [
+        {
+          "text": "Let's get ugly. Let's get real.",
+          "start": 102.69,
+          "end": 104.09
+        },
+        {
+          "text": "Okay, if I have to do this based on stereotypes that are totally untrue, that I do not agree with, you would maybe not be a very good driver.",
+          "start": 104.13,
+          "end": 114.93
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get ugly",
+          "ko": "험악해지다, 막장으로 치닫다",
+          "type": "idiom",
+          "easy": "분위기나 상황이 거칠고 안 좋게 변하다",
+          "nuance": "외모가 아니라 '상황이 추해진다'는 뜻.",
+          "when": "싸움·말다툼이 격해질 때.",
+          "ex": "The argument got ugly fast.",
+          "exKo": "그 말다툼은 금세 험악해졌다."
+        },
+        {
+          "term": "based on stereotypes",
+          "ko": "고정관념에 근거해서",
+          "type": "phrase",
+          "easy": "뻔한 편견을 바탕으로 한다는 뜻"
+        }
+      ]
+    },
+    {
+      "start": 115.53,
+      "end": 119.81,
+      "lines": [
+        {
+          "text": "Oh, man, am I a woman?",
+          "start": 115.53,
+          "end": 117.09
+        },
+        {
+          "text": "You'll notice I didn't have anybody be an Arab.",
+          "start": 117.69,
+          "end": 119.81
+        }
+      ],
+      "glossary": [
+        {
+          "term": "You'll notice",
+          "ko": "보면 알겠지만",
+          "type": "phrase",
+          "easy": "'잘 보면 ~인 걸 알 수 있을 거야'라고 상대 주의를 끄는 말",
+          "ex": "You'll notice I left out the spicy part.",
+          "exKo": "보면 알겠지만 매운 부분은 뺐어."
+        }
+      ]
+    },
+    {
+      "start": 120.01,
+      "end": 128.76,
+      "lines": [
+        {
+          "text": "I thought that would be too explosive. Uh, no pun intended, but I just thought too soon for Arabs.",
+          "start": 120.01,
+          "end": 127.29
+        },
+        {
+          "text": "Maybe next year.",
+          "start": 127.73,
+          "end": 128.76
+        }
+      ],
+      "glossary": [
+        {
+          "term": "too explosive",
+          "ko": "너무 폭발적인, 너무 민감한",
+          "type": "phrase",
+          "easy": "다루면 확 터질 만큼 위험하고 예민한",
+          "tip": "explosive는 '폭발물'이자 '폭발할 듯 민감한'. 여기선 말장난(pun)으로 씀."
+        },
+        {
+          "term": "no pun intended",
+          "ko": "말장난하려던 건 아니지만",
+          "type": "idiom",
+          "easy": "방금 말이 우연히 말장난이 됐을 때 '일부러 그런 건 아니야'라고 덧붙이는 말",
+          "nuance": "explosive(폭발적)와 Arab 농담이 겹쳐 말장난이 되자 슬쩍 변명하는 표현.",
+          "when": "의도치 않게 단어가 이중 의미가 됐을 때.",
+          "ex": "The new bakery is rising fast — no pun intended.",
+          "exKo": "새 빵집이 빠르게 뜨고 있어 — 말장난하려던 건 아니지만."
+        },
+        {
+          "term": "too soon",
+          "ko": "(농담하기엔) 너무 이르다",
+          "type": "phrase",
+          "easy": "민감한 일을 두고 농담하기엔 아직 시기가 빠르다는 말",
+          "when": "아픈 사건을 너무 빨리 농담거리로 삼을 때.",
+          "ex": "Joking about the breakup already? Too soon.",
+          "exKo": "벌써 그 이별 얘기로 농담을? 너무 일러."
+        }
+      ]
+    },
+    {
+      "start": 128.76,
+      "end": 133.99,
+      "lines": [
+        {
+          "text": "Um, you know, the ball's in their court.",
+          "start": 128.76,
+          "end": 132.29
+        },
+        {
+          "text": "What are you watching?",
+          "start": 133.33,
+          "end": 133.99
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the ball's in their court",
+          "ko": "이제 그들이 결정할 차례다, 공이 넘어갔다",
+          "type": "idiom",
+          "easy": "이제 내가 할 건 다 했고, 다음 행동은 상대에게 달렸다는 말",
+          "nuance": "테니스에서 공이 상대편 코트로 넘어간 것에서 온 비유.",
+          "when": "내 차례를 마치고 상대의 답·반응을 기다릴 때.",
+          "ex": "I made my offer; now the ball's in their court.",
+          "exKo": "제안은 했으니, 이제 결정은 그쪽에 달렸어."
+        }
+      ]
+    },
+    {
+      "start": 133.99,
+      "end": 135.21,
+      "lines": [
+        {
+          "text": "The Chappelle show.",
+          "start": 133.99,
+          "end": 134.41
+        },
+        {
+          "text": "Really?",
+          "start": 134.41,
+          "end": 135.21
+        }
+      ]
+    },
+    {
+      "start": 135.25,
+      "end": 138.73,
+      "lines": [
+        {
+          "text": "Yeah, I downloaded it on her computer.",
+          "start": 135.25,
+          "end": 137.17
+        },
+        {
+          "text": "I hope she doesn't mind. She just had a lot of extra.",
+          "start": 137.17,
+          "end": 138.73
+        }
+      ],
+      "glossary": [
+        {
+          "term": "downloaded it on her computer",
+          "ko": "그녀 컴퓨터에 다운로드했다",
+          "type": "phrase",
+          "easy": "남의 컴퓨터에 파일을 받아 저장했다는 뜻"
+        },
+        {
+          "term": "I hope she doesn't mind",
+          "ko": "그녀가 싫어하지 않았으면 좋겠다",
+          "type": "phrase",
+          "easy": "상대가 괜찮게 여겨주길 바란다는 정중한 표현",
+          "tip": "mind는 '신경 쓰다/꺼리다'. doesn't mind = 괜찮아하다."
+        }
+      ]
+    },
+    {
+      "start": 138.85,
+      "end": 141.35,
+      "lines": [
+        {
+          "text": "No way. No, I think she really likes this stuff.",
+          "start": 138.85,
+          "end": 140.85
+        },
+        {
+          "text": "Great.",
+          "start": 140.85,
+          "end": 141.35
+        }
+      ]
+    },
+    {
+      "start": 142.21,
+      "end": 146.57,
+      "lines": [
+        {
+          "text": "She's cute, huh?",
+          "start": 142.21,
+          "end": 143.13
+        },
+        {
+          "text": "Yeah. You know, she's engaged, but.",
+          "start": 144.49,
+          "end": 146.57
+        }
+      ]
+    },
+    {
+      "start": 147.05,
+      "end": 152.97,
+      "lines": [
+        {
+          "text": "Oh, no. The girl in the sketch.",
+          "start": 147.05,
+          "end": 150.05
+        },
+        {
+          "text": "Oh, yeah. She's hot. Yeah.",
+          "start": 150.09,
+          "end": 152.97
+        }
+      ]
+    },
+    {
+      "start": 154.02,
+      "end": 158.1,
+      "lines": [
+        {
+          "text": "Hey.",
+          "start": 154.02,
+          "end": 155.64
+        },
+        {
+          "text": "You want to go to the beach?",
+          "start": 156.78,
+          "end": 158.1
+        }
+      ]
+    },
+    {
+      "start": 158.54,
+      "end": 161.9,
+      "lines": [
+        {
+          "text": "Sure.",
+          "start": 158.54,
+          "end": 159.44
+        },
+        {
+          "text": "You want to get high?",
+          "start": 160.64,
+          "end": 161.9
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get high",
+          "ko": "(마약 등으로) 취하다, 뿅 가다",
+          "type": "idiom",
+          "easy": "약 같은 걸로 기분이 붕 뜨고 취한 상태가 되다",
+          "nuance": "여기선 자메이카 사람 고정관념 농담으로 쓰임.",
+          "when": "약/대마초로 취한 상태를 말할 때 (구어).",
+          "tip": "high가 '높은'이 아니라 '취한'의 뜻으로 쓰임."
+        }
+      ]
+    },
+    {
+      "start": 162.22,
+      "end": 165.78,
+      "lines": [
+        {
+          "text": "No.",
+          "start": 162.22,
+          "end": 162.72
+        },
+        {
+          "text": "I think you do, mon.",
+          "start": 164.38,
+          "end": 165.78
+        }
+      ]
+    },
+    {
+      "start": 165.82,
+      "end": 167.47,
+      "lines": [
+        {
+          "text": "Stop it. - Okay. All right.",
+          "start": 165.82,
+          "end": 166.97
+        },
+        {
+          "text": "No.",
+          "start": 166.97,
+          "end": 167.47
+        }
+      ]
+    },
+    {
+      "start": 167.62,
+      "end": 173.66,
+      "lines": [
+        {
+          "text": "It's good. You just you need you need to push it.",
+          "start": 167.62,
+          "end": 170.9
+        },
+        {
+          "text": "You know, you could go a little bit further. Uh.",
+          "start": 170.94,
+          "end": 173.66
+        }
+      ],
+      "glossary": [
+        {
+          "term": "push it",
+          "ko": "더 밀어붙이다, 한계까지 가다",
+          "type": "idiom",
+          "easy": "지금에서 멈추지 말고 더 세게/멀리 가보라는 말",
+          "nuance": "여기선 '연기를 더 과감하게 밀어붙여라'.",
+          "when": "더 노력하거나 더 강하게 하라고 부추길 때.",
+          "ex": "You sang well, but you can push it a little more.",
+          "exKo": "노래 잘했는데, 조금만 더 밀어붙일 수 있어."
+        },
+        {
+          "term": "go a little bit further",
+          "ko": "조금 더 나아가다, 더 과감하게 하다",
+          "type": "phrase",
+          "easy": "지금보다 한 발 더 세게/멀리 가다",
+          "ex": "Can you go a little bit further with the design?",
+          "exKo": "그 디자인을 조금만 더 발전시켜 볼래?"
+        }
+      ]
+    },
+    {
+      "start": 173.7,
+      "end": 179.66,
+      "lines": [
+        {
+          "text": "All right. Okay. Kelly, how are you?",
+          "start": 173.7,
+          "end": 178.18
+        },
+        {
+          "text": "I just had the longest meeting.",
+          "start": 178.38,
+          "end": 179.66
+        }
+      ]
+    },
+    {
+      "start": 179.7,
+      "end": 184.04,
+      "lines": [
+        {
+          "text": "Oh. Welcome to my convenience store.",
+          "start": 179.7,
+          "end": 182.42
+        },
+        {
+          "text": "Would you like some cookie cookie?",
+          "start": 182.58,
+          "end": 184.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "convenience store",
+          "ko": "편의점",
+          "type": "word",
+          "easy": "간단한 음식·생필품을 파는 작은 가게",
+          "tip": "convenience는 '편리함'."
+        }
+      ]
+    },
+    {
+      "start": 184.04,
+      "end": 193.26,
+      "lines": [
+        {
+          "text": "Oh, I have some very delicious cookie cookie. Only 99 cents plus tax.",
+          "start": 184.04,
+          "end": 188.78
+        },
+        {
+          "text": "Try my cookie cookie. Try my cookie cookie.",
+          "start": 189.06,
+          "end": 193.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "plus tax",
+          "ko": "세금 별도, 부가세 추가",
+          "type": "phrase",
+          "easy": "표시된 가격에 세금이 더 붙는다는 뜻",
+          "tip": "미국은 가격표에 세금이 빠져 있어 계산 시 더 붙는다."
+        }
+      ]
+    },
+    {
+      "start": 193.42,
+      "end": 207.62,
+      "lines": [
+        {
+          "text": "Try my...",
+          "start": 193.42,
+          "end": 194.14
+        },
+        {
+          "text": "All right. All right. Yes!",
+          "start": 204.14,
+          "end": 207.62
+        }
+      ]
+    },
+    {
+      "start": 209.34,
+      "end": 214.98,
+      "lines": [
+        {
+          "text": "That was great. She gets it now.",
+          "start": 209.34,
+          "end": 212.62
+        },
+        {
+          "text": "She knows what it's like to be a minority.",
+          "start": 212.62,
+          "end": 214.98
+        }
+      ],
+      "glossary": [
+        {
+          "term": "She gets it now",
+          "ko": "이제 그녀가 이해했다, 감 잡았다",
+          "type": "idiom",
+          "easy": "이제 그 사람이 무슨 느낌인지 제대로 알게 됐다는 뜻",
+          "nuance": "get it = '(말·상황을) 이해하다, 알아듣다'.",
+          "when": "누가 드디어 핵심을 깨달았을 때.",
+          "ex": "After the trip, she finally gets it.",
+          "exKo": "그 여행 후에야 그녀는 드디어 이해했다."
+        },
+        {
+          "term": "minority",
+          "ko": "소수자, 소수 집단",
+          "type": "word",
+          "easy": "한 사회에서 수가 적은 인종·집단의 사람",
+          "vs": "majority(다수)의 반대.",
+          "tip": "여기선 '소수 인종으로 사는 게 어떤 건지 안다'는 맥락."
+        }
+      ]
+    }
+  ]
+}

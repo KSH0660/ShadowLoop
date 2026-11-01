@@ -1,0 +1,587 @@
+{
+  "id": "ykN0VZiEDr8",
+  "segments": [
+    {
+      "start": 1.46,
+      "end": 12.62,
+      "lines": [
+        {
+          "text": "Honey, you don't drink coffee.",
+          "start": 1.46,
+          "end": 2.93
+        },
+        {
+          "text": "I do when I've been up half the night worrying about a project that's only 1/3 done. And I still have an apron to sew, scenery to paint, plus my normal crushing workload. So unless you have a better way for me to stimulate.",
+          "start": 2.96,
+          "end": 12.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "crushing workload",
+          "ko": "살인적인 업무량",
+          "type": "phrase",
+          "easy": "감당하기 힘들 만큼 어마어마하게 많은 일",
+          "nuance": "그냥 'a lot of work'보다 훨씬 강하다 — 눌려 짓이겨질(crush) 정도라는 과장된 느낌.",
+          "when": "일이 너무 많아 지칠 때, 회사·학교 일정이 빡빡할 때.",
+          "ex": "She quit because of the crushing workload.",
+          "exKo": "그녀는 살인적인 업무량 때문에 회사를 그만뒀다.",
+          "vs": "heavy workload는 '많다' 정도지만, crushing workload는 '버티기 힘들다'는 감정까지 담는다.",
+          "tip": "crushing은 '으스러뜨리는'이라는 형용사로, 부담·패배(crushing defeat) 같은 데도 자주 쓴다."
+        }
+      ]
+    },
+    {
+      "start": 13.79,
+      "end": 17.39,
+      "lines": [
+        {
+          "text": "God. Coffee's bitter.",
+          "start": 13.79,
+          "end": 15.95
+        },
+        {
+          "text": "That was your first sip.",
+          "start": 15.98,
+          "end": 17.39
+        }
+      ]
+    },
+    {
+      "start": 17.69,
+      "end": 20.81,
+      "lines": [
+        {
+          "text": "Okay, I got the chafing dish.",
+          "start": 17.69,
+          "end": 19.34
+        },
+        {
+          "text": "Salt and pepper shakers. Perfect.",
+          "start": 19.34,
+          "end": 20.81
+        }
+      ],
+      "glossary": [
+        {
+          "term": "chafing dish",
+          "ko": "(뷔페용) 음식 보온 그릇",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 20.81,
+      "end": 27.11,
+      "lines": [
+        {
+          "text": "Matches both. I may have to readjust my grapes.",
+          "start": 20.81,
+          "end": 24.38
+        },
+        {
+          "text": "Oh, well, I'll just give you a little privacy.",
+          "start": 24.41,
+          "end": 27.11
+        }
+      ]
+    },
+    {
+      "start": 28.25,
+      "end": 30.86,
+      "lines": [
+        {
+          "text": "Welcome back to the light show.",
+          "start": 28.25,
+          "end": 30.11
+        },
+        {
+          "text": "Hi.",
+          "start": 30.14,
+          "end": 30.86
+        }
+      ]
+    },
+    {
+      "start": 30.89,
+      "end": 33.05,
+      "lines": [
+        {
+          "text": "Hi, Lily.",
+          "start": 30.89,
+          "end": 32.06
+        },
+        {
+          "text": "Hi, daddy.",
+          "start": 32.09,
+          "end": 33.05
+        }
+      ]
+    },
+    {
+      "start": 34.19,
+      "end": 42.26,
+      "lines": [
+        {
+          "text": "Lily, sweetheart. No no no no no, we're we're not going to do that.",
+          "start": 34.19,
+          "end": 38.72
+        },
+        {
+          "text": "Actually, actually, Claire, we're trying not to use the word no so much.",
+          "start": 38.75,
+          "end": 42.26
+        }
+      ]
+    },
+    {
+      "start": 42.26,
+      "end": 48.53,
+      "lines": [
+        {
+          "text": "We just read a book that said children learn to rebel against that word.",
+          "start": 42.26,
+          "end": 45.5
+        },
+        {
+          "text": "So we redirect her into a new activity instead.",
+          "start": 45.68,
+          "end": 48.53
+        }
+      ],
+      "glossary": [
+        {
+          "term": "rebel against",
+          "ko": "~에 반항하다, 거스르다",
+          "type": "phrase",
+          "easy": "규칙이나 시키는 사람에게 일부러 맞서고 따르지 않다",
+          "nuance": "단순히 'NO'가 아니라, 권위·통제에 대놓고 저항하는 느낌.",
+          "when": "사춘기 아이가 부모 말을 안 들을 때, 시민이 정부에 저항할 때.",
+          "ex": "Teenagers often rebel against their parents' rules.",
+          "exKo": "십대들은 종종 부모의 규칙에 반항한다.",
+          "vs": "disobey는 그냥 '안 따르다'지만, rebel against는 '맞서 싸우다'에 가깝다."
+        },
+        {
+          "term": "redirect",
+          "ko": "(관심을) 다른 데로 돌리다",
+          "type": "word",
+          "easy": "가던 방향이나 쏠린 관심을 다른 쪽으로 바꿔주다",
+          "nuance": "막는 게 아니라 '방향만 틀어' 흘려보내는 부드러운 느낌.",
+          "when": "떼쓰는 아이의 주의를 장난감으로 돌릴 때, 대화 주제를 바꿀 때.",
+          "ex": "She redirected the child's attention to a toy.",
+          "exKo": "그녀는 아이의 관심을 장난감으로 돌렸다.",
+          "tip": "re(다시) + direct(향하게 하다) = 방향을 다시 잡아주다, 로 외우면 쉽다."
+        }
+      ]
+    },
+    {
+      "start": 48.92,
+      "end": 54.89,
+      "lines": [
+        {
+          "text": "We'll just watch this. Lily, sweetie.",
+          "start": 48.92,
+          "end": 51.5
+        },
+        {
+          "text": "Hi. It's daddy here. Would you like to listen to some music?",
+          "start": 51.53,
+          "end": 54.89
+        }
+      ]
+    },
+    {
+      "start": 54.92,
+      "end": 61.49,
+      "lines": [
+        {
+          "text": "Okay. There you go. You see?",
+          "start": 54.92,
+          "end": 57.89
+        },
+        {
+          "text": "Every new generation thinks they have cracked the code on child rearing.",
+          "start": 58.1,
+          "end": 61.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "cracked the code",
+          "ko": "비결을 알아내다, 완전히 파악하다",
+          "type": "idiom",
+          "easy": "아무도 못 풀던 어려운 문제의 답·비결을 드디어 알아내다",
+          "nuance": "암호(code)를 풀듯, 한참 헤매다 '아하!' 하고 핵심을 간파한 느낌.",
+          "when": "오래 고민하던 문제의 해법을 찾았을 때, 성공 비결을 깨달았을 때.",
+          "ex": "After years of trying, they finally cracked the code on customer retention.",
+          "exKo": "몇 년을 시도한 끝에 그들은 마침내 고객 유지의 비결을 알아냈다.",
+          "tip": "crack은 '깨다/금이 가다'지만, crack the code는 통째로 '비밀을 풀다'라는 관용구다."
+        },
+        {
+          "term": "child rearing",
+          "ko": "육아, 아이 기르기",
+          "type": "phrase",
+          "easy": "아이를 먹이고 가르치며 어른으로 키워내는 모든 과정",
+          "nuance": "단순 돌봄보다 '제대로 길러낸다'는 양육의 무게가 담긴 말.",
+          "when": "육아 방식, 자녀 교육을 진지하게 이야기할 때.",
+          "ex": "Child rearing is a full-time responsibility.",
+          "exKo": "육아는 잠시도 쉴 수 없는 책임이다.",
+          "vs": "babysitting은 잠깐 봐주는 것, child rearing은 오랜 기간 길러내는 것."
+        }
+      ]
+    },
+    {
+      "start": 61.49,
+      "end": 66.23,
+      "lines": [
+        {
+          "text": "What's the latest theory? Never say no.",
+          "start": 61.49,
+          "end": 63.8
+        },
+        {
+          "text": "I say no every day in this house.",
+          "start": 63.83,
+          "end": 66.23
+        }
+      ]
+    },
+    {
+      "start": 66.23,
+      "end": 68.72,
+      "lines": [
+        {
+          "text": "But at night, she's a yes machine.",
+          "start": 66.23,
+          "end": 68.18
+        },
+        {
+          "text": "No.",
+          "start": 68.18,
+          "end": 68.72
+        }
+      ]
+    },
+    {
+      "start": 70.58,
+      "end": 79.97,
+      "lines": [
+        {
+          "text": "Oh, it doesn't seem that she is redirecting her own energy as much as using a lot of ours.",
+          "start": 70.58,
+          "end": 75.2
+        },
+        {
+          "text": "Do you see how she's slowly transitioning from the lights to the music?",
+          "start": 75.29,
+          "end": 79.97
+        }
+      ]
+    },
+    {
+      "start": 80,
+      "end": 91.31,
+      "lines": [
+        {
+          "text": "Yeah, I do. It's hard to believe there was ever a time when we just said, stop doing that. Oh, the garbage disposal.",
+          "start": 80,
+          "end": 89.33
+        },
+        {
+          "text": "Lily. No no no no no no no no no no.",
+          "start": 89.36,
+          "end": 91.31
+        }
+      ],
+      "glossary": [
+        {
+          "term": "garbage disposal",
+          "ko": "(싱크대) 음식물 분쇄기",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 91.34,
+      "end": 98.45,
+      "lines": [
+        {
+          "text": "Let's redirect you into a nap, huh?",
+          "start": 91.34,
+          "end": 94.22
+        },
+        {
+          "text": "Actually, we're doing this new thing where we let her tell us when she wants to take a nap.",
+          "start": 94.25,
+          "end": 98.45
+        }
+      ]
+    },
+    {
+      "start": 98.45,
+      "end": 102.26,
+      "lines": [
+        {
+          "text": "It's called being your own nap captain.",
+          "start": 98.45,
+          "end": 100.67
+        },
+        {
+          "text": "Mhm. Come on, sweetie.",
+          "start": 101.03,
+          "end": 102.26
+        }
+      ]
+    },
+    {
+      "start": 103.1,
+      "end": 107.18,
+      "lines": [
+        {
+          "text": "Okay, this is way too many grapes.",
+          "start": 103.1,
+          "end": 105.74
+        },
+        {
+          "text": "And the spoon is modern day.",
+          "start": 105.74,
+          "end": 107.18
+        }
+      ]
+    },
+    {
+      "start": 107.18,
+      "end": 113.15,
+      "lines": [
+        {
+          "text": "So if we use it, everyone at the table has to react in shock at the spoon from the future.",
+          "start": 107.18,
+          "end": 110.75
+        },
+        {
+          "text": "And that went down the drain.",
+          "start": 111.74,
+          "end": 113.15
+        }
+      ],
+      "glossary": [
+        {
+          "term": "went down the drain",
+          "ko": "수포로 돌아가다 (배수구로 내려가다 말장난)",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 113.18,
+      "end": 116,
+      "lines": [
+        {
+          "text": "Okay. And you need a nap.",
+          "start": 113.18,
+          "end": 114.5
+        },
+        {
+          "text": "You need a nap.",
+          "start": 114.53,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "start": 116.15,
+      "end": 121.28,
+      "lines": [
+        {
+          "text": "I got it. Oh, I lost it. Shoot.",
+          "start": 116.15,
+          "end": 118.82
+        },
+        {
+          "text": "Let me know if I can eliminate any distractions for you.",
+          "start": 118.85,
+          "end": 121.28
+        }
+      ]
+    },
+    {
+      "start": 121.31,
+      "end": 128.96,
+      "lines": [
+        {
+          "text": "Oh, I got it. No, I got a finger on it. There it is. Oh. Lost it again.",
+          "start": 121.31,
+          "end": 124.37
+        },
+        {
+          "text": "Maybe you should just wait until it comes to you. You know, make it the captain of its own spoon platoon.",
+          "start": 124.4,
+          "end": 128.96
+        }
+      ]
+    },
+    {
+      "start": 128.99,
+      "end": 135.65,
+      "lines": [
+        {
+          "text": "I understand the point you're making, Claire, but. Oh, now I'm stuck.",
+          "start": 128.99,
+          "end": 132.14
+        },
+        {
+          "text": "Yeah, Cam, you are stuck. You are stuck on a philosophy that clearly doesn't work.",
+          "start": 132.17,
+          "end": 135.65
+        }
+      ]
+    },
+    {
+      "start": 135.65,
+      "end": 140.72,
+      "lines": [
+        {
+          "text": "Sometimes you need to say no to a child.",
+          "start": 135.65,
+          "end": 138.35
+        },
+        {
+          "text": "Yeah, and sometimes you need to say no to an adult.",
+          "start": 138.38,
+          "end": 140.72
+        }
+      ]
+    },
+    {
+      "start": 140.75,
+      "end": 156.53,
+      "lines": [
+        {
+          "text": "No, Claire. No. I don't need help raising my child.",
+          "start": 140.75,
+          "end": 144.2
+        },
+        {
+          "text": "Oh, okay. I'm sorry. Oh. I guess I do have a lot to learn. Right now I'm looking forward to learning if you will get your arm out of there before Lily gets to the garbage disposal switch.",
+          "start": 144.86,
+          "end": 156.53
+        }
+      ]
+    },
+    {
+      "start": 159.77,
+      "end": 168.86,
+      "lines": [
+        {
+          "text": "Um. Lily, sweetie. Can you do something, please Claire?",
+          "start": 159.77,
+          "end": 163.58
+        },
+        {
+          "text": "I would like to. Really, I would, but I would probably just say no and shred her confidence and mangle her self-esteem.",
+          "start": 163.58,
+          "end": 168.86
+        }
+      ],
+      "glossary": [
+        {
+          "term": "shred her confidence",
+          "ko": "자신감을 짓밟다",
+          "type": "phrase"
+        },
+        {
+          "term": "mangle her self-esteem",
+          "ko": "자존감을 망가뜨리다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 168.89,
+      "end": 173.24,
+      "lines": [
+        {
+          "text": "Okay, fine. I'm sorry. Just hear. Just stop her. Stop her.",
+          "start": 168.89,
+          "end": 171.26
+        },
+        {
+          "text": "Stop her. Sweetie. Claire!",
+          "start": 171.26,
+          "end": 173.24
+        }
+      ]
+    },
+    {
+      "start": 173.27,
+      "end": 178.09,
+      "lines": [
+        {
+          "text": "Okay.",
+          "start": 173.27,
+          "end": 173.77
+        },
+        {
+          "text": "Oh.",
+          "start": 177.59,
+          "end": 178.09
+        }
+      ]
+    },
+    {
+      "start": 178.82,
+      "end": 185.81,
+      "lines": [
+        {
+          "text": "Yes.",
+          "start": 178.82,
+          "end": 179.45
+        },
+        {
+          "text": "Oh. Oh, you think that's funny, don't you?",
+          "start": 180.14,
+          "end": 185.81
+        }
+      ]
+    },
+    {
+      "start": 186.05,
+      "end": 188.6,
+      "lines": [
+        {
+          "text": "Yes.",
+          "start": 186.05,
+          "end": 186.56
+        },
+        {
+          "text": "It's wicked, Claire. It's wicked.",
+          "start": 186.95,
+          "end": 188.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "wicked",
+          "ko": "짓궂은, 고약한",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 188.6,
+      "end": 190.85,
+      "lines": [
+        {
+          "text": "Come on, we're leaving Lily!",
+          "start": 188.6,
+          "end": 189.89
+        },
+        {
+          "text": "Lily!",
+          "start": 189.98,
+          "end": 190.85
+        }
+      ]
+    }
+  ]
+}

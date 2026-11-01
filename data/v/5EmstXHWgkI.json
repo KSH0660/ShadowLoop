@@ -1,0 +1,867 @@
+{
+  "id": "5EmstXHWgkI",
+  "segments": [
+    {
+      "start": 4.44,
+      "end": 9.2,
+      "lines": [
+        {
+          "text": "These seats are amazing.",
+          "start": 4.44,
+          "end": 5.96
+        },
+        {
+          "text": "- Why you have candy coming out of your... - No no no no no.",
+          "start": 6.8,
+          "end": 9.2
+        }
+      ]
+    },
+    {
+      "start": 10.28,
+      "end": 14.08,
+      "lines": [
+        {
+          "text": "I brought my own snacks.",
+          "start": 10.28,
+          "end": 11.71
+        },
+        {
+          "text": "Not because I'm cheap, it's a matter of principle.",
+          "start": 12.14,
+          "end": 14.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "it's a matter of principle",
+          "ko": "원칙의 문제다",
+          "type": "phrase",
+          "easy": "돈이나 이득 때문이 아니라, 내가 옳다고 믿는 원칙 때문에 그렇게 한다는 말.",
+          "nuance": "사소한 행동에도 '나는 신념 때문에 이러는 거야'라고 진지하게(가끔은 우습게) 우길 때 쓴다.",
+          "when": "사소한 일을 두고 '이건 그냥 고집이 아니라 원칙 문제야'라고 강조할 때.",
+          "ex": "I won't apologize first. It's a matter of principle.",
+          "exKo": "내가 먼저 사과 안 해. 이건 원칙의 문제야."
+        },
+        {
+          "term": "cheap",
+          "ko": "(사람이) 짠, 인색한",
+          "type": "word",
+          "easy": "값이 싼 게 아니라, 돈을 잘 안 쓰는 '구두쇠' 같은 사람이라는 뜻.",
+          "nuance": "물건이 'cheap'이면 싸다지만, 사람이 'cheap'이면 욕에 가까운 '짜다'는 말.",
+          "ex": "He never buys gifts. He's so cheap.",
+          "exKo": "걔는 선물을 절대 안 사. 진짜 짠돌이야.",
+          "tip": "사람한테 쓰면 인색하다, 물건한테 쓰면 값이 싸다 — 헷갈리지 말 것."
+        }
+      ]
+    },
+    {
+      "start": 14.56,
+      "end": 18.16,
+      "lines": [
+        {
+          "text": "Plus, I get a little rush from the danger. Be cool, be cool!",
+          "start": 14.56,
+          "end": 17.08
+        },
+        {
+          "text": "Be cool!",
+          "start": 17.4,
+          "end": 18.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "rush",
+          "ko": "짜릿한 흥분, 스릴",
+          "type": "word",
+          "easy": "위험하거나 신날 때 몸에서 확 솟구치는 짜릿한 기분.",
+          "nuance": "'바쁘게 서두르다'의 rush가 아니라, 명사로 '확 오는 짜릿함'을 뜻한다.",
+          "when": "롤러코스터, 모험처럼 아드레날린이 솟는 순간을 말할 때.",
+          "ex": "Skydiving gave me such a rush.",
+          "exKo": "스카이다이빙은 정말 짜릿했어."
+        },
+        {
+          "term": "Be cool",
+          "ko": "침착해, 태연한 척해",
+          "type": "phrase",
+          "easy": "긴장한 티 내지 말고 아무렇지 않은 척 자연스럽게 행동하라는 말.",
+          "when": "들킬까 봐 조마조마할 때 옆 사람에게 속삭이듯 하는 말.",
+          "ex": "The teacher's coming. Be cool!",
+          "exKo": "선생님 온다. 태연하게 행동해!"
+        }
+      ]
+    },
+    {
+      "start": 18.68,
+      "end": 23.12,
+      "lines": [
+        {
+          "text": "Just look straight ahead.",
+          "start": 18.68,
+          "end": 19.6
+        },
+        {
+          "text": "I've never felt more alive.",
+          "start": 21.84,
+          "end": 23.12
+        }
+      ]
+    },
+    {
+      "start": 26.64,
+      "end": 29.39,
+      "lines": [
+        {
+          "text": "Okay, I just made it worse.",
+          "start": 26.64,
+          "end": 28.08
+        },
+        {
+          "text": "I'm not freaking out, though.",
+          "start": 28.08,
+          "end": 29.39
+        }
+      ],
+      "glossary": [
+        {
+          "term": "made it worse",
+          "ko": "상황을 더 망쳤다",
+          "type": "phrase",
+          "easy": "고치려다가 오히려 더 나쁘게 만들었다는 말.",
+          "ex": "I tried to clean the stain, but I made it worse.",
+          "exKo": "얼룩을 닦으려 했는데 오히려 더 번지게 했어."
+        },
+        {
+          "term": "freaking out",
+          "ko": "안절부절 패닉 상태",
+          "type": "idiom",
+          "easy": "너무 놀라거나 무서워서 어쩔 줄 모르고 흥분하는 것.",
+          "nuance": "그냥 'worried'보다 훨씬 세다 — 거의 멘붕에 가까운 느낌.",
+          "when": "갑작스러운 충격이나 공포로 정신을 못 차릴 때.",
+          "ex": "Don't freak out, but I lost your keys.",
+          "exKo": "놀라지 말고 들어, 나 네 열쇠 잃어버렸어.",
+          "tip": "freak out = 패닉/멘붕. freak someone out = 남을 소름 끼치게/질겁하게 만들다."
+        }
+      ]
+    },
+    {
+      "start": 29.39,
+      "end": 33.48,
+      "lines": [
+        {
+          "text": "I'm gonna call your Dad, and he's gonna tell me how to fix this.",
+          "start": 29.39,
+          "end": 31.69
+        },
+        {
+          "text": "Oh my God, it's Dad!",
+          "start": 32.28,
+          "end": 33.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "gonna",
+          "ko": "~할 거야 (going to)",
+          "type": "phrase",
+          "easy": "going to를 말할 때 빠르게 발음한 형태. 글에서는 잘 안 쓰고 회화에서만.",
+          "ex": "I'm gonna call you later.",
+          "exKo": "이따 전화할게."
+        }
+      ]
+    },
+    {
+      "start": 33.48,
+      "end": 35.24,
+      "lines": [
+        {
+          "text": "Where?",
+          "start": 33.48,
+          "end": 33.98
+        },
+        {
+          "text": "Right there behind Kobe!",
+          "start": 33.98,
+          "end": 35.24
+        }
+      ]
+    },
+    {
+      "start": 36.3,
+      "end": 38.06,
+      "lines": [
+        {
+          "text": "How weird is this?",
+          "start": 36.3,
+          "end": 37.36
+        },
+        {
+          "text": "Quick!",
+          "start": 37.52,
+          "end": 38.06
+        }
+      ]
+    },
+    {
+      "start": 38.33,
+      "end": 40.91,
+      "lines": [
+        {
+          "text": "Quick, tell me something to say that'll freak him out.",
+          "start": 38.33,
+          "end": 39.79
+        },
+        {
+          "text": "Tell him I'm pregnant.",
+          "start": 39.79,
+          "end": 40.91
+        }
+      ],
+      "glossary": [
+        {
+          "term": "freak him out",
+          "ko": "그를 기겁하게 만들다",
+          "type": "idiom",
+          "easy": "남을 깜짝 놀라게 하거나 소름 끼치게/당황하게 만드는 것.",
+          "nuance": "freak out(스스로 패닉)과 달리, freak somebody out은 '남을' 질겁하게 한다는 뜻.",
+          "when": "장난이나 충격적인 말로 상대를 당황시키려 할 때.",
+          "ex": "That horror mask really freaked her out.",
+          "exKo": "그 공포 가면이 그녀를 진짜 기겁하게 했어.",
+          "tip": "out 뒤에 사람이 오면 '남을' 놀라게 하는 것 — freak HIM out."
+        }
+      ]
+    },
+    {
+      "start": 41.47,
+      "end": 44.72,
+      "lines": [
+        {
+          "text": "No, I'm not gonna say that.",
+          "start": 41.47,
+          "end": 42.47
+        },
+        {
+          "text": "Here we go!",
+          "start": 44,
+          "end": 44.72
+        }
+      ]
+    },
+    {
+      "start": 44.84,
+      "end": 50.72,
+      "lines": [
+        {
+          "text": "How funny is this?",
+          "start": 44.84,
+          "end": 45.8
+        },
+        {
+          "text": "Hey, it's Phil.",
+          "start": 49.76,
+          "end": 50.72
+        }
+      ]
+    },
+    {
+      "start": 51.11,
+      "end": 55.16,
+      "lines": [
+        {
+          "text": "You know what to do.",
+          "start": 51.11,
+          "end": 52.04
+        },
+        {
+          "text": "Well, that was pretty funny.",
+          "start": 53.84,
+          "end": 55.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "You know what to do",
+          "ko": "어떻게 할지 알지?",
+          "type": "phrase",
+          "easy": "굳이 설명 안 해도 네가 뭘 해야 할지 알고 있다는 말.",
+          "when": "둘만 아는 신호나 약속을 상기시킬 때.",
+          "ex": "If he calls again, you know what to do.",
+          "exKo": "걔가 또 전화하면, 어떻게 할지 알지."
+        }
+      ]
+    },
+    {
+      "start": 60.96,
+      "end": 65.56,
+      "lines": [
+        {
+          "text": "Cool. The Kiss Cam.",
+          "start": 60.96,
+          "end": 61.91
+        },
+        {
+          "text": "Wouldn't it be embarrassing, if the camera was on us and then the crowd started... - We're related.",
+          "start": 62.35,
+          "end": 65.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Kiss Cam",
+          "ko": "키스 캠 (경기장 화면 이벤트)",
+          "type": "phrase",
+          "easy": "스포츠 경기장에서 카메라가 커플을 비추면 키스하라고 부추기는 이벤트.",
+          "when": "야구·농구 경기 중간 휴식 시간에 큰 화면에 나오는 장면."
+        },
+        {
+          "term": "We're related",
+          "ko": "우리 친척이야",
+          "type": "phrase",
+          "easy": "두 사람이 가족/친척 관계라는 말.",
+          "nuance": "related to ~는 '~와 관련된'이지만, 사람끼리 We're related는 '피로 이어진 친척'이라는 뜻.",
+          "ex": "We have the same last name, but we're not related.",
+          "exKo": "성은 같지만 우리는 친척은 아니야."
+        }
+      ]
+    },
+    {
+      "start": 65.85,
+      "end": 68.62,
+      "lines": [
+        {
+          "text": "Not by blood.",
+          "start": 65.85,
+          "end": 66.6
+        },
+        {
+          "text": "Touch me and there will be blood.",
+          "start": 66.94,
+          "end": 68.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Not by blood",
+          "ko": "피로 이어진 건 아니야",
+          "type": "phrase",
+          "easy": "친척이긴 한데 진짜 혈연(피)으로 연결된 사이는 아니라는 말. 보통 결혼으로 엮인 관계.",
+          "ex": "He's my brother, but not by blood — we were adopted together.",
+          "exKo": "걔는 내 형제지만 핏줄은 아니야 — 같이 입양됐거든."
+        },
+        {
+          "term": "there will be blood",
+          "ko": "(건드리면) 피 본다, 가만 안 둔다",
+          "type": "idiom",
+          "easy": "나를 건드리면 싸움이 나서 다칠 거라는, 살짝 위협하는 농담 같은 말.",
+          "nuance": "진짜 폭력보다는 '한 번만 더 해 봐라' 식의 과장된 경고.",
+          "ex": "Eat my fries again and there will be blood.",
+          "exKo": "내 감자튀김 또 먹으면 가만 안 둔다."
+        }
+      ]
+    },
+    {
+      "start": 72.74,
+      "end": 74.73,
+      "lines": [
+        {
+          "text": "Not us.",
+          "start": 72.74,
+          "end": 73.3
+        },
+        {
+          "text": "What's wrong with you?",
+          "start": 73.9,
+          "end": 74.73
+        }
+      ]
+    },
+    {
+      "start": 74.73,
+      "end": 84.82,
+      "lines": [
+        {
+          "text": "It's the Kiss Cam, when it lands on you, you're supposed to kiss.",
+          "start": 74.73,
+          "end": 77.07
+        },
+        {
+          "text": "It's my wife's dad's, second wife, so, legally okay, but still weird.",
+          "start": 80.36,
+          "end": 84.82
+        }
+      ],
+      "glossary": [
+        {
+          "term": "lands on you",
+          "ko": "(카메라가) 너를 비추다, 너에게 멈추다",
+          "type": "phrase",
+          "easy": "여기서 land on은 카메라/시선 등이 이리저리 옮기다 결국 '너에게 멈춰 비추는' 것.",
+          "nuance": "'착륙하다'의 land가 아니라, 무언가가 움직이다 특정 대상에 '딱 멈추는' 느낌.",
+          "ex": "The spotlight landed on me and I froze.",
+          "exKo": "조명이 나를 딱 비추자 나는 얼어붙었어."
+        },
+        {
+          "term": "you're supposed to",
+          "ko": "~하기로 되어 있다, ~해야 한다",
+          "type": "phrase",
+          "easy": "규칙이나 분위기상 원래 그렇게 해야 한다는 말.",
+          "nuance": "강제 명령(must)보다 '원래 그러는 게 맞다'는 관습/기대의 뉘앙스.",
+          "ex": "You're supposed to take off your shoes here.",
+          "exKo": "여기선 신발을 벗게 되어 있어."
+        }
+      ]
+    },
+    {
+      "start": 87.86,
+      "end": 91.1,
+      "lines": [
+        {
+          "text": "That was awkward.",
+          "start": 87.86,
+          "end": 88.59
+        },
+        {
+          "text": "And we're back.",
+          "start": 90.21,
+          "end": 91.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "awkward",
+          "ko": "어색한, 민망한",
+          "type": "word",
+          "easy": "분위기가 뻘쭘하고 불편해서 어쩔 줄 모르는 상태.",
+          "when": "실수하거나 곤란한 순간 뒤의 머쓱한 공기.",
+          "ex": "There was an awkward silence after his joke.",
+          "exKo": "그의 농담 뒤에 어색한 침묵이 흘렀어."
+        },
+        {
+          "term": "we're back",
+          "ko": "(방송) 다시 시작합니다, 돌아왔습니다",
+          "type": "phrase",
+          "easy": "광고나 휴식 뒤에 방송/중계가 다시 이어질 때 쓰는 말.",
+          "ex": "And we're back after a short break.",
+          "exKo": "짧은 휴식 끝나고 다시 시작합니다."
+        }
+      ]
+    },
+    {
+      "start": 94.88,
+      "end": 107.26,
+      "lines": [
+        {
+          "text": "Come on, it's not a big deal!",
+          "start": 94.88,
+          "end": 96.74
+        },
+        {
+          "text": "Thank God for caller I.D. So you don't have to talk to your wife.",
+          "start": 104.3,
+          "end": 107.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "it's not a big deal",
+          "ko": "별일 아니야, 대수롭지 않아",
+          "type": "idiom",
+          "easy": "그렇게 심각하거나 큰 문제가 아니라는 말.",
+          "when": "상대가 화내거나 걱정할 때 진정시키려고.",
+          "ex": "Relax, it's not a big deal.",
+          "exKo": "진정해, 별일 아니야."
+        },
+        {
+          "term": "Thank God for caller I.D.",
+          "ko": "발신자 표시 덕분에 다행이다",
+          "type": "phrase",
+          "easy": "Thank God for ~ 는 '~ 덕분에 정말 다행이다'라는 안도의 표현.",
+          "nuance": "진짜 신께 감사라기보다 '아이고 다행이야' 정도의 일상 감탄.",
+          "ex": "Thank God for coffee on Mondays.",
+          "exKo": "월요일엔 커피가 있어서 정말 다행이야."
+        }
+      ]
+    },
+    {
+      "start": 108.18,
+      "end": 111.98,
+      "lines": [
+        {
+          "text": "Oh, we're gonna talk, mister.",
+          "start": 108.18,
+          "end": 109.82
+        },
+        {
+          "text": "We're gonna talk and talk.",
+          "start": 110.06,
+          "end": 111.98
+        }
+      ]
+    },
+    {
+      "start": 114.94,
+      "end": 117.94,
+      "lines": [
+        {
+          "text": "Dad, Mom saw you on TV.",
+          "start": 114.94,
+          "end": 117.03
+        },
+        {
+          "text": "You're dead.",
+          "start": 117.39,
+          "end": 117.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "You're dead",
+          "ko": "너 이제 죽었다 (큰일 났다)",
+          "type": "idiom",
+          "easy": "진짜 죽는다는 게 아니라, 곧 크게 혼날 거라는 과장된 경고.",
+          "nuance": "장난스럽거나 가족끼리 '너 이제 혼난다~' 할 때 흔히 쓴다.",
+          "ex": "If Mom finds out, you're dead.",
+          "exKo": "엄마가 알면 너 이제 죽었어."
+        }
+      ]
+    },
+    {
+      "start": 121.06,
+      "end": 127.26,
+      "lines": [
+        {
+          "text": "Here's the thing. The Kiss Cam is only supposed to be for the enjoyment of the people at the game.",
+          "start": 121.06,
+          "end": 125.9
+        },
+        {
+          "text": "They never show that on TV.",
+          "start": 125.9,
+          "end": 127.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Here's the thing",
+          "ko": "그게 말이지, 중요한 건",
+          "type": "phrase",
+          "easy": "이제 핵심이나 변명/설명을 꺼낼 때 운을 떼는 말.",
+          "nuance": "보통 뒤에 '사실은…' 하며 사정이나 핑계가 따라온다.",
+          "when": "변명이나 중요한 포인트를 말하기 직전.",
+          "ex": "Here's the thing — I forgot your birthday.",
+          "exKo": "그게 말이지… 나 네 생일을 깜빡했어."
+        },
+        {
+          "term": "supposed to be for",
+          "ko": "원래 ~을 위한 거다",
+          "type": "phrase",
+          "easy": "원래 그 용도/목적으로 정해져 있다는 말.",
+          "ex": "This room is supposed to be for guests.",
+          "exKo": "이 방은 원래 손님용이야."
+        }
+      ]
+    },
+    {
+      "start": 128.22,
+      "end": 136.47,
+      "lines": [
+        {
+          "text": "What people do in the privacy of their own sports arena should be their own business.",
+          "start": 128.22,
+          "end": 132.83
+        },
+        {
+          "text": "Then one day, Wilt Chamberlain shows up.",
+          "start": 134.23,
+          "end": 136.47
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in the privacy of their own ...",
+          "ko": "자기들만의 사적인 공간에서",
+          "type": "phrase",
+          "easy": "남 눈치 안 보고 자기만의 공간에서 편하게 한다는 뜻. 보통 'in the privacy of their own home(자기 집에서)' 형태로 쓴다.",
+          "nuance": "여기선 'home' 대신 'sports arena'를 넣어 일부러 우스꽝스럽게 비튼 농담.",
+          "ex": "People can do what they want in the privacy of their own home.",
+          "exKo": "사람들은 자기 집에서는 원하는 대로 할 수 있어."
+        },
+        {
+          "term": "shows up",
+          "ko": "나타나다, 등장하다",
+          "type": "idiom",
+          "easy": "어떤 장소에 모습을 드러내며 오는 것.",
+          "nuance": "예고 없이 '짠' 하고 나타나는 느낌이 강하다.",
+          "ex": "He showed up an hour late.",
+          "exKo": "걔는 한 시간이나 늦게 나타났어.",
+          "tip": "show up = (사람이) 나타나다. show off = 뽐내다 — 헷갈리지 말 것."
+        }
+      ]
+    },
+    {
+      "start": 136.91,
+      "end": 140.67,
+      "lines": [
+        {
+          "text": "He says, \"Can you take a little off the top for my friend here?\"",
+          "start": 136.91,
+          "end": 139.55
+        },
+        {
+          "text": "And it's Elvis.",
+          "start": 139.75,
+          "end": 140.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take a little off the top",
+          "ko": "(머리) 윗부분을 조금 다듬다",
+          "type": "idiom",
+          "easy": "이발소에서 '머리 윗부분 살짝만 쳐 주세요'라고 할 때 쓰는 표현.",
+          "nuance": "원래 미용실 말투지만, '윗부분을 조금 떼다'라는 뜻으로 농담에 자주 응용된다.",
+          "when": "이발할 때 길이를 조금만 줄여 달라고 부탁할 때.",
+          "ex": "Just take a little off the top, please.",
+          "exKo": "윗머리만 살짝 다듬어 주세요."
+        }
+      ]
+    },
+    {
+      "start": 140.87,
+      "end": 143.99,
+      "lines": [
+        {
+          "text": "No way!",
+          "start": 140.87,
+          "end": 141.71
+        },
+        {
+          "text": "Greatest singer that ever lived after Sinatra.",
+          "start": 141.75,
+          "end": 143.99
+        }
+      ],
+      "glossary": [
+        {
+          "term": "No way!",
+          "ko": "말도 안 돼! 진짜?!",
+          "type": "idiom",
+          "easy": "놀랍거나 믿기 힘들 때 터져 나오는 감탄.",
+          "nuance": "상황에 따라 '절대 안 돼!'(거절)도 되지만, 여기선 '헐, 진짜?'의 놀람.",
+          "ex": "No way! You met her in person?",
+          "exKo": "말도 안 돼! 너 그 사람을 실제로 만났다고?"
+        },
+        {
+          "term": "that ever lived",
+          "ko": "역대 최고의, 지금껏 살았던 중",
+          "type": "phrase",
+          "easy": "'the greatest ~ that ever lived'는 '역사상 가장 ~한 사람'이라는 최상급 강조.",
+          "ex": "She's the kindest person that ever lived.",
+          "exKo": "그녀는 지금껏 살았던 사람 중 가장 친절해."
+        }
+      ]
+    },
+    {
+      "start": 144.03,
+      "end": 149.03,
+      "lines": [
+        {
+          "text": "I'll fight any man who says different.",
+          "start": 144.03,
+          "end": 145.59
+        },
+        {
+          "text": "My dad says the greatest singer who ever lived is Peabo Bryson.",
+          "start": 145.63,
+          "end": 149.03
+        }
+      ],
+      "glossary": [
+        {
+          "term": "any man who says different",
+          "ko": "다르게 말하는 사람은 누구든",
+          "type": "phrase",
+          "easy": "여기서 different은 '아니라고/다르게 말하는'이라는 뜻. 'says differently'를 회화체로 줄인 말.",
+          "nuance": "'내 말에 토 다는 사람은 누구든 상대해 주겠다'는 거친 말투.",
+          "ex": "Best pizza in town, and I'll argue with anyone who says different.",
+          "exKo": "동네 최고 피자야, 아니라는 사람과는 누구든 싸우겠어."
+        }
+      ]
+    },
+    {
+      "start": 149.35,
+      "end": 152.43,
+      "lines": [
+        {
+          "text": "Then I guess I gotta fight your dad.",
+          "start": 149.35,
+          "end": 150.67
+        },
+        {
+          "text": "Yeah, I guess.",
+          "start": 151.47,
+          "end": 152.43
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I gotta",
+          "ko": "~해야겠다 (I have got to)",
+          "type": "phrase",
+          "easy": "have got to를 회화에서 빠르게 발음한 형태. '~해야 한다'는 뜻.",
+          "ex": "I gotta go now.",
+          "exKo": "나 이제 가야 해."
+        }
+      ]
+    },
+    {
+      "start": 158.51,
+      "end": 165.35,
+      "lines": [
+        {
+          "text": "Luke says Grandpa wants to fight you.",
+          "start": 158.51,
+          "end": 160.67
+        },
+        {
+          "text": "- We're home! - Oh, thank God.",
+          "start": 163.63,
+          "end": 165.35
+        }
+      ]
+    },
+    {
+      "start": 165.67,
+      "end": 169.15,
+      "lines": [
+        {
+          "text": "Manny, let's go change.",
+          "start": 165.67,
+          "end": 166.91
+        },
+        {
+          "text": "Hey, there's my beautiful wife.",
+          "start": 167.27,
+          "end": 169.15
+        }
+      ]
+    },
+    {
+      "start": 170.03,
+      "end": 175.43,
+      "lines": [
+        {
+          "text": "I know you're mad at me, and I know this foam finger can't make up for everything.",
+          "start": 170.03,
+          "end": 172.99
+        },
+        {
+          "text": "Honey, you just go change and we'll talk about what you did later.",
+          "start": 172.99,
+          "end": 175.43
+        }
+      ],
+      "glossary": [
+        {
+          "term": "make up for",
+          "ko": "(잘못 등을) 보상하다, 만회하다",
+          "type": "idiom",
+          "easy": "실수나 부족한 점을 다른 좋은 일로 메워서 갚는 것.",
+          "nuance": "'사과'만이 아니라, 행동으로 미안함을 갚아 균형을 맞춘다는 느낌.",
+          "when": "잘못한 뒤 그걸 보상하거나 만회하려 할 때.",
+          "ex": "Let me buy you dinner to make up for being late.",
+          "exKo": "늦은 거 만회하게 저녁 살게.",
+          "tip": "make up = 화해하다/지어내다, make up for = 만회하다 — for가 붙으면 '보상'."
+        },
+        {
+          "term": "foam finger",
+          "ko": "응원용 폼 손가락 (스펀지 응원도구)",
+          "type": "word",
+          "easy": "경기장에서 흔드는, 거대한 손가락 모양의 스펀지 응원 도구."
+        }
+      ]
+    },
+    {
+      "start": 175.43,
+      "end": 178.03,
+      "lines": [
+        {
+          "text": "Okay.",
+          "start": 175.43,
+          "end": 175.94
+        },
+        {
+          "text": "Hey, thank you so much for those tickets.",
+          "start": 175.94,
+          "end": 178.03
+        }
+      ]
+    },
+    {
+      "start": 178.07,
+      "end": 181.03,
+      "lines": [
+        {
+          "text": "Gloria tells me you had a real good time.",
+          "start": 178.07,
+          "end": 179.79
+        },
+        {
+          "text": "Not really. No, I didn't.",
+          "start": 179.83,
+          "end": 181.03
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come by",
+          "ko": "잠깐 들르다",
+          "type": "idiom",
+          "easy": "지나는 길에 잠시 누구네 집/장소에 들르는 것.",
+          "nuance": "정식 방문보다 가볍게 '잠깐 들를게' 하는 느낌.",
+          "when": "친한 사람 집에 잠깐 방문하겠다고 할 때.",
+          "ex": "I'll come by your place after work.",
+          "exKo": "퇴근하고 너희 집에 잠깐 들를게.",
+          "tip": "come by something은 '(우연히) ~을 얻다'라는 다른 뜻도 있다."
+        }
+      ]
+    },
+    {
+      "start": 181.07,
+      "end": 184.95,
+      "lines": [
+        {
+          "text": "God, I love your daughter.",
+          "start": 181.07,
+          "end": 182.21
+        },
+        {
+          "text": "I should, I should come by and kiss that step.",
+          "start": 183.11,
+          "end": 184.95
+        }
+      ],
+      "glossary": [
+        {
+          "term": "kiss that step",
+          "ko": "그 계단에 키스하다 (Kiss Cam을 빗댄 말장난)",
+          "type": "phrase",
+          "easy": "'Kiss Cam' 사건을 비꼬는 동시에, 다음 줄의 'fix that step(계단 고치다)'과 발음을 엮은 말장난.",
+          "nuance": "kiss와 fix가 비슷하게 들려서 '키스해라/고쳐라'를 헷갈린 척하는 농담."
+        }
+      ]
+    },
+    {
+      "start": 184.95,
+      "end": 185.83,
+      "lines": [
+        {
+          "text": "Fix that step.",
+          "start": 184.95,
+          "end": 185.83
+        }
+      ]
+    }
+  ]
+}

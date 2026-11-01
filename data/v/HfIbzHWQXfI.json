@@ -1,0 +1,524 @@
+{
+  "id": "HfIbzHWQXfI",
+  "segments": [
+    {
+      "start": 0.16,
+      "end": 18.08,
+      "lines": [
+        {
+          "text": "Now lookit, Two-Gun I think you better get on your Shetland and ride out of town.",
+          "start": 0.16,
+          "end": 7.08
+        },
+        {
+          "text": "Why would the fiercest desperado in the territory run away from a portly, pusillanimous peace officer?",
+          "start": 10.84,
+          "end": 18.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "ride out of town",
+          "ko": "(말 타고) 마을을 떠나다, 도망가다",
+          "type": "phrase",
+          "easy": "옛날 서부영화에서 말 타고 마을을 떠나라는 말. '여기서 꺼져라'는 뜻으로도 씀.",
+          "when": "서부극에서 보안관이 무법자에게 마을을 떠나라고 경고할 때.",
+          "ex": "The sheriff told the bandit to ride out of town by sundown.",
+          "exKo": "보안관은 강도에게 해 지기 전에 마을을 떠나라고 했다."
+        },
+        {
+          "term": "desperado",
+          "ko": "무법자, 무모한 범죄자",
+          "type": "word",
+          "easy": "겁 없이 막 나가는 서부 시대 범죄자.",
+          "tip": "스페인어에서 온 말. 옛날 서부영화 분위기를 풍기는 단어."
+        },
+        {
+          "term": "pusillanimous",
+          "ko": "겁 많은, 소심한",
+          "type": "word",
+          "easy": "용기가 없고 잘 무서워하는.",
+          "nuance": "아주 격식 있고 어려운 단어라, 여기서는 일부러 길고 멋진 말로 잘난 척하는 웃음 포인트.",
+          "vs": "cowardly와 뜻은 같지만 훨씬 어렵고 고상한 느낌."
+        }
+      ]
+    },
+    {
+      "start": 24.92,
+      "end": 30.88,
+      "lines": [
+        {
+          "text": "Don't push me, kid.",
+          "start": 24.92,
+          "end": 26.53
+        },
+        {
+          "text": "You may be fast with those guns, but I'm faster.",
+          "start": 27.16,
+          "end": 30.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Don't push me",
+          "ko": "나 건드리지 마, 자극하지 마",
+          "type": "phrase",
+          "easy": "더 이상 나를 화나게 하지 말라는 경고.",
+          "when": "상대가 자꾸 약 올리거나 도발할 때.",
+          "ex": "Don't push me, I'm already in a bad mood.",
+          "exKo": "건드리지 마, 나 이미 기분 안 좋아."
+        }
+      ]
+    },
+    {
+      "start": 31.2,
+      "end": 37.88,
+      "lines": [
+        {
+          "text": "Don't make me laugh.",
+          "start": 31.2,
+          "end": 33.32
+        },
+        {
+          "text": "What a stupid snort.",
+          "start": 36.48,
+          "end": 37.88
+        }
+      ]
+    },
+    {
+      "start": 39.36,
+      "end": 44.84,
+      "lines": [
+        {
+          "text": "Oh, yeah? You snort.",
+          "start": 39.36,
+          "end": 40.52
+        },
+        {
+          "text": "Yes, sir, Mr Two-Gun, sir.",
+          "start": 43.28,
+          "end": 44.84
+        }
+      ]
+    },
+    {
+      "start": 50.28,
+      "end": 60.12,
+      "lines": [
+        {
+          "text": "Needs work.",
+          "start": 50.28,
+          "end": 51.2
+        },
+        {
+          "text": "You know, Two-Gun, the last hombre that thought he was faster than me, is now a boarding house for worms.",
+          "start": 52.4,
+          "end": 60.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hombre",
+          "ko": "사내, 녀석",
+          "type": "word",
+          "easy": "남자, 놈을 뜻하는 서부영화 말투.",
+          "tip": "스페인어로 '남자'. 서부극 느낌을 주려고 영어에 섞어 씀."
+        },
+        {
+          "term": "is now a boarding house for worms",
+          "ko": "지금은 죽어서 땅에 묻혔다 (벌레들 집이 됐다)",
+          "type": "idiom",
+          "easy": "'죽어서 무덤에 들어갔다'를 우습게 돌려 말한 표현.",
+          "nuance": "직설적으로 '죽었다'가 아니라, 시체가 벌레 밥이 됐다고 농담처럼 으스대는 말.",
+          "when": "서부극에서 '나한테 덤빈 놈은 다 죽었다'고 협박할 때.",
+          "ex": "Cross me and you'll be a boarding house for worms.",
+          "exKo": "나한테 덤비면 너도 땅속 벌레 밥 신세가 될걸."
+        }
+      ]
+    },
+    {
+      "start": 63.01,
+      "end": 67.68,
+      "lines": [
+        {
+          "text": "Oh, yeah?",
+          "start": 63.01,
+          "end": 64.81
+        },
+        {
+          "text": "Well, bartender!",
+          "start": 66.02,
+          "end": 67.68
+        }
+      ]
+    },
+    {
+      "start": 68.49,
+      "end": 82.68,
+      "lines": [
+        {
+          "text": "Make like a mallard and duck.",
+          "start": 68.49,
+          "end": 70.65
+        },
+        {
+          "text": "Not bad.",
+          "start": 81.73,
+          "end": 82.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Make like a mallard and duck",
+          "ko": "오리처럼 몸을 숙여라 (피해라)",
+          "type": "idiom",
+          "easy": "'duck'이 '오리'이자 '몸을 숙이다'라서 만든 말장난. 결국 '머리 숙여 피해'라는 뜻.",
+          "nuance": "'make like a ~ and ~' 형태의 농담 표현. 같은 단어의 두 뜻으로 웃기는 말.",
+          "when": "위험을 피하라고 장난스럽게 말할 때.",
+          "ex": "Here comes the ball, make like a mallard and duck!",
+          "exKo": "공 날아온다, 오리처럼 머리 숙여 피해!",
+          "tip": "mallard는 청둥오리. duck(오리/숙이다)의 이중 의미가 핵심."
+        }
+      ]
+    },
+    {
+      "start": 83.5,
+      "end": 88.25,
+      "lines": [
+        {
+          "text": "Not bad at all.",
+          "start": 83.5,
+          "end": 84.77
+        },
+        {
+          "text": "Now watch some real shooting.",
+          "start": 86.34,
+          "end": 88.25
+        }
+      ]
+    },
+    {
+      "start": 88.61,
+      "end": 102.88,
+      "lines": [
+        {
+          "text": "Mama! Duck!",
+          "start": 88.61,
+          "end": 89.85
+        },
+        {
+          "text": "Wow!",
+          "start": 102.02,
+          "end": 102.88
+        }
+      ]
+    },
+    {
+      "start": 103.57,
+      "end": 107.45,
+      "lines": [
+        {
+          "text": "Rootin tootin shootin Sheriff.",
+          "start": 103.57,
+          "end": 105.57
+        },
+        {
+          "text": "But I'm calling you out.",
+          "start": 105.73,
+          "end": 107.45
+        }
+      ],
+      "glossary": [
+        {
+          "term": "calling you out",
+          "ko": "결투를 신청하다, 한판 붙자고 도전하다",
+          "type": "phrase",
+          "easy": "정면으로 '나와서 한판 붙자'고 도전하는 것.",
+          "nuance": "요즘은 '잘못을 공개적으로 지적하다' 뜻으로 더 많이 쓰지만, 여기 서부극에서는 '결투 신청'.",
+          "when": "서부극에서 총잡이가 결투를 걸 때 / 평소엔 누군가의 잘못을 콕 집어 따질 때.",
+          "ex": "He called me out for lying in the meeting.",
+          "exKo": "그는 회의에서 내가 거짓말했다고 콕 집어 지적했다."
+        }
+      ]
+    },
+    {
+      "start": 108.02,
+      "end": 112.05,
+      "lines": [
+        {
+          "text": "Well, I'm gonna be here tomorrow.",
+          "start": 108.02,
+          "end": 110.89
+        },
+        {
+          "text": "High noon.",
+          "start": 111.17,
+          "end": 112.05
+        }
+      ],
+      "glossary": [
+        {
+          "term": "High noon",
+          "ko": "정오, 한낮 (결투 시각)",
+          "type": "phrase",
+          "easy": "정확히 낮 12시. 서부극에서 결투하는 전통 시간.",
+          "tip": "유명한 서부영화 제목이기도 해서 '결투의 시간'을 상징."
+        }
+      ]
+    },
+    {
+      "start": 117.21,
+      "end": 122.29,
+      "lines": [
+        {
+          "text": "Yeah, but in the meantime, let's form a posse and track down that dang orchestra.",
+          "start": 117.21,
+          "end": 121.45
+        },
+        {
+          "text": "Yeah, yeah.",
+          "start": 121.45,
+          "end": 122.29
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in the meantime",
+          "ko": "그동안에, 그사이에",
+          "type": "phrase",
+          "easy": "어떤 일이 일어나기 전까지의 시간 동안.",
+          "ex": "The bus comes at six. In the meantime, let's get coffee.",
+          "exKo": "버스는 6시에 와. 그동안 커피나 마시자."
+        },
+        {
+          "term": "form a posse",
+          "ko": "(추적) 무리를 짜다, 한패를 모으다",
+          "type": "phrase",
+          "easy": "범인을 잡으러 같이 갈 사람들을 모으는 것.",
+          "tip": "posse는 서부 시대에 보안관이 모은 추격대. 요즘은 '패거리'라는 뜻으로도 씀."
+        },
+        {
+          "term": "track down",
+          "ko": "추적해서 찾아내다",
+          "type": "phrase",
+          "easy": "도망간 사람이나 물건을 끝까지 쫓아가 찾는 것.",
+          "ex": "It took weeks to track down the missing dog.",
+          "exKo": "잃어버린 개를 찾는 데 몇 주가 걸렸다."
+        }
+      ]
+    },
+    {
+      "start": 133.61,
+      "end": 140.14,
+      "lines": [
+        {
+          "text": "But, Carl, why must you show up for a showdown?",
+          "start": 133.61,
+          "end": 137.98
+        },
+        {
+          "text": "Because it's my job, Harriette.",
+          "start": 138.46,
+          "end": 140.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "show up for a showdown",
+          "ko": "결판(대결)에 나타나다",
+          "type": "phrase",
+          "easy": "최후의 한판 대결 장소에 모습을 드러내는 것.",
+          "tip": "showdown은 서부극의 '마지막 결투', 더 넓게는 '최후의 대결/담판'.",
+          "ex": "The two rivals met for a final showdown.",
+          "exKo": "두 라이벌이 최후의 대결을 위해 맞붙었다."
+        },
+        {
+          "term": "sworn to uphold",
+          "ko": "지키기로 맹세한",
+          "type": "phrase",
+          "easy": "선서까지 하며 꼭 지키기로 약속한 것.",
+          "nuance": "uphold는 법·규칙·원칙을 '지키고 받든다'는 좀 무거운 단어.",
+          "when": "경찰·판사 등이 법을 지킬 의무를 말할 때.",
+          "vs": "그냥 follow(따르다)보다 '책임지고 받들어 지킨다'는 강한 느낌."
+        }
+      ]
+    },
+    {
+      "start": 140.26,
+      "end": 148.22,
+      "lines": [
+        {
+          "text": "I'm sworn to uphold the laws of the West.",
+          "start": 140.26,
+          "end": 143.3
+        },
+        {
+          "text": "Well, then why can't the West have simpler laws like \"No smoking in the elevators\"?",
+          "start": 143.54,
+          "end": 148.22
+        }
+      ]
+    },
+    {
+      "start": 151.26,
+      "end": 155.74,
+      "lines": [
+        {
+          "text": "What's an elevator?",
+          "start": 151.26,
+          "end": 152.31
+        },
+        {
+          "text": "It's a real fast way to get upstairs.",
+          "start": 153.96,
+          "end": 155.74
+        }
+      ]
+    },
+    {
+      "start": 157.03,
+      "end": 158.14,
+      "lines": [
+        {
+          "text": "For me, it's cash.",
+          "start": 157.03,
+          "end": 158.14
+        }
+      ]
+    },
+    {
+      "start": 188.66,
+      "end": 194.78,
+      "lines": [
+        {
+          "text": "Well, I guess that lily-livered Urkel didn't show up.",
+          "start": 188.66,
+          "end": 191.3
+        },
+        {
+          "text": "I guess the only thing he can shoot off is his mouth.",
+          "start": 192.54,
+          "end": 194.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "lily-livered",
+          "ko": "겁쟁이의, 비겁한",
+          "type": "idiom",
+          "easy": "겁이 아주 많은. '간이 콩알만 한'쯤 되는 옛말.",
+          "tip": "직역하면 '백합처럼 하얀 간'. 옛날엔 겁쟁이는 간에 피가 없다고 믿어서 생긴 표현."
+        },
+        {
+          "term": "shoot off ... his mouth",
+          "ko": "함부로 떠벌리다, 입만 살다",
+          "type": "idiom",
+          "easy": "행동은 없고 말만 시끄럽게 떠드는 것.",
+          "nuance": "여기서는 총은 못 쏘고 '입만 쏜다'는 말장난도 섞임. 결국 '입만 산 놈'.",
+          "when": "큰소리만 치고 실제로는 못 하는 사람을 비꼴 때.",
+          "ex": "He's always shooting off his mouth but never helps.",
+          "exKo": "걔는 맨날 떠벌리기만 하고 도와준 적은 없어."
+        }
+      ]
+    },
+    {
+      "start": 201.76,
+      "end": 205.1,
+      "lines": [
+        {
+          "text": "Sorry I'm late.",
+          "start": 201.76,
+          "end": 202.8
+        },
+        {
+          "text": "There was a long line in the little cowpoke's room.",
+          "start": 202.8,
+          "end": 205.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "cowpoke",
+          "ko": "카우보이, 목동",
+          "type": "word",
+          "easy": "소 치는 카우보이를 부르는 옛 서부 말투.",
+          "tip": "여기 'little cowpoke's room'은 '화장실'을 서부극 분위기로 우습게 부른 것."
+        }
+      ]
+    },
+    {
+      "start": 208.1,
+      "end": 210.66,
+      "lines": [
+        {
+          "text": "Are you ready?",
+          "start": 208.1,
+          "end": 208.94
+        },
+        {
+          "text": "I'm ready.",
+          "start": 209.62,
+          "end": 210.66
+        }
+      ]
+    },
+    {
+      "start": 229.18,
+      "end": 233.62,
+      "lines": [
+        {
+          "text": "All right, Two-Gun, let's slap leather.",
+          "start": 229.18,
+          "end": 232.5
+        },
+        {
+          "text": "Okay.",
+          "start": 232.86,
+          "end": 233.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "slap leather",
+          "ko": "총을 뽑다 (결투를 시작하다)",
+          "type": "idiom",
+          "easy": "권총집(가죽)에서 총을 확 뽑는 것. '자, 한판 붙자'는 신호.",
+          "nuance": "leather는 허리춤의 가죽 권총집. 거기에 손을 탁 대며 결투를 시작하는 서부극 표현.",
+          "when": "서부극에서 두 총잡이가 결투를 시작할 때."
+        }
+      ]
+    },
+    {
+      "start": 267.11,
+      "end": 267.61,
+      "lines": [
+        {
+          "text": "Oh, boy.",
+          "start": 267.11,
+          "end": 267.61
+        }
+      ]
+    },
+    {
+      "start": 288.11,
+      "end": 290.75,
+      "lines": [
+        {
+          "text": "I've fallen and I can't get up.",
+          "start": 288.11,
+          "end": 290.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I've fallen and I can't get up",
+          "ko": "넘어졌는데 일어날 수가 없어요",
+          "type": "phrase",
+          "easy": "노인 응급경보 광고에서 나온 유명한 대사. 여기선 우스개로 갖다 씀.",
+          "tip": "미국에서 워낙 유명한 광고 멘트라, 진지한 결투 장면에 넣어 웃음을 주는 패러디."
+        }
+      ]
+    }
+  ]
+}

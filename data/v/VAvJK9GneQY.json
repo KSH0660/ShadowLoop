@@ -1,0 +1,831 @@
+{
+  "id": "VAvJK9GneQY",
+  "segments": [
+    {
+      "start": 0.16,
+      "end": 4.51,
+      "lines": [
+        {
+          "text": "Hey, Rog, is dad forcing you to go to the buffet too?",
+          "start": 0.16,
+          "end": 3.46
+        },
+        {
+          "text": "What's that?",
+          "start": 4,
+          "end": 4.51
+        }
+      ]
+    },
+    {
+      "start": 4.8,
+      "end": 10.6,
+      "lines": [
+        {
+          "text": "I'm sorry, it's just that I am thinking about, like, a billion things right now.",
+          "start": 4.8,
+          "end": 8.36
+        },
+        {
+          "text": "What were you asking me?",
+          "start": 9.6,
+          "end": 10.6
+        }
+      ]
+    },
+    {
+      "start": 10.64,
+      "end": 16.28,
+      "lines": [
+        {
+          "text": "I just wanted to know if you were coming to the buffet.",
+          "start": 10.64,
+          "end": 13.76
+        },
+        {
+          "text": "He thinks I can go to a buffet!",
+          "start": 14.48,
+          "end": 16.28
+        }
+      ]
+    },
+    {
+      "start": 16.48,
+      "end": 19.48,
+      "lines": [
+        {
+          "text": "Now!",
+          "start": 16.48,
+          "end": 17.19
+        },
+        {
+          "text": "In the middle of this chaos.",
+          "start": 17.25,
+          "end": 19.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in the middle of this chaos",
+          "ko": "이 난리통 한가운데서",
+          "type": "phrase",
+          "easy": "아주 정신없고 혼란스러운 상황의 한복판에서.",
+          "when": "일이 엉망으로 꼬여 정신없을 때 '이 와중에' 같은 느낌으로.",
+          "ex": "How can I think in the middle of all this chaos?",
+          "exKo": "이 난리통에 내가 어떻게 생각을 하겠어?"
+        }
+      ]
+    },
+    {
+      "start": 19.75,
+      "end": 23.4,
+      "lines": [
+        {
+          "text": "You don't look stressed, Roger.",
+          "start": 19.75,
+          "end": 21.84
+        },
+        {
+          "text": "You're just sitting here.",
+          "start": 21.88,
+          "end": 23.4
+        }
+      ]
+    },
+    {
+      "start": 23.4,
+      "end": 25.09,
+      "lines": [
+        {
+          "text": "Steven!",
+          "start": 23.4,
+          "end": 24.03
+        },
+        {
+          "text": "Leave him.",
+          "start": 24.45,
+          "end": 25.09
+        }
+      ]
+    },
+    {
+      "start": 25.22,
+      "end": 31.84,
+      "lines": [
+        {
+          "text": "Maybe it looks that way, but up here, full meltdown.",
+          "start": 25.22,
+          "end": 28.79
+        },
+        {
+          "text": "Imagine a thousand chernobyls and you're halfway there.",
+          "start": 29.02,
+          "end": 31.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "full meltdown",
+          "ko": "완전 멘붕, 정신이 폭발하는 상태",
+          "type": "idiom",
+          "easy": "스트레스로 머릿속이 완전히 터져버린 상태.",
+          "nuance": "원래 원자로가 녹아내리는(meltdown) 것에서 온 말로, 감정이 통제 불능으로 무너지는 느낌.",
+          "when": "너무 스트레스받아 멘탈이 무너졌을 때.",
+          "ex": "She had a full meltdown before the exam.",
+          "exKo": "그녀는 시험 전에 완전 멘붕이 왔다.",
+          "tip": "여기선 'up here(머릿속)'와 짝지어 '겉은 멀쩡해도 머릿속은 멘붕'이란 농담."
+        }
+      ]
+    },
+    {
+      "start": 31.92,
+      "end": 37.4,
+      "lines": [
+        {
+          "text": "So 2000 chernobyls?",
+          "start": 31.92,
+          "end": 34.4
+        },
+        {
+          "text": "You can't put a number on it, Steve! It's one meltdown.",
+          "start": 34.4,
+          "end": 37.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "put a number on it",
+          "ko": "정확한 숫자로 매기다, 수치화하다",
+          "type": "idiom",
+          "easy": "어떤 것을 딱 떨어지는 숫자로 정해 말하다.",
+          "nuance": "보통 '정확히 숫자로 말하긴 어렵다'는 식으로 부정문에서 자주 씀.",
+          "when": "양·가치를 정확히 수치로 표현하기 어려울 때.",
+          "ex": "It's hard to put a number on how much I love this.",
+          "exKo": "이걸 얼마나 좋아하는지는 숫자로 매기기 어려워."
+        }
+      ]
+    },
+    {
+      "start": 39.03,
+      "end": 44.91,
+      "lines": [
+        {
+          "text": "I thought a walk would clear my head, but I'm just getting more stressed out.",
+          "start": 39.03,
+          "end": 42.44
+        },
+        {
+          "text": "Look at those flowers.",
+          "start": 43.8,
+          "end": 44.91
+        }
+      ],
+      "glossary": [
+        {
+          "term": "clear my head",
+          "ko": "머리를 식히다, 생각을 정리하다",
+          "type": "idiom",
+          "easy": "복잡한 생각을 떨치고 머리를 맑게 하다.",
+          "when": "고민이 많아 산책 등으로 머리를 비우고 싶을 때.",
+          "ex": "I went for a run to clear my head.",
+          "exKo": "머리 식히려고 달리기하러 나갔어."
+        },
+        {
+          "term": "stressed out",
+          "ko": "스트레스에 찌든, 잔뜩 지친",
+          "type": "phrase",
+          "easy": "스트레스를 심하게 받아 지친 상태.",
+          "nuance": "그냥 stressed보다 'out'이 붙어 더 심하게 지쳤다는 느낌.",
+          "ex": "I'm so stressed out about work.",
+          "exKo": "나 일 때문에 완전 스트레스받았어."
+        }
+      ]
+    },
+    {
+      "start": 45.4,
+      "end": 49.01,
+      "lines": [
+        {
+          "text": "Not a care in the world.",
+          "start": 45.4,
+          "end": 46.8
+        },
+        {
+          "text": "Sitting around eating bees all day.",
+          "start": 47,
+          "end": 49.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "not a care in the world",
+          "ko": "세상 걱정 하나 없는",
+          "type": "idiom",
+          "easy": "아무 근심·걱정 없이 마냥 편한 상태.",
+          "when": "누가 너무 태평하고 여유로워 보일 때.",
+          "ex": "Lying on the beach, she had not a care in the world.",
+          "exKo": "해변에 누운 그녀는 세상 걱정 하나 없어 보였다.",
+          "tip": "care가 '걱정거리'란 뜻으로 쓰인 점이 포인트."
+        }
+      ]
+    },
+    {
+      "start": 49.91,
+      "end": 52.2,
+      "lines": [
+        {
+          "text": "Do I dare?",
+          "start": 49.91,
+          "end": 50.48
+        },
+        {
+          "text": "No, no, you're being silly, Roger.",
+          "start": 50.72,
+          "end": 52.2
+        }
+      ]
+    },
+    {
+      "start": 52.2,
+      "end": 55.72,
+      "lines": [
+        {
+          "text": "With all the irons you have in the fire.",
+          "start": 52.2,
+          "end": 53.88
+        },
+        {
+          "text": "But on the other hand.",
+          "start": 54.74,
+          "end": 55.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "irons ... in the fire",
+          "ko": "벌여 놓은 일들, 동시에 진행 중인 일",
+          "type": "idiom",
+          "easy": "한꺼번에 여러 일을 벌여 놓고 처리하는 상황.",
+          "nuance": "대장간에서 쇠를 여러 개 불에 달구는 모습에서 온 말. 보통 'have many/too many irons in the fire'.",
+          "when": "할 일이 동시에 많아 바쁠 때.",
+          "ex": "He has a lot of irons in the fire this month.",
+          "exKo": "그는 이번 달에 벌여 놓은 일이 많다."
+        },
+        {
+          "term": "on the other hand",
+          "ko": "반면에, 다른 한편으로는",
+          "type": "phrase",
+          "easy": "앞 내용과 반대되는 다른 면을 말할 때 쓰는 표현.",
+          "ex": "It's expensive, but on the other hand, it lasts long.",
+          "exKo": "비싸긴 한데, 반면에 오래 쓸 수 있어."
+        }
+      ]
+    },
+    {
+      "start": 57.32,
+      "end": 65.8,
+      "lines": [
+        {
+          "text": "Meltdown averted.",
+          "start": 57.32,
+          "end": 59.08
+        },
+        {
+          "text": "Yuck!",
+          "start": 65.25,
+          "end": 65.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Meltdown averted",
+          "ko": "멘붕 (위기) 모면, 위기 넘김",
+          "type": "phrase",
+          "easy": "터질 뻔한 위기를 가까스로 막았다는 말.",
+          "nuance": "avert는 나쁜 일을 '미리 막다'. 사고·위기를 직전에 피했을 때 자주 씀.",
+          "when": "큰일 날 뻔한 걸 아슬아슬하게 피했을 때.",
+          "ex": "Crisis averted — the file wasn't deleted.",
+          "exKo": "위기 모면 — 파일은 안 지워졌어."
+        }
+      ]
+    },
+    {
+      "start": 66.15,
+      "end": 74.61,
+      "lines": [
+        {
+          "text": "I don't like the taste, but I'm a flower, so I gotta get used to eating bees.",
+          "start": 66.15,
+          "end": 69.72
+        },
+        {
+          "text": "This is the life.",
+          "start": 73.26,
+          "end": 74.61
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get used to",
+          "ko": "~에 익숙해지다",
+          "type": "phrase",
+          "easy": "처음엔 어색하던 것에 점점 적응하다.",
+          "tip": "뒤에 명사나 -ing가 옴 (get used to eating). 'used to + 동사원형(예전엔 ~했다)'과 헷갈리지 말 것.",
+          "ex": "You'll get used to the new schedule soon.",
+          "exKo": "새 일정에 곧 익숙해질 거야."
+        },
+        {
+          "term": "This is the life",
+          "ko": "이게 인생이지, 바로 이 맛이야",
+          "type": "idiom",
+          "easy": "지금 이 순간이 정말 좋고 행복하다는 감탄.",
+          "when": "편하고 만족스러운 순간을 즐기며.",
+          "ex": "Sun, beach, no work — this is the life!",
+          "exKo": "햇살, 해변, 일 없음 — 이게 인생이지!"
+        }
+      ]
+    },
+    {
+      "start": 74.79,
+      "end": 84.41,
+      "lines": [
+        {
+          "text": "No stress. Just eating bees, not thinking a million miles an hour.",
+          "start": 74.79,
+          "end": 78.81
+        },
+        {
+          "text": "I wonder why bees aren't more afraid of flowers.",
+          "start": 81.93,
+          "end": 84.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a million miles an hour",
+          "ko": "엄청 빠르게 (머리가 쉴 새 없이)",
+          "type": "idiom",
+          "easy": "생각이나 일이 정신없이 아주 빠르게 돌아가는 것.",
+          "when": "머릿속이 복잡하게 빠르게 돌아갈 때 'thinking a million miles an hour'.",
+          "ex": "My mind was racing a million miles an hour.",
+          "exKo": "머릿속이 정신없이 빠르게 돌아갔어."
+        }
+      ]
+    },
+    {
+      "start": 87.53,
+      "end": 92.01,
+      "lines": [
+        {
+          "text": "Oh, no.",
+          "start": 87.53,
+          "end": 88.21
+        },
+        {
+          "text": "Let's go steal as many flowers as you can for the shop.",
+          "start": 88.85,
+          "end": 92.01
+        }
+      ]
+    },
+    {
+      "start": 93.53,
+      "end": 99.01,
+      "lines": [
+        {
+          "text": "I don't like this one bit.",
+          "start": 93.53,
+          "end": 94.97
+        },
+        {
+          "text": "What's that thing?",
+          "start": 98.01,
+          "end": 99.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I don't like this one bit",
+          "ko": "이거 정말 마음에 안 들어",
+          "type": "idiom",
+          "easy": "조금도 마음에 안 든다는 강한 표현.",
+          "nuance": "'one bit'이 부정문에 붙어 '전혀 ~않다'를 강조.",
+          "ex": "I don't trust him one bit.",
+          "exKo": "난 그를 눈곱만큼도 안 믿어."
+        }
+      ]
+    },
+    {
+      "start": 99.01,
+      "end": 104.13,
+      "lines": [
+        {
+          "text": "I thought it was a flower, but I'm not so sure now.",
+          "start": 99.01,
+          "end": 101.81
+        },
+        {
+          "text": "Check out its nasty root bulb.",
+          "start": 101.85,
+          "end": 104.13
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Check out",
+          "ko": "한번 봐 봐, 구경해 봐",
+          "type": "phrase",
+          "easy": "뭔가를 보라고 가리킬 때 쓰는 가벼운 말.",
+          "ex": "Check out this cool photo!",
+          "exKo": "이 멋진 사진 좀 봐!"
+        },
+        {
+          "term": "root bulb",
+          "ko": "뿌리 알뿌리 (구근)",
+          "type": "word",
+          "easy": "양파처럼 둥글게 부푼 식물 뿌리 덩이.",
+          "ex": "Plant the tulip bulb in autumn.",
+          "exKo": "튤립 알뿌리는 가을에 심어."
+        }
+      ]
+    },
+    {
+      "start": 104.37,
+      "end": 109.32,
+      "lines": [
+        {
+          "text": "It looks like a gross, gray ass.",
+          "start": 104.37,
+          "end": 106.61
+        },
+        {
+          "text": "Let's put it in the van.",
+          "start": 108.29,
+          "end": 109.32
+        }
+      ],
+      "glossary": [
+        {
+          "term": "gross",
+          "ko": "역겨운, 더러운",
+          "type": "word",
+          "easy": "보기에 너무 더럽고 징그러운.",
+          "ex": "Ew, this smells gross.",
+          "exKo": "윽, 이거 냄새 역겨워."
+        }
+      ]
+    },
+    {
+      "start": 109.32,
+      "end": 117.23,
+      "lines": [
+        {
+          "text": "Maybe some freak will like it.",
+          "start": 109.32,
+          "end": 110.73
+        },
+        {
+          "text": "And now to the cemetery for more free flowers!",
+          "start": 112.29,
+          "end": 117.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "freak",
+          "ko": "별난 사람, 괴짜",
+          "type": "word",
+          "easy": "취향이 유별나거나 이상한 사람.",
+          "nuance": "여기선 '이런 괴상한 걸 좋아할 별난 사람'이란 뜻. 욕처럼 들릴 수도 있어 가벼운 사이에서.",
+          "ex": "Some freak will probably buy it.",
+          "exKo": "어떤 별난 사람이 사 가겠지."
+        }
+      ]
+    },
+    {
+      "start": 117.45,
+      "end": 125.45,
+      "lines": [
+        {
+          "text": "This is so stressful.",
+          "start": 117.45,
+          "end": 118.81
+        },
+        {
+          "text": "Flower delivery.",
+          "start": 124.4,
+          "end": 125.45
+        }
+      ]
+    },
+    {
+      "start": 126.43,
+      "end": 130.93,
+      "lines": [
+        {
+          "text": "Smells like dead bees and cigarettes.",
+          "start": 126.43,
+          "end": 128.89
+        },
+        {
+          "text": "It's been in the shop for two months.",
+          "start": 128.93,
+          "end": 130.93
+        }
+      ]
+    },
+    {
+      "start": 130.93,
+      "end": 134.99,
+      "lines": [
+        {
+          "text": "Your sweetheart got an unbelievable price on it.",
+          "start": 130.93,
+          "end": 134.13
+        },
+        {
+          "text": "Adam!",
+          "start": 134.13,
+          "end": 134.99
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sweetheart",
+          "ko": "연인, 자기",
+          "type": "word",
+          "easy": "사랑하는 사람을 다정하게 부르는 말.",
+          "ex": "My sweetheart sent me flowers.",
+          "exKo": "내 연인이 나한테 꽃을 보냈어."
+        }
+      ]
+    },
+    {
+      "start": 135.18,
+      "end": 139.49,
+      "lines": [
+        {
+          "text": "You got me flowers?",
+          "start": 135.18,
+          "end": 136.73
+        },
+        {
+          "text": "I am Adam, and I am guilty.",
+          "start": 136.89,
+          "end": 139.49
+        }
+      ]
+    },
+    {
+      "start": 139.85,
+      "end": 144.45,
+      "lines": [
+        {
+          "text": "Oh, that guy's hot.",
+          "start": 139.85,
+          "end": 140.97
+        },
+        {
+          "text": "The dang door's blockin' the hot body!",
+          "start": 141.89,
+          "end": 144.45
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hot body",
+          "ko": "몸매 좋은 사람, 섹시한 몸",
+          "type": "phrase",
+          "easy": "보기 좋은 멋진 몸매를 뜻하는 가벼운 표현.",
+          "nuance": "여기서 hot은 '뜨거운'이 아니라 '섹시한/매력적인'.",
+          "ex": "He's got a really hot body.",
+          "exKo": "걔 몸매 진짜 좋아."
+        }
+      ]
+    },
+    {
+      "start": 144.85,
+      "end": 149.45,
+      "lines": [
+        {
+          "text": "I love it.",
+          "start": 144.85,
+          "end": 145.98
+        },
+        {
+          "text": "So I'm a symbol of love.",
+          "start": 147.45,
+          "end": 149.45
+        }
+      ]
+    },
+    {
+      "start": 149.72,
+      "end": 154.77,
+      "lines": [
+        {
+          "text": "That's nice.",
+          "start": 149.72,
+          "end": 150.61
+        },
+        {
+          "text": "I can't believe you remembered that, I love grotesque flowers.",
+          "start": 150.65,
+          "end": 154.77
+        }
+      ],
+      "glossary": [
+        {
+          "term": "grotesque",
+          "ko": "기괴한, 흉측한",
+          "type": "word",
+          "easy": "보기 흉하고 이상하게 생긴.",
+          "nuance": "단순히 ugly보다 더 '기괴하고 일그러진' 느낌.",
+          "when": "괴상하게 생긴 것·예술을 묘사할 때.",
+          "ex": "The mask had a grotesque face.",
+          "exKo": "그 가면은 기괴한 얼굴이었어."
+        }
+      ]
+    },
+    {
+      "start": 165.41,
+      "end": 175.14,
+      "lines": [
+        {
+          "text": "And now for dessert.",
+          "start": 165.41,
+          "end": 167.49
+        },
+        {
+          "text": "They're so in love.",
+          "start": 173.57,
+          "end": 175.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "so in love",
+          "ko": "푹 빠질 만큼 사랑에 빠진",
+          "type": "phrase",
+          "easy": "서로 정말 깊이 사랑하는 상태.",
+          "ex": "They're so in love it's adorable.",
+          "exKo": "둘이 너무 사랑에 빠져서 보기 좋아."
+        }
+      ]
+    },
+    {
+      "start": 175.67,
+      "end": 180.01,
+      "lines": [
+        {
+          "text": "And I'm so relaxed.",
+          "start": 175.67,
+          "end": 177.57
+        },
+        {
+          "text": "Get off me! He's home early.",
+          "start": 178.45,
+          "end": 180.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Get off me",
+          "ko": "저리 비켜, 떨어져",
+          "type": "phrase",
+          "easy": "나한테서 떨어지라고 밀어내는 말.",
+          "ex": "Get off me, you're heavy!",
+          "exKo": "저리 비켜, 너 무거워!"
+        }
+      ]
+    },
+    {
+      "start": 180.21,
+      "end": 182.8,
+      "lines": [
+        {
+          "text": "Now, who the hell is this?",
+          "start": 180.21,
+          "end": 181.65
+        },
+        {
+          "text": "Jennifer, what's going on?",
+          "start": 181.69,
+          "end": 182.8
+        }
+      ]
+    },
+    {
+      "start": 182.91,
+      "end": 186.49,
+      "lines": [
+        {
+          "text": "What is that hideous flower?",
+          "start": 182.91,
+          "end": 184.21
+        },
+        {
+          "text": "Your wife happens to love hideous flowers.",
+          "start": 184.25,
+          "end": 186.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hideous",
+          "ko": "끔찍하게 못생긴, 흉측한",
+          "type": "word",
+          "easy": "보기 싫을 만큼 아주 못생긴.",
+          "nuance": "ugly보다 훨씬 강한 말. '소름 끼치게 흉하다' 정도.",
+          "ex": "That sweater is absolutely hideous.",
+          "exKo": "저 스웨터 진짜 흉측하게 못생겼어."
+        },
+        {
+          "term": "happens to",
+          "ko": "마침/공교롭게도 ~하다",
+          "type": "phrase",
+          "easy": "우연히 그렇다는 걸 강조하거나 살짝 반박할 때 씀.",
+          "nuance": "여기선 '내 아내가 (그쪽 생각과 달리) 흉측한 꽃을 *좋아한단 말이지*'라고 받아치는 느낌.",
+          "ex": "I happen to like that song.",
+          "exKo": "난 그 노래 (의외로) 좋아하거든."
+        }
+      ]
+    },
+    {
+      "start": 186.97,
+      "end": 192.3,
+      "lines": [
+        {
+          "text": "My best friend and business partner!",
+          "start": 186.97,
+          "end": 190.01
+        },
+        {
+          "text": "Oh, my jangled nerves!",
+          "start": 190.13,
+          "end": 192.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "jangled nerves",
+          "ko": "곤두선 신경, 예민해진 마음",
+          "type": "idiom",
+          "easy": "불안하고 초조해서 신경이 날카로워진 상태.",
+          "nuance": "jangle은 쇳소리가 신경을 거슬리게 울리는 것. 신경이 '딸랑딸랑' 곤두선 느낌.",
+          "when": "긴장·충격으로 마음이 들썩일 때.",
+          "ex": "The loud noise really jangled my nerves.",
+          "exKo": "그 시끄러운 소리에 신경이 곤두섰어."
+        }
+      ]
+    },
+    {
+      "start": 193.45,
+      "end": 201.61,
+      "lines": [
+        {
+          "text": "Oh good, they're all gun owners. This should deescalate quickly.",
+          "start": 193.45,
+          "end": 197.01
+        },
+        {
+          "text": "That's a tip for everyone at home.",
+          "start": 199.73,
+          "end": 201.61
+        }
+      ],
+      "glossary": [
+        {
+          "term": "gun owners",
+          "ko": "총기 소유자들",
+          "type": "phrase",
+          "easy": "총을 가지고 있는 사람들.",
+          "ex": "All three of them are gun owners.",
+          "exKo": "그 셋 다 총을 가진 사람들이야."
+        },
+        {
+          "term": "deescalate",
+          "ko": "사태를 진정시키다, 누그러뜨리다",
+          "type": "word",
+          "easy": "싸움·긴장을 가라앉혀 덜 심각하게 만들다.",
+          "nuance": "여기선 반어법 — 다들 총을 가졌으니 '잘도 진정되겠다'며 비꼬는 말.",
+          "when": "갈등·긴장 상황을 가라앉힐 때 (반대말 escalate: 심해지다).",
+          "ex": "The officer tried to deescalate the argument.",
+          "exKo": "경찰이 그 말다툼을 진정시키려 했다.",
+          "tip": "escalate(점점 심해지다)에 de-(반대)가 붙어 '가라앉히다'."
+        }
+      ]
+    },
+    {
+      "start": 201.77,
+      "end": 203.65,
+      "lines": [
+        {
+          "text": "No one ever shoots the flower.",
+          "start": 201.77,
+          "end": 203.65
+        }
+      ]
+    }
+  ]
+}

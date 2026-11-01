@@ -1,0 +1,634 @@
+{
+  "id": "qfQUud2uRa8",
+  "segments": [
+    {
+      "start": 0.12,
+      "end": 3.48,
+      "lines": [
+        {
+          "text": "Testing. One, two.",
+          "start": 0.12,
+          "end": 1.79
+        },
+        {
+          "text": "Okay, Richie.",
+          "start": 2.5,
+          "end": 3.48
+        }
+      ]
+    },
+    {
+      "start": 3.52,
+      "end": 6.56,
+      "lines": [
+        {
+          "text": "We're rolling.",
+          "start": 3.52,
+          "end": 4.4
+        },
+        {
+          "text": "I don't know why you need that tape recorder.",
+          "start": 4.6,
+          "end": 6.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "We're rolling",
+          "ko": "(녹화·녹음) 시작됐어, 돌아가고 있어",
+          "type": "phrase",
+          "easy": "카메라나 녹음기가 지금 돌아가고 있다는 말",
+          "nuance": "영화·방송 현장에서 '자, 찍는다/녹음 시작'이라는 신호로 자주 쓴다.",
+          "when": "녹화·녹음·촬영을 막 시작했을 때.",
+          "ex": "Quiet on set — we're rolling!",
+          "exKo": "촬영장 조용히 — 지금 찍는다!",
+          "tip": "roll은 필름이 '굴러간다'는 데서 나온 표현."
+        },
+        {
+          "term": "tape recorder",
+          "ko": "녹음기",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 6.6,
+      "end": 11.56,
+      "lines": [
+        {
+          "text": "All he does is drool.",
+          "start": 6.6,
+          "end": 7.92
+        },
+        {
+          "text": "This is an historic moment.",
+          "start": 9.38,
+          "end": 11.56
+        }
+      ],
+      "glossary": [
+        {
+          "term": "drool",
+          "ko": "침을 흘리다",
+          "type": "word",
+          "easy": "입에서 침이 줄줄 흘러나오다 (아기·잘 때 등)",
+          "ex": "The baby drools all over his shirt.",
+          "exKo": "아기가 셔츠에 온통 침을 흘린다."
+        },
+        {
+          "term": "an historic moment",
+          "ko": "역사적인 순간",
+          "type": "phrase",
+          "easy": "두고두고 기억할 만큼 중요한 순간",
+          "tip": "historic은 '역사에 남을 중요한', historical은 '역사와 관련된'으로 뜻이 다르다."
+        }
+      ]
+    },
+    {
+      "start": 11.76,
+      "end": 18.33,
+      "lines": [
+        {
+          "text": "We will all listen to this when Richie is all grown up and president.",
+          "start": 11.76,
+          "end": 15.72
+        },
+        {
+          "text": "Come on, sweetheart.",
+          "start": 17.35,
+          "end": 18.33
+        }
+      ],
+      "glossary": [
+        {
+          "term": "all grown up",
+          "ko": "다 큰, 어른이 다 된",
+          "type": "phrase",
+          "easy": "아이가 자라서 어른이 된 상태",
+          "when": "어릴 때 알던 아이가 훌쩍 컸을 때 감회를 담아.",
+          "ex": "Look at you, all grown up!",
+          "exKo": "이것 봐, 다 컸네!"
+        }
+      ]
+    },
+    {
+      "start": 18.85,
+      "end": 23.44,
+      "lines": [
+        {
+          "text": "Say, \"Mama.\"",
+          "start": 18.85,
+          "end": 20.2
+        },
+        {
+          "text": "\"Mama.\"",
+          "start": 22.69,
+          "end": 23.44
+        }
+      ]
+    },
+    {
+      "start": 25.19,
+      "end": 31.68,
+      "lines": [
+        {
+          "text": "Maybe he'll be vice president.",
+          "start": 25.19,
+          "end": 26.92
+        },
+        {
+          "text": "Easy around in there. Watch yourself.",
+          "start": 30.12,
+          "end": 31.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Watch yourself",
+          "ko": "조심해, 몸조심해",
+          "type": "phrase",
+          "easy": "다치지 않게 조심하라는 말",
+          "when": "무거운 물건을 옮기거나 위험한 상황에서.",
+          "ex": "Watch yourself — the floor is wet.",
+          "exKo": "조심해 — 바닥 젖었어.",
+          "vs": "Watch out은 '위험 닥쳤으니 피해', Watch yourself는 '네 몸 조심해' 쪽."
+        }
+      ]
+    },
+    {
+      "start": 32.2,
+      "end": 36.76,
+      "lines": [
+        {
+          "text": "Watch the door. Ease it in.",
+          "start": 32.2,
+          "end": 34.12
+        },
+        {
+          "text": "That's it. That's it. Come on.",
+          "start": 34.28,
+          "end": 36.76
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Ease it in",
+          "ko": "살살 밀어 넣어, 천천히 넣어",
+          "type": "phrase",
+          "easy": "무리하지 않고 천천히 조심해서 넣다",
+          "nuance": "ease는 '힘 빼고 부드럽게' 한다는 느낌.",
+          "ex": "Ease the couch in through the door.",
+          "exKo": "소파를 문으로 살살 밀어 넣어."
+        },
+        {
+          "term": "That's it",
+          "ko": "바로 그거야, 그렇지",
+          "type": "phrase",
+          "easy": "잘하고 있다고 격려할 때 '그래 그렇게'라는 말",
+          "when": "상대가 제대로 하고 있을 때 칭찬·유도하며.",
+          "tip": "맥락에 따라 '이게 끝이야/더는 없어'라는 뜻도 된다."
+        }
+      ]
+    },
+    {
+      "start": 37.16,
+      "end": 46.12,
+      "lines": [
+        {
+          "text": "Wait a minute. The rug's got us back up a little bit.",
+          "start": 37.16,
+          "end": 39.05
+        },
+        {
+          "text": "Too much.",
+          "start": 45.29,
+          "end": 46.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "back up",
+          "ko": "뒤로 물러나다, 뒤로 가다",
+          "type": "phrase",
+          "easy": "뒤쪽으로 움직이다",
+          "ex": "Back up a little, you're too close.",
+          "exKo": "조금 뒤로 가, 너무 가까워.",
+          "tip": "back up은 '뒤로 가다' 외에 '백업하다', '편들어 주다' 뜻도 있다."
+        }
+      ]
+    },
+    {
+      "start": 51.6,
+      "end": 57.47,
+      "lines": [
+        {
+          "text": "You guys aren't gonna be working anywhere near my room, are you?",
+          "start": 51.6,
+          "end": 54.36
+        },
+        {
+          "text": "Come on.",
+          "start": 56.97,
+          "end": 57.47
+        }
+      ]
+    },
+    {
+      "start": 60.72,
+      "end": 68.06,
+      "lines": [
+        {
+          "text": "Oh, Eddie. Guess what? Lori Martin called.",
+          "start": 60.72,
+          "end": 65.1
+        },
+        {
+          "text": "She wants to know if you could meet her at the roller rink this afternoon.",
+          "start": 65.1,
+          "end": 68.06
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Guess what?",
+          "ko": "있잖아, 그거 알아?",
+          "type": "phrase",
+          "easy": "재미있는 소식을 꺼내기 전에 던지는 말",
+          "when": "신나는 소식·놀랄 이야기를 전하기 직전.",
+          "ex": "Guess what? I got the job!",
+          "exKo": "있잖아, 나 그 일자리 됐어!"
+        },
+        {
+          "term": "roller rink",
+          "ko": "롤러스케이트장",
+          "type": "word",
+          "easy": "롤러스케이트를 타는 실내 공간"
+        }
+      ]
+    },
+    {
+      "start": 68.62,
+      "end": 71.78,
+      "lines": [
+        {
+          "text": "Lori Martin called me?",
+          "start": 68.62,
+          "end": 70.31
+        },
+        {
+          "text": "Well, what did you tell her?",
+          "start": 70.9,
+          "end": 71.78
+        }
+      ]
+    },
+    {
+      "start": 72.42,
+      "end": 82.42,
+      "lines": [
+        {
+          "text": "Oh, I just told her that you were going to be in the bathroom for a week.",
+          "start": 72.42,
+          "end": 75.7
+        },
+        {
+          "text": "Why am I always the one who has to help?",
+          "start": 80.38,
+          "end": 82.42
+        }
+      ],
+      "glossary": [
+        {
+          "term": "be in the bathroom for a week",
+          "ko": "일주일은 화장실에 처박혀 있을 것이다 (놀리는 과장)",
+          "type": "phrase",
+          "easy": "오래 못 나온다고 일부러 과장해서 놀리는 말",
+          "nuance": "동생을 놀리려고 일부러 어이없게 부풀린 농담.",
+          "when": "장난으로 약 올리거나 골탕 먹일 때."
+        }
+      ]
+    },
+    {
+      "start": 83.38,
+      "end": 88.9,
+      "lines": [
+        {
+          "text": "Because, son, we are the men of this house.",
+          "start": 83.38,
+          "end": 86.06
+        },
+        {
+          "text": "And working with our hands is what men do.",
+          "start": 86.2,
+          "end": 88.9
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the men of this house",
+          "ko": "이 집의 남자들",
+          "type": "phrase",
+          "easy": "집안의 남자라는 뜻 (옛날식 가부장적 농담 톤)",
+          "nuance": "남자가 할 일을 강조하는 장면으로, 이 에피소드는 그걸 일부러 우스꽝스럽게 그린다."
+        },
+        {
+          "term": "working with our hands",
+          "ko": "손으로 직접 일하다, 몸으로 일하다",
+          "type": "phrase",
+          "easy": "기계가 아니라 직접 손으로 만들고 고치는 일",
+          "ex": "He loves working with his hands — carpentry, repairs, all of it.",
+          "exKo": "그는 손으로 하는 일을 좋아한다 — 목공이든 수리든 다."
+        }
+      ]
+    },
+    {
+      "start": 91.34,
+      "end": 98.62,
+      "lines": [
+        {
+          "text": "Well, what do women do?",
+          "start": 91.34,
+          "end": 92.34
+        },
+        {
+          "text": "I don't know, son.",
+          "start": 97.66,
+          "end": 98.62
+        }
+      ]
+    },
+    {
+      "start": 104.1,
+      "end": 107.74,
+      "lines": [
+        {
+          "text": "How's it going?",
+          "start": 104.1,
+          "end": 104.78
+        },
+        {
+          "text": "Great! We're just about ready to rip out this wall.",
+          "start": 105.18,
+          "end": 107.74
+        }
+      ],
+      "glossary": [
+        {
+          "term": "How's it going?",
+          "ko": "잘돼 가?, 어때?",
+          "type": "phrase",
+          "easy": "일이 잘 진행되는지 묻는 가벼운 인사",
+          "ex": "How's it going with the project?",
+          "exKo": "그 프로젝트 잘돼 가?"
+        },
+        {
+          "term": "rip out",
+          "ko": "뜯어내다, 확 뜯어버리다",
+          "type": "phrase",
+          "easy": "벽이나 물건을 힘껏 떼어내 없애다",
+          "nuance": "그냥 remove가 아니라 거칠게 '확 뜯어낸다'는 힘이 들어간 말.",
+          "when": "리모델링·철거에서 벽·바닥·배선을 들어낼 때.",
+          "ex": "They ripped out the old carpet.",
+          "exKo": "그들은 낡은 카펫을 뜯어냈다."
+        }
+      ]
+    },
+    {
+      "start": 108.3,
+      "end": 112.38,
+      "lines": [
+        {
+          "text": "Carl, I think we should call the contractor.",
+          "start": 108.3,
+          "end": 110.5
+        },
+        {
+          "text": "Call her. Tell her, come over.",
+          "start": 110.64,
+          "end": 112.38
+        }
+      ],
+      "glossary": [
+        {
+          "term": "contractor",
+          "ko": "(공사) 시공업자, 도급업자",
+          "type": "word",
+          "easy": "집 공사를 맡아서 해주는 전문 업자",
+          "ex": "We hired a contractor to fix the roof.",
+          "exKo": "우리는 지붕 고치려고 시공업자를 불렀다."
+        }
+      ]
+    },
+    {
+      "start": 112.52,
+      "end": 127.09,
+      "lines": [
+        {
+          "text": "Maybe she can learn something, right, Eddie?",
+          "start": 112.52,
+          "end": 114.35
+        },
+        {
+          "text": "Now, if you'll excuse us, Harriette, we men have some serious shower installing to do.",
+          "start": 121.82,
+          "end": 127.09
+        }
+      ],
+      "glossary": [
+        {
+          "term": "if you'll excuse us",
+          "ko": "실례지만 이만 (자리를 뜨겠다는 정중한 말)",
+          "type": "phrase",
+          "easy": "자리를 비우거나 하던 일로 돌아가겠다고 점잖게 말하기",
+          "nuance": "여기선 잘난 척하며 거들먹대는 농담 톤으로 쓰였다.",
+          "ex": "If you'll excuse us, we have work to do.",
+          "exKo": "실례지만, 우린 할 일이 있어서요."
+        }
+      ]
+    },
+    {
+      "start": 130.73,
+      "end": 136.37,
+      "lines": [
+        {
+          "text": "Oh, okay, Carl.",
+          "start": 130.73,
+          "end": 131.91
+        },
+        {
+          "text": "If you need anything, we women folk will be in the kitchen churning butter and tending the young'uns.",
+          "start": 132.07,
+          "end": 136.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "we women folk",
+          "ko": "우리 여자들 (구식·시골풍 말투)",
+          "type": "phrase",
+          "easy": "'여자들'을 일부러 옛날 시골 말투로 부른 것",
+          "nuance": "남편의 가부장적 농담을 똑같이 비꼬아 받아치는 말투.",
+          "tip": "folk는 '사람들'이란 뜻으로 menfolk/womenfolk처럼 옛스럽게 쓰인다."
+        },
+        {
+          "term": "churning butter",
+          "ko": "버터를 젓다 (옛날식 집안일 비유)",
+          "type": "phrase",
+          "easy": "옛날에 손으로 우유를 저어 버터 만들던 일",
+          "nuance": "'시대에 뒤떨어진 주부 역할'을 비꼬는 과장된 표현."
+        },
+        {
+          "term": "tending the young'uns",
+          "ko": "아이들을 돌보다 (시골풍 말투)",
+          "type": "phrase",
+          "easy": "young'uns는 '어린애들', tend는 '돌보다'라는 옛스런 말",
+          "tip": "young'uns = young ones를 줄인 사투리식 표현."
+        }
+      ]
+    },
+    {
+      "start": 139.87,
+      "end": 142.49,
+      "lines": [
+        {
+          "text": "Okay, son.",
+          "start": 139.87,
+          "end": 140.73
+        },
+        {
+          "text": "Let's get this puppy started.",
+          "start": 141,
+          "end": 142.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Let's get this puppy started",
+          "ko": "자, 이거 한번 시작해 보자",
+          "type": "idiom",
+          "easy": "어떤 일이나 기계를 신나게 시작하자는 농담조 표현",
+          "nuance": "여기서 puppy는 강아지가 아니라 '이놈/이거'라고 장난스럽게 부르는 말.",
+          "when": "프로젝트·기계·작업을 의욕적으로 시작할 때.",
+          "ex": "Everybody ready? Let's get this puppy started.",
+          "exKo": "다들 준비됐지? 자, 한번 시작해 보자.",
+          "tip": "this puppy = 'this thing'의 격의 없는 표현."
+        }
+      ]
+    },
+    {
+      "start": 142.96,
+      "end": 151.75,
+      "lines": [
+        {
+          "text": "Now, we gotta find the stud beam and work from there.",
+          "start": 142.96,
+          "end": 146.05
+        },
+        {
+          "text": "Hollow.",
+          "start": 147.57,
+          "end": 151.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stud beam",
+          "ko": "스터드 기둥 (벽 속 수직 지지목)",
+          "type": "phrase",
+          "easy": "벽 안에 세워져 벽을 받치는 나무 기둥",
+          "tip": "건축에서 stud는 벽체 안의 수직 골조를 뜻한다."
+        },
+        {
+          "term": "Hollow",
+          "ko": "(속이) 비어 있는",
+          "type": "word",
+          "easy": "안이 꽉 차지 않고 텅 빈 상태",
+          "when": "벽을 두드려 속이 비었는지 확인할 때.",
+          "ex": "Knock on it — it sounds hollow.",
+          "exKo": "두드려 봐 — 속이 빈 소리가 나."
+        }
+      ]
+    },
+    {
+      "start": 152.64,
+      "end": 154.69,
+      "lines": [
+        {
+          "text": "There she is.",
+          "start": 152.64,
+          "end": 153.25
+        },
+        {
+          "text": "Hand me a nail. I'll mark it.",
+          "start": 153.45,
+          "end": 154.69
+        }
+      ]
+    },
+    {
+      "start": 155.29,
+      "end": 159.1,
+      "lines": [
+        {
+          "text": "Oh, here, put these on.",
+          "start": 155.29,
+          "end": 158.17
+        },
+        {
+          "text": "Why?",
+          "start": 158.6,
+          "end": 159.1
+        }
+      ]
+    },
+    {
+      "start": 159.29,
+      "end": 161.57,
+      "lines": [
+        {
+          "text": "Remember, son.",
+          "start": 159.29,
+          "end": 160.32
+        },
+        {
+          "text": "Safety first.",
+          "start": 160.6,
+          "end": 161.57
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Safety first",
+          "ko": "안전 제일",
+          "type": "phrase",
+          "easy": "무엇보다 다치지 않는 게 먼저라는 말",
+          "when": "위험할 수 있는 작업을 시작하기 전 다짐처럼.",
+          "ex": "Put on your goggles — safety first.",
+          "exKo": "고글 써 — 안전 제일이야."
+        }
+      ]
+    },
+    {
+      "start": 162.65,
+      "end": 163.15,
+      "lines": [
+        {
+          "text": "Okay.",
+          "start": 162.65,
+          "end": 163.15
+        }
+      ]
+    },
+    {
+      "start": 183.37,
+      "end": 184.85,
+      "lines": [
+        {
+          "text": "Okay, that stud beam's marked.",
+          "start": 183.37,
+          "end": 184.85
+        }
+      ]
+    }
+  ]
+}

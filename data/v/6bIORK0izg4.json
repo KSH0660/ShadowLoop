@@ -1,0 +1,855 @@
+{
+  "id": "6bIORK0izg4",
+  "segments": [
+    {
+      "start": 8.55,
+      "end": 12.84,
+      "lines": [
+        {
+          "text": "(Video) Guys, here goes a level seven.",
+          "start": 8.55,
+          "end": 10.55
+        },
+        {
+          "text": "Thank you.",
+          "start": 11.63,
+          "end": 12.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "here goes",
+          "ko": "자, 간다 (시도 직전에)",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 17.47,
+      "end": 20.93,
+      "lines": [
+        {
+          "text": "Yeah!",
+          "start": 17.47,
+          "end": 18.64
+        },
+        {
+          "text": "Woohoo!",
+          "start": 19.6,
+          "end": 20.93
+        }
+      ]
+    },
+    {
+      "start": 20.93,
+      "end": 32.65,
+      "lines": [
+        {
+          "text": "Give me high-five!",
+          "start": 20.93,
+          "end": 22.39
+        },
+        {
+          "text": "Maxwell Pearce: That was me shooting a basketball off of a 230-foot New York City building.",
+          "start": 28.07,
+          "end": 32.65
+        }
+      ]
+    },
+    {
+      "start": 33.2,
+      "end": 49.13,
+      "lines": [
+        {
+          "text": "It's certainly not your typical basketball court.",
+          "start": 33.2,
+          "end": 35.53
+        },
+        {
+          "text": "I am a member of the Harlem Globetrotters, a legendary exhibition basketball team that is credited for integrating the NBA, popularizing new moves like the “alley-oop” and creating so many others.",
+          "start": 35.99,
+          "end": 49.13
+        }
+      ],
+      "glossary": [
+        {
+          "term": "exhibition (team)",
+          "ko": "시범 경기를 하는 (팀)",
+          "type": "word"
+        },
+        {
+          "term": "is credited for",
+          "ko": "~한 공로를 인정받다",
+          "type": "phrase"
+        },
+        {
+          "term": "integrating",
+          "ko": "(인종) 통합하다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 49.84,
+      "end": 65.85,
+      "lines": [
+        {
+          "text": "These are the new moves that have advanced the game, but they've also given joy to the people that come and watch us perform.",
+          "start": 49.84,
+          "end": 57.55
+        },
+        {
+          "text": "And that right there is precisely how we have lasted for 100 years, while also earning a spot in the Hall of Fame.",
+          "start": 57.93,
+          "end": 65.85
+        }
+      ],
+      "glossary": [
+        {
+          "term": "earn a spot",
+          "ko": "자리를 차지하다, 들어가다",
+          "type": "phrase"
+        },
+        {
+          "term": "Hall of Fame",
+          "ko": "명예의 전당",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 66.27,
+      "end": 74.03,
+      "lines": [
+        {
+          "text": "Getting to this point in my career certainly was not a straight line.",
+          "start": 66.27,
+          "end": 69.82
+        },
+        {
+          "text": "I've always struggled with high-level sports coaching.",
+          "start": 70.11,
+          "end": 74.03
+        }
+      ],
+      "glossary": [
+        {
+          "term": "not a straight line",
+          "ko": "(여기) 순탄치 않았다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 74.49,
+      "end": 89.75,
+      "lines": [
+        {
+          "text": "There’s a certain culture that has excessive cursing, yelling and also a hyper-seriousness that can really stunt your growth.",
+          "start": 74.49,
+          "end": 83.2
+        },
+        {
+          "text": "Although we were playing sports, ironically, we were coached not to be very playful.",
+          "start": 83.5,
+          "end": 89.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stunt your growth",
+          "ko": "성장을 가로막다",
+          "type": "phrase"
+        },
+        {
+          "term": "hyper-seriousness",
+          "ko": "지나친 진지함",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 90.71,
+      "end": 102.14,
+      "lines": [
+        {
+          "text": "I was a creative kid who loved art, but I was really, really shy.",
+          "start": 90.71,
+          "end": 95.68
+        },
+        {
+          "text": "So the constant confrontation with my coaches was always robbing me of my creativity.",
+          "start": 96.22,
+          "end": 102.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "confrontation",
+          "ko": "대립, 충돌",
+          "type": "word"
+        },
+        {
+          "term": "rob someone of",
+          "ko": "~에게서 …을 앗아가다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 103.1,
+      "end": 108.06,
+      "lines": [
+        {
+          "text": "I learned that there was a seriousness in respecting the quality of the game.",
+          "start": 103.1,
+          "end": 108.06
+        }
+      ]
+    },
+    {
+      "start": 108.81,
+      "end": 127.71,
+      "lines": [
+        {
+          "text": "Whether it was basketball, football, baseball or cross country, all of my coaches emphasized honoring and respecting the essence of their sport, and that meant taking every drill and every exercise seriously and not doing anything that [would] challenge the traditional way of doing things.",
+          "start": 108.81,
+          "end": 127.71
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the essence of",
+          "ko": "~의 본질",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 128.75,
+      "end": 140.35,
+      "lines": [
+        {
+          "text": "This is exactly what led my high-school coach to tell me to stop trying to dunk the basketball.",
+          "start": 128.75,
+          "end": 133.96
+        },
+        {
+          "text": "But ironically, it was my playfulness that got me to this point in my career.",
+          "start": 136.01,
+          "end": 140.35
+        }
+      ],
+      "glossary": [
+        {
+          "term": "playfulness",
+          "ko": "장난기, 유희성",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 140.89,
+      "end": 153.36,
+      "lines": [
+        {
+          "text": "So here's where I've landed today, and this is what I’m so excited to share with you all.",
+          "start": 140.89,
+          "end": 145.77
+        },
+        {
+          "text": "Play is the most important ingredient in every person and every industry's evolution.",
+          "start": 146.52,
+          "end": 153.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "ingredient",
+          "ko": "(여기) 요소, 요인",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 154.32,
+      "end": 170.25,
+      "lines": [
+        {
+          "text": "I am an athlete and an artist, and I have witnessed how play can break rules to improve both of these worlds that I live in.",
+          "start": 154.32,
+          "end": 162.99
+        },
+        {
+          "text": "So just imagine if play, creativity and a little bit of rule-breaking was in every industry.",
+          "start": 162.99,
+          "end": 170.25
+        }
+      ]
+    },
+    {
+      "start": 171.04,
+      "end": 182.43,
+      "lines": [
+        {
+          "text": "There once was a time in basketball when dunking was frowned upon so much that the NCAA banned it for nine years.",
+          "start": 171.04,
+          "end": 178.55
+        },
+        {
+          "text": "Once that ban was lifted, the popularity of the game skyrocketed.",
+          "start": 178.59,
+          "end": 182.43
+        }
+      ],
+      "glossary": [
+        {
+          "term": "frowned upon",
+          "ko": "눈총받다, 못마땅하게 여겨지다",
+          "type": "idiom"
+        },
+        {
+          "term": "lift a ban",
+          "ko": "금지를 풀다, 해제하다",
+          "type": "phrase"
+        },
+        {
+          "term": "skyrocket",
+          "ko": "치솟다, 급등하다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 182.8,
+      "end": 198.36,
+      "lines": [
+        {
+          "text": "This context reminds me of my coaches yelling at me to stick to the fundamentals, all because I decided, or had, the audacity to try and dunk the ball one time.",
+          "start": 182.8,
+          "end": 193.57
+        },
+        {
+          "text": "Thankfully, I didn't listen to them and I got more and more comfortable with it.",
+          "start": 194.36,
+          "end": 198.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have the audacity to",
+          "ko": "뻔뻔하게(겁 없이) ~하다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 198.36,
+      "end": 207.75,
+      "lines": [
+        {
+          "text": "And over time, I was able to land my first dunk contest.",
+          "start": 198.36,
+          "end": 202.16
+        },
+        {
+          "text": "With a lot of work, I was able to build a global reputation for dunking the basketball.",
+          "start": 202.2,
+          "end": 207.75
+        }
+      ]
+    },
+    {
+      "start": 208.08,
+      "end": 215.3,
+      "lines": [
+        {
+          "text": "I began to experiment with the boundaries of this.",
+          "start": 208.08,
+          "end": 210.92
+        },
+        {
+          "text": "I would incorporate things that we didn't normally associate with dunking.",
+          "start": 210.96,
+          "end": 215.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "experiment with the boundaries",
+          "ko": "한계·경계를 시험해 보다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 215.34,
+      "end": 216.46,
+      "lines": [
+        {
+          "text": "Like, with a dog.",
+          "start": 215.34,
+          "end": 216.46
+        }
+      ]
+    },
+    {
+      "start": 233.27,
+      "end": 251,
+      "lines": [
+        {
+          "text": "Or catching a baseball.",
+          "start": 233.27,
+          "end": 235.44
+        },
+        {
+          "text": "Or catching the ball without looking from someone else who’s not looking.",
+          "start": 246.87,
+          "end": 251
+        }
+      ]
+    },
+    {
+      "start": 259.09,
+      "end": 269.47,
+      "lines": [
+        {
+          "text": "(Video) Oh, my God!",
+          "start": 259.09,
+          "end": 260.8
+        },
+        {
+          "text": "MP: Every time I approached this with a playful mindset, I was rewarded.",
+          "start": 264.76,
+          "end": 269.47
+        }
+      ]
+    },
+    {
+      "start": 270.02,
+      "end": 286.7,
+      "lines": [
+        {
+          "text": "Not only with advancing the game, but also with the opportunities that I dreamed of as a kid.",
+          "start": 270.02,
+          "end": 276.56
+        },
+        {
+          "text": "There were several video games that I used to love to play, like NBA Live and NBA 2K, and I had the opportunity to feature my dunks in both of them.",
+          "start": 277.32,
+          "end": 286.7
+        }
+      ]
+    },
+    {
+      "start": 287.08,
+      "end": 303.59,
+      "lines": [
+        {
+          "text": "I've also had the opportunity to feature my dunks in GQ magazine, as well as SportsCenter Top Ten, and eventually received an honorable mention for an ESPY award.",
+          "start": 287.08,
+          "end": 296.63
+        },
+        {
+          "text": "Unlike what my coaches constantly bickered about, being a Globetrotter requires much of the opposite.",
+          "start": 297.71,
+          "end": 303.59
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bicker about",
+          "ko": "~을 두고 옥신각신하다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 304.09,
+      "end": 312.93,
+      "lines": [
+        {
+          "text": "So much of what we love about the game today ...",
+          "start": 304.09,
+          "end": 307.64
+        },
+        {
+          "text": "was at one point deemed as not fundamental or non-traditional.",
+          "start": 307.68,
+          "end": 312.93
+        }
+      ],
+      "glossary": [
+        {
+          "term": "deemed as",
+          "ko": "~로 여겨지다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 313.27,
+      "end": 331.37,
+      "lines": [
+        {
+          "text": "There's a beauty in balancing seriousness with play.",
+          "start": 313.27,
+          "end": 318.23
+        },
+        {
+          "text": "For example, if I decided that I wanted to do something and I accidentally made a mistake, there [was] a way that I could brush that off.",
+          "start": 319.4,
+          "end": 331.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "brush that off",
+          "ko": "툭툭 털어내다, 대수롭지 않게 넘기다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 332.04,
+      "end": 350.97,
+      "lines": [
+        {
+          "text": "When a Globetrotter makes a mistake, they can have it be overlooked because of how they playfully embrace its direction.",
+          "start": 332.04,
+          "end": 339.84
+        },
+        {
+          "text": "They recognize that something went wrong, but they actually welcome the unfamiliarity that comes with that new position.",
+          "start": 341.59,
+          "end": 350.97
+        }
+      ],
+      "glossary": [
+        {
+          "term": "overlooked",
+          "ko": "못 본 척 넘어가다, 눈감아 주다",
+          "type": "word"
+        },
+        {
+          "term": "embrace",
+          "ko": "(기꺼이) 받아들이다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 351.31,
+      "end": 367.57,
+      "lines": [
+        {
+          "text": "So, for instance, if I try this trick right here.",
+          "start": 351.31,
+          "end": 355.27
+        },
+        {
+          "text": "And I accidentally drop the ball, I can use the momentum from that mistake to grow it into something new.",
+          "start": 359.44,
+          "end": 367.57
+        }
+      ],
+      "glossary": [
+        {
+          "term": "momentum",
+          "ko": "탄력, 추진력",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 377.67,
+      "end": 397.1,
+      "lines": [
+        {
+          "text": "What I've learned -- What I’ve learned is that in order to get to that point, you have to be able to roll with it.",
+          "start": 377.67,
+          "end": 390.68
+        },
+        {
+          "text": "Because otherwise, you'll stop before you're ever able to discover something new.",
+          "start": 391.43,
+          "end": 397.1
+        }
+      ],
+      "glossary": [
+        {
+          "term": "roll with it",
+          "ko": "상황에 맞춰 유연하게 대처하다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 397.77,
+      "end": 405.69,
+      "lines": [
+        {
+          "text": "And that is actually how we are able to stumble upon a new concept.",
+          "start": 397.77,
+          "end": 402.23
+        },
+        {
+          "text": "As I mentioned before, I am also an artist.",
+          "start": 402.27,
+          "end": 405.69
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stumble upon",
+          "ko": "우연히 발견하다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 406.11,
+      "end": 422.17,
+      "lines": [
+        {
+          "text": "In fact, the artist side of me came before I was ever a basketball player.",
+          "start": 406.11,
+          "end": 412.08
+        },
+        {
+          "text": "Basketball, amongst other sports, has allowed me to have an ongoing relationship as it impacts my practice as an artist.",
+          "start": 412.74,
+          "end": 422.17
+        }
+      ]
+    },
+    {
+      "start": 423.09,
+      "end": 433.51,
+      "lines": [
+        {
+          "text": "Sports have given me the tools to identify voids in and around my life, while also giving me a platform to fill them.",
+          "start": 423.09,
+          "end": 433.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "identify voids",
+          "ko": "빈틈·공백을 찾아내다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 434.56,
+      "end": 447.78,
+      "lines": [
+        {
+          "text": "Again, I was a really shy kid, so art was my way of expressing myself when sports didn't give me the opportunity to.",
+          "start": 434.56,
+          "end": 443.36
+        },
+        {
+          "text": "I used to create drawings of my favorite anime characters.",
+          "start": 444.15,
+          "end": 447.78
+        }
+      ]
+    },
+    {
+      "start": 447.82,
+      "end": 457.16,
+      "lines": [
+        {
+          "text": "I would paint pictures of animals.",
+          "start": 447.82,
+          "end": 450.57
+        },
+        {
+          "text": "And over time, I started to focus on people with real stories.",
+          "start": 453.12,
+          "end": 457.16
+        }
+      ]
+    },
+    {
+      "start": 457.2,
+      "end": 470.3,
+      "lines": [
+        {
+          "text": "Some of these experiences that I've had with basketball have allowed me to gain a new perspective.",
+          "start": 457.2,
+          "end": 464.29
+        },
+        {
+          "text": "One day I decided to cut up some shoelaces and put them on a canvas.",
+          "start": 465.67,
+          "end": 470.3
+        }
+      ]
+    },
+    {
+      "start": 473.64,
+      "end": 488.23,
+      "lines": [
+        {
+          "text": "I wasn't totally satisfied with it just yet, but I knew that I had something significant there.",
+          "start": 473.64,
+          "end": 479.77
+        },
+        {
+          "text": "Using this as my medium has allowed me to communicate my identity through my pieces.",
+          "start": 480.48,
+          "end": 488.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "medium",
+          "ko": "(예술) 표현 매체",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 488.9,
+      "end": 502.21,
+      "lines": [
+        {
+          "text": "This is what it looks like up close.",
+          "start": 488.9,
+          "end": 491.03
+        },
+        {
+          "text": "One of the signatures that's constantly through my work is using pieces of equipment that are a part of my personal journey as an athlete.",
+          "start": 493.07,
+          "end": 502.21
+        }
+      ],
+      "glossary": [
+        {
+          "term": "signature",
+          "ko": "(작품의) 특징, 시그니처",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 502.62,
+      "end": 516.68,
+      "lines": [
+        {
+          "text": "For example, sometimes that’s cut-up basketballs from a past Globetrotter game.",
+          "start": 502.62,
+          "end": 506.96
+        },
+        {
+          "text": "Other times, that's tennis racquets from my childhood.",
+          "start": 513.26,
+          "end": 516.68
+        }
+      ]
+    },
+    {
+      "start": 529.53,
+      "end": 537.16,
+      "lines": [
+        {
+          "text": "Audience: Wow!",
+          "start": 529.53,
+          "end": 530.69
+        },
+        {
+          "text": "And sometimes, it's just shoelaces that I wore when I was doing something important.",
+          "start": 532.78,
+          "end": 537.16
+        }
+      ]
+    },
+    {
+      "start": 537.87,
+      "end": 551.05,
+      "lines": [
+        {
+          "text": "Play has given me the flexibility, but also the vision to see these materials as something more than just what we use on the court or on the field.",
+          "start": 537.87,
+          "end": 548.54
+        },
+        {
+          "text": "All of these items, they have stories behind them.",
+          "start": 548.54,
+          "end": 551.05
+        }
+      ],
+      "glossary": [
+        {
+          "term": "flexibility",
+          "ko": "유연성",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 551.09,
+      "end": 570.73,
+      "lines": [
+        {
+          "text": "They have connections to the people that used them, whether it's the tennis ball that bounced several thousand times to bring people together, or it's the spinning basketball -- That brought smiles to so many people's faces around the world.",
+          "start": 551.09,
+          "end": 570.73
+        }
+      ]
+    },
+    {
+      "start": 570.73,
+      "end": 582.25,
+      "lines": [
+        {
+          "text": "Or if it’s shoelaces that I wore on a bad day, but I knew that I needed to keep moving.",
+          "start": 570.73,
+          "end": 576.61
+        },
+        {
+          "text": "Play is what brings all of these things together, figuratively and physically.",
+          "start": 576.61,
+          "end": 582.25
+        }
+      ]
+    },
+    {
+      "start": 582.66,
+      "end": 590.42,
+      "lines": [
+        {
+          "text": "The world's brightest thinkers, engineers of evolution, they all play too much.",
+          "start": 582.66,
+          "end": 588.84
+        },
+        {
+          "text": "Seriously.",
+          "start": 589.21,
+          "end": 590.42
+        }
+      ],
+      "glossary": [
+        {
+          "term": "engineers of evolution",
+          "ko": "진화(발전)의 설계자들",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 590.79,
+      "end": 591.96,
+      "lines": [
+        {
+          "text": "Thank you.",
+          "start": 590.79,
+          "end": 591.96
+        }
+      ]
+    }
+  ]
+}
