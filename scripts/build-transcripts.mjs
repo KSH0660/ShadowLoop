@@ -56,14 +56,18 @@ function fetchTitle(url) {
 
 // Download English captions (prefer manual, fall back to auto) into a temp dir
 // and return the .vtt path, or null if the video has no English captions.
-function downloadVtt(id, url) {
+// `lang` is the caption track to fetch: "en" by default, or a per-video
+// `subLang` override from videos.json — e.g. "en-orig" when the auto "en" track
+// is a rewritten version that doesn't match the audio, while "en-orig" is the
+// verbatim speech recognition.
+function downloadVtt(id, url, lang = "en") {
   const dir = mkdtempSync(join(tmpdir(), `vtt-${id}-`));
   try {
     ytdlp([
       "--skip-download",
       "--write-subs",
       "--write-auto-subs",
-      "--sub-langs", "en",
+      "--sub-langs", lang,
       "--sub-format", "vtt",
       "-o", join(dir, "%(id)s.%(ext)s"),
       url,
@@ -71,7 +75,7 @@ function downloadVtt(id, url) {
   } catch (error) {
     log(`  ! yt-dlp failed for ${id}: ${error.message.split("\n")[0]}`);
   }
-  const path = join(dir, `${id}.en.vtt`);
+  const path = join(dir, `${id}.${lang}.vtt`);
   return existsSync(path) ? { path, dir } : (rmSync(dir, { recursive: true, force: true }), null);
 }
 
@@ -341,7 +345,7 @@ function main() {
     const url = `https://www.youtube.com/watch?v=${id}`;
     log(`processing ${id}…`);
 
-    const vtt = downloadVtt(id, url);
+    const vtt = downloadVtt(id, url, video.subLang);
     if (!vtt) {
       log(`  ! no English captions for ${id}, skipping`);
       continue;

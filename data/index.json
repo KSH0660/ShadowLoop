@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T12:33:31.217Z",
+  "generatedAt": "2026-11-01T11:30:57.840Z",
   "videos": [
     {
       "id": "lSFJTUiX7Vg",
@@ -315,6 +315,13 @@
       "tag": "Friend is crying",
       "category": "코미디 · 키앤필",
       "segCount": 22
+    },
+    {
+      "id": "Fjnwlosd0LY",
+      "title": "Sam Altman: The Days Are Long, the Decades Are Short",
+      "tag": "Altman · Time",
+      "category": "테크 프론티어",
+      "segCount": 176
     }
   ]
 }
