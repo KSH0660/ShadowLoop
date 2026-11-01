@@ -1,0 +1,839 @@
+{
+  "id": "H2Z4qO0LOVM",
+  "segments": [
+    {
+      "start": 1,
+      "end": 8.8,
+      "lines": [
+        {
+          "text": "Hey, Jerry, for some reason, I'm locked out of my computer.",
+          "start": 1,
+          "end": 3.56
+        },
+        {
+          "text": "Apparently, someone tried to access, my email before I got in.",
+          "start": 5.28,
+          "end": 8.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "locked out of",
+          "ko": "(컴퓨터에서) 로그인이 막힌, 접근이 차단된",
+          "type": "phrase",
+          "easy": "비밀번호 같은 문제로 내 계정이나 기기에 못 들어가게 된 상태.",
+          "when": "비번을 잊거나 계정이 잠겨 로그인이 안 될 때.",
+          "ex": "I got locked out of my account after typing the wrong password.",
+          "exKo": "비밀번호를 잘못 쳐서 계정에 못 들어가게 됐어."
+        }
+      ]
+    },
+    {
+      "start": 10.24,
+      "end": 18.36,
+      "lines": [
+        {
+          "text": "Someone hell bent on leaking company secrets.",
+          "start": 10.24,
+          "end": 13.92
+        },
+        {
+          "text": "It is four days until C. Con and Pritchett's closets has a mole.",
+          "start": 14.32,
+          "end": 18.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hell bent on",
+          "ko": "~하려고 작정한, 기를 쓰고 ~하려는",
+          "type": "idiom",
+          "easy": "위험하거나 말려도 무조건 그걸 하고야 말겠다고 마음먹은.",
+          "nuance": "그냥 '하고 싶다'가 아니라, 막무가내로 끝까지 밀어붙이는 강한 느낌.",
+          "when": "누가 무리하게 어떤 일을 고집할 때.",
+          "ex": "He was hell bent on winning, no matter the cost.",
+          "exKo": "그는 무슨 대가를 치르든 기어이 이기려고 작정했다."
+        },
+        {
+          "term": "leaking company secrets",
+          "ko": "회사 기밀을 빼돌리는, 유출하는",
+          "type": "collocation",
+          "easy": "회사의 비밀 정보를 몰래 밖으로 새어 나가게 하는 것.",
+          "ex": "An employee was caught leaking company secrets.",
+          "exKo": "한 직원이 회사 기밀을 유출하다 들켰다."
+        },
+        {
+          "term": "mole",
+          "ko": "(조직 내) 첩자, 정보를 빼돌리는 내부자",
+          "type": "word",
+          "easy": "조직 안에 숨어서 정보를 몰래 빼내는 사람.",
+          "tip": "원래는 '두더지'라는 뜻인데, 땅속에 숨어 있듯 조직에 숨은 스파이를 가리킨다."
+        }
+      ]
+    },
+    {
+      "start": 19.12,
+      "end": 26.16,
+      "lines": [
+        {
+          "text": "No one is above suspicion.",
+          "start": 19.12,
+          "end": 20.6
+        },
+        {
+          "text": "Margaret, where were you this morning at 9:45 AM?",
+          "start": 21.96,
+          "end": 26.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "above suspicion",
+          "ko": "의심에서 자유로운, 의심할 여지가 없는",
+          "type": "idiom",
+          "easy": "너무 믿을 만해서 의심조차 받지 않는 상태.",
+          "nuance": "'No one is above suspicion'은 '누구든 의심받을 수 있다'는 뜻.",
+          "ex": "As the boss, he thought he was above suspicion.",
+          "exKo": "사장이라서 그는 자기는 의심받지 않을 거라 생각했다."
+        }
+      ]
+    },
+    {
+      "start": 26.2,
+      "end": 31.6,
+      "lines": [
+        {
+          "text": "I'm so sorry I was late. I was at Overeaters Anonymous.",
+          "start": 26.2,
+          "end": 29.48
+        },
+        {
+          "text": "I woke up next to the ice cream again.",
+          "start": 29.48,
+          "end": 31.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Overeaters Anonymous",
+          "ko": "과식자 모임 (폭식을 끊으려는 자조 모임)",
+          "type": "phrase",
+          "easy": "음식을 너무 많이 먹는 습관을 고치려는 사람들이 모이는 단체.",
+          "tip": "Alcoholics Anonymous(금주 모임)처럼 'Anonymous'가 붙으면 익명 자조 모임을 뜻한다."
+        }
+      ]
+    },
+    {
+      "start": 32.56,
+      "end": 39.08,
+      "lines": [
+        {
+          "text": "So not Margaret.",
+          "start": 32.56,
+          "end": 33.61
+        },
+        {
+          "text": "Hello?",
+          "start": 38.53,
+          "end": 39.08
+        }
+      ]
+    },
+    {
+      "start": 39.12,
+      "end": 45.66,
+      "lines": [
+        {
+          "text": "Hey Mom, how do you turn on the sprinklers for the front lawn?",
+          "start": 39.12,
+          "end": 41.24
+        },
+        {
+          "text": "It's a little control box by the front door. Why?",
+          "start": 42.53,
+          "end": 45.66
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sprinklers",
+          "ko": "(잔디용) 스프링클러, 물 뿌리는 장치",
+          "type": "word",
+          "easy": "잔디나 정원에 물을 자동으로 뿌려 주는 장치."
+        }
+      ]
+    },
+    {
+      "start": 45.88,
+      "end": 51.24,
+      "lines": [
+        {
+          "text": "No reason.",
+          "start": 45.88,
+          "end": 46.48
+        },
+        {
+          "text": "Look, now that I've got you on the phone, I'm thinking it might be time to upgrade our internet security.",
+          "start": 47,
+          "end": 51.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "now that I've got you on the phone",
+          "ko": "이렇게 통화하는 김에",
+          "type": "phrase",
+          "easy": "마침 전화로 얘기하게 됐으니 이 기회에.",
+          "when": "전화한 김에 다른 용건도 꺼낼 때.",
+          "ex": "Now that I've got you on the phone, can I ask a favor?",
+          "exKo": "이렇게 통화하는 김에, 부탁 하나 해도 될까?"
+        },
+        {
+          "term": "upgrade ... security",
+          "ko": "보안을 강화하다, 한 단계 높이다",
+          "type": "collocation",
+          "easy": "보안 수준을 더 좋고 강하게 만드는 것."
+        }
+      ]
+    },
+    {
+      "start": 51.24,
+      "end": 54.88,
+      "lines": [
+        {
+          "text": "Thoughts?",
+          "start": 51.24,
+          "end": 51.84
+        },
+        {
+          "text": "Get rid of the post-it note on your laptop with your password on it.",
+          "start": 52.12,
+          "end": 54.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get rid of",
+          "ko": "없애다, 치우다",
+          "type": "phrase",
+          "easy": "필요 없는 것을 치우거나 버리는 것.",
+          "ex": "You should get rid of those old shoes.",
+          "exKo": "그 낡은 신발은 좀 버리는 게 좋겠어."
+        },
+        {
+          "term": "post-it note",
+          "ko": "포스트잇, 붙이는 메모지",
+          "type": "word",
+          "easy": "뒤에 끈끈이가 있어 붙였다 뗐다 하는 작은 메모지."
+        }
+      ]
+    },
+    {
+      "start": 56.08,
+      "end": 62.44,
+      "lines": [
+        {
+          "text": "Why are you so worried about security?",
+          "start": 56.08,
+          "end": 57.48
+        },
+        {
+          "text": "It's my first Closet Con as CEO, and I am dealing with corporate espionage.",
+          "start": 57.96,
+          "end": 62.44
+        }
+      ],
+      "glossary": [
+        {
+          "term": "corporate espionage",
+          "ko": "기업 스파이 행위, 산업 스파이",
+          "type": "phrase",
+          "easy": "회사가 경쟁사의 비밀 정보를 몰래 빼내는 일.",
+          "tip": "espionage(에스피어나지)는 '간첩 활동'이라는 뜻의 격식 있는 단어."
+        }
+      ]
+    },
+    {
+      "start": 62.64,
+      "end": 67.04,
+      "lines": [
+        {
+          "text": "Well, if you're so worried about it, why don't you just call Grandpa?",
+          "start": 62.64,
+          "end": 65.28
+        },
+        {
+          "text": "Do you know how that would look?",
+          "start": 65.32,
+          "end": 67.04
+        }
+      ]
+    },
+    {
+      "start": 67.08,
+      "end": 75.02,
+      "lines": [
+        {
+          "text": "I mean, it's bad enough to go to the person who had your job before you, but when that person is Daddy.",
+          "start": 67.08,
+          "end": 71.94
+        },
+        {
+          "text": "Honey, closet people are ruthless.",
+          "start": 72.63,
+          "end": 75.02
+        }
+      ],
+      "glossary": [
+        {
+          "term": "ruthless",
+          "ko": "냉혹한, 인정사정 없는",
+          "type": "word",
+          "easy": "남을 봐주지 않고 무자비하게 구는.",
+          "nuance": "목표를 위해서라면 남에게 상처를 줘도 신경 안 쓰는 느낌.",
+          "ex": "The boss was ruthless about cutting costs.",
+          "exKo": "그 사장은 비용을 줄이는 데 인정사정이 없었다."
+        }
+      ]
+    },
+    {
+      "start": 76.3,
+      "end": 80.14,
+      "lines": [
+        {
+          "text": "They'd eat me alive.",
+          "start": 76.3,
+          "end": 77.46
+        },
+        {
+          "text": "Or maybe the world isn't filled with heartless monsters.",
+          "start": 77.66,
+          "end": 80.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "eat me alive",
+          "ko": "나를 산 채로 잡아먹다, 가만 안 두다",
+          "type": "idiom",
+          "easy": "사람들이 나를 사정없이 공격하거나 짓밟을 거라는 과장된 표현.",
+          "nuance": "실제로 먹는 게 아니라, '완전히 당할 것이다'를 강하게 표현한 말.",
+          "when": "경쟁이 심한 곳에서 호되게 당할까 봐 걱정할 때.",
+          "ex": "If I show weakness, they'll eat me alive.",
+          "exKo": "약한 모습 보이면 저 사람들이 날 가만두지 않을 거야."
+        },
+        {
+          "term": "heartless monsters",
+          "ko": "인정머리 없는 괴물들",
+          "type": "collocation",
+          "easy": "마음이 차갑고 남을 전혀 배려하지 않는 사람들을 비꼬는 말."
+        }
+      ]
+    },
+    {
+      "start": 83.47,
+      "end": 88.27,
+      "lines": [
+        {
+          "text": "Hi, my phone is wet. Can you call my mom?",
+          "start": 83.47,
+          "end": 85.3
+        },
+        {
+          "text": "Hey, guys. Sorry I'm late.",
+          "start": 87.06,
+          "end": 88.27
+        }
+      ]
+    },
+    {
+      "start": 88.27,
+      "end": 96.62,
+      "lines": [
+        {
+          "text": "I just got off the horn with Rick Friedman over at Shelf Involved, that poor guy.",
+          "start": 88.27,
+          "end": 93.34
+        },
+        {
+          "text": "Someone there is giving away corporate secrets.",
+          "start": 93.34,
+          "end": 96.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "got off the horn with",
+          "ko": "~와 막 통화를 끝냈다",
+          "type": "idiom",
+          "easy": "방금 누구랑 전화를 끊은 직후라는 뜻.",
+          "nuance": "'the horn'은 전화기를 가리키는 옛스럽고 캐주얼한 표현.",
+          "ex": "I just got off the horn with the client.",
+          "exKo": "방금 고객이랑 통화 끝냈어.",
+          "tip": "get on the horn = 전화를 걸다, get off the horn = 통화를 끝내다."
+        },
+        {
+          "term": "giving away corporate secrets",
+          "ko": "회사 기밀을 (공짜로) 넘기는, 흘리는",
+          "type": "collocation",
+          "easy": "회사 비밀을 남에게 그냥 새어 나가게 하는 것.",
+          "tip": "give away는 '거저 주다/무심코 누설하다'라는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 97.58,
+      "end": 106.34,
+      "lines": [
+        {
+          "text": "Makes me so glad that we just upgraded our whole security system.",
+          "start": 97.58,
+          "end": 101.42
+        },
+        {
+          "text": "I mean, we had hidden cameras around this place that I don't even know about.",
+          "start": 101.82,
+          "end": 106.34
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hidden cameras",
+          "ko": "몰래카메라, 숨겨 둔 카메라",
+          "type": "collocation",
+          "easy": "보이지 않게 숨겨 놓은 감시 카메라."
+        }
+      ]
+    },
+    {
+      "start": 108.62,
+      "end": 114.26,
+      "lines": [
+        {
+          "text": "So we got a cake for Margaret's birthday.",
+          "start": 108.62,
+          "end": 111.38
+        },
+        {
+          "text": "Fun.",
+          "start": 113.39,
+          "end": 114.26
+        }
+      ]
+    },
+    {
+      "start": 114.69,
+      "end": 119.5,
+      "lines": [
+        {
+          "text": "How you doing, Ben?",
+          "start": 114.69,
+          "end": 115.3
+        },
+        {
+          "text": "Me? I'm good, I am good, I am chill.",
+          "start": 117.26,
+          "end": 119.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "chill",
+          "ko": "(긴장 안 하고) 느긋한, 태연한",
+          "type": "word",
+          "easy": "마음이 편하고 여유로운 상태를 뜻하는 캐주얼한 말.",
+          "nuance": "여기서 'I am chill'은 '나 아무렇지도 않아, 침착해'라는 뜻 (사실은 안 그럼).",
+          "ex": "Don't worry, I'm totally chill about it.",
+          "exKo": "걱정 마, 난 그거 완전 아무렇지도 않아."
+        }
+      ]
+    },
+    {
+      "start": 119.5,
+      "end": 124.86,
+      "lines": [
+        {
+          "text": "I'm gonna go to the bathroom, so.",
+          "start": 119.5,
+          "end": 120.98
+        },
+        {
+          "text": "It's not really my birthday.",
+          "start": 123.1,
+          "end": 124.86
+        }
+      ]
+    },
+    {
+      "start": 124.98,
+      "end": 129.3,
+      "lines": [
+        {
+          "text": "I just wanted cake.",
+          "start": 124.98,
+          "end": 126.61
+        },
+        {
+          "text": "I eat garbage because I am garbage.",
+          "start": 127.1,
+          "end": 129.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I eat garbage because I am garbage",
+          "ko": "난 쓰레기라서 쓰레기를 먹는다 (자조적 농담)",
+          "type": "phrase",
+          "easy": "자기를 한심하다고 비꼬며 우습게 표현한 자학 개그.",
+          "tip": "garbage는 '쓰레기/형편없는 것'. 여기선 자기 비하 농담."
+        }
+      ]
+    },
+    {
+      "start": 132.74,
+      "end": 137.13,
+      "lines": [
+        {
+          "text": "Hey, Dad. Hi. Um, listen. Can I call you back?",
+          "start": 132.74,
+          "end": 135.25
+        },
+        {
+          "text": "Just wanted to confirm we're on for dinner.",
+          "start": 135.29,
+          "end": 137.13
+        }
+      ]
+    },
+    {
+      "start": 137.17,
+      "end": 140.37,
+      "lines": [
+        {
+          "text": "Oh, got another call. One sec.",
+          "start": 137.17,
+          "end": 138.53
+        },
+        {
+          "text": "Yeah, I think she's onto us.",
+          "start": 139.05,
+          "end": 140.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "onto us",
+          "ko": "우리 (수작을) 눈치챈, 알아챈",
+          "type": "idiom",
+          "easy": "누가 우리의 비밀이나 속셈을 알아차렸다는 뜻.",
+          "when": "몰래 하던 일을 들킬 것 같을 때.",
+          "ex": "Be careful, I think the teacher is onto us.",
+          "exKo": "조심해, 선생님이 우리 눈치챈 것 같아.",
+          "tip": "be onto someone = 누군가의 비밀/거짓말을 간파하다."
+        }
+      ]
+    },
+    {
+      "start": 141.53,
+      "end": 145.48,
+      "lines": [
+        {
+          "text": "Yeah, a lot of mole talk.",
+          "start": 141.53,
+          "end": 143.33
+        },
+        {
+          "text": "I think we just need to calm things d...",
+          "start": 143.89,
+          "end": 145.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "calm things down",
+          "ko": "상황을 진정시키다, 가라앉히다",
+          "type": "phrase",
+          "easy": "들뜨거나 시끄러운 분위기를 차분하게 만드는 것.",
+          "ex": "Let's calm things down before someone gets hurt.",
+          "exKo": "누가 다치기 전에 상황을 좀 진정시키자."
+        }
+      ]
+    },
+    {
+      "start": 146.29,
+      "end": 148.53,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 146.29,
+          "end": 146.89
+        },
+        {
+          "text": "Talking to her right now?",
+          "start": 147.32,
+          "end": 148.53
+        }
+      ]
+    },
+    {
+      "start": 149.37,
+      "end": 152.41,
+      "lines": [
+        {
+          "text": "Yeah, okay. Bye.",
+          "start": 149.37,
+          "end": 150.13
+        },
+        {
+          "text": "So we're on for tonight?",
+          "start": 151.29,
+          "end": 152.41
+        }
+      ]
+    },
+    {
+      "start": 152.45,
+      "end": 155.17,
+      "lines": [
+        {
+          "text": "Sure.",
+          "start": 152.45,
+          "end": 152.95
+        },
+        {
+          "text": "Great. And hey, you sound a little tense.",
+          "start": 153.01,
+          "end": 155.17
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tense",
+          "ko": "긴장한, 신경이 곤두선",
+          "type": "word",
+          "easy": "마음이 편하지 않고 잔뜩 굳어 있는 상태.",
+          "ex": "You sound tense. Is everything okay?",
+          "exKo": "너 목소리가 긴장돼 있네. 다 괜찮아?"
+        }
+      ]
+    },
+    {
+      "start": 155.17,
+      "end": 159.81,
+      "lines": [
+        {
+          "text": "Don't let the job make you crazy.",
+          "start": 155.17,
+          "end": 156.59
+        },
+        {
+          "text": "You go that route, soon you're seeing plots everywhere.",
+          "start": 157.37,
+          "end": 159.81
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go that route",
+          "ko": "그런 식으로 하면, 그 길로 가면",
+          "type": "idiom",
+          "easy": "어떤 방식이나 선택을 택하면, 이라는 뜻.",
+          "nuance": "여기선 '의심하기 시작하면'이라는 부정적 방향을 가리킴.",
+          "ex": "If you go that route, you'll regret it later.",
+          "exKo": "그런 식으로 하면 나중에 후회할 거야."
+        },
+        {
+          "term": "seeing plots everywhere",
+          "ko": "사방에서 음모가 보이는, 음모를 의심하는",
+          "type": "collocation",
+          "easy": "여기저기서 다 누가 꾸미는 일이라고 의심하게 되는 것.",
+          "tip": "plot은 여기서 '음모/계략'. 영화 줄거리(plot)와 같은 단어지만 뜻이 다름."
+        }
+      ]
+    },
+    {
+      "start": 160.01,
+      "end": 163.25,
+      "lines": [
+        {
+          "text": "Great tip Dad.",
+          "start": 160.01,
+          "end": 160.9
+        },
+        {
+          "text": "You're spying for my Dad.",
+          "start": 162.03,
+          "end": 163.25
+        }
+      ],
+      "glossary": [
+        {
+          "term": "spying for",
+          "ko": "~를 위해 첩보 활동을 하는, 스파이 노릇 하는",
+          "type": "phrase",
+          "easy": "누구를 위해 몰래 정보를 빼내 주는 것."
+        }
+      ]
+    },
+    {
+      "start": 163.29,
+      "end": 167.77,
+      "lines": [
+        {
+          "text": "What? No! Yes. I'm sorry. I don't know why I agreed.",
+          "start": 163.29,
+          "end": 166.13
+        },
+        {
+          "text": "I just look up to your dad so much.",
+          "start": 166.13,
+          "end": 167.77
+        }
+      ],
+      "glossary": [
+        {
+          "term": "look up to",
+          "ko": "~를 존경하다, 우러러보다",
+          "type": "idiom",
+          "easy": "누군가를 대단하다고 여기며 본받고 싶어 하는 것.",
+          "nuance": "단순히 좋아하는 게 아니라 '롤모델로 우러러본다'는 느낌.",
+          "ex": "Many young players look up to him.",
+          "exKo": "많은 어린 선수들이 그를 존경한다.",
+          "vs": "respect는 담백하게 '존중하다', look up to는 '우러러 본받고 싶어 하다'.",
+          "tip": "look down on(깔보다)과 정반대."
+        }
+      ]
+    },
+    {
+      "start": 167.81,
+      "end": 170.97,
+      "lines": [
+        {
+          "text": "I can't believe he doesn't trust me.",
+          "start": 167.81,
+          "end": 169.45
+        },
+        {
+          "text": "Why did he put me in charge, then?",
+          "start": 169.49,
+          "end": 170.97
+        }
+      ],
+      "glossary": [
+        {
+          "term": "put me in charge",
+          "ko": "나를 책임자로 앉히다, 맡기다",
+          "type": "phrase",
+          "easy": "어떤 일을 책임지고 이끌게 시키는 것.",
+          "ex": "They put her in charge of the whole team.",
+          "exKo": "그들은 그녀에게 팀 전체를 맡겼다.",
+          "tip": "in charge of ~ = ~를 담당하는/책임지는."
+        }
+      ]
+    },
+    {
+      "start": 171.01,
+      "end": 173.5,
+      "lines": [
+        {
+          "text": "I don't know, but I can find out.",
+          "start": 171.01,
+          "end": 172.37
+        },
+        {
+          "text": "I'll double agent.",
+          "start": 172.37,
+          "end": 173.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "double agent",
+          "ko": "이중 첩자",
+          "type": "word",
+          "easy": "양쪽 모두를 위해 동시에 스파이 노릇 하는 사람.",
+          "tip": "여기선 'I'll double agent'처럼 명사를 동사처럼 장난스럽게 쓴 것."
+        }
+      ]
+    },
+    {
+      "start": 173.5,
+      "end": 179.19,
+      "lines": [
+        {
+          "text": "I've been working this game since my parents divorced. I was the only ten year old in Great Neck with no bedtime and a Diners Club card.",
+          "start": 173.5,
+          "end": 178.69
+        },
+        {
+          "text": "Fine.",
+          "start": 178.69,
+          "end": 179.19
+        }
+      ],
+      "glossary": [
+        {
+          "term": "working this game",
+          "ko": "이런 수싸움/판을 다뤄 온, 이쪽 일에 능한",
+          "type": "idiom",
+          "easy": "이런 식의 머리싸움이나 상황을 오래 해 와서 잘 안다는 뜻.",
+          "nuance": "'this game'은 진짜 게임이 아니라 '이런 처세/책략의 판'을 가리킴."
+        },
+        {
+          "term": "no bedtime",
+          "ko": "정해진 취침 시간이 없는",
+          "type": "phrase",
+          "easy": "자야 할 시간이 따로 없는, 즉 부모가 방임했다는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 179.51,
+      "end": 184.29,
+      "lines": [
+        {
+          "text": "Don't make any plans for tonight. You're coming to dinner with me.",
+          "start": 179.51,
+          "end": 181.69
+        },
+        {
+          "text": "All right. Can we stop by my house to change my shoes?",
+          "start": 181.73,
+          "end": 184.29
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stop by",
+          "ko": "잠깐 들르다",
+          "type": "phrase",
+          "easy": "가는 길에 잠시 어딘가에 들르는 것.",
+          "ex": "Can we stop by the store on the way home?",
+          "exKo": "집에 가는 길에 가게 잠깐 들러도 될까?",
+          "tip": "drop by와 거의 같은 뜻 — 잠깐 들르다."
+        }
+      ]
+    },
+    {
+      "start": 184.29,
+      "end": 186.41,
+      "lines": [
+        {
+          "text": "I didn't make it up here on the first try.",
+          "start": 184.29,
+          "end": 186.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "make it up here",
+          "ko": "여기(이 자리)까지 올라오다, 도달하다",
+          "type": "idiom",
+          "easy": "이 높은 위치나 성공한 자리까지 다다랐다는 뜻.",
+          "nuance": "make it = 성공하다/해내다. up here는 '이 윗자리/이 위치'.",
+          "tip": "on the first try = 단번에, 첫 시도에."
+        }
+      ]
+    }
+  ]
+}

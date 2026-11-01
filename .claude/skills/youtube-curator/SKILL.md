@@ -13,7 +13,7 @@ description: >-
 
 Given a YouTube channel (or topic/drama), find videos that have **manual (human) English
 captions**, choose ones that are good for English shadowing, add them to `videos.json`,
-rebuild `data/transcripts.json`, and write Korean glosses for the hard words/idioms in each
+rebuild the transcript data (`data/index.json` + `data/v/<id>.json`), and write Korean glosses for the hard words/idioms in each
 segment. Run from the repo root. `yt-dlp` is needed at build time — locally it's usually on
 PATH; in a remote/cloud session it may not be, see **Environment setup** below.
 
@@ -144,7 +144,7 @@ npm run build:transcripts
 ```
 Then confirm each new id produced real segments:
 ```bash
-node -e 'const d=require("./data/transcripts.json");for(const id of process.argv.slice(1)){const v=d.videos.find(v=>v.id===id);console.log(id, v?`${v.segments.length} segs, first: "${v.segments[0].lines[0].text}"`:"MISSING")}' ID1 ID2 ID3
+node -e 'const fs=require("fs");for(const id of process.argv.slice(1)){const f=`./data/v/${id}.json`;const v=fs.existsSync(f)&&require(f);console.log(id, v?`${v.segments.length} segs, first: "${v.segments[0].lines[0].text}"`:"MISSING")}' ID1 ID2 ID3
 ```
 The "first line" should read like a real, clean sentence. If a video came out empty or
 messy (e.g. it slipped through as auto), remove it from `videos.json`, rebuild, and pick
@@ -164,7 +164,7 @@ across a talk expect roughly **1–1.7 glosses per segment** (a ~33-segment TED 
 glosses). These show up in the app under the caption on the later loops, so each one should
 be genuine help, not noise. Dump a video's segments to read them:
 ```bash
-node -e 'const d=require("./data/transcripts.json");const v=d.videos.find(v=>v.id===process.argv[1]);v.segments.forEach((s,i)=>console.log(i+":", s.lines.map(l=>l.text).join(" ")))' VIDEOID
+node -e 'require(`./data/v/${process.argv[1]}.json`).segments.forEach((s,i)=>console.log(i+":", s.lines.map(l=>l.text).join(" ")))' VIDEOID
 ```
 Edit `data/glossary.json`, keyed by video id then **segment index** (a string). Each entry
 has three **required** fields plus optional **rich** fields:
@@ -220,14 +220,15 @@ npm run build:glossary
 ```
 Verify a couple landed:
 ```bash
-node -e 'const d=require("./data/transcripts.json");const v=d.videos.find(v=>v.id===process.argv[1]);v.segments.forEach((s,i)=>s.glossary&&console.log(i, s.glossary.map(g=>g.term+"→"+g.ko).join(" | ")))' VIDEOID
+node -e 'require(`./data/v/${process.argv[1]}.json`).segments.forEach((s,i)=>s.glossary&&console.log(i, s.glossary.map(g=>g.term+"→"+g.ko).join(" | ")))' VIDEOID
 ```
 
 ## Report back
 Summarize: the videos added (title · url · #segments · tag · category · #glosses), any
 strong candidates skipped for lacking manual captions or for being too long (>30 segments),
-and the count scanned. Mention that `videos.json`, `data/transcripts.json`, and
-`data/glossary.json` changed and are ready for the user to review/commit.
+and the count scanned. Mention that `videos.json`, `data/index.json`, the new/changed
+`data/v/<id>.json` files, and `data/glossary.json` changed and are ready for the user to
+review/commit.
 
 ## Guardrails
 - Never add auto-only videos. Verified manual `en` captions are required.

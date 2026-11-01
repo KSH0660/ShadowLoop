@@ -1,0 +1,826 @@
+{
+  "id": "H-V7Oooymj4",
+  "segments": [
+    {
+      "start": 2.2,
+      "end": 6.21,
+      "lines": [
+        {
+          "text": "Come with me. There's no time.",
+          "start": 2.2,
+          "end": 4.2
+        },
+        {
+          "text": "Damn, Steve!",
+          "start": 4.6,
+          "end": 6.21
+        }
+      ]
+    },
+    {
+      "start": 6.21,
+      "end": 11.8,
+      "lines": [
+        {
+          "text": "You wake up camera ready, lucky dog!",
+          "start": 6.21,
+          "end": 8.97
+        },
+        {
+          "text": "It takes me hours to shake that just woke up look.",
+          "start": 8.97,
+          "end": 11.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "camera ready",
+          "ko": "(꾸미지 않아도) 사진 찍어도 될 만큼 멀끔한",
+          "type": "idiom",
+          "easy": "준비 안 했는데도 바로 사진 찍어도 될 만큼 보기 좋은 상태.",
+          "nuance": "원래 광고·촬영용 표현인데, 여기선 '자고 일어나도 멀끔하다'는 농담으로 씀.",
+          "when": "노력 안 했는데도 외모가 깔끔할 때.",
+          "ex": "She rolls out of bed looking camera ready.",
+          "exKo": "걔는 막 자고 일어나도 멀끔해 보여."
+        },
+        {
+          "term": "lucky dog",
+          "ko": "복 받은 놈, 운 좋은 녀석",
+          "type": "idiom",
+          "easy": "운 좋은 사람을 친근하게 놀리듯 부르는 말.",
+          "nuance": "'dog'이 욕이 아니라 부러워하며 장난치는 호칭.",
+          "when": "친구가 부러운 일을 겪었을 때 가볍게.",
+          "ex": "You got front-row seats? Lucky dog!",
+          "exKo": "맨 앞자리 잡았다고? 운 좋은 녀석!"
+        },
+        {
+          "term": "shake that just woke up look",
+          "ko": "막 일어난 부스스한 모습을 떨쳐내다",
+          "type": "phrase",
+          "easy": "자고 일어난 부스스한 얼굴을 없애고 멀끔하게 만들다.",
+          "nuance": "여기서 shake는 '흔들다'가 아니라 '없애다, 떨쳐내다'.",
+          "when": "피곤한 기색·기분을 떨쳐낼 때.",
+          "ex": "Coffee helps me shake the sleepy look.",
+          "exKo": "커피가 졸린 표정 떨치는 데 도움 돼."
+        }
+      ]
+    },
+    {
+      "start": 11.84,
+      "end": 16.12,
+      "lines": [
+        {
+          "text": "No time for what?",
+          "start": 11.84,
+          "end": 13.24
+        },
+        {
+          "text": "And your morning voice sounds clear as a sparrow!",
+          "start": 13.28,
+          "end": 16.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "clear as a sparrow",
+          "ko": "참새처럼 맑고 또렷한",
+          "type": "phrase",
+          "easy": "목소리가 새소리처럼 맑고 깨끗하다는 뜻.",
+          "nuance": "보통은 'clear as a bell'을 쓰는데, 여기선 농담조로 sparrow(참새)로 바꿈."
+        }
+      ]
+    },
+    {
+      "start": 16.24,
+      "end": 21.64,
+      "lines": [
+        {
+          "text": "Me? Forget about it! No phone calls before noon.",
+          "start": 16.24,
+          "end": 19.44
+        },
+        {
+          "text": "Klaus. I have to get started on my dad's present.",
+          "start": 19.44,
+          "end": 21.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Forget about it!",
+          "ko": "됐어!, 신경 꺼!",
+          "type": "idiom",
+          "easy": "그 얘긴 그만하고 신경 쓰지 말라는 말.",
+          "nuance": "'잊어버려'보다 '그 얘긴 됐고'에 가까운 가벼운 거절·일축.",
+          "when": "상대 말을 끊고 화제를 넘길 때.",
+          "ex": "Forget about it, let's just go.",
+          "exKo": "됐어, 그냥 가자."
+        },
+        {
+          "term": "get started on",
+          "ko": "~을 시작하다, ~에 착수하다",
+          "type": "phrase",
+          "easy": "어떤 일을 본격적으로 시작하다.",
+          "tip": "start보다 '이제 막 손대기 시작한다'는 느낌. on 뒤에 할 일이 옴."
+        }
+      ]
+    },
+    {
+      "start": 21.64,
+      "end": 25.52,
+      "lines": [
+        {
+          "text": "Damn! And no morning breath?",
+          "start": 21.64,
+          "end": 23.56
+        },
+        {
+          "text": "Do you sleep with mints in your mouth?",
+          "start": 23.6,
+          "end": 25.52
+        }
+      ]
+    },
+    {
+      "start": 25.64,
+      "end": 32.6,
+      "lines": [
+        {
+          "text": "Now come on, you're wasting valuable time.",
+          "start": 25.64,
+          "end": 28.12
+        },
+        {
+          "text": "Where'd all this come from?",
+          "start": 31.04,
+          "end": 32.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come on",
+          "ko": "자 어서, 빨리 좀",
+          "type": "phrase",
+          "easy": "재촉하거나 다그칠 때 쓰는 말.",
+          "nuance": "상황에 따라 '에이~', '빨리 와', '그러지 마' 등 여러 뜻."
+        },
+        {
+          "term": "Where'd all this come from?",
+          "ko": "이게 다 어디서 난 거야?",
+          "type": "phrase",
+          "easy": "갑자기 나타난 물건·상황을 보고 출처를 묻는 말.",
+          "tip": "Where'd = Where did의 줄임."
+        }
+      ]
+    },
+    {
+      "start": 33.6,
+      "end": 38.57,
+      "lines": [
+        {
+          "text": "Check the artist's signature.",
+          "start": 33.6,
+          "end": 35.64
+        },
+        {
+          "text": "Steve Smith?",
+          "start": 37.04,
+          "end": 38.57
+        }
+      ]
+    },
+    {
+      "start": 38.57,
+      "end": 48.24,
+      "lines": [
+        {
+          "text": "I don't remember making this, but that's my heart dotted I and eyeballs on the S's to make 'em look like scary snakes.",
+          "start": 38.57,
+          "end": 45.76
+        },
+        {
+          "text": "Here it is again.",
+          "start": 46.92,
+          "end": 48.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "dotted I",
+          "ko": "점 찍은 i (i 위의 점)",
+          "type": "phrase",
+          "easy": "글자 i 위에 점을 찍는 것. 여기선 점을 하트로 찍었다는 얘기.",
+          "tip": "dot the i's and cross the t's = 세세한 것까지 꼼꼼히 챙기다."
+        }
+      ]
+    },
+    {
+      "start": 48.4,
+      "end": 58.16,
+      "lines": [
+        {
+          "text": "Every night, your dad resets your memory so every morning you wake up thinking it's Father's Day again. And again!",
+          "start": 48.4,
+          "end": 54.52
+        },
+        {
+          "text": "Steve. You missed the story of the boy in the volcano.",
+          "start": 54.52,
+          "end": 58.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "reset your memory",
+          "ko": "기억을 지우다(초기화하다)",
+          "type": "phrase",
+          "easy": "기억을 처음 상태로 되돌려 없애 버리다.",
+          "nuance": "기계를 reset하듯 사람 기억을 매일 지운다는 SF식 농담."
+        },
+        {
+          "term": "rivet the nation",
+          "ko": "온 나라의 이목을 사로잡다",
+          "type": "idiom",
+          "easy": "온 나라 사람들이 눈을 못 뗄 만큼 푹 빠지게 하다.",
+          "nuance": "rivet은 원래 '못으로 고정하다' → 시선을 한 곳에 못 박듯 붙들다.",
+          "when": "큰 사건·뉴스가 모두의 관심을 끌 때.",
+          "ex": "The trial riveted the whole country.",
+          "exKo": "그 재판은 온 나라의 이목을 사로잡았다."
+        }
+      ]
+    },
+    {
+      "start": 58.44,
+      "end": 64.4,
+      "lines": [
+        {
+          "text": "It riveted the nation for months.",
+          "start": 58.44,
+          "end": 60.6
+        },
+        {
+          "text": "In the end, it turned out to be just a goat in a starter jacket.",
+          "start": 60.92,
+          "end": 64.4
+        }
+      ]
+    },
+    {
+      "start": 65.12,
+      "end": 68.63,
+      "lines": [
+        {
+          "text": "Dad's not gonna get away with this.",
+          "start": 65.12,
+          "end": 67.08
+        },
+        {
+          "text": "Yeah, dad's lost it.",
+          "start": 67.12,
+          "end": 68.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get away with this",
+          "ko": "이걸(나쁜 짓을) 들키지 않고 넘어가다",
+          "type": "idiom",
+          "easy": "잘못을 하고도 벌이나 대가 없이 빠져나가다.",
+          "nuance": "그냥 도망이 아니라 '벌을 안 받고 무사히 넘어간다'는 뜻.",
+          "when": "누가 나쁜 짓을 하고 벌을 피하려 할 때.",
+          "ex": "You can't get away with cheating.",
+          "exKo": "부정행위를 하고 그냥 넘어갈 순 없어.",
+          "tip": "get away (도망가다)와 달리 with가 붙으면 '벌 없이 넘어가다'."
+        },
+        {
+          "term": "lost it",
+          "ko": "정신이 나갔다, 미쳤다",
+          "type": "idiom",
+          "easy": "이성·자제력을 잃고 제정신이 아니게 되다.",
+          "nuance": "화나서 폭발했거나 판단력을 완전히 잃었다는 뜻.",
+          "when": "누가 갑자기 화내거나 이상하게 굴 때.",
+          "ex": "When he heard the news, he totally lost it.",
+          "exKo": "그 소식 듣고 걔는 완전히 이성을 잃었어."
+        }
+      ]
+    },
+    {
+      "start": 68.67,
+      "end": 71.67,
+      "lines": [
+        {
+          "text": "Klaus, he's not your dad.",
+          "start": 68.67,
+          "end": 69.91
+        },
+        {
+          "text": "Well, well, well.",
+          "start": 69.99,
+          "end": 71.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Well, well, well",
+          "ko": "이거 이거, 어디 보자 (의미심장한 감탄)",
+          "type": "idiom",
+          "easy": "뭔가 들켰거나 흥미로운 상황을 만났을 때 능청맞게 내는 말.",
+          "nuance": "보통 상대를 추궁하거나 비꼬는 느낌으로 천천히 말함.",
+          "when": "수상한 장면을 딱 마주쳤을 때."
+        }
+      ]
+    },
+    {
+      "start": 71.91,
+      "end": 75.63,
+      "lines": [
+        {
+          "text": "Dad.",
+          "start": 71.91,
+          "end": 72.51
+        },
+        {
+          "text": "No. Looks like you got it all figured out.",
+          "start": 72.55,
+          "end": 75.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "got it all figured out",
+          "ko": "다 알아냈다, 상황 파악을 끝냈다",
+          "type": "idiom",
+          "easy": "어려운 문제나 상황을 전부 이해하고 답을 찾았다.",
+          "nuance": "figure out(알아내다)의 완료형. 여기선 비꼬는 투로 '다 알았다 이거지?'.",
+          "when": "계획이나 진실을 다 파악했을 때.",
+          "ex": "Don't worry, I've got it all figured out.",
+          "exKo": "걱정 마, 내가 다 방법 찾아놨어."
+        }
+      ]
+    },
+    {
+      "start": 76.47,
+      "end": 80.43,
+      "lines": [
+        {
+          "text": "Why are you doing this to us?",
+          "start": 76.47,
+          "end": 78.07
+        },
+        {
+          "text": "Why? Why? Why? Why? Why? Why? Why?",
+          "start": 78.11,
+          "end": 80.43
+        }
+      ]
+    },
+    {
+      "start": 80.47,
+      "end": 84.96,
+      "lines": [
+        {
+          "text": "Because you guys can't give me one decent day.",
+          "start": 80.47,
+          "end": 83.03
+        },
+        {
+          "text": "No matter how many chances I give you!",
+          "start": 83.07,
+          "end": 84.96
+        }
+      ],
+      "glossary": [
+        {
+          "term": "one decent day",
+          "ko": "그럭저럭 괜찮은 하루 하나",
+          "type": "word",
+          "easy": "특별히 좋진 않아도 봐줄 만한, 무난한 하루.",
+          "nuance": "decent = '대단하진 않아도 괜찮은' 정도의 흔한 단어.",
+          "tip": "decent person이면 '괜찮은 사람', decent meal이면 '먹을 만한 식사'."
+        },
+        {
+          "term": "No matter how many",
+          "ko": "아무리 많이 ~해도",
+          "type": "phrase",
+          "easy": "수가 아무리 많아도 결과는 같다는 표현.",
+          "tip": "No matter how + 형용사/부사 = '아무리 ~해도'."
+        }
+      ]
+    },
+    {
+      "start": 84.96,
+      "end": 87.55,
+      "lines": [
+        {
+          "text": "Chances?",
+          "start": 84.96,
+          "end": 85.87
+        },
+        {
+          "text": "What are you talking about?",
+          "start": 86.11,
+          "end": 87.55
+        }
+      ]
+    },
+    {
+      "start": 87.59,
+      "end": 93.27,
+      "lines": [
+        {
+          "text": "Good morning!",
+          "start": 87.59,
+          "end": 88.99
+        },
+        {
+          "text": "Dad's been tricking us into reliving Father's Day every day for six months!",
+          "start": 89.19,
+          "end": 93.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "trick ... into -ing",
+          "ko": "속여서 ~하게 만들다",
+          "type": "phrase",
+          "easy": "거짓말이나 꾀로 상대가 어떤 일을 하게 만들다.",
+          "nuance": "into 뒤엔 동사ing(시킨 행동)이 옴.",
+          "when": "누가 속아서 원치 않는 일을 했을 때.",
+          "ex": "They tricked him into signing the paper.",
+          "exKo": "걔네는 그를 속여서 서류에 서명하게 만들었어."
+        },
+        {
+          "term": "relive",
+          "ko": "(과거를) 다시 겪다, 되살아 살다",
+          "type": "word",
+          "easy": "지난 일을 마치 처음처럼 또 한 번 경험하다.",
+          "tip": "re-(다시) + live(살다). 좋은 추억에도, 악몽 같은 일에도 씀."
+        }
+      ]
+    },
+    {
+      "start": 94.01,
+      "end": 97.75,
+      "lines": [
+        {
+          "text": "You brainwashed us?",
+          "start": 94.01,
+          "end": 96.09
+        },
+        {
+          "text": "Oh, of course. Make it about you.",
+          "start": 96.11,
+          "end": 97.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "brainwash",
+          "ko": "세뇌하다",
+          "type": "word",
+          "easy": "사람 생각을 강제로 바꿔 원하는 대로 믿게 만들다.",
+          "tip": "brain(뇌) + wash(씻다) → 머릿속을 '씻어' 다시 채운다는 이미지."
+        },
+        {
+          "term": "make it about you",
+          "ko": "(다른 사람 일을) 자기 이야기로 만들다",
+          "type": "idiom",
+          "easy": "남의 일·문제인데도 관심을 자기 쪽으로 끌어가다.",
+          "nuance": "이기적으로 주인공 행세 한다고 핀잔 줄 때 쓰는 말.",
+          "when": "누가 자기중심적으로 굴 때.",
+          "ex": "It's her party—don't make it about you.",
+          "exKo": "걔 파티잖아, 자꾸 네 얘기로 만들지 마."
+        }
+      ]
+    },
+    {
+      "start": 97.79,
+      "end": 107.27,
+      "lines": [
+        {
+          "text": "Well, since you won't remember this anyway. I'll get everything out of my system so I can wake up tomorrow without being so cheesed off.",
+          "start": 97.79,
+          "end": 103.75
+        },
+        {
+          "text": "Go ahead, Steve, cry. It'd be weirder if you didn't.",
+          "start": 104.39,
+          "end": 107.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get everything out of my system",
+          "ko": "쌓인 걸 다 풀어버리다, 속을 다 비우다",
+          "type": "idiom",
+          "easy": "참았던 감정·하고픈 말을 남김없이 다 쏟아내 후련해지다.",
+          "nuance": "안에 쌓인 걸 '몸 밖으로(out of system) 빼낸다'는 비유.",
+          "when": "화·욕구를 한 번에 다 분출하고 싶을 때.",
+          "ex": "Let me yell once and get it out of my system.",
+          "exKo": "한 번 소리 질러서 속 좀 풀게 해 줘."
+        },
+        {
+          "term": "cheesed off",
+          "ko": "짜증 난, 열받은",
+          "type": "idiom",
+          "easy": "기분 상하고 짜증 나 있는 상태 (영국식 표현).",
+          "nuance": "angry보다 가볍고 구어적인 '빡친' 느낌.",
+          "when": "사소한 일에 기분 상했을 때.",
+          "ex": "I'm a bit cheesed off about the delay.",
+          "exKo": "지연돼서 좀 짜증 나네."
+        }
+      ]
+    },
+    {
+      "start": 107.67,
+      "end": 110.95,
+      "lines": [
+        {
+          "text": "Go ahead Hayley. Gasp. It'd be weirder if you didn't.",
+          "start": 107.67,
+          "end": 110.47
+        },
+        {
+          "text": "Stan!",
+          "start": 110.51,
+          "end": 110.95
+        }
+      ]
+    },
+    {
+      "start": 110.95,
+      "end": 113.71,
+      "lines": [
+        {
+          "text": "Enough!",
+          "start": 110.95,
+          "end": 111.59
+        },
+        {
+          "text": "Since when is anything enough for you?",
+          "start": 111.63,
+          "end": 113.71
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Enough!",
+          "ko": "그만해!, 됐어!",
+          "type": "phrase",
+          "easy": "더는 못 참겠으니 멈추라고 단호히 외치는 말.",
+          "nuance": "한 단어로 '이제 그만'을 강하게 표현."
+        },
+        {
+          "term": "Since when is ... enough for you?",
+          "ko": "언제부터 그게 너한테 충분했냐?",
+          "type": "idiom",
+          "easy": "'네가 언제 만족한 적 있냐'고 비꼬아 받아치는 말.",
+          "nuance": "Since when ~?은 보통 '언제부터 그랬다고?'라며 따지는 반문.",
+          "when": "상대 말이 어이없어 되받아칠 때."
+        }
+      ]
+    },
+    {
+      "start": 113.75,
+      "end": 119.91,
+      "lines": [
+        {
+          "text": "For the last 20 years, you just sit around and wait for me to bring home money.",
+          "start": 113.75,
+          "end": 117.59
+        },
+        {
+          "text": "I need rugs, I need bananas.",
+          "start": 117.75,
+          "end": 119.91
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sit around",
+          "ko": "빈둥대다, 아무것도 안 하고 있다",
+          "type": "phrase",
+          "easy": "할 일 없이 그냥 앉아 시간만 보내다.",
+          "nuance": "around이 붙어 '하릴없이 늘어져 있다'는 게으른 느낌.",
+          "when": "누가 일은 안 하고 놀고만 있을 때.",
+          "ex": "Don't just sit around—help me out.",
+          "exKo": "빈둥대지만 말고 좀 도와줘."
+        },
+        {
+          "term": "bring home money",
+          "ko": "돈을 벌어 오다, 생계를 책임지다",
+          "type": "idiom",
+          "easy": "밖에서 일해 가족 먹고살 돈을 벌어 오다.",
+          "nuance": "bring home the bacon과 같은 '가장 노릇' 이미지.",
+          "ex": "He works two jobs to bring home money.",
+          "exKo": "그는 돈 벌려고 일을 두 개나 해."
+        }
+      ]
+    },
+    {
+      "start": 120.03,
+      "end": 123.67,
+      "lines": [
+        {
+          "text": "Stan.",
+          "start": 120.03,
+          "end": 120.67
+        },
+        {
+          "text": "Stop before you say something you'll regret.",
+          "start": 120.95,
+          "end": 123.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "say something you'll regret",
+          "ko": "나중에 후회할 말을 하다",
+          "type": "phrase",
+          "easy": "홧김에 뱉었다가 두고두고 후회할 말을 하다.",
+          "when": "흥분한 사람을 말리며 진정시킬 때.",
+          "ex": "Calm down before you say something you'll regret.",
+          "exKo": "후회할 말 하기 전에 진정 좀 해."
+        }
+      ]
+    },
+    {
+      "start": 123.71,
+      "end": 125.43,
+      "lines": [
+        {
+          "text": "Oh, I haven't even started.",
+          "start": 123.71,
+          "end": 125.43
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I haven't even started",
+          "ko": "이제 시작도 안 했어 (할 말이 산더미야)",
+          "type": "idiom",
+          "easy": "지금까지 한 건 아무것도 아니고 앞으로가 더 세다는 으름장.",
+          "nuance": "협박·기세 표현. '본격적으로는 아직 시작도 안 했다'.",
+          "when": "더 쏟아낼 게 많다고 경고할 때."
+        }
+      ]
+    },
+    {
+      "start": 125.47,
+      "end": 145.9,
+      "lines": [
+        {
+          "text": "♪ I'm the Scatman ♪ ♪ Skibidibidibi ♪ ♪ Yo dum da dum dum ♪ ♪ Yo dum da dum dum ♪ ♪ Skibidibidibi ♪ ♪ Yo dum da dum dum ♪ ♪ Yo dum da dum dum ♪ ♪ I'm the Scatman ♪ ♪ Skibidibidibi ♪ ♪ Yo dum da dum dum ♪ ♪ Yo dum da dum dum ♪ ♪ Skibidibidibi ♪ ♪ Yo dum da dum dum ♪ ♪ Yo dum da dum dum ♪ ♪ Ba da ba da ba da bee ba ba ba da bo ♪ ♪ Ba ba ba da bo ♪ ♪ Bee ba ba ba da bo ♪",
+          "start": 125.47,
+          "end": 145.9
+        }
+      ]
+    },
+    {
+      "start": 145.9,
+      "end": 161.61,
+      "lines": [
+        {
+          "text": "♪ Ba ba ba da ♪ ♪ Ba da ba da ba da bee ba ba ba da bo ♪ ♪ Ba ba ba da bo ♪ ♪ Bee ba ba ba da bo ♪ ♪ Ba ♪ You can stop feeling sorry for yourselves because this never happened.",
+          "start": 145.9,
+          "end": 158.71
+        },
+        {
+          "text": "Starting now.",
+          "start": 159.99,
+          "end": 161.61
+        }
+      ]
+    },
+    {
+      "start": 161.61,
+      "end": 172.11,
+      "lines": [
+        {
+          "text": "Now. Now. Now. Now. Now. Now.",
+          "start": 161.61,
+          "end": 164.91
+        },
+        {
+          "text": "Oh, Stan. When I was grabbing a snack last night, I accidentally knocked that thing off the counter.",
+          "start": 165.31,
+          "end": 172.11
+        }
+      ],
+      "glossary": [
+        {
+          "term": "grab a snack",
+          "ko": "간식을 집어 먹다, 요기하다",
+          "type": "phrase",
+          "easy": "간단히 먹을 걸 챙겨 먹다.",
+          "tip": "grab은 여기서 '잡다'가 아니라 '간단히 챙기다/먹다'."
+        },
+        {
+          "term": "knock ... off the counter",
+          "ko": "~을 쳐서 조리대에서 떨어뜨리다",
+          "type": "phrase",
+          "easy": "실수로 부딪쳐 물건을 바닥으로 떨어뜨리다.",
+          "nuance": "knock off는 '쳐서 떨어뜨리다'. counter는 부엌 조리대.",
+          "ex": "I knocked the cup off the table.",
+          "exKo": "내가 컵을 쳐서 식탁에서 떨어뜨렸어."
+        }
+      ]
+    },
+    {
+      "start": 172.47,
+      "end": 177.47,
+      "lines": [
+        {
+          "text": "'Cause it wasn't on my radar.",
+          "start": 172.47,
+          "end": 174.83
+        },
+        {
+          "text": "I, uh.",
+          "start": 176.39,
+          "end": 177.47
+        }
+      ],
+      "glossary": [
+        {
+          "term": "on my radar",
+          "ko": "내 관심·신경 안에 있는",
+          "type": "idiom",
+          "easy": "내가 의식하고 신경 쓰고 있는 대상이라는 뜻.",
+          "nuance": "레이더에 잡히듯 '눈여겨보고 있다'. 부정형이면 '안중에도 없었다'.",
+          "when": "무언가를 챙기고 있거나(긍정) 깜빡했을 때(부정).",
+          "ex": "Sorry, that deadline wasn't on my radar.",
+          "exKo": "미안, 그 마감은 내 신경에 없었어."
+        }
+      ]
+    },
+    {
+      "start": 178.15,
+      "end": 180.75,
+      "lines": [
+        {
+          "text": "Uh.",
+          "start": 178.15,
+          "end": 178.65
+        },
+        {
+          "text": "And I wasn't really getting a snack.",
+          "start": 178.65,
+          "end": 180.75
+        }
+      ]
+    },
+    {
+      "start": 180.79,
+      "end": 188.63,
+      "lines": [
+        {
+          "text": "That mission was purely to be a rascal.",
+          "start": 180.79,
+          "end": 182.91
+        },
+        {
+          "text": "Although I did reward myself with a sleeve of saltines and four packs of gushers.",
+          "start": 183.27,
+          "end": 188.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "be a rascal",
+          "ko": "장난(짓궂은 짓)을 치다",
+          "type": "idiom",
+          "easy": "짓궂게 말썽이나 장난을 부리다.",
+          "nuance": "rascal은 '개구쟁이/말썽꾸러기'. 여기선 일부러 장난쳤다는 변명.",
+          "when": "가벼운 말썽·장난을 귀엽게 표현할 때."
+        },
+        {
+          "term": "reward myself with",
+          "ko": "(고생한) 나 자신에게 ~으로 상을 주다",
+          "type": "phrase",
+          "easy": "뭔가 한 뒤 스스로에게 보상으로 ~을 챙기다.",
+          "ex": "I rewarded myself with a nap.",
+          "exKo": "나한테 상으로 낮잠을 잤어."
+        },
+        {
+          "term": "a sleeve of",
+          "ko": "(통에 든) 한 줄, 한 묶음의",
+          "type": "word",
+          "easy": "크래커나 과자가 비닐로 한 줄 포장된 그 단위.",
+          "tip": "sleeve는 원래 '소매'인데, 길쭉하게 줄 포장된 과자 단위로도 씀."
+        }
+      ]
+    },
+    {
+      "start": 188.99,
+      "end": 190.51,
+      "lines": [
+        {
+          "text": "Happy Father's day.",
+          "start": 188.99,
+          "end": 190.51
+        }
+      ]
+    }
+  ]
+}

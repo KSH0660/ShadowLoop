@@ -1,0 +1,765 @@
+{
+  "id": "1Ec3rMMLyWg",
+  "segments": [
+    {
+      "start": 0.08,
+      "end": 8.51,
+      "lines": [
+        {
+          "text": "And a toasty 75 degrees for daughter Haley.",
+          "start": 0.08,
+          "end": 3.96
+        },
+        {
+          "text": "You see, the Verona boasts individualized climate zones, Claire.",
+          "start": 4.92,
+          "end": 8.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "toasty",
+          "ko": "따뜻하고 아늑한",
+          "type": "word"
+        },
+        {
+          "term": "boasts",
+          "ko": "(자랑할 만한 기능을) 갖추고 있다",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 8.51,
+      "end": 13.84,
+      "lines": [
+        {
+          "text": "Mhm.",
+          "start": 8.51,
+          "end": 9.01
+        },
+        {
+          "text": "I could literally transport a polar bear and an orchid and not make two trips.",
+          "start": 9.01,
+          "end": 13.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "orchid",
+          "ko": "난초",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 14.84,
+      "end": 17.52,
+      "lines": [
+        {
+          "text": "Dad, I'm freezing.",
+          "start": 14.84,
+          "end": 15.95
+        },
+        {
+          "text": "It's like one degree back here.",
+          "start": 15.95,
+          "end": 17.52
+        }
+      ]
+    },
+    {
+      "start": 18.8,
+      "end": 23.68,
+      "lines": [
+        {
+          "text": "Six minutes in and it begins.",
+          "start": 18.8,
+          "end": 21.6
+        },
+        {
+          "text": "Here, take the blanket from the bed.",
+          "start": 22,
+          "end": 23.68
+        }
+      ]
+    },
+    {
+      "start": 24.04,
+      "end": 27.04,
+      "lines": [
+        {
+          "text": "Thanks, kitten.",
+          "start": 24.04,
+          "end": 25
+        },
+        {
+          "text": "Dad, can you change the music?",
+          "start": 25.76,
+          "end": 27.04
+        }
+      ]
+    },
+    {
+      "start": 27.08,
+      "end": 30.76,
+      "lines": [
+        {
+          "text": "Can I?",
+          "start": 27.08,
+          "end": 27.72
+        },
+        {
+          "text": "Oh, no. Oh, no. That's just getting louder.",
+          "start": 28.68,
+          "end": 30.76
+        }
+      ]
+    },
+    {
+      "start": 30.76,
+      "end": 35.52,
+      "lines": [
+        {
+          "text": "This isn't good. It's not good at all.",
+          "start": 30.76,
+          "end": 33
+        },
+        {
+          "text": "- Actually, it's kind of perfect. - Right?",
+          "start": 33.48,
+          "end": 35.52
+        }
+      ]
+    },
+    {
+      "start": 35.84,
+      "end": 41.08,
+      "lines": [
+        {
+          "text": "The big windows, the classical music, it's like we're in a movie.",
+          "start": 35.84,
+          "end": 39.2
+        },
+        {
+          "text": "Turn it up, handsome.",
+          "start": 40,
+          "end": 41.08
+        }
+      ]
+    },
+    {
+      "start": 41.32,
+      "end": 48.92,
+      "lines": [
+        {
+          "text": "You got it.",
+          "start": 41.32,
+          "end": 42.24
+        },
+        {
+          "text": "Obviously, the novelty of the situation was delaying the inevitable.",
+          "start": 45.76,
+          "end": 48.92
+        }
+      ],
+      "glossary": [
+        {
+          "term": "novelty",
+          "ko": "신기함, 새로움",
+          "type": "word"
+        },
+        {
+          "term": "delaying the inevitable",
+          "ko": "피할 수 없는 일을 미루는 것",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 48.92,
+      "end": 62.16,
+      "lines": [
+        {
+          "text": "But I didn't want to get halfway into a trip to Yellowstone before Phil discovered what malevolent hellspawn we have for children, whom I love very much.",
+          "start": 48.92,
+          "end": 56.76
+        },
+        {
+          "text": "Alex, honey, that's a cute sweater. Doesn't Haley have one like that?",
+          "start": 59.48,
+          "end": 62.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "malevolent",
+          "ko": "악의에 찬, 사악한",
+          "type": "word"
+        },
+        {
+          "term": "hellspawn",
+          "ko": "지옥에서 온 것, 악마 같은 존재",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 62.2,
+      "end": 65.08,
+      "lines": [
+        {
+          "text": "Oh, it actually is hers.",
+          "start": 62.2,
+          "end": 63.15
+        },
+        {
+          "text": "- I took it from her closet before we left. - Really?",
+          "start": 63.15,
+          "end": 65.08
+        }
+      ]
+    },
+    {
+      "start": 65.24,
+      "end": 68.09,
+      "lines": [
+        {
+          "text": "Oh, sorry, girls.",
+          "start": 65.24,
+          "end": 66.82
+        },
+        {
+          "text": "Didn't mean to start a whole thing.",
+          "start": 66.82,
+          "end": 68.09
+        }
+      ]
+    },
+    {
+      "start": 68.09,
+      "end": 73.52,
+      "lines": [
+        {
+          "text": "I'm so sick of you always looking better in my clothes.",
+          "start": 68.09,
+          "end": 72.16
+        },
+        {
+          "text": "When did that happen?",
+          "start": 72.16,
+          "end": 73.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sick of",
+          "ko": "~에 진저리가 난, 지긋지긋한",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 73.68,
+      "end": 78,
+      "lines": [
+        {
+          "text": "Are you okay with this?",
+          "start": 73.68,
+          "end": 74.72
+        },
+        {
+          "text": "Oh, yeah. She can wear whatever she wants after I've had it for six months.",
+          "start": 74.88,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "start": 78.04,
+      "end": 81.04,
+      "lines": [
+        {
+          "text": "Huh.",
+          "start": 78.04,
+          "end": 78.54
+        },
+        {
+          "text": "Or I get it automatically if you buy anything that looks like it.",
+          "start": 78.54,
+          "end": 81.04
+        }
+      ]
+    },
+    {
+      "start": 81.28,
+      "end": 87.96,
+      "lines": [
+        {
+          "text": "This just feels right, huh, team?",
+          "start": 81.28,
+          "end": 83.44
+        },
+        {
+          "text": "Matter of fact, I was thinking we could all drive up to Yellowstone this summer.",
+          "start": 83.88,
+          "end": 87.96
+        }
+      ]
+    },
+    {
+      "start": 88.12,
+      "end": 94.08,
+      "lines": [
+        {
+          "text": "But I say, let's take this biatch ocean to ocean.",
+          "start": 88.12,
+          "end": 92.6
+        },
+        {
+          "text": "- That'd be cool. - Awesome.",
+          "start": 92.64,
+          "end": 94.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "ocean to ocean",
+          "ko": "대서양에서 태평양까지, 대륙 횡단",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 94.12,
+      "end": 96.8,
+      "lines": [
+        {
+          "text": "We're doing it.",
+          "start": 94.12,
+          "end": 95.2
+        },
+        {
+          "text": "Phil! The road!",
+          "start": 96.08,
+          "end": 96.8
+        }
+      ]
+    },
+    {
+      "start": 96.84,
+      "end": 104.72,
+      "lines": [
+        {
+          "text": "Hey!",
+          "start": 96.84,
+          "end": 97.48
+        },
+        {
+          "text": "I don't know what button I just pressed, but that was amazing.",
+          "start": 101.2,
+          "end": 104.72
+        }
+      ]
+    },
+    {
+      "start": 112.56,
+      "end": 121.08,
+      "lines": [
+        {
+          "text": "Perfect freaking harmony. That's when it hit me.",
+          "start": 112.56,
+          "end": 116
+        },
+        {
+          "text": "Maybe it's not the cold confines of a moving vehicle that brings out the worst in my kids.",
+          "start": 116.68,
+          "end": 121.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "it hit me",
+          "ko": "문득 깨달았다",
+          "type": "idiom"
+        },
+        {
+          "term": "confines",
+          "ko": "비좁은 한정된 공간",
+          "type": "word"
+        },
+        {
+          "term": "brings out the worst in",
+          "ko": "~의 최악의 면을 끌어내다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 121.08,
+      "end": 129.64,
+      "lines": [
+        {
+          "text": "Maybe I bring out the worst in them when there's no fun lovin Phil around to neutralize my toxins.",
+          "start": 121.08,
+          "end": 127.6
+        },
+        {
+          "text": "I was in a full shame spiral.",
+          "start": 128.16,
+          "end": 129.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "neutralize",
+          "ko": "중화시키다, 무력화하다",
+          "type": "word"
+        },
+        {
+          "term": "shame spiral",
+          "ko": "수치심에 빠져드는 악순환",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 129.96,
+      "end": 133.84,
+      "lines": [
+        {
+          "text": "Oh! A bee!",
+          "start": 129.96,
+          "end": 130.88
+        },
+        {
+          "text": "And then something wonderful happened.",
+          "start": 132,
+          "end": 133.84
+        }
+      ]
+    },
+    {
+      "start": 134.16,
+      "end": 137.47,
+      "lines": [
+        {
+          "text": "I got it.",
+          "start": 134.16,
+          "end": 134.88
+        },
+        {
+          "text": "- Oh! You idiot! - Kill it!",
+          "start": 135.12,
+          "end": 137.47
+        }
+      ]
+    },
+    {
+      "start": 137.47,
+      "end": 139.76,
+      "lines": [
+        {
+          "text": "No, don't.",
+          "start": 137.47,
+          "end": 138.24
+        },
+        {
+          "text": "Haven't you heard of colony collapse?",
+          "start": 138.24,
+          "end": 139.76
+        }
+      ],
+      "glossary": [
+        {
+          "term": "colony collapse",
+          "ko": "(벌의) 군집 붕괴 현상",
+          "type": "phrase"
+        },
+        {
+          "term": "endangered",
+          "ko": "멸종 위기에 처한",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 139.8,
+      "end": 142.31,
+      "lines": [
+        {
+          "text": "Bees are endangered.",
+          "start": 139.8,
+          "end": 141
+        },
+        {
+          "text": "Okay, guys. Stand still.",
+          "start": 141.08,
+          "end": 142.31
+        }
+      ]
+    },
+    {
+      "start": 142.31,
+      "end": 145.12,
+      "lines": [
+        {
+          "text": "It can't see you if you're not moving.",
+          "start": 142.31,
+          "end": 143.92
+        },
+        {
+          "text": "It's coming near me.",
+          "start": 144.12,
+          "end": 145.12
+        }
+      ]
+    },
+    {
+      "start": 146.16,
+      "end": 149.48,
+      "lines": [
+        {
+          "text": "- Do I look like a bee? - No, it was an accident!",
+          "start": 146.16,
+          "end": 148.4
+        },
+        {
+          "text": "So is this!",
+          "start": 148.6,
+          "end": 149.48
+        }
+      ]
+    },
+    {
+      "start": 152.61,
+      "end": 157.77,
+      "lines": [
+        {
+          "text": "Everyone remain calm.",
+          "start": 152.61,
+          "end": 154.04
+        },
+        {
+          "text": "I'll just open up the double tilt Swiss skylight and the airflow will pull the bee out.",
+          "start": 154.04,
+          "end": 157.77
+        }
+      ]
+    },
+    {
+      "start": 157.81,
+      "end": 160.97,
+      "lines": [
+        {
+          "text": "- There's another bee, Dad! - We must be near it's cave!",
+          "start": 157.81,
+          "end": 160.03
+        },
+        {
+          "text": "Oh, my God!",
+          "start": 160.03,
+          "end": 160.97
+        }
+      ]
+    },
+    {
+      "start": 160.97,
+      "end": 164.01,
+      "lines": [
+        {
+          "text": "There's so much stupid in here.",
+          "start": 160.97,
+          "end": 162.21
+        },
+        {
+          "text": "All right, I'm pulling this thing over.",
+          "start": 162.25,
+          "end": 164.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pulling this thing over",
+          "ko": "(차를) 길가에 세우다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 164.29,
+      "end": 166.89,
+      "lines": [
+        {
+          "text": "Those are the wipers. Claire!",
+          "start": 164.29,
+          "end": 166.05
+        },
+        {
+          "text": "Say something.",
+          "start": 166.09,
+          "end": 166.89
+        }
+      ]
+    },
+    {
+      "start": 167.41,
+      "end": 170.19,
+      "lines": [
+        {
+          "text": "Kids, stop, please.",
+          "start": 167.41,
+          "end": 169.29
+        },
+        {
+          "text": "Hey.",
+          "start": 169.69,
+          "end": 170.19
+        }
+      ]
+    },
+    {
+      "start": 170.29,
+      "end": 175.03,
+      "lines": [
+        {
+          "text": "There are daily flights to Yellowstone.",
+          "start": 170.29,
+          "end": 172.41
+        },
+        {
+          "text": "You ripped my sweater?",
+          "start": 174.01,
+          "end": 175.03
+        }
+      ]
+    },
+    {
+      "start": 175.03,
+      "end": 177.09,
+      "lines": [
+        {
+          "text": "My sweater!",
+          "start": 175.03,
+          "end": 175.67
+        },
+        {
+          "text": "Which you shouldn't even be wearing.",
+          "start": 175.67,
+          "end": 177.09
+        }
+      ]
+    },
+    {
+      "start": 177.77,
+      "end": 181.85,
+      "lines": [
+        {
+          "text": "- Get off! My sweater! - Short layover in Salt Lake.",
+          "start": 177.77,
+          "end": 180.05
+        },
+        {
+          "text": "Are you really not gonna do anything?",
+          "start": 180.21,
+          "end": 181.85
+        }
+      ],
+      "glossary": [
+        {
+          "term": "layover",
+          "ko": "(여행 중) 경유, 중간 기착",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 181.89,
+      "end": 184.05,
+      "lines": [
+        {
+          "text": "Oh, Phil.",
+          "start": 181.89,
+          "end": 182.45
+        },
+        {
+          "text": "You must have known this was gonna happen.",
+          "start": 182.45,
+          "end": 184.05
+        }
+      ]
+    },
+    {
+      "start": 184.09,
+      "end": 190.53,
+      "lines": [
+        {
+          "text": "I know that tone. You're making a point.",
+          "start": 184.09,
+          "end": 186.37
+        },
+        {
+          "text": "Better that you find out who they are now than when you're halfway across the country.",
+          "start": 186.81,
+          "end": 190.53
+        }
+      ],
+      "glossary": [
+        {
+          "term": "making a point",
+          "ko": "(일부러) 자기 생각을 입증해 보이다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 191.81,
+      "end": 203.09,
+      "lines": [
+        {
+          "text": "I guess I'm just a naive boob who thought we liked each other.",
+          "start": 191.81,
+          "end": 194.61
+        },
+        {
+          "text": "Obviously, it was too much to ask to think that we could take one magnificent trip in a tricked out, state of the art RV to see the sun dancing off the Pacific.",
+          "start": 195.29,
+          "end": 203.09
+        }
+      ],
+      "glossary": [
+        {
+          "term": "boob",
+          "ko": "(속어) 얼간이, 멍청이",
+          "type": "word"
+        },
+        {
+          "term": "too much to ask",
+          "ko": "지나친 요구",
+          "type": "idiom"
+        },
+        {
+          "term": "tricked out",
+          "ko": "한껏 꾸민, 화려하게 개조한",
+          "type": "idiom"
+        },
+        {
+          "term": "state of the art",
+          "ko": "최첨단의",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 203.49,
+      "end": 211,
+      "lines": [
+        {
+          "text": "What a huge ask! [Smacks bee] Ow!",
+          "start": 203.49,
+          "end": 211
+        }
+      ]
+    }
+  ]
+}

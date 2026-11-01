@@ -1,0 +1,722 @@
+{
+  "id": "pJn3gIaxHqg",
+  "segments": [
+    {
+      "start": 0.08,
+      "end": 10.14,
+      "lines": [
+        {
+          "text": "I just need to send this email to Claire why I'm not working on the bake sale next week, but I can't say the real reason Why not?",
+          "start": 0.08,
+          "end": 6.92
+        },
+        {
+          "text": "Because she drives me crazy when she's in charge of these things.",
+          "start": 6.96,
+          "end": 10.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bake sale",
+          "ko": "(모금용) 빵 판매 행사",
+          "type": "word"
+        },
+        {
+          "term": "drives me crazy",
+          "ko": "나를 미치게 한다",
+          "type": "idiom"
+        },
+        {
+          "term": "in charge of",
+          "ko": "~을 맡은, 책임지는",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 10.14,
+      "end": 17.2,
+      "lines": [
+        {
+          "text": "Okay, we got a flight to catch, so let me help you out here.",
+          "start": 10.14,
+          "end": 12.8
+        },
+        {
+          "text": "You tell me what you want to say to her, and I'll help you find a nice way to say it.",
+          "start": 12.92,
+          "end": 17.2
+        }
+      ],
+      "glossary": [
+        {
+          "term": "flight to catch",
+          "ko": "놓치면 안 되는 비행기",
+          "type": "phrase"
+        },
+        {
+          "term": "help you out",
+          "ko": "너를 (곤경에서) 도와주다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 17.24,
+      "end": 32.81,
+      "lines": [
+        {
+          "text": "I want to say, I can't work on the bake sale, because you're a bossy control freak that looks down on my cupcakes even though your lemon squares were very dry.",
+          "start": 17.24,
+          "end": 28.92
+        },
+        {
+          "text": "Okay.",
+          "start": 32.16,
+          "end": 32.81
+        }
+      ],
+      "glossary": [
+        {
+          "term": "control freak",
+          "ko": "모든 걸 자기 맘대로 하려는 사람, 통제광",
+          "type": "idiom"
+        },
+        {
+          "term": "bossy",
+          "ko": "이래라저래라 명령하는",
+          "type": "word"
+        },
+        {
+          "term": "looks down on",
+          "ko": "~을 깔보다, 무시하다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 33.46,
+      "end": 41.47,
+      "lines": [
+        {
+          "text": "How's this?",
+          "start": 33.46,
+          "end": 34.12
+        },
+        {
+          "text": "Dear Claire, I can't work the bake sale because you're a bossy control freak who look down Very funny Jay.",
+          "start": 34.76,
+          "end": 41.47
+        }
+      ]
+    },
+    {
+      "start": 44.1,
+      "end": 47.88,
+      "lines": [
+        {
+          "text": "Why the woosh?",
+          "start": 44.1,
+          "end": 44.94
+        },
+        {
+          "text": "Where is the email? It sended!",
+          "start": 45.74,
+          "end": 47.88
+        }
+      ]
+    },
+    {
+      "start": 48.08,
+      "end": 50.84,
+      "lines": [
+        {
+          "text": "Make it comeback.",
+          "start": 48.08,
+          "end": 49.4
+        },
+        {
+          "text": "I don't know how to make it come back.",
+          "start": 49.44,
+          "end": 50.84
+        }
+      ]
+    },
+    {
+      "start": 50.88,
+      "end": 56.16,
+      "lines": [
+        {
+          "text": "Now she's gonna read it, and she's gonna think it's from me.",
+          "start": 50.88,
+          "end": 53.08
+        },
+        {
+          "text": "Well, technically, it was from you, but come on, let's hit the road.",
+          "start": 53.12,
+          "end": 56.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "technically",
+          "ko": "엄밀히 따지면",
+          "type": "word"
+        },
+        {
+          "term": "hit the road",
+          "ko": "출발하다, 길을 나서다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 58.28,
+      "end": 63.24,
+      "lines": [
+        {
+          "text": "It's sended!",
+          "start": 58.28,
+          "end": 59.49
+        },
+        {
+          "text": "Please come back.",
+          "start": 62.45,
+          "end": 63.24
+        }
+      ]
+    },
+    {
+      "start": 66.04,
+      "end": 71.32,
+      "lines": [
+        {
+          "text": "Okay. Ready?",
+          "start": 66.04,
+          "end": 67.06
+        },
+        {
+          "text": "One Two Three Surprise!",
+          "start": 67.42,
+          "end": 71.32
+        }
+      ]
+    },
+    {
+      "start": 73.96,
+      "end": 76.29,
+      "lines": [
+        {
+          "text": "- No, no! - No, no!",
+          "start": 73.96,
+          "end": 74.86
+        },
+        {
+          "text": "I'm sorry.",
+          "start": 75.22,
+          "end": 76.29
+        }
+      ]
+    },
+    {
+      "start": 76.29,
+      "end": 78.15,
+      "lines": [
+        {
+          "text": "Nothing's happening.",
+          "start": 76.29,
+          "end": 77.22
+        },
+        {
+          "text": "Oh my God.",
+          "start": 77.26,
+          "end": 78.15
+        }
+      ]
+    },
+    {
+      "start": 78.33,
+      "end": 80.94,
+      "lines": [
+        {
+          "text": "Hello?",
+          "start": 78.33,
+          "end": 78.83
+        },
+        {
+          "text": "Phil, it's me. Can I talk to Claire?",
+          "start": 78.9,
+          "end": 80.94
+        }
+      ]
+    },
+    {
+      "start": 81.14,
+      "end": 83.34,
+      "lines": [
+        {
+          "text": "Yeah.",
+          "start": 81.14,
+          "end": 81.74
+        },
+        {
+          "text": "One second Jay. It's your dad. - No.",
+          "start": 81.78,
+          "end": 83.34
+        }
+      ]
+    },
+    {
+      "start": 83.38,
+      "end": 86.58,
+      "lines": [
+        {
+          "text": "No no. Can't.",
+          "start": 83.38,
+          "end": 84.23
+        },
+        {
+          "text": "She doesn't wanna talk right now.",
+          "start": 84.94,
+          "end": 86.58
+        }
+      ]
+    },
+    {
+      "start": 86.7,
+      "end": 87.94,
+      "lines": [
+        {
+          "text": "Aye no!",
+          "start": 86.7,
+          "end": 87.2
+        },
+        {
+          "text": "Why not?",
+          "start": 87.22,
+          "end": 87.94
+        }
+      ]
+    },
+    {
+      "start": 88.54,
+      "end": 92.38,
+      "lines": [
+        {
+          "text": "She's a little too upset.",
+          "start": 88.54,
+          "end": 90.3
+        },
+        {
+          "text": "Phil, put her on.",
+          "start": 90.34,
+          "end": 92.38
+        }
+      ]
+    },
+    {
+      "start": 92.66,
+      "end": 95.3,
+      "lines": [
+        {
+          "text": "He says he wants you.",
+          "start": 92.66,
+          "end": 93.5
+        },
+        {
+          "text": "Hang up the phone.",
+          "start": 93.54,
+          "end": 95.3
+        }
+      ]
+    },
+    {
+      "start": 95.62,
+      "end": 103.94,
+      "lines": [
+        {
+          "text": "I'm sorry Jay. She says I have to go.",
+          "start": 95.62,
+          "end": 97.46
+        },
+        {
+          "text": "You know, she's my daughter and everything, but that guy seriously needs to grow a pair.",
+          "start": 99.38,
+          "end": 103.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "grow a pair",
+          "ko": "배짱을 키우다, 남자답게 굴다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 104.66,
+      "end": 107.94,
+      "lines": [
+        {
+          "text": "Well, we tried.",
+          "start": 104.66,
+          "end": 105.55
+        },
+        {
+          "text": "Vegas, here we come.",
+          "start": 106.75,
+          "end": 107.94
+        }
+      ]
+    },
+    {
+      "start": 108.62,
+      "end": 114.54,
+      "lines": [
+        {
+          "text": "Turn around the car.",
+          "start": 108.62,
+          "end": 110.46
+        },
+        {
+          "text": "Only cause I want to.",
+          "start": 113.34,
+          "end": 114.54
+        }
+      ]
+    },
+    {
+      "start": 116.58,
+      "end": 118.42,
+      "lines": [
+        {
+          "text": "Let's go. Come on.",
+          "start": 116.58,
+          "end": 117.7
+        },
+        {
+          "text": "Where are you going?",
+          "start": 117.74,
+          "end": 118.42
+        }
+      ]
+    },
+    {
+      "start": 119.14,
+      "end": 121.04,
+      "lines": [
+        {
+          "text": "Anywhere.",
+          "start": 119.14,
+          "end": 119.78
+        },
+        {
+          "text": "Where is your mother?",
+          "start": 119.98,
+          "end": 121.04
+        }
+      ]
+    },
+    {
+      "start": 121.04,
+      "end": 125.3,
+      "lines": [
+        {
+          "text": "I need to talk to her.",
+          "start": 121.04,
+          "end": 122.3
+        },
+        {
+          "text": "I don't think it's a good time right now. She won't come out of her room.",
+          "start": 122.34,
+          "end": 125.3
+        }
+      ]
+    },
+    {
+      "start": 125.66,
+      "end": 128.66,
+      "lines": [
+        {
+          "text": "She's really upset, isn't she?",
+          "start": 125.66,
+          "end": 127.42
+        },
+        {
+          "text": "Big time.",
+          "start": 127.82,
+          "end": 128.66
+        }
+      ]
+    },
+    {
+      "start": 128.84,
+      "end": 132.66,
+      "lines": [
+        {
+          "text": "How'd you know? We called.",
+          "start": 128.84,
+          "end": 130.18
+        },
+        {
+          "text": "Tell me exactly what she said.",
+          "start": 131.06,
+          "end": 132.66
+        }
+      ]
+    },
+    {
+      "start": 132.7,
+      "end": 137.14,
+      "lines": [
+        {
+          "text": "I don't know, there's just a lot of screaming.",
+          "start": 132.7,
+          "end": 135.02
+        },
+        {
+          "text": "Where was your father when all this was going on?",
+          "start": 135.02,
+          "end": 137.14
+        }
+      ]
+    },
+    {
+      "start": 137.91,
+      "end": 146.07,
+      "lines": [
+        {
+          "text": "He was right behind her.",
+          "start": 137.91,
+          "end": 139.31
+        },
+        {
+          "text": "Gloria, what are you, what are you doing here?",
+          "start": 143.67,
+          "end": 146.07
+        }
+      ]
+    },
+    {
+      "start": 146.11,
+      "end": 147.83,
+      "lines": [
+        {
+          "text": "Wait. Where are the kids?",
+          "start": 146.11,
+          "end": 147.03
+        },
+        {
+          "text": "They just left.",
+          "start": 147.07,
+          "end": 147.83
+        }
+      ]
+    },
+    {
+      "start": 148.35,
+      "end": 152.27,
+      "lines": [
+        {
+          "text": "They told me that you were very upset.",
+          "start": 148.35,
+          "end": 150.03
+        },
+        {
+          "text": "Oh, God! And you have every right to be.",
+          "start": 150.07,
+          "end": 152.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have every right to",
+          "ko": "~할 만한 충분한 이유가 있다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 152.31,
+      "end": 154.27,
+      "lines": [
+        {
+          "text": "It was bad.",
+          "start": 152.31,
+          "end": 153.35
+        },
+        {
+          "text": "I know that.",
+          "start": 153.39,
+          "end": 154.27
+        }
+      ]
+    },
+    {
+      "start": 155.55,
+      "end": 158.27,
+      "lines": [
+        {
+          "text": "Claire, it was an accident.",
+          "start": 155.55,
+          "end": 156.95
+        },
+        {
+          "text": "It doesn't make it any better.",
+          "start": 157.07,
+          "end": 158.27
+        }
+      ]
+    },
+    {
+      "start": 158.43,
+      "end": 161.26,
+      "lines": [
+        {
+          "text": "Okay, you're right.",
+          "start": 158.43,
+          "end": 159.6
+        },
+        {
+          "text": "I know how you feel. - Oh god!",
+          "start": 159.6,
+          "end": 161.26
+        }
+      ]
+    },
+    {
+      "start": 161.26,
+      "end": 167.15,
+      "lines": [
+        {
+          "text": "It happened to me before with another woman.",
+          "start": 161.26,
+          "end": 163.31
+        },
+        {
+          "text": "At that time, I was the one getting it, and it hurt.",
+          "start": 163.31,
+          "end": 167.15
+        }
+      ]
+    },
+    {
+      "start": 167.87,
+      "end": 174.51,
+      "lines": [
+        {
+          "text": "Wow.",
+          "start": 167.87,
+          "end": 168.37
+        },
+        {
+          "text": "I'm sorry I had to come out like this, but you have to admit that you're only happy when you're the one cracking the whip.",
+          "start": 168.63,
+          "end": 174.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "cracking the whip",
+          "ko": "채찍질하듯 다그치다, 엄하게 몰아붙이다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 174.71,
+      "end": 176.52,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 174.71,
+          "end": 175.21
+        },
+        {
+          "text": "Come on.",
+          "start": 175.67,
+          "end": 176.52
+        }
+      ]
+    },
+    {
+      "start": 176.81,
+      "end": 181.51,
+      "lines": [
+        {
+          "text": "We all know how you ride Phil.",
+          "start": 176.81,
+          "end": 178.51
+        },
+        {
+          "text": "But maybe you just let go a little.",
+          "start": 178.95,
+          "end": 181.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "ride",
+          "ko": "(사람을) 들들 볶다, 몰아붙이다",
+          "type": "idiom"
+        },
+        {
+          "term": "let go",
+          "ko": "긴장을 풀다, 느긋해지다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 181.55,
+      "end": 185.87,
+      "lines": [
+        {
+          "text": "Maybe even taste my cupcakes.",
+          "start": 181.55,
+          "end": 184.23
+        },
+        {
+          "text": "I will join you.",
+          "start": 184.75,
+          "end": 185.87
+        }
+      ]
+    },
+    {
+      "start": 185.91,
+      "end": 191.51,
+      "lines": [
+        {
+          "text": "No, no, no. I am so confused right now.",
+          "start": 185.91,
+          "end": 189.27
+        },
+        {
+          "text": "I may pass out. What are you talking about?",
+          "start": 189.39,
+          "end": 191.51
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pass out",
+          "ko": "기절하다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 192.11,
+      "end": 193.31,
+      "lines": [
+        {
+          "text": "What are you talking about?",
+          "start": 192.11,
+          "end": 193.31
+        }
+      ]
+    }
+  ]
+}

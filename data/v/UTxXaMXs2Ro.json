@@ -1,0 +1,1072 @@
+{
+  "id": "UTxXaMXs2Ro",
+  "segments": [
+    {
+      "start": 0.24,
+      "end": 2.16,
+      "lines": [
+        {
+          "text": "Hey, Haley.",
+          "start": 0.24,
+          "end": 1.16
+        },
+        {
+          "text": "Oh, hey, Uncle Mitchell.",
+          "start": 1.2,
+          "end": 2.16
+        }
+      ]
+    },
+    {
+      "start": 2.2,
+      "end": 5.72,
+      "lines": [
+        {
+          "text": "Hey, is your mom home?",
+          "start": 2.2,
+          "end": 3.24
+        },
+        {
+          "text": "No. She had to take Alex to the oncologist.",
+          "start": 3.36,
+          "end": 5.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "oncologist",
+          "ko": "종양 전문의, 암 전문 의사",
+          "type": "word",
+          "easy": "암을 진단하고 치료하는 의사예요.",
+          "tip": "여기선 알렉스가 안경이 필요한 거라 사실은 잘못 쓴 말이에요. 다음 장면의 optometrist(검안사)와 헷갈린 농담이에요."
+        }
+      ]
+    },
+    {
+      "start": 5.76,
+      "end": 8.48,
+      "lines": [
+        {
+          "text": "Oh my God, what's wrong?",
+          "start": 5.76,
+          "end": 7.04
+        },
+        {
+          "text": "She needed new glasses.",
+          "start": 7.24,
+          "end": 8.48
+        }
+      ]
+    },
+    {
+      "start": 9.04,
+      "end": 12.72,
+      "lines": [
+        {
+          "text": "Oh, did you mean optometrist?",
+          "start": 9.04,
+          "end": 10.76
+        },
+        {
+          "text": "Whatever. So should I give her a message?",
+          "start": 10.8,
+          "end": 12.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "optometrist",
+          "ko": "검안사, 안경사",
+          "type": "word",
+          "easy": "시력을 재고 안경·렌즈를 맞춰주는 사람이에요.",
+          "vs": "oncologist(종양 전문의)와 소리가 비슷해 헷갈리기 쉬워요. 눈은 optometrist!"
+        }
+      ]
+    },
+    {
+      "start": 12.76,
+      "end": 18,
+      "lines": [
+        {
+          "text": "Yes, yes. Could you ask her if she could possibly babysit Lily on Saturday night?",
+          "start": 12.76,
+          "end": 16.44
+        },
+        {
+          "text": "We'd really, really appreciate it.",
+          "start": 16.44,
+          "end": 18
+        }
+      ],
+      "glossary": [
+        {
+          "term": "babysit",
+          "ko": "(아이를) 봐주다, 돌보다",
+          "type": "word",
+          "easy": "부모가 없을 때 잠깐 아이를 돌봐주는 거예요."
+        },
+        {
+          "term": "appreciate it",
+          "ko": "정말 고맙게 생각하다",
+          "type": "phrase",
+          "easy": "도움을 받아서 고맙다고 할 때 쓰는 표현이에요.",
+          "ex": "Thanks for helping me move. I really appreciate it.",
+          "exKo": "이사 도와줘서 고마워. 정말 고맙게 생각해."
+        }
+      ]
+    },
+    {
+      "start": 18.04,
+      "end": 22.84,
+      "lines": [
+        {
+          "text": "Saturday night we're having dinner with Pepper, Longinus and Crispin.",
+          "start": 18.04,
+          "end": 21.24
+        },
+        {
+          "text": "They're our gay friends.",
+          "start": 21.28,
+          "end": 22.84
+        }
+      ]
+    },
+    {
+      "start": 22.84,
+      "end": 28.26,
+      "lines": [
+        {
+          "text": "I think that was clear.",
+          "start": 22.84,
+          "end": 24.57
+        },
+        {
+          "text": "I've been spending a lot of time with a lot of straight people lately.",
+          "start": 24.57,
+          "end": 28.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "straight people",
+          "ko": "이성애자들",
+          "type": "phrase",
+          "easy": "동성애자가 아닌 사람들을 가리키는 말이에요.",
+          "tip": "여기서 straight는 '곧은'이 아니라 '이성애자'라는 뜻이에요."
+        }
+      ]
+    },
+    {
+      "start": 28.26,
+      "end": 32.03,
+      "lines": [
+        {
+          "text": "And, darling, I need a night with my homies.",
+          "start": 28.26,
+          "end": 31.02
+        },
+        {
+          "text": "You mean homos.",
+          "start": 31.02,
+          "end": 32.03
+        }
+      ],
+      "glossary": [
+        {
+          "term": "homies",
+          "ko": "친한 친구들, 절친들",
+          "type": "word",
+          "easy": "아주 친한 동네 친구·패거리를 부르는 슬랭이에요.",
+          "nuance": "캐주얼하고 친근한 느낌. 격식 있는 자리에선 안 써요."
+        }
+      ]
+    },
+    {
+      "start": 32.03,
+      "end": 35.28,
+      "lines": [
+        {
+          "text": "Okay.",
+          "start": 32.03,
+          "end": 32.69
+        },
+        {
+          "text": "Yeah. You know what? Maybe you should stay in and babysit.",
+          "start": 32.84,
+          "end": 35.28
+        }
+      ]
+    },
+    {
+      "start": 36.26,
+      "end": 39.7,
+      "lines": [
+        {
+          "text": "Yeah, our babysitter bailed, and we're kind of in a bind.",
+          "start": 36.26,
+          "end": 39.2
+        },
+        {
+          "text": "So...",
+          "start": 39.24,
+          "end": 39.7
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bailed",
+          "ko": "갑자기 약속을 깨고 빠졌다",
+          "type": "phrase",
+          "easy": "하기로 한 걸 막판에 안 하고 도망치듯 빠진 거예요.",
+          "nuance": "그냥 못 온 게 아니라 무책임하게 펑크 낸 느낌.",
+          "ex": "He bailed on us right before the party.",
+          "exKo": "걔는 파티 직전에 우리한테 펑크 냈어."
+        },
+        {
+          "term": "in a bind",
+          "ko": "곤란한 처지에, 난처한 상황에",
+          "type": "idiom",
+          "easy": "어찌할 바 모르는 곤란한 상황에 빠진 거예요.",
+          "when": "갑자기 문제가 생겨 도움이 급할 때.",
+          "ex": "Can you lend me $20? I'm in a bind.",
+          "exKo": "20달러만 빌려줄래? 내가 지금 좀 곤란해서."
+        }
+      ]
+    },
+    {
+      "start": 39.7,
+      "end": 45.4,
+      "lines": [
+        {
+          "text": "I can do it. I can watch Lily. I'm really good. I'm babysitting Luke right now.",
+          "start": 39.7,
+          "end": 42.6
+        },
+        {
+          "text": "Oh, yeah? You want... You want to babysit Lily?",
+          "start": 43.04,
+          "end": 45.4
+        }
+      ]
+    },
+    {
+      "start": 46.48,
+      "end": 51.88,
+      "lines": [
+        {
+          "text": "Oh, well, that's very sweet, honey. But you're a very popular girl.",
+          "start": 46.48,
+          "end": 50.28
+        },
+        {
+          "text": "I'm sure you have better things to do, so.",
+          "start": 50.28,
+          "end": 51.88
+        }
+      ]
+    },
+    {
+      "start": 52,
+      "end": 57.68,
+      "lines": [
+        {
+          "text": "Oh, seriously. I'm totally free.",
+          "start": 52,
+          "end": 54.64
+        },
+        {
+          "text": "Being grounded is so much worse than it was in the olden days.",
+          "start": 54.68,
+          "end": 57.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "grounded",
+          "ko": "외출 금지를 당한",
+          "type": "word",
+          "easy": "부모가 벌로 집 밖에 못 나가게 한 상태예요.",
+          "when": "부모가 십대 자녀를 벌줄 때 자주 나오는 말.",
+          "tip": "비행기가 'grounded'면 '결항된'이지만, 사람이면 '외출 금지'예요."
+        },
+        {
+          "term": "the olden days",
+          "ko": "옛날, 예전",
+          "type": "phrase",
+          "easy": "지금보다 한참 전, 옛날 시절을 뜻해요.",
+          "nuance": "조금 장난스럽거나 향수 어린 느낌의 말투."
+        }
+      ]
+    },
+    {
+      "start": 57.68,
+      "end": 66.39,
+      "lines": [
+        {
+          "text": "My friends text and Facebook, all the fun stuff they're doing while I'm stuck at home playing Jenga with my dad.",
+          "start": 57.68,
+          "end": 62.64
+        },
+        {
+          "text": "Are you serious?",
+          "start": 65.55,
+          "end": 66.39
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stuck at home",
+          "ko": "집에 갇혀서, 집에만 박혀서",
+          "type": "phrase",
+          "easy": "어디 못 가고 집에만 있어야 하는 상황이에요.",
+          "ex": "I was stuck at home all weekend because of the rain.",
+          "exKo": "비 때문에 주말 내내 집에 박혀 있었어."
+        }
+      ]
+    },
+    {
+      "start": 67.15,
+      "end": 71.83,
+      "lines": [
+        {
+          "text": "You don't even have to pay me. I promise I'll take super good care of her.",
+          "start": 67.15,
+          "end": 70.07
+        },
+        {
+          "text": "Okay. Well, that would be great.",
+          "start": 70.11,
+          "end": 71.83
+        }
+      ]
+    },
+    {
+      "start": 71.83,
+      "end": 74.95,
+      "lines": [
+        {
+          "text": "Thank you. Yes. Well, we'll see you on Saturday night.",
+          "start": 71.83,
+          "end": 74.27
+        },
+        {
+          "text": "Bye, sweetie.",
+          "start": 74.31,
+          "end": 74.95
+        }
+      ]
+    },
+    {
+      "start": 74.99,
+      "end": 81.33,
+      "lines": [
+        {
+          "text": "Bye.",
+          "start": 74.99,
+          "end": 75.73
+        },
+        {
+          "text": "Luke?",
+          "start": 77.56,
+          "end": 81.33
+        }
+      ]
+    },
+    {
+      "start": 83.83,
+      "end": 92.91,
+      "lines": [
+        {
+          "text": "What are you thinking? Haley is a very sweet and fashionable girl, but seems hardly a responsible caregiver.",
+          "start": 83.83,
+          "end": 89.63
+        },
+        {
+          "text": "Well, you know what? We needed a sitter. She's family. I say we give her a shot.",
+          "start": 89.67,
+          "end": 92.91
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hardly",
+          "ko": "거의 ~아닌",
+          "type": "word",
+          "easy": "'거의 ~하지 않다'라는 뜻이에요. not과 비슷하게 부정의 의미예요.",
+          "tip": "hard(열심히)와 다른 단어예요. hardly는 '거의 안'이라는 부정 표현!",
+          "vs": "hard는 '열심히/세게', hardly는 '거의 ~아닌'."
+        },
+        {
+          "term": "caregiver",
+          "ko": "돌보는 사람, 보호자",
+          "type": "word",
+          "easy": "아이나 환자를 보살펴 주는 사람이에요."
+        },
+        {
+          "term": "give her a shot",
+          "ko": "한번 기회를 줘 보다",
+          "type": "idiom",
+          "easy": "잘할지 모르지만 한번 해보게 기회를 주는 거예요.",
+          "nuance": "확신은 없지만 시도해보자는 느낌.",
+          "ex": "She's new, but let's give her a shot.",
+          "exKo": "걔 신입이지만, 한번 기회를 줘 보자.",
+          "tip": "여기 give a shot(시도/기회)이 다음 줄의 shot(주사/총)과 말장난으로 이어져요."
+        }
+      ]
+    },
+    {
+      "start": 92.95,
+      "end": 99.25,
+      "lines": [
+        {
+          "text": "A shot? Oh, with our only child?",
+          "start": 92.95,
+          "end": 94.87
+        },
+        {
+          "text": "Sure. Why not? If something goes wrong, we'll just pop over to the Orient, grab another one.",
+          "start": 94.87,
+          "end": 99.25
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pop over",
+          "ko": "잠깐 들르다",
+          "type": "phrase",
+          "easy": "가까운 곳에 가볍게 잠깐 다녀오는 거예요.",
+          "nuance": "큰맘 먹고 가는 게 아니라 후딱 다녀오는 느낌.",
+          "ex": "I'll pop over to the store and be right back.",
+          "exKo": "가게에 잠깐 들렀다 금방 올게."
+        }
+      ]
+    },
+    {
+      "start": 101.48,
+      "end": 105.79,
+      "lines": [
+        {
+          "text": "Okay, so, the numbers are by the phone.",
+          "start": 101.48,
+          "end": 103.74
+        },
+        {
+          "text": "There's food in the fridge. I just changed her diaper.",
+          "start": 103.74,
+          "end": 105.79
+        }
+      ],
+      "glossary": [
+        {
+          "term": "put her down",
+          "ko": "(아기를) 재우다",
+          "type": "phrase",
+          "easy": "아기를 눕혀서 잠들게 하는 거예요.",
+          "tip": "여기선 '재우다'. put down은 상황에 따라 '내려놓다'도 돼요.",
+          "ex": "I usually put the baby down around eight.",
+          "exKo": "나는 보통 8시쯤 아기를 재워."
+        },
+        {
+          "term": "diaper",
+          "ko": "기저귀",
+          "type": "word",
+          "easy": "아기 엉덩이에 채우는 기저귀예요."
+        }
+      ]
+    },
+    {
+      "start": 105.79,
+      "end": 110.99,
+      "lines": [
+        {
+          "text": "So all you need to do is put her down in about a half hour and not let a serial killer in the front door.",
+          "start": 105.79,
+          "end": 109.99
+        },
+        {
+          "text": "What if he's cute?",
+          "start": 110.19,
+          "end": 110.99
+        }
+      ],
+      "glossary": [
+        {
+          "term": "serial killer",
+          "ko": "연쇄 살인범",
+          "type": "phrase",
+          "easy": "여러 사람을 차례로 죽인 범죄자예요."
+        }
+      ]
+    },
+    {
+      "start": 111.03,
+      "end": 115.79,
+      "lines": [
+        {
+          "text": "Well, then save him for us.",
+          "start": 111.03,
+          "end": 112.47
+        },
+        {
+          "text": "Nobody in, nobody out.",
+          "start": 114.51,
+          "end": 115.79
+        }
+      ]
+    },
+    {
+      "start": 115.91,
+      "end": 119.27,
+      "lines": [
+        {
+          "text": "Oh, we're gonna be totally fine.",
+          "start": 115.91,
+          "end": 117.51
+        },
+        {
+          "text": "You just go get your gay on.",
+          "start": 117.51,
+          "end": 119.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get your gay on",
+          "ko": "신나게 즐기다 (게이로서)",
+          "type": "idiom",
+          "easy": "'get your ~ on'은 '신나게 ~하다'라는 캐주얼 표현이에요.",
+          "nuance": "장난스럽고 친근한 응원 말투예요.",
+          "tip": "원래 'get your game on'(제대로 즐겨봐) 같은 형식을 비튼 말장난이에요."
+        }
+      ]
+    },
+    {
+      "start": 119.31,
+      "end": 124.55,
+      "lines": [
+        {
+          "text": "Oh, it is on like Donkey Kong.",
+          "start": 119.31,
+          "end": 121.47
+        },
+        {
+          "text": "But clearly it's not on yet. But it will be, so.",
+          "start": 122.19,
+          "end": 124.55
+        }
+      ],
+      "glossary": [
+        {
+          "term": "on like Donkey Kong",
+          "ko": "제대로 시작이다, 본격적으로 간다",
+          "type": "idiom",
+          "easy": "'이제 본격적으로 신나게 시작이다'라는 장난스러운 슬랭이에요.",
+          "nuance": "라임을 살린 가벼운 말장난. 게임 캐릭터 Donkey Kong에서 따왔어요.",
+          "when": "뭔가 신나게 시작하기 직전 흥을 돋울 때."
+        }
+      ]
+    },
+    {
+      "start": 124.55,
+      "end": 127.09,
+      "lines": [
+        {
+          "text": "Okay. Come on, let's go.",
+          "start": 124.55,
+          "end": 125.85
+        },
+        {
+          "text": "Oh.",
+          "start": 126.47,
+          "end": 127.09
+        }
+      ]
+    },
+    {
+      "start": 129.09,
+      "end": 132.21,
+      "lines": [
+        {
+          "text": "Haley! Hi. Is everything okay?",
+          "start": 129.09,
+          "end": 131.37
+        },
+        {
+          "text": "Yeah. Why?",
+          "start": 131.6,
+          "end": 132.21
+        }
+      ]
+    },
+    {
+      "start": 132.41,
+      "end": 136.93,
+      "lines": [
+        {
+          "text": "Because I just saw a man walk through the living room.",
+          "start": 132.41,
+          "end": 134.81
+        },
+        {
+          "text": "What? Where are you?",
+          "start": 135.25,
+          "end": 136.93
+        }
+      ]
+    },
+    {
+      "start": 137.13,
+      "end": 141.49,
+      "lines": [
+        {
+          "text": "I can see through the camera on the computer.",
+          "start": 137.13,
+          "end": 139.45
+        },
+        {
+          "text": "You're spying on me? Oh my God!",
+          "start": 139.53,
+          "end": 141.49
+        }
+      ]
+    },
+    {
+      "start": 141.49,
+      "end": 145.93,
+      "lines": [
+        {
+          "text": "Oh my God, that is so lame.",
+          "start": 141.49,
+          "end": 143.57
+        },
+        {
+          "text": "Look, I don't know what you think you saw.",
+          "start": 143.89,
+          "end": 145.93
+        }
+      ],
+      "glossary": [
+        {
+          "term": "lame",
+          "ko": "한심한, 시시한, 재미없는",
+          "type": "word",
+          "easy": "멋없고 한심하거나 시시할 때 쓰는 슬랭이에요.",
+          "nuance": "원뜻은 '다리를 저는'이지만 일상에선 '구리다/별로다' 느낌.",
+          "ex": "That excuse is so lame.",
+          "exKo": "그 변명 진짜 한심하다."
+        }
+      ]
+    },
+    {
+      "start": 145.97,
+      "end": 151.41,
+      "lines": [
+        {
+          "text": "Maybe the TV or the reflection.",
+          "start": 145.97,
+          "end": 148.09
+        },
+        {
+          "text": "Or maybe you think that my body's just shaped like a boy, like I don't have hips or something.",
+          "start": 148.09,
+          "end": 151.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "reflection",
+          "ko": "(거울·화면에 비친) 반사 모습",
+          "type": "word",
+          "easy": "거울이나 유리에 비친 모습이에요.",
+          "tip": "'반성'이라는 뜻도 있지만 여기선 화면에 '비친 모습'이에요."
+        },
+        {
+          "term": "hips",
+          "ko": "엉덩이, 골반",
+          "type": "word",
+          "easy": "허리 아래 양옆으로 나온 골반 부분이에요."
+        }
+      ]
+    },
+    {
+      "start": 151.45,
+      "end": 155.85,
+      "lines": [
+        {
+          "text": "No no no, no, you have a darling figure.",
+          "start": 151.45,
+          "end": 154.01
+        },
+        {
+          "text": "I was just concerned that...",
+          "start": 154.05,
+          "end": 155.85
+        }
+      ],
+      "glossary": [
+        {
+          "term": "darling figure",
+          "ko": "예쁜 몸매",
+          "type": "phrase",
+          "easy": "여기서 figure는 '몸매', darling은 '귀엽고 사랑스러운'이에요.",
+          "tip": "figure는 '숫자/인물'도 되지만 여기선 '몸매'예요.",
+          "vs": "shape도 '몸매'지만 figure가 더 다듬어진 라인을 떠올리게 해요."
+        }
+      ]
+    },
+    {
+      "start": 155.89,
+      "end": 161.73,
+      "lines": [
+        {
+          "text": "That hurts so much.",
+          "start": 155.89,
+          "end": 157.93
+        },
+        {
+          "text": "This is the kind of thing that I expect from my mother, but not from my cool uncle.",
+          "start": 157.96,
+          "end": 161.73
+        }
+      ]
+    },
+    {
+      "start": 161.73,
+      "end": 164.49,
+      "lines": [
+        {
+          "text": "So thank you for all of your trust.",
+          "start": 161.73,
+          "end": 164.05
+        },
+        {
+          "text": "Okay.",
+          "start": 164.09,
+          "end": 164.49
+        }
+      ]
+    },
+    {
+      "start": 164.49,
+      "end": 169.3,
+      "lines": [
+        {
+          "text": "I'm sorry. Sorry.",
+          "start": 164.49,
+          "end": 166.09
+        },
+        {
+          "text": "Unbelievable!",
+          "start": 167.89,
+          "end": 169.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Unbelievable",
+          "ko": "어이없다, 말도 안 돼",
+          "type": "word",
+          "easy": "황당하거나 어이없을 때 내뱉는 감탄이에요.",
+          "nuance": "여기선 '믿을 수 없을 만큼 좋다'가 아니라 '어이없다'는 부정적 느낌."
+        }
+      ]
+    },
+    {
+      "start": 169.9,
+      "end": 172.51,
+      "lines": [
+        {
+          "text": "You gotta go.",
+          "start": 169.9,
+          "end": 170.72
+        },
+        {
+          "text": "Okay.",
+          "start": 172.01,
+          "end": 172.51
+        }
+      ]
+    },
+    {
+      "start": 181.45,
+      "end": 184.09,
+      "lines": [
+        {
+          "text": "Hello.",
+          "start": 181.45,
+          "end": 182.13
+        },
+        {
+          "text": "Please tell me that you have my shoes.",
+          "start": 182.25,
+          "end": 184.09
+        }
+      ]
+    },
+    {
+      "start": 184.13,
+      "end": 188.32,
+      "lines": [
+        {
+          "text": "Why would I have your shoes?",
+          "start": 184.13,
+          "end": 185.61
+        },
+        {
+          "text": "Because I left them at your uncles' house last night.",
+          "start": 185.89,
+          "end": 188.32
+        }
+      ]
+    },
+    {
+      "start": 188.36,
+      "end": 190.72,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 188.36,
+          "end": 189.09
+        },
+        {
+          "text": "How could you leave without your shoes?",
+          "start": 189.09,
+          "end": 190.72
+        }
+      ]
+    },
+    {
+      "start": 190.92,
+      "end": 194.6,
+      "lines": [
+        {
+          "text": "I go a lot of places without shoes.",
+          "start": 190.92,
+          "end": 192.88
+        },
+        {
+          "text": "I'm not wearing shoes right now.",
+          "start": 193.08,
+          "end": 194.6
+        }
+      ]
+    },
+    {
+      "start": 195,
+      "end": 200.36,
+      "lines": [
+        {
+          "text": "Oh, wait. That's because I left them at your uncles' house.",
+          "start": 195,
+          "end": 198.48
+        },
+        {
+          "text": "This is a disaster.",
+          "start": 198.84,
+          "end": 200.36
+        }
+      ]
+    },
+    {
+      "start": 200.68,
+      "end": 204.56,
+      "lines": [
+        {
+          "text": "Maybe they'll think they're theirs.",
+          "start": 200.68,
+          "end": 202.24
+        },
+        {
+          "text": "They're gay. They know what shoes they own.",
+          "start": 202.64,
+          "end": 204.56
+        }
+      ]
+    },
+    {
+      "start": 206.84,
+      "end": 208.77,
+      "lines": [
+        {
+          "text": "Haley!",
+          "start": 206.84,
+          "end": 207.52
+        },
+        {
+          "text": "We need to talk.",
+          "start": 207.8,
+          "end": 208.77
+        }
+      ]
+    },
+    {
+      "start": 208.77,
+      "end": 214.32,
+      "lines": [
+        {
+          "text": "I know I freaked out on you last night, but you have to see it from my point of view.",
+          "start": 208.77,
+          "end": 212.4
+        },
+        {
+          "text": "You were totally spying on me.",
+          "start": 212.56,
+          "end": 214.32
+        }
+      ],
+      "glossary": [
+        {
+          "term": "freaked out",
+          "ko": "(잔뜩) 흥분해서 난리 치다, 패닉하다",
+          "type": "phrase",
+          "easy": "놀라거나 화나서 감정이 확 폭발한 거예요.",
+          "nuance": "차분함을 잃고 과하게 반응한 느낌.",
+          "ex": "She freaked out when she saw the spider.",
+          "exKo": "그녀는 거미를 보고 기겁했어."
+        },
+        {
+          "term": "from my point of view",
+          "ko": "내 입장에서 보면",
+          "type": "phrase",
+          "easy": "내가 보는 관점·입장에서 생각해 보라는 말이에요.",
+          "ex": "From my point of view, it wasn't fair.",
+          "exKo": "내 입장에서 보면, 그건 공평하지 않았어."
+        }
+      ]
+    },
+    {
+      "start": 214.36,
+      "end": 218.37,
+      "lines": [
+        {
+          "text": "I know you were invading my First Amendment right to privacy.",
+          "start": 214.36,
+          "end": 217.64
+        },
+        {
+          "text": "We were.",
+          "start": 217.68,
+          "end": 218.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "invading my ... privacy",
+          "ko": "내 사생활을 침해하다",
+          "type": "phrase",
+          "easy": "남의 사적인 영역을 함부로 들여다보거나 끼어드는 거예요.",
+          "tip": "invade는 '침략하다'지만 privacy와 쓰면 '사생활을 침해하다'예요."
+        },
+        {
+          "term": "First Amendment",
+          "ko": "수정헌법 제1조 (미국 표현·언론의 자유)",
+          "type": "phrase",
+          "easy": "미국 헌법에서 말과 표현의 자유를 보장하는 조항이에요.",
+          "tip": "헤일리가 '사생활 권리'를 말하려다 엉뚱하게 갖다 붙인 거예요. 사실 1조는 프라이버시 조항이 아니라서 일부러 틀린 농담."
+        }
+      ]
+    },
+    {
+      "start": 218.37,
+      "end": 221.46,
+      "lines": [
+        {
+          "text": "I'm sick and tired of people not trusting me.",
+          "start": 218.37,
+          "end": 220.8
+        },
+        {
+          "text": "I get it.",
+          "start": 220.84,
+          "end": 221.46
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sick and tired of",
+          "ko": "~에 진절머리가 나다, 지긋지긋하다",
+          "type": "idiom",
+          "easy": "어떤 일이 너무 반복돼서 완전히 질려버린 거예요.",
+          "nuance": "그냥 tired보다 훨씬 강하게 '아주 지겹다'는 느낌.",
+          "ex": "I'm sick and tired of his excuses.",
+          "exKo": "그의 변명에 이제 진절머리가 나."
+        },
+        {
+          "term": "I get it",
+          "ko": "이해해, 알겠어",
+          "type": "phrase",
+          "easy": "상대 말을 알아들었다·이해했다고 할 때 쓰는 말이에요."
+        }
+      ]
+    },
+    {
+      "start": 221.46,
+      "end": 226.08,
+      "lines": [
+        {
+          "text": "And especially you guys.",
+          "start": 221.46,
+          "end": 222.91
+        },
+        {
+          "text": "I don't think of you guys as my uncles. I think of you as my friends.",
+          "start": 222.91,
+          "end": 226.08
+        }
+      ]
+    },
+    {
+      "start": 226.08,
+      "end": 230.12,
+      "lines": [
+        {
+          "text": "And if your friends don't believe in you, then what else do you have?",
+          "start": 226.08,
+          "end": 228.88
+        },
+        {
+          "text": "Dylan's shoes.",
+          "start": 229.04,
+          "end": 230.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "believe in you",
+          "ko": "너를 믿다, 너를 신뢰하다",
+          "type": "phrase",
+          "easy": "네 능력이나 사람됨을 믿어준다는 뜻이에요.",
+          "vs": "believe you는 '네 말을 믿다', believe in you는 '너라는 사람을 믿다'.",
+          "tip": "in이 들어가면 '존재·능력을 믿는다'는 더 깊은 신뢰예요."
+        }
+      ]
+    },
+    {
+      "start": 230.2,
+      "end": 234.04,
+      "lines": [
+        {
+          "text": "Please don't tell my mom.",
+          "start": 230.2,
+          "end": 231.52
+        },
+        {
+          "text": "Buckle up.",
+          "start": 233.4,
+          "end": 234.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Buckle up",
+          "ko": "각오해, 단단히 준비해 (안전벨트 매)",
+          "type": "idiom",
+          "easy": "원래는 '안전벨트 매'지만, '이제 힘든 일 시작이니 각오해'라는 뜻으로도 써요.",
+          "nuance": "긴장되는 상황 직전에 던지는 경고성 말투.",
+          "ex": "Buckle up, this is going to be a wild week.",
+          "exKo": "각오해, 이번 주 정신없을 거야."
+        }
+      ]
+    }
+  ]
+}

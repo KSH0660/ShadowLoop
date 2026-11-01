@@ -1,0 +1,1122 @@
+{
+  "id": "80JTNXqeAxE",
+  "segments": [
+    {
+      "start": 0.04,
+      "end": 5.12,
+      "lines": [
+        {
+          "text": "Another record month.",
+          "start": 0.04,
+          "end": 1.3
+        },
+        {
+          "text": "Well, thank you. You're the greatest butler on earth.",
+          "start": 2.14,
+          "end": 5.12
+        }
+      ]
+    },
+    {
+      "start": 5.81,
+      "end": 7.04,
+      "lines": [
+        {
+          "text": "I gotta run.",
+          "start": 5.81,
+          "end": 6.44
+        },
+        {
+          "text": "Phil!",
+          "start": 6.54,
+          "end": 7.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I gotta run",
+          "ko": "나 이제 가봐야 해",
+          "type": "idiom",
+          "easy": "지금 급히 자리를 떠야 한다는 뜻 ('run'은 실제로 뛰는 게 아님)",
+          "nuance": "바빠서 서둘러 가야 할 때 가볍게 던지는 인사말.",
+          "when": "대화를 끝내고 급하게 자리를 뜰 때.",
+          "ex": "Sorry, I gotta run — I'm late for class.",
+          "exKo": "미안, 나 가봐야 해. 수업에 늦었어.",
+          "tip": "gotta = got to. 'I gotta go'와 거의 같은 뜻."
+        }
+      ]
+    },
+    {
+      "start": 7.14,
+      "end": 10.12,
+      "lines": [
+        {
+          "text": "Skip!",
+          "start": 7.14,
+          "end": 7.92
+        },
+        {
+          "text": "You son of a gun, how the hell are you?",
+          "start": 8.44,
+          "end": 10.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "you son of a gun",
+          "ko": "이 녀석아 (반갑게 부르는 말)",
+          "type": "idiom",
+          "easy": "오랜만에 본 친한 사람을 장난스럽게 부르는 표현",
+          "nuance": "욕처럼 들리지만 실제로는 애정 어린 농담. 반가움을 표현함.",
+          "when": "오랜만에 친구를 만나 반가워할 때.",
+          "ex": "You son of a gun, where have you been?",
+          "exKo": "이 녀석, 그동안 어디 있었어?"
+        },
+        {
+          "term": "how the hell are you",
+          "ko": "도대체 어떻게 지냈어?",
+          "type": "phrase",
+          "easy": "'how are you'를 더 강하고 친근하게 강조한 말",
+          "nuance": "the hell을 넣으면 더 격하게 반갑거나 놀란 느낌이 됨.",
+          "when": "오랜만에 만난 친구에게 반갑게 안부를 물을 때."
+        }
+      ]
+    },
+    {
+      "start": 10.2,
+      "end": 13.22,
+      "lines": [
+        {
+          "text": "Great, great. Business is better than ever.",
+          "start": 10.2,
+          "end": 12.4
+        },
+        {
+          "text": "How about you?",
+          "start": 12.44,
+          "end": 13.22
+        }
+      ]
+    },
+    {
+      "start": 13.41,
+      "end": 16.54,
+      "lines": [
+        {
+          "text": "Did you finally get real cutouts?",
+          "start": 13.41,
+          "end": 15.56
+        },
+        {
+          "text": "I don't know what you're talking about.",
+          "start": 15.6,
+          "end": 16.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "cutout",
+          "ko": "(사람 모양) 등신대, 판지 모형",
+          "type": "word",
+          "easy": "사람 크기로 잘라 세워둔 판지 인형",
+          "when": "가게나 광고에서 실물 크기 종이 인형을 가리킬 때."
+        }
+      ]
+    },
+    {
+      "start": 16.54,
+      "end": 21.62,
+      "lines": [
+        {
+          "text": "Mine are so realistic and 3D, you must have been laughing at one of them like an idiot.",
+          "start": 16.54,
+          "end": 19.39
+        },
+        {
+          "text": "How crazy is that, we ran into each other's shopping?",
+          "start": 19.39,
+          "end": 21.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "run into each other",
+          "ko": "서로 우연히 마주치다",
+          "type": "phrase",
+          "easy": "약속 없이 길에서 우연히 만나다",
+          "nuance": "계획하지 않았는데 뜻밖에 만났다는 느낌.",
+          "when": "길이나 가게에서 아는 사람을 우연히 만났을 때.",
+          "ex": "I ran into my old teacher at the mall.",
+          "exKo": "쇼핑몰에서 옛날 선생님을 우연히 만났어.",
+          "tip": "run into = 우연히 만나다. 충돌(부딪히다) 뜻도 있으니 문맥으로 구분."
+        }
+      ]
+    },
+    {
+      "start": 21.82,
+      "end": 24.22,
+      "lines": [
+        {
+          "text": "Say, how are your kids?",
+          "start": 21.82,
+          "end": 23.48
+        },
+        {
+          "text": "Terrific.",
+          "start": 23.64,
+          "end": 24.22
+        }
+      ]
+    },
+    {
+      "start": 24.35,
+      "end": 32.6,
+      "lines": [
+        {
+          "text": "Yeah, June just took a job at the Container Store.",
+          "start": 24.35,
+          "end": 27.08
+        },
+        {
+          "text": "Impressive. I have a kid that's interested in space as well, considering a job at, at NASA, actually.",
+          "start": 27.12,
+          "end": 32.6
+        }
+      ]
+    },
+    {
+      "start": 32.64,
+      "end": 38.52,
+      "lines": [
+        {
+          "text": "Yeah, he looks like he's got the right stuff.",
+          "start": 32.64,
+          "end": 35.44
+        },
+        {
+          "text": "No, I was talking about my daughter.",
+          "start": 36.4,
+          "end": 38.52
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the right stuff",
+          "ko": "(성공에 필요한) 자질, 재능",
+          "type": "idiom",
+          "easy": "어떤 일을 잘 해낼 수 있는 타고난 능력이나 기질",
+          "nuance": "특히 용기·실력 같은 멋진 자질을 가리킴. 우주비행사 영화 제목이기도 해서 NASA 농담과 연결됨.",
+          "when": "누가 그 일에 딱 맞는 능력이 있어 보일 때.",
+          "ex": "She has the right stuff to be a leader.",
+          "exKo": "그녀는 리더가 될 자질이 있어."
+        },
+        {
+          "term": "beat ... out for",
+          "ko": "~을 두고 (~를) 이기다, 제치다",
+          "type": "phrase",
+          "easy": "경쟁에서 누군가를 눌러 자리를 차지하다"
+        }
+      ]
+    },
+    {
+      "start": 38.56,
+      "end": 42.8,
+      "lines": [
+        {
+          "text": "Hey, Dad, Dad guess what?",
+          "start": 38.56,
+          "end": 40.24
+        },
+        {
+          "text": "The twins started kicking the second I picked up booze.",
+          "start": 40.28,
+          "end": 42.8
+        }
+      ]
+    },
+    {
+      "start": 43.68,
+      "end": 46.2,
+      "lines": [
+        {
+          "text": "They're my kids, right?",
+          "start": 43.68,
+          "end": 44.96
+        },
+        {
+          "text": "My other daughter.",
+          "start": 45.2,
+          "end": 46.2
+        }
+      ]
+    },
+    {
+      "start": 48.2,
+      "end": 56,
+      "lines": [
+        {
+          "text": "Is it too much for Dylan to let me know where he is? My water could literally break any minute.",
+          "start": 48.2,
+          "end": 52.12
+        },
+        {
+          "text": "Am I okay sitting here, or am I in a SeaWorld Splash Zone situation?",
+          "start": 52.4,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "start": 56.04,
+      "end": 61.16,
+      "lines": [
+        {
+          "text": "Claire, your old high school nemesis, Ashley Walls, did she have a daughter?",
+          "start": 56.04,
+          "end": 59.8
+        },
+        {
+          "text": "I don't think so. Why?",
+          "start": 60.42,
+          "end": 61.16
+        }
+      ]
+    },
+    {
+      "start": 61.32,
+      "end": 64.98,
+      "lines": [
+        {
+          "text": "Well, that woman over there looks just like Ashley. But it can't be. She looks happier.",
+          "start": 61.32,
+          "end": 64.44
+        },
+        {
+          "text": "Beauty.",
+          "start": 64.48,
+          "end": 64.98
+        }
+      ],
+      "glossary": [
+        {
+          "term": "nemesis",
+          "ko": "숙적, 천적",
+          "type": "word",
+          "easy": "늘 나를 이기거나 괴롭히는 강력한 라이벌",
+          "nuance": "단순 경쟁자보다 더 강하고 끈질긴 적. 항상 한 수 위인 상대 느낌.",
+          "when": "오래도록 못 이긴 라이벌을 말할 때.",
+          "ex": "Math was my nemesis in high school.",
+          "exKo": "고등학교 때 수학은 내 천적이었어."
+        }
+      ]
+    },
+    {
+      "start": 67.08,
+      "end": 70.4,
+      "lines": [
+        {
+          "text": "Ashley Walls.",
+          "start": 67.08,
+          "end": 68.38
+        },
+        {
+          "text": "She outdid me at everything.",
+          "start": 68.38,
+          "end": 70.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "outdid me at everything",
+          "ko": "모든 면에서 나보다 잘했다",
+          "type": "phrase",
+          "easy": "무엇을 해도 나보다 더 잘하다 (outdo의 과거형 outdid)",
+          "nuance": "단순히 잘하는 게 아니라 '나를 능가했다'는 분한 느낌.",
+          "when": "누군가 늘 나보다 한 수 위였다고 말할 때.",
+          "ex": "He always outdid me in sports.",
+          "exKo": "걔는 운동에선 항상 나보다 잘했어."
+        }
+      ]
+    },
+    {
+      "start": 70.56,
+      "end": 80.02,
+      "lines": [
+        {
+          "text": "Homecoming queen, field hockey captain, and the summer before we went away to college, she beat me out for an internship at Pritchett's Closets.",
+          "start": 70.56,
+          "end": 78.17
+        },
+        {
+          "text": "Claire?",
+          "start": 79.09,
+          "end": 80.02
+        }
+      ],
+      "glossary": [
+        {
+          "term": "homecoming queen",
+          "ko": "홈커밍 퀸 (학교 축제의 여왕)",
+          "type": "word",
+          "easy": "미국 고등학교 가을 행사에서 뽑힌 인기 여학생",
+          "when": "미국 학창시절 인기·인싸를 말할 때."
+        },
+        {
+          "term": "internship",
+          "ko": "인턴십, 현장 실습",
+          "type": "word",
+          "easy": "학생이 경험을 쌓으려 잠시 일하는 자리"
+        }
+      ]
+    },
+    {
+      "start": 80.4,
+      "end": 83.92,
+      "lines": [
+        {
+          "text": "Hi.",
+          "start": 80.4,
+          "end": 80.9
+        },
+        {
+          "text": "I wanna say, Ashley?",
+          "start": 81.33,
+          "end": 83.92
+        }
+      ]
+    },
+    {
+      "start": 83.92,
+      "end": 88.05,
+      "lines": [
+        {
+          "text": "Yes. How are you?",
+          "start": 83.92,
+          "end": 85.61
+        },
+        {
+          "text": "Hi, Ashley Walls Carnegie.",
+          "start": 86.21,
+          "end": 88.05
+        }
+      ]
+    },
+    {
+      "start": 88.09,
+      "end": 91.49,
+      "lines": [
+        {
+          "text": "Philip Humphrey Dunphy.",
+          "start": 88.09,
+          "end": 89.33
+        },
+        {
+          "text": "So, what have you been up to Ashley?",
+          "start": 89.97,
+          "end": 91.49
+        }
+      ]
+    },
+    {
+      "start": 92.21,
+      "end": 95.69,
+      "lines": [
+        {
+          "text": "Well, I'm a personal injury lawyer.",
+          "start": 92.21,
+          "end": 93.81
+        },
+        {
+          "text": "I have a buddy that makes bank for that.",
+          "start": 93.85,
+          "end": 95.69
+        }
+      ],
+      "glossary": [
+        {
+          "term": "personal injury lawyer",
+          "ko": "(개인) 상해 전문 변호사",
+          "type": "phrase",
+          "easy": "사고로 다친 사람을 대신해 배상을 받아주는 변호사"
+        },
+        {
+          "term": "make bank",
+          "ko": "돈을 많이 벌다",
+          "type": "idiom",
+          "easy": "큰돈을 벌다 (속어)",
+          "nuance": "아주 캐주얼한 표현. '대박 번다'에 가까움.",
+          "when": "누가 돈을 잘 번다고 친구끼리 말할 때.",
+          "ex": "He makes bank selling sneakers online.",
+          "exKo": "걔는 온라인에서 운동화 팔아서 돈 엄청 벌어."
+        }
+      ]
+    },
+    {
+      "start": 96.58,
+      "end": 100.37,
+      "lines": [
+        {
+          "text": "He's not a lawyer, he just tries to get nice cars to hit him.",
+          "start": 96.58,
+          "end": 99.09
+        },
+        {
+          "text": "Yeah, he's just kidding.",
+          "start": 99.13,
+          "end": 100.37
+        }
+      ]
+    },
+    {
+      "start": 100.49,
+      "end": 108.69,
+      "lines": [
+        {
+          "text": "- No, I'm not mom. In fact... - Here, have a candy.",
+          "start": 100.49,
+          "end": 102.81
+        },
+        {
+          "text": "Well, that was rude. I just ran into my old health teacher, and she said she always expected to see me pregnant at graduation.",
+          "start": 103.29,
+          "end": 108.69
+        }
+      ]
+    },
+    {
+      "start": 109.01,
+      "end": 111.97,
+      "lines": [
+        {
+          "text": "Congratulations.",
+          "start": 109.01,
+          "end": 110.41
+        },
+        {
+          "text": "Oh, thanks, twins.",
+          "start": 110.45,
+          "end": 111.97
+        }
+      ]
+    },
+    {
+      "start": 112.22,
+      "end": 115.81,
+      "lines": [
+        {
+          "text": "Sorry I'd be a lot happier about it if I could track their father down.",
+          "start": 112.22,
+          "end": 115.21
+        },
+        {
+          "text": "Candy.",
+          "start": 115.25,
+          "end": 115.81
+        }
+      ],
+      "glossary": [
+        {
+          "term": "track ... down",
+          "ko": "~을 찾아내다, 추적해 잡다",
+          "type": "phrase",
+          "easy": "사라진 사람이나 물건을 끝까지 뒤져 찾아내다",
+          "nuance": "쉽게 못 찾는 걸 노력해서 결국 찾아냈다는 느낌.",
+          "when": "연락 끊긴 사람이나 찾기 힘든 걸 추적할 때.",
+          "ex": "It took me weeks to track down his number.",
+          "exKo": "그의 번호를 알아내는 데 몇 주 걸렸어.",
+          "tip": "track down은 노력·추적의 뉘앙스. 그냥 find보다 끈질김."
+        }
+      ]
+    },
+    {
+      "start": 116.76,
+      "end": 120.53,
+      "lines": [
+        {
+          "text": "Look, it's your brother, Mitch.",
+          "start": 116.76,
+          "end": 118.53
+        },
+        {
+          "text": "Now he was always a little uptight, wasn't he?",
+          "start": 118.86,
+          "end": 120.53
+        }
+      ],
+      "glossary": [
+        {
+          "term": "uptight",
+          "ko": "(성격이) 깐깐한, 예민한",
+          "type": "word",
+          "easy": "긴장을 잘 풀지 못하고 까다롭게 구는 성격",
+          "nuance": "융통성 없고 쉽게 불안해하는 사람을 가리킴. 약간 부정적.",
+          "when": "긴장 많고 예민한 사람을 묘사할 때.",
+          "ex": "Don't be so uptight — it's just a game.",
+          "exKo": "그렇게 예민하게 굴지 마. 그냥 게임이잖아."
+        }
+      ]
+    },
+    {
+      "start": 120.73,
+      "end": 128.85,
+      "lines": [
+        {
+          "text": "Well, he was in high school, - but now he's just the most... - Look you have one job today, young lady, okay, to be supportive.",
+          "start": 120.73,
+          "end": 125.37
+        },
+        {
+          "text": "If your dad makes a joke, you will laugh. If he makes a speech, you will what? Applaud.",
+          "start": 125.37,
+          "end": 128.85
+        }
+      ]
+    },
+    {
+      "start": 129.01,
+      "end": 133.01,
+      "lines": [
+        {
+          "text": "Right. I'm gonna go find my seat.",
+          "start": 129.01,
+          "end": 130.85
+        },
+        {
+          "text": "But it was great catching up with you, Claire.",
+          "start": 130.85,
+          "end": 133.01
+        }
+      ],
+      "glossary": [
+        {
+          "term": "catch up with you",
+          "ko": "(못 본 사이) 근황을 나누다",
+          "type": "phrase",
+          "easy": "오랜만에 만나 그동안 있었던 일을 서로 이야기하다",
+          "nuance": "밀린 소식을 주고받는 느낌. 따라잡기(추격)와는 다른 뜻.",
+          "when": "오랜만에 본 사람과 안부를 나눌 때.",
+          "ex": "Let's grab coffee and catch up sometime.",
+          "exKo": "언제 커피 마시면서 근황 좀 나누자."
+        }
+      ]
+    },
+    {
+      "start": 135.41,
+      "end": 141.25,
+      "lines": [
+        {
+          "text": "No one would blame you if you mentioned you had a daughter graduating from Caltech today.",
+          "start": 135.41,
+          "end": 138.97
+        },
+        {
+          "text": "Honey, the moment has passed.",
+          "start": 139.51,
+          "end": 141.25
+        }
+      ]
+    },
+    {
+      "start": 141.41,
+      "end": 146.64,
+      "lines": [
+        {
+          "text": "I need a pretty good reason to just go waltzing over there, and, she forgot her Program!",
+          "start": 141.41,
+          "end": 146.1
+        },
+        {
+          "text": "Yes!",
+          "start": 146.14,
+          "end": 146.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go waltzing over",
+          "ko": "거리낌 없이 성큼성큼 다가가다",
+          "type": "idiom",
+          "easy": "눈치 안 보고 당당하게(또는 뻔뻔하게) 걸어가다",
+          "nuance": "왈츠 추듯 가볍고 태연하게 간다는 비유. 약간 '아무렇지 않게'의 느낌.",
+          "when": "이유 없이 불쑥 다가가는 게 어색할 때.",
+          "ex": "You can't just waltz in without an invitation.",
+          "exKo": "초대도 없이 그냥 막 들어가면 안 되지."
+        }
+      ]
+    },
+    {
+      "start": 147.1,
+      "end": 152.58,
+      "lines": [
+        {
+          "text": "- Hey, Claire, you know how you're my go to gal? - Busy.",
+          "start": 147.1,
+          "end": 149.42
+        },
+        {
+          "text": "If mathematics doesn't matter, then no one can be certain of anything.",
+          "start": 149.62,
+          "end": 152.58
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go-to gal",
+          "ko": "믿고 부탁하는 사람, 척척박사",
+          "type": "idiom",
+          "easy": "뭔가 필요할 때 제일 먼저 찾는 믿음직한 사람 (gal=여자)",
+          "nuance": "그 분야에서 가장 의지가 되는 사람. go-to person이 기본형.",
+          "when": "어떤 일에 누구를 제일 먼저 찾는지 말할 때.",
+          "ex": "She's my go-to person for tech problems.",
+          "exKo": "컴퓨터 문제는 그녀가 내가 제일 먼저 찾는 사람이야."
+        }
+      ]
+    },
+    {
+      "start": 152.58,
+      "end": 161.98,
+      "lines": [
+        {
+          "text": "And then I've just wasted the last four no sixteen years of my life, and there's no point in me graduating.",
+          "start": 152.58,
+          "end": 157.7
+        },
+        {
+          "text": "Okay, I can tell that you're very upset, and you're probably really overtired from finals.",
+          "start": 157.86,
+          "end": 161.98
+        }
+      ]
+    },
+    {
+      "start": 161.98,
+      "end": 168.78,
+      "lines": [
+        {
+          "text": "But you are gonna regret it if you don't go to graduation.",
+          "start": 161.98,
+          "end": 164.78
+        },
+        {
+          "text": "Look, I promise, whatever is bothering you, figure it out after the ceremony. - After?",
+          "start": 164.82,
+          "end": 168.78
+        }
+      ]
+    },
+    {
+      "start": 168.82,
+      "end": 170.81,
+      "lines": [
+        {
+          "text": "Yes.",
+          "start": 168.82,
+          "end": 169.32
+        },
+        {
+          "text": "After implies before.",
+          "start": 169.34,
+          "end": 170.81
+        }
+      ]
+    },
+    {
+      "start": 170.81,
+      "end": 178.46,
+      "lines": [
+        {
+          "text": "But if one minute ago is the same as zero minutes ago, then before is now, and now is after.",
+          "start": 170.81,
+          "end": 175.06
+        },
+        {
+          "text": "Usually when I hear people talking like this are walking through a Taco Bell drive thru.",
+          "start": 175.18,
+          "end": 178.46
+        }
+      ]
+    },
+    {
+      "start": 178.66,
+      "end": 185.94,
+      "lines": [
+        {
+          "text": "Sweetie, half your life is having your mind blown.",
+          "start": 178.66,
+          "end": 181.3
+        },
+        {
+          "text": "I remember when I heard there are more stars in the galaxy than grains of rice in a box of Uncle Ben's.",
+          "start": 181.3,
+          "end": 185.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have your mind blown",
+          "ko": "깜짝 놀라다, 충격받다 (좋은 의미로)",
+          "type": "idiom",
+          "easy": "너무 놀랍거나 신기한 사실에 머리가 띵해지다",
+          "nuance": "나쁜 충격이 아니라 '와, 대박' 하는 감탄의 충격.",
+          "when": "엄청난 사실·경험에 감탄할 때.",
+          "ex": "The movie's ending blew my mind.",
+          "exKo": "그 영화 결말이 정말 충격적이었어(대박이었어)."
+        }
+      ]
+    },
+    {
+      "start": 186.02,
+      "end": 192.34,
+      "lines": [
+        {
+          "text": "No, there are more galaxies than grains of sand on all the world's beaches.",
+          "start": 186.02,
+          "end": 189.26
+        },
+        {
+          "text": "Okay, I can't lose them both.",
+          "start": 191.1,
+          "end": 192.34
+        }
+      ]
+    },
+    {
+      "start": 192.38,
+      "end": 198.06,
+      "lines": [
+        {
+          "text": "I got this, Alex.",
+          "start": 192.38,
+          "end": 193.69
+        },
+        {
+          "text": "I never knew true strength until I met a man with no feet.",
+          "start": 194.46,
+          "end": 198.06
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I got this",
+          "ko": "내가 알아서 할게, 맡겨둬",
+          "type": "idiom",
+          "easy": "걱정 마, 이건 내가 해결할 수 있어",
+          "nuance": "자신감 있게 책임지겠다는 말. 도움 거절할 때도 씀.",
+          "when": "스스로 처리하겠다고 안심시킬 때.",
+          "ex": "Don't worry about the dishes — I got this.",
+          "exKo": "설거지는 걱정 마, 내가 할게."
+        }
+      ]
+    },
+    {
+      "start": 198.3,
+      "end": 201.3,
+      "lines": [
+        {
+          "text": "Wait, no, these cards are not in order.",
+          "start": 198.3,
+          "end": 200.06
+        },
+        {
+          "text": "Wait, nobody help her right now!",
+          "start": 200.14,
+          "end": 201.3
+        }
+      ]
+    },
+    {
+      "start": 201.42,
+      "end": 206.58,
+      "lines": [
+        {
+          "text": "Alex, you're a smart, confident girl.",
+          "start": 201.42,
+          "end": 204.06
+        },
+        {
+          "text": "I know that you're gonna make the right decision.",
+          "start": 204.66,
+          "end": 206.58
+        }
+      ]
+    },
+    {
+      "start": 207.46,
+      "end": 210.98,
+      "lines": [
+        {
+          "text": "Did you just put this watch on me?",
+          "start": 207.46,
+          "end": 209.02
+        },
+        {
+          "text": "I have a problem.",
+          "start": 209.78,
+          "end": 210.98
+        }
+      ]
+    },
+    {
+      "start": 211.14,
+      "end": 215.3,
+      "lines": [
+        {
+          "text": "I say if Alex doesn't want to go to her graduation, that's her decision.",
+          "start": 211.14,
+          "end": 214.18
+        },
+        {
+          "text": "Thank you. Luke.",
+          "start": 214.5,
+          "end": 215.3
+        }
+      ]
+    },
+    {
+      "start": 215.54,
+      "end": 221.83,
+      "lines": [
+        {
+          "text": "As long as you know that whatever's going on here isn't about math.",
+          "start": 215.54,
+          "end": 218.99
+        },
+        {
+          "text": "Yeah, I think maybe you're afraid to leave school.",
+          "start": 219.03,
+          "end": 221.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "what's going on here",
+          "ko": "지금 (속으로) 무슨 일이 벌어지는 건지",
+          "type": "phrase",
+          "easy": "겉으로 드러난 일 말고 진짜 이유나 상황",
+          "when": "상황의 진짜 속사정을 짚을 때."
+        }
+      ]
+    },
+    {
+      "start": 221.87,
+      "end": 226.19,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 221.87,
+          "end": 222.37
+        },
+        {
+          "text": "But your whole life, you've always known exactly what you're supposed to do.",
+          "start": 222.74,
+          "end": 226.19
+        }
+      ]
+    },
+    {
+      "start": 226.45,
+      "end": 230.43,
+      "lines": [
+        {
+          "text": "Study, get good grades, repeat.",
+          "start": 226.45,
+          "end": 228.35
+        },
+        {
+          "text": "Now that's over, and it's scary.",
+          "start": 228.63,
+          "end": 230.43
+        }
+      ]
+    },
+    {
+      "start": 230.75,
+      "end": 237.13,
+      "lines": [
+        {
+          "text": "Kind of like if zero equaled one.",
+          "start": 230.75,
+          "end": 233.03
+        },
+        {
+          "text": "Well, lucky for you, your dummy brother and sister have spent time in the real world.",
+          "start": 233.47,
+          "end": 237.13
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in the real world",
+          "ko": "실제 사회에서, 현실에서",
+          "type": "phrase",
+          "easy": "학교가 아닌 진짜 바깥 세상에서",
+          "nuance": "학교·이론과 대비되는 '진짜 삶'을 가리킴.",
+          "when": "학교를 졸업하고 겪는 실제 사회를 말할 때."
+        }
+      ]
+    },
+    {
+      "start": 237.42,
+      "end": 241.93,
+      "lines": [
+        {
+          "text": "And if we can handle it, you're gonna do just fine.",
+          "start": 237.42,
+          "end": 239.91
+        },
+        {
+          "text": "You think?",
+          "start": 241.35,
+          "end": 241.93
+        }
+      ],
+      "glossary": [
+        {
+          "term": "handle it",
+          "ko": "(어려운 일을) 감당하다, 해내다",
+          "type": "phrase",
+          "easy": "힘든 상황을 잘 다루고 견뎌내다",
+          "ex": "Can you handle this on your own?",
+          "exKo": "이거 너 혼자 감당할 수 있겠어?"
+        }
+      ]
+    },
+    {
+      "start": 242.16,
+      "end": 246.19,
+      "lines": [
+        {
+          "text": "Trust us.",
+          "start": 242.16,
+          "end": 242.99
+        },
+        {
+          "text": "Come on, let's go get you graduated!",
+          "start": 244.2,
+          "end": 246.19
+        }
+      ]
+    },
+    {
+      "start": 247.03,
+      "end": 249.83,
+      "lines": [
+        {
+          "text": "Hold on, that door gets jammed.",
+          "start": 247.03,
+          "end": 248.43
+        },
+        {
+          "text": "I have to open it from the inside.",
+          "start": 248.43,
+          "end": 249.83
+        }
+      ]
+    },
+    {
+      "start": 249.87,
+      "end": 255.48,
+      "lines": [
+        {
+          "text": "I got it.",
+          "start": 249.87,
+          "end": 250.75
+        },
+        {
+          "text": "Legend Danner.",
+          "start": 253.99,
+          "end": 255.48
+        }
+      ]
+    },
+    {
+      "start": 256.81,
+      "end": 259.99,
+      "lines": [
+        {
+          "text": "I still can't get over that commencement speech.",
+          "start": 256.81,
+          "end": 258.91
+        },
+        {
+          "text": "Not a single laugh.",
+          "start": 258.95,
+          "end": 259.99
+        }
+      ],
+      "glossary": [
+        {
+          "term": "can't get over",
+          "ko": "(놀라서) 좀처럼 잊히지 않다, 믿기지 않다",
+          "type": "idiom",
+          "easy": "너무 놀라거나 충격받아서 계속 그 생각이 나다",
+          "nuance": "여기선 형편없던 연설이 어이없어 계속 생각난다는 뉘앙스.",
+          "when": "충격·감탄이 쉽게 가시지 않을 때.",
+          "ex": "I can't get over how big the city is.",
+          "exKo": "이 도시가 얼마나 큰지 아직도 믿기지 않아.",
+          "tip": "get over는 보통 '극복하다'지만, can't get over는 '놀라움이 안 가신다'는 뜻."
+        },
+        {
+          "term": "commencement speech",
+          "ko": "졸업식 축사",
+          "type": "phrase",
+          "easy": "졸업식에서 하는 축하 연설",
+          "tip": "commencement는 여기서 '시작'이 아니라 '졸업식'을 뜻함."
+        }
+      ]
+    },
+    {
+      "start": 260.27,
+      "end": 262.68,
+      "lines": [
+        {
+          "text": "I'll tell you one element he didn't discover.",
+          "start": 260.27,
+          "end": 262.07
+        },
+        {
+          "text": "Hilarioum.",
+          "start": 262.11,
+          "end": 262.68
+        }
+      ]
+    },
+    {
+      "start": 263.14,
+      "end": 273.63,
+      "lines": [
+        {
+          "text": "Alex Dunphy.",
+          "start": 263.14,
+          "end": 264.79
+        },
+        {
+          "text": "We don't want to brag, but, our kids did that.",
+          "start": 269.95,
+          "end": 273.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "brag",
+          "ko": "자랑하다, 으스대다",
+          "type": "word",
+          "easy": "자기 것을 뽐내며 자랑하다",
+          "ex": "He likes to brag about his new car.",
+          "exKo": "걔는 새 차를 자랑하길 좋아해."
+        }
+      ]
+    },
+    {
+      "start": 274.99,
+      "end": 275.49,
+      "lines": [
+        {
+          "text": "Yeah.",
+          "start": 274.99,
+          "end": 275.49
+        }
+      ]
+    }
+  ]
+}

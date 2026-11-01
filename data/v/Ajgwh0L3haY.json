@@ -1,0 +1,1183 @@
+{
+  "id": "Ajgwh0L3haY",
+  "segments": [
+    {
+      "start": 0.44,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Are you sure, Grandpa? It might be fun.",
+          "start": 0.44,
+          "end": 2.4
+        },
+        {
+          "text": "Sorry, Luke, I just don't think I have it in me today.",
+          "start": 2.44,
+          "end": 5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have it in me",
+          "ko": "그럴 기운/마음이 있다",
+          "type": "idiom",
+          "easy": "어떤 일을 할 힘이나 기분이 내 안에 있다는 말.",
+          "nuance": "보통 부정문(don't have it in me)으로 써서 '오늘은 그럴 기운/마음이 안 난다'는 느낌.",
+          "when": "지치거나 슬퍼서 평소 하던 일도 하기 싫을 때.",
+          "ex": "I don't have it in me to argue tonight.",
+          "exKo": "오늘 밤엔 다툴 기운이 없어.",
+          "tip": "have it in you = '너 그런 능력/배짱 있구나'라는 칭찬으로도 쓰임."
+        }
+      ]
+    },
+    {
+      "start": 5.52,
+      "end": 12.4,
+      "lines": [
+        {
+          "text": "Did you see that? When has your dad ever not wanted to pull Luke's finger?",
+          "start": 5.52,
+          "end": 9.36
+        },
+        {
+          "text": "He's hurting, Phil. I think he needs to see a therapist.",
+          "start": 9.52,
+          "end": 12.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pull Luke's finger",
+          "ko": "손가락 당기기 (방귀 장난)",
+          "type": "phrase",
+          "easy": "'내 손가락 당겨봐'라고 한 뒤 방귀를 뀌는 미국식 장난.",
+          "nuance": "유치하지만 가족끼리 하는 친근한 농담. 여기선 할아버지가 안 한다는 게 '많이 기운 없다'는 신호.",
+          "when": "아이들과 짓궂은 장난을 칠 때."
+        },
+        {
+          "term": "cope with loss",
+          "ko": "상실(슬픔)을 견디다",
+          "type": "collocation",
+          "easy": "이별이나 죽음 같은 힘든 일을 잘 버텨내다.",
+          "ex": "It takes time to cope with loss.",
+          "exKo": "상실을 이겨내는 데는 시간이 걸린다.",
+          "tip": "cope with ~ = '~을 감당하다, 견디다'. with를 꼭 붙임."
+        }
+      ]
+    },
+    {
+      "start": 12.56,
+      "end": 16.88,
+      "lines": [
+        {
+          "text": "He doesn't need a therapist.",
+          "start": 12.56,
+          "end": 13.68
+        },
+        {
+          "text": "Why? Honey, that's what they do. They help people cope with loss.",
+          "start": 13.72,
+          "end": 16.88
+        }
+      ]
+    },
+    {
+      "start": 16.92,
+      "end": 20.8,
+      "lines": [
+        {
+          "text": "They'll even come to the house if we need them to.",
+          "start": 16.92,
+          "end": 19.02
+        },
+        {
+          "text": "I should talk to my dad.",
+          "start": 19.02,
+          "end": 20.8
+        }
+      ]
+    },
+    {
+      "start": 20.8,
+      "end": 23.6,
+      "lines": [
+        {
+          "text": "You know what?",
+          "start": 20.8,
+          "end": 21.38
+        },
+        {
+          "text": "He's pretty down after the divorce. I bet he has some insight.",
+          "start": 21.38,
+          "end": 23.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "down",
+          "ko": "기운 없는, 우울한",
+          "type": "word",
+          "easy": "기분이 가라앉고 우울한 상태.",
+          "nuance": "depressed보다 가볍고 일상적인 표현.",
+          "ex": "She's been a little down lately.",
+          "exKo": "걔 요즘 좀 우울해 보여."
+        },
+        {
+          "term": "have some insight",
+          "ko": "통찰/좋은 의견이 있다",
+          "type": "phrase",
+          "easy": "어떤 일에 대해 깊이 이해하거나 도움 될 생각을 가지고 있다.",
+          "ex": "He might have some insight into this problem.",
+          "exKo": "그가 이 문제에 대해 좋은 생각이 있을지도 몰라."
+        }
+      ]
+    },
+    {
+      "start": 23.64,
+      "end": 30.54,
+      "lines": [
+        {
+          "text": "Yeah, 'cause your dad's so in touch with people's feelings. When a man is overcome with emotion at a Celine Dion concert, you do not tell him to grow a pair.",
+          "start": 23.64,
+          "end": 30
+        },
+        {
+          "text": "Phil!",
+          "start": 30.04,
+          "end": 30.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in touch with people's feelings",
+          "ko": "남의 감정을 잘 헤아리는",
+          "type": "idiom",
+          "easy": "다른 사람의 기분을 잘 알아채고 공감하는.",
+          "nuance": "여기선 비꼬는 말투 — 실제론 전혀 공감 못 한다는 뜻.",
+          "ex": "A good counselor is in touch with people's feelings.",
+          "exKo": "좋은 상담사는 사람들 감정을 잘 헤아린다."
+        },
+        {
+          "term": "overcome with emotion",
+          "ko": "감정에 북받친",
+          "type": "collocation",
+          "easy": "감정이 너무 벅차서 어쩔 줄 모르는 상태.",
+          "ex": "She was overcome with emotion at the wedding.",
+          "exKo": "그녀는 결혼식에서 감정에 북받쳤다.",
+          "tip": "be overcome with + 감정(joy, grief 등) 형태로 자주 씀."
+        },
+        {
+          "term": "grow a pair",
+          "ko": "남자답게 굴어라, 용기 내라",
+          "type": "idiom",
+          "easy": "겁먹지 말고 배짱 있게 행동하라는 거친 말.",
+          "nuance": "꽤 무례하고 상스러운 표현. 친한 사이 농담이나 시비조로 쓰임.",
+          "when": "겁쟁이처럼 구는 사람을 도발할 때.",
+          "tip": "직역하면 곤란 — '용기 내'라는 속어로 외우기."
+        }
+      ]
+    },
+    {
+      "start": 30.54,
+      "end": 36.16,
+      "lines": [
+        {
+          "text": "The ship went down with their love last forever!",
+          "start": 30.54,
+          "end": 32.04
+        },
+        {
+          "text": "Shh! Dad. Hi. Yeah. Listen, uh, Frank is really depressed.",
+          "start": 32.08,
+          "end": 36.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go down",
+          "ko": "가라앉다, 침몰하다",
+          "type": "phrase",
+          "easy": "배가 물속으로 가라앉다.",
+          "nuance": "여기선 타이타닉 노래(셀린 디옹)를 빗댄 농담.",
+          "ex": "The ship went down in the storm.",
+          "exKo": "그 배는 폭풍에 침몰했다."
+        },
+        {
+          "term": "depressed",
+          "ko": "우울한, 의기소침한",
+          "type": "word",
+          "easy": "기분이 많이 가라앉아 슬프고 의욕 없는 상태.",
+          "vs": "down은 가벼운 우울, depressed는 더 무겁고 오래가는 느낌."
+        }
+      ]
+    },
+    {
+      "start": 36.16,
+      "end": 39.64,
+      "lines": [
+        {
+          "text": "I think he should see a therapist. What do you say?",
+          "start": 36.16,
+          "end": 38.08
+        },
+        {
+          "text": "He doesn't need any of that.",
+          "start": 38.12,
+          "end": 39.64
+        }
+      ]
+    },
+    {
+      "start": 39.68,
+      "end": 43.06,
+      "lines": [
+        {
+          "text": "Yeah. Uh huh. That's exactly what I said.",
+          "start": 39.68,
+          "end": 42.08
+        },
+        {
+          "text": "I...I...",
+          "start": 42.48,
+          "end": 43.06
+        }
+      ]
+    },
+    {
+      "start": 43.06,
+      "end": 45.88,
+      "lines": [
+        {
+          "text": "Jay, what did you just say?",
+          "start": 43.06,
+          "end": 44.44
+        },
+        {
+          "text": "Take him out and meet some women.",
+          "start": 44.48,
+          "end": 45.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take him out",
+          "ko": "그를 데리고 나가다 (놀러)",
+          "type": "phrase",
+          "easy": "누구를 밖으로 데리고 나가서 함께 시간을 보내다.",
+          "tip": "take someone out은 '데이트 신청하다'라는 뜻도 됨."
+        }
+      ]
+    },
+    {
+      "start": 46.12,
+      "end": 50.92,
+      "lines": [
+        {
+          "text": "A thousand therapists couldn't do what Gloria did for me.",
+          "start": 46.12,
+          "end": 48.84
+        },
+        {
+          "text": "Oh, I agree, Claire was wrong.",
+          "start": 48.88,
+          "end": 50.92
+        }
+      ]
+    },
+    {
+      "start": 50.96,
+      "end": 56.84,
+      "lines": [
+        {
+          "text": "I'll tell you what, I know a fun place. Tonight, you, me and Frank out on the town.",
+          "start": 50.96,
+          "end": 55.48
+        },
+        {
+          "text": "Oh, fun! A three way.",
+          "start": 55.52,
+          "end": 56.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "out on the town",
+          "ko": "시내로 놀러 나가서",
+          "type": "idiom",
+          "easy": "밤에 시내로 나가 신나게 노는 것.",
+          "when": "친구들과 술·식사·클럽 등으로 밤놀이 갈 때.",
+          "ex": "Let's go out on the town this weekend!",
+          "exKo": "이번 주말에 시내로 신나게 놀러 가자!"
+        },
+        {
+          "term": "a three way",
+          "ko": "셋이서 하는 것 (성적 농담)",
+          "type": "phrase",
+          "easy": "원래 '셋이 함께'라는 뜻인데, 여기선 야한 농담으로 들려서 웃긴 장면.",
+          "nuance": "말 그대로는 '셋이서'지만 성적 의미로도 들려서 어색해지는 더블미닝 개그."
+        }
+      ]
+    },
+    {
+      "start": 57.04,
+      "end": 60.88,
+      "lines": [
+        {
+          "text": "I already regret this.",
+          "start": 57.04,
+          "end": 58.44
+        },
+        {
+          "text": "I'm excited too. I gotta get going, though.",
+          "start": 58.8,
+          "end": 60.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "regret",
+          "ko": "후회하다",
+          "type": "word",
+          "easy": "어떤 일을 하기로 한 걸 벌써 아쉬워하다."
+        },
+        {
+          "term": "I gotta get going",
+          "ko": "이제 가봐야겠다",
+          "type": "phrase",
+          "easy": "자리를 떠야 할 때 쓰는 흔한 작별 표현.",
+          "ex": "It's late, I gotta get going.",
+          "exKo": "늦었네, 이제 가봐야겠어."
+        }
+      ]
+    },
+    {
+      "start": 61,
+      "end": 67.44,
+      "lines": [
+        {
+          "text": "All right. Bye.",
+          "start": 61,
+          "end": 62.11
+        },
+        {
+          "text": "Hey, there's Casanova.",
+          "start": 66.02,
+          "end": 67.44
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Casanova",
+          "ko": "바람둥이, 카사노바",
+          "type": "word",
+          "easy": "여자에게 인기 많은 (혹은 작업 거는) 남자를 놀리는 말.",
+          "nuance": "실제 인물 카사노바에서 온 별명. 여기선 놀리듯 부름."
+        }
+      ]
+    },
+    {
+      "start": 67.48,
+      "end": 75.4,
+      "lines": [
+        {
+          "text": "I didn't hear you come in last night. So how'd it go with Marcy?",
+          "start": 67.48,
+          "end": 70.68
+        },
+        {
+          "text": "Oh, it was okay, but I actually met someone else while I was waiting for a taxi.",
+          "start": 70.72,
+          "end": 75.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "how'd it go",
+          "ko": "어떻게 됐어?",
+          "type": "phrase",
+          "easy": "어떤 일이 잘 됐는지 묻는 흔한 표현.",
+          "ex": "How'd it go with the interview?",
+          "exKo": "면접 어떻게 됐어?"
+        },
+        {
+          "term": "met someone else",
+          "ko": "다른 사람을 만났다",
+          "type": "phrase",
+          "easy": "원래 만나려던 사람 말고 새로운 사람을 알게 됐다."
+        }
+      ]
+    },
+    {
+      "start": 75.44,
+      "end": 79.32,
+      "lines": [
+        {
+          "text": "Well, all right!",
+          "start": 75.44,
+          "end": 76.4
+        },
+        {
+          "text": "And she's downstairs right now.",
+          "start": 77.36,
+          "end": 79.32
+        }
+      ]
+    },
+    {
+      "start": 79.44,
+      "end": 85.28,
+      "lines": [
+        {
+          "text": "Well. All right.",
+          "start": 79.44,
+          "end": 80.6
+        },
+        {
+          "text": "Truth is, I, um, have a bit of a situation.",
+          "start": 81,
+          "end": 85.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have a bit of a situation",
+          "ko": "좀 곤란한 일이 생겼다",
+          "type": "idiom",
+          "easy": "골치 아픈 문제가 생겼다는 걸 부드럽게 돌려 말하는 표현.",
+          "nuance": "직접 '문제 생겼어'라고 안 하고 완곡하게 말할 때.",
+          "ex": "We have a bit of a situation at the office.",
+          "exKo": "사무실에 좀 곤란한 일이 생겼어."
+        }
+      ]
+    },
+    {
+      "start": 85.48,
+      "end": 89.72,
+      "lines": [
+        {
+          "text": "She says I owe her 500 dollars.",
+          "start": 85.48,
+          "end": 87.96
+        },
+        {
+          "text": "Please tell me you broke something of hers.",
+          "start": 88,
+          "end": 89.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "owe",
+          "ko": "빚지다, 줘야 한다",
+          "type": "word",
+          "easy": "남에게 돈이나 무언가를 갚아야 하는 상태.",
+          "ex": "You owe me ten dollars.",
+          "exKo": "너 나한테 10달러 빚졌어."
+        },
+        {
+          "term": "break something of hers",
+          "ko": "그녀의 물건을 망가뜨리다",
+          "type": "phrase",
+          "easy": "그녀 소유의 무언가를 부쉈다는 뜻 — 그래서 돈을 물어준다는 (희망 섞인) 추측."
+        }
+      ]
+    },
+    {
+      "start": 89.76,
+      "end": 92.6,
+      "lines": [
+        {
+          "text": "No. Turns out she's a hooker.",
+          "start": 89.76,
+          "end": 91.6
+        },
+        {
+          "text": "You picked up a hooker?",
+          "start": 91.64,
+          "end": 92.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "turns out",
+          "ko": "알고 보니 ~더라",
+          "type": "phrase",
+          "easy": "나중에 보니 사실은 이렇더라고 밝힐 때 쓰는 표현.",
+          "ex": "Turns out he was right all along.",
+          "exKo": "알고 보니 그가 처음부터 맞았더라."
+        },
+        {
+          "term": "hooker",
+          "ko": "매춘부 (속어)",
+          "type": "word",
+          "easy": "성을 파는 여성을 가리키는 거친 속어.",
+          "nuance": "꽤 직설적이고 무례한 말. 격식 자리에선 안 씀."
+        },
+        {
+          "term": "pick up",
+          "ko": "(이성을) 꼬시다, 데려오다",
+          "type": "phrase",
+          "easy": "처음 본 사람에게 다가가 만남을 시작하다.",
+          "tip": "pick up은 '줍다/태우다' 외에 '낯선 이성을 꼬시다' 뜻도 있음."
+        }
+      ]
+    },
+    {
+      "start": 92.64,
+      "end": 96.11,
+      "lines": [
+        {
+          "text": "Well, I didn't know she was a hooker.",
+          "start": 92.64,
+          "end": 94.08
+        },
+        {
+          "text": "We're in my kitchen. We have to stop saying \"hooker.\"",
+          "start": 94.12,
+          "end": 96.11
+        }
+      ]
+    },
+    {
+      "start": 96.11,
+      "end": 101.12,
+      "lines": [
+        {
+          "text": "You gotta get her out of here before Claire gets back from yoga.",
+          "start": 96.11,
+          "end": 99.08
+        },
+        {
+          "text": "She's not gonna leave until she gets the cash.",
+          "start": 99.08,
+          "end": 101.12
+        }
+      ]
+    },
+    {
+      "start": 101.32,
+      "end": 105.08,
+      "lines": [
+        {
+          "text": "500 dollars? I think you got ripped off.",
+          "start": 101.32,
+          "end": 103.52
+        },
+        {
+          "text": "Hey, can I have a hit of that coffee?",
+          "start": 103.56,
+          "end": 105.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "got ripped off",
+          "ko": "바가지 썼다, 사기당했다",
+          "type": "idiom",
+          "easy": "물건·서비스 값을 너무 비싸게 치르거나 속아서 손해 봤다.",
+          "when": "터무니없이 비싸게 사거나 속았을 때.",
+          "ex": "Forty dollars for a taxi? You got ripped off.",
+          "exKo": "택시비가 40달러? 너 바가지 썼네.",
+          "tip": "rip off (동사) → '바가지 씌우다', a rip-off (명사) → '바가지'."
+        },
+        {
+          "term": "a hit of that coffee",
+          "ko": "그 커피 한 모금",
+          "type": "phrase",
+          "easy": "여기선 커피 '한 모금/한 잔만 줘'라는 뜻.",
+          "nuance": "원래 a hit은 담배·마약 한 모금을 뜻해서 살짝 능청스러운 표현."
+        }
+      ]
+    },
+    {
+      "start": 105.12,
+      "end": 106.64,
+      "lines": [
+        {
+          "text": "Oh. That's fine.",
+          "start": 105.12,
+          "end": 105.99
+        },
+        {
+          "text": "Trust me.",
+          "start": 105.99,
+          "end": 106.64
+        }
+      ]
+    },
+    {
+      "start": 106.68,
+      "end": 113.18,
+      "lines": [
+        {
+          "text": "He did not get ripped off.",
+          "start": 106.68,
+          "end": 108.36
+        },
+        {
+          "text": "Oh. That's good. It's....",
+          "start": 111.52,
+          "end": 113.18
+        }
+      ],
+      "glossary": [
+        {
+          "term": "did not get ripped off",
+          "ko": "바가지 안 썼다",
+          "type": "phrase",
+          "easy": "앞의 ripped off를 강하게 부정 — '제값 주고 산 거다'라며 우기는 장면."
+        }
+      ]
+    },
+    {
+      "start": 114.86,
+      "end": 118.48,
+      "lines": [
+        {
+          "text": "247. I'm gonna have to run to an ATM.",
+          "start": 114.86,
+          "end": 116.76
+        },
+        {
+          "text": "How could you not know?",
+          "start": 117.52,
+          "end": 118.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "run to an ATM",
+          "ko": "현금인출기까지 잠깐 다녀오다",
+          "type": "phrase",
+          "easy": "여기서 run은 '뛰다'가 아니라 '잠깐 다녀오다'.",
+          "tip": "run to the store = 가게에 잠깐 다녀오다."
+        }
+      ]
+    },
+    {
+      "start": 119.24,
+      "end": 122,
+      "lines": [
+        {
+          "text": "The drinks, the flirting.",
+          "start": 119.24,
+          "end": 120.6
+        },
+        {
+          "text": "I couldn't think straight.",
+          "start": 120.6,
+          "end": 122
+        }
+      ],
+      "glossary": [
+        {
+          "term": "couldn't think straight",
+          "ko": "정신을 못 차렸다, 제대로 생각 못 했다",
+          "type": "idiom",
+          "easy": "머리가 멍해서 똑바로 판단하지 못했다.",
+          "when": "술·긴장·당황으로 정신이 흐려졌을 때.",
+          "ex": "I was so nervous I couldn't think straight.",
+          "exKo": "너무 긴장해서 정신을 못 차렸어."
+        }
+      ]
+    },
+    {
+      "start": 122.76,
+      "end": 128.48,
+      "lines": [
+        {
+          "text": "Have you ever touched the smooth, taut skin of a 48 year old woman?",
+          "start": 122.76,
+          "end": 127.12
+        },
+        {
+          "text": "I hope to one day.",
+          "start": 127.12,
+          "end": 128.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "taut",
+          "ko": "팽팽한, 탱탱한",
+          "type": "word",
+          "easy": "느슨하지 않고 팽팽하게 당겨진 상태. 여기선 피부가 탱탱한.",
+          "vs": "smooth는 매끄러운, taut은 탱탱하게 당겨진 느낌.",
+          "tip": "tight와 비슷하지만 taut은 더 격식 있고 '팽팽히 당겨진' 어감."
+        }
+      ]
+    },
+    {
+      "start": 128.48,
+      "end": 131.48,
+      "lines": [
+        {
+          "text": "But that's not going to happen if Claire gets home.",
+          "start": 128.48,
+          "end": 130.52
+        },
+        {
+          "text": "- Hi! - Hey!",
+          "start": 130.56,
+          "end": 131.48
+        }
+      ]
+    },
+    {
+      "start": 133.16,
+      "end": 136.1,
+      "lines": [
+        {
+          "text": "Frank. Did you have fun last night?",
+          "start": 133.16,
+          "end": 135.56
+        },
+        {
+          "text": "He did not.",
+          "start": 135.6,
+          "end": 136.1
+        }
+      ]
+    },
+    {
+      "start": 136.24,
+      "end": 140,
+      "lines": [
+        {
+          "text": "Hey, who's the woman in the kitchen?",
+          "start": 136.24,
+          "end": 137.76
+        },
+        {
+          "text": "Beats me. I think I'll go freshen up.",
+          "start": 137.8,
+          "end": 140
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Beats me",
+          "ko": "나도 몰라, 모르겠는데",
+          "type": "idiom",
+          "easy": "전혀 모르겠다고 가볍게 답하는 표현.",
+          "when": "답을 모를 때 어깨 으쓱하며.",
+          "ex": "Where did he go? Beats me.",
+          "exKo": "걔 어디 갔어? 나도 몰라.",
+          "tip": "It beats me의 줄임. '나를 이긴다' 직역 아님."
+        },
+        {
+          "term": "freshen up",
+          "ko": "씻고 단장하다, 매무새 가다듬다",
+          "type": "phrase",
+          "easy": "세수하거나 옷 매무새를 다듬어 산뜻하게 하다.",
+          "when": "외출 전이나 손님 맞기 전 잠깐 단장할 때.",
+          "ex": "Let me freshen up before dinner.",
+          "exKo": "저녁 먹기 전에 좀 씻고 올게."
+        }
+      ]
+    },
+    {
+      "start": 140.4,
+      "end": 143.92,
+      "lines": [
+        {
+          "text": "There's a woman in the kitchen?",
+          "start": 140.4,
+          "end": 141.36
+        },
+        {
+          "text": "There's a woman in the kitchen. Yeah, she's a therapist.",
+          "start": 141.36,
+          "end": 143.92
+        }
+      ]
+    },
+    {
+      "start": 143.96,
+      "end": 147.08,
+      "lines": [
+        {
+          "text": "The therapist that you recommended.",
+          "start": 143.96,
+          "end": 145.68
+        },
+        {
+          "text": "So I decided it was a good idea.",
+          "start": 145.68,
+          "end": 147.08
+        }
+      ]
+    },
+    {
+      "start": 147.12,
+      "end": 151.36,
+      "lines": [
+        {
+          "text": "Oh, that means the world that you listen to me.",
+          "start": 147.12,
+          "end": 149.32
+        },
+        {
+          "text": "- Thank you! - Awww. You should get a shower upstairs.",
+          "start": 149.36,
+          "end": 151.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "means the world",
+          "ko": "정말 큰 의미다, 너무 소중하다",
+          "type": "idiom",
+          "easy": "나에게 세상만큼 소중하고 고맙다는 뜻.",
+          "when": "상대의 행동에 진심으로 감동했을 때.",
+          "ex": "Your support means the world to me.",
+          "exKo": "네 응원이 나한텐 정말 큰 의미야."
+        }
+      ]
+    },
+    {
+      "start": 151.88,
+      "end": 155.61,
+      "lines": [
+        {
+          "text": "No, not sweaty like that. You smell.",
+          "start": 151.88,
+          "end": 153.49
+        },
+        {
+          "text": "Oh. Uh.",
+          "start": 154.85,
+          "end": 155.61
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sweaty",
+          "ko": "땀에 젖은",
+          "type": "word",
+          "easy": "땀을 흘려 축축한 상태.",
+          "tip": "명사 sweat(땀) → 형용사 sweaty."
+        }
+      ]
+    },
+    {
+      "start": 155.85,
+      "end": 163.85,
+      "lines": [
+        {
+          "text": "Hi. Hi. I'm Claire. I'm Frank's daughter in law, and I just want to thank you so much for coming and helping him out this way.",
+          "start": 155.85,
+          "end": 162.65
+        },
+        {
+          "text": "It was my idea.",
+          "start": 163.21,
+          "end": 163.85
+        }
+      ],
+      "glossary": [
+        {
+          "term": "daughter in law",
+          "ko": "며느리",
+          "type": "word",
+          "easy": "아들의 아내. in-law는 결혼으로 맺어진 가족.",
+          "tip": "son-in-law 사위, mother-in-law 시어머니/장모."
+        },
+        {
+          "term": "help him out",
+          "ko": "그를 도와주다",
+          "type": "phrase",
+          "easy": "어려움에 처한 사람을 거들어 주다.",
+          "tip": "help out은 그냥 help보다 '곤란할 때 거들어준다'는 느낌이 강함."
+        }
+      ]
+    },
+    {
+      "start": 163.89,
+      "end": 165.14,
+      "lines": [
+        {
+          "text": "No, it wasn't.",
+          "start": 163.89,
+          "end": 164.48
+        },
+        {
+          "text": "Okay.",
+          "start": 164.48,
+          "end": 165.14
+        }
+      ]
+    },
+    {
+      "start": 165.14,
+      "end": 170.41,
+      "lines": [
+        {
+          "text": "All right.",
+          "start": 165.14,
+          "end": 165.65
+        },
+        {
+          "text": "No. Hang on. I've never told anyone this, but I have always wanted to do what you do.",
+          "start": 165.69,
+          "end": 170.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Hang on",
+          "ko": "잠깐만, 기다려",
+          "type": "phrase",
+          "easy": "잠시 멈추거나 기다리라고 할 때 쓰는 말.",
+          "ex": "Hang on, I'll be right back.",
+          "exKo": "잠깐만, 금방 올게."
+        }
+      ]
+    },
+    {
+      "start": 170.77,
+      "end": 172.93,
+      "lines": [
+        {
+          "text": "I think I'd be really good at it.",
+          "start": 170.77,
+          "end": 172.25
+        },
+        {
+          "text": "No, she wouldn't.",
+          "start": 172.29,
+          "end": 172.93
+        }
+      ]
+    },
+    {
+      "start": 173.01,
+      "end": 177.05,
+      "lines": [
+        {
+          "text": "What are you talking about? It's basically what I already do for the whole neighborhood.",
+          "start": 173.01,
+          "end": 175.78
+        },
+        {
+          "text": "At least this way, I get paid for it.",
+          "start": 175.78,
+          "end": 177.05
+        }
+      ]
+    },
+    {
+      "start": 177.37,
+      "end": 180.77,
+      "lines": [
+        {
+          "text": "- Uh huh. You know, I got a standing 10:30, I gotta go. - Mom!",
+          "start": 177.37,
+          "end": 180.11
+        },
+        {
+          "text": "Yes, you do.",
+          "start": 180.11,
+          "end": 180.77
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a standing 10:30",
+          "ko": "매번 잡혀 있는 10시 반 약속",
+          "type": "idiom",
+          "easy": "정기적으로 늘 잡혀 있는 약속.",
+          "nuance": "standing은 '늘 고정된, 정기적인'. a standing appointment처럼 씀.",
+          "ex": "We have a standing lunch every Friday.",
+          "exKo": "우린 매주 금요일에 정기 점심 약속이 있어."
+        }
+      ]
+    },
+    {
+      "start": 180.81,
+      "end": 187.65,
+      "lines": [
+        {
+          "text": "I'm gonna throw up. Alex's hair smells like cheese.",
+          "start": 180.81,
+          "end": 183.45
+        },
+        {
+          "text": "It is not cheese. It is cruelty free organic shampoo and traces of churned goat's milk.",
+          "start": 183.49,
+          "end": 187.65
+        }
+      ],
+      "glossary": [
+        {
+          "term": "throw up",
+          "ko": "토하다, 게우다",
+          "type": "phrase",
+          "easy": "먹은 걸 입으로 다시 게워내다.",
+          "ex": "I feel sick, I might throw up.",
+          "exKo": "속이 안 좋아, 토할 것 같아."
+        },
+        {
+          "term": "cruelty free",
+          "ko": "동물 실험을 하지 않은",
+          "type": "phrase",
+          "easy": "동물을 학대·실험하지 않고 만든 제품에 붙는 말.",
+          "when": "화장품·샴푸 등 친환경/윤리 제품을 설명할 때."
+        }
+      ]
+    },
+    {
+      "start": 187.69,
+      "end": 193.89,
+      "lines": [
+        {
+          "text": "Cheese! Ew, I need a bucket.",
+          "start": 187.69,
+          "end": 189.77
+        },
+        {
+          "text": "Ladies, we have a guest. I am really sorry about this.",
+          "start": 189.81,
+          "end": 193.89
+        }
+      ]
+    },
+    {
+      "start": 193.89,
+      "end": 198.05,
+      "lines": [
+        {
+          "text": "I'm just at my wit's end with these two.",
+          "start": 193.89,
+          "end": 195.65
+        },
+        {
+          "text": "I don't suppose you have any experience with teenagers?",
+          "start": 196.05,
+          "end": 198.05
+        }
+      ],
+      "glossary": [
+        {
+          "term": "at my wit's end",
+          "ko": "어찌할 바를 모르겠다, 진이 다 빠졌다",
+          "type": "idiom",
+          "easy": "더는 어떻게 해야 할지 몰라 완전히 지친 상태.",
+          "when": "아무리 해도 안 풀려서 답답하고 막막할 때.",
+          "ex": "These kids won't sleep — I'm at my wit's end.",
+          "exKo": "애들이 안 자서 정말 어찌할 바를 모르겠어.",
+          "tip": "wit(지혜)의 끝 = 머리를 다 써버린 상태. 's 위치 주의(wit's)."
+        },
+        {
+          "term": "I don't suppose",
+          "ko": "혹시 ~은 아니겠죠?",
+          "type": "phrase",
+          "easy": "조심스럽게 부탁·질문할 때 쓰는 공손한 표현.",
+          "ex": "I don't suppose you could help me?",
+          "exKo": "혹시 좀 도와주실 수 있을까요?"
+        }
+      ]
+    },
+    {
+      "start": 198.09,
+      "end": 201.45,
+      "lines": [
+        {
+          "text": "Oh, no.",
+          "start": 198.09,
+          "end": 198.69
+        },
+        {
+          "text": "You two remind me of me and my sister.",
+          "start": 199.33,
+          "end": 201.45
+        }
+      ]
+    },
+    {
+      "start": 201.45,
+      "end": 204.97,
+      "lines": [
+        {
+          "text": "We used to fight all the time.",
+          "start": 201.45,
+          "end": 203.01
+        },
+        {
+          "text": "I used to accuse her of stealing my boyfriends.",
+          "start": 203.01,
+          "end": 204.97
+        }
+      ],
+      "glossary": [
+        {
+          "term": "accuse her of",
+          "ko": "그녀가 ~했다고 몰아붙이다/비난하다",
+          "type": "phrase",
+          "easy": "누가 나쁜 짓을 했다고 탓하다.",
+          "ex": "He accused me of lying.",
+          "exKo": "그는 내가 거짓말했다고 몰아붙였다.",
+          "tip": "accuse A of B 형태 — of 뒤엔 명사나 -ing."
+        }
+      ]
+    },
+    {
+      "start": 204.97,
+      "end": 208.41,
+      "lines": [
+        {
+          "text": "She would accuse me of trying to stab her, you know.",
+          "start": 204.97,
+          "end": 207.53
+        },
+        {
+          "text": "Sister stuff.",
+          "start": 207.53,
+          "end": 208.41
+        }
+      ]
+    },
+    {
+      "start": 208.45,
+      "end": 213.37,
+      "lines": [
+        {
+          "text": "Oh my God.",
+          "start": 208.45,
+          "end": 209.25
+        },
+        {
+          "text": "Trust me, if I wanted to stab her, that skank be stabbed.",
+          "start": 209.29,
+          "end": 213.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "skank",
+          "ko": "헤픈/지저분한 여자 (욕설)",
+          "type": "word",
+          "easy": "여자를 깔보며 욕할 때 쓰는 거친 속어.",
+          "nuance": "매우 무례한 비속어. 여기선 자매끼리 농담처럼 막말하는 장면."
+        },
+        {
+          "term": "that skank be stabbed",
+          "ko": "그 기집애 진작 찔렸지",
+          "type": "phrase",
+          "easy": "'마음먹었으면 벌써 찔렀다'는 거친 농담. 문법을 일부러 슬랭식으로 흘린 말투."
+        }
+      ]
+    },
+    {
+      "start": 214.89,
+      "end": 216.69,
+      "lines": [
+        {
+          "text": "She's not a therapist, is she?",
+          "start": 214.89,
+          "end": 216.69
+        }
+      ]
+    }
+  ]
+}

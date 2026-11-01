@@ -1,0 +1,1050 @@
+{
+  "id": "6vYPlLMeKek",
+  "segments": [
+    {
+      "start": 1.24,
+      "end": 4.41,
+      "lines": [
+        {
+          "text": "Hey, Jim, can I talk to you for a second?",
+          "start": 1.24,
+          "end": 3.52
+        },
+        {
+          "text": "Sure. What's up?",
+          "start": 3.56,
+          "end": 4.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "What's up?",
+          "ko": "무슨 일이야?, 왜?",
+          "type": "phrase",
+          "easy": "상대가 말을 걸 때 '무슨 일인데?'라고 가볍게 받는 말",
+          "when": "누가 다가와 'can I talk to you?' 하면 자연스럽게 받는 인사 겸 질문.",
+          "ex": "Hey, what's up? You look worried.",
+          "exKo": "야, 무슨 일이야? 걱정 있어 보여."
+        }
+      ]
+    },
+    {
+      "start": 5.34,
+      "end": 15.75,
+      "lines": [
+        {
+          "text": "I don't know. I'm just, like, going a little crazy cause I keep overhearing all these conversations between Michael and corporate about, like, staff issues.",
+          "start": 5.34,
+          "end": 14.96
+        },
+        {
+          "text": "Oh, no.",
+          "start": 15,
+          "end": 15.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "going a little crazy",
+          "ko": "좀 미칠 것 같다, 너무 힘들다",
+          "type": "phrase",
+          "easy": "스트레스 때문에 정신적으로 너무 힘든 상태",
+          "nuance": "진짜 미친다는 게 아니라 '돌아버리겠다' 정도의 과장된 표현.",
+          "ex": "I'm going a little crazy with all this homework.",
+          "exKo": "이 숙제들 때문에 좀 돌아버리겠어."
+        },
+        {
+          "term": "overhearing",
+          "ko": "(의도치 않게) 엿듣게 되다",
+          "type": "word",
+          "easy": "들으려 한 게 아닌데 우연히 귀에 들어오는 것",
+          "vs": "eavesdrop은 일부러 몰래 엿듣는 것, overhear는 우연히 듣게 되는 것.",
+          "ex": "I overheard them talking about the surprise party.",
+          "exKo": "걔네가 깜짝 파티 얘기하는 걸 우연히 들었어."
+        },
+        {
+          "term": "corporate",
+          "ko": "본사, 윗선",
+          "type": "word",
+          "easy": "회사의 높은 사람들이 있는 본사 쪽을 가리키는 말",
+          "when": "지점 직원이 '본사에서 뭐라더라' 할 때 쓰는 표현.",
+          "tip": "여기선 형용사가 아니라 명사로 '본사 사람들'을 뜻함."
+        }
+      ]
+    },
+    {
+      "start": 15.93,
+      "end": 25.57,
+      "lines": [
+        {
+          "text": "Yeah, he's making me take notes on these meetings, and I'm like, these people are my friends. - Right.",
+          "start": 15.93,
+          "end": 21.56
+        },
+        {
+          "text": "But he's all like, - \"This is confidential, you can't tell anybody.\" But... - Right.",
+          "start": 21.68,
+          "end": 25.57
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take notes",
+          "ko": "(회의 등을) 기록하다, 메모하다",
+          "type": "phrase",
+          "easy": "들은 내용을 받아 적는 것",
+          "ex": "Can you take notes during the meeting?",
+          "exKo": "회의 때 기록 좀 해줄래?"
+        },
+        {
+          "term": "confidential",
+          "ko": "기밀의, 비밀로 해야 하는",
+          "type": "word",
+          "easy": "남에게 말하면 안 되는 비밀 정보",
+          "ex": "This file is confidential, so don't share it.",
+          "exKo": "이 파일은 기밀이라 공유하면 안 돼."
+        }
+      ]
+    },
+    {
+      "start": 26.15,
+      "end": 30.43,
+      "lines": [
+        {
+          "text": "I don't know, I just feel like I wanna...",
+          "start": 26.15,
+          "end": 27.64
+        },
+        {
+          "text": "Just promise me you're not gonna say anything.",
+          "start": 28.72,
+          "end": 30.43
+        }
+      ],
+      "glossary": [
+        {
+          "term": "promise me",
+          "ko": "나한테 약속해",
+          "type": "phrase",
+          "easy": "상대에게 꼭 지키겠다고 다짐을 받아낼 때 쓰는 말",
+          "ex": "Promise me you won't be late again.",
+          "exKo": "다시는 늦지 않겠다고 약속해."
+        }
+      ]
+    },
+    {
+      "start": 30.43,
+      "end": 32.52,
+      "lines": [
+        {
+          "text": "I will not.",
+          "start": 30.43,
+          "end": 31.06
+        },
+        {
+          "text": "I'm not gonna tell anybody.",
+          "start": 31.65,
+          "end": 32.52
+        }
+      ]
+    },
+    {
+      "start": 32.56,
+      "end": 39.4,
+      "lines": [
+        {
+          "text": "- Okay. Yeah. - This is between you and me.",
+          "start": 32.56,
+          "end": 34.2
+        },
+        {
+          "text": "Jackpot.",
+          "start": 38.68,
+          "end": 39.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "between you and me",
+          "ko": "너랑 나만 아는 비밀로",
+          "type": "idiom",
+          "easy": "다른 사람에게 말하지 말고 우리끼리만 알자는 뜻",
+          "when": "비밀 얘기를 꺼내기 전에 '이건 우리끼리만' 하고 단속할 때.",
+          "ex": "Between you and me, I think he's going to quit.",
+          "exKo": "우리끼리 얘긴데, 걔 그만둘 것 같아.",
+          "tip": "문법적으론 between you and I가 아니라 me가 맞다 — 전치사 뒤엔 목적격."
+        },
+        {
+          "term": "Jackpot",
+          "ko": "대박, 횡재",
+          "type": "word",
+          "easy": "원하던 걸 딱 얻었을 때 '됐다!' 하고 외치는 말",
+          "nuance": "원래는 슬롯머신 1등 상금. 여기선 '원하던 정보 얻었다, 됐어!'라는 속마음.",
+          "ex": "Free pizza? Jackpot!",
+          "exKo": "공짜 피자라고? 대박!"
+        }
+      ]
+    },
+    {
+      "start": 40.44,
+      "end": 42.8,
+      "lines": [
+        {
+          "text": "That was beautiful.",
+          "start": 40.44,
+          "end": 41.43
+        },
+        {
+          "text": "All her idea too.",
+          "start": 41.66,
+          "end": 42.8
+        }
+      ]
+    },
+    {
+      "start": 43.12,
+      "end": 46.6,
+      "lines": [
+        {
+          "text": "Awesome.",
+          "start": 43.12,
+          "end": 43.82
+        },
+        {
+          "text": "She is so great.",
+          "start": 44.79,
+          "end": 46.6
+        }
+      ]
+    },
+    {
+      "start": 48.92,
+      "end": 51.64,
+      "lines": [
+        {
+          "text": "Meredith, bad breath.",
+          "start": 48.92,
+          "end": 50.19
+        },
+        {
+          "text": "Meredith has bad breath.",
+          "start": 50.5,
+          "end": 51.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bad breath",
+          "ko": "입냄새, 구취",
+          "type": "phrase",
+          "easy": "입에서 나는 안 좋은 냄새",
+          "tip": "breath는 '숨/입김'(명사), breathe는 '숨 쉬다'(동사) — 발음과 철자 헷갈리지 말 것."
+        }
+      ]
+    },
+    {
+      "start": 53.24,
+      "end": 55.72,
+      "lines": [
+        {
+          "text": "- Hey. - Hey.",
+          "start": 53.24,
+          "end": 54.27
+        },
+        {
+          "text": "You wanted to see me?",
+          "start": 55.01,
+          "end": 55.72
+        }
+      ]
+    },
+    {
+      "start": 55.84,
+      "end": 58.8,
+      "lines": [
+        {
+          "text": "Yeah. What do you know about Meredith?",
+          "start": 55.84,
+          "end": 57.26
+        },
+        {
+          "text": "I don't think she'd be missed.",
+          "start": 57.68,
+          "end": 58.8
+        }
+      ],
+      "glossary": [
+        {
+          "term": "she'd be missed",
+          "ko": "그녀가 없으면 아쉬울 것이다",
+          "type": "phrase",
+          "easy": "그 사람이 사라져도 별로 안 아쉽다는 뜻을 비꼬아 말함",
+          "nuance": "miss를 수동태로 써서 '그리워질 사람'이라는 의미. 여기선 '없어도 그만'이라는 농담조.",
+          "ex": "If he leaves, he'll be missed by everyone.",
+          "exKo": "그가 떠나면 모두가 아쉬워할 거야."
+        }
+      ]
+    },
+    {
+      "start": 60.08,
+      "end": 66.6,
+      "lines": [
+        {
+          "text": "There's not going to be downsizing, Dwight. Okay?",
+          "start": 60.08,
+          "end": 62.31
+        },
+        {
+          "text": "I just I need to know a little bit more about my friend.",
+          "start": 62.36,
+          "end": 66.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "downsizing",
+          "ko": "감원, 인원 감축",
+          "type": "word",
+          "easy": "회사가 직원 수를 줄이는 것 (구조조정)",
+          "when": "회사가 사람을 자른다는 얘기가 돌 때 자주 나오는 단어.",
+          "ex": "Many workers lost their jobs during the downsizing.",
+          "exKo": "감원 때 많은 직원이 일자리를 잃었다."
+        }
+      ]
+    },
+    {
+      "start": 67.4,
+      "end": 71.72,
+      "lines": [
+        {
+          "text": "Name, Meredith Palmer.",
+          "start": 67.4,
+          "end": 68.76
+        },
+        {
+          "text": "Personal information, divorced twice, two kids.",
+          "start": 69.27,
+          "end": 71.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "divorced twice",
+          "ko": "두 번 이혼한",
+          "type": "phrase",
+          "easy": "결혼했다가 두 번 헤어진 것",
+          "tip": "divorce는 '이혼하다/이혼' 둘 다 됨. get divorced로 자주 씀."
+        }
+      ]
+    },
+    {
+      "start": 72.02,
+      "end": 75.88,
+      "lines": [
+        {
+          "text": "Employer, Dunder Mifflin paper incorporated.",
+          "start": 72.02,
+          "end": 74.12
+        },
+        {
+          "text": "Awards, multiple Dundies.",
+          "start": 74.44,
+          "end": 75.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "incorporated",
+          "ko": "(주식회사로) 법인화된, 주식회사",
+          "type": "word",
+          "easy": "정식 회사로 등록된 것 (회사 이름 뒤 Inc.)",
+          "tip": "회사명 끝의 Inc.가 바로 이 단어의 줄임말."
+        }
+      ]
+    },
+    {
+      "start": 75.92,
+      "end": 80.78,
+      "lines": [
+        {
+          "text": "I know all that. I know, I know all that. I just I need something kind of embarrassing.",
+          "start": 75.92,
+          "end": 79.28
+        },
+        {
+          "text": "you know, kind of fun inside.",
+          "start": 79.28,
+          "end": 80.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "inside",
+          "ko": "내부자들끼리만 통하는 (농담)",
+          "type": "word",
+          "easy": "그 무리 사람들만 알아듣는 끼리끼리 농담 같은 것",
+          "nuance": "보통 inside joke로 자주 씀 — 사정을 아는 사람만 웃긴 농담.",
+          "ex": "It's an inside joke, you wouldn't get it.",
+          "exKo": "이건 우리끼리 농담이라 넌 이해 못 할 거야."
+        }
+      ]
+    },
+    {
+      "start": 81.66,
+      "end": 85.54,
+      "lines": [
+        {
+          "text": "She had a hysterectomy.",
+          "start": 81.66,
+          "end": 82.79
+        },
+        {
+          "text": "Which one is that again?",
+          "start": 84.7,
+          "end": 85.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hysterectomy",
+          "ko": "자궁 적출 수술",
+          "type": "word",
+          "easy": "자궁을 떼어내는 수술 (의학 용어)",
+          "tip": "어려운 의학 단어라 외울 필요는 없음 — 뒤 문장이 뜻을 설명해 줌."
+        }
+      ]
+    },
+    {
+      "start": 85.58,
+      "end": 91.91,
+      "lines": [
+        {
+          "text": "- That's where they removed the uterus. - Oh, God! Dwight! No.",
+          "start": 85.58,
+          "end": 88.41
+        },
+        {
+          "text": "I'm trying to write something funny here, okay?",
+          "start": 89.71,
+          "end": 91.91
+        }
+      ],
+      "glossary": [
+        {
+          "term": "uterus",
+          "ko": "자궁",
+          "type": "word",
+          "easy": "아기가 자라는 여성 몸속 기관"
+        }
+      ]
+    },
+    {
+      "start": 91.95,
+      "end": 94.42,
+      "lines": [
+        {
+          "text": "What am I going to do with a removed uterus?",
+          "start": 91.95,
+          "end": 93.5
+        },
+        {
+          "text": "It could be kind of funny.",
+          "start": 93.54,
+          "end": 94.42
+        }
+      ]
+    },
+    {
+      "start": 94.83,
+      "end": 99.78,
+      "lines": [
+        {
+          "text": "You know what? I am on a deadline here and just...",
+          "start": 94.83,
+          "end": 98.18
+        },
+        {
+          "text": "Okay, thanks. Thanks for your help.",
+          "start": 98.22,
+          "end": 99.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "on a deadline",
+          "ko": "마감에 쫓기는, 마감이 코앞인",
+          "type": "phrase",
+          "easy": "정해진 마감 시간 안에 끝내야 해서 바쁜 상태",
+          "ex": "I can't talk now, I'm on a deadline.",
+          "exKo": "지금 얘기 못 해, 마감 중이야."
+        }
+      ]
+    },
+    {
+      "start": 101.01,
+      "end": 105.94,
+      "lines": [
+        {
+          "text": "I'll work it out. Thank you Dwight.",
+          "start": 101.01,
+          "end": 102.76
+        },
+        {
+          "text": "That wasn't a waste of time.",
+          "start": 104.84,
+          "end": 105.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "work it out",
+          "ko": "어떻게든 해결하다, 알아서 처리하다",
+          "type": "idiom",
+          "easy": "문제를 스스로 궁리해서 풀어내는 것",
+          "nuance": "복잡한 일을 머리 써서 결국 정리한다는 느낌.",
+          "when": "'내가 알아서 해결할게'라고 할 때.",
+          "ex": "Don't worry, I'll work it out somehow.",
+          "exKo": "걱정 마, 내가 어떻게든 해결할게.",
+          "vs": "work out (운동하다)와 형태가 같지만, it이 들어가면 '문제를 풀다'."
+        },
+        {
+          "term": "waste of time",
+          "ko": "시간 낭비",
+          "type": "phrase",
+          "easy": "해봤자 아무 소용 없어 시간만 버린 일",
+          "ex": "That meeting was a complete waste of time.",
+          "exKo": "그 회의는 완전히 시간 낭비였어."
+        }
+      ]
+    },
+    {
+      "start": 107.9,
+      "end": 114.6,
+      "lines": [
+        {
+          "text": "Okay, here's the deal. All right?",
+          "start": 107.9,
+          "end": 109.38
+        },
+        {
+          "text": "Pam says that one of the alliances is meeting - In the warehouse during Meredith's birthday. - Oh, my God, we have to be there.",
+          "start": 109.58,
+          "end": 114.6
+        }
+      ],
+      "glossary": [
+        {
+          "term": "here's the deal",
+          "ko": "상황은 이래, 잘 들어봐",
+          "type": "idiom",
+          "easy": "중요한 얘기나 계획을 꺼내기 전에 '자, 이렇게 하자'고 운을 떼는 말",
+          "when": "본론·계획을 설명하기 직전 주의를 끌 때.",
+          "ex": "Okay, here's the deal: you clean, I cook.",
+          "exKo": "자 이렇게 하자: 너는 청소, 나는 요리."
+        },
+        {
+          "term": "alliances",
+          "ko": "동맹, (서로 짠) 패거리",
+          "type": "word",
+          "easy": "서로 편을 먹고 뭉친 무리",
+          "ex": "The two teams formed an alliance.",
+          "exKo": "두 팀이 동맹을 맺었다."
+        }
+      ]
+    },
+    {
+      "start": 114.62,
+      "end": 118.53,
+      "lines": [
+        {
+          "text": "I know, but it's gonna be a little tough because there's no good place to hide.",
+          "start": 114.62,
+          "end": 117.38
+        },
+        {
+          "text": "No, no. Yes there is.",
+          "start": 117.42,
+          "end": 118.53
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a little tough",
+          "ko": "좀 까다로운, 좀 힘든",
+          "type": "phrase",
+          "easy": "쉽지 않고 좀 어려운",
+          "tip": "tough는 '질긴, 힘든, 거친' 등 폭넓게 쓰임 — 여기선 '쉽지 않다'."
+        },
+        {
+          "term": "place to hide",
+          "ko": "숨을 만한 곳",
+          "type": "phrase",
+          "easy": "몸을 감출 수 있는 장소"
+        }
+      ]
+    },
+    {
+      "start": 118.53,
+      "end": 120.78,
+      "lines": [
+        {
+          "text": "Behind the shelves.",
+          "start": 118.53,
+          "end": 119.44
+        },
+        {
+          "text": "- Oh my God. - What what what?",
+          "start": 119.44,
+          "end": 120.78
+        }
+      ]
+    },
+    {
+      "start": 121.06,
+      "end": 124,
+      "lines": [
+        {
+          "text": "I know, I know exactly what to do.",
+          "start": 121.06,
+          "end": 123.26
+        },
+        {
+          "text": "Great.",
+          "start": 123.5,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "start": 124.53,
+      "end": 130.5,
+      "lines": [
+        {
+          "text": "I'm a deer hunter. I go all the time with my dad.",
+          "start": 124.53,
+          "end": 126.7
+        },
+        {
+          "text": "One thing about deer, they have very good vision.",
+          "start": 127.14,
+          "end": 130.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "deer hunter",
+          "ko": "사슴 사냥꾼",
+          "type": "phrase",
+          "easy": "사슴을 사냥하는 사람",
+          "tip": "deer는 단수·복수 모양이 똑같음 (one deer, two deer)."
+        },
+        {
+          "term": "vision",
+          "ko": "시력, 보는 능력",
+          "type": "word",
+          "easy": "눈으로 사물을 보는 능력",
+          "vs": "eyesight와 비슷. vision은 '미래상, 비전'이란 뜻도 있지만 여기선 '시력'.",
+          "ex": "Eagles have very sharp vision.",
+          "exKo": "독수리는 시력이 아주 좋다."
+        }
+      ]
+    },
+    {
+      "start": 130.78,
+      "end": 143.78,
+      "lines": [
+        {
+          "text": "One thing about me, I am better at hiding, than they are at vision.",
+          "start": 130.78,
+          "end": 137.14
+        },
+        {
+          "text": "This is gonna be perfect. Okay, centrally located, perfect cover. I can hear and see everything.",
+          "start": 139.18,
+          "end": 143.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "centrally located",
+          "ko": "중앙에 잘 자리잡은",
+          "type": "phrase",
+          "easy": "가운데 위치라 어디든 가깝고 편한",
+          "when": "부동산·자리 설명에서 '위치가 중심이라 좋다'고 할 때 자주 씀.",
+          "ex": "The hotel is centrally located near everything.",
+          "exKo": "그 호텔은 중심부에 있어 모든 게 가깝다."
+        },
+        {
+          "term": "cover",
+          "ko": "(몸을 가려주는) 은폐물, 가림막",
+          "type": "word",
+          "easy": "들키지 않게 몸을 숨겨주는 가림막",
+          "nuance": "여기선 '덮개'가 아니라 '엄폐물' — 군사·사냥에서 몸을 가리는 곳.",
+          "tip": "take cover는 '몸을 숨기다/피하다'."
+        }
+      ]
+    },
+    {
+      "start": 144.34,
+      "end": 146.31,
+      "lines": [
+        {
+          "text": "Good.",
+          "start": 144.34,
+          "end": 144.84
+        },
+        {
+          "text": "Michael?",
+          "start": 145.7,
+          "end": 146.31
+        }
+      ]
+    },
+    {
+      "start": 146.31,
+      "end": 149.06,
+      "lines": [
+        {
+          "text": "- Just a sec. - Are you done yet?",
+          "start": 146.31,
+          "end": 147.26
+        },
+        {
+          "text": "Almost there. Just a second.",
+          "start": 147.3,
+          "end": 149.06
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Just a sec",
+          "ko": "잠깐만, 1초만",
+          "type": "phrase",
+          "easy": "조금만 기다려 달라는 가벼운 말",
+          "tip": "sec은 second(초)의 줄임말 — 'just a second'와 같음."
+        },
+        {
+          "term": "Almost there",
+          "ko": "거의 다 됐어",
+          "type": "idiom",
+          "easy": "끝이 코앞이라 조금만 더 하면 된다는 뜻",
+          "nuance": "장소 도착뿐 아니라 '작업이 거의 끝났다'는 뜻으로도 씀.",
+          "ex": "Keep going, you're almost there!",
+          "exKo": "계속해, 거의 다 왔어!"
+        }
+      ]
+    },
+    {
+      "start": 149.1,
+      "end": 151.98,
+      "lines": [
+        {
+          "text": "It is perfect. Thank you.",
+          "start": 149.1,
+          "end": 150.86
+        },
+        {
+          "text": "Excellent.",
+          "start": 151.14,
+          "end": 151.98
+        }
+      ]
+    },
+    {
+      "start": 151.98,
+      "end": 154.69,
+      "lines": [
+        {
+          "text": "Here we go.",
+          "start": 151.98,
+          "end": 152.76
+        },
+        {
+          "text": "It is time. Thank you! Okay!",
+          "start": 153.18,
+          "end": 154.69
+        }
+      ]
+    },
+    {
+      "start": 154.69,
+      "end": 157.66,
+      "lines": [
+        {
+          "text": "Come on, let's go. Get the cake.",
+          "start": 154.69,
+          "end": 156.13
+        },
+        {
+          "text": "Here we go. Come on, come on, come on.",
+          "start": 156.41,
+          "end": 157.66
+        }
+      ]
+    },
+    {
+      "start": 159.37,
+      "end": 161.85,
+      "lines": [
+        {
+          "text": "Be quiet.",
+          "start": 159.37,
+          "end": 159.93
+        },
+        {
+          "text": "Wait, this isn't gonna work. The lid's open.",
+          "start": 160.09,
+          "end": 161.85
+        }
+      ],
+      "glossary": [
+        {
+          "term": "lid",
+          "ko": "뚜껑",
+          "type": "word",
+          "easy": "상자나 통을 덮는 뚜껑",
+          "ex": "Put the lid back on the box.",
+          "exKo": "상자 뚜껑을 다시 덮어."
+        }
+      ]
+    },
+    {
+      "start": 162.21,
+      "end": 164.44,
+      "lines": [
+        {
+          "text": "So tape it down.",
+          "start": 162.21,
+          "end": 163.29
+        },
+        {
+          "text": "I can't do that.",
+          "start": 163.57,
+          "end": 164.44
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tape it down",
+          "ko": "테이프로 붙여 고정하다",
+          "type": "phrase",
+          "easy": "테이프를 붙여 움직이지 않게 눌러 고정하는 것",
+          "nuance": "down이 붙어 '아래로 눌러 고정'하는 느낌을 더함.",
+          "ex": "Tape the wires down so no one trips.",
+          "exKo": "아무도 안 걸리게 전선을 테이프로 고정해."
+        }
+      ]
+    },
+    {
+      "start": 164.6,
+      "end": 167.65,
+      "lines": [
+        {
+          "text": "Then you won't be able to breathe.",
+          "start": 164.6,
+          "end": 165.61
+        },
+        {
+          "text": "Look, I can breathe just fine.",
+          "start": 166.01,
+          "end": 167.65
+        }
+      ]
+    },
+    {
+      "start": 167.69,
+      "end": 172.49,
+      "lines": [
+        {
+          "text": "Okay? But if it makes you feel better, I'll poke holes in the box.",
+          "start": 167.69,
+          "end": 170.17
+        },
+        {
+          "text": "Thank you, thank you. Okay.",
+          "start": 170.53,
+          "end": 172.49
+        }
+      ],
+      "glossary": [
+        {
+          "term": "poke holes",
+          "ko": "구멍을 뚫다",
+          "type": "phrase",
+          "easy": "뾰족한 걸로 콕콕 찔러 구멍을 내는 것",
+          "ex": "Poke holes in the lid so the bug can breathe.",
+          "exKo": "벌레가 숨 쉬게 뚜껑에 구멍을 뚫어.",
+          "tip": "poke holes in something은 비유로 '(주장의) 허점을 찾다'라는 뜻도 있음."
+        }
+      ]
+    },
+    {
+      "start": 175.77,
+      "end": 179.44,
+      "lines": [
+        {
+          "text": "Surprise!",
+          "start": 175.77,
+          "end": 177.91
+        },
+        {
+          "text": "Surprise.",
+          "start": 178.57,
+          "end": 179.44
+        }
+      ]
+    },
+    {
+      "start": 179.87,
+      "end": 184,
+      "lines": [
+        {
+          "text": "No, it's, It's surprise Meredith.",
+          "start": 179.87,
+          "end": 182.87
+        },
+        {
+          "text": "One, two.",
+          "start": 183.2,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "start": 184.25,
+      "end": 194.64,
+      "lines": [
+        {
+          "text": "♪ Happy birthday to you ♪ - Find a key. ♪ Happy birthday ♪ - ♪ Happy birthday ♪ So you want me to stay here and, you know, stand next to the box?",
+          "start": 184.25,
+          "end": 193.33
+        },
+        {
+          "text": "No.",
+          "start": 194.01,
+          "end": 194.64
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stand next to",
+          "ko": "~옆에 서 있다",
+          "type": "phrase",
+          "easy": "어떤 것 바로 곁에 서 있는 것"
+        }
+      ]
+    },
+    {
+      "start": 194.96,
+      "end": 199.13,
+      "lines": [
+        {
+          "text": "You need to go upstairs to the party.",
+          "start": 194.96,
+          "end": 197
+        },
+        {
+          "text": "- So people don't notice that we're both gone. - Right.",
+          "start": 197.01,
+          "end": 199.13
+        }
+      ]
+    },
+    {
+      "start": 199.65,
+      "end": 202.97,
+      "lines": [
+        {
+          "text": "That's good.",
+          "start": 199.65,
+          "end": 200.41
+        },
+        {
+          "text": "Can I trust Jim? I don't know.",
+          "start": 200.45,
+          "end": 202.97
+        }
+      ],
+      "glossary": [
+        {
+          "term": "trust",
+          "ko": "믿다, 신뢰하다",
+          "type": "word",
+          "easy": "상대를 믿고 의지하는 것",
+          "ex": "Can I trust you with a secret?",
+          "exKo": "너한테 비밀 하나 믿고 맡겨도 될까?"
+        }
+      ]
+    },
+    {
+      "start": 203.76,
+      "end": 205.32,
+      "lines": [
+        {
+          "text": "Do I have a choice?",
+          "start": 203.76,
+          "end": 204.57
+        },
+        {
+          "text": "No.",
+          "start": 204.73,
+          "end": 205.32
+        }
+      ]
+    },
+    {
+      "start": 205.81,
+      "end": 208.31,
+      "lines": [
+        {
+          "text": "Frankly, I don't. Will I trust Jim?",
+          "start": 205.81,
+          "end": 207.6
+        },
+        {
+          "text": "Yes.",
+          "start": 207.66,
+          "end": 208.31
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Frankly",
+          "ko": "솔직히 말하면",
+          "type": "word",
+          "easy": "꾸미지 않고 속마음을 그대로 말할 때 앞에 붙이는 말",
+          "when": "다소 직설적이거나 불편한 진심을 말하기 전에.",
+          "ex": "Frankly, I don't like the plan.",
+          "exKo": "솔직히, 난 그 계획이 마음에 안 들어."
+        }
+      ]
+    },
+    {
+      "start": 208.77,
+      "end": 212.21,
+      "lines": [
+        {
+          "text": "Should I trust Jim?",
+          "start": 208.77,
+          "end": 210.02
+        },
+        {
+          "text": "You tell me.",
+          "start": 211.44,
+          "end": 212.21
+        }
+      ]
+    },
+    {
+      "start": 213.02,
+      "end": 222.11,
+      "lines": [
+        {
+          "text": "♪ Birthday dear Meredith ♪ ♪ Happy birthday to you ♪ ♪ And many more ♪",
+          "start": 213.02,
+          "end": 222.11
+        }
+      ]
+    }
+  ]
+}

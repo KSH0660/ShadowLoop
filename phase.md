@@ -91,5 +91,5 @@
 
 ## 공통 완료 기준 / 규칙
 - 각 Phase: `npm run check` 통과, 모바일 단일 집중 UI·한국어 UI 유지.
-- 데이터(`videos.json`/`data/transcripts.json`/`data/glossary.json`)는 손으로 안 깨고 빌드로 생성.
+- 데이터(`videos.json`/`data/index.json`·`data/v/*.json`/`data/glossary.json`)는 손으로 안 깨고 빌드로 생성.
 - 작업은 지정 브랜치 `claude/learning-app-phase-planning-s13h6f`에 커밋/푸시(사용자 규칙).

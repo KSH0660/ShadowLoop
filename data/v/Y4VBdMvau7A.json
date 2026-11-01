@@ -1,0 +1,737 @@
+{
+  "id": "Y4VBdMvau7A",
+  "segments": [
+    {
+      "start": 0.04,
+      "end": 3.44,
+      "lines": [
+        {
+          "text": "Are you aware our daughter's eating a ketchup sandwich?",
+          "start": 0.04,
+          "end": 2.52
+        },
+        {
+          "text": "Good, she found something.",
+          "start": 2.56,
+          "end": 3.44
+        }
+      ]
+    },
+    {
+      "start": 3.48,
+      "end": 7.22,
+      "lines": [
+        {
+          "text": "Oh, so you didn't go grocery shopping today?",
+          "start": 3.48,
+          "end": 5.52
+        },
+        {
+          "text": "I am gonna go, but after yoga.",
+          "start": 5.56,
+          "end": 7.22
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go grocery shopping",
+          "ko": "장 보러 가다",
+          "type": "phrase",
+          "easy": "마트에 가서 먹을 것을 사 오는 것",
+          "ex": "I need to go grocery shopping this weekend.",
+          "exKo": "이번 주말에 장을 봐야 해."
+        }
+      ]
+    },
+    {
+      "start": 7.22,
+      "end": 10.28,
+      "lines": [
+        {
+          "text": "Hey, hey, you should come with me.",
+          "start": 7.22,
+          "end": 8.84
+        },
+        {
+          "text": "'Cause you seem really tense.",
+          "start": 8.92,
+          "end": 10.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tense",
+          "ko": "긴장한, 경직된",
+          "type": "word",
+          "easy": "몸이나 마음이 딱딱하게 굳고 편하지 않은 상태",
+          "nuance": "stressed가 '스트레스 받은'이라면 tense는 그래서 몸까지 뻣뻣해진 느낌.",
+          "ex": "You look really tense, are you okay?",
+          "exKo": "너 정말 긴장돼 보여, 괜찮아?"
+        }
+      ]
+    },
+    {
+      "start": 10.32,
+      "end": 18.44,
+      "lines": [
+        {
+          "text": "Oh, well, maybe they have a five minute class I could sneak in between football camp and driver's ed.",
+          "start": 10.32,
+          "end": 14.84
+        },
+        {
+          "text": "No, I'm very proud of you and your grapefruit.",
+          "start": 15.96,
+          "end": 18.44
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sneak in",
+          "ko": "슬쩍 끼워 넣다, 몰래 하다",
+          "type": "phrase",
+          "easy": "바쁜 사이에 짬을 내서 몰래 끼워 넣다",
+          "when": "빡빡한 일정 사이에 뭔가를 잠깐 끼워 넣을 때.",
+          "ex": "I'll try to sneak in a quick nap before dinner.",
+          "exKo": "저녁 전에 잠깐 눈 좀 붙여볼게."
+        },
+        {
+          "term": "driver's ed",
+          "ko": "운전 교습(운전 교육 수업)",
+          "type": "phrase",
+          "easy": "운전 배우는 학교 수업, driver's education의 줄임말",
+          "tip": "ed는 education의 줄임말 — 미국 고등학교 과목 이름."
+        }
+      ]
+    },
+    {
+      "start": 18.48,
+      "end": 23.24,
+      "lines": [
+        {
+          "text": "Chrysler Building.",
+          "start": 18.48,
+          "end": 19.28
+        },
+        {
+          "text": "Mitchell really embraced this whole \"take a little break\" thing far more than I expected.",
+          "start": 19.6,
+          "end": 23.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "embrace",
+          "ko": "(생각·방식을) 기꺼이 받아들이다",
+          "type": "word",
+          "easy": "새로운 것을 마다하지 않고 적극적으로 받아들이다",
+          "nuance": "여기선 '껴안다'가 아니라 어떤 태도나 변화를 흔쾌히 받아들였다는 뜻.",
+          "ex": "She embraced the new lifestyle right away.",
+          "exKo": "그녀는 새 생활 방식을 곧바로 받아들였다."
+        },
+        {
+          "term": "far more than I expected",
+          "ko": "내가 생각한 것보다 훨씬 더",
+          "type": "phrase",
+          "easy": "예상했던 것보다 한참 더",
+          "tip": "far가 비교급(more)을 강조 — '훨씬'이라는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 23.24,
+      "end": 30.28,
+      "lines": [
+        {
+          "text": "But for years, he supported both of us while I pursued my passions.",
+          "start": 23.24,
+          "end": 27.44
+        },
+        {
+          "text": "Photography, hip hop dancing, fox hunting.",
+          "start": 27.44,
+          "end": 30.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pursue one's passions",
+          "ko": "좋아하는 일을 좇다, 열정을 따르다",
+          "type": "phrase",
+          "easy": "정말 하고 싶은 일을 마음껏 해 보다",
+          "ex": "He quit his job to pursue his passion for music.",
+          "exKo": "그는 음악에 대한 열정을 따르려고 일을 그만뒀다."
+        }
+      ]
+    },
+    {
+      "start": 30.32,
+      "end": 35.84,
+      "lines": [
+        {
+          "text": "So, I couldn't be the one to tell him to get a job.",
+          "start": 30.32,
+          "end": 33.16
+        },
+        {
+          "text": "But maybe somebody else could.",
+          "start": 34.44,
+          "end": 35.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get a job",
+          "ko": "취직하다, 일자리를 구하다",
+          "type": "phrase",
+          "easy": "돈 버는 일을 시작하다"
+        }
+      ]
+    },
+    {
+      "start": 39.56,
+      "end": 43.8,
+      "lines": [
+        {
+          "text": "Hey, Charlie.",
+          "start": 39.56,
+          "end": 41.04
+        },
+        {
+          "text": "It's uh, Cameron. My husband, Mitchell, used to work for you.",
+          "start": 41.04,
+          "end": 43.8
+        }
+      ]
+    },
+    {
+      "start": 43.92,
+      "end": 46.42,
+      "lines": [
+        {
+          "text": "Oh!",
+          "start": 43.92,
+          "end": 45.17
+        },
+        {
+          "text": "I remember you.",
+          "start": 45.32,
+          "end": 46.42
+        }
+      ]
+    },
+    {
+      "start": 46.42,
+      "end": 49.93,
+      "lines": [
+        {
+          "text": "Yeah, what a nice surprise.",
+          "start": 46.42,
+          "end": 48.08
+        },
+        {
+          "text": "I know! Crazy!",
+          "start": 48.12,
+          "end": 49.93
+        }
+      ]
+    },
+    {
+      "start": 50.01,
+      "end": 55.72,
+      "lines": [
+        {
+          "text": "Crazy like that fox I told Mitchell was chicken.",
+          "start": 50.01,
+          "end": 52.97
+        },
+        {
+          "text": "Was it clear? I,I stalked Charlie.",
+          "start": 53.94,
+          "end": 55.72
+        }
+      ]
+    },
+    {
+      "start": 55.96,
+      "end": 60.68,
+      "lines": [
+        {
+          "text": "I can't believe it. Mitchell and I were just talking about you last night.",
+          "start": 55.96,
+          "end": 59.96
+        },
+        {
+          "text": "How are you?",
+          "start": 59.96,
+          "end": 60.68
+        }
+      ]
+    },
+    {
+      "start": 60.72,
+      "end": 65.28,
+      "lines": [
+        {
+          "text": "Well, I don't want to burden you with my problems.",
+          "start": 60.72,
+          "end": 62.92
+        },
+        {
+          "text": "Uh, I think I've outgrown my boat.",
+          "start": 63,
+          "end": 65.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "burden you with my problems",
+          "ko": "내 문제로 너를 힘들게 하다",
+          "type": "phrase",
+          "easy": "내 고민거리를 떠넘겨서 상대를 부담스럽게 하다",
+          "nuance": "보통 사양하거나 미안해하며 쓰는 정중한 표현.",
+          "ex": "I don't want to burden you with all this.",
+          "exKo": "이걸로 너까지 부담 주고 싶진 않아."
+        },
+        {
+          "term": "outgrown",
+          "ko": "(써 오던 것이) 작아져서 더는 안 맞다",
+          "type": "word",
+          "easy": "사람이 커지거나 수준이 올라가서 예전 것이 더 이상 맞지 않다",
+          "nuance": "원래 아이가 커서 옷이 작아진다는 말인데, 여기선 배가 작게 느껴진다는 농담조.",
+          "ex": "She has outgrown her old shoes.",
+          "exKo": "그 애는 자라서 옛날 신발이 안 맞아.",
+          "tip": "outgrow의 과거분사 — grow(자라다)에서 나온 말."
+        }
+      ]
+    },
+    {
+      "start": 66.04,
+      "end": 67.48,
+      "lines": [
+        {
+          "text": "Oh.",
+          "start": 66.04,
+          "end": 66.54
+        },
+        {
+          "text": "Hey, how is Mitchell?",
+          "start": 66.54,
+          "end": 67.48
+        }
+      ]
+    },
+    {
+      "start": 67.56,
+      "end": 79.9,
+      "lines": [
+        {
+          "text": "He's fine. Actually, he's fielding a few job offers right now, and he's running into problems because he keeps comparing everyone to you.",
+          "start": 67.56,
+          "end": 73.75
+        },
+        {
+          "text": "Sometimes I think the only thing that's going to make him feel better is if you offered him another job.",
+          "start": 74.73,
+          "end": 79.9
+        }
+      ],
+      "glossary": [
+        {
+          "term": "field a few job offers",
+          "ko": "여러 일자리 제안을 받아 처리하다",
+          "type": "phrase",
+          "easy": "여기저기서 들어오는 입사 제안을 받아 다루다",
+          "nuance": "field는 '들어오는 질문·제안을 능숙하게 받아넘기다'라는 뜻. 일이 잘 풀린다는 뉘앙스.",
+          "ex": "The CEO fielded questions from reporters.",
+          "exKo": "그 대표는 기자들의 질문을 받아넘겼다.",
+          "tip": "야구에서 공을 받아내는 'field'에서 온 비유."
+        },
+        {
+          "term": "run into problems",
+          "ko": "문제에 부딪히다, 곤란을 겪다",
+          "type": "phrase",
+          "easy": "일을 하다가 예상치 못한 문제를 만나다",
+          "ex": "We ran into problems while moving.",
+          "exKo": "우리는 이사하다가 문제에 부딪혔다."
+        }
+      ]
+    },
+    {
+      "start": 80.56,
+      "end": 82.21,
+      "lines": [
+        {
+          "text": "What the hell? I'll do it!",
+          "start": 80.56,
+          "end": 81.71
+        },
+        {
+          "text": "Really?",
+          "start": 81.71,
+          "end": 82.21
+        }
+      ]
+    },
+    {
+      "start": 82.21,
+      "end": 84.24,
+      "lines": [
+        {
+          "text": "Yeah, I'm getting a new boat.",
+          "start": 82.21,
+          "end": 83.69
+        },
+        {
+          "text": "Oh.",
+          "start": 83.69,
+          "end": 84.24
+        }
+      ]
+    },
+    {
+      "start": 84.24,
+      "end": 87.78,
+      "lines": [
+        {
+          "text": "And, I will talk to Mitchell.",
+          "start": 84.24,
+          "end": 86.14
+        },
+        {
+          "text": "I missed that $3 bill.",
+          "start": 86.18,
+          "end": 87.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I missed that $3 bill",
+          "ko": "그 가짜 같은 면이 그리웠어 (직역: 그 3달러짜리 지폐가 그리웠어)",
+          "type": "idiom",
+          "easy": "'(as) phony as a $3 bill' = 가짜다, 라는 말장난. 실제로 3달러 지폐는 없어서 '가짜'를 뜻함.",
+          "nuance": "Charlie가 Cameron을 '능청스러운 사기꾼 같다'고 농담하면서도 반갑다는 뜻으로 한 말.",
+          "tip": "미국에서 '$3 bill'은 '존재하지 않는 가짜'를 가리키는 농담 표현."
+        }
+      ]
+    },
+    {
+      "start": 88.06,
+      "end": 91.89,
+      "lines": [
+        {
+          "text": "Mitchell. Look who I bumped into accidentally by chance.",
+          "start": 88.06,
+          "end": 90.98
+        },
+        {
+          "text": "Hey, stranger.",
+          "start": 91.02,
+          "end": 91.89
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bump into",
+          "ko": "우연히 마주치다",
+          "type": "phrase",
+          "easy": "계획 없이 길에서 아는 사람을 만나다",
+          "nuance": "여기선 사실 일부러 꾸민 만남이라 '우연인 척' 하는 농담.",
+          "ex": "I bumped into an old friend at the store.",
+          "exKo": "가게에서 옛 친구를 우연히 만났어."
+        }
+      ]
+    },
+    {
+      "start": 91.89,
+      "end": 94.74,
+      "lines": [
+        {
+          "text": "Charlie!",
+          "start": 91.89,
+          "end": 93.2
+        },
+        {
+          "text": "Ah, I didn't know you painted.",
+          "start": 93.2,
+          "end": 94.74
+        }
+      ]
+    },
+    {
+      "start": 94.78,
+      "end": 99.78,
+      "lines": [
+        {
+          "text": "I didn't either.",
+          "start": 94.78,
+          "end": 96.09
+        },
+        {
+          "text": "It sort of started as a therapeutic thing, but then I just really fell for it.",
+          "start": 96.09,
+          "end": 99.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fell for it",
+          "ko": "거기에 푹 빠졌다",
+          "type": "idiom",
+          "easy": "어떤 일에 마음을 완전히 빼앗겨 좋아하게 되다",
+          "nuance": "fall for는 '~에 반하다/빠지다'. 사람에게 쓰면 '반하다', 일에 쓰면 '푹 빠지다'.",
+          "ex": "I tried painting once and fell for it.",
+          "exKo": "한 번 그림을 그려봤는데 푹 빠졌어.",
+          "vs": "fall for에는 '속아 넘어가다'라는 뜻도 있어 문맥으로 구분해야 함.",
+          "tip": "fell은 fall의 과거형."
+        },
+        {
+          "term": "therapeutic",
+          "ko": "마음을 치유해 주는, 힐링이 되는",
+          "type": "word",
+          "easy": "스트레스를 풀어주고 마음을 편하게 해 주는",
+          "ex": "Gardening is very therapeutic for me.",
+          "exKo": "나한테 정원 가꾸기는 정말 힐링이 돼."
+        }
+      ]
+    },
+    {
+      "start": 100.38,
+      "end": 103.86,
+      "lines": [
+        {
+          "text": "I always wanted to paint. Damn it!",
+          "start": 100.38,
+          "end": 102.5
+        },
+        {
+          "text": "Why am I not painting?",
+          "start": 102.54,
+          "end": 103.86
+        }
+      ]
+    },
+    {
+      "start": 103.98,
+      "end": 108.26,
+      "lines": [
+        {
+          "text": "Well, you're so busy running your company.",
+          "start": 103.98,
+          "end": 106.02
+        },
+        {
+          "text": "Maybe if you hired more people, you'd have more time.",
+          "start": 106.02,
+          "end": 108.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "run a company",
+          "ko": "회사를 운영하다, 경영하다",
+          "type": "phrase",
+          "easy": "회사를 책임지고 이끌어가다",
+          "ex": "She runs a small company downtown.",
+          "exKo": "그녀는 시내에서 작은 회사를 운영해."
+        }
+      ]
+    },
+    {
+      "start": 108.3,
+      "end": 118.46,
+      "lines": [
+        {
+          "text": "I sleep with so many actresses and models who are into guys with jets and boats and ski houses.",
+          "start": 108.3,
+          "end": 113.18
+        },
+        {
+          "text": "But I always wondered, wouldn't it be more satisfying to sleep with actresses and models who are into artists?",
+          "start": 113.18,
+          "end": 118.46
+        }
+      ],
+      "glossary": [
+        {
+          "term": "be into",
+          "ko": "~을 좋아하다, ~에 관심이 많다",
+          "type": "phrase",
+          "easy": "어떤 것이나 사람을 아주 좋아하고 빠져 있다",
+          "ex": "She's really into rock music.",
+          "exKo": "그녀는 록 음악을 정말 좋아해."
+        },
+        {
+          "term": "satisfying",
+          "ko": "만족스러운, 뿌듯한",
+          "type": "word",
+          "easy": "하고 나면 기분이 채워지고 흐뭇한",
+          "ex": "Finishing the project was very satisfying.",
+          "exKo": "그 프로젝트를 끝내니 정말 뿌듯했어."
+        }
+      ]
+    },
+    {
+      "start": 118.5,
+      "end": 124.46,
+      "lines": [
+        {
+          "text": "Anyway, you were saying how overwhelmed you were at work.",
+          "start": 118.5,
+          "end": 120.98
+        },
+        {
+          "text": "I'm overwhelmed by this work. How do you decide what to paint?",
+          "start": 121.02,
+          "end": 124.46
+        }
+      ],
+      "glossary": [
+        {
+          "term": "overwhelmed",
+          "ko": "벅찬, (일이 많아) 감당이 안 되는",
+          "type": "word",
+          "easy": "할 일이 너무 많아 정신없고 힘에 부치는 상태",
+          "nuance": "감정이 북받칠 때도 쓰지만 여기선 '일에 치여 버거운' 뜻.",
+          "ex": "I feel overwhelmed by all this homework.",
+          "exKo": "이 많은 숙제에 완전히 치여 있어."
+        }
+      ]
+    },
+    {
+      "start": 124.5,
+      "end": 128.73,
+      "lines": [
+        {
+          "text": "Oh, you know, I just see these images in my head.",
+          "start": 124.5,
+          "end": 126.29
+        },
+        {
+          "text": "Things I want to see, places I want to go.",
+          "start": 126.29,
+          "end": 128.73
+        }
+      ]
+    },
+    {
+      "start": 128.73,
+      "end": 135.42,
+      "lines": [
+        {
+          "text": "Uh, how much paint I have left.",
+          "start": 128.73,
+          "end": 131.3
+        },
+        {
+          "text": "Sometimes I just tap into my emotions, and I see where that takes me.",
+          "start": 131.54,
+          "end": 135.42
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tap into",
+          "ko": "(감정·능력 등을) 끌어내 활용하다",
+          "type": "phrase",
+          "easy": "안에 있는 감정이나 힘을 꺼내서 쓰다",
+          "nuance": "원래는 '관을 연결해 물을 끌어 쓰다'에서 온 비유. 자원·감정·시장 등에 두루 씀.",
+          "ex": "Good artists tap into their feelings.",
+          "exKo": "좋은 예술가는 자기 감정을 끌어내 쓴다.",
+          "tip": "tap into a market(시장을 공략하다)처럼 자원에도 자주 씀."
+        },
+        {
+          "term": "see where that takes me",
+          "ko": "그게 나를 어디로 데려갈지 가 보다",
+          "type": "idiom",
+          "easy": "결과를 미리 정하지 않고 흐름에 맡겨 따라가 보다",
+          "nuance": "계획 없이 일단 해 보고 어떻게 되는지 본다는 여유로운 느낌.",
+          "ex": "I'll just start writing and see where it takes me.",
+          "exKo": "일단 써 보면서 어떻게 흘러가는지 볼래."
+        }
+      ]
+    },
+    {
+      "start": 135.54,
+      "end": 141.46,
+      "lines": [
+        {
+          "text": "You cannot imagine the sense of contentment.",
+          "start": 135.54,
+          "end": 138.3
+        },
+        {
+          "text": "Imagine how much more satisfying it would be after a good day's work.",
+          "start": 138.46,
+          "end": 141.46
+        }
+      ],
+      "glossary": [
+        {
+          "term": "contentment",
+          "ko": "(잔잔한) 만족감, 마음의 평온",
+          "type": "word",
+          "easy": "더 바랄 것 없이 마음이 차분하게 차 있는 느낌",
+          "nuance": "신나는 happiness가 아니라 조용히 흡족한 상태.",
+          "ex": "She felt a deep sense of contentment.",
+          "exKo": "그녀는 깊은 만족감을 느꼈다.",
+          "tip": "content(만족하는)의 명사형."
+        }
+      ]
+    },
+    {
+      "start": 141.5,
+      "end": 147.25,
+      "lines": [
+        {
+          "text": "You know, I came here to talk you into coming back to the company.",
+          "start": 141.5,
+          "end": 143.89
+        },
+        {
+          "text": "But you're the most at peace son of a bitch I've ever met.",
+          "start": 144.68,
+          "end": 147.25
+        }
+      ],
+      "glossary": [
+        {
+          "term": "talk you into",
+          "ko": "설득해서 ~하게 만들다",
+          "type": "phrase",
+          "easy": "말로 구슬려서 어떤 일을 하도록 만들다",
+          "vs": "반대말은 talk you out of(설득해서 그만두게 하다).",
+          "ex": "He talked me into buying it.",
+          "exKo": "그가 날 꼬드겨서 그걸 사게 만들었어."
+        },
+        {
+          "term": "at peace",
+          "ko": "마음이 평온한",
+          "type": "phrase",
+          "easy": "걱정 없이 편안하고 고요한 마음 상태",
+          "ex": "After meditating, I feel at peace.",
+          "exKo": "명상하고 나면 마음이 평온해져."
+        },
+        {
+          "term": "son of a bitch",
+          "ko": "(여기선) 이 녀석, 자식 (가벼운 비속어)",
+          "type": "idiom",
+          "easy": "원래 욕이지만 친한 사이에서 놀리거나 감탄할 때도 쓰는 거친 말",
+          "nuance": "여기서는 '이렇게 마음 편한 녀석은 처음 봤다'는 반은 칭찬조의 농담.",
+          "tip": "공식적인 자리에서는 절대 쓰면 안 되는 비속어."
+        }
+      ]
+    },
+    {
+      "start": 147.25,
+      "end": 149.34,
+      "lines": [
+        {
+          "text": "And I hired the Dalai Lama for a pool party.",
+          "start": 147.25,
+          "end": 149.34
+        }
+      ]
+    }
+  ]
+}

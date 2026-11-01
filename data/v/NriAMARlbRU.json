@@ -1,0 +1,635 @@
+{
+  "id": "NriAMARlbRU",
+  "segments": [
+    {
+      "start": 0.2,
+      "end": 4.96,
+      "lines": [
+        {
+          "text": "Hey, Damien. What are you gonna do in the space war is over.",
+          "start": 0.2,
+          "end": 3.24
+        },
+        {
+          "text": "Open a lady Foot Locker.",
+          "start": 3.56,
+          "end": 4.96
+        }
+      ]
+    },
+    {
+      "start": 4.96,
+      "end": 8.08,
+      "lines": [
+        {
+          "text": "Hang myself in the back, you know, take it easy.",
+          "start": 4.96,
+          "end": 8.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "take it easy",
+          "ko": "편하게 지내다, 무리하지 않다",
+          "type": "idiom",
+          "easy": "긴장 풀고 느긋하게 쉬엄쉬엄 하다",
+          "nuance": "'relax'보다 더 일상적이고 가벼운 느낌. 작별 인사로도 자주 씀.",
+          "when": "스트레스 받는 사람한테 '좀 쉬어', 또는 헤어질 때 '잘 지내'라고 할 때.",
+          "ex": "You look tired. Just take it easy this weekend.",
+          "exKo": "너 피곤해 보여. 이번 주말은 그냥 푹 쉬어.",
+          "tip": "헤어질 때 'Take it easy!'는 'See you'와 비슷한 가벼운 작별 인사."
+        }
+      ]
+    },
+    {
+      "start": 31.03,
+      "end": 35.04,
+      "lines": [
+        {
+          "text": "They're everywhere!",
+          "start": 31.03,
+          "end": 32.25
+        },
+        {
+          "text": "Tell my wife that I loved you.",
+          "start": 32.69,
+          "end": 35.04
+        }
+      ]
+    },
+    {
+      "start": 50.04,
+      "end": 53.48,
+      "lines": [
+        {
+          "text": "Just in time, Philip.",
+          "start": 50.04,
+          "end": 51.36
+        },
+        {
+          "text": "Dino's sorry we're late.",
+          "start": 51.68,
+          "end": 53.48
+        }
+      ]
+    },
+    {
+      "start": 53.52,
+      "end": 57.48,
+      "lines": [
+        {
+          "text": "You guys really saved our asses.",
+          "start": 53.52,
+          "end": 55.48
+        },
+        {
+          "text": "You mean your cabooses?",
+          "start": 55.52,
+          "end": 57.48
+        }
+      ],
+      "glossary": [
+        {
+          "term": "save one's ass",
+          "ko": "위기에서 구해주다, 살려주다",
+          "type": "idiom",
+          "easy": "큰일 날 뻔한 걸 막아주다, 곤경에서 빼내주다",
+          "nuance": "비속어라 친구끼리만. 'save us'보다 훨씬 거칠고 고마움이 큰 느낌.",
+          "when": "친구가 나를 큰 곤경에서 구해줬을 때.",
+          "ex": "Thanks for covering my shift. You really saved my ass.",
+          "exKo": "내 근무 대신 서줘서 고마워. 너 덕분에 진짜 살았어.",
+          "tip": "공식적인 자리에서는 쓰면 안 되는 비속어. 'ass' 대신 점잖게 'save the day'."
+        }
+      ]
+    },
+    {
+      "start": 57.6,
+      "end": 60.38,
+      "lines": [
+        {
+          "text": "Train!",
+          "start": 57.6,
+          "end": 58.92
+        },
+        {
+          "text": "I'm a train.",
+          "start": 59.12,
+          "end": 60.38
+        }
+      ]
+    },
+    {
+      "start": 62.78,
+      "end": 66.7,
+      "lines": [
+        {
+          "text": "Dad, I was playing there.",
+          "start": 62.78,
+          "end": 64.54
+        },
+        {
+          "text": "That's why I threw my briefcase on top of it.",
+          "start": 64.58,
+          "end": 66.7
+        }
+      ],
+      "glossary": [
+        {
+          "term": "briefcase",
+          "ko": "서류 가방",
+          "type": "word",
+          "easy": "서류나 노트북을 넣어 들고 다니는 납작한 가방"
+        }
+      ]
+    },
+    {
+      "start": 66.7,
+      "end": 72.3,
+      "lines": [
+        {
+          "text": "The symbolism is just too delicious.",
+          "start": 66.7,
+          "end": 68.86
+        },
+        {
+          "text": "Adulthood is crashing down on you, Steve. You're too old to be playing with toys.",
+          "start": 68.9,
+          "end": 72.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "symbolism",
+          "ko": "상징, 상징성",
+          "type": "word",
+          "easy": "어떤 것이 다른 깊은 의미를 대신 나타내는 것",
+          "ex": "The broken clock is full of symbolism in the movie.",
+          "exKo": "그 영화에서 멈춘 시계는 상징성이 가득하다."
+        },
+        {
+          "term": "crash down on",
+          "ko": "(부담·현실이) 한꺼번에 덮치다",
+          "type": "phrase",
+          "easy": "힘든 현실이 갑자기 무겁게 들이닥치다",
+          "nuance": "피할 수 없는 무거운 것이 위에서 쏟아지듯 닥치는 느낌.",
+          "when": "어른의 책임·현실이 갑자기 크게 다가올 때.",
+          "ex": "After graduation, reality came crashing down on me.",
+          "exKo": "졸업하고 나니 현실이 한꺼번에 나를 덮쳤다."
+        }
+      ]
+    },
+    {
+      "start": 72.7,
+      "end": 75.13,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 72.7,
+          "end": 73.66
+        },
+        {
+          "text": "You're never too old to play.",
+          "start": 73.66,
+          "end": 75.13
+        }
+      ]
+    },
+    {
+      "start": 75.13,
+      "end": 80.94,
+      "lines": [
+        {
+          "text": "Using your imagination is a healthy way to escape reality for a spell.",
+          "start": 75.13,
+          "end": 79.1
+        },
+        {
+          "text": "Oh, that's what drugs and alcohol are for.",
+          "start": 79.1,
+          "end": 80.94
+        }
+      ],
+      "glossary": [
+        {
+          "term": "for a spell",
+          "ko": "잠시 동안, 얼마간",
+          "type": "idiom",
+          "easy": "짧은 시간 동안",
+          "nuance": "조금 옛스럽고 편안한 말투. 'for a while'과 같은 뜻.",
+          "when": "잠깐 동안 뭔가를 한다고 말할 때.",
+          "ex": "Let's sit here and rest for a spell.",
+          "exKo": "여기 앉아서 잠깐 쉬자.",
+          "vs": "여기서 spell은 '마법'이 아니라 '잠깐의 시간'이라는 뜻."
+        },
+        {
+          "term": "escape reality",
+          "ko": "현실에서 도피하다",
+          "type": "phrase",
+          "easy": "힘든 현실을 잠시 잊고 벗어나다",
+          "ex": "Reading novels helps me escape reality for a bit.",
+          "exKo": "소설을 읽으면 잠시 현실에서 벗어날 수 있다."
+        }
+      ]
+    },
+    {
+      "start": 80.98,
+      "end": 84.9,
+      "lines": [
+        {
+          "text": "Steve, you're 14. No more make believe.",
+          "start": 80.98,
+          "end": 83.34
+        },
+        {
+          "text": "But I love making believe.",
+          "start": 83.38,
+          "end": 84.9
+        }
+      ],
+      "glossary": [
+        {
+          "term": "make believe",
+          "ko": "(상상으로) ~인 척 놀이, 가상 놀이",
+          "type": "idiom",
+          "easy": "사실이 아닌 걸 진짜인 척 상상하며 노는 것",
+          "nuance": "주로 아이들이 상상으로 노는 것. 어른한테 쓰면 '유치하다'는 뉘앙스가 생김.",
+          "when": "아이가 영웅·기차 흉내를 내며 상상 놀이를 할 때.",
+          "ex": "The kids love to make believe they are pirates.",
+          "exKo": "아이들은 해적인 척 상상 놀이 하는 걸 정말 좋아한다.",
+          "tip": "make-believe는 명사·형용사(가짜의)로도 씀: a make-believe world."
+        }
+      ]
+    },
+    {
+      "start": 84.9,
+      "end": 89.3,
+      "lines": [
+        {
+          "text": "Well, it's time to give all that up and become an adult.",
+          "start": 84.9,
+          "end": 87.22
+        },
+        {
+          "text": "Never!",
+          "start": 87.22,
+          "end": 89.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "give up",
+          "ko": "그만두다, 포기하다",
+          "type": "phrase",
+          "easy": "하던 것을 더는 안 하고 내려놓다",
+          "tip": "여기 'give all that up'은 '그 모든 걸 그만두다'는 뜻 (사이에 목적어 끼움)."
+        }
+      ]
+    },
+    {
+      "start": 89.3,
+      "end": 93.54,
+      "lines": [
+        {
+          "text": "Jet pack activate.",
+          "start": 89.3,
+          "end": 91.31
+        },
+        {
+          "text": "To forever and a bomb.",
+          "start": 91.31,
+          "end": 93.54
+        }
+      ]
+    },
+    {
+      "start": 102.82,
+      "end": 107.5,
+      "lines": [
+        {
+          "text": "You're a dick, Steve.",
+          "start": 102.82,
+          "end": 103.82
+        },
+        {
+          "text": "Now stay tuned for Jimmy Kimmel Live!",
+          "start": 105.26,
+          "end": 107.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "stay tuned",
+          "ko": "채널 고정하세요, 계속 봐주세요",
+          "type": "idiom",
+          "easy": "다음 방송을 위해 그 채널을 그대로 두고 기다리라는 말",
+          "nuance": "방송·뉴스에서 정해진 멘트. '곧 더 있으니 기다려'라는 느낌.",
+          "when": "TV·라디오·유튜브에서 다음 순서를 예고할 때.",
+          "ex": "Stay tuned for the weather after these messages.",
+          "exKo": "광고 후 날씨 소식이 이어집니다, 채널 고정하세요.",
+          "tip": "원래 라디오 주파수를 '맞춘(tune)' 상태로 두라는 데서 온 표현."
+        }
+      ]
+    },
+    {
+      "start": 107.54,
+      "end": 113.78,
+      "lines": [
+        {
+          "text": "Oh, man, this is gonna be so good.",
+          "start": 107.54,
+          "end": 110.02
+        },
+        {
+          "text": "I need this. I don't know if you've picked up on my vibe lately, but I've been pretty upset.",
+          "start": 110.02,
+          "end": 113.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pick up on",
+          "ko": "(분위기·신호를) 알아채다",
+          "type": "idiom",
+          "easy": "겉으로 잘 안 드러난 걸 눈치껏 알아차리다",
+          "nuance": "직접 말 안 해도 분위기나 작은 신호를 캐치하는 느낌.",
+          "when": "상대의 기분·암시·미묘한 신호를 눈치챘을 때.",
+          "ex": "She picked up on the fact that I was nervous.",
+          "exKo": "그녀는 내가 긴장했다는 걸 눈치챘다.",
+          "vs": "pick up은 '집어 들다/배우다', pick up on은 '눈치채다'."
+        },
+        {
+          "term": "vibe",
+          "ko": "분위기, 느낌, 기운",
+          "type": "word",
+          "easy": "사람이나 장소에서 풍기는 전반적인 느낌",
+          "when": "어떤 사람·장소의 분위기를 캐주얼하게 말할 때.",
+          "ex": "This cafe has a really relaxing vibe.",
+          "exKo": "이 카페는 정말 편안한 분위기가 있어."
+        }
+      ]
+    },
+    {
+      "start": 113.78,
+      "end": 117.02,
+      "lines": [
+        {
+          "text": "Steve won't stop playing with toys.",
+          "start": 113.78,
+          "end": 115.66
+        },
+        {
+          "text": "Oh, you're bugging, huh?",
+          "start": 115.66,
+          "end": 117.02
+        }
+      ],
+      "glossary": [
+        {
+          "term": "you're bugging",
+          "ko": "너 왜 그래, 정신 나갔어",
+          "type": "idiom",
+          "easy": "말이 안 되거나 과하게 군다고 가볍게 핀잔주는 슬랭",
+          "nuance": "친구끼리 쓰는 캐주얼 슬랭. '오버한다/이상하게 군다'는 느낌.",
+          "when": "상대가 과민하거나 엉뚱하게 굴 때 장난스럽게.",
+          "ex": "You think I stole it? You're bugging, man.",
+          "exKo": "내가 그걸 훔쳤다고? 너 왜 이래, 진짜.",
+          "tip": "동사 bug는 '귀찮게 하다'지만 'be bugging'은 슬랭으로 '오버한다'."
+        }
+      ]
+    },
+    {
+      "start": 117.06,
+      "end": 123.41,
+      "lines": [
+        {
+          "text": "Yeah, but not for long. Because tonight, when Steve's asleep, I'm gonna go in and get rid of all his toys.",
+          "start": 117.06,
+          "end": 122.49
+        },
+        {
+          "text": "Nice.",
+          "start": 122.57,
+          "end": 123.41
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get rid of",
+          "ko": "없애다, 처분하다, 치우다",
+          "type": "idiom",
+          "easy": "더는 필요 없는 것을 버리거나 치워서 없애다",
+          "nuance": "버리든 팔든 어떻게든 '제거한다'는 뜻을 폭넓게 다 포함.",
+          "when": "잡동사니·물건·문제 등을 치워버릴 때.",
+          "ex": "I need to get rid of these old clothes.",
+          "exKo": "이 낡은 옷들을 좀 처분해야겠어.",
+          "tip": "rid는 단독으로 잘 안 쓰고 거의 'get rid of' 덩어리로 외운다."
+        }
+      ]
+    },
+    {
+      "start": 129.37,
+      "end": 132.21,
+      "lines": [
+        {
+          "text": "98.6.",
+          "start": 129.37,
+          "end": 130.69
+        },
+        {
+          "text": "I'm telling you, I feel warm.",
+          "start": 130.85,
+          "end": 132.21
+        }
+      ]
+    },
+    {
+      "start": 132.21,
+      "end": 149.45,
+      "lines": [
+        {
+          "text": "Check it again.",
+          "start": 132.21,
+          "end": 133.05
+        },
+        {
+          "text": "Evening, Robbie. Any intelligence to report tonight?",
+          "start": 146.65,
+          "end": 149.45
+        }
+      ],
+      "glossary": [
+        {
+          "term": "intelligence",
+          "ko": "(군사·첩보) 정보",
+          "type": "word",
+          "easy": "여기서는 '지능'이 아니라 '몰래 모은 정보'라는 뜻",
+          "nuance": "스파이·군대 맥락의 '기밀 정보'. 'information'보다 은밀한 느낌.",
+          "when": "첩보·군사 작전에서 적의 동향 정보를 말할 때.",
+          "ex": "The army gathered intelligence on the enemy.",
+          "exKo": "군대는 적에 대한 정보를 수집했다.",
+          "vs": "보통 intelligence는 '지능'이지만 여기선 '첩보·정보'."
+        }
+      ]
+    },
+    {
+      "start": 149.45,
+      "end": 156.73,
+      "lines": [
+        {
+          "text": "When Steve's asleep, I'm gonna go in and get rid of all his toys.",
+          "start": 149.45,
+          "end": 152.57
+        },
+        {
+          "text": "Oh, dear Lord. I knew this day would come.",
+          "start": 153.41,
+          "end": 156.73
+        }
+      ]
+    },
+    {
+      "start": 157.33,
+      "end": 163.73,
+      "lines": [
+        {
+          "text": "Ladies and gentlemen, may I have your attention?",
+          "start": 157.33,
+          "end": 159.53
+        },
+        {
+          "text": "Tonight we fight for our lives.",
+          "start": 160.17,
+          "end": 163.73
+        }
+      ],
+      "glossary": [
+        {
+          "term": "may I have your attention",
+          "ko": "주목해 주시겠습니까",
+          "type": "phrase",
+          "easy": "사람들에게 잠깐 조용히 집중해 달라고 정중히 부탁하는 말",
+          "when": "공항·행사 등에서 안내 방송을 시작할 때.",
+          "ex": "May I have your attention, please? The gate has changed.",
+          "exKo": "주목해 주시겠습니까? 탑승구가 변경되었습니다."
+        },
+        {
+          "term": "fight for our lives",
+          "ko": "목숨 걸고 싸우다",
+          "type": "phrase",
+          "easy": "살아남기 위해 죽을힘을 다해 싸우다",
+          "ex": "The soldiers fought for their lives all night.",
+          "exKo": "병사들은 밤새 목숨을 걸고 싸웠다."
+        }
+      ]
+    },
+    {
+      "start": 167.81,
+      "end": 179.85,
+      "lines": [
+        {
+          "text": "Yeah!",
+          "start": 167.81,
+          "end": 168.49
+        },
+        {
+          "text": "String on tail. Obviously that's nothing.",
+          "start": 176.53,
+          "end": 179.85
+        }
+      ]
+    },
+    {
+      "start": 188.39,
+      "end": 191.31,
+      "lines": [
+        {
+          "text": "Steve, hand over the gun.",
+          "start": 188.39,
+          "end": 189.99
+        },
+        {
+          "text": "Okay. Let's talk.",
+          "start": 190.03,
+          "end": 191.31
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hand over",
+          "ko": "건네주다, 넘기다",
+          "type": "idiom",
+          "easy": "손에 든 것을 상대에게 직접 넘겨주다",
+          "nuance": "특히 어쩔 수 없이/요구에 따라 넘기는 느낌(무기·권한 등).",
+          "when": "무기·돈·서류 등을 내놓으라고 할 때.",
+          "ex": "The police told him to hand over his keys.",
+          "exKo": "경찰이 그에게 열쇠를 넘기라고 했다.",
+          "tip": "hand in(제출하다)과 헷갈리지 말 것 — hand over는 '직접 넘겨주다'."
+        }
+      ]
+    },
+    {
+      "start": 191.47,
+      "end": 199.15,
+      "lines": [
+        {
+          "text": "I think we'll leave the talk to Tavis Smiley weeknights on PBS.",
+          "start": 191.47,
+          "end": 195.39
+        },
+        {
+          "text": "Ah! Ah!",
+          "start": 196.23,
+          "end": 199.15
+        }
+      ]
+    },
+    {
+      "start": 211.03,
+      "end": 218.03,
+      "lines": [
+        {
+          "text": "Good job, men. Our victory was hard fought and well deserved.",
+          "start": 211.03,
+          "end": 214.87
+        },
+        {
+          "text": "Please make the pain go away.",
+          "start": 215.55,
+          "end": 218.03
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hard fought",
+          "ko": "힘겹게 얻어낸, 치열했던",
+          "type": "phrase",
+          "easy": "쉽지 않게 아주 힘들여 이뤄낸",
+          "nuance": "그냥 이긴 게 아니라 '엄청 고생해서 겨우' 이겼다는 느낌.",
+          "when": "치열한 경기·전투·선거에서 어렵게 이겼을 때.",
+          "ex": "It was a hard-fought victory in the final match.",
+          "exKo": "그건 결승전에서 힘겹게 얻어낸 승리였다."
+        },
+        {
+          "term": "well deserved",
+          "ko": "받을 만한, 마땅한",
+          "type": "phrase",
+          "easy": "그럴 자격이 충분해서 받아 마땅한",
+          "when": "노력에 걸맞은 상·승리·휴식을 받았을 때.",
+          "ex": "After all that work, the break was well deserved.",
+          "exKo": "그 고생 끝의 휴식은 받아 마땅했다."
+        }
+      ]
+    },
+    {
+      "start": 221.87,
+      "end": 224.11,
+      "lines": [
+        {
+          "text": "I, uh, think he meant like an Advil.",
+          "start": 221.87,
+          "end": 224.11
+        }
+      ]
+    }
+  ]
+}

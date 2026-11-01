@@ -1,0 +1,466 @@
+{
+  "id": "OjFUJEoq8k0",
+  "segments": [
+    {
+      "start": 0.73,
+      "end": 5.27,
+      "lines": [
+        {
+          "text": "- CARVELL THANKS YOU FOR COMING.",
+          "start": 0.73,
+          "end": 2.04
+        },
+        {
+          "text": "[sighs] FIRST ORDER OF BUSINESS, I'M SURE YOU ALL HEARD THAT TWIGS GOT PULLED OUT THE RIVER THIS MORNING.",
+          "start": 2.07,
+          "end": 5.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "first order of business",
+          "ko": "가장 먼저 처리할 일, 첫 안건",
+          "type": "idiom"
+        },
+        {
+          "term": "got pulled out the river",
+          "ko": "강에서 (시신이) 건져졌다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 5.3,
+      "end": 11.74,
+      "lines": [
+        {
+          "text": "IT AIN'T NO SECRET THAT HE AND CARVELL GREW UP IN THE HOOD TOGETHER.",
+          "start": 5.3,
+          "end": 9.44
+        },
+        {
+          "text": "SO LISTEN UP.",
+          "start": 9.48,
+          "end": 11.74
+        }
+      ],
+      "glossary": [
+        {
+          "term": "the hood",
+          "ko": "(속어) 빈민가, 동네",
+          "type": "word"
+        },
+        {
+          "term": "listen up",
+          "ko": "잘 들어, 주목해",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 11.78,
+      "end": 25.36,
+      "lines": [
+        {
+          "text": "'CAUSE CARVELL ABOUT TO SAY SOME WORDS.",
+          "start": 11.78,
+          "end": 15.45
+        },
+        {
+          "text": "- [panting] - OKAY, YOU KNOW WHAT?",
+          "start": 19.59,
+          "end": 25.36
+        }
+      ],
+      "glossary": [
+        {
+          "term": "say some words",
+          "ko": "(추도의) 몇 마디를 하다",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 25.39,
+      "end": 32.67,
+      "lines": [
+        {
+          "text": "DON'T NONE OF YOU LOOK AT THEM TEARS AND THINK THAT [bleep] IS FUNNY.",
+          "start": 25.39,
+          "end": 29.3
+        },
+        {
+          "text": "BECAUSE IT TAKES A BIG [bleep] MAN TO CRY IN FRONT OF HIS CREW.",
+          "start": 29.33,
+          "end": 32.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "crew",
+          "ko": "(속어) 패거리, 무리",
+          "type": "word"
+        },
+        {
+          "term": "it takes a big man to",
+          "ko": "~하는 건 대단한 사람이나 할 수 있다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 35.13,
+      "end": 50.78,
+      "lines": [
+        {
+          "text": "GO AHEAD, CARVELL. - [sniffles] Y'ALL KNOW TWIGS WAS MY BOY.",
+          "start": 35.13,
+          "end": 42.14
+        },
+        {
+          "text": "BACK IN THE DAY, WE USED TO PRETEND THE SOFA CUSHIONS WAS A FORT.",
+          "start": 44.88,
+          "end": 50.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "my boy",
+          "ko": "(속어) 내 절친, 둘도 없는 친구",
+          "type": "idiom"
+        },
+        {
+          "term": "back in the day",
+          "ko": "옛날에, 그 시절에",
+          "type": "idiom"
+        },
+        {
+          "term": "fort",
+          "ko": "(아이들이 만드는) 요새, 아지트",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 50.82,
+      "end": 58.09,
+      "lines": [
+        {
+          "text": "- MM-HMM, MM-HMM. [takes breath] - AND WE USED TO PRETEND THAT THE FLOOR WAS MOLTEN LAVA.",
+          "start": 50.82,
+          "end": 56.89
+        },
+        {
+          "text": "OH...",
+          "start": 56.92,
+          "end": 58.09
+        }
+      ],
+      "glossary": [
+        {
+          "term": "molten lava",
+          "ko": "펄펄 끓는 용암",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 59.99,
+      "end": 66.5,
+      "lines": [
+        {
+          "text": "- OKAY, YOU KNOW WHAT, THOUGH?",
+          "start": 59.99,
+          "end": 63.23
+        },
+        {
+          "text": "THERE AIN'T NOTHING FUNNY 'BOUT THAT.",
+          "start": 63.26,
+          "end": 66.5
+        }
+      ]
+    },
+    {
+      "start": 66.53,
+      "end": 72.97,
+      "lines": [
+        {
+          "text": "OF COURSE THIS MAN IS CRYING.",
+          "start": 66.53,
+          "end": 68.6
+        },
+        {
+          "text": "'CAUSE HE AND TWIGS WAS KIDS TOGETHER. OKAY?",
+          "start": 68.63,
+          "end": 72.97
+        }
+      ]
+    },
+    {
+      "start": 73.01,
+      "end": 76.68,
+      "lines": [
+        {
+          "text": "YOU KNOW WHAT I MEAN?",
+          "start": 73.01,
+          "end": 74.91
+        },
+        {
+          "text": "THEY WAS BEST FRIENDS FOREVER AND [bleep].",
+          "start": 74.94,
+          "end": 76.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "best friends forever",
+          "ko": "영원한 단짝",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 76.71,
+      "end": 83.05,
+      "lines": [
+        {
+          "text": "- [sniffles] - GO AHEAD, CARVELL.",
+          "start": 76.71,
+          "end": 80.21
+        },
+        {
+          "text": "- WE USED TO PLAY CARE BEARS.",
+          "start": 80.25,
+          "end": 83.05
+        }
+      ]
+    },
+    {
+      "start": 83.08,
+      "end": 95.83,
+      "lines": [
+        {
+          "text": "- MMM-HMM. HMM-HMM.",
+          "start": 83.08,
+          "end": 85.75
+        },
+        {
+          "text": "- TWIGS AND I WOULD SPEND THE GOOD PART OF AN AFTERNOON TRYING TO FIGURE OUT WHICH C-C-CARE BEAR WE WAS.",
+          "start": 85.78,
+          "end": 95.83
+        }
+      ]
+    },
+    {
+      "start": 95.86,
+      "end": 108.67,
+      "lines": [
+        {
+          "text": "- OH, OH... [chuckling] OH...",
+          "start": 95.86,
+          "end": 100.77
+        },
+        {
+          "text": "I WISH ONE OF Y'ALL MOTHER-[bleep] WOULD JUST START LAUGHING, 'CAUSE YOU ALL KNOW YOU THINK THIS [bleep] IS FUNNY.",
+          "start": 100.8,
+          "end": 108.67
+        }
+      ],
+      "glossary": [
+        {
+          "term": "I wish one of y'all would",
+          "ko": "(위협조) 누구 하나 ~해 봐라",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 108.71,
+      "end": 117.68,
+      "lines": [
+        {
+          "text": "CARVELL OVER HERE, BLUBBERING AND TALKING 'BOUT CARE BEARS.",
+          "start": 108.71,
+          "end": 112.61
+        },
+        {
+          "text": "BUT YOU KNOW WHAT?",
+          "start": 112.65,
+          "end": 117.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "blubbering",
+          "ko": "엉엉 울며 말하는",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "start": 117.72,
+      "end": 128.46,
+      "lines": [
+        {
+          "text": "BUT YOU...",
+          "start": 117.72,
+          "end": 119.49
+        },
+        {
+          "text": "- [holding back sobs] - [wheezes] THOSE ARE MANLY TEARS! OKAY?",
+          "start": 119.52,
+          "end": 128.46
+        }
+      ],
+      "glossary": [
+        {
+          "term": "holding back sobs",
+          "ko": "흐느낌을 억지로 참는",
+          "type": "phrase"
+        },
+        {
+          "term": "manly tears",
+          "ko": "사나이의 눈물",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "start": 128.49,
+      "end": 137,
+      "lines": [
+        {
+          "text": "THOSE SOME MANLY-ASS TEARS RIGHT THERE THAT YOU LOOKIN' AT!",
+          "start": 128.49,
+          "end": 133.2
+        },
+        {
+          "text": "GO AHEAD, CARVELL.",
+          "start": 133.23,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "start": 137.04,
+      "end": 147.28,
+      "lines": [
+        {
+          "text": "- AND THEN-- AND THEN--AND THEN-- AND THEN--AND--AND--AND-- - [laughs] MM, I'M SORRY, MAN.",
+          "start": 137.04,
+          "end": 146.21
+        },
+        {
+          "text": "THAT WAS A WEIRD-ASS SNEEZE I JUST DID RIGHT THERE.",
+          "start": 146.25,
+          "end": 147.28
+        }
+      ]
+    },
+    {
+      "start": 147.31,
+      "end": 151.68,
+      "lines": [
+        {
+          "text": "GOD DAMN IT.",
+          "start": 147.31,
+          "end": 149.32
+        },
+        {
+          "text": "CAN A BROTHER GET SOME [bleep] CLARITIN UP IN HERE?",
+          "start": 149.35,
+          "end": 151.68
+        }
+      ]
+    },
+    {
+      "start": 156.72,
+      "end": 162.26,
+      "lines": [
+        {
+          "text": "GO AHEAD, CARVELL.",
+          "start": 156.72,
+          "end": 158.82
+        },
+        {
+          "text": "- TWIGS ALWAYS FANCIED HIMSELF SHARE BEAR.",
+          "start": 158.86,
+          "end": 162.26
+        }
+      ],
+      "glossary": [
+        {
+          "term": "fancied himself",
+          "ko": "스스로를 ~라고 여기다, 자부하다",
+          "type": "idiom"
+        }
+      ]
+    },
+    {
+      "start": 162.29,
+      "end": 175.14,
+      "lines": [
+        {
+          "text": "- MM-- - I ALWAYS-- I ALWAYS THOUGHT-- THOUGHT OF MYSELF AS MORE OF A FUNSHINE BEAR.",
+          "start": 162.29,
+          "end": 173.01
+        },
+        {
+          "text": "- MM--OKAY.",
+          "start": 173.04,
+          "end": 175.14
+        }
+      ]
+    },
+    {
+      "start": 175.17,
+      "end": 179.11,
+      "lines": [
+        {
+          "text": "OKAY, ALL YOU [bleep] NEED TO RESPECT THAT RIGHT THERE!",
+          "start": 175.17,
+          "end": 177.28
+        },
+        {
+          "text": "OKAY?",
+          "start": 177.31,
+          "end": 179.11
+        }
+      ]
+    },
+    {
+      "start": 179.14,
+      "end": 191.59,
+      "lines": [
+        {
+          "text": "Y'ALL NEED TO LISTEN TO FUNSHI-- I'M SO--I'M SORRY, MAN.",
+          "start": 179.14,
+          "end": 191.59
+        }
+      ]
+    },
+    {
+      "start": 191.62,
+      "end": 206.17,
+      "lines": [
+        {
+          "text": "YOU A FUNSHINE BEAR, MAN. I'M SORRY, THAT-- THAT IS SOME FUNNY [bleep]. [laughs] [gunshot] - WHOA, WHOA.",
+          "start": 191.62,
+          "end": 201.9
+        },
+        {
+          "text": "- [heaves] ALL RIGHT. LET'S GO SELL SOME CRACK.",
+          "start": 201.93,
+          "end": 206.17
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sell some crack",
+          "ko": "마약(크랙 코카인)을 팔다",
+          "type": "phrase"
+        }
+      ]
+    }
+  ]
+}

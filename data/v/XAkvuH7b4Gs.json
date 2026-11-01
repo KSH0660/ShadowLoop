@@ -1,0 +1,636 @@
+{
+  "id": "XAkvuH7b4Gs",
+  "segments": [
+    {
+      "start": 0.36,
+      "end": 3.28,
+      "lines": [
+        {
+          "text": "Hey, what are we watching?",
+          "start": 0.36,
+          "end": 1.68
+        },
+        {
+          "text": "My video aunt Rachel.",
+          "start": 2.2,
+          "end": 3.28
+        }
+      ]
+    },
+    {
+      "start": 4,
+      "end": 5.74,
+      "lines": [
+        {
+          "text": "It's all finished.",
+          "start": 4,
+          "end": 5.08
+        },
+        {
+          "text": "What?",
+          "start": 5.12,
+          "end": 5.74
+        }
+      ]
+    },
+    {
+      "start": 6.01,
+      "end": 8.96,
+      "lines": [
+        {
+          "text": "You shot it already?",
+          "start": 6.01,
+          "end": 7.24
+        },
+        {
+          "text": "I'm still working on the script.",
+          "start": 7.28,
+          "end": 8.96
+        }
+      ]
+    },
+    {
+      "start": 9.36,
+      "end": 15.28,
+      "lines": [
+        {
+          "text": "Well, we decided to go a different direction.",
+          "start": 9.36,
+          "end": 12.24
+        },
+        {
+          "text": "We'll use your ideas in the next video.",
+          "start": 13.48,
+          "end": 15.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "go a different direction",
+          "ko": "다른 방향으로 가다, 방식을 바꾸다",
+          "type": "phrase",
+          "easy": "원래 하던 방식 대신 다른 방식을 선택하다",
+          "nuance": "보통 누군가의 안을 정중하게 거절하면서 '우리는 다른 쪽을 택했어'라고 돌려 말할 때 쓴다.",
+          "when": "회의·기획·디자인에서 누군가의 제안을 안 쓰기로 했을 때.",
+          "ex": "Thanks for the design, but we decided to go a different direction.",
+          "exKo": "디자인 고마워요, 그런데 우리는 다른 방향으로 가기로 했어요."
+        }
+      ]
+    },
+    {
+      "start": 15.84,
+      "end": 18.4,
+      "lines": [
+        {
+          "text": "Turn it up. I wanna feel the bass in my face.",
+          "start": 15.84,
+          "end": 18.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "turn it up",
+          "ko": "(소리를) 키우다, 볼륨 올리다",
+          "type": "phrase",
+          "easy": "소리나 온도 같은 것을 더 세게/크게 하다",
+          "nuance": "반대는 turn it down(줄이다). 음악·TV 볼륨에 가장 흔히 쓴다.",
+          "when": "음악이나 라디오 소리가 작을 때.",
+          "ex": "I love this song! Turn it up!",
+          "exKo": "이 노래 너무 좋아! 소리 키워!"
+        }
+      ]
+    },
+    {
+      "start": 26.16,
+      "end": 47.54,
+      "lines": [
+        {
+          "text": "♪ My name is Eddie, I'm a hip, cool guy ♪ ♪ The girls come running when I give him the eye ♪ ♪ My name is Eddie and I'm headed for fame ♪ ♪ Party and fun is the name of my game ♪ ♪ I am the Winslow king ♪",
+          "start": 26.16,
+          "end": 47.54
+        }
+      ]
+    },
+    {
+      "start": 48.91,
+      "end": 61.6,
+      "lines": [
+        {
+          "text": "♪ So come on, you girls And hear me sing ♪ ♪ Cause I'm the new king ♪ I can't believe it!",
+          "start": 48.91,
+          "end": 60.52
+        },
+        {
+          "text": "Me either.",
+          "start": 60.72,
+          "end": 61.6
+        }
+      ]
+    },
+    {
+      "start": 61.96,
+      "end": 64.75,
+      "lines": [
+        {
+          "text": "Man, this video is more than cool.",
+          "start": 61.96,
+          "end": 63.64
+        },
+        {
+          "text": "It's hype.",
+          "start": 63.88,
+          "end": 64.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "hype",
+          "ko": "(속어) 끝내주는, 죽이는",
+          "type": "word",
+          "easy": "아주 멋지고 신나는, 흥분되는",
+          "nuance": "90년대 슬랭. 명사 hype(과대광고)와 달리 여기선 '굉장하다'는 칭찬.",
+          "when": "친구끼리 뭔가가 진짜 멋질 때 (요즘의 'lit'과 비슷).",
+          "tip": "오늘날엔 형용사 hype보다 hyped/lit을 더 쓴다. 이 장면은 90년대 미국 슬랭이다."
+        }
+      ]
+    },
+    {
+      "start": 65.08,
+      "end": 68.34,
+      "lines": [
+        {
+          "text": "No, it's def.",
+          "start": 65.08,
+          "end": 66.03
+        },
+        {
+          "text": "Man, this is super bad.",
+          "start": 66.52,
+          "end": 68.34
+        }
+      ],
+      "glossary": [
+        {
+          "term": "def",
+          "ko": "(속어) 끝내주는, 멋진",
+          "type": "word",
+          "easy": "아주 좋고 멋진 (90년대 슬랭)",
+          "nuance": "definitely의 약자가 아니라, 당시 '최고다'를 뜻하던 슬랭.",
+          "when": "옛날 미국 영드라마 속 또래 대화. 지금은 거의 안 쓴다."
+        },
+        {
+          "term": "super bad",
+          "ko": "(반어적 속어) 엄청 멋진",
+          "type": "phrase",
+          "easy": "글자 그대로 '나쁜'이 아니라, 슬랭으로 '아주 멋진'",
+          "nuance": "bad가 슬랭으로는 '멋지다'는 뜻이 된다(마이클 잭슨 'Bad'처럼). super가 붙어 강조.",
+          "when": "친구끼리 칭찬할 때. 톤으로 칭찬인지 진짜 욕인지 구분한다.",
+          "tip": "다음 줄 'the bad part'도 같은 말장난 — 좋은 쪽이 아니라 진짜 '나쁜 부분'을 골랐다는 농담."
+        }
+      ]
+    },
+    {
+      "start": 69.62,
+      "end": 76.02,
+      "lines": [
+        {
+          "text": "You got the bad part, right.",
+          "start": 69.62,
+          "end": 71.1
+        },
+        {
+          "text": "Urkel, what were you doing?",
+          "start": 74.26,
+          "end": 76.02
+        }
+      ]
+    },
+    {
+      "start": 76.62,
+      "end": 80.74,
+      "lines": [
+        {
+          "text": "The camera was on Eddie the whole time.",
+          "start": 76.62,
+          "end": 78.7
+        },
+        {
+          "text": "You wanna field this one, big guy?",
+          "start": 79.02,
+          "end": 80.74
+        }
+      ],
+      "glossary": [
+        {
+          "term": "field this one",
+          "ko": "이 질문에 대답하다, 이건 네가 받아라",
+          "type": "phrase",
+          "easy": "곤란한 질문이나 일을 대신 맡아서 처리하다",
+          "nuance": "야구에서 공을 받아 처리하다(field)에서 온 표현. 질문을 '받아넘기다'는 느낌.",
+          "when": "곤란한 질문을 다른 사람에게 넘길 때.",
+          "ex": "I'll let my colleague field that question.",
+          "exKo": "그 질문은 제 동료가 답하도록 하겠습니다."
+        }
+      ]
+    },
+    {
+      "start": 83.86,
+      "end": 87.49,
+      "lines": [
+        {
+          "text": "All you could see was my right foot.",
+          "start": 83.86,
+          "end": 85.74
+        },
+        {
+          "text": "At least you were in it.",
+          "start": 86.46,
+          "end": 87.49
+        }
+      ]
+    },
+    {
+      "start": 89.44,
+      "end": 94.02,
+      "lines": [
+        {
+          "text": "Urkel, you screwed up big.",
+          "start": 89.44,
+          "end": 91.18
+        },
+        {
+          "text": "Hey, I was just following Eddie's instructions.",
+          "start": 91.5,
+          "end": 94.02
+        }
+      ],
+      "glossary": [
+        {
+          "term": "screwed up",
+          "ko": "망쳤다, 일을 그르쳤다",
+          "type": "phrase",
+          "easy": "실수해서 일을 엉망으로 만들다",
+          "nuance": "mess up과 거의 같지만 살짝 더 강하고 캐주얼하다. 가벼운 욕에 가깝다.",
+          "when": "누가 큰 실수를 했을 때 ('너 크게 망쳤어').",
+          "ex": "I screwed up the order and they sent the wrong size.",
+          "exKo": "내가 주문을 잘못해서 다른 사이즈가 왔어.",
+          "tip": "여기 'screwed up big'은 big이 부사처럼 '크게'를 뜻한다."
+        }
+      ]
+    },
+    {
+      "start": 95.86,
+      "end": 101.78,
+      "lines": [
+        {
+          "text": "Exactly what were Eddie's instructions?",
+          "start": 95.86,
+          "end": 98.54
+        },
+        {
+          "text": "To keep the camera on him and forget about the other meatheads.",
+          "start": 98.9,
+          "end": 101.78
+        }
+      ]
+    },
+    {
+      "start": 101.98,
+      "end": 105.14,
+      "lines": [
+        {
+          "text": "- What? - What?",
+          "start": 101.98,
+          "end": 102.9
+        },
+        {
+          "text": "His words, not mine.",
+          "start": 104.02,
+          "end": 105.14
+        }
+      ]
+    },
+    {
+      "start": 107.14,
+      "end": 110.94,
+      "lines": [
+        {
+          "text": "Eddie, you got an attitude problem, man.",
+          "start": 107.14,
+          "end": 109.87
+        },
+        {
+          "text": "I'm walking.",
+          "start": 110.25,
+          "end": 110.94
+        }
+      ]
+    },
+    {
+      "start": 113.06,
+      "end": 116.58,
+      "lines": [
+        {
+          "text": "I'm walking too.",
+          "start": 113.06,
+          "end": 114.24
+        },
+        {
+          "text": "Can you give me a lift?",
+          "start": 115.36,
+          "end": 116.58
+        }
+      ],
+      "glossary": [
+        {
+          "term": "give me a lift",
+          "ko": "(차로) 태워주다",
+          "type": "idiom",
+          "easy": "차로 어딘가까지 데려다주다",
+          "nuance": "give me a ride와 같은 뜻. lift는 영국식 느낌도 있지만 미국에서도 쓴다.",
+          "when": "차 없는 사람이 태워달라고 부탁할 때.",
+          "ex": "Could you give me a lift to the station?",
+          "exKo": "역까지 좀 태워다 줄 수 있어요?"
+        }
+      ]
+    },
+    {
+      "start": 120.5,
+      "end": 124.14,
+      "lines": [
+        {
+          "text": "Well, fine. Go ahead.",
+          "start": 120.5,
+          "end": 122.34
+        },
+        {
+          "text": "We're better off without them.",
+          "start": 122.78,
+          "end": 124.14
+        }
+      ],
+      "glossary": [
+        {
+          "term": "better off without",
+          "ko": "~없는 게 더 낫다",
+          "type": "phrase",
+          "easy": "그 사람/그것이 없을 때 형편이 더 좋다",
+          "nuance": "be better off = 더 나은 상태다. without이 붙어 '없는 편이 낫다'.",
+          "when": "누군가/무언가가 오히려 방해가 됐다고 할 때.",
+          "ex": "Honestly, we're better off without that contract.",
+          "exKo": "솔직히 그 계약은 없는 게 우리한텐 더 나아."
+        }
+      ]
+    },
+    {
+      "start": 124.5,
+      "end": 129.54,
+      "lines": [
+        {
+          "text": "Their egos were getting way out of control.",
+          "start": 124.5,
+          "end": 126.94
+        },
+        {
+          "text": "No.",
+          "start": 128.86,
+          "end": 129.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "out of control",
+          "ko": "통제 불능인, 걷잡을 수 없는",
+          "type": "idiom",
+          "easy": "더 이상 다스릴 수 없을 만큼 심해진",
+          "nuance": "여기선 '자존심(egos)이 도를 넘었다'는 뜻. 사람·상황 둘 다에 쓴다.",
+          "when": "감정·상황·행동이 선을 넘어 통제가 안 될 때.",
+          "ex": "The party got completely out of control.",
+          "exKo": "파티가 완전히 통제 불능이 됐어.",
+          "tip": "다음 줄에서 같은 표현을 사람한테 되돌려 쓴다 — 'You're the one getting out of control'."
+        }
+      ]
+    },
+    {
+      "start": 129.87,
+      "end": 133.47,
+      "lines": [
+        {
+          "text": "You're the one who's getting out of control, man.",
+          "start": 129.87,
+          "end": 131.7
+        },
+        {
+          "text": "It's supposed to be a band.",
+          "start": 132.14,
+          "end": 133.47
+        }
+      ]
+    },
+    {
+      "start": 134.01,
+      "end": 136.32,
+      "lines": [
+        {
+          "text": "Not a one man show.",
+          "start": 134.01,
+          "end": 135.16
+        },
+        {
+          "text": "I quit.",
+          "start": 135.44,
+          "end": 136.32
+        }
+      ],
+      "glossary": [
+        {
+          "term": "one man show",
+          "ko": "1인 독무대, 혼자 다 하는 것",
+          "type": "idiom",
+          "easy": "여럿이 함께 해야 할 일을 한 사람이 다 차지하는 상황",
+          "nuance": "원래 1인극을 뜻하지만, 비유로 '팀인데 혼자 튄다'는 비판으로 자주 쓴다.",
+          "when": "팀워크가 필요한데 한 명이 독식할 때.",
+          "ex": "It's a team project, not a one man show.",
+          "exKo": "이건 팀 프로젝트지 혼자 다 하는 게 아니야."
+        }
+      ]
+    },
+    {
+      "start": 139.36,
+      "end": 141.76,
+      "lines": [
+        {
+          "text": "What's wrong with them?",
+          "start": 139.36,
+          "end": 140.58
+        },
+        {
+          "text": "The video was great.",
+          "start": 140.78,
+          "end": 141.76
+        }
+      ]
+    },
+    {
+      "start": 142.32,
+      "end": 145.12,
+      "lines": [
+        {
+          "text": "You liked it, didn't you, Laura?",
+          "start": 142.32,
+          "end": 143.84
+        },
+        {
+          "text": "It stunk.",
+          "start": 144.16,
+          "end": 145.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "It stunk",
+          "ko": "형편없었다, 별로였다",
+          "type": "phrase",
+          "easy": "아주 나빴다, 질이 형편없었다",
+          "nuance": "stink(냄새나다)의 과거형 stunk을 비유로 써서 '구렸다'. 캐주얼한 혹평.",
+          "when": "영화·공연·결과가 정말 별로였다고 말할 때.",
+          "ex": "The movie stunk — I almost fell asleep.",
+          "exKo": "그 영화 별로였어 — 거의 졸 뻔했어.",
+          "tip": "다음 줄 'On ice'와 합쳐 'It stunk on ice'는 '완전 형편없었다'를 더 강조하는 옛 슬랭."
+        }
+      ]
+    },
+    {
+      "start": 146.75,
+      "end": 153.92,
+      "lines": [
+        {
+          "text": "On ice.",
+          "start": 146.75,
+          "end": 147.72
+        },
+        {
+          "text": "No. You're just jealous cause you weren't in it.",
+          "start": 151.08,
+          "end": 153.92
+        }
+      ],
+      "glossary": [
+        {
+          "term": "jealous cause you weren't in it",
+          "ko": "네가 거기 안 나와서 질투하는 거다",
+          "type": "phrase",
+          "easy": "샘이 나서 그렇게 깎아내린다는 뜻",
+          "nuance": "be in it = (영상·사진 등에) 나오다, 등장하다. cause는 because의 구어 축약.",
+          "when": "상대가 부러워서 트집 잡는다고 받아칠 때."
+        }
+      ]
+    },
+    {
+      "start": 155.04,
+      "end": 157.36,
+      "lines": [
+        {
+          "text": "No one was in it.",
+          "start": 155.04,
+          "end": 156.26
+        },
+        {
+          "text": "Except you.",
+          "start": 156.59,
+          "end": 157.36
+        }
+      ]
+    },
+    {
+      "start": 157.92,
+      "end": 164.84,
+      "lines": [
+        {
+          "text": "You can't blame them for walking, Eddie.",
+          "start": 157.92,
+          "end": 159.76
+        },
+        {
+          "text": "That wasn't a rock video, that was a love letter to Eddie Winslow from Eddie Winslow.",
+          "start": 160.28,
+          "end": 164.84
+        }
+      ],
+      "glossary": [
+        {
+          "term": "You can't blame them for walking",
+          "ko": "그들이 떠난 걸 탓할 순 없다",
+          "type": "phrase",
+          "easy": "그들이 나간 게 당연하다, 그럴 만했다",
+          "nuance": "can't blame someone for ~ing = '~한 걸 뭐라 할 수 없다(그럴 만하다)'. walk는 여기서 '나가버리다, 그만두다'.",
+          "when": "누군가의 행동이 이해될 때 ('그럴 만했지').",
+          "ex": "You can't blame her for quitting after all that stress.",
+          "exKo": "그 스트레스를 다 겪고 그만둔 걸 뭐라 할 순 없지."
+        },
+        {
+          "term": "a love letter to Eddie Winslow from Eddie Winslow",
+          "ko": "에디가 자기 자신에게 보내는 연애편지 (자아도취 비꼼)",
+          "type": "phrase",
+          "easy": "온통 자기 자랑만 담긴 결과물이라는 비꼬는 말",
+          "nuance": "비유적 표현. '연애편지'처럼 한 사람(자기 자신)만을 떠받든 영상이라는 신랄한 농담.",
+          "when": "누가 만든 작품이 지나친 자기과시일 때."
+        }
+      ]
+    },
+    {
+      "start": 167.48,
+      "end": 175.88,
+      "lines": [
+        {
+          "text": "Like they say, if it ain't on the page, it ain't on the stage.",
+          "start": 167.48,
+          "end": 171.8
+        },
+        {
+          "text": "What did you think, grandma?",
+          "start": 174.84,
+          "end": 175.88
+        }
+      ],
+      "glossary": [
+        {
+          "term": "if it ain't on the page, it ain't on the stage",
+          "ko": "대본에 없으면 무대에서도 안 나온다 (각본이 부실하면 결과도 부실하다)",
+          "type": "idiom",
+          "easy": "글로 잘 써 둔 게 없으면 실제 공연·결과도 좋을 수 없다",
+          "nuance": "공연계 격언. 기획/대본의 중요성을 강조하는 운율 맞춘 말.",
+          "when": "준비·각본이 부실해서 결과가 나빴다고 지적할 때.",
+          "tip": "ain't = isn't/aren't의 비격식 구어. page와 stage로 라임을 맞춘 격언이다."
+        }
+      ]
+    },
+    {
+      "start": 180.12,
+      "end": 185.24,
+      "lines": [
+        {
+          "text": "Eddie, you know I love you.",
+          "start": 180.12,
+          "end": 182.2
+        },
+        {
+          "text": "And I'd never say anything to hurt you.",
+          "start": 183,
+          "end": 185.24
+        }
+      ]
+    },
+    {
+      "start": 186,
+      "end": 186.84,
+      "lines": [
+        {
+          "text": "Good night.",
+          "start": 186,
+          "end": 186.84
+        }
+      ]
+    }
+  ]
+}

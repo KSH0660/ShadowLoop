@@ -1,0 +1,1323 @@
+{
+  "id": "iIPQt0Xuxn4",
+  "segments": [
+    {
+      "start": 1.04,
+      "end": 7.92,
+      "lines": [
+        {
+          "text": "Claire, in case you want to add something.",
+          "start": 1.04,
+          "end": 3.68
+        },
+        {
+          "text": "I put the box of dresses outside, and this is the box of snicker snackers.",
+          "start": 4.12,
+          "end": 7.92
+        }
+      ]
+    },
+    {
+      "start": 8.88,
+      "end": 15.55,
+      "lines": [
+        {
+          "text": "Thanks.",
+          "start": 8.88,
+          "end": 9.68
+        },
+        {
+          "text": "Mitchell, we did have something to add to this box of snicker snackers.",
+          "start": 10.71,
+          "end": 15.55
+        }
+      ]
+    },
+    {
+      "start": 16.44,
+      "end": 20.16,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 16.44,
+          "end": 17.48
+        },
+        {
+          "text": "English is not her first language. She's just trying to help.",
+          "start": 17.48,
+          "end": 20.16
+        }
+      ]
+    },
+    {
+      "start": 20.2,
+      "end": 24.12,
+      "lines": [
+        {
+          "text": "Mitchell, come on, you can't do that.",
+          "start": 20.2,
+          "end": 22.24
+        },
+        {
+          "text": "You can't just change the rules.",
+          "start": 22.24,
+          "end": 24.12
+        }
+      ],
+      "glossary": [
+        {
+          "term": "come on",
+          "ko": "(반박하며) 야 왜 그래, 그러지 마",
+          "type": "phrase",
+          "easy": "상대 말이 어이없거나 못마땅할 때 가볍게 따지는 말.",
+          "nuance": "'어서 와'가 아니라 여기서는 '에이, 그러지 마'에 가까운 핀잔.",
+          "when": "친구가 말도 안 되는 소리를 할 때 툭 던지는 말.",
+          "ex": "Come on, you promised you'd help me.",
+          "exKo": "야 왜 그래, 도와준다고 약속했잖아.",
+          "tip": "'어서/이리 와'와 '에이 그러지 마' 둘 다 되니 상황으로 구분."
+        },
+        {
+          "term": "change the rules",
+          "ko": "규칙을 멋대로 바꾸다",
+          "type": "phrase",
+          "easy": "원래 하던 약속이나 방식을 자기 마음대로 바꿔버리다.",
+          "when": "하던 대로 안 하고 갑자기 다르게 굴 때.",
+          "ex": "You can't change the rules in the middle of the game.",
+          "exKo": "게임 도중에 규칙을 바꾸면 안 되지."
+        }
+      ]
+    },
+    {
+      "start": 24.16,
+      "end": 33,
+      "lines": [
+        {
+          "text": "This is what we do. Gloria says something silly, we innocently laugh behind her back.",
+          "start": 24.16,
+          "end": 28.76
+        },
+        {
+          "text": "Come on. She's had a rough week, all right? She's really worried about tia Maria Cecilia and that surgery.",
+          "start": 28.8,
+          "end": 33
+        }
+      ],
+      "glossary": [
+        {
+          "term": "behind her back",
+          "ko": "그녀 모르게, 뒤에서",
+          "type": "idiom",
+          "easy": "본인이 없거나 모르는 사이에 몰래 하는 것.",
+          "nuance": "보통 흉보거나 험담할 때처럼 안 좋은 일을 몰래 한다는 느낌.",
+          "when": "누군가를 몰래 비웃거나 험담할 때.",
+          "ex": "Don't talk about her behind her back.",
+          "exKo": "그녀 없는 데서 험담하지 마.",
+          "tip": "'등 뒤에서' = 본인 모르게. to one's face(면전에서)와 반대."
+        },
+        {
+          "term": "rough week",
+          "ko": "힘든 한 주",
+          "type": "phrase",
+          "easy": "여러 안 좋은 일이 겹쳐서 고생한 한 주.",
+          "when": "요즘 일이 잘 안 풀려 지친 사람 얘기할 때.",
+          "ex": "Go easy on him, he's had a rough week.",
+          "exKo": "그 사람 좀 봐줘, 이번 주 힘들었어.",
+          "vs": "rough는 '힘든/거친', tough와 비슷하게 쓰임."
+        }
+      ]
+    },
+    {
+      "start": 33.04,
+      "end": 36.16,
+      "lines": [
+        {
+          "text": "Oh, and then she lost her cell phone at Pilates.",
+          "start": 33.04,
+          "end": 35.12
+        },
+        {
+          "text": "How do you know this?",
+          "start": 35.4,
+          "end": 36.16
+        }
+      ],
+      "glossary": [
+        {
+          "term": "lost ... at Pilates",
+          "ko": "필라테스 (수업)에서 잃어버렸다",
+          "type": "word",
+          "easy": "Pilates는 몸을 단련하는 운동(필라테스) 이름.",
+          "tip": "발음은 '필라테스'에 가깝고 끝의 -s를 살려 읽음."
+        }
+      ]
+    },
+    {
+      "start": 36.2,
+      "end": 40.04,
+      "lines": [
+        {
+          "text": "We have coffee.",
+          "start": 36.2,
+          "end": 37
+        },
+        {
+          "text": "Oh, have? So when did this become, like, a thing?",
+          "start": 37.36,
+          "end": 40.04
+        }
+      ],
+      "glossary": [
+        {
+          "term": "become a thing",
+          "ko": "(어느새) 하나의 일이 되다, 자리 잡다",
+          "type": "idiom",
+          "easy": "원래 없던 일이 어느새 정기적으로 하는 일이 되다.",
+          "nuance": "'언제부터 이게 너희 둘의 일상이 됐냐'며 살짝 놀리는 느낌.",
+          "when": "둘이 부쩍 자주 만나는 걸 알아챘을 때.",
+          "ex": "Wait, you two having lunch every day is a thing now?",
+          "exKo": "잠깐, 너희 매일 점심 먹는 게 이제 일상이 된 거야?",
+          "tip": "a thing = '실제로 존재하는/유행하는 일'. Is that a thing? = 그런 게 있어?"
+        }
+      ]
+    },
+    {
+      "start": 40.52,
+      "end": 43.28,
+      "lines": [
+        {
+          "text": "What's the big deal?",
+          "start": 40.52,
+          "end": 41.7
+        },
+        {
+          "text": "We're friends, I like Gloria.",
+          "start": 41.87,
+          "end": 43.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "What's the big deal?",
+          "ko": "그게 뭐가 그렇게 대수야?",
+          "type": "idiom",
+          "easy": "별일 아닌데 왜 그렇게 신경 쓰냐고 되묻는 말.",
+          "nuance": "상대가 과하게 반응한다고 느낄 때 가볍게 받아치는 말투.",
+          "when": "사소한 일로 누가 따질 때.",
+          "ex": "It's just coffee, what's the big deal?",
+          "exKo": "그냥 커피 한 잔인데, 뭐가 그렇게 대수야?",
+          "tip": "big deal = 큰일. No big deal = 별일 아니야."
+        }
+      ]
+    },
+    {
+      "start": 44.2,
+      "end": 52.28,
+      "lines": [
+        {
+          "text": "It's no big deal.",
+          "start": 44.2,
+          "end": 45.7
+        },
+        {
+          "text": "I have nothing against her, I just think All right.",
+          "start": 46.17,
+          "end": 52.28
+        }
+      ],
+      "glossary": [
+        {
+          "term": "no big deal",
+          "ko": "별일 아니야, 대수롭지 않아",
+          "type": "idiom",
+          "easy": "신경 쓸 만큼 중요한 일이 아니라는 뜻.",
+          "when": "괜찮다고 가볍게 넘길 때.",
+          "ex": "Don't worry, it's no big deal.",
+          "exKo": "걱정 마, 별일 아니야."
+        },
+        {
+          "term": "have nothing against ...",
+          "ko": "~에게 아무 감정/반감 없다",
+          "type": "idiom",
+          "easy": "그 사람을 싫어하거나 미워하는 게 아니라는 뜻.",
+          "nuance": "변명처럼 '딱히 그 사람이 싫은 건 아닌데...' 하고 운을 뗄 때.",
+          "when": "누군가를 비판하기 전에 미리 선 긋는 말.",
+          "ex": "I have nothing against him, I just don't trust him.",
+          "exKo": "그 사람한테 감정은 없는데, 그냥 못 믿겠어.",
+          "tip": "against = '~에 반대하여'. have something against = 좋게 안 봄."
+        }
+      ]
+    },
+    {
+      "start": 52.34,
+      "end": 57.11,
+      "lines": [
+        {
+          "text": "So before you get all judgy, I gave her that vase.",
+          "start": 52.34,
+          "end": 54.92
+        },
+        {
+          "text": "After I gave it to you.",
+          "start": 55.8,
+          "end": 57.11
+        }
+      ],
+      "glossary": [
+        {
+          "term": "get all judgy",
+          "ko": "막 남 판단하고 평가하려 들다",
+          "type": "phrase",
+          "easy": "남을 함부로 깐깐하게 평가하는 태도를 보이다.",
+          "nuance": "judgy는 회화체 단어로 '꼬투리 잡고 평가하는'. 살짝 비난조.",
+          "when": "상대가 나를 비판하려 들 때 미리 막으며.",
+          "ex": "Don't get all judgy, it was just one mistake.",
+          "exKo": "그렇게 평가하려 들지 마, 실수 한 번이었어.",
+          "tip": "judge(판단하다)에서 온 구어체 형용사 judgy. get all + 형용사 = 갑자기 ~해지다."
+        },
+        {
+          "term": "get rid of",
+          "ko": "없애다, 처분하다",
+          "type": "phrasal verb",
+          "easy": "필요 없는 것을 버리거나 치워 없애다.",
+          "when": "물건을 버리거나 누구를 떼어낼 때.",
+          "ex": "I need to get rid of these old shoes.",
+          "exKo": "이 낡은 신발들 좀 버려야겠어.",
+          "tip": "get rid of + 목적어. 사람·물건·습관 다 가능."
+        }
+      ]
+    },
+    {
+      "start": 59.75,
+      "end": 63.72,
+      "lines": [
+        {
+          "text": "Oh, these are fantastic. Why is Manny getting rid of 'em?",
+          "start": 59.75,
+          "end": 62.12
+        },
+        {
+          "text": "He said that they were last season.",
+          "start": 62.16,
+          "end": 63.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "last season",
+          "ko": "지난 시즌 (유행 지난)",
+          "type": "phrase",
+          "easy": "패션에서 한 철 지나 더 이상 유행이 아니란 뜻.",
+          "nuance": "'한물갔다'는 뉘앙스. 옷·스타일이 구식이라는 말.",
+          "when": "유행 지난 옷이나 물건을 가리킬 때.",
+          "ex": "Those jeans are so last season.",
+          "exKo": "저 청바지 완전 한물갔어."
+        }
+      ]
+    },
+    {
+      "start": 63.76,
+      "end": 68.03,
+      "lines": [
+        {
+          "text": "I used to have a pair like these. I can never find 'em anymore.",
+          "start": 63.76,
+          "end": 66.35
+        },
+        {
+          "text": "Oh, there's an outlet store.",
+          "start": 66.51,
+          "end": 68.03
+        }
+      ],
+      "glossary": [
+        {
+          "term": "outlet store",
+          "ko": "아울렛 (할인) 매장",
+          "type": "word",
+          "easy": "브랜드 물건을 싸게 파는 할인 매장.",
+          "when": "옷·신발을 저렴하게 살 곳을 말할 때.",
+          "ex": "I bought these sneakers at an outlet store.",
+          "exKo": "이 운동화 아울렛에서 샀어."
+        }
+      ]
+    },
+    {
+      "start": 68.31,
+      "end": 73.35,
+      "lines": [
+        {
+          "text": "They don't have men's size, but I'm sure the biggest size for boys will fit you perfectly.",
+          "start": 68.31,
+          "end": 72.69
+        },
+        {
+          "text": "I'll take you.",
+          "start": 72.69,
+          "end": 73.35
+        }
+      ]
+    },
+    {
+      "start": 73.39,
+      "end": 76.07,
+      "lines": [
+        {
+          "text": "All right. It's a date.",
+          "start": 73.39,
+          "end": 74.35
+        },
+        {
+          "text": "Another date.",
+          "start": 75.26,
+          "end": 76.07
+        }
+      ],
+      "glossary": [
+        {
+          "term": "It's a date",
+          "ko": "그럼 약속한 거다, 콜",
+          "type": "idiom",
+          "easy": "만날 약속을 확정 지을 때 하는 말.",
+          "nuance": "꼭 '데이트'가 아니라 '그날 보기로 약속!' 정도. 여기선 말장난으로 'date'를 반복.",
+          "when": "다음에 만나기로 정했을 때.",
+          "ex": "Lunch on Friday? It's a date.",
+          "exKo": "금요일에 점심? 그럼 약속한 거다.",
+          "tip": "date = 만날 약속 또는 데이트. 둘 다 되니 농담 소재로 자주 쓰임."
+        }
+      ]
+    },
+    {
+      "start": 76.91,
+      "end": 84.1,
+      "lines": [
+        {
+          "text": "Claire, I heard what happened with the vase, but I don't want you to worry about it.",
+          "start": 76.91,
+          "end": 81.5
+        },
+        {
+          "text": "I'm so sorry. I should have told you about that sooner.",
+          "start": 81.77,
+          "end": 84.1
+        }
+      ]
+    },
+    {
+      "start": 84.1,
+      "end": 90.83,
+      "lines": [
+        {
+          "text": "I just I have really been shaken by this whole fire thing.",
+          "start": 84.1,
+          "end": 88.15
+        },
+        {
+          "text": "You know, life is so fragile.",
+          "start": 88.19,
+          "end": 90.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "shaken by",
+          "ko": "~로 큰 충격을 받은, 흔들린",
+          "type": "phrase",
+          "easy": "어떤 일 때문에 마음이 크게 흔들리고 불안해진.",
+          "nuance": "물리적으로 흔든 게 아니라 마음이 충격받아 떨린 상태.",
+          "when": "사고·나쁜 소식으로 정신적 충격을 받았을 때.",
+          "ex": "She was really shaken by the accident.",
+          "exKo": "그녀는 그 사고로 큰 충격을 받았다.",
+          "tip": "shake(흔들다)의 과거분사 shaken. be shaken (up) = 동요하다."
+        },
+        {
+          "term": "fragile",
+          "ko": "연약한, 부서지기 쉬운",
+          "type": "word",
+          "easy": "쉽게 깨지거나 무너지는. 여기선 인생이 덧없다는 뜻.",
+          "when": "깨지기 쉬운 물건, 또는 약하고 위태로운 것.",
+          "ex": "Be careful, the glass is fragile.",
+          "exKo": "조심해, 그 유리 깨지기 쉬워.",
+          "tip": "택배 상자의 'FRAGILE'(취급주의)이 바로 이 단어."
+        }
+      ]
+    },
+    {
+      "start": 90.87,
+      "end": 98.55,
+      "lines": [
+        {
+          "text": "I know like a vase.",
+          "start": 90.87,
+          "end": 93.01
+        },
+        {
+          "text": "You tattled on me?",
+          "start": 96.91,
+          "end": 98.55
+        }
+      ],
+      "glossary": [
+        {
+          "term": "tattled on",
+          "ko": "(나를) 일러바쳤다, 고자질했다",
+          "type": "phrasal verb",
+          "easy": "남이 한 일을 윗사람한테 몰래 가서 일러바치다.",
+          "nuance": "주로 어린애가 '이르는' 유치한 행동을 가리킴. 비난조.",
+          "when": "누가 내 잘못을 다른 사람에게 고해바쳤을 때.",
+          "ex": "My little brother tattled on me to Mom.",
+          "exKo": "남동생이 엄마한테 날 일러바쳤어.",
+          "tip": "tattle on + 사람 = 그 사람을 일러바치다. tell on과 같은 뜻."
+        }
+      ]
+    },
+    {
+      "start": 98.59,
+      "end": 107.23,
+      "lines": [
+        {
+          "text": "She asked me about it. What was I supposed to do?",
+          "start": 98.59,
+          "end": 101.11
+        },
+        {
+          "text": "Why are you making those cruel sounds with your mouth?",
+          "start": 105.11,
+          "end": 107.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "What was I supposed to do?",
+          "ko": "그럼 나더러 어쩌라고? 별수 있었어?",
+          "type": "idiom",
+          "easy": "달리 방법이 없었다며 자기 행동을 변명하는 말.",
+          "nuance": "'be supposed to(~해야 한다)'를 써서 '내가 뭘 할 수 있었겠어' 하고 항변.",
+          "when": "어쩔 수 없었다고 변명할 때.",
+          "ex": "She asked, so what was I supposed to say?",
+          "exKo": "그녀가 물어보는데, 그럼 내가 뭐라고 해야 했어?",
+          "tip": "be supposed to = ~하기로 되어 있다/해야 한다."
+        }
+      ]
+    },
+    {
+      "start": 107.27,
+      "end": 111.11,
+      "lines": [
+        {
+          "text": "You don't see it?",
+          "start": 107.27,
+          "end": 108.5
+        },
+        {
+          "text": "You're turning Gloria into Mom.",
+          "start": 108.89,
+          "end": 111.11
+        }
+      ]
+    },
+    {
+      "start": 111.35,
+      "end": 115.63,
+      "lines": [
+        {
+          "text": "What?",
+          "start": 111.35,
+          "end": 111.94
+        },
+        {
+          "text": "First you got all defensive of her, and then you tattled on me to her.",
+          "start": 112.42,
+          "end": 115.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "got all defensive",
+          "ko": "막 방어적으로 굴었다, 발끈했다",
+          "type": "phrase",
+          "easy": "누가 뭐라 하지도 않았는데 미리 감싸고 예민하게 반응하다.",
+          "nuance": "defensive = 공격받을까 봐 미리 막는 태도. 'get all ~' 로 강조.",
+          "when": "누군가를(또는 자신을) 과하게 감쌀 때.",
+          "ex": "Why are you getting all defensive? I just asked.",
+          "exKo": "왜 이렇게 발끈해? 그냥 물어본 건데.",
+          "tip": "defense(방어)에서 옴. get defensive = 방어적이 되다."
+        }
+      ]
+    },
+    {
+      "start": 115.67,
+      "end": 121.87,
+      "lines": [
+        {
+          "text": "That's exactly what you did with old mom. It's what you're doing with new mom.",
+          "start": 115.67,
+          "end": 118.43
+        },
+        {
+          "text": "Okay, okay. Only you could make my friendship with Gloria into something ugly.",
+          "start": 118.47,
+          "end": 121.87
+        }
+      ]
+    },
+    {
+      "start": 121.91,
+      "end": 128.11,
+      "lines": [
+        {
+          "text": "Don't get me wrong, I think it's sweet.",
+          "start": 121.91,
+          "end": 123.67
+        },
+        {
+          "text": "We've all got our thing, you have mommy issues. I do not have mommy issues.",
+          "start": 123.67,
+          "end": 128.11
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Don't get me wrong",
+          "ko": "오해하지 마",
+          "type": "idiom",
+          "easy": "내 말을 나쁜 뜻으로 받아들이지 말라고 미리 못 박는 말.",
+          "nuance": "비판하기 직전에 '기분 나빠하진 말고' 하며 쿠션 까는 말.",
+          "when": "솔직한 말을 하기 전 분위기를 부드럽게 할 때.",
+          "ex": "Don't get me wrong, I like it, but it's pricey.",
+          "exKo": "오해는 마, 마음엔 드는데 좀 비싸.",
+          "tip": "get me wrong = 내 말을 잘못 이해하다."
+        },
+        {
+          "term": "mommy issues",
+          "ko": "엄마와 얽힌 심리적 문제",
+          "type": "idiom",
+          "easy": "엄마와의 관계에서 비롯된 마음속 응어리나 콤플렉스.",
+          "nuance": "농담 반 진담 반으로 '너 엄마 관련 트라우마 있잖아' 하고 놀리는 말.",
+          "when": "엄마 문제로 행동이 이상할 때 가볍게 놀리며.",
+          "ex": "He clearly has some mommy issues.",
+          "exKo": "쟤 확실히 엄마 관련 문제가 좀 있어.",
+          "tip": "daddy issues(아빠와 얽힌 문제)와 짝꿍 표현."
+        }
+      ]
+    },
+    {
+      "start": 128.47,
+      "end": 134.63,
+      "lines": [
+        {
+          "text": "Okay.",
+          "start": 128.47,
+          "end": 129.22
+        },
+        {
+          "text": "So I pick you up tomorrow, we go get you your big boy pants, and then we go and get that little ice cream, okay?",
+          "start": 129.84,
+          "end": 134.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "pick you up",
+          "ko": "(차로) 데리러 가다, 태우러 가다",
+          "type": "phrasal verb",
+          "easy": "차를 몰고 가서 사람을 태워 오는 것.",
+          "when": "누구를 데리러 가기로 약속할 때.",
+          "ex": "I'll pick you up at eight.",
+          "exKo": "8시에 데리러 갈게.",
+          "tip": "pick up = 줍다/사다 뜻도 있지만 사람 목적어면 '태우러 가다'."
+        },
+        {
+          "term": "big boy pants",
+          "ko": "다 큰 남자 바지 (어른용 바지)",
+          "type": "phrase",
+          "easy": "여기선 어린이용 말고 어른 사이즈 바지를 농담으로 부른 것.",
+          "nuance": "원래 'big boy pants'는 '어른답게 굴어라'는 농담 표현. 여기선 말장난.",
+          "when": "다 큰 사람한테 짓궂게 어린이 취급할 때.",
+          "tip": "put on your big boy pants = 어른답게 굴어라(관용구)."
+        }
+      ]
+    },
+    {
+      "start": 136.39,
+      "end": 139.47,
+      "lines": [
+        {
+          "text": "Perfect.",
+          "start": 136.39,
+          "end": 137.43
+        },
+        {
+          "text": "I don't want to hear it.",
+          "start": 138.51,
+          "end": 139.47
+        }
+      ]
+    },
+    {
+      "start": 142.51,
+      "end": 148.27,
+      "lines": [
+        {
+          "text": "Boy, do you have the right idea.",
+          "start": 142.51,
+          "end": 143.79
+        },
+        {
+          "text": "Could use a little break from the mother and child reunion going on down there.",
+          "start": 144.99,
+          "end": 148.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "have the right idea",
+          "ko": "제대로 (잘) 생각했다, 현명하다",
+          "type": "idiom",
+          "easy": "그 행동이 정답이라며 칭찬하는 말.",
+          "nuance": "'너 진짜 현명하다, 잘 빠져나왔네' 같은 부러움 섞인 칭찬.",
+          "when": "누군가가 좋은 선택을 했을 때.",
+          "ex": "Staying home tonight? You have the right idea.",
+          "exKo": "오늘 밤 집에 있겠다고? 너 제대로 생각했네."
+        },
+        {
+          "term": "could use a ...",
+          "ko": "~가 (좀) 필요하다, ~하면 좋겠다",
+          "type": "idiom",
+          "easy": "지금 그게 있으면 좋겠다고 돌려 말하는 표현.",
+          "nuance": "직접 '필요해'보다 부드럽게 '있으면 좋겠다'는 느낌.",
+          "when": "쉬거나 도움이 좀 있으면 좋겠을 때.",
+          "ex": "I could use a cup of coffee.",
+          "exKo": "커피 한 잔 있으면 딱 좋겠다.",
+          "tip": "could use = 직역 '쓸 수 있을 것'이지만 실제론 '필요하다'."
+        }
+      ]
+    },
+    {
+      "start": 149.23,
+      "end": 155.62,
+      "lines": [
+        {
+          "text": "Don't ask.",
+          "start": 149.23,
+          "end": 150.09
+        },
+        {
+          "text": "Mitchell's turning Gloria into mom. Bam! It's out.",
+          "start": 153.69,
+          "end": 155.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Bam!",
+          "ko": "(짠!) 터뜨리듯 내뱉는 감탄사",
+          "type": "phrase",
+          "easy": "뭔가 시원하게 까발리거나 보여줄 때 내는 효과음 같은 말.",
+          "nuance": "'자, 됐어!' / '터졌다!' 같은 통쾌한 느낌.",
+          "when": "비밀을 확 터뜨리거나 결과를 짠 하고 보여줄 때.",
+          "ex": "I hit the button and bam, it worked!",
+          "exKo": "버튼을 눌렀더니 짠, 됐어!"
+        },
+        {
+          "term": "It's out",
+          "ko": "(비밀이) 밝혀졌다, 다 까발려졌다",
+          "type": "idiom",
+          "easy": "숨기던 일이 이제 다 드러났다는 뜻.",
+          "when": "비밀이나 소문이 퍼져 알려졌을 때.",
+          "ex": "The secret is out now.",
+          "exKo": "이제 그 비밀 다 알려졌어.",
+          "tip": "out = 밖으로 = '드러난'. The truth is out = 진실이 밝혀졌다."
+        }
+      ]
+    },
+    {
+      "start": 157.49,
+      "end": 164.71,
+      "lines": [
+        {
+          "text": "You remember the way Mom and Mitchell used to be in their private little club?",
+          "start": 157.49,
+          "end": 161.91
+        },
+        {
+          "text": "Just the two of them. No one else allowed in.",
+          "start": 161.95,
+          "end": 164.71
+        }
+      ],
+      "glossary": [
+        {
+          "term": "private little club",
+          "ko": "둘만의 작은 모임 (끼리끼리)",
+          "type": "phrase",
+          "easy": "다른 사람은 못 끼는, 둘만 친한 사이를 빗댄 말.",
+          "nuance": "'club'을 써서 '끼리끼리 노는 사이'라고 살짝 비꼬는 표현.",
+          "when": "두 사람이 유독 붙어 다니며 남을 안 끼워줄 때.",
+          "ex": "They have their own little club at work.",
+          "exKo": "걔네는 회사에서 자기들끼리만 노는 사이야."
+        }
+      ]
+    },
+    {
+      "start": 164.87,
+      "end": 172.83,
+      "lines": [
+        {
+          "text": "Well, it's happening again.",
+          "start": 164.87,
+          "end": 168.11
+        },
+        {
+          "text": "But this time around, it's happening with your wife.",
+          "start": 169.07,
+          "end": 172.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "this time around",
+          "ko": "이번에는 (이번 차례에는)",
+          "type": "idiom",
+          "easy": "비슷한 일이 또 일어났는데 이번 경우엔, 이라는 뜻.",
+          "nuance": "예전에도 있던 일이 다시 반복될 때 '이번엔' 하고 짚는 말.",
+          "when": "같은 상황이 또 왔을 때.",
+          "ex": "Last time he was late; this time around he's early.",
+          "exKo": "지난번엔 늦었는데, 이번엔 일찍 왔네.",
+          "tip": "around가 '한 차례 돌아온' 느낌을 더해줌."
+        }
+      ]
+    },
+    {
+      "start": 173.83,
+      "end": 178.83,
+      "lines": [
+        {
+          "text": "You should see them down there.",
+          "start": 173.83,
+          "end": 175.17
+        },
+        {
+          "text": "Actually be adorable if it weren't so sick.",
+          "start": 176.51,
+          "end": 178.83
+        }
+      ],
+      "glossary": [
+        {
+          "term": "adorable",
+          "ko": "너무 사랑스러운, 깜찍한",
+          "type": "word",
+          "easy": "보기만 해도 귀엽고 정겨운.",
+          "when": "아기·강아지·다정한 장면이 귀여울 때.",
+          "ex": "Look at that puppy, it's adorable!",
+          "exKo": "저 강아지 좀 봐, 너무 귀여워!"
+        },
+        {
+          "term": "if it weren't so sick",
+          "ko": "그게 그렇게 역겹지만 않다면",
+          "type": "phrase",
+          "easy": "여기서 sick은 '아프다'가 아니라 '징그럽다/역겹다'는 뜻.",
+          "nuance": "'귀엽긴 한데 너무 꼴 보기 싫어서 못 봐주겠다'는 비꼼.",
+          "when": "보기 거북한 상황을 비꼴 때.",
+          "ex": "It would be funny if it weren't so sad.",
+          "exKo": "그렇게 슬프지만 않으면 웃겼을 텐데.",
+          "tip": "sick = 아픈, 하지만 구어로 '역겨운/비정상적인' 뜻도 흔함."
+        }
+      ]
+    },
+    {
+      "start": 180.01,
+      "end": 190.23,
+      "lines": [
+        {
+          "text": "I just.",
+          "start": 180.01,
+          "end": 180.79
+        },
+        {
+          "text": "you know, I feel like Mitchell is a grown man, he has a child, and he's still working out some psychodrama from 20 years ago.",
+          "start": 181.59,
+          "end": 190.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "working out some psychodrama",
+          "ko": "(마음속) 심리적 응어리를 풀어내고 있는 중",
+          "type": "phrase",
+          "easy": "과거의 감정 문제를 아직도 마음속에서 해결하려 애쓴다는 뜻.",
+          "nuance": "work out = 풀어내다/해결하다. psychodrama는 '내면의 심리극' 같은 느낌으로 과장.",
+          "when": "누가 옛 상처에 아직 매여 있을 때.",
+          "ex": "He's still working out some childhood drama.",
+          "exKo": "쟤 아직도 어릴 적 마음의 응어리를 풀고 있어.",
+          "tip": "work out = 운동하다 외에 '해결하다'는 뜻이 매우 흔함."
+        }
+      ]
+    },
+    {
+      "start": 191.67,
+      "end": 198.6,
+      "lines": [
+        {
+          "text": "Daddy, can I have a sip of your beer, please?",
+          "start": 191.67,
+          "end": 193.59
+        },
+        {
+          "text": "Oh my God.",
+          "start": 198.1,
+          "end": 198.6
+        }
+      ]
+    },
+    {
+      "start": 199.86,
+      "end": 205.23,
+      "lines": [
+        {
+          "text": "Oh my god.",
+          "start": 199.86,
+          "end": 200.71
+        },
+        {
+          "text": "Mitchell cozies up to mom, I go running to daddy.",
+          "start": 202.29,
+          "end": 205.23
+        }
+      ],
+      "glossary": [
+        {
+          "term": "cozies up to",
+          "ko": "~에게 살갑게 굴며 가까워지다, 들러붙다",
+          "type": "phrasal verb",
+          "easy": "친해지려고 다정하게 바싹 다가가다.",
+          "nuance": "cozy(아늑한)에서 옴. 가끔 '잘 보이려고 비위 맞추며 붙는다'는 약간 부정적 뉘앙스도.",
+          "when": "누가 누군가와 부쩍 친해지며 붙어 있을 때.",
+          "ex": "He always cozies up to the boss.",
+          "exKo": "쟤는 늘 사장한테 살살 붙어.",
+          "tip": "cozy up to + 사람 = 그 사람한테 가까이 붙다."
+        },
+        {
+          "term": "go running to",
+          "ko": "(의지하러) ~에게 쪼르르 달려가다",
+          "type": "idiom",
+          "easy": "위로나 도움받으려고 누구한테 곧장 달려가다.",
+          "nuance": "어린애가 엄마한테 이르러 가듯, 자기 편한테 의지하러 가는 느낌.",
+          "when": "힘들 때 늘 같은 사람한테 기댈 때.",
+          "ex": "Whenever she's upset, she runs to her dad.",
+          "exKo": "걘 속상할 때마다 아빠한테 쪼르르 달려가."
+        }
+      ]
+    },
+    {
+      "start": 205.56,
+      "end": 212.27,
+      "lines": [
+        {
+          "text": "I'm the one who's turning Gloria into mom, which is really disturbing since we're the same age.",
+          "start": 205.56,
+          "end": 210.34
+        },
+        {
+          "text": "You're older.",
+          "start": 211.5,
+          "end": 212.27
+        }
+      ],
+      "glossary": [
+        {
+          "term": "disturbing",
+          "ko": "꺼림칙한, 마음을 불편하게 하는",
+          "type": "word",
+          "easy": "보거나 들으면 기분이 께름칙하고 불안해지는.",
+          "when": "충격적이거나 불쾌한 사실·장면을 말할 때.",
+          "ex": "That movie was really disturbing.",
+          "exKo": "그 영화 정말 께름칙했어.",
+          "tip": "disturb(방해하다/불안하게 하다)의 형용사형."
+        }
+      ]
+    },
+    {
+      "start": 213.7,
+      "end": 220.18,
+      "lines": [
+        {
+          "text": "Oh, that's where we're gonna chime in.",
+          "start": 213.7,
+          "end": 215.22
+        },
+        {
+          "text": "Gloria, do you mind if I talk to Mitchell alone for a minute?",
+          "start": 217.94,
+          "end": 220.18
+        }
+      ],
+      "glossary": [
+        {
+          "term": "chime in",
+          "ko": "끼어들어 한마디 거들다",
+          "type": "phrasal verb",
+          "easy": "남들 대화에 슬쩍 끼어들어 의견을 보태다.",
+          "nuance": "방해라기보다 '나도 한마디 보탤게' 하고 자연스레 끼는 느낌.",
+          "when": "대화 중 한마디 보태고 싶을 때.",
+          "ex": "Feel free to chime in anytime.",
+          "exKo": "언제든 편하게 한마디 보태도 돼.",
+          "tip": "chime은 원래 종소리. 여러 소리에 '함께 울리듯' 끼어드는 그림."
+        },
+        {
+          "term": "do you mind if ...",
+          "ko": "~해도 괜찮을까요?",
+          "type": "phrase",
+          "easy": "정중하게 허락을 구하는 표현.",
+          "nuance": "직역은 '~하면 싫으세요?'라 'No(괜찮아요)'가 허락임에 주의.",
+          "when": "예의 바르게 부탁할 때.",
+          "ex": "Do you mind if I open the window?",
+          "exKo": "창문 좀 열어도 될까요?",
+          "tip": "허락할 땐 No, not at all. 거절할 땐 Yes, I do."
+        }
+      ]
+    },
+    {
+      "start": 220.22,
+      "end": 225.66,
+      "lines": [
+        {
+          "text": "It's okay. I already know what you said, and I think it's crazy.",
+          "start": 220.22,
+          "end": 223.74
+        },
+        {
+          "text": "Mitchell is not making me his mommy.",
+          "start": 223.78,
+          "end": 225.66
+        }
+      ]
+    },
+    {
+      "start": 225.7,
+      "end": 233.5,
+      "lines": [
+        {
+          "text": "No, I know he's not, but I think that I might be.",
+          "start": 225.7,
+          "end": 228.74
+        },
+        {
+          "text": "Okay, now you're going really, really crazy because I am younger than you.",
+          "start": 229.14,
+          "end": 233.5
+        }
+      ]
+    },
+    {
+      "start": 233.9,
+      "end": 238.54,
+      "lines": [
+        {
+          "text": "By 14 months, so let's settle down.",
+          "start": 233.9,
+          "end": 235.98
+        },
+        {
+          "text": "What is going on with you today?",
+          "start": 236.62,
+          "end": 238.54
+        }
+      ],
+      "glossary": [
+        {
+          "term": "settle down",
+          "ko": "진정해, 흥분 가라앉혀",
+          "type": "phrasal verb",
+          "easy": "너무 흥분하거나 들떴을 때 차분해지라고 하는 말.",
+          "when": "상대가 흥분해서 떠들 때 다독이며.",
+          "ex": "Settle down, everyone, and listen.",
+          "exKo": "다들 진정하고 들어봐.",
+          "tip": "settle down은 '정착하다'(자리 잡고 살다)는 뜻도 있음."
+        },
+        {
+          "term": "What is going on with you?",
+          "ko": "너 도대체 왜 그래?",
+          "type": "idiom",
+          "easy": "상대 행동이 평소와 달라 영문을 물을 때.",
+          "when": "누가 이상하게 행동할 때.",
+          "ex": "You've been quiet all day. What's going on with you?",
+          "exKo": "하루 종일 조용하네. 너 무슨 일 있어?"
+        }
+      ]
+    },
+    {
+      "start": 238.58,
+      "end": 241.5,
+      "lines": [
+        {
+          "text": "I...",
+          "start": 238.58,
+          "end": 239.08
+        },
+        {
+          "text": "All right, I'm working this out as I go.",
+          "start": 239.52,
+          "end": 241.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "working this out as I go",
+          "ko": "말하면서 그때그때 생각을 정리하는 중이야",
+          "type": "idiom",
+          "easy": "미리 정리된 게 아니라 말하는 동안 생각을 다듬는다는 뜻.",
+          "nuance": "as I go = '진행하면서, 그때그때'. 아직 결론이 안 났다는 솔직한 고백.",
+          "when": "생각이 정리 안 됐는데 일단 말로 풀어볼 때.",
+          "ex": "I don't have a plan, I'm just figuring it out as I go.",
+          "exKo": "계획은 없고, 그냥 해가면서 알아가는 중이야.",
+          "tip": "as you go = 하면서/진행하는 대로. learn as you go = 부딪치며 배우다."
+        }
+      ]
+    },
+    {
+      "start": 243.26,
+      "end": 257.62,
+      "lines": [
+        {
+          "text": "I think maybe seeing you get all buddy buddy today with Gloria made me feel like it did when you were with mom, and, I don't know, I felt like the odd man out.",
+          "start": 243.26,
+          "end": 254.94
+        },
+        {
+          "text": "Okay, well, that's how I used to feel with you and dad.",
+          "start": 255.3,
+          "end": 257.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "buddy buddy",
+          "ko": "아주 친한 척, 절친처럼 구는",
+          "type": "idiom",
+          "easy": "유난히 다정하게 붙어 친한 사이처럼 구는 모습.",
+          "nuance": "buddy(친구)를 두 번 반복. 가끔 '왜 저렇게 친한 척이야' 하는 살짝 비꼼.",
+          "when": "두 사람이 갑자기 너무 친하게 굴 때.",
+          "ex": "Since when are you two so buddy buddy?",
+          "exKo": "너희 둘 언제부터 그렇게 절친이 됐어?",
+          "tip": "be buddy buddy with ~ = ~와 아주 친하게 지내다."
+        },
+        {
+          "term": "the odd man out",
+          "ko": "혼자 끼지 못한 사람, 겉도는 사람",
+          "type": "idiom",
+          "easy": "무리에서 혼자만 어울리지 못하고 따돌려진 사람.",
+          "nuance": "일부러 따돌렸다기보다 '나만 빠진 느낌'에 가까움.",
+          "when": "다들 친한데 나만 겉돌 때.",
+          "ex": "Everyone had a partner, so I was the odd man out.",
+          "exKo": "다들 짝이 있어서 나만 혼자 남았어.",
+          "tip": "odd = 홀수/짝이 안 맞는. 짝 못 이룬 한 명이라는 그림."
+        }
+      ]
+    },
+    {
+      "start": 258.42,
+      "end": 266.37,
+      "lines": [
+        {
+          "text": "I know. We chose teams even during the divorce.",
+          "start": 258.42,
+          "end": 263.26
+        },
+        {
+          "text": "Okay.",
+          "start": 265.86,
+          "end": 266.37
+        }
+      ],
+      "glossary": [
+        {
+          "term": "chose teams",
+          "ko": "편을 갈랐다, 누구 편인지 정했다",
+          "type": "phrase",
+          "easy": "서로 편을 나눠 누구 쪽에 설지 정하다.",
+          "nuance": "이혼 과정에서 '엄마 편/아빠 편'을 정했다는 씁쓸한 비유.",
+          "when": "사람들이 갈라져 편을 먹을 때.",
+          "ex": "The kids ended up choosing teams during the fight.",
+          "exKo": "그 다툼 속에서 애들이 결국 편을 갈랐어.",
+          "tip": "choose/pick sides도 같은 뜻 (편을 들다)."
+        }
+      ]
+    },
+    {
+      "start": 266.91,
+      "end": 271.17,
+      "lines": [
+        {
+          "text": "The last couple of years, you and I have been our own team.",
+          "start": 266.91,
+          "end": 270.18
+        },
+        {
+          "text": "You know?",
+          "start": 270.5,
+          "end": 271.17
+        }
+      ]
+    },
+    {
+      "start": 271.72,
+      "end": 277.62,
+      "lines": [
+        {
+          "text": "And I don't want that to go away.",
+          "start": 271.72,
+          "end": 272.82
+        },
+        {
+          "text": "So, I guess I just felt a little left out today.",
+          "start": 274.06,
+          "end": 277.62
+        }
+      ],
+      "glossary": [
+        {
+          "term": "left out",
+          "ko": "소외된, 따돌림당한 (낀 듯 안 낀 듯)",
+          "type": "phrasal verb",
+          "easy": "무리에 못 끼고 빠진 듯한 서운한 느낌.",
+          "nuance": "feel left out = '나만 빠진 것 같아 서운하다'는 감정 표현.",
+          "when": "다른 사람들끼리만 어울려 서운할 때.",
+          "ex": "I felt left out at the party.",
+          "exKo": "그 파티에서 나만 겉도는 기분이었어.",
+          "tip": "leave out = 빼다/제외하다. 그 수동형이 left out."
+        }
+      ]
+    },
+    {
+      "start": 277.74,
+      "end": 286.38,
+      "lines": [
+        {
+          "text": "Shut up.",
+          "start": 277.74,
+          "end": 278.62
+        },
+        {
+          "text": "Okay, can you two try hugging a box so that your poor mother, doesn't have to do all the hard work?",
+          "start": 281.46,
+          "end": 286.38
+        }
+      ]
+    },
+    {
+      "start": 286.42,
+      "end": 293.22,
+      "lines": [
+        {
+          "text": "I am sorry, Gloria, about all the mom stuff today.",
+          "start": 286.42,
+          "end": 289.14
+        },
+        {
+          "text": "I just, I got this crazy idea that you like Mitchell better than me.",
+          "start": 289.14,
+          "end": 293.22
+        }
+      ],
+      "glossary": [
+        {
+          "term": "got this crazy idea that ...",
+          "ko": "~라는 말도 안 되는 생각이 들었다",
+          "type": "phrase",
+          "easy": "엉뚱하게도 ~라고 혼자 생각해버렸다는 뜻.",
+          "nuance": "자기 오해를 머쓱하게 인정하며 '내가 괜한 생각을 했다'는 느낌.",
+          "when": "혼자 넘겨짚었다가 멋쩍게 털어놓을 때.",
+          "ex": "I got this crazy idea that you were mad at me.",
+          "exKo": "네가 나한테 화난 줄 알았지 뭐야."
+        },
+        {
+          "term": "like ... better than ...",
+          "ko": "~보다 ~를 더 좋아하다",
+          "type": "phrase",
+          "easy": "둘 중에 한 쪽을 더 좋아한다고 비교하는 표현.",
+          "when": "둘을 비교해 선호를 말할 때.",
+          "ex": "I like tea better than coffee.",
+          "exKo": "난 커피보다 차가 더 좋아."
+        }
+      ]
+    },
+    {
+      "start": 293.26,
+      "end": 296.38,
+      "lines": [
+        {
+          "text": "I do like Mitchell better than you.",
+          "start": 293.26,
+          "end": 295.19
+        },
+        {
+          "text": "What?",
+          "start": 295.8,
+          "end": 296.38
+        }
+      ]
+    },
+    {
+      "start": 296.83,
+      "end": 301.34,
+      "lines": [
+        {
+          "text": "Please.",
+          "start": 296.83,
+          "end": 297.34
+        },
+        {
+          "text": "Are you going to honestly tell me that I'm your favorite person in this family?",
+          "start": 297.54,
+          "end": 301.34
+        }
+      ]
+    },
+    {
+      "start": 301.66,
+      "end": 306.22,
+      "lines": [
+        {
+          "text": "I'm not even your favorite Colombian in this family.",
+          "start": 301.66,
+          "end": 304.18
+        },
+        {
+          "text": "I would love to get closer to you.",
+          "start": 304.3,
+          "end": 306.22
+        }
+      ]
+    },
+    {
+      "start": 306.46,
+      "end": 310.78,
+      "lines": [
+        {
+          "text": "You have my number.",
+          "start": 306.46,
+          "end": 307.85
+        },
+        {
+          "text": "But call me quickly because I book up.",
+          "start": 308.21,
+          "end": 310.78
+        }
+      ],
+      "glossary": [
+        {
+          "term": "book up",
+          "ko": "(예약·일정이) 꽉 차다",
+          "type": "phrasal verb",
+          "easy": "일정이나 예약이 가득 차서 자리가 없다는 뜻.",
+          "nuance": "여기선 'I book up'으로 '나 스케줄 금방 꽉 차'라고 농담조로 으스대는 말.",
+          "when": "예약·일정이 빠르게 차서 자리 없을 때.",
+          "ex": "The restaurant books up fast on weekends.",
+          "exKo": "그 식당은 주말이면 예약이 금방 꽉 차.",
+          "tip": "be booked up / fully booked = 예약이 다 찼다."
+        }
+      ]
+    }
+  ]
+}

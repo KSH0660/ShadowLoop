@@ -1,0 +1,624 @@
+{
+  "id": "PKIi2yI8GsY",
+  "segments": [
+    {
+      "start": 0.16,
+      "end": 3.88,
+      "lines": [
+        {
+          "text": "Here you are, sir.",
+          "start": 0.16,
+          "end": 0.93
+        },
+        {
+          "text": "One Mighty Weenie, and one low-fat Leanie Weenie.",
+          "start": 1.37,
+          "end": 3.88
+        }
+      ]
+    },
+    {
+      "start": 3.94,
+      "end": 6.04,
+      "lines": [
+        {
+          "text": "Thank you.",
+          "start": 3.94,
+          "end": 4.52
+        },
+        {
+          "text": "Have a Weenie day.",
+          "start": 5.08,
+          "end": 6.04
+        }
+      ]
+    },
+    {
+      "start": 7.31,
+      "end": 9.16,
+      "lines": [
+        {
+          "text": "Excuse me, Carl.",
+          "start": 7.31,
+          "end": 8.6
+        },
+        {
+          "text": "Yes?",
+          "start": 8.64,
+          "end": 9.16
+        }
+      ]
+    },
+    {
+      "start": 10.07,
+      "end": 14.09,
+      "lines": [
+        {
+          "text": "You're supposed to wish the customer a wonderful Weenie day.",
+          "start": 10.07,
+          "end": 12.8
+        },
+        {
+          "text": "Not just a Weenie day.",
+          "start": 12.88,
+          "end": 14.09
+        }
+      ],
+      "glossary": [
+        {
+          "term": "be supposed to",
+          "ko": "~하기로 되어 있다, ~해야 한다",
+          "type": "phrase",
+          "easy": "규칙이나 약속 때문에 마땅히 그렇게 해야 하는 것",
+          "nuance": "강한 명령이라기보다 '원래 그렇게 하게 돼 있다'는 느낌. 안 하면 잘못한 게 됨.",
+          "when": "규칙·역할·예정된 일을 말할 때.",
+          "ex": "You're supposed to wear a helmet here.",
+          "exKo": "여기서는 헬멧을 써야 해요.",
+          "tip": "be supposed to + 동사원형. 'used to(예전에 ~했다)'와 헷갈리지 말 것."
+        }
+      ]
+    },
+    {
+      "start": 14.21,
+      "end": 18.76,
+      "lines": [
+        {
+          "text": "It's a small but important difference.",
+          "start": 14.21,
+          "end": 15.84
+        },
+        {
+          "text": "Gee, I'm so sorry.",
+          "start": 17.12,
+          "end": 18.76
+        }
+      ]
+    },
+    {
+      "start": 20.16,
+      "end": 32,
+      "lines": [
+        {
+          "text": "Oh, but that's the third time I've had to remind you.",
+          "start": 20.16,
+          "end": 22.16
+        },
+        {
+          "text": "Well, why don't you just stand me in front of everybody and fling sauerkraut at me?",
+          "start": 28.44,
+          "end": 32
+        }
+      ],
+      "glossary": [
+        {
+          "term": "remind",
+          "ko": "다시 일러주다, 상기시키다",
+          "type": "word",
+          "easy": "잊지 않게 다시 한 번 말해 주는 것",
+          "ex": "Please remind me to call her.",
+          "exKo": "그녀에게 전화하라고 나한테 좀 다시 말해 줘.",
+          "vs": "remember는 '내가 기억하다', remind는 '남에게 기억나게 해 주다'."
+        },
+        {
+          "term": "fling",
+          "ko": "확 던지다, 내던지다",
+          "type": "word",
+          "easy": "힘껏 거칠게 던지다",
+          "nuance": "그냥 throw보다 더 세게, 감정을 담아 휙 던지는 느낌.",
+          "ex": "He flung the door open.",
+          "exKo": "그는 문을 확 열어젖혔다."
+        }
+      ]
+    },
+    {
+      "start": 34,
+      "end": 41.63,
+      "lines": [
+        {
+          "text": "Now you're being sarcastic.",
+          "start": 34,
+          "end": 35.72
+        },
+        {
+          "text": "And according to the employee handbook, sarcasm is a condiment that sours a happy Weenie!",
+          "start": 35.8,
+          "end": 41.63
+        }
+      ],
+      "glossary": [
+        {
+          "term": "sarcastic",
+          "ko": "비꼬는, 빈정대는",
+          "type": "word",
+          "easy": "속마음과 반대로 말하며 상대를 비웃는 것",
+          "nuance": "겉으로는 칭찬 같지만 사실은 놀리거나 빈정대는 말투.",
+          "ex": "\"Nice job,\" she said in a sarcastic tone.",
+          "exKo": "\"잘했네.\" 그녀가 비꼬는 말투로 말했다.",
+          "tip": "명사는 sarcasm(빈정거림)."
+        },
+        {
+          "term": "condiment",
+          "ko": "(소스 같은) 양념, 조미료",
+          "type": "word",
+          "easy": "음식에 곁들이는 케첩·머스타드 같은 양념",
+          "ex": "Ketchup is my favorite condiment.",
+          "exKo": "케첩은 내가 제일 좋아하는 양념이야."
+        }
+      ]
+    },
+    {
+      "start": 43.32,
+      "end": 52.44,
+      "lines": [
+        {
+          "text": "I'll try to remember that Edward.",
+          "start": 43.32,
+          "end": 45.08
+        },
+        {
+          "text": "Carl, I think that it would be better if you address me as sir or Mr. Winslow.",
+          "start": 47.94,
+          "end": 52.44
+        }
+      ],
+      "glossary": [
+        {
+          "term": "address ... as",
+          "ko": "~라고 부르다 / 호칭하다",
+          "type": "phrase",
+          "easy": "누군가를 어떤 호칭으로 부르다",
+          "nuance": "예의나 격식을 갖춰 어떻게 부를지 말할 때 자주 씀.",
+          "when": "직함·존칭으로 불러 달라고 할 때.",
+          "ex": "Please address me as Dr. Kim.",
+          "exKo": "저를 김 박사라고 불러 주세요.",
+          "tip": "여기서 address는 '주소'가 아니라 '부르다'라는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 56.48,
+      "end": 60.72,
+      "lines": [
+        {
+          "text": "You've got to be kidding.",
+          "start": 56.48,
+          "end": 57.72
+        },
+        {
+          "text": "Oh, no Carl.",
+          "start": 59.36,
+          "end": 60.72
+        }
+      ],
+      "glossary": [
+        {
+          "term": "You've got to be kidding",
+          "ko": "농담이지? 말도 안 돼",
+          "type": "idiom",
+          "easy": "믿기지 않을 만큼 황당할 때 내뱉는 말",
+          "nuance": "정말 농담인지 묻는 게 아니라, '설마 진심은 아니지?'라는 놀람·어이없음.",
+          "when": "상대 말이 어이없거나 너무 뜻밖일 때.",
+          "ex": "You've got to be kidding me, it's broken again?",
+          "exKo": "장난해? 또 고장 났다고?",
+          "tip": "= You must be joking. 줄여서 'You gotta be kidding'."
+        }
+      ]
+    },
+    {
+      "start": 61.42,
+      "end": 67.06,
+      "lines": [
+        {
+          "text": "I mean, after all, we are running a business here.",
+          "start": 61.42,
+          "end": 63.4
+        },
+        {
+          "text": "I don't believe this.",
+          "start": 66.06,
+          "end": 67.06
+        }
+      ],
+      "glossary": [
+        {
+          "term": "after all",
+          "ko": "어쨌든, 따지고 보면",
+          "type": "phrase",
+          "easy": "'그래도 결국엔' 하고 이유를 덧붙일 때 쓰는 말",
+          "nuance": "앞말의 근거를 대며 '왜냐면 어차피 ~잖아'라는 느낌.",
+          "ex": "Don't be hard on him; he's just a kid, after all.",
+          "exKo": "걔한테 너무 그러지 마, 어쨌든 아직 애잖아.",
+          "tip": "문장 끝이나 앞에 붙음. '결국(나중에) ~했다'는 뜻으로도 쓰여 문맥으로 구분."
+        },
+        {
+          "term": "I don't believe this",
+          "ko": "이게 말이 돼? 어이없네",
+          "type": "idiom",
+          "easy": "황당한 상황에 '믿을 수가 없다'며 짜증 섞어 하는 말",
+          "nuance": "진짜 안 믿는다기보다 어이없고 짜증난다는 감정 표현.",
+          "ex": "I don't believe this — the bus left early!",
+          "exKo": "이거 실화야? 버스가 일찍 가버렸어!"
+        }
+      ]
+    },
+    {
+      "start": 68.5,
+      "end": 74.34,
+      "lines": [
+        {
+          "text": "Now, Carl, I'd like you to bus those tables and refill the napkin dispensers.",
+          "start": 68.5,
+          "end": 72.18
+        },
+        {
+          "text": "All right.",
+          "start": 73.5,
+          "end": 74.34
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bus those tables",
+          "ko": "테이블을 치우다 (그릇 등을 거두다)",
+          "type": "phrase",
+          "easy": "식당에서 손님이 떠난 자리의 그릇을 치우고 닦다",
+          "nuance": "식당 일에서 쓰는 표현. bus가 동사로 '테이블을 정리하다'.",
+          "when": "식당·카페 일 얘기할 때.",
+          "ex": "After lunch, he buses the tables.",
+          "exKo": "점심 후에 그는 테이블을 치운다.",
+          "tip": "그릇 치우는 직원을 busboy/busser라고 함. 교통수단 bus와 철자만 같음."
+        },
+        {
+          "term": "refill",
+          "ko": "다시 채우다, 리필하다",
+          "type": "word",
+          "easy": "비거나 줄어든 것을 다시 가득 채우는 것",
+          "ex": "Can you refill my coffee?",
+          "exKo": "커피 좀 다시 채워 주실래요?"
+        }
+      ]
+    },
+    {
+      "start": 75.66,
+      "end": 83.22,
+      "lines": [
+        {
+          "text": "Then empty the trash can, scrub the grills and mop the bathroom floors.",
+          "start": 75.66,
+          "end": 78.42
+        },
+        {
+          "text": "And while I'm doing all of that, what will you be doing?",
+          "start": 80.22,
+          "end": 83.22
+        }
+      ],
+      "glossary": [
+        {
+          "term": "scrub",
+          "ko": "박박 문질러 닦다",
+          "type": "word",
+          "easy": "솔이나 손으로 세게 문질러 깨끗이 씻다",
+          "ex": "She scrubbed the dirty pan.",
+          "exKo": "그녀는 더러운 팬을 박박 닦았다."
+        },
+        {
+          "term": "mop",
+          "ko": "대걸레로 닦다",
+          "type": "word",
+          "easy": "긴 자루 걸레로 바닥을 닦다",
+          "ex": "I have to mop the kitchen floor.",
+          "exKo": "부엌 바닥을 대걸레로 닦아야 해."
+        }
+      ]
+    },
+    {
+      "start": 84.37,
+      "end": 88.5,
+      "lines": [
+        {
+          "text": "Well, I'll be doing what I'm supposed to be doing.",
+          "start": 84.37,
+          "end": 85.98
+        },
+        {
+          "text": "Supervising.",
+          "start": 87.7,
+          "end": 88.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "supervise",
+          "ko": "감독하다, 관리하다",
+          "type": "word",
+          "easy": "남들이 일하는 걸 지켜보며 지시·관리하는 것",
+          "nuance": "여기선 '난 그냥 시키고 지켜보기만 한다'는 약 올리는 뉘앙스.",
+          "ex": "A manager supervises the new workers.",
+          "exKo": "매니저가 신입 직원들을 감독한다."
+        }
+      ]
+    },
+    {
+      "start": 95.22,
+      "end": 98.69,
+      "lines": [
+        {
+          "text": "I'm bushed. I'ma crash.",
+          "start": 95.22,
+          "end": 97.02
+        },
+        {
+          "text": "Bushed?",
+          "start": 98.08,
+          "end": 98.69
+        }
+      ],
+      "glossary": [
+        {
+          "term": "bushed",
+          "ko": "녹초가 된, 기진맥진한",
+          "type": "idiom",
+          "easy": "너무 지쳐서 더 못 움직일 만큼 피곤한",
+          "nuance": "very tired의 캐주얼한 회화체. 친구끼리 편하게 씀.",
+          "when": "일·운동 끝나고 완전히 지쳤을 때.",
+          "ex": "After the long hike, I was totally bushed.",
+          "exKo": "긴 등산 끝에 난 완전히 녹초가 됐어.",
+          "vs": "exhausted와 같은 뜻이지만 더 구어적이고 가벼움."
+        },
+        {
+          "term": "crash",
+          "ko": "(지쳐서) 쓰러져 자다",
+          "type": "idiom",
+          "easy": "너무 피곤해 바로 곯아떨어지다",
+          "nuance": "'부딪치다'가 아니라 회화에서 '뻗어서 자다'.",
+          "ex": "I'm so tired, I'm gonna crash.",
+          "exKo": "너무 피곤해, 그냥 뻗어서 잘래.",
+          "tip": "'crash at someone's place'는 '남의 집에서 신세 지며 자다'."
+        }
+      ]
+    },
+    {
+      "start": 99.48,
+      "end": 103.78,
+      "lines": [
+        {
+          "text": "From what?",
+          "start": 99.48,
+          "end": 100.06
+        },
+        {
+          "text": "What's the matter with you?",
+          "start": 102.62,
+          "end": 103.78
+        }
+      ]
+    },
+    {
+      "start": 104.18,
+      "end": 107.9,
+      "lines": [
+        {
+          "text": "What's the matter with me?",
+          "start": 104.18,
+          "end": 105.26
+        },
+        {
+          "text": "I'll tell you what's the matter with me.",
+          "start": 106.45,
+          "end": 107.9
+        }
+      ]
+    },
+    {
+      "start": 109.66,
+      "end": 119.22,
+      "lines": [
+        {
+          "text": "You had me doing every filthy, disgusting job in the history of fast food.",
+          "start": 109.66,
+          "end": 115.02
+        },
+        {
+          "text": "Oh, take it easy, Carl.",
+          "start": 117.5,
+          "end": 119.22
+        }
+      ],
+      "glossary": [
+        {
+          "term": "filthy",
+          "ko": "더럽고 지저분한",
+          "type": "word",
+          "easy": "아주 더러운, 때가 잔뜩 낀",
+          "nuance": "dirty보다 훨씬 더 강하게 더러움.",
+          "ex": "His shoes were filthy after the rain.",
+          "exKo": "비 온 뒤 그의 신발은 흙투성이로 더러웠다."
+        },
+        {
+          "term": "take it easy",
+          "ko": "진정해, 너무 흥분하지 마",
+          "type": "idiom",
+          "easy": "화내거나 서두르지 말고 마음 편히 가지라는 말",
+          "nuance": "상대를 달래거나, 헤어질 때 '잘 지내'라는 인사로도 씀.",
+          "ex": "Take it easy, we still have time.",
+          "exKo": "진정해, 아직 시간 있어.",
+          "tip": "작별 인사로 쓰면 'Take it easy!(잘 지내!)'."
+        }
+      ]
+    },
+    {
+      "start": 119.46,
+      "end": 127.02,
+      "lines": [
+        {
+          "text": "And don't call me that.",
+          "start": 119.46,
+          "end": 121.08
+        },
+        {
+          "text": "We are home now, Edward.",
+          "start": 124.87,
+          "end": 127.02
+        }
+      ]
+    },
+    {
+      "start": 131.88,
+      "end": 142.96,
+      "lines": [
+        {
+          "text": "And inside these walls, I'm the head weenie.",
+          "start": 131.88,
+          "end": 136.48
+        },
+        {
+          "text": "Okay, okay.",
+          "start": 141.96,
+          "end": 142.96
+        }
+      ],
+      "glossary": [
+        {
+          "term": "head weenie",
+          "ko": "여기서 우두머리/대장 (말장난)",
+          "type": "idiom",
+          "easy": "'우두머리'라는 뜻인데 가게 이름(Weenie)으로 비튼 농담",
+          "nuance": "원래 'head honcho(우두머리)' 같은 표현을 핫도그 가게 Weenie에 빗댄 말장난.",
+          "tip": "weenie는 소시지/핫도그를 뜻하는 미국 속어. 이 장면 가게 이름이라 말장난이 됨."
+        }
+      ]
+    },
+    {
+      "start": 143,
+      "end": 149.72,
+      "lines": [
+        {
+          "text": "Okay, sir.",
+          "start": 143,
+          "end": 146.08
+        },
+        {
+          "text": "And tomorrow is Saturday.",
+          "start": 147.48,
+          "end": 149.72
+        }
+      ]
+    },
+    {
+      "start": 150.64,
+      "end": 163.2,
+      "lines": [
+        {
+          "text": "And there are just a few things around the house that need to be done.",
+          "start": 150.64,
+          "end": 155.76
+        },
+        {
+          "text": "Like what?",
+          "start": 162.6,
+          "end": 163.2
+        }
+      ]
+    },
+    {
+      "start": 163.36,
+      "end": 168.4,
+      "lines": [
+        {
+          "text": "Well, first, the lawn needs to be mowed.",
+          "start": 163.36,
+          "end": 166.8
+        },
+        {
+          "text": "Okay, I'll get up early and do it.",
+          "start": 166.96,
+          "end": 168.4
+        }
+      ],
+      "glossary": [
+        {
+          "term": "mow the lawn",
+          "ko": "잔디를 깎다",
+          "type": "phrase",
+          "easy": "마당의 잔디를 짧게 깎다",
+          "when": "집안일·마당일 얘기할 때.",
+          "ex": "I mow the lawn every Saturday.",
+          "exKo": "난 토요일마다 잔디를 깎아.",
+          "tip": "여기선 수동형 'the lawn needs to be mowed(잔디가 깎여야 한다)'로 나옴."
+        }
+      ]
+    },
+    {
+      "start": 168.4,
+      "end": 180.08,
+      "lines": [
+        {
+          "text": "And then you'll trim the hedges, paint the garage door, take down the storm windows, and wash and wax my car.",
+          "start": 168.4,
+          "end": 174.72
+        },
+        {
+          "text": "And while I'm doing all of this, what will you be doing?",
+          "start": 178.04,
+          "end": 180.08
+        }
+      ],
+      "glossary": [
+        {
+          "term": "trim the hedges",
+          "ko": "울타리(나무) 가지를 다듬다",
+          "type": "phrase",
+          "easy": "마당 둘레 나무 울타리를 보기 좋게 잘라 정리하다",
+          "ex": "He trims the hedges in the front yard.",
+          "exKo": "그는 앞마당 울타리 나무를 다듬는다.",
+          "tip": "trim은 '조금씩 다듬어 자르다'. hedge는 줄지어 심은 나무 울타리."
+        },
+        {
+          "term": "wax",
+          "ko": "(차에) 왁스칠하다, 광을 내다",
+          "type": "word",
+          "easy": "차 표면에 왁스를 발라 반짝이게 하다",
+          "ex": "He washed and waxed his new car.",
+          "exKo": "그는 새 차를 씻고 왁스칠했다."
+        }
+      ]
+    },
+    {
+      "start": 180.08,
+      "end": 182.8,
+      "lines": [
+        {
+          "text": "What I'm supposed to be doing.",
+          "start": 180.08,
+          "end": 181.76
+        },
+        {
+          "text": "Supervising.",
+          "start": 181.76,
+          "end": 182.8
+        }
+      ]
+    }
+  ]
+}
