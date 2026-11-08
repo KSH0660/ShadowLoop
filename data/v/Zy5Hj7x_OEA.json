@@ -1,0 +1,693 @@
+{
+  "id": "Zy5Hj7x_OEA",
+  "segments": [
+    {
+      "start": 6.1,
+      "end": 20.86,
+      "lines": [
+        {
+          "text": "May I jump in here for a sec?",
+          "start": 6.1,
+          "end": 7.33
+        },
+        {
+          "text": "Because the anecdote you brought up of wanting to change government policy and inspire the world to have a Mars program, if you will, whether it's a popular uprising or space programs at the government level, I think it's a fascinating anecdote.",
+          "start": 7.35,
+          "end": 20.86
+        }
+      ],
+      "glossary": [
+        {
+          "term": "jump in",
+          "ko": "(대화에) 끼어들다",
+          "type": "phrase",
+          "easy": "남이 이야기하는 중에 내가 한마디 하려고 들어가다",
+          "nuance": "interrupt보다 부드럽고 공손한 느낌. 'Can I jump in?'은 회의에서 아주 흔한 말.",
+          "when": "회의·대담에서 내 의견을 잠깐 덧붙이고 싶을 때.",
+          "ex": "Sorry, can I jump in for a second?",
+          "exKo": "죄송한데, 잠깐 한마디 해도 될까요?",
+          "vs": "interrupt는 '말을 끊다'라 무례하게 들릴 수 있고, jump in은 자연스럽게 '참여한다'는 느낌."
+        },
+        {
+          "term": "for a sec",
+          "ko": "잠깐",
+          "type": "phrase",
+          "easy": "아주 짧은 시간 동안 (second의 줄임말)",
+          "ex": "Hold on for a sec, I'll be right back.",
+          "exKo": "잠깐만 기다려, 금방 올게.",
+          "tip": "sec = second. 구어에서 'Just a sec!'(잠깐만!)도 자주 쓴다."
+        },
+        {
+          "term": "anecdote",
+          "ko": "일화",
+          "type": "word",
+          "easy": "실제로 있었던 짧고 재미있는 이야기",
+          "ex": "He told a funny anecdote about his first job.",
+          "exKo": "그는 첫 직장에 대한 재미있는 일화를 들려줬다.",
+          "tip": "antidote(해독제)와 철자가 비슷해서 헷갈리기 쉽다."
+        },
+        {
+          "term": "if you will",
+          "ko": "말하자면, 이를테면",
+          "type": "idiom",
+          "easy": "방금 쓴 표현이 좀 특이하지만 그렇게 부르자는 뜻",
+          "nuance": "조금 과장되거나 비유적인 단어를 쓴 뒤 '이렇게 표현해도 된다면'이라고 덧붙이는 말.",
+          "when": "강연·인터뷰에서 비유적인 단어를 쓴 직후.",
+          "ex": "She's the heart of the team, if you will.",
+          "exKo": "그녀는 말하자면 팀의 심장 같은 사람이다.",
+          "tip": "'원하신다면'이라는 뜻이 아니다 — 거의 '말하자면'으로 기억하자."
+        },
+        {
+          "term": "popular uprising",
+          "ko": "민중 봉기",
+          "type": "phrase",
+          "easy": "많은 일반 사람들이 들고일어나 변화를 요구하는 것",
+          "ex": "The government fell after a popular uprising.",
+          "exKo": "민중 봉기 후에 정부가 무너졌다.",
+          "tip": "여기서 popular는 '인기 있는'이 아니라 '대중의, 민중의'라는 뜻."
+        }
+      ]
+    },
+    {
+      "start": 20.86,
+      "end": 31.86,
+      "lines": [
+        {
+          "text": "Because in a sense, what you were saying is, I, as an individual, want to start an entitiy-- business or otherwise-- that will catalyze change even beyond the company level or the industry level.",
+          "start": 20.86,
+          "end": 31.86
+        }
+      ],
+      "glossary": [
+        {
+          "term": "in a sense",
+          "ko": "어떤 의미에서는",
+          "type": "phrase",
+          "easy": "완전히는 아니지만 어느 정도는 그렇다고 볼 수 있다",
+          "ex": "In a sense, we're all students for life.",
+          "exKo": "어떤 의미에서 우리는 평생 학생이다."
+        },
+        {
+          "term": "catalyze",
+          "ko": "촉진하다, 촉발하다",
+          "type": "word",
+          "easy": "어떤 변화가 빨리 일어나도록 불을 붙이다",
+          "nuance": "화학의 '촉매(catalyst)'에서 온 말. 스스로가 변화의 '방아쇠'가 된다는 느낌.",
+          "ex": "The new law catalyzed a lot of investment.",
+          "exKo": "새 법이 많은 투자를 촉발했다.",
+          "vs": "cause는 단순히 '일으키다', catalyze는 '변화를 가속시키다'."
+        }
+      ]
+    },
+    {
+      "start": 32.22,
+      "end": 47.11,
+      "lines": [
+        {
+          "text": "And I see a parallel in other initiatives you've taken on, in that if you look at the goal of Tesla under your leadership-- it is to usher the transition to all vehicles being electric, not just the cars that currently are produced by Tesla.",
+          "start": 32.22,
+          "end": 47.11
+        }
+      ],
+      "glossary": [
+        {
+          "term": "taken on",
+          "ko": "(일을) 맡다, 떠맡다",
+          "type": "phrase",
+          "easy": "새로운 일이나 책임을 스스로 맡아서 하다",
+          "when": "새 프로젝트·역할·도전을 받아들일 때.",
+          "ex": "She took on a new project last month.",
+          "exKo": "그녀는 지난달 새 프로젝트를 맡았다.",
+          "tip": "take on은 '고용하다', '(상대와) 맞붙다'라는 뜻도 있다. 목적어가 일이면 '맡다'."
+        },
+        {
+          "term": "usher",
+          "ko": "~을 이끌다, 안내하다",
+          "type": "word",
+          "easy": "새로운 시대나 변화가 시작되도록 이끌어 들이다",
+          "nuance": "원래 극장에서 손님을 자리로 '안내하는 사람'. 'usher in'은 새 시대를 '열다'라는 멋진 표현.",
+          "ex": "The smartphone ushered in a new era.",
+          "exKo": "스마트폰은 새로운 시대를 열었다.",
+          "tip": "보통 usher in + 새 시대/변화 형태로 쓴다."
+        }
+      ]
+    },
+    {
+      "start": 47.41,
+      "end": 60.87,
+      "lines": [
+        {
+          "text": "And with Powerwall and SolarCity, arguably the description is one of ushering in a wholesale shift to renewable energy.",
+          "start": 47.41,
+          "end": 55.42
+        },
+        {
+          "text": "Many of the solutions required wouldn't be provided by the companies you're starting.",
+          "start": 55.42,
+          "end": 60.87
+        }
+      ],
+      "glossary": [
+        {
+          "term": "arguably",
+          "ko": "거의 틀림없이, 주장하건대",
+          "type": "word",
+          "easy": "충분히 그렇게 말할 수 있다(이유를 댈 수 있다)는 뜻",
+          "nuance": "'논란이 있다'가 아니라 오히려 '그렇게 말해도 무리가 없다'는 긍정 쪽 뉘앙스.",
+          "ex": "He is arguably the best player in the league.",
+          "exKo": "그는 거의 틀림없이 리그 최고의 선수다.",
+          "tip": "argue(다투다)에서 왔지만 부정적인 뜻이 아니다."
+        },
+        {
+          "term": "wholesale",
+          "ko": "전면적인, 대대적인",
+          "type": "word",
+          "easy": "일부가 아니라 전부를 한꺼번에 바꾸는",
+          "ex": "The company made wholesale changes to its team.",
+          "exKo": "회사는 팀을 전면적으로 개편했다.",
+          "tip": "기본 뜻 '도매'와 다르게, 여기서는 '통째로, 대규모의'라는 형용사."
+        },
+        {
+          "term": "renewable energy",
+          "ko": "재생 에너지",
+          "type": "phrase",
+          "easy": "햇빛·바람처럼 다시 생겨서 계속 쓸 수 있는 에너지",
+          "ex": "Many countries are investing in renewable energy.",
+          "exKo": "많은 나라가 재생 에너지에 투자하고 있다."
+        }
+      ]
+    },
+    {
+      "start": 60.87,
+      "end": 74.75,
+      "lines": [
+        {
+          "text": "So I think, as I deal in entrepreneurship as a venture capitalist every day, we see this incredible scope of ambition here that is breathtaking.",
+          "start": 60.87,
+          "end": 68.78
+        },
+        {
+          "text": "Like change the world, which Steve Jobs and others talk about, in a company maybe shifting an industry.",
+          "start": 68.97,
+          "end": 74.75
+        }
+      ],
+      "glossary": [
+        {
+          "term": "venture capitalist",
+          "ko": "벤처 투자자",
+          "type": "phrase",
+          "easy": "성장 가능성 있는 스타트업에 돈을 투자하는 사람",
+          "ex": "She pitched her idea to a venture capitalist.",
+          "exKo": "그녀는 벤처 투자자에게 아이디어를 발표했다.",
+          "tip": "줄여서 VC라고 많이 부른다."
+        },
+        {
+          "term": "scope",
+          "ko": "범위, 규모",
+          "type": "word",
+          "easy": "어떤 일이 다루는 크기나 넓이",
+          "ex": "The scope of the project is huge.",
+          "exKo": "그 프로젝트의 규모는 엄청나다."
+        },
+        {
+          "term": "breathtaking",
+          "ko": "숨이 멎을 듯한, 놀라운",
+          "type": "word",
+          "easy": "너무 대단해서 깜짝 놀랄 정도인",
+          "ex": "The view from the mountain was breathtaking.",
+          "exKo": "산에서 본 경치는 숨이 멎을 만큼 멋졌다.",
+          "vs": "amazing보다 더 강하고, 경치·규모·아름다움에 자주 쓴다."
+        }
+      ]
+    },
+    {
+      "start": 74.75,
+      "end": 90.29,
+      "lines": [
+        {
+          "text": "But we're talking about shifting the entire zeitgeist of the world, in a sense, and maybe eventually other worlds.",
+          "start": 74.75,
+          "end": 80.59
+        },
+        {
+          "text": "So my question is, do you start always in your mind with that as a-- what is the starting point?",
+          "start": 81.08,
+          "end": 90.29
+        }
+      ],
+      "glossary": [
+        {
+          "term": "zeitgeist",
+          "ko": "시대정신",
+          "type": "word",
+          "easy": "한 시대 사람들이 공통으로 가진 분위기와 생각",
+          "ex": "The film captured the zeitgeist of the 90s.",
+          "exKo": "그 영화는 90년대의 시대정신을 잘 담아냈다.",
+          "tip": "독일어에서 온 말(Zeit=시대, Geist=정신). 발음은 '자이트가이스트'."
+        }
+      ]
+    },
+    {
+      "start": 90.52,
+      "end": 100.59,
+      "lines": [
+        {
+          "text": "I see this arc of a story, like the Mars example or renewable energy.",
+          "start": 90.52,
+          "end": 95.52
+        },
+        {
+          "text": "And then do you pull back to where is the best product to get it unstuck?",
+          "start": 95.52,
+          "end": 100.59
+        }
+      ],
+      "glossary": [
+        {
+          "term": "arc",
+          "ko": "(이야기의) 흐름, 큰 줄기",
+          "type": "word",
+          "easy": "이야기가 시작부터 끝까지 이어지는 큰 흐름",
+          "ex": "The story arc of the show is really strong.",
+          "exKo": "그 드라마의 이야기 흐름이 정말 탄탄하다.",
+          "tip": "기본 뜻은 '호(곡선)'. story arc, character arc처럼 많이 쓴다."
+        },
+        {
+          "term": "pull back",
+          "ko": "한발 물러서다, 거리를 두고 보다",
+          "type": "phrase",
+          "easy": "큰 그림에서 한 걸음 물러나 다시 생각하다",
+          "ex": "Let's pull back and look at the big picture.",
+          "exKo": "한발 물러서서 큰 그림을 보자."
+        },
+        {
+          "term": "unstuck",
+          "ko": "막힌 상태에서 벗어난",
+          "type": "word",
+          "easy": "멈춰 있던 일이 다시 움직이게 된",
+          "ex": "A short walk helped me get unstuck.",
+          "exKo": "잠깐 산책했더니 막혀 있던 생각이 풀렸다.",
+          "tip": "get stuck(막히다)의 반대 = get unstuck."
+        }
+      ]
+    },
+    {
+      "start": 100.59,
+      "end": 104.5,
+      "lines": [
+        {
+          "text": "Why isn't this happening?",
+          "start": 100.59,
+          "end": 101.88
+        },
+        {
+          "text": "And if I solve that problem, then it unlocks value.",
+          "start": 101.88,
+          "end": 104.5
+        }
+      ],
+      "glossary": [
+        {
+          "term": "unlocks value",
+          "ko": "가치를 끌어내다",
+          "type": "phrase",
+          "easy": "숨어 있던 가치나 이익이 생기게 만들다",
+          "ex": "Good design can unlock value for users.",
+          "exKo": "좋은 디자인은 사용자에게 가치를 끌어낼 수 있다.",
+          "when": "비즈니스·투자 대화에서 자주 쓰는 표현."
+        }
+      ]
+    },
+    {
+      "start": 104.5,
+      "end": 108.68,
+      "lines": [
+        {
+          "text": "How does that happen in your mind?",
+          "start": 104.5,
+          "end": 107.17
+        },
+        {
+          "text": "Sure.",
+          "start": 107.8,
+          "end": 108.68
+        }
+      ]
+    },
+    {
+      "start": 111.32,
+      "end": 121.76,
+      "lines": [
+        {
+          "text": "I should say when we started SpaceX and Tesla, I mean, I really thought the probability of success was very low.",
+          "start": 111.32,
+          "end": 119.29
+        },
+        {
+          "text": "I mean it wasn't like I think, oh, it will definitely be successful.",
+          "start": 119.29,
+          "end": 121.76
+        }
+      ],
+      "glossary": [
+        {
+          "term": "probability",
+          "ko": "확률, 가능성",
+          "type": "word",
+          "easy": "어떤 일이 일어날 가능성의 정도",
+          "ex": "The probability of rain today is low.",
+          "exKo": "오늘 비가 올 확률은 낮다."
+        }
+      ]
+    },
+    {
+      "start": 121.76,
+      "end": 126.86,
+      "lines": [
+        {
+          "text": "I thought it would be maybe 10% likely.",
+          "start": 121.76,
+          "end": 125.89
+        },
+        {
+          "text": "Yeah.",
+          "start": 126.34,
+          "end": 126.86
+        }
+      ]
+    },
+    {
+      "start": 126.86,
+      "end": 137.81,
+      "lines": [
+        {
+          "text": "And we came very close to both companies not succeeding in 2008.",
+          "start": 126.86,
+          "end": 132.83
+        },
+        {
+          "text": "We'd had three failures of the SpaceX rocket.",
+          "start": 133.02,
+          "end": 137.81
+        }
+      ],
+      "glossary": [
+        {
+          "term": "came very close to",
+          "ko": "하마터면 ~할 뻔했다",
+          "type": "phrase",
+          "easy": "거의 그렇게 될 뻔했지만 실제로는 안 됐다",
+          "ex": "I came very close to missing the flight.",
+          "exKo": "하마터면 비행기를 놓칠 뻔했다.",
+          "tip": "come close to + 명사/-ing 형태로 쓴다."
+        }
+      ]
+    },
+    {
+      "start": 137.9,
+      "end": 145.3,
+      "lines": [
+        {
+          "text": "So we were zero for three.",
+          "start": 137.9,
+          "end": 140.19
+        },
+        {
+          "text": "We had the crazy financial recession, like the Great Recession.",
+          "start": 140.19,
+          "end": 145.3
+        }
+      ],
+      "glossary": [
+        {
+          "term": "zero for three",
+          "ko": "3전 3패",
+          "type": "idiom",
+          "easy": "세 번 시도해서 한 번도 성공하지 못한 것",
+          "nuance": "야구에서 '3타수 무안타'를 말하는 표현. 여러 번 연속 실패를 가볍게 표현할 때.",
+          "ex": "I've had three job interviews and I'm zero for three.",
+          "exKo": "면접을 세 번 봤는데 세 번 다 떨어졌어.",
+          "tip": "'one for five'는 다섯 번 중 한 번 성공."
+        },
+        {
+          "term": "recession",
+          "ko": "경기 침체",
+          "type": "word",
+          "easy": "나라 경제가 나빠져 일자리와 소비가 줄어드는 시기",
+          "ex": "Many people lost their jobs during the recession.",
+          "exKo": "경기 침체 동안 많은 사람이 일자리를 잃었다."
+        }
+      ]
+    },
+    {
+      "start": 146.04,
+      "end": 157.11,
+      "lines": [
+        {
+          "text": "The Tesla financing round had fallen apart, because it's pretty hard to raise money for a start-up car company if GM and Chrysler are going bankrupt.",
+          "start": 146.04,
+          "end": 155.97
+        },
+        {
+          "text": "It's partly for the upside.",
+          "start": 155.97,
+          "end": 157.11
+        }
+      ],
+      "glossary": [
+        {
+          "term": "financing round",
+          "ko": "투자 유치 라운드",
+          "type": "phrase",
+          "easy": "회사가 투자자들에게 한 번에 돈을 모으는 단계",
+          "ex": "The startup closed its first financing round.",
+          "exKo": "그 스타트업은 첫 투자 유치를 마쳤다."
+        },
+        {
+          "term": "fallen apart",
+          "ko": "무산되다, 틀어지다",
+          "type": "phrase",
+          "easy": "계획이나 거래가 깨져서 없던 일이 되다",
+          "nuance": "물건이 '부서지다'뿐 아니라 계획·관계·협상이 '무너지다'에 아주 자주 쓴다.",
+          "ex": "The deal fell apart at the last minute.",
+          "exKo": "그 거래는 마지막 순간에 무산됐다.",
+          "tip": "fall apart – fell apart – fallen apart."
+        },
+        {
+          "term": "going bankrupt",
+          "ko": "파산하다",
+          "type": "phrase",
+          "easy": "빚을 갚을 수 없어 회사가 망하다",
+          "ex": "The store went bankrupt last year.",
+          "exKo": "그 가게는 작년에 파산했다."
+        },
+        {
+          "term": "upside",
+          "ko": "상승 여지, 장점",
+          "type": "word",
+          "easy": "잘되면 얻을 수 있는 좋은 점이나 이익",
+          "ex": "The risk is high, but so is the upside.",
+          "exKo": "위험은 크지만 얻을 수 있는 것도 크다.",
+          "vs": "downside는 '단점, 손실 가능성'."
+        }
+      ]
+    },
+    {
+      "start": 157.11,
+      "end": 170.24,
+      "lines": [
+        {
+          "text": "Yeah, that was a tricky one.",
+          "start": 157.11,
+          "end": 160.58
+        },
+        {
+          "text": "And fortunately, at the end of 2008, the fourth launch-- which was the last launch we had money for worked for SpaceX.",
+          "start": 160.98,
+          "end": 170.24
+        }
+      ],
+      "glossary": [
+        {
+          "term": "a tricky one",
+          "ko": "까다로운 일",
+          "type": "phrase",
+          "easy": "다루기 어렵고 조심해야 하는 상황",
+          "ex": "That question is a tricky one.",
+          "exKo": "그 질문은 좀 까다롭네요."
+        }
+      ]
+    },
+    {
+      "start": 170.47,
+      "end": 179.61,
+      "lines": [
+        {
+          "text": "And then we closed the Tesla financing round, as you know, Christmas Eve, 2008-- last hour of the last day that was possible.",
+          "start": 170.47,
+          "end": 178.82
+        },
+        {
+          "text": "Yeah and thanks to you.",
+          "start": 178.82,
+          "end": 179.61
+        }
+      ]
+    },
+    {
+      "start": 179.64,
+      "end": 190.99,
+      "lines": [
+        {
+          "text": "For those who don't know, it's the most extraordinary act of entrepreneurial zeal and commitment I've ever seen, where Elon personally saved Tesla in those hours.",
+          "start": 179.64,
+          "end": 188.2
+        },
+        {
+          "text": "When no one else would write a check, he spoke for it all.",
+          "start": 188.2,
+          "end": 190.99
+        }
+      ],
+      "glossary": [
+        {
+          "term": "zeal",
+          "ko": "열의, 열정",
+          "type": "word",
+          "easy": "어떤 일에 대한 아주 강한 열정",
+          "ex": "She works with great zeal.",
+          "exKo": "그녀는 대단한 열의로 일한다.",
+          "tip": "형용사는 zealous(열성적인)."
+        },
+        {
+          "term": "write a check",
+          "ko": "돈을 대다, 투자하다",
+          "type": "idiom",
+          "easy": "필요한 돈을 실제로 내주다",
+          "nuance": "말 그대로 '수표를 쓰다'지만, 투자 세계에서는 '돈을 넣어 주다'라는 뜻으로 많이 쓴다.",
+          "ex": "No investor wanted to write a check.",
+          "exKo": "아무 투자자도 돈을 대려 하지 않았다."
+        }
+      ]
+    },
+    {
+      "start": 190.99,
+      "end": 195.79,
+      "lines": [
+        {
+          "text": "And that slipped the mentality from fear to greed.",
+          "start": 190.99,
+          "end": 194.34
+        },
+        {
+          "text": "And everyone joined the bandwagon.",
+          "start": 194.34,
+          "end": 195.79
+        }
+      ],
+      "glossary": [
+        {
+          "term": "joined the bandwagon",
+          "ko": "대세에 편승하다",
+          "type": "idiom",
+          "easy": "남들이 다 하니까 나도 따라서 같이하다",
+          "nuance": "보통 'jump on the bandwagon'. 남들 따라 우르르 몰려간다는 약간 비꼬는 느낌도 있다.",
+          "when": "유행·투자·인기 있는 쪽으로 사람들이 몰릴 때.",
+          "ex": "Everyone joined the bandwagon once the team started winning.",
+          "exKo": "팀이 이기기 시작하자 다들 우르르 응원에 합류했다.",
+          "tip": "bandwagon = 퍼레이드의 악대 마차. 사람들이 너도나도 올라타는 이미지."
+        }
+      ]
+    },
+    {
+      "start": 195.79,
+      "end": 204.65,
+      "lines": [
+        {
+          "text": "And everything changed from divoting into the ground to success.",
+          "start": 195.79,
+          "end": 200.42
+        },
+        {
+          "text": "But you were willing to go net negative personally of his entire net worth.",
+          "start": 200.42,
+          "end": 204.65
+        }
+      ],
+      "glossary": [
+        {
+          "term": "net worth",
+          "ko": "순자산",
+          "type": "phrase",
+          "easy": "가진 재산에서 빚을 뺀 실제 재산",
+          "ex": "His net worth is over a billion dollars.",
+          "exKo": "그의 순자산은 10억 달러가 넘는다."
+        }
+      ]
+    },
+    {
+      "start": 204.65,
+      "end": 208,
+      "lines": [
+        {
+          "text": "And it's a remarkable story.",
+          "start": 204.65,
+          "end": 206.27
+        },
+        {
+          "text": "Thanks for supporting, by the way.",
+          "start": 206.27,
+          "end": 208
+        }
+      ],
+      "glossary": [
+        {
+          "term": "remarkable",
+          "ko": "놀라운, 주목할 만한",
+          "type": "word",
+          "easy": "아주 특별해서 사람들이 이야기할 만한",
+          "ex": "She made remarkable progress in English.",
+          "exKo": "그녀는 영어 실력이 놀랍게 늘었다."
+        }
+      ]
+    },
+    {
+      "start": 208,
+      "end": 215.68,
+      "lines": [
+        {
+          "text": "That was much, much appreciated.",
+          "start": 208,
+          "end": 210.9
+        },
+        {
+          "text": "We were happy to fall right behind in line, but it was all him.",
+          "start": 210.95,
+          "end": 215.68
+        }
+      ],
+      "glossary": [
+        {
+          "term": "much, much appreciated",
+          "ko": "정말 감사했습니다",
+          "type": "phrase",
+          "easy": "아주 많이 고마웠다는 뜻",
+          "ex": "Your help is much appreciated.",
+          "exKo": "도와주셔서 정말 감사합니다.",
+          "when": "격식 있게 고마움을 표현할 때. 'Much appreciated!'만으로도 쓴다."
+        },
+        {
+          "term": "fall right behind in line",
+          "ko": "바로 뒤를 따르다",
+          "type": "idiom",
+          "easy": "앞장선 사람 바로 뒤에 서서 함께하다",
+          "nuance": "주인공은 앞사람이고 나는 뒤에서 따라갔을 뿐이라는 겸손한 표현.",
+          "ex": "Once the boss agreed, everyone fell in line behind her.",
+          "exKo": "사장이 동의하자 모두가 그녀를 따랐다.",
+          "tip": "fall in line은 '따르다, 순응하다'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T11:30:57.840Z",
+  "generatedAt": "2026-11-08T20:11:39.042Z",
   "videos": [
     {
       "id": "lSFJTUiX7Vg",
@@ -322,6 +322,27 @@
       "tag": "Altman · Time",
       "category": "테크 프론티어",
       "segCount": 176
+    },
+    {
+      "id": "Zy5Hj7x_OEA",
+      "title": "Elon Musk: Overcoming Setbacks and Saving Tesla",
+      "tag": "Musk · Tesla",
+      "category": "테크 프론티어",
+      "segCount": 21
+    },
+    {
+      "id": "Pnr_TVjYlj4",
+      "title": "Jensen Huang: Employee Selection Affects Culture",
+      "tag": "Huang · Culture",
+      "category": "테크 프론티어",
+      "segCount": 17
+    },
+    {
+      "id": "AG0BfH9hv64",
+      "title": "Reid Hoffman: All Careers Will Be Entrepreneurial",
+      "tag": "Hoffman · Careers",
+      "category": "테크 프론티어",
+      "segCount": 22
     }
   ]
 }
