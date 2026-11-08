@@ -13230,5 +13230,936 @@
         "tip": "호텔에서 check out은 '체크아웃(퇴실)'. 맥락으로 구분."
       }
     ]
+  },
+  "Zy5Hj7x_OEA": {
+    "0": [
+      {
+        "term": "jump in",
+        "ko": "(대화에) 끼어들다",
+        "type": "phrase",
+        "easy": "남이 이야기하는 중에 내가 한마디 하려고 들어가다",
+        "nuance": "interrupt보다 부드럽고 공손한 느낌. 'Can I jump in?'은 회의에서 아주 흔한 말.",
+        "when": "회의·대담에서 내 의견을 잠깐 덧붙이고 싶을 때.",
+        "ex": "Sorry, can I jump in for a second?",
+        "exKo": "죄송한데, 잠깐 한마디 해도 될까요?",
+        "vs": "interrupt는 '말을 끊다'라 무례하게 들릴 수 있고, jump in은 자연스럽게 '참여한다'는 느낌."
+      },
+      {
+        "term": "for a sec",
+        "ko": "잠깐",
+        "type": "phrase",
+        "easy": "아주 짧은 시간 동안 (second의 줄임말)",
+        "ex": "Hold on for a sec, I'll be right back.",
+        "exKo": "잠깐만 기다려, 금방 올게.",
+        "tip": "sec = second. 구어에서 'Just a sec!'(잠깐만!)도 자주 쓴다."
+      },
+      {
+        "term": "anecdote",
+        "ko": "일화",
+        "type": "word",
+        "easy": "실제로 있었던 짧고 재미있는 이야기",
+        "ex": "He told a funny anecdote about his first job.",
+        "exKo": "그는 첫 직장에 대한 재미있는 일화를 들려줬다.",
+        "tip": "antidote(해독제)와 철자가 비슷해서 헷갈리기 쉽다."
+      },
+      {
+        "term": "if you will",
+        "ko": "말하자면, 이를테면",
+        "type": "idiom",
+        "easy": "방금 쓴 표현이 좀 특이하지만 그렇게 부르자는 뜻",
+        "nuance": "조금 과장되거나 비유적인 단어를 쓴 뒤 '이렇게 표현해도 된다면'이라고 덧붙이는 말.",
+        "when": "강연·인터뷰에서 비유적인 단어를 쓴 직후.",
+        "ex": "She's the heart of the team, if you will.",
+        "exKo": "그녀는 말하자면 팀의 심장 같은 사람이다.",
+        "tip": "'원하신다면'이라는 뜻이 아니다 — 거의 '말하자면'으로 기억하자."
+      },
+      {
+        "term": "popular uprising",
+        "ko": "민중 봉기",
+        "type": "phrase",
+        "easy": "많은 일반 사람들이 들고일어나 변화를 요구하는 것",
+        "ex": "The government fell after a popular uprising.",
+        "exKo": "민중 봉기 후에 정부가 무너졌다.",
+        "tip": "여기서 popular는 '인기 있는'이 아니라 '대중의, 민중의'라는 뜻."
+      }
+    ],
+    "1": [
+      {
+        "term": "in a sense",
+        "ko": "어떤 의미에서는",
+        "type": "phrase",
+        "easy": "완전히는 아니지만 어느 정도는 그렇다고 볼 수 있다",
+        "ex": "In a sense, we're all students for life.",
+        "exKo": "어떤 의미에서 우리는 평생 학생이다."
+      },
+      {
+        "term": "catalyze",
+        "ko": "촉진하다, 촉발하다",
+        "type": "word",
+        "easy": "어떤 변화가 빨리 일어나도록 불을 붙이다",
+        "nuance": "화학의 '촉매(catalyst)'에서 온 말. 스스로가 변화의 '방아쇠'가 된다는 느낌.",
+        "ex": "The new law catalyzed a lot of investment.",
+        "exKo": "새 법이 많은 투자를 촉발했다.",
+        "vs": "cause는 단순히 '일으키다', catalyze는 '변화를 가속시키다'."
+      }
+    ],
+    "2": [
+      {
+        "term": "taken on",
+        "ko": "(일을) 맡다, 떠맡다",
+        "type": "phrase",
+        "easy": "새로운 일이나 책임을 스스로 맡아서 하다",
+        "when": "새 프로젝트·역할·도전을 받아들일 때.",
+        "ex": "She took on a new project last month.",
+        "exKo": "그녀는 지난달 새 프로젝트를 맡았다.",
+        "tip": "take on은 '고용하다', '(상대와) 맞붙다'라는 뜻도 있다. 목적어가 일이면 '맡다'."
+      },
+      {
+        "term": "usher",
+        "ko": "~을 이끌다, 안내하다",
+        "type": "word",
+        "easy": "새로운 시대나 변화가 시작되도록 이끌어 들이다",
+        "nuance": "원래 극장에서 손님을 자리로 '안내하는 사람'. 'usher in'은 새 시대를 '열다'라는 멋진 표현.",
+        "ex": "The smartphone ushered in a new era.",
+        "exKo": "스마트폰은 새로운 시대를 열었다.",
+        "tip": "보통 usher in + 새 시대/변화 형태로 쓴다."
+      }
+    ],
+    "3": [
+      {
+        "term": "arguably",
+        "ko": "거의 틀림없이, 주장하건대",
+        "type": "word",
+        "easy": "충분히 그렇게 말할 수 있다(이유를 댈 수 있다)는 뜻",
+        "nuance": "'논란이 있다'가 아니라 오히려 '그렇게 말해도 무리가 없다'는 긍정 쪽 뉘앙스.",
+        "ex": "He is arguably the best player in the league.",
+        "exKo": "그는 거의 틀림없이 리그 최고의 선수다.",
+        "tip": "argue(다투다)에서 왔지만 부정적인 뜻이 아니다."
+      },
+      {
+        "term": "wholesale",
+        "ko": "전면적인, 대대적인",
+        "type": "word",
+        "easy": "일부가 아니라 전부를 한꺼번에 바꾸는",
+        "ex": "The company made wholesale changes to its team.",
+        "exKo": "회사는 팀을 전면적으로 개편했다.",
+        "tip": "기본 뜻 '도매'와 다르게, 여기서는 '통째로, 대규모의'라는 형용사."
+      },
+      {
+        "term": "renewable energy",
+        "ko": "재생 에너지",
+        "type": "phrase",
+        "easy": "햇빛·바람처럼 다시 생겨서 계속 쓸 수 있는 에너지",
+        "ex": "Many countries are investing in renewable energy.",
+        "exKo": "많은 나라가 재생 에너지에 투자하고 있다."
+      }
+    ],
+    "4": [
+      {
+        "term": "venture capitalist",
+        "ko": "벤처 투자자",
+        "type": "phrase",
+        "easy": "성장 가능성 있는 스타트업에 돈을 투자하는 사람",
+        "ex": "She pitched her idea to a venture capitalist.",
+        "exKo": "그녀는 벤처 투자자에게 아이디어를 발표했다.",
+        "tip": "줄여서 VC라고 많이 부른다."
+      },
+      {
+        "term": "scope",
+        "ko": "범위, 규모",
+        "type": "word",
+        "easy": "어떤 일이 다루는 크기나 넓이",
+        "ex": "The scope of the project is huge.",
+        "exKo": "그 프로젝트의 규모는 엄청나다."
+      },
+      {
+        "term": "breathtaking",
+        "ko": "숨이 멎을 듯한, 놀라운",
+        "type": "word",
+        "easy": "너무 대단해서 깜짝 놀랄 정도인",
+        "ex": "The view from the mountain was breathtaking.",
+        "exKo": "산에서 본 경치는 숨이 멎을 만큼 멋졌다.",
+        "vs": "amazing보다 더 강하고, 경치·규모·아름다움에 자주 쓴다."
+      }
+    ],
+    "5": [
+      {
+        "term": "zeitgeist",
+        "ko": "시대정신",
+        "type": "word",
+        "easy": "한 시대 사람들이 공통으로 가진 분위기와 생각",
+        "ex": "The film captured the zeitgeist of the 90s.",
+        "exKo": "그 영화는 90년대의 시대정신을 잘 담아냈다.",
+        "tip": "독일어에서 온 말(Zeit=시대, Geist=정신). 발음은 '자이트가이스트'."
+      }
+    ],
+    "6": [
+      {
+        "term": "arc",
+        "ko": "(이야기의) 흐름, 큰 줄기",
+        "type": "word",
+        "easy": "이야기가 시작부터 끝까지 이어지는 큰 흐름",
+        "ex": "The story arc of the show is really strong.",
+        "exKo": "그 드라마의 이야기 흐름이 정말 탄탄하다.",
+        "tip": "기본 뜻은 '호(곡선)'. story arc, character arc처럼 많이 쓴다."
+      },
+      {
+        "term": "pull back",
+        "ko": "한발 물러서다, 거리를 두고 보다",
+        "type": "phrase",
+        "easy": "큰 그림에서 한 걸음 물러나 다시 생각하다",
+        "ex": "Let's pull back and look at the big picture.",
+        "exKo": "한발 물러서서 큰 그림을 보자."
+      },
+      {
+        "term": "unstuck",
+        "ko": "막힌 상태에서 벗어난",
+        "type": "word",
+        "easy": "멈춰 있던 일이 다시 움직이게 된",
+        "ex": "A short walk helped me get unstuck.",
+        "exKo": "잠깐 산책했더니 막혀 있던 생각이 풀렸다.",
+        "tip": "get stuck(막히다)의 반대 = get unstuck."
+      }
+    ],
+    "7": [
+      {
+        "term": "unlocks value",
+        "ko": "가치를 끌어내다",
+        "type": "phrase",
+        "easy": "숨어 있던 가치나 이익이 생기게 만들다",
+        "ex": "Good design can unlock value for users.",
+        "exKo": "좋은 디자인은 사용자에게 가치를 끌어낼 수 있다.",
+        "when": "비즈니스·투자 대화에서 자주 쓰는 표현."
+      }
+    ],
+    "9": [
+      {
+        "term": "probability",
+        "ko": "확률, 가능성",
+        "type": "word",
+        "easy": "어떤 일이 일어날 가능성의 정도",
+        "ex": "The probability of rain today is low.",
+        "exKo": "오늘 비가 올 확률은 낮다."
+      }
+    ],
+    "11": [
+      {
+        "term": "came very close to",
+        "ko": "하마터면 ~할 뻔했다",
+        "type": "phrase",
+        "easy": "거의 그렇게 될 뻔했지만 실제로는 안 됐다",
+        "ex": "I came very close to missing the flight.",
+        "exKo": "하마터면 비행기를 놓칠 뻔했다.",
+        "tip": "come close to + 명사/-ing 형태로 쓴다."
+      }
+    ],
+    "12": [
+      {
+        "term": "zero for three",
+        "ko": "3전 3패",
+        "type": "idiom",
+        "easy": "세 번 시도해서 한 번도 성공하지 못한 것",
+        "nuance": "야구에서 '3타수 무안타'를 말하는 표현. 여러 번 연속 실패를 가볍게 표현할 때.",
+        "ex": "I've had three job interviews and I'm zero for three.",
+        "exKo": "면접을 세 번 봤는데 세 번 다 떨어졌어.",
+        "tip": "'one for five'는 다섯 번 중 한 번 성공."
+      },
+      {
+        "term": "recession",
+        "ko": "경기 침체",
+        "type": "word",
+        "easy": "나라 경제가 나빠져 일자리와 소비가 줄어드는 시기",
+        "ex": "Many people lost their jobs during the recession.",
+        "exKo": "경기 침체 동안 많은 사람이 일자리를 잃었다."
+      }
+    ],
+    "13": [
+      {
+        "term": "financing round",
+        "ko": "투자 유치 라운드",
+        "type": "phrase",
+        "easy": "회사가 투자자들에게 한 번에 돈을 모으는 단계",
+        "ex": "The startup closed its first financing round.",
+        "exKo": "그 스타트업은 첫 투자 유치를 마쳤다."
+      },
+      {
+        "term": "fallen apart",
+        "ko": "무산되다, 틀어지다",
+        "type": "phrase",
+        "easy": "계획이나 거래가 깨져서 없던 일이 되다",
+        "nuance": "물건이 '부서지다'뿐 아니라 계획·관계·협상이 '무너지다'에 아주 자주 쓴다.",
+        "ex": "The deal fell apart at the last minute.",
+        "exKo": "그 거래는 마지막 순간에 무산됐다.",
+        "tip": "fall apart – fell apart – fallen apart."
+      },
+      {
+        "term": "going bankrupt",
+        "ko": "파산하다",
+        "type": "phrase",
+        "easy": "빚을 갚을 수 없어 회사가 망하다",
+        "ex": "The store went bankrupt last year.",
+        "exKo": "그 가게는 작년에 파산했다."
+      },
+      {
+        "term": "upside",
+        "ko": "상승 여지, 장점",
+        "type": "word",
+        "easy": "잘되면 얻을 수 있는 좋은 점이나 이익",
+        "ex": "The risk is high, but so is the upside.",
+        "exKo": "위험은 크지만 얻을 수 있는 것도 크다.",
+        "vs": "downside는 '단점, 손실 가능성'."
+      }
+    ],
+    "14": [
+      {
+        "term": "a tricky one",
+        "ko": "까다로운 일",
+        "type": "phrase",
+        "easy": "다루기 어렵고 조심해야 하는 상황",
+        "ex": "That question is a tricky one.",
+        "exKo": "그 질문은 좀 까다롭네요."
+      }
+    ],
+    "16": [
+      {
+        "term": "zeal",
+        "ko": "열의, 열정",
+        "type": "word",
+        "easy": "어떤 일에 대한 아주 강한 열정",
+        "ex": "She works with great zeal.",
+        "exKo": "그녀는 대단한 열의로 일한다.",
+        "tip": "형용사는 zealous(열성적인)."
+      },
+      {
+        "term": "write a check",
+        "ko": "돈을 대다, 투자하다",
+        "type": "idiom",
+        "easy": "필요한 돈을 실제로 내주다",
+        "nuance": "말 그대로 '수표를 쓰다'지만, 투자 세계에서는 '돈을 넣어 주다'라는 뜻으로 많이 쓴다.",
+        "ex": "No investor wanted to write a check.",
+        "exKo": "아무 투자자도 돈을 대려 하지 않았다."
+      }
+    ],
+    "17": [
+      {
+        "term": "joined the bandwagon",
+        "ko": "대세에 편승하다",
+        "type": "idiom",
+        "easy": "남들이 다 하니까 나도 따라서 같이하다",
+        "nuance": "보통 'jump on the bandwagon'. 남들 따라 우르르 몰려간다는 약간 비꼬는 느낌도 있다.",
+        "when": "유행·투자·인기 있는 쪽으로 사람들이 몰릴 때.",
+        "ex": "Everyone joined the bandwagon once the team started winning.",
+        "exKo": "팀이 이기기 시작하자 다들 우르르 응원에 합류했다.",
+        "tip": "bandwagon = 퍼레이드의 악대 마차. 사람들이 너도나도 올라타는 이미지."
+      }
+    ],
+    "18": [
+      {
+        "term": "net worth",
+        "ko": "순자산",
+        "type": "phrase",
+        "easy": "가진 재산에서 빚을 뺀 실제 재산",
+        "ex": "His net worth is over a billion dollars.",
+        "exKo": "그의 순자산은 10억 달러가 넘는다."
+      }
+    ],
+    "19": [
+      {
+        "term": "remarkable",
+        "ko": "놀라운, 주목할 만한",
+        "type": "word",
+        "easy": "아주 특별해서 사람들이 이야기할 만한",
+        "ex": "She made remarkable progress in English.",
+        "exKo": "그녀는 영어 실력이 놀랍게 늘었다."
+      }
+    ],
+    "20": [
+      {
+        "term": "much, much appreciated",
+        "ko": "정말 감사했습니다",
+        "type": "phrase",
+        "easy": "아주 많이 고마웠다는 뜻",
+        "ex": "Your help is much appreciated.",
+        "exKo": "도와주셔서 정말 감사합니다.",
+        "when": "격식 있게 고마움을 표현할 때. 'Much appreciated!'만으로도 쓴다."
+      },
+      {
+        "term": "fall right behind in line",
+        "ko": "바로 뒤를 따르다",
+        "type": "idiom",
+        "easy": "앞장선 사람 바로 뒤에 서서 함께하다",
+        "nuance": "주인공은 앞사람이고 나는 뒤에서 따라갔을 뿐이라는 겸손한 표현.",
+        "ex": "Once the boss agreed, everyone fell in line behind her.",
+        "exKo": "사장이 동의하자 모두가 그녀를 따랐다.",
+        "tip": "fall in line은 '따르다, 순응하다'."
+      }
+    ]
+  },
+  "Pnr_TVjYlj4": {
+    "0": [
+      {
+        "term": "brainy",
+        "ko": "머리 좋은, 똑똑한",
+        "type": "word",
+        "easy": "지능이 높고 공부를 잘하는",
+        "ex": "She's the brainy one in the family.",
+        "exKo": "그녀가 집안에서 제일 똑똑하다.",
+        "vs": "smart와 비슷하지만 조금 더 구어적이고 '공부머리'에 가깝다."
+      },
+      {
+        "term": "motivation strategies",
+        "ko": "동기 부여 전략",
+        "type": "phrase",
+        "easy": "사람들이 더 열심히 하고 싶게 만드는 방법들",
+        "ex": "Good managers use different motivation strategies.",
+        "exKo": "좋은 관리자는 다양한 동기 부여 전략을 쓴다."
+      }
+    ],
+    "1": [
+      {
+        "term": "first of all",
+        "ko": "우선, 먼저",
+        "type": "phrase",
+        "easy": "여러 가지 중 가장 먼저 말하자면",
+        "ex": "First of all, thank you for coming.",
+        "exKo": "우선, 와 주셔서 감사합니다."
+      }
+    ],
+    "2": [
+      {
+        "term": "obviously",
+        "ko": "분명히, 당연히",
+        "type": "word",
+        "easy": "누가 봐도 알 수 있을 만큼 확실하게",
+        "ex": "He was obviously tired after the trip.",
+        "exKo": "그는 여행 후 분명히 피곤해 보였다."
+      }
+    ],
+    "3": [
+      {
+        "term": "figure out",
+        "ko": "알아내다, 판단하다",
+        "type": "phrase",
+        "easy": "생각해서 답이나 방법을 찾아내다",
+        "ex": "I can't figure out how this works.",
+        "exKo": "이게 어떻게 작동하는지 모르겠다.",
+        "tip": "회화에서 정말 자주 쓰는 구동사. find out은 '정보를 알게 되다', figure out은 '머리를 써서 알아내다'."
+      },
+      {
+        "term": "let in",
+        "ko": "들여보내다, 받아들이다",
+        "type": "phrase",
+        "easy": "안으로 들어오게 허락하다",
+        "ex": "The guard wouldn't let us in.",
+        "exKo": "경비원이 우리를 들여보내 주지 않았다."
+      }
+    ],
+    "4": [
+      {
+        "term": "irrespective of",
+        "ko": "~와 관계없이",
+        "type": "phrase",
+        "easy": "그것이 어떻든 상관없이",
+        "ex": "Anyone can join, irrespective of age.",
+        "exKo": "나이와 관계없이 누구나 참여할 수 있다.",
+        "vs": "regardless of와 같은 뜻이고, irrespective of가 좀 더 격식 있다."
+      },
+      {
+        "term": "value systems",
+        "ko": "가치관",
+        "type": "phrase",
+        "easy": "무엇이 옳고 중요한지에 대한 사람의 생각 체계",
+        "ex": "We share the same value systems.",
+        "exKo": "우리는 같은 가치관을 갖고 있다."
+      }
+    ],
+    "5": [
+      {
+        "term": "ultimately",
+        "ko": "결국, 궁극적으로",
+        "type": "word",
+        "easy": "모든 과정을 거친 뒤 마지막에는",
+        "ex": "Ultimately, it's your decision.",
+        "exKo": "결국 그건 네가 결정할 일이야."
+      },
+      {
+        "term": "intensely selective",
+        "ko": "매우 까다롭게 고르는",
+        "type": "phrase",
+        "easy": "아무나 뽑지 않고 아주 엄격하게 고르는",
+        "ex": "The school is intensely selective about students.",
+        "exKo": "그 학교는 학생 선발이 매우 까다롭다."
+      },
+      {
+        "term": "with respect to",
+        "ko": "~에 관해서",
+        "type": "phrase",
+        "easy": "어떤 것에 대해 말하자면",
+        "ex": "With respect to your question, I'll answer later.",
+        "exKo": "질문하신 것에 관해서는 나중에 답변드릴게요.",
+        "tip": "'존중'의 respect가 아니다. regarding과 같은 뜻의 격식 표현."
+      }
+    ],
+    "6": [
+      {
+        "term": "make offers",
+        "ko": "(채용) 제안을 하다",
+        "type": "phrase",
+        "easy": "합격한 지원자에게 함께 일하자고 제안하다",
+        "ex": "They made me an offer after the second interview.",
+        "exKo": "두 번째 면접 후 그들이 나에게 채용 제안을 했다.",
+        "tip": "job offer = 채용 제안, accept an offer = 제안을 수락하다."
+      }
+    ],
+    "7": [
+      {
+        "term": "when it comes down to",
+        "ko": "~에 관한 한, 결국 ~에 있어서는",
+        "type": "idiom",
+        "easy": "어떤 주제를 이야기할 때, 특히 그 핵심에 있어서는",
+        "nuance": "'when it comes to'와 비슷하지만 down이 붙으면 '결국 핵심은'이라는 느낌이 강해진다.",
+        "ex": "When it comes down to it, family is what matters most.",
+        "exKo": "결국 따지고 보면 가장 중요한 건 가족이다."
+      }
+    ],
+    "8": [
+      {
+        "term": "guts",
+        "ko": "배짱, 용기",
+        "type": "word",
+        "easy": "무섭거나 어려운 일도 해내는 용기",
+        "nuance": "원래 뜻은 '내장'. 구어에서는 courage보다 거칠고 직설적인 '깡, 배짱'.",
+        "ex": "It takes guts to quit your job and start a business.",
+        "exKo": "회사를 그만두고 창업하려면 배짱이 필요하다.",
+        "tip": "보통 복수형 guts로 쓴다. have the guts to ~ = ~할 배짱이 있다."
+      }
+    ],
+    "9": [
+      {
+        "term": "rigorous",
+        "ko": "엄격한, 철저한",
+        "type": "word",
+        "easy": "아주 꼼꼼하고 기준이 높은",
+        "ex": "The training program is rigorous.",
+        "exKo": "그 훈련 프로그램은 매우 엄격하다."
+      },
+      {
+        "term": "no different than",
+        "ko": "~와 다를 바 없는",
+        "type": "phrase",
+        "easy": "~와 거의 똑같은",
+        "ex": "Running a company is no different than coaching a team.",
+        "exKo": "회사를 운영하는 건 팀을 코치하는 것과 다를 바 없다."
+      }
+    ],
+    "10": [
+      {
+        "term": "let the ball go",
+        "ko": "공을 던지다(손에서 놓다)",
+        "type": "phrase",
+        "easy": "던지려고 손에서 공을 놓다",
+        "ex": "Wait until he's open before you let the ball go.",
+        "exKo": "그가 빈 공간에 들어갈 때까지 기다렸다가 공을 던져."
+      },
+      {
+        "term": "questioning",
+        "ko": "의심하는",
+        "type": "word",
+        "easy": "맞는지 확신하지 못하고 의문을 갖는",
+        "ex": "Stop questioning every decision I make.",
+        "exKo": "내가 내리는 결정마다 의심하지 좀 마.",
+        "tip": "question은 동사로 '질문하다' 외에 '의심하다'라는 뜻이 있다."
+      }
+    ],
+    "12": [
+      {
+        "term": "an element of",
+        "ko": "어느 정도의 ~",
+        "type": "phrase",
+        "easy": "어떤 성질이 일정 부분 들어 있는 것",
+        "ex": "There's an element of luck in every success.",
+        "exKo": "모든 성공에는 어느 정도 운이 따른다."
+      }
+    ],
+    "13": [
+      {
+        "term": "retention",
+        "ko": "(인재) 유지, 잔류",
+        "type": "word",
+        "easy": "좋은 직원이 회사를 떠나지 않고 계속 남게 하는 것",
+        "ex": "Employee retention is a big problem for startups.",
+        "exKo": "직원 유지는 스타트업에게 큰 문제다.",
+        "tip": "동사 retain(보유하다, 유지하다)."
+      },
+      {
+        "term": "permits",
+        "ko": "허용하다",
+        "type": "word",
+        "easy": "어떤 것을 해도 된다고 허락하다",
+        "ex": "Smoking is not permitted here.",
+        "exKo": "여기서는 흡연이 허용되지 않는다."
+      }
+    ],
+    "14": [
+      {
+        "term": "Not everybody gets to come",
+        "ko": "아무나 들어올 수 있는 건 아니다",
+        "type": "phrase",
+        "easy": "모든 사람에게 들어올 기회가 주어지는 건 아니다",
+        "ex": "Not everybody gets to work with such a great team.",
+        "exKo": "누구나 이렇게 좋은 팀과 일할 수 있는 건 아니다.",
+        "tip": "get to + 동사 = '~할 기회를 얻다'. 회화에서 아주 자주 쓴다."
+      }
+    ],
+    "15": [
+      {
+        "term": "terrific",
+        "ko": "훌륭한, 멋진",
+        "type": "word",
+        "easy": "아주 좋은, 대단한",
+        "ex": "You did a terrific job.",
+        "exKo": "정말 훌륭하게 해냈어.",
+        "tip": "terrible(끔찍한)과 비슷해 보이지만 정반대의 긍정적인 뜻."
+      },
+      {
+        "term": "count on",
+        "ko": "~를 믿다, 의지하다",
+        "type": "phrase",
+        "easy": "필요할 때 그 사람이 도와줄 거라고 믿다",
+        "ex": "You can always count on me.",
+        "exKo": "언제든 나한테 기대도 돼.",
+        "vs": "rely on과 비슷하고, count on이 더 구어적이고 따뜻한 느낌."
+      },
+      {
+        "term": "sets us apart",
+        "ko": "우리를 차별화하다",
+        "type": "phrase",
+        "easy": "다른 사람들과 다르게, 더 돋보이게 만들다",
+        "ex": "Great service is what sets this restaurant apart.",
+        "exKo": "훌륭한 서비스가 이 식당을 돋보이게 만든다.",
+        "when": "회사·제품·사람의 강점을 설명할 때."
+      }
+    ],
+    "16": [
+      {
+        "term": "self selection",
+        "ko": "자기 선택(스스로 걸러지는 것)",
+        "type": "phrase",
+        "easy": "맞는 사람은 스스로 오고, 안 맞는 사람은 스스로 떠나는 과정",
+        "ex": "Self selection means only motivated people apply.",
+        "exKo": "자기 선택이 작동해서 의욕 있는 사람들만 지원한다."
+      },
+      {
+        "term": "maintain",
+        "ko": "유지하다",
+        "type": "word",
+        "easy": "좋은 상태를 계속 그대로 지키다",
+        "ex": "It's hard to maintain quality as a company grows.",
+        "exKo": "회사가 커질수록 품질을 유지하기가 어렵다."
+      }
+    ]
+  },
+  "AG0BfH9hv64": {
+    "1": [
+      {
+        "term": "it's when not if",
+        "ko": "할지 말지가 아니라 언제 하느냐의 문제다",
+        "type": "idiom",
+        "easy": "반드시 일어날 일이고, 시기만 남았다는 뜻",
+        "nuance": "'It's a matter of when, not if'의 줄임. 확신을 강하게 드러내는 표현.",
+        "ex": "Prices will go up. It's when, not if.",
+        "exKo": "가격은 오를 거야. 언제냐의 문제지, 오르냐 마냐의 문제가 아니야."
+      }
+    ],
+    "2": [
+      {
+        "term": "pulling",
+        "ko": "모으다(pooling)",
+        "type": "word",
+        "easy": "여러 사람이 가진 것을 한곳에 모으다",
+        "ex": "We pooled our money to buy a gift.",
+        "exKo": "우리는 돈을 모아서 선물을 샀다.",
+        "tip": "자막엔 pulling이지만 의미상 pooling(공동으로 모으기)으로 이해하면 자연스럽다."
+      },
+      {
+        "term": "from nothing",
+        "ko": "맨손으로, 아무것도 없이",
+        "type": "phrase",
+        "easy": "처음에 아무것도 없는 상태에서 시작해서",
+        "ex": "She built her business from nothing.",
+        "exKo": "그녀는 맨손으로 사업을 일궜다.",
+        "tip": "from scratch와 비슷하다."
+      },
+      {
+        "term": "critically important",
+        "ko": "매우 중요한",
+        "type": "phrase",
+        "easy": "없으면 안 될 정도로 아주 중요한",
+        "ex": "Sleep is critically important for your health.",
+        "exKo": "잠은 건강에 매우 중요하다.",
+        "tip": "여기서 critically는 '비판적으로'가 아니라 '결정적으로, 매우'."
+      }
+    ],
+    "3": [
+      {
+        "term": "frequently",
+        "ko": "자주",
+        "type": "word",
+        "easy": "여러 번, 흔하게",
+        "ex": "I frequently travel for work.",
+        "exKo": "나는 일 때문에 자주 출장을 간다."
+      },
+      {
+        "term": "feedback",
+        "ko": "피드백, 의견",
+        "type": "word",
+        "easy": "내 일이나 생각에 대한 다른 사람의 반응과 조언",
+        "ex": "Thanks for the feedback on my presentation.",
+        "exKo": "제 발표에 의견 주셔서 감사해요."
+      }
+    ],
+    "4": [
+      {
+        "term": "don't necessarily",
+        "ko": "꼭 ~인 것은 아니다",
+        "type": "phrase",
+        "easy": "항상 그렇지는 않다는 뜻",
+        "ex": "Expensive doesn't necessarily mean better.",
+        "exKo": "비싸다고 꼭 더 좋은 건 아니다."
+      },
+      {
+        "term": "competitive advantage",
+        "ko": "경쟁 우위",
+        "type": "phrase",
+        "easy": "다른 경쟁자보다 앞설 수 있는 강점",
+        "ex": "Speed is our biggest competitive advantage.",
+        "exKo": "속도가 우리의 가장 큰 경쟁 우위다."
+      }
+    ],
+    "5": [
+      {
+        "term": "assembling",
+        "ko": "모으다, 구성하다",
+        "type": "word",
+        "easy": "필요한 사람이나 부품을 모아서 하나로 만들다",
+        "ex": "He's assembling a team for the new project.",
+        "exKo": "그는 새 프로젝트를 위해 팀을 꾸리고 있다."
+      }
+    ],
+    "6": [
+      {
+        "term": "co-founders",
+        "ko": "공동 창업자",
+        "type": "word",
+        "easy": "회사를 함께 세운 사람들",
+        "ex": "The two co-founders met in college.",
+        "exKo": "두 공동 창업자는 대학에서 만났다."
+      },
+      {
+        "term": "get into the right target",
+        "ko": "올바른 목표에 맞추다",
+        "type": "phrase",
+        "easy": "방향을 조정해서 맞는 목표(시장)를 찾아가다",
+        "ex": "We kept testing until we got into the right target market.",
+        "exKo": "우리는 맞는 목표 시장을 찾을 때까지 계속 테스트했다."
+      }
+    ],
+    "7": [
+      {
+        "term": "essentially",
+        "ko": "본질적으로, 사실상",
+        "type": "word",
+        "easy": "가장 중요한 점만 말하자면",
+        "ex": "The two plans are essentially the same.",
+        "exKo": "두 계획은 사실상 똑같다."
+      }
+    ],
+    "8": [
+      {
+        "term": "in terms of",
+        "ko": "~의 측면에서",
+        "type": "phrase",
+        "easy": "어떤 기준이나 관점으로 볼 때",
+        "ex": "In terms of price, this phone is the best.",
+        "exKo": "가격 면에서는 이 폰이 최고다.",
+        "tip": "비즈니스 영어에서 매우 자주 쓴다. both in terms of A and in terms of B = A 면에서도 B 면에서도."
+      }
+    ],
+    "9": [
+      {
+        "term": "high impact",
+        "ko": "영향력이 큰",
+        "type": "phrase",
+        "easy": "세상이나 사람들에게 큰 변화를 주는",
+        "ex": "We want to focus on high-impact projects.",
+        "exKo": "우리는 영향력이 큰 프로젝트에 집중하고 싶다."
+      }
+    ],
+    "10": [
+      {
+        "term": "rooted",
+        "ko": "뿌리내린",
+        "type": "word",
+        "easy": "특정 장소나 기반에 단단히 자리 잡은",
+        "ex": "The company is deeply rooted in its hometown.",
+        "exKo": "그 회사는 고향에 깊이 뿌리내리고 있다.",
+        "tip": "be rooted in ~ = ~에 뿌리를 두다."
+      }
+    ],
+    "11": [
+      {
+        "term": "aperture",
+        "ko": "(집중할) 초점 범위",
+        "type": "word",
+        "easy": "무엇에 집중할지 정한 좁은 시야나 범위",
+        "nuance": "원래는 카메라의 '조리개'. 비즈니스에서 '어디에 초점을 맞추는가'라는 비유로 쓴다.",
+        "ex": "Narrow your aperture and focus on one market first.",
+        "exKo": "범위를 좁혀서 먼저 한 시장에 집중해라.",
+        "tip": "고급 비유 표현이라 듣고 이해만 할 수 있어도 충분하다."
+      },
+      {
+        "term": "take over",
+        "ko": "장악하다, 차지하다",
+        "type": "phrase",
+        "easy": "어떤 곳을 전부 자기 것으로 만들다",
+        "ex": "Smartphones have taken over our lives.",
+        "exKo": "스마트폰이 우리 삶을 장악했다.",
+        "tip": "take over는 '(업무를) 인계받다'라는 뜻도 있다."
+      }
+    ],
+    "12": [
+      {
+        "term": "ongoing concern",
+        "ko": "계속 운영되는 사업체",
+        "type": "idiom",
+        "easy": "망하지 않고 계속 돌아가는 회사",
+        "nuance": "보통 회계 용어 'going concern'(계속 기업). 여기서 concern은 '걱정'이 아니라 '회사, 사업체'.",
+        "ex": "The bakery became a profitable, ongoing concern.",
+        "exKo": "그 빵집은 이익을 내며 계속 운영되는 사업체가 되었다.",
+        "tip": "concern = 사업체(business)라는 뜻이 있다는 걸 기억하자."
+      },
+      {
+        "term": "fund its own expansion",
+        "ko": "스스로 확장 자금을 대다",
+        "type": "phrase",
+        "easy": "회사가 번 돈으로 회사를 키우다",
+        "ex": "The company was able to fund its own expansion.",
+        "exKo": "그 회사는 스스로 확장 자금을 마련할 수 있었다."
+      }
+    ],
+    "13": [
+      {
+        "term": "leave anyone out",
+        "ko": "누군가를 빠뜨리다",
+        "type": "phrase",
+        "easy": "어떤 사람을 실수로 포함시키지 않다",
+        "ex": "I don't want to leave anyone out of the invitation.",
+        "exKo": "초대에서 누구도 빠뜨리고 싶지 않다.",
+        "when": "명단을 말하다가 '혹시 빠진 분 있으면 죄송합니다'라고 할 때."
+      }
+    ],
+    "14": [
+      {
+        "term": "global stage",
+        "ko": "세계 무대",
+        "type": "phrase",
+        "easy": "전 세계 사람들이 보는 큰 무대",
+        "ex": "K-pop is now on the global stage.",
+        "exKo": "K-pop은 이제 세계 무대에 서 있다."
+      }
+    ],
+    "16": [
+      {
+        "term": "accelerating",
+        "ko": "가속화되는",
+        "type": "word",
+        "easy": "점점 더 빨라지는",
+        "ex": "Technology is changing at an accelerating pace.",
+        "exKo": "기술은 점점 더 빠른 속도로 변하고 있다."
+      },
+      {
+        "term": "adapt",
+        "ko": "적응하다",
+        "type": "word",
+        "easy": "새로운 상황에 맞게 바꾸다",
+        "ex": "You need to adapt to the new environment.",
+        "exKo": "새로운 환경에 적응해야 한다.",
+        "tip": "adopt(채택하다)와 철자가 비슷해 헷갈리기 쉽다."
+      }
+    ],
+    "17": [
+      {
+        "term": "go through",
+        "ko": "겪다, 거치다",
+        "type": "phrase",
+        "easy": "어려운 과정이나 경험을 직접 겪다",
+        "ex": "She went through a lot last year.",
+        "exKo": "그녀는 작년에 많은 일을 겪었다."
+      },
+      {
+        "term": "complexity",
+        "ko": "복잡함",
+        "type": "word",
+        "easy": "여러 요소가 얽혀서 어려운 성질",
+        "ex": "Don't underestimate the complexity of the problem.",
+        "exKo": "그 문제의 복잡성을 얕보지 마라."
+      }
+    ],
+    "18": [
+      {
+        "term": "career path",
+        "ko": "진로, 경력 경로",
+        "type": "phrase",
+        "easy": "일하면서 거쳐 가는 직업의 길",
+        "ex": "He chose an unusual career path.",
+        "exKo": "그는 독특한 진로를 선택했다."
+      },
+      {
+        "term": "straight forward",
+        "ko": "간단한, 단순한",
+        "type": "word",
+        "easy": "복잡하지 않고 이해하기 쉬운",
+        "ex": "The instructions are pretty straightforward.",
+        "exKo": "설명이 꽤 간단하다.",
+        "tip": "보통 한 단어 straightforward로 쓴다. 사람에게 쓰면 '솔직한'."
+      }
+    ],
+    "19": [
+      {
+        "term": "the ranks",
+        "ko": "(조직의) 직급, 서열",
+        "type": "phrase",
+        "easy": "회사 안의 계급 순서",
+        "ex": "She rose through the ranks to become CEO.",
+        "exKo": "그녀는 승진을 거듭해 CEO가 되었다.",
+        "tip": "rise through the ranks = 밑바닥에서부터 승진하다."
+      },
+      {
+        "term": "career ladder",
+        "ko": "출세의 사다리, 승진 단계",
+        "type": "phrase",
+        "easy": "한 회사 안에서 한 단계씩 올라가는 승진 구조",
+        "ex": "He climbed the career ladder quickly.",
+        "exKo": "그는 빠르게 승진의 사다리를 올라갔다."
+      }
+    ],
+    "20": [
+      {
+        "term": "skill set",
+        "ko": "보유 역량",
+        "type": "phrase",
+        "easy": "한 사람이 가진 여러 능력과 기술의 묶음",
+        "ex": "Her skill set is perfect for this job.",
+        "exKo": "그녀의 역량은 이 일에 딱 맞는다."
+      },
+      {
+        "term": "mirrors",
+        "ko": "~를 그대로 닮다, 반영하다",
+        "type": "word",
+        "easy": "거울처럼 아주 비슷하게 보여 주다",
+        "ex": "The movie mirrors real life.",
+        "exKo": "그 영화는 실제 삶을 그대로 닮았다."
+      }
+    ]
   }
 }
